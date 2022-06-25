@@ -1,0 +1,11 @@
+\contentsline {chapter}{\numberline {1}Introduction}{5}%
+\contentsline {section}{\numberline {1.1}Social History and Historical Social Network Analysis}{6}%
+\contentsline {section}{\numberline {1.2}Network models and representations}{7}%
+\contentsline {section}{\numberline {1.3}Usability Issues}{8}%
+\contentsline {section}{\numberline {1.4}Contribution and research statement}{9}%
+\contentsline {chapter}{\numberline {2}Historical Network Analysis and Visualization}{11}%
+\contentsline {section}{\numberline {2.1}Quantititative History}{11}%
+\contentsline {subsection}{\numberline {2.1.1}Social History}{11}%
+\contentsline {subsection}{\numberline {2.1.2}Historical Network Research and Network Modeling}{12}%
+\contentsline {section}{\numberline {2.2}Social Network Analysis}{12}%
+\contentsline {section}{\numberline {2.3}Social Network Visualization}{12}%
