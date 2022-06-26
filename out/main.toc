@@ -8,4 +8,4 @@
 \contentsline {subsection}{\numberline {2.1.1}Social History}{11}%
 \contentsline {subsection}{\numberline {2.1.2}Historical Network Research and Network Modeling}{12}%
 \contentsline {section}{\numberline {2.2}Social Network Analysis}{12}%
-\contentsline {section}{\numberline {2.3}Social Network Visualization}{12}%
+\contentsline {section}{\numberline {2.3}Social Network Visualization}{13}%
