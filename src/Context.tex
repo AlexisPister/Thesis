@@ -3,17 +3,62 @@
 
 \chapter{Historical Network Analysis and Visualization}
 
-%\section{Social History}
-\section{Quantititative History}
+
+
+\section{Social Network Analsyis}
+
+
+\subsection{Sociometry to SNA}
+
+Sociology always had the goal of studying social relationships between individuals, and finding recurrent patterns and structures allowing to describe and explain the behaviour of people and groups. Traditional methods and paradigm saw and explained social phenomena through the lens of social groups and categories, such as age, social status, profession and sex. For exemple, the social position of people living in a small city could be explained well by their age, demographics and social status which are traditional social categroies.
+However, some critics emerge that the division in social categories is often partially biased and come from predefined divisions which are not always grounded in relaity.
+Sociometry which is considered as one of basis of SNA had the goal of redefining social categories through the lens of real social interactions and ties between persons.
+It is in the 1930s that Moreno started to develop this discipline by trying to depict real social interactions as a way to understand how groups and organization were functionning. For this, he developed sociograms as a way to visually show friendships between people with the help of circles representing persons and lines modeling friendships. This way, he could rapidly see the different main actors and hubs of interatcion inside the social fabric represented visually. Sociometry tremendously helped disseminate the metaphor of network to model and understand social phenomena, especially with the helps of cartograms.
+It was until the 1960s that sociologists took these concepts further and formalized SNA using graphs and mathematical methods. It followed the emergence of Graph Theory studies in the 1950 by Mathematician such as Erdyos [...].
+It did not take long until sociologists used these concepts to model social ties and relationships into graphs. Sociologist already have structural theories of social phenomena, and they rapidly saw the potential of graphs to model and analyze those in a mathematical way. Several sociologists started to codify those concepts to use them in a socioloogy setting such as Coleman (1964).
+They started to model social ties between agents as graphs $G = (V, E)$ with $V$ a set a vertices representing agents such as persons and organizations, and $E \subseteq V^2$ a set of edges modeling the social ties between pairs of agents.
+Once social phenomena were modeled as networks, a variety of methods and measures coming from graph theory such as the centrality or the diameter were at their disposal. Sociologists started to make links between these measures and sociological facts. It was then possible to make sociological conclusions from the direct observations of social ties modeled as networks.
+
+
+
+\subsection{Structuralism and Ego Studies}
+
+After SNA started to be formalized, lots of sociological studies have been done using those concepts. However, there was not yet strong protocols and methods to follow, and networks are an abstraction that can model different things in different ways. When looking retrospectielvy, we can see that two school of thougts emerged with different objective and methods : the structuralists and the school of Manchester.
+
+The Structural Analysis of Social Network refer to the Structuralists in Sociology. They are interested in the proprieties and structure of the network, and make parallel between them and how persons were interacting in real life. They think the position of persons in the network and the relational patterns they are part of refclects well the  social activities and behavior in real life. Accordingly, sociologists in this school usually study organisation and specific groups, and want to expian their behavior and interaction through the internal shape and structures of resulting networks. They thus try to contruct network which exhaustilvely model all the interactions between the actors constituing the groups.
+
+In contrast, the school of Manchester try to explain specific persons behavior and social intertacions, through their direct interactions and without necessaritly studyin a global network structure. This school of thought is related to the concept of ego networks. Ego networks consists in all the direct relation of one node---in this case a personn---with the relation between persons of this small network. They usually want to model the different types of relationships of a person, like their family, work and friends ties and study them through time. They make a direct parallel between theses direct social ties and the status, condition and life of persons, and usually compare several ego networks to make conclustions about the correlations between the two.
+
+These two ways of seeing SNA are often not exclusive and current studies usually involve concepts and methods from these two schools.
+
+\subsection{Methods dans tools}
+
+Graph theorists and network scientists developed a myriad of measures and algortithms that sociologists appropriated themselves to describe and charactierize social phenomena.
+When constructing networks, the first thing sociologists did was often to identify the main actors of the network. Computing the degree (number of connection) distribution is the main straightforward way of doing it, but other measures like the centrality have been developed too. Centrality aimed at characterizing the most importants actors of the network, and several centrality measures have been proposed, based on different criteria. Centrality can highlight actors with the highest number of connections, or those bridging different groups with low interactions.
+The concepts of dyads and triads counting which are simple structural elements give insight on how people are socializing and reflects on Simmel formal sociology, where he already refered as dyads and triads as primal form of sociability. More recently, the concept of graphlet extended this concept to every pattern of N-entities. Graphlet analysis aims at enumeraing every small structure of N nodes composing a network, to understand how people interact at a low-level.
+
+
+Groups/Clustering
+
+
+
+
+
+
+
+\section{Historical Network Research}
 
 \subsection{Social History}
+
 
 Historians try to understand an epoch using textual sources from the past, and trying to extract useful information from them.
 Social history, which is a branch of history, focus on understanding how societies were organised and how people were living together at a particular time and place. Charles Tilly argued that the task of social history lays in "(i) documenting large structural changes, (2) reconstructing the experiences of ordinary people in the course of those changes, and (3) connecting the two". For the latter, historians can leverage personal written sources---such as letters, journals, books, and newspapers---to have the internal point of view of persons living in this society and descriptions of lives of precise individuals.
 For the former, historians usually need to study more structured documents which contain information which can be extracted in a predefined and exhaustive way. These documents can for example be census, migration acts or marriage acts. By studying theses documents and by systematically extracting the information of these documents, historians can make global and quantitative conclusions on certain social and behavioural aspects of societies of interest.
 For example .. [EXAMPLE CHANGEMENT METIERS XXth century]
 
-\subsection{Historical Network Research and Network Modeling}
+
+
+\subsection{Historical Social Network Analsyis}
 
 History started to adopt some of the methods and vocabulary of Network research in the 1980s, several years after other fields such as Sociology or Anthropology (TO CHECK). Before that, historians were already describing relational atructures when studying families and organization. It was often a part of discussion and a conclusion of several studies.
 Network reseach was a way to put these relational structures as an object of study in iteself, and allowed to study them in a more systematic and quantitative way.
@@ -25,21 +70,60 @@ However, constructing a network from historical sources, which can differ in the
 This allows to have a simple network to visualize and analyze, but does not always reflect the social complexity of the real relationships.
 More complex networks models have been proposed in SNA to be able to model more complex social relationships.
 
+\subsection{Network Modeling}
 
 
-\section{Social Network Analysis}
-
-Sociologists started to study relational phenomena using concepts from networks studies in the 1960. It followed the emergence of Graph Theory studies in the 1950 by Mathematician such as Erdyos [...]. It did not take long until sociologists used these concepts to model social ties and relationships into graphs. Sociologist already have structural theories of social phenomena, and they rapidly saw the potential of graphs to model social phenomena, as they already saw social ties as relational objects. They only missed objects and methods to study them in that regard, that graph theory bring.
-They started to model social ties as simple graph $G = (V, E)$ with $V$ a set a vertices representing persons, and $E \subseteq V^2$ a set of edges modeling the social ties between pairs of persons. This is a simple network model, which is still the most widely used.
-Rapidly, two schools of thought emerged in SNA :
-
-The Structural Analysis of Social Network refer to the Structuralists in Sociology. They are interested in the proprieties and structure of the network, and make parallel between them how persons were interacting in real life. They think the position of persons in the network and the relational patterns they are part of refclects well the  social activities and behavior in real life. Accordingly, sociologists in this school usually study organisation and specific groups, and want to expian their behavior and interaction through the internal shape and structures of resulting networks. They thus try to contruct network which exhaustilvely model all the interactions between the actors constituing the groups.
-
-In contrast, the school of Manchester try to explain specific persons behavior and social intertacions, through their direct interactions and without necessaritly studyin a global network structure. This school of thought is related to the concept of ego networks. Ego networks consists in all the direct relation of one node---in this case a personn---with the relation between persons of this small network. They usually want to model the different types of relationships of a person, like their family, work and friends ties and study them through time. They make a direct parallel between theses direct social ties and the status, condition and life of persons, and usually compare several ego networks to make conclustions about the correlations between the two.
 
 
 
 \section{Social Network Visualization}
+
+
+
+
+
+
+
+
+
+%%\section{Social History}
+%\section{Quantititative History}
+%
+%\subsection{Social History}
+%
+%Historians try to understand an epoch using textual sources from the past, and trying to extract useful information from them.
+%Social history, which is a branch of history, focus on understanding how societies were organised and how people were living together at a particular time and place. Charles Tilly argued that the task of social history lays in "(i) documenting large structural changes, (2) reconstructing the experiences of ordinary people in the course of those changes, and (3) connecting the two". For the latter, historians can leverage personal written sources---such as letters, journals, books, and newspapers---to have the internal point of view of persons living in this society and descriptions of lives of precise individuals.
+%For the former, historians usually need to study more structured documents which contain information which can be extracted in a predefined and exhaustive way. These documents can for example be census, migration acts or marriage acts. By studying theses documents and by systematically extracting the information of these documents, historians can make global and quantitative conclusions on certain social and behavioural aspects of societies of interest.
+%For example .. [EXAMPLE CHANGEMENT METIERS XXth century]
+%
+%\subsection{Historical Network Research and Network Modeling}
+%
+%History started to adopt some of the methods and vocabulary of Network research in the 1980s, several years after other fields such as Sociology or Anthropology (TO CHECK). Before that, historians were already describing relational atructures when studying families and organization. It was often a part of discussion and a conclusion of several studies.
+%Network reseach was a way to put these relational structures as an object of study in iteself, and allowed to study them in a more systematic and quantitative way.
+%Instead of only looking at classes and groups, historians thus started to look at relational links between individuals, such as family, friendships or business ties.
+%They already had techniques and tools to annotate and extract quantitative information from textual sources that they adapted to extract and study social ties.
+%We therefore saw the emergence of HNR studies, where historians followed HSNA studies on networks constructed from the mention of social ties of their textual sources.
+%It allowed them to make observations on previous objects of study like families or organization that it was not possible to see without taking into account the relational aspects of these phenomena.
+%However, constructing a network from historical sources, which can differ in their structure is not a trivial task. The most straightforward approach, based on the most well known social network analysis, consists in constructing social network based on simple graph $G = (V, E)$ with $V$ a set a vertices representing the persons of interest, and $E \subseteq V^2$ a set of edges modeling the social ties between pairs of persons.
+%This allows to have a simple network to visualize and analyze, but does not always reflect the social complexity of the real relationships.
+%More complex networks models have been proposed in SNA to be able to model more complex social relationships.
+%
+%
+%
+%\section{Social Network Analysis}
+%
+%Sociologists started to study relational phenomena using concepts from networks studies in the 1960. It followed the emergence of Graph Theory studies in the 1950 by Mathematician such as Erdyos [...]. It did not take long until sociologists used these concepts to model social ties and relationships into graphs. Sociologist already have structural theories of social phenomena, and they rapidly saw the potential of graphs to model social phenomena, as they already saw social ties as relational objects. They only missed objects and methods to study them in that regard, that graph theory bring.
+%They started to model social ties as simple graph $G = (V, E)$ with $V$ a set a vertices representing persons, and $E \subseteq V^2$ a set of edges modeling the social ties between pairs of persons. This is a simple network model, which is still the most widely used.
+%Rapidly, two schools of thought emerged in SNA :
+%
+%The Structural Analysis of Social Network refer to the Structuralists in Sociology. They are interested in the proprieties and structure of the network, and make parallel between them how persons were interacting in real life. They think the position of persons in the network and the relational patterns they are part of refclects well the  social activities and behavior in real life. Accordingly, sociologists in this school usually study organisation and specific groups, and want to expian their behavior and interaction through the internal shape and structures of resulting networks. They thus try to contruct network which exhaustilvely model all the interactions between the actors constituing the groups.
+%
+%In contrast, the school of Manchester try to explain specific persons behavior and social intertacions, through their direct interactions and without necessaritly studyin a global network structure. This school of thought is related to the concept of ego networks. Ego networks consists in all the direct relation of one node---in this case a personn---with the relation between persons of this small network. They usually want to model the different types of relationships of a person, like their family, work and friends ties and study them through time. They make a direct parallel between theses direct social ties and the status, condition and life of persons, and usually compare several ego networks to make conclustions about the correlations between the two.
+%
+%These two way of seeig SNA are often not exlusive and current studies usually invovles concepts and methods for these two schools.
+%
+%
+%\section{Social Network Visualization}
 
 
 
