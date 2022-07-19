@@ -7,10 +7,10 @@
 \chapter{Introduction}
 
 Social scientists such as historians and sociologists want to make sense of the structure and dynamics of the social relationships between people of a given place and time.
-Social Network Analysis (SNA) and its history equivalent Historical Social Network Analysis (HSNA) is one of the main paradigm to achieve this task.
-It consists in modeling the social relationships between agents---such as persons or organizations--- as a network, and studying it to make sociological conclusions.
+Social Network Analysis (SNA) and its historical equivalent Historical Social Network Analysis (HSNA) is one of the main paradigms to achieve this task.
+It consists in modeling the social relationships between agents---such as persons or organizations--- as a network and studying it to make sociological conclusions.
 Usually, agents are represented as nodes in the network, while the links model social relationships, such as friendships or family links.
-To construct such networks, social scientists try to exhaustively list all the persons in a restricted time and place with all their social ties, and create a network from it.
+To construct such networks, social scientists try to exhaustively list all the persons in a restricted time and place with all their social ties and create a network from it.
 The resulting network is considered to be a good model of the social reality, thus allowing to study the structure and dynamics of the social fabric of a period, by studying the network in itself.
 In parallel, a lot of work has been done in network visualization and specifically Social Network Visualization (SNV) to make useful representations of social networks, and visual analytics tools allowing an effective exploration and analysis of this type of data.
 However, sociology and history data can be quite complex, and simple networks model are often a simplification of the real world social phenomena.
@@ -41,7 +41,7 @@ This is a long and tedious process which can result in small to large networks t
 For this complicated task, historians follow what is called a Social Network Analysis (SNA), or more precisely a HIstorical Social Network Analysis (HSNA) which consists in characterizing the structure of the network with measures such as the centrality or the density of some parts of the network to then make conclusions on how people were interacting in the period of interest. To help their analysis, and generate new hypotheses, they usually rely on Visual Analytics tools to represent and explore their network. The elaboration of visual tools to represent and explore social networks is called Social Network Visualization.
 Sociologists and historians started to use static representation of networks, using node-links diagrams to have a visual understanding of their data, and to report their findings in publications. With the development of visualization, more complex representations and visual analytics tools emerged, which allow more complex representation and exploration capabilities, with the help of interactions and navigations features. Social networks visual systems such as Gephi or Pajek are now widely used in HNR and SNA by social scientists. Representing their network data and being able to interact with it allows them to rapidly have an overview of it, confirm hypotheses they have and arrange new ones by exploring the network.
 
-However, most used social networks visual analysis tools still have several issues that we tackle in this thesis : the visual representations still widely used are pretty simple, and are often not a good fit to represent and explore complex multivariate historical dataset, and current visual analytics tools often do not provide enough power and guidance to the end users to manipulate their data, which can result in frustration.
+However, most used social networks visual analysis tools still have several issues that we tackle in this thesis: the visual representations still widely used are pretty simple, and are often not a good fit to represent and explore complex multivariate historical dataset, and current visual analytics tools often do not provide enough power and guidance to the end users to manipulate their data, which can result in frustration.
 
 \section{Network models and representations}
 
@@ -62,9 +62,9 @@ One of the aims of Visual Analytics is to provide automatic or semi-automatic pr
 However, current social network visual analytics systems are still very algorithm oriented, and do not provide many controls to historians and sociologists who usually feel off the analysis loop when the system provides automatic and algorithmic results. One of the reason is because automatic results can be hard to interpret, especially in a discipline such as History or Sociology, where users often have little knowledge on computer science.
 One example is the automatic detection of community structures using network clustering algorithms. Social networks are known to have a community-like structure, meaning that the probability of a link existing between two random person nodes is not uniform, and that people tend to agglomerate in groups, who have more social ties between them than with other persons in the network.
 There are a lot of existing clustering algorithms which aim to automatically find these groups, by optimizing measures such as the modularity or using propagation models.
-However, clustering is an ill-defined problem, and several good partitions may coexist for the same network, and which can have several interpretations in a SNA. Most SNA/SVA tools such as Gephi or NodeXl provide several well known clustering algorithms such as Girvan-Newman, Louvain or Clauset-Newman-Moore, but do not provide much guidance on how to use them and interpret their results.
+However, clustering is an ill-defined problem, and several good partitions may coexist for the same network, and which can have several interpretations in a SNA. Most SNA/SVA tools such as Gephi or NodeXl provide several well-known clustering algorithms such as Girvan-Newman, Louvain or Clauset-Newman-Moore, but do not provide much guidance on how to use them and interpret their results.
 Social Scientists often try several ones in the list of algorithms proposed until finding a convenient result, in the eyes of the analysis they want to follow.
-This leads to a non satisfactory analysis process, as historians are out of the loop and have few decisions on the results. This usability issue is the same for automatic processes with no universal ground truth.
+This leads to a non-satisfactory analysis process, as historians are out of the loop and have few decisions on the results. This usability issue is the same for automatic processes with no universal ground truth.
 
 \section{Contribution and research statement}
 
