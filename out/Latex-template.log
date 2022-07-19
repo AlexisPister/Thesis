@@ -1,0 +1,2887 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.6.11)  5 JUL 2022 09:33
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**Latex-template.tex
+(./Latex-template.tex
+LaTeX2e <2020-02-02> patch level 2
+L3 programming layer <2020-02-14>
+(/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk12.clo
+File: bk12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@chapter=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\c@figure=\count174
+\c@table=\count175
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+(/usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
+Package: gensymb 2003/07/02 v1.0 (WaS)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2020/02/14 3.40 The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2020/02/14 3.40 Babel switching mechanism
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel-french/french.ldf
+Language: french 2020/01/30 v3.5g French support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2020/02/14 3.40 Babel common definitions
+\babel@savecnt=\count176
+\U@D=\dimen135
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count177
+)
+Package babel Info: \l@acadian = using hyphenrules for french
+(babel)             (\language18) on input line 91.
+Package babel Info: \l@canadien = using hyphenrules for french
+(babel)             (\language18) on input line 92.
+\FB@nonchar=\count178
+Package babel Info: Making : an active character on input line 419.
+Package babel Info: Making ; an active character on input line 420.
+Package babel Info: Making ! an active character on input line 421.
+Package babel Info: Making ? an active character on input line 422.
+\FBguill@level=\count179
+\FBold@everypar=\toks16
+\FB@Mht=\dimen136
+\mc@charclass=\count180
+\mc@charfam=\count181
+\mc@charslot=\count182
+\std@mcc=\count183
+\dec@mcc=\count184
+\c@FBcaption@count=\count185
+\listindentFB=\dimen137
+\descindentFB=\dimen138
+\labelindentFB=\dimen139
+\labelwidthFB=\dimen140
+\leftmarginFB=\dimen141
+\parindentFFN=\dimen142
+\FBfnindent=\dimen143
+))
+(/usr/share/texlive/texmf-dist/tex/latex/carlisle/scalefnt.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(/usr/share/texlive/texmf-dist/tex/latex/opensans/opensans.sty
+Package: opensans 2019/06/20 Style file for Open Sans.
+
+(/usr/share/texlive/texmf-dist/tex/latex/fontaxes/fontaxes.sty
+Package: fontaxes 2014/03/23 v1.0d Font selection axes
+LaTeX Info: Redefining \upshape on input line 29.
+LaTeX Info: Redefining \itshape on input line 31.
+LaTeX Info: Redefining \slshape on input line 33.
+LaTeX Info: Redefining \swshape on input line 35.
+LaTeX Info: Redefining \scshape on input line 37.
+LaTeX Info: Redefining \sscshape on input line 39.
+LaTeX Info: Redefining \ulcshape on input line 41.
+LaTeX Info: Redefining \textsw on input line 47.
+LaTeX Info: Redefining \textssc on input line 48.
+LaTeX Info: Redefining \textulc on input line 49.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+))
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks18
+\XKV@tempa@toks=\toks19
+)
+\XKV@depth=\count186
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks20
+\ex@=\dimen144
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen145
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count187
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count188
+\leftroot@=\count189
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count190
+\DOTSCASE@=\count191
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box45
+\strutbox@=\box46
+\big@size=\dimen146
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count192
+\c@MaxMatrixCols=\count193
+\dotsspace@=\muskip16
+\c@parentequation=\count194
+\dspbrk@lvl=\count195
+\tag@help=\toks21
+\row@=\count196
+\column@=\count197
+\maxfields@=\count198
+\andhelp@=\toks22
+\eqnshift@=\dimen147
+\alignsep@=\dimen148
+\tagshift@=\dimen149
+\tagwidth@=\dimen150
+\totwidth@=\dimen151
+\lineht@=\dimen152
+\@envbody=\toks23
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip52
+\f@nch@O@elh=\skip53
+\f@nch@O@erh=\skip54
+\f@nch@O@olh=\skip55
+\f@nch@O@orh=\skip56
+\f@nch@O@elf=\skip57
+\f@nch@O@erf=\skip58
+\f@nch@O@olf=\skip59
+\f@nch@O@orf=\skip60
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2020-02-14 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count199
+\l__pdf_internal_box=\box47
+))
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2020-02-14 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count266
+\g__xparse_grabber_int=\count267
+\l__xparse_m_args_int=\count268
+\l__xparse_v_nesting_int=\count269
+)
+Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
+
+(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
+File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
+))
+(/home/alexis/Documents/Thesis/out/Latex-template.aux)
+\openout1 = `Latex-template.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Trying to load font information for T1+opensans-TLF on inpu
+t line 37.
+
+(/usr/share/texlive/texmf-dist/tex/latex/opensans/T1opensans-TLF.fd
+File: T1opensans-TLF.fd 2019/06/24 Font definitions for T1/opensans-TLF.
+)
+LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
+(Font)              scaled to size 11.39996pt on input line 37.
+LaTeX Info: Redefining \celsius on input line 37.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 37.
+
+
+
+Package gensymb Warning: Not defining \perthousand.
+
+LaTeX Info: Redefining \ohm on input line 37.
+Package gensymb Info: Using \Omega for \ohm on input line 37.
+
+Package gensymb Warning: Not defining \micro.
+
+LaTeX Info: Redefining \degres on input line 37.
+LaTeX Info: Redefining \dots on input line 37.
+LaTeX Info: Redefining \up on input line 37.
+\c@mv@tabular=\count270
+\c@mv@boldtabular=\count271
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count272
+\scratchdimen=\dimen153
+\scratchbox=\box48
+\nofMPsegments=\count273
+\nofMParguments=\count274
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count275
+\MPscratchDim=\dimen154
+\MPnumerator=\count276
+\makeMPintoPDFobject=\count277
+\everyMPtoPDFconversion=\toks26
+)
+./Latex-template.tex:43: Undefined control sequence.
+l.43 		\newgeometry
+                   {left=6cm,bottom=2cm, top=1cm, right=1cm}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Latex-template.tex:45: Undefined control sequence.
+l.45 		\tikz
+            [remember picture,overlay] \node[opacity=1,inner sep=0pt] at (-1...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Latex-template.tex:45: Undefined control sequence.
+l.45 		\tikz[remember picture,overlay] \node
+                                            [opacity=1,inner sep=0pt] at (-1...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Latex-template.tex:45: Undefined control sequence.
+l.45 ...ep=0pt] at (-13mm,-135mm){\includegraphics
+                                                  {Frame-ups.pdf}};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (52.67978pt too wide) in paragraph at lines 45--46
+[]\T1/opensans-TLF/m/n/12 [remember pic-ture,overlay] [opa-city=1,inner sep=0pt
+] at (-13mm,-135mm)Frame-
+ []
+
+./Latex-template.tex:55: Undefined control sequence.
+<argument> \rotatebox 
+                      {90}{\Large \textsc {THESE DE DOCTORAT}}
+l.55 ...ox{90}{\Large \textsc{THESE DE DOCTORAT}}}
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
+(Font)              scaled to size 16.41594pt on input line 55.
+
+LaTeX Font Warning: Font shape `T1/opensans-TLF/m/sc' undefined
+(Font)              using `T1/opensans-TLF/m/n' instead on input line 55.
+
+./Latex-template.tex:56: Undefined control sequence.
+<argument> \rotatebox 
+                      {90}{NNT : 2020UPASA001}
+l.56 ...,-743){\rotatebox{90}{NNT : 2020UPASA001}}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Latex-template.tex:64: Undefined control sequence.
+l.64 		\flushright \includegraphics
+                                   [scale=1]{logo2.png}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    Trying to load font information for T1+cmss on input line 7
+3.
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
+File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+
+LaTeX Font Warning: Font shape `T1/cmss/m/n' in size <22> not available
+(Font)              size <20.74> substituted on input line 73.
+
+LaTeX Font Info:    Trying to load font information for T1+fvs on input line 81
+.
+(/usr/share/texlive/texmf-dist/tex/latex/bera/t1fvs.fd
+File: t1fvs.fd 2004/09/07 scalable font definitions for T1/fvs.
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 90.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 90.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+./Latex-template.tex:113: Undefined control sequence.
+l.113 			\arrayrulecolor
+                        {Prune}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
+(Font)              scaled to size 7.59998pt on input line 129.
+[1
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+./Latex-template.tex:131: Undefined control sequence.
+l.131 \ifthispageodd
+                    {\newpage\thispagestyle{empty}\null\newpage}{}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[3]
+./Latex-template.tex:133: Undefined control sequence.
+l.133 \newgeometry
+                  {top=1.5cm, bottom=1.25cm, left=2cm, right=2cm}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    Trying to load font information for T1+rm on input line 134
+.
+LaTeX Font Info:    No file T1rm.fd. on input line 134.
+
+LaTeX Font Warning: Font shape `T1/rm/m/n' undefined
+(Font)              using `T1/cmr/m/n' instead on input line 134.
+
+./Latex-template.tex:146: Undefined control sequence.
+l.146 \includegraphics
+                      [height=2.45cm]{EOBE}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./Latex-template.tex:153: LaTeX Error: Environment mdframed undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.153 \begin{mdframed}
+                      [linecolor=Prune,linewidth=1]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (82.9026pt too wide) in paragraph at lines 155--156
+[]\T1/cmss/bx/n/10.95 Titre : \T1/cmss/m/n/10.95 titre (en fran-çais)..........
+...............................................................................
+......................... 
+ []
+
+
+./Latex-template.tex:160: LaTeX Error: Environment multicols undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.160 	\begin{multicols}
+                        {2}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./Latex-template.tex:162: LaTeX Error: \begin{document} ended by \end{multicols
+}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.162 	\end{multicols}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./Latex-template.tex:164: LaTeX Error: \begin{document} ended by \end{mdframed}
+.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.164 \end{mdframed}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./Latex-template.tex:168: LaTeX Error: Environment mdframed undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.168 \begin{mdframed}
+                      [linecolor=Prune,linewidth=1]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (77.78679pt too wide) in paragraph at lines 170--171
+[]\T1/cmss/bx/n/10.95 Title : \T1/cmss/m/n/10.95 titre (en an-glais)...........
+...............................................................................
+........................ 
+ []
+
+
+./Latex-template.tex:174: LaTeX Error: Environment multicols undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.174 	\begin{multicols}
+                        {2}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./Latex-template.tex:176: LaTeX Error: \begin{document} ended by \end{multicols
+}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 	\end{multicols}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./Latex-template.tex:177: LaTeX Error: \begin{document} ended by \end{mdframed}
+.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.177 \end{mdframed}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
+(Font)              scaled to size 10.40245pt on input line 178.
+[4]
+./Latex-template.tex:179: Undefined control sequence.
+l.179 \titleformat
+                  {\chapter}[hang]{\bfseries\Large\color{Prune}}{\thechapter...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[5] [6
+
+]
+./Latex-template.tex:179: Argument of \@xdblarg has an extra }.
+<inserted text> 
+                \par 
+l.179 \titleformat{\chapter}
+                            [hang]{\bfseries\Large\color{Prune}}{\thechapter...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+./Latex-template.tex:179: Paragraph ended before \@xdblarg was complete.
+<to be read again> 
+                   \par 
+l.179 \titleformat{\chapter}
+                            [hang]{\bfseries\Large\color{Prune}}{\thechapter...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./Latex-template.tex:183: Undefined control sequence.
+l.183 \titlespacing
+                   {\chapter}{0pc}{0ex}{0.5pc}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[7] [8
+
+]
+./Latex-template.tex:183: Argument of \@xdblarg has an extra }.
+<inserted text> 
+                \par 
+l.183 \titlespacing{\chapter}
+                             {0pc}{0ex}{0.5pc}
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+./Latex-template.tex:183: Paragraph ended before \@xdblarg was complete.
+<to be read again> 
+                   \par 
+l.183 \titlespacing{\chapter}
+                             {0pc}{0ex}{0.5pc}
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./Latex-template.tex:185: Undefined control sequence.
+l.185 \titleformat
+                  {\section}[hang]{\bfseries\normalsize}{\thesection\ .}{0.5pt}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Latex-template.tex:185: Argument of \@xdblarg has an extra }.
+<inserted text> 
+                \par 
+l.185 \titleformat{\section}
+                            [hang]{\bfseries\normalsize}{\thesection\ .}{0.5pt}
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+./Latex-template.tex:185: Paragraph ended before \@xdblarg was complete.
+<to be read again> 
+                   \par 
+l.185 \titleformat{\section}
+                            [hang]{\bfseries\normalsize}{\thesection\ .}{0.5pt}
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./Latex-template.tex:189: Undefined control sequence.
+l.189 \titlespacing
+                   {\section}{1.5pc}{4ex plus .1ex minus .2ex}{.8pc}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Latex-template.tex:189: Argument of \@xdblarg has an extra }.
+<inserted text> 
+                \par 
+l.189 \titlespacing{\section}
+                             {1.5pc}{4ex plus .1ex minus .2ex}{.8pc}
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+./Latex-template.tex:189: Paragraph ended before \@xdblarg was complete.
+<to be read again> 
+                   \par 
+l.189 \titlespacing{\section}
+                             {1.5pc}{4ex plus .1ex minus .2ex}{.8pc}
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./Latex-template.tex:191: Undefined control sequence.
+l.191 \titleformat
+                  {\subsection}[hang]{\bfseries\small}{\thesubsection\ .}{1pt}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Latex-template.tex:191: Argument of \@xdblarg has an extra }.
+<inserted text> 
+                \par 
+l.191 \titleformat{\subsection}
+                               [hang]{\bfseries\small}{\thesubsection\ .}{1pt}
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+./Latex-template.tex:191: Paragraph ended before \@xdblarg was complete.
+<to be read again> 
+                   \par 
+l.191 \titleformat{\subsection}
+                               [hang]{\bfseries\small}{\thesubsection\ .}{1pt}
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./Latex-template.tex:195: Undefined control sequence.
+l.195 \titlespacing
+                   {\subsection}{3pc}{2ex plus .1ex minus .2ex}{.1pc}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Latex-template.tex:195: Argument of \@xdblarg has an extra }.
+<inserted text> 
+                \par 
+l.195 \titlespacing{\subsection}
+                                {3pc}{2ex plus .1ex minus .2ex}{.1pc}
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+./Latex-template.tex:195: Paragraph ended before \@xdblarg was complete.
+<to be read again> 
+                   \par 
+l.195 \titlespacing{\subsection}
+                                {3pc}{2ex plus .1ex minus .2ex}{.1pc}
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./Latex-template.tex:197: Undefined control sequence.
+l.197 \newgeometry
+                  {top=4cm, bottom=4cm, left=2cm, right=2cm}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[9] [10
+
+]
+LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
+(Font)              scaled to size 23.63593pt on input line 199.
+LaTeX Font Info:    Font shape `T1/opensans-TLF/b/n' will be
+(Font)              scaled to size 23.63593pt on input line 199.
+ (/home/alexis/Documents/Thesis/out/Latex-template.toc
+Overfull \hbox (2.67361pt too wide) in paragraph at lines 16--16
+ [] []\T1/cmss/bx/n/10.95 PRÉSENTATION DE LA DI-REC-TION DE LA THÈSE OU DE L'ÉQ
+UIPE 
+ []
+
+[11])
+\tf@toc=\write3
+\openout3 = `Latex-template.toc'.
+
+
+./Latex-template.tex:201: Undefined control sequence.
+l.201 \newgeometry
+                  {top=4cm, bottom=4cm, left=4cm, right=4cm}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[12]
+Chapitre 1.
+./Latex-template.tex:205: Undefined control sequence.
+l.205 ...e pour la diffusion de la thÃ¨se sur \url
+                                                  {www.theses.fr} et pour le...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Latex-template.tex:205: Undefined control sequence.
+l.205 ...ire pour lâ€™obtention du diplÃ´me (\href
+                                                  {https://www.legifrance.go...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Latex-template.tex:205: Misplaced alignment tab character &.
+l.205 ...chTexte.do?cidTexte=JORFTEXT000032587086&
+                                                  dateTexte=20160902}{cf. ar...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Overfull \hbox (107.10867pt too wide) in paragraph at lines 205--205
+\T1/cmss/m/n/10.95 (https ://www.legifrance.gouv.fr/affichTexte.do ?cid-Texte=J
+ORFTEXT000032587086dateTexte=20160902cf.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--205
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 206--206
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 207--207
+
+ []
+
+./Latex-template.tex:208: Undefined control sequence.
+l.208 ...hÃ¨se et sa diffusion via le portail \url
+                                                  {www.theses.fr}. \textbf{C...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[13
+
+] [14
+
+]
+Chapitre 2.
+LaTeX Font Info:    Font shape `T1/opensans-TLF/b/n' will be
+(Font)              scaled to size 16.41594pt on input line 211.
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--212
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--216
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--218
+
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--222
+
+ []
+
+./Latex-template.tex:225: Undefined control sequence.
+l.225 	\includegraphics
+                       [scale=0.6]{Charte_graphique_ups.png}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Latex-template.tex:225: Missing $ inserted.
+<inserted text> 
+                $
+l.225 	\includegraphics[scale=0.6]{Charte_
+                                          graphique_ups.png}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Latex-template.tex:225: Extra }, or forgotten $.
+l.225 ...hics[scale=0.6]{Charte_graphique_ups.png}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+./Latex-template.tex:226: LaTeX Error: Command \end{center} invalid in math mod
+e.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.226 \end{center}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./Latex-template.tex:226: LaTeX Error: Something's wrong--perhaps a missing \it
+em.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.226 \end{center}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./Latex-template.tex:226: LaTeX Error: Something's wrong--perhaps a missing \it
+em.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.226 \end{center}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./Latex-template.tex:226: Missing $ inserted.
+<inserted text> 
+                $
+l.226 \end{center}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./Latex-template.tex:226: Missing } inserted.
+<inserted text> 
+                }
+l.226 \end{center}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./Latex-template.tex:228: Undefined control sequence.
+l.228 La \href
+              {https://portail.universite-paris-saclay.fr/communication/Page...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (59.11969pt too wide) in paragraph at lines 228--228
+[]\T1/cmss/m/n/10.95 La https ://portail.universite-paris-saclay.fr/communicati
+on/Pages/Charte-graphique.aspxcharte
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 228--228
+
+ []
+
+[16]
+Chapitre 3.
+./Latex-template.tex:232: Undefined control sequence.
+l.232 ...sur le portail nationale des thÃ¨ses \url
+                                                  {www.theses.fr}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 234--234
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--235
+
+ []
+
+./Latex-template.tex:236: Undefined control sequence.
+l.236 ...rouvÃ©es sur le site du ministÃ¨re (\href
+                                                  {https://www.galaxie.ensei...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Latex-template.tex:236: Missing $ inserted.
+<inserted text> 
+                $
+l.236 ...nementsup-recherche.gouv.fr/ensup/pdf/EC_
+                                                  pays_etrangers/Tableau_com...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Latex-template.tex:236: Extra }, or forgotten $.
+l.236 ...eau_comparaison_au_26_septembre_2012.pdf}
+                                                  {GALAXIE})\footnote{\url{h...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
+(Font)              scaled to size 9.49997pt on input line 236.
+./Latex-template.tex:236: Undefined control sequence.
+<argument> ...\z@ \footnotesep \ignorespaces \url 
+                                                  {https://www.galaxie.ensei...
+l.236 ...au_comparaison_au_26_septembre_2012.pdf}}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Latex-template.tex:236: Missing $ inserted.
+<inserted text> 
+                $
+l.236 ...au_comparaison_au_26_septembre_2012.pdf}}
+                                                  .
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Latex-template.tex:236: Extra }, or forgotten $.
+<argument> ...omparaison_au_26_septembre_2012.pdf}
+                                                  \@finalstrut \strutbox 
+l.236 ...au_comparaison_au_26_septembre_2012.pdf}}
+                                                  .
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./Latex-template.tex:236: Missing $ inserted.
+<inserted text> 
+                $
+l.236 ...au_comparaison_au_26_septembre_2012.pdf}}
+                                                  .
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (213.9613pt too wide) in paragraph at lines 236--236
+[][][]\T1/opensans-TLF/m/n/10 .[]https ://www.galaxie.enseignementsup-recherche
+.gouv.fr/ensup/pdf/EC$[]\OML/cmm/m/it/10 ays[]trangers=Tableau[]omparaison[]u[]
+\OT1/cmr/m/n/10 6[]\OML/cmm/m/it/10 eptembre[]\OT1/cmr/m/n/10 012\OML/cmm/m/it/
+10 :pdf|$ 
+ []
+
+./Latex-template.tex:236: Missing } inserted.
+<inserted text> 
+                }
+l.236 ...au_comparaison_au_26_septembre_2012.pdf}}
+                                                  .
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./Latex-template.tex:237: Missing $ inserted.
+<inserted text> 
+                $
+l.237 \section
+              {SPÃ‰CIALITÃ‰ DE DOCTORAT}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (108.43715pt too wide) in paragraph at lines 236--237
+\T1/cmss/m/n/10.95 titres étran-gers et fran-çais peuvent être trou-vées sur le
+ site du mi-nis-tère (https ://www.galaxie.enseignementsup-
+ []
+
+
+Overfull \hbox (114.11949pt too wide) in paragraph at lines 236--237
+\T1/cmss/m/n/10.95 recherche.gouv.fr/ensup/pdf/EC$[]\OML/cmm/m/it/10.95 ays[]tr
+angers=Tableau[]omparaison[]u[]\OT1/cmr/m/n/10.95 6[]\OML/cmm/m/it/10.95 eptemb
+re[]\OT1/cmr/m/n/10.95 012\OML/cmm/m/it/10.95 :pdf[]\OT1/cmr/m/n/10.95 ) []\OML
+/cmm/m/it/10.95 :$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 238--239
+
+ []
+
+[17
+
+] [18]
+Underfull \hbox (badness 10000) in paragraph at lines 243--243
+
+ []
+
+./Latex-template.tex:244: Undefined control sequence.
+l.244 ...e sÃ©lection depuis cette page web : \url
+                                                  {https://www.universite-pa...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Latex-template.tex:245: Undefined control sequence.
+l.245 ...™ordre oÃ¹ elles sont indiquÃ©es sur \url
+                                                  {https://www.universite-pa...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--256
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 257--257
+
+ []
+
+[19] [20]
+Underfull \hbox (badness 10000) in paragraph at lines 329--329
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 330--330
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--331
+
+ []
+
+[21] [22
+
+]
+Chapitre 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 335--335
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 336--336
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 337--337
+
+ []
+
+[23] [24
+
+]
+Chapitre 5.
+
+Underfull \hbox (badness 10000) in paragraph at lines 341--341
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--342
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 343--343
+
+ []
+
+./Latex-template.tex:344: Undefined control sequence.
+l.344 ...n compte pour le calcul des quotas (\href
+                                                  {https://www.legifrance.go...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Latex-template.tex:344: Misplaced alignment tab character &.
+l.344 ...chTexte.do?cidTexte=JORFTEXT000032587086&
+                                                  dateTexte=20160902}{cf. ar...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Overfull \hbox (65.24426pt too wide) in paragraph at lines 344--344
+\T1/cmss/m/n/10.95 est donc pris en compte pour le cal-cul des quo-tas (https :
+//www.legifrance.gouv.fr/affichTexte.do ?cid-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 344--344
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 345--345
+
+ []
+
+./Latex-template.tex:346: Undefined control sequence.
+l.346 ...ur la couverture de la thÃ¨se et sur \url
+                                                  {www.theses.fr} en tant qu...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 346--346
+
+ []
+
+[25] [26]
+Chapitre 6.
+
+Underfull \hbox (badness 10000) in paragraph at lines 350--350
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 363--363
+
+ []
+
+./Latex-template.tex:364: Undefined control sequence.
+l.364 ...itiÃ© du Jury) sont disponibles sur \href
+                                                  {https://www.legifrance.go...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (161.53241pt too wide) in paragraph at lines 364--364
+\T1/cmss/m/n/10.95 moins la moi-tié du Jury) sont dis-po-nibles sur https ://ww
+w.legifrance.gouv.fr/loda/id/LEGITEXT000019860291/legifrance. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--364
+
+ []
+
+[27
+
+]
+LaTeX Font Info:    Font shape `T1/opensans-TLF/b/n' will be
+(Font)              scaled to size 9.49997pt on input line 366.
+
+./Latex-template.tex:366: Undefined control sequence.
+<argument> ...il national des universitÃ©s : \url 
+                                                  {https://www.legifrance.go...
+l.366 ...au_comparaison_au_26_septembre_2012.pdf}}
+                                                  .\\ \par
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--366
+
+ []
+
+./Latex-template.tex:366: Undefined control sequence.
+<argument> ...des maÃ®tres de confÃ©rences : \url 
+                                                  {https://www.galaxie.ensei...
+l.366 ...au_comparaison_au_26_septembre_2012.pdf}}
+                                                  .\\ \par
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Latex-template.tex:366: Missing $ inserted.
+<inserted text> 
+                $
+l.366 ...au_comparaison_au_26_septembre_2012.pdf}}
+                                                  .\\ \par
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Latex-template.tex:366: Extra }, or forgotten $.
+<argument> ...omparaison_au_26_septembre_2012.pdf}
+                                                  \@finalstrut \strutbox 
+l.366 ...au_comparaison_au_26_septembre_2012.pdf}}
+                                                  .\\ \par
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./Latex-template.tex:366: Missing $ inserted.
+<inserted text> 
+                $
+l.366 ...au_comparaison_au_26_septembre_2012.pdf}}
+                                                  .\\ \par
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 1515) in paragraph at lines 366--366
+\T1/opensans-TLF/m/n/10 fonc-tions des enseignants-chercheurs men-tion-née aux 
+ar-ticles 22 et 43 du dé-cret
+ []
+
+
+Overfull \hbox (14.52547pt too wide) in paragraph at lines 366--366
+\T1/opensans-TLF/m/n/10 recherche.gouv.fr/ensup/pdf/EC$[]\OML/cmm/m/it/10 ays[]
+trangers=Tableau[]omparaison[]u[]\OT1/cmr/m/n/10 6[]\OML/cmm/m/it/10 eptembre[]
+\OT1/cmr/m/n/10 012\OML/cmm/m/it/10 :pdf|$ 
+ []
+
+./Latex-template.tex:366: Missing } inserted.
+<inserted text> 
+                }
+l.366 ...au_comparaison_au_26_septembre_2012.pdf}}
+                                                  .\\ \par
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 365--366
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 370--371
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 372--372
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 373--373
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 374--374
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 375--375
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--376
+
+ []
+
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 377--377
+
+ []
+
+[29]
+Underfull \hbox (badness 10000) in paragraph at lines 381--381
+
+ []
+
+LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
+(Font)              scaled to size 13.67995pt on input line 383.
+LaTeX Font Info:    Font shape `T1/opensans-TLF/b/n' will be
+(Font)              scaled to size 13.67995pt on input line 383.
+
+Underfull \hbox (badness 10000) in paragraph at lines 384--384
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 387--387
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 391--391
+
+ []
+
+./Latex-template.tex:392: Undefined control sequence.
+l.392 ...n compte pour le calcul des quotas (\href
+                                                  {https://www.legifrance.go...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Latex-template.tex:392: Misplaced alignment tab character &.
+l.392 ...chTexte.do?cidTexte=JORFTEXT000032587086&
+                                                  dateTexte=20160902}{cf. ar...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Overfull \hbox (107.10867pt too wide) in paragraph at lines 392--392
+\T1/cmss/m/n/10.95 (https ://www.legifrance.gouv.fr/affichTexte.do ?cid-Texte=J
+ORFTEXT000032587086dateTexte=20160902cf.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
+
+ []
+
+./Latex-template.tex:393: Undefined control sequence.
+l.393 \href
+           {https://www.enseignementsup-recherche.gouv.fr/cid111561/la-forma...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[30]
+Overfull \hbox (9.75249pt too wide) in paragraph at lines 393--393
+[]\T1/cmss/m/n/10.95 https ://www.enseignementsup-recherche.gouv.fr/cid111561/l
+a-formation-doctorale-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 393--393
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 396--396
+
+ []
+
+./Latex-template.tex:397: Undefined control sequence.
+l.397 ...ur la couverture de la thÃ¨se et sur \url
+                                                  {www.theses.fr} en tant qu...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 397--397
+
+ []
+
+[31] [32
+
+]
+Chapitre 7.
+./Latex-template.tex:403: Undefined control sequence.
+l.403 ...mes de plagiat, volontaires ou non : \url
+                                                  {https://infotrack.unige.c...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 403--403
+
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
+404.
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmss.fd
+File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+./Latex-template.tex:404: Undefined control sequence.
+l.404 ...Ã  touÂ·teÂ·s sur auto-inscription : \url
+                                                  {https://ecampus.paris-sac...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 407--407
+
+ []
+
+./Latex-template.tex:408: Undefined control sequence.
+l.408 ...t les travaux universitaires, voir : \url
+                                                  {https://ethiquedroit.hypo...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[33]
+./Latex-template.tex:410: Undefined control sequence.
+l.410 ...ion Ã©diteur des articles. Utilisez \href
+                                                  {https://v2.sherpa.ac.uk/r...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--410
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 411--411
+
+ []
+
+./Latex-template.tex:412: Undefined control sequence.
+l.412 ...oser dans une archive ouverte Â» du \href
+                                                  {https://www.ouvrirlascien...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Latex-template.tex:412: Missing $ inserted.
+<inserted text> 
+                $
+l.412 ...ce-ouverte-Guide-a-lusage-des-doctorants_
+                                                  10-09-2021_WEB_FR.pdf}{Pas...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Latex-template.tex:412: Extra }, or forgotten $.
+l.412 ...age-des-doctorants_10-09-2021_WEB_FR.pdf}
+                                                  {Passeport pour la science...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./Latex-template.tex:413: Missing $ inserted.
+<inserted text> 
+                $
+l.413 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (35.20453pt too wide) in paragraph at lines 412--413
+\T1/cmss/m/n/10.95 ar-chive ou-verte ^^T du https ://www.ouvrirlascience.fr/wp-
+content/uploads/2021/09/Passeport-
+ []
+
+
+Overfull \hbox (131.16333pt too wide) in paragraph at lines 412--413
+\T1/cmss/m/n/10.95 pour-la-science-ouverte-Guide-a-lusage-des-doctorants$[]\OT1
+/cmr/m/n/10.95 0 \OMS/cmsy/m/n/10.95 ^^@ \OT1/cmr/m/n/10.95 09 \OMS/cmsy/m/n/10
+.95 ^^@ \OT1/cmr/m/n/10.95 2021[]\OML/cmm/m/it/10.95 EB[]R:pdf[]:$ 
+ []
+
+[34]
+Chapitre 8.
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+
+ []
+
+./Latex-template.tex:416: Undefined control sequence.
+l.416 ... sur le portail national des thÃ¨ses \url
+                                                  {www.theses.fr} et le port...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Latex-template.tex:416: Undefined control sequence.
+l.416 ...et le portail europÃ©en des thÃ¨ses \href
+                                                  {https://www.dart-europe.o...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (1.37013pt too wide) in paragraph at lines 416--417
+[]\T1/cmss/m/n/10.95 Elle fait en-suite l'ob-jet d'une dif-fu-sion sur le por-t
+ail na-tio-nal des thèses www.theses.fr
+ []
+
+
+Overfull \hbox (7.05725pt too wide) in paragraph at lines 416--417
+\T1/cmss/m/n/10.95 et le por-tail eu-ro-péen des thèses https ://www.dart-europ
+e.org/basic-search.phpeuropean
+ []
+
+./Latex-template.tex:421: Undefined control sequence.
+<recently read> \href 
+                      
+l.421 	\item \href
+                  {http://corist-shs.cnrs.fr/sites/default/files/ressources/...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Latex-template.tex:421: Missing $ inserted.
+<inserted text> 
+                $
+l.421 ....fr/sites/default/files/ressources/droit_
+                                                  auteur_lecture_vf.pdf}{Je ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Latex-template.tex:421: Extra }, or forgotten $.
+l.421 ...s/ressources/droit_auteur_lecture_vf.pdf}
+                                                  {Je publie, Quels sont mes...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+./Latex-template.tex:422: LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.422 	\item
+             Le cadre rÃ©glementaire du \href{https://www.legifrance.gouv.fr...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./Latex-template.tex:422: LaTeX Error: Something's wrong--perhaps a missing \it
+em.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.422 	\item L
+              e cadre rÃ©glementaire du \href{https://www.legifrance.gouv.fr...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./Latex-template.tex:422: LaTeX Error: Something's wrong--perhaps a missing \it
+em.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.422 	\item L
+              e cadre rÃ©glementaire du \href{https://www.legifrance.gouv.fr...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 422.
+
+./Latex-template.tex:422: Undefined control sequence.
+l.422 	\item Le cadre rÃ©glementaire du \href
+                                             {https://www.legifrance.gouv.fr...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 422.
+
+
+LaTeX Warning: Command \^ invalid in math mode on input line 422.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 422.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 422.
+
+
+./Latex-template.tex:423: LaTeX Error: Command \end{itemize} invalid in math mo
+de.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.423 \end{itemize}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./Latex-template.tex:423: LaTeX Error: Something's wrong--perhaps a missing \it
+em.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.423 \end{itemize}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./Latex-template.tex:423: LaTeX Error: Something's wrong--perhaps a missing \it
+em.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.423 \end{itemize}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./Latex-template.tex:423: Missing $ inserted.
+<inserted text> 
+                $
+l.423 \end{itemize}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no é in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no é in font cmr10!
+Missing character: There is no é in font cmr10!
+./Latex-template.tex:423: Missing } inserted.
+<inserted text> 
+                }
+l.423 \end{itemize}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (721.13426pt too wide) in paragraph at lines 421--424
+[]\T1/cmss/m/n/10.95 http ://corist-shs.cnrs.fr/sites/default/files/ressources/
+droit$[]\OML/cmm/m/it/10.95 uteur[]ecture[]f:pdf[]Lecadrerglementairedu[][]surL
+gifrance$ 
+ []
+
+./Latex-template.tex:426: Undefined control sequence.
+l.426 ...hes du dÃ©pÃ´t de thÃ¨se dans cette \href
+                                                  {https://www.universite-pa...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Latex-template.tex:426: Missing $ inserted.
+<inserted text> 
+                $
+l.426 .../sites/default/files/media/2020-12/fiche_
+                                                  depot_2020_4.pdf}{fiche ex...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Latex-template.tex:426: Extra }, or forgotten $.
+l.426 ...les/media/2020-12/fiche_depot_2020_4.pdf}
+                                                  {fiche explicative}\\ \par
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./Latex-template.tex:426: Missing $ inserted.
+<inserted text> 
+                $
+l.426 ...pot_2020_4.pdf}{fiche explicative}\\ \par
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (17.83685pt too wide) in paragraph at lines 426--426
+[]\T1/cmss/m/n/10.95 Retrouvez le dé-tail des dé-marches du dé-pôt de thèse dan
+s cette https ://www.universite-
+ []
+
+
+Overfull \hbox (4.59286pt too wide) in paragraph at lines 426--426
+\T1/cmss/m/n/10.95 paris-saclay.fr/sites/default/files/media/2020-12/fiche$[]\O
+ML/cmm/m/it/10.95 epot[]\OT1/cmr/m/n/10.95 020[]\OML/cmm/m/it/10.95 :pdf[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 426--426
+
+ []
+
+./Latex-template.tex:427: Undefined control sequence.
+l.427 ...diffusion possibles, regardez cette \href
+                                                  {https://www.youtube.com/w...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 427--427
+
+ []
+
+./Latex-template.tex:428: Undefined control sequence.
+l.428 ...outenance (huis-clos) peuvent Ãªtre \href
+                                                  {https://www.universite-pa...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (14.26549pt too wide) in paragraph at lines 428--429
+\T1/cmss/m/n/10.95 assurance-documents/documents-de-reference-relatifs-la-soute
+nance-de-la-thesedemandés
+ []
+
+./Latex-template.tex:430: Undefined control sequence.
+l.430 \newgeometry
+                  {top=4cm, bottom=4cm, left=4cm, right=4cm}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[35
+
+] [36
+
+]
+Chapitre 9.
+./Latex-template.tex:434: Undefined control sequence.
+l.434 \noindent \includegraphics
+                                [scale=0.4]{Logo_ups.png}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Latex-template.tex:434: Missing $ inserted.
+<inserted text> 
+                $
+l.434 \noindent \includegraphics[scale=0.4]{Logo_
+                                                 ups.png}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Latex-template.tex:434: Extra }, or forgotten $.
+l.434 ...\includegraphics[scale=0.4]{Logo_ups.png}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./Latex-template.tex:435: Missing $ inserted.
+<inserted text> 
+                $
+l.435 \section
+              {LOGOS, NUMÃ‰ROS Dâ€™ACCRÃ‰DITATION ET DÃ‰NOMINATIONS DES Ã‰CO...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Latex-template.tex:438: Undefined control sequence.
+<recently read> \includegraphics 
+                                 
+l.438 \includegraphics
+                      [scale=.7]{logo_usp_AAIF.png}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Latex-template.tex:438: Missing $ inserted.
+<inserted text> 
+                $
+l.438 \includegraphics[scale=.7]{logo_
+                                      usp_AAIF.png}\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Latex-template.tex:438: Extra }, or forgotten $.
+l.438 ...ludegraphics[scale=.7]{logo_usp_AAIF.png}
+                                                  \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./Latex-template.tex:439: Missing $ inserted.
+<inserted text> 
+                $
+l.439 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 437--439
+
+ []
+
+./Latex-template.tex:441: Undefined control sequence.
+<recently read> \includegraphics 
+                                 
+l.441 \includegraphics
+                      [scale=.7]{logo_usp_SEIF.png}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Latex-template.tex:441: Missing $ inserted.
+<inserted text> 
+                $
+l.441 \includegraphics[scale=.7]{logo_
+                                      usp_SEIF.png}\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Latex-template.tex:441: Extra }, or forgotten $.
+l.441 ...ludegraphics[scale=.7]{logo_usp_SEIF.png}
+                                                  \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./Latex-template.tex:442: Missing $ inserted.
+<inserted text> 
+                $
+l.442 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 440--442
+
+ []
+
+./Latex-template.tex:443: Undefined control sequence.
+<recently read> \includegraphics 
+                                 
+l.443 ...Žle-de-France (PIF)\\    \includegraphics
+                                                  [scale=.7]{logo_usp_PIF.pn...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Latex-template.tex:443: Missing $ inserted.
+<inserted text> 
+                $
+l.443 ...IF)\\    \includegraphics[scale=.7]{logo_
+                                                  usp_PIF.png}\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Latex-template.tex:443: Extra }, or forgotten $.
+l.443 ...cludegraphics[scale=.7]{logo_usp_PIF.png}
+                                                  \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./Latex-template.tex:444: Missing $ inserted.
+<inserted text> 
+                $
+l.444 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 443--444
+
+ []
+
+./Latex-template.tex:446: Undefined control sequence.
+<recently read> \includegraphics 
+                                 
+l.446 \includegraphics
+                      [scale=.7]{logo_usp_SSMMH.png}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Latex-template.tex:446: Missing $ inserted.
+<inserted text> 
+                $
+l.446 \includegraphics[scale=.7]{logo_
+                                      usp_SSMMH.png}\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Latex-template.tex:446: Extra }, or forgotten $.
+l.446 ...udegraphics[scale=.7]{logo_usp_SSMMH.png}
+                                                  \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./Latex-template.tex:447: Missing $ inserted.
+<inserted text> 
+                $
+l.447 \newpage
+              
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 445--447
+
+ []
+
+[37]
+./Latex-template.tex:449: Undefined control sequence.
+<recently read> \includegraphics 
+                                 
+l.449 \includegraphics
+                      [scale=.55]{logo_usp_SEVE.png}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Latex-template.tex:449: Missing $ inserted.
+<inserted text> 
+                $
+l.449 \includegraphics[scale=.55]{logo_
+                                       usp_SEVE.png}\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Latex-template.tex:449: Extra }, or forgotten $.
+l.449 ...udegraphics[scale=.55]{logo_usp_SEVE.png}
+                                                  \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./Latex-template.tex:450: Missing $ inserted.
+<inserted text> 
+                $
+l.450 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 448--450
+
+ []
+
+./Latex-template.tex:452: Undefined control sequence.
+<recently read> \includegraphics 
+                                 
+l.452 \includegraphics
+                      [scale=.7]{logo_usp_BIOSIGNE.png}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Latex-template.tex:452: Missing $ inserted.
+<inserted text> 
+                $
+l.452 \includegraphics[scale=.7]{logo_
+                                      usp_BIOSIGNE.png}\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Latex-template.tex:452: Extra }, or forgotten $.
+l.452 ...graphics[scale=.7]{logo_usp_BIOSIGNE.png}
+                                                  \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./Latex-template.tex:453: Missing $ inserted.
+<inserted text> 
+                $
+l.453 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 451--453
+
+ []
+
+./Latex-template.tex:454: Undefined control sequence.
+<recently read> \includegraphics 
+                                 
+l.454 ... l'appliquÃ© (ITFA)\\    \includegraphics
+                                                  [scale=.7]{logo_usp_ITFA.p...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Latex-template.tex:454: Missing $ inserted.
+<inserted text> 
+                $
+l.454 ...FA)\\    \includegraphics[scale=.7]{logo_
+                                                  usp_ITFA.png}\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Latex-template.tex:454: Extra }, or forgotten $.
+l.454 ...ludegraphics[scale=.7]{logo_usp_ITFA.png}
+                                                  \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./Latex-template.tex:455: Missing $ inserted.
+<inserted text> 
+                $
+l.455 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 454--455
+
+ []
+
+./Latex-template.tex:457: Undefined control sequence.
+<recently read> \includegraphics 
+                                 
+l.457 \includegraphics
+                      [scale=.7]{logo_usp_EDSP.png}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Latex-template.tex:457: Missing $ inserted.
+<inserted text> 
+                $
+l.457 \includegraphics[scale=.7]{logo_
+                                      usp_EDSP.png}\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Latex-template.tex:457: Extra }, or forgotten $.
+l.457 ...ludegraphics[scale=.7]{logo_usp_EDSP.png}
+                                                  \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./Latex-template.tex:458: Missing $ inserted.
+<inserted text> 
+                $
+l.458 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 456--458
+
+ []
+
+./Latex-template.tex:460: Undefined control sequence.
+<recently read> \includegraphics 
+                                 
+l.460 \includegraphics
+                      [scale=.7]{logo_usp_2MIB.png}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Latex-template.tex:460: Missing $ inserted.
+<inserted text> 
+                $
+l.460 \includegraphics[scale=.7]{logo_
+                                      usp_2MIB.png}\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Latex-template.tex:460: Extra }, or forgotten $.
+l.460 ...ludegraphics[scale=.7]{logo_usp_2MIB.png}
+                                                  \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./Latex-template.tex:461: Missing $ inserted.
+<inserted text> 
+                $
+l.461 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 459--461
+
+ []
+
+./Latex-template.tex:463: Undefined control sequence.
+<recently read> \includegraphics 
+                                 
+l.463 \includegraphics
+                      [scale=.7]{logo_usp_EDOM.png}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Latex-template.tex:463: Missing $ inserted.
+<inserted text> 
+                $
+l.463 \includegraphics[scale=.7]{logo_
+                                      usp_EDOM.png}\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Latex-template.tex:463: Extra }, or forgotten $.
+l.463 ...ludegraphics[scale=.7]{logo_usp_EDOM.png}
+                                                  \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./Latex-template.tex:464: Missing $ inserted.
+<inserted text> 
+                $
+l.464 \newpage
+              
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 462--464
+
+ []
+
+[38]
+./Latex-template.tex:466: Undefined control sequence.
+<recently read> \includegraphics 
+                                 
+l.466 \includegraphics
+                      [scale=.535]{logo_usp_INTERFACES.png}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Latex-template.tex:466: Missing $ inserted.
+<inserted text> 
+                $
+l.466 \includegraphics[scale=.535]{logo_
+                                        usp_INTERFACES.png}\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Latex-template.tex:466: Extra }, or forgotten $.
+l.466 ...hics[scale=.535]{logo_usp_INTERFACES.png}
+                                                  \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./Latex-template.tex:467: Missing $ inserted.
+<inserted text> 
+                $
+l.467 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 465--467
+
+ []
+
+./Latex-template.tex:469: Undefined control sequence.
+<recently read> \includegraphics 
+                                 
+l.469 \includegraphics
+                      [scale=.7]{logo_usp_EDMH.png}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Latex-template.tex:469: Missing $ inserted.
+<inserted text> 
+                $
+l.469 \includegraphics[scale=.7]{logo_
+                                      usp_EDMH.png}\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Latex-template.tex:469: Extra }, or forgotten $.
+l.469 ...ludegraphics[scale=.7]{logo_usp_EDMH.png}
+                                                  \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./Latex-template.tex:470: Missing $ inserted.
+<inserted text> 
+                $
+l.470 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 468--470
+
+ []
+
+./Latex-template.tex:472: Undefined control sequence.
+<recently read> \includegraphics 
+                                 
+l.472 \includegraphics
+                      [scale=0.15]{EOBE.png}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--473
+
+ []
+
+./Latex-template.tex:475: Undefined control sequence.
+<recently read> \includegraphics 
+                                 
+l.475 \includegraphics
+                      [scale=.7]{logo_usp_PHENIICS.png}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Latex-template.tex:475: Missing $ inserted.
+<inserted text> 
+                $
+l.475 \includegraphics[scale=.7]{logo_
+                                      usp_PHENIICS.png}\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Latex-template.tex:475: Extra }, or forgotten $.
+l.475 ...graphics[scale=.7]{logo_usp_PHENIICS.png}
+                                                  \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./Latex-template.tex:476: Missing $ inserted.
+<inserted text> 
+                $
+l.476 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 474--476
+
+ []
+
+./Latex-template.tex:478: Undefined control sequence.
+<recently read> \includegraphics 
+                                 
+l.478 \includegraphics
+                      [scale=.7]{logo_usp_SDSV.png}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Latex-template.tex:478: Missing $ inserted.
+<inserted text> 
+                $
+l.478 \includegraphics[scale=.7]{logo_
+                                      usp_SDSV.png}\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Latex-template.tex:478: Extra }, or forgotten $.
+l.478 ...ludegraphics[scale=.7]{logo_usp_SDSV.png}
+                                                  \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./Latex-template.tex:479: Missing $ inserted.
+<inserted text> 
+                $
+l.479 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 477--479
+
+ []
+
+./Latex-template.tex:481: Undefined control sequence.
+<recently read> \includegraphics 
+                                 
+l.481 \includegraphics
+                      [scale=.7]{logo_usp_SMEMAG.png}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Latex-template.tex:481: Missing $ inserted.
+<inserted text> 
+                $
+l.481 \includegraphics[scale=.7]{logo_
+                                      usp_SMEMAG.png}\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Latex-template.tex:481: Extra }, or forgotten $.
+l.481 ...degraphics[scale=.7]{logo_usp_SMEMAG.png}
+                                                  \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./Latex-template.tex:482: Missing $ inserted.
+<inserted text> 
+                $
+l.482 \newpage
+              
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 480--482
+
+ []
+
+[39]
+./Latex-template.tex:484: Undefined control sequence.
+<recently read> \includegraphics 
+                                 
+l.484 \includegraphics
+                      [scale=.7]{logo_usp_STIC.png}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Latex-template.tex:484: Missing $ inserted.
+<inserted text> 
+                $
+l.484 \includegraphics[scale=.7]{logo_
+                                      usp_STIC.png}\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Latex-template.tex:484: Extra }, or forgotten $.
+l.484 ...ludegraphics[scale=.7]{logo_usp_STIC.png}
+                                                  \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./Latex-template.tex:485: Missing $ inserted.
+<inserted text> 
+                $
+l.485 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 483--485
+
+ []
+
+./Latex-template.tex:487: Undefined control sequence.
+<recently read> \includegraphics 
+                                 
+l.487 \includegraphics
+                      [scale=.7]{logo_usp_ABIES.png}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Latex-template.tex:487: Missing $ inserted.
+<inserted text> 
+                $
+l.487 \includegraphics[scale=.7]{logo_
+                                      usp_ABIES.png}\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Latex-template.tex:487: Extra }, or forgotten $.
+l.487 ...udegraphics[scale=.7]{logo_usp_ABIES.png}
+                                                  \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./Latex-template.tex:488: Missing $ inserted.
+<inserted text> 
+                $
+l.488 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 486--488
+
+ []
+
+./Latex-template.tex:490: Undefined control sequence.
+<recently read> \includegraphics 
+                                 
+l.490 \includegraphics
+                      [scale=.7]{logo_usp_CBMS.png}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Latex-template.tex:490: Missing $ inserted.
+<inserted text> 
+                $
+l.490 \includegraphics[scale=.7]{logo_
+                                      usp_CBMS.png}\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Latex-template.tex:490: Extra }, or forgotten $.
+l.490 ...ludegraphics[scale=.7]{logo_usp_CBMS.png}
+                                                  \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./Latex-template.tex:491: Missing $ inserted.
+<inserted text> 
+                $
+l.491 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 489--491
+
+ []
+
+./Latex-template.tex:493: Undefined control sequence.
+<recently read> \includegraphics 
+                                 
+l.493 \includegraphics
+                      [scale=.7]{logo_usp_SSH.png}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Latex-template.tex:493: Missing $ inserted.
+<inserted text> 
+                $
+l.493 \includegraphics[scale=.7]{logo_
+                                      usp_SSH.png}\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Latex-template.tex:493: Extra }, or forgotten $.
+l.493 \includegraphics[scale=.7]{logo_usp_SSH.png}
+                                                  \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./Latex-template.tex:494: Missing $ inserted.
+<inserted text> 
+                $
+l.494 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 492--494
+
+ []
+
+./Latex-template.tex:496: Undefined control sequence.
+<recently read> \includegraphics 
+                                 
+l.496 \includegraphics
+                      [scale=.7]{logo_usp_DEM.png}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Latex-template.tex:496: Missing $ inserted.
+<inserted text> 
+                $
+l.496 \includegraphics[scale=.7]{logo_
+                                      usp_DEM.png}\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Latex-template.tex:496: Extra }, or forgotten $.
+l.496 \includegraphics[scale=.7]{logo_usp_DEM.png}
+                                                  \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./Latex-template.tex:497: Missing $ inserted.
+<inserted text> 
+                $
+l.497 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 495--497
+
+ []
+
+[40] (/home/alexis/Documents/Thesis/out/Latex-template.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.26pt have occurred.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ )
+(\end occurred inside a group at level 24)
+
+### simple group (level 24) entered at line 496 ({)
+### simple group (level 23) entered at line 493 ({)
+### simple group (level 22) entered at line 490 ({)
+### simple group (level 21) entered at line 487 ({)
+### simple group (level 20) entered at line 484 ({)
+### simple group (level 19) entered at line 481 ({)
+### simple group (level 18) entered at line 478 ({)
+### simple group (level 17) entered at line 475 ({)
+### simple group (level 16) entered at line 469 ({)
+### simple group (level 15) entered at line 466 ({)
+### simple group (level 14) entered at line 463 ({)
+### simple group (level 13) entered at line 460 ({)
+### simple group (level 12) entered at line 457 ({)
+### simple group (level 11) entered at line 454 ({)
+### simple group (level 10) entered at line 452 ({)
+### simple group (level 9) entered at line 449 ({)
+### simple group (level 8) entered at line 446 ({)
+### simple group (level 7) entered at line 443 ({)
+### simple group (level 6) entered at line 441 ({)
+### simple group (level 5) entered at line 438 ({)
+### simple group (level 4) entered at line 434 ({)
+### simple group (level 3) entered at line 426 ({)
+### simple group (level 2) entered at line 412 ({)
+### simple group (level 1) entered at line 236 ({)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 5491 strings out of 481239
+ 83703 string characters out of 5920377
+ 592353 words of memory out of 5000000
+ 20644 multiletter control sequences out of 15000+600000
+ 600562 words of font info for 102 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 35i,8n,45p,1045b,605s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/u
+sr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/tex
+mf-dist/fonts/enc/dvips/opensans/a_jg4h6q.enc}{/usr/share/texlive/texmf-dist/fo
+nts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/ascender/o
+pensans/OpenSans-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/ascender/o
+pensans/OpenSans-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/bera/fvsb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/bera/fvsr8a.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb><
+/usr/share/texmf/fonts/type1/public/cm-super/sfsi1095.pfb></usr/share/texmf/fon
+ts/type1/public/cm-super/sfsi1728.pfb></usr/share/texmf/fonts/type1/public/cm-s
+uper/sfss0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1095.pfb></
+usr/share/texmf/fonts/type1/public/cm-super/sfss2488.pfb></usr/share/texmf/font
+s/type1/public/cm-super/sfsx1095.pfb>
+Output written on /home/alexis/Documents/Thesis/out/Latex-template.pdf (40 page
+s, 269533 bytes).
+PDF statistics:
+ 221 PDF objects out of 1000 (max. 8388607)
+ 157 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

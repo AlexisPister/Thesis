@@ -10,14 +10,19 @@
 
 \subsection{Sociometry to SNA}
 
-Sociology always had the goal of studying social relationships between individuals, and finding recurrent patterns and structures allowing to describe and explain the behaviour of people and groups. Traditional methods and paradigm saw and explained social phenomena through the lens of social groups and categories, such as age, social status, profession and sex. For exemple, the social position of people living in a small city could be explained well by their age, demographics and social status which are traditional social categroies.
-However, some critics emerge that the division in social categories is often partially biased and come from predefined divisions which are not always grounded in relaity.
-Sociometry which is considered as one of basis of SNA had the goal of redefining social categories through the lens of real social interactions and ties between persons.
-It is in the 1930s that Moreno started to develop this discipline by trying to depict real social interactions as a way to understand how groups and organization were functionning. For this, he developed sociograms as a way to visually show friendships between people with the help of circles representing persons and lines modeling friendships. This way, he could rapidly see the different main actors and hubs of interatcion inside the social fabric represented visually. Sociometry tremendously helped disseminate the metaphor of network to model and understand social phenomena, especially with the helps of cartograms.
+Sociology always had the goal of studying social relationships between individuals and finding recurrent patterns and structures allowing to explain the behaviours of people and groups.
+Traditional methods try to explain social phenomena using classical social groups such as the age, social status, profession and sex.
+For example, the social position of people living in a small city could be explained well by their age, demographics and social status which are traditional social categories.
+However, some criticism emerged that the division in social categories is often partially biased and come from predefined divisions which are not always grounded in reality.
+Sociometry is considered as one of basis of SNA and had the goal of redefining social categories through the lens of real social interactions and ties between persons, that sociologists wanted to observe in real conditions.
+It is in the 1930s that Moreno started to develop this new method by trying to depict real social interactions as a way to understand how groups and organization were functioning.
+For this, he developed sociograms as a way to visually show friendships between people with the help of circles representing persons and lines modeling friendships.
+This way, he could rapidly see the main actors and hubs of interaction inside the social network represented visually.
+Sociometry tremendously helped disseminate the metaphor of network to model and understand social structures and phenomena, especially with the help of cartograms.
 It was until the 1960s that sociologists took these concepts further and formalized SNA using graphs and mathematical methods. It followed the emergence of Graph Theory studies in the 1950 by Mathematician such as Erdyos [...].
 It did not take long until sociologists used these concepts to model social ties and relationships into graphs. Sociologist already have structural theories of social phenomena, and they rapidly saw the potential of graphs to model and analyze those in a mathematical way. Several sociologists started to codify those concepts to use them in a socioloogy setting such as Coleman (1964).
 They started to model social ties between agents as graphs $G = (V, E)$ with $V$ a set a vertices representing agents such as persons and organizations, and $E \subseteq V^2$ a set of edges modeling the social ties between pairs of agents.
-Once social phenomena were modeled as networks, a variety of methods and measures coming from graph theory such as the centrality or the diameter were at their disposal. Sociologists started to make links between these measures and sociological facts. It was then possible to make sociological conclusions from the direct observations of social ties modeled as networks.
+Once they modeled social relationships as networks, a variety of mathematical methods coming from graph theory were at their disposal. Sociologists started to make links between these mathematical results and sociological facts. It was then possible to make sociological conclusions from the direct observations of social ties modeled as networks.
 
 
 
@@ -33,17 +38,12 @@ These two ways of seeing SNA are often not exclusive and current studies usually
 
 \subsection{Methods dans tools}
 
-Graph theorists and network scientists developed a myriad of measures and algortithms that sociologists appropriated themselves to describe and charactierize social phenomena.
-When constructing networks, the first thing sociologists did was often to identify the main actors of the network. Computing the degree (number of connection) distribution is the main straightforward way of doing it, but other measures like the centrality have been developed too. Centrality aimed at characterizing the most importants actors of the network, and several centrality measures have been proposed, based on different criteria. Centrality can highlight actors with the highest number of connections, or those bridging different groups with low interactions.
-The concepts of dyads and triads counting which are simple structural elements give insight on how people are socializing and reflects on Simmel formal sociology, where he already refered as dyads and triads as primal form of sociability. More recently, the concept of graphlet extended this concept to every pattern of N-entities. Graphlet analysis aims at enumeraing every small structure of N nodes composing a network, to understand how people interact at a low-level.
-
-
-Groups/Clustering
-
-
-
-
-
+Graph theorists and network scientists developed a myriad of measures and algorithms that sociologists appropriated themselves to describe and charactierize social phenomena.
+When constructing networks, the first thing sociologists did was often to identify the main actors of the network, and explain why these actors were the most central, for example by linking it to their profession or social status. Computing the degree---which is the number of connections---distribution is the main straightforward way of doing it, but other more complex measures like the centrality have been developed too.
+Lots of types of centrality have been proposed, based on different criteria, as there are several ways of defining the more <emph>important</emph> actors. Centrality can highlight actors with the highest number of connections while others highlight people bridging different groups with low interactions.
+More generally sociologists aimed at identifying recurring patterns of sociability between actors.
+The concepts of dyads and triads counting which are simple structural elements give insight on that and reflects on Simmel formal sociology, where he already refered as dyads and triads as primal form of sociability. More recently, the concept of graphlet extended this concept to every pattern of N-entities. Graphlet analysis aims at enumeraing every small structure of N nodes composing a network, to understand how people interact at a low-level.
+Graphlets counting shows that graphlets are not found in an uniform distribution in social networks, thus revealing that these networks do not follow a random distribution. It is a fact well known by sociologists and more broadly every person working with real worl networks. More precisely, entities in real world networks tend to agglomerate into groups, where entities in the same groups interact more between them than with entities in other groups. In a sociology perspective, it means that people tend to interact and socialize in groups, and interact more rarely with other people. These groups are often refered as <emph>communities</emph>, and a lot of algorithns have been proposed to find these automatically.
 
 
 \section{Historical Network Research}
@@ -55,7 +55,6 @@ Historians try to understand an epoch using textual sources from the past, and t
 Social history, which is a branch of history, focus on understanding how societies were organised and how people were living together at a particular time and place. Charles Tilly argued that the task of social history lays in "(i) documenting large structural changes, (2) reconstructing the experiences of ordinary people in the course of those changes, and (3) connecting the two". For the latter, historians can leverage personal written sources---such as letters, journals, books, and newspapers---to have the internal point of view of persons living in this society and descriptions of lives of precise individuals.
 For the former, historians usually need to study more structured documents which contain information which can be extracted in a predefined and exhaustive way. These documents can for example be census, migration acts or marriage acts. By studying theses documents and by systematically extracting the information of these documents, historians can make global and quantitative conclusions on certain social and behavioural aspects of societies of interest.
 For example .. [EXAMPLE CHANGEMENT METIERS XXth century]
-
 
 
 \subsection{Historical Social Network Analsyis}
@@ -77,6 +76,69 @@ More complex networks models have been proposed in SNA to be able to model more 
 
 
 \section{Social Network Visualization}
+
+
+
+\subsection{Visualization}
+
+Visualization consists in graphically displaying data in the purpose of enhancing human cognition capabilities to understand and communicate ideas and phenomena.
+History is filled with classical examples of visual data display which helped understand real phenomena, such as Minard's map of Napoleon march in Russia, or the cholera crisis.
+Visualization then developed mainly from the 1960s as a research field with the rise of computer science and hardware capabilities.
+As the amount of data stored increase exponentially, descriptive statistics were not enough to understand the underlying structure of the amount and diversity of produced data.
+Visualization, leveraging the human visual system, allows to rapidly see the structure of a dataset and detect interesting and unexpected patterns VERY often unseen with classical statistical methods. One famous illustration of this is Ascombe quartet, four datasets with the same statistical values but with very different structures, that plotting the data highlight.
+Lots of visualization techniques emerged to make sense of the diversity of data produced, such as relational, temporal, spatial or network data.
+More precise taxonomy then emerged: \textbf{Scientific visualization} focus on visualizing continuous real data such as weather, spatial, and physics data, sometimes produced with simulations whereas \textbf{Information Visualization} is centered around visualization (multidimensional) discrete data points, often in an abstract way.
+Semiology of graphics
+Grammar of graphics
+
+
+
+\subsection{Social Network Visualization}
+
+Sociologists rapidly saw the potential of graphically showing relationships between individuals, to better comprehend the underlying social structure and communicate their findings.
+Moreno elaborated sociograms to visually show friendships among schoolers with circles and lines to respectivelly show children and friendships ties.
+This type of representation---commonly called node-link---is the most widely used in social sciences, as it is rapdily understandable and effective for small to medium-sized networks.
+Finding an optimal placement for the nodes is however not that simple as several metrics can be optimized depending on the desired drawing, such as number of edge crossings, the variance of edge length, orthogonality of edges etc.
+The number of edge crossings is often considered as the most important measure, but finding a drawing with the optimal number of crossing is a NP-Hard problem, meaning that heuristics are needed for most real world use cases.
+Lots of algorithms have been designed such as force-directed ones, modeling the nodes as partciles which repulse each other and are attracted when connected.
+
+
+
+
+
+
+Moreno 1930
+Node-Link
+    NP complet
+    Heuristiques
+    Mesures (croisements/taille des liens etc)
+Autres techniques
+    Arcs
+    Matrices
+Autres graphes
+    Temporel
+    Hypergraphs
+
+
+\subsection{Social Metwork Visual Analytics}
+
+Visualization has mostly been used for confirmatory and communication purposes from its beginning.
+Social scientists often had hypothesis that they could rapidly verify by plotting the data.
+The same plots were often used for communication purposes, for example in a scientific paper or presentation.
+However, visualization can also be used for exploratoty aims, to gain general insight on the data and potentially generate new hypothesis.
+This process has been characterized by Tukey in 1960 as \textbf{exploratoy data analysis}.
+Exploration is possible thanks to interaction, which allows to interact with the data with actions like filtering, querying, sorting etc, changing the point of focus according to data points, groups, variables etc.
+As the average size of datasets keeps growing, exploratory tools are often needed.
+Most visual exploration interface then started to incorporate analytical tools with the visualization, letting users apply statistical or machine learning algorithms direclty in the exploratory loop. This coupling of visualization and analytical reasoning has been defined as Visual Analyitics (VA) and is still undergoing lots of research.
+
+
+
+
+Exploration/Confirmation
+VA concept
+Interaction
+Mixed initiative
+
 
 
 
