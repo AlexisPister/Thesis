@@ -16,7 +16,7 @@ When the network is small, less than 30--50 nodes, it is possible to remember mo
 Typically, social scientists select an analysis tool based on their familiarity with the tool and the level of local or online support they can access. Therefore, they most often use popular systems such as R~\cite{Rstat}, Gephi~\cite{gephi}, Python with NetworkX~\cite{networkx}, or Pajek~\cite{pajek}.
 To compute clusters, they follow a strained process: they select and run algorithms provided in the tool and then try to make sense of the results (see~\autoref{fig:traditionalpkprocess}). When they are not satisfied or unsure, they iteratively tweak the parameters of the algorithms at hand, run them again and hope to get results more aligned with their prior knowledge. This analysis process is unsatisfactory for three main reasons:
 \begin{wrapfigure}{r}{0.5\columnwidth}
-    \includegraphics[width=0.5\columnwidth]{figures/traditionalclustering.png}
+    \includegraphics[width=0.5\columnwidth]{static/figures/PK-Clustering/VISPaperFigures/traditionalclustering.png}
     \caption{Traditional Clustering.  The output is a clustering, usually from a randomly chosen algorithm.}
     \label{fig:traditionalpkprocess}
 \end{wrapfigure}
@@ -41,7 +41,7 @@ To address those issues we propose a novel approach, called PK-clustering, which
 
 \begin{figure}
     \centering
-    \includegraphics[width=\columnwidth]{figures/pkprocess_new.png}
+    \includegraphics[width=\columnwidth]{static/figures/PK-Clustering/VISPaperFigures/pkprocess_new.png}
     \caption{PK-clustering. The output is a clustering supported by algorithms and validated (fully or partially) according to the user's Prior Knowledge.}
 %\cp{need to update the diagram to add "provenance table and summary"}}
 \label{fig:pkprocess}
@@ -245,7 +245,7 @@ Typically, an expert would assign a few items (1-3) to a few groups (2-5), thus 
 /dev{At any point users can go back, select different algorithms, or even change the PK specification to add new partial clusters.  Users can also opt not to specify any PK partial clusters at all, and accept all consensual suggestions without reviewing them in details. This gives users control over how much they want to be involved in the process. Similarly, users are not required to assign every single node to a cluster.}
 
 \begin{wrapfigure}{r}{0.4\linewidth}
-\includegraphics[trim=15 10 10 10,width=\linewidth]{figures/Small-PK_specification}
+\includegraphics[trim=15 10 10 10,width=\linewidth]{static/figures/PK-Clustering/VISPaperFigures/Small-PK_specification}
 \caption{Prior Knowledge specification, the user defined two groups composed of two members.}% for the Marie Boucher dataset.}
 \label{fig:Small-PK_specification}
 \end{wrapfigure}
@@ -258,7 +258,7 @@ We will now review each step in more details.
 
 %\begin{figure}
 %    \centering
-%    \includegraphics[width=0.6\linewidth]{figures/groupeditor_and_bou_abtbou.png}
+%    \includegraphics[width=0.6\linewidth]{static/figures/PK-Clustering/VISPaperFigures/groupeditor_and_bou_abtbou.png}
 %    \caption{The user has defined three partial clusters (groups), each composed of two people}
 %    \label{fig:MBHubertBA}
 %\end{figure}
@@ -350,7 +350,7 @@ Once this matching is computed, the total sum of the weights minus the sum of th
 
 \begin{wrapfigure}{r}{0.5\linewidth}
 \centering
-\includegraphics[width=\linewidth]{figures/bipartiteMatching.png}
+\includegraphics[width=\linewidth]{static/figures/PK-Clustering/VISPaperFigures/bipartiteMatching.png}
 \caption{Red edges represent the prior knowledge matching}
 \label{fig:BipartiteMatching}
 \end{wrapfigure}
@@ -398,7 +398,7 @@ Once the clustering algorithms have been matched with the PK, users can review t
 \begin{wrapfigure}{r}{0.5\linewidth}%}figure}[hbt]
 \centering
 %\includegraphics[width=\linewidth]{Small-modalities-01}
-\includegraphics[width=\linewidth]{figures/matchingExampleFinal.png}
+\includegraphics[width=\linewidth]{static/figures/PK-Clustering/VISPaperFigures/matchingExampleFinal.png}
 \caption{Two different modalities for the ranked list of algorithms. Top: persons are shown as circles. Bottom: aggregated view. Colors indicate the matching group. Gray indicates no match. White indicates extra nodes or clusters.}
 \label{fig:matchingvis}
 \end{wrapfigure}
@@ -438,7 +438,7 @@ PK-Clustering expresses its prior knowledge through \emph{must-link} and \emph{c
 
 % \begin{figure}
 %     \centering
-%     \includegraphics[width=0.6\linewidth]{figures/fluidk4_clusters.png}
+%     \includegraphics[width=0.6\linewidth]{static/figures/PK-Clustering/VISPaperFigures/fluidk4_clusters.png}
 %     \caption{Two views of the clusters proposed by the \texttt{PK\_fluid\_k4} algorithm, before and after the user clicks on \textit{Others} group label. This is a portion in the larger PAOHVIS display}
 %     \label{fig:groupsAndClusters}
 % \end{figure}
@@ -473,7 +473,7 @@ There are clearly many ways to cluster data, and users must decide the more mean
 
 \begin{figure}
 \centering
-\includegraphics[width=\linewidth]{figures/Small-initial.png}
+\includegraphics[width=\linewidth]{static/figures/PK-Clustering/VISPaperFigures/Small-initial.png}
 \caption{Reviewing and comparing results of multiple algorithms. One algorithm is selected to order the names and group them, but icons show how other algorithms cluster the nodes differently, summarized in the consensus bar on the left.}
 \label{fig:initialView}
 \end{figure}
@@ -481,7 +481,7 @@ There are clearly many ways to cluster data, and users must decide the more mean
 
 \begin{figure}
 \centering
-\includegraphics[width=\linewidth]{figures/Small-validating.png}
+\includegraphics[width=\linewidth]{static/figures/PK-Clustering/VISPaperFigures/Small-validating.png}
 \caption{The user quickly drags on consecutive icons (in yellow) representing the suggestions made by one algorithm to validate node clustering. Once the cursor is released the validated nodes appear as squares icons in the Consolidated Knowledge column.}
 \label{fig:multipleValidation}
 \end{figure}
@@ -531,14 +531,14 @@ Users can therefore see if the selected cluster is consensual, and with which al
 
 %\begin{figure}[ht]
 %    \centering
-%    \includegraphics[width=0.6\linewidth]{figures/Small-manualGroupAssignment.png}
+%    \includegraphics[width=0.6\linewidth]{static/figures/PK-Clustering/VISPaperFigures/Small-manualGroupAssignment.png}
 %    \caption{To modify the cluster assignment of a single node users right click on the node. The gray box means no cluster.}
 %    \label{fig:consolidatedDataset}
 %\end{figure}
 
 \begin{figure}
 \centering
-\includegraphics[width=\linewidth]{figures/Small-extraClusters-01.png}
+\includegraphics[width=\linewidth]{static/figures/PK-Clustering/VISPaperFigures/Small-extraClusters-01.png}
 \caption{Suggestion of extra clusters. The two PK-groups (red and blue) are validated (nodes in the consensus column are all squared). One extra clusters is proposed by the Louvain algorithm, labeled as 2. Hovering over the cluster 2, the consensus is displayed by the green diamonds. This feedback is also visible in the graph.}
 \label{fig:extraClusteringInteraction}
 \end{figure}
@@ -546,7 +546,7 @@ Users can therefore see if the selected cluster is consensual, and with which al
 \begin{comment}
 \begin{figure}[hb]
 \centering
-\includegraphics[width=0.7\linewidth]{figures/Small-multivis_distribution_consensus.png}
+\includegraphics[width=0.7\linewidth]{static/figures/PK-Clustering/VISPaperFigures/Small-multivis_distribution_consensus.png}
 \caption{The user has multiple possibilities to compare the consensus. Looking at \textit{Claude} node, four algorithms suggest the red cluster, one algorithm the blue cluster and one the green one.\jdf{we can remove this figure if needed}}
 \label{fig:multivisConsensus}
 \end{figure}
@@ -555,7 +555,7 @@ Users can therefore see if the selected cluster is consensual, and with which al
 
 \begin{figure}
 \centering
-\includegraphics[width=\linewidth]{figures/Small-FinalPartition.png}
+\includegraphics[width=\linewidth]{static/figures/PK-Clustering/VISPaperFigures/Small-FinalPartition.png}
 \caption{The dataset has been fully consolidated. The persons are grouped and colored by the consolidated knowledge. The user decided to assign Claude, Guillaume, Madeleine and Renexent to cluster $C$, by taking into account the graph and the consensus of the algorithms.}
 \label{fig:extendedPartialConsolidatedDataset}
 \end{figure}
@@ -608,7 +608,7 @@ As hinted in her article, Dufournaud believes that the network can be split in t
 
 %\begin{figure}[tb]
 %    \centering
-%    \includegraphics[width=\linewidth]{figures/MBStaticFamily.png}
+%    \includegraphics[width=\linewidth]{static/figures/PK-Clustering/VISPaperFigures/MBStaticFamily.png}
 %    \caption{Marie Boucher dataset with two families Antheaume (blue) and Boucher (red).}
 %    \label{fig:MBstaticFamily}
 %\end{figure}
@@ -620,7 +620,7 @@ After running the algorithms, 9 algorithms produced a perfect match out of the 1
 \begin{comment}
 \begin{figure}[tb]
 \centering
-\includegraphics[width=\linewidth]{figures/MB-Matching.png}
+\includegraphics[width=\linewidth]{static/figures/PK-Clustering/VISPaperFigures/MB-Matching.png}
 \caption{Ranking of the clustering algorithms based on their matching with the PK for the Marie Boucher dataset}
 \label{fig:MB-matching}
 \end{figure}
@@ -643,7 +643,7 @@ For the Marie Boucher case study, the report would write \todo{check}:
 
 % \begin{figure}[tb]
 %     \centering
-%     \includegraphics[width=\linewidth]{figures/newGroupsMB.png}
+%     \includegraphics[width=\linewidth]{static/figures/PK-Clustering/VISPaperFigures/newGroupsMB.png}
 %     \caption{Final phase of PK-clustering. The \emph{ilouvain\_time} algorithm proposes four extra clusters. After reviewing them one by one, based on the graph and on her knowledge, the user validated one of them, thus becoming purple. The majority of the people in the 3 other clusters (3, 6 and 10) were already consolidated in one of the PK-group.}
 %     \label{fig:detailConsolidated}
 % \end{figure}
@@ -660,7 +660,7 @@ For the Marie Boucher case study, the report would write \todo{check}:
 \begin{comment}
 \begin{figure}
 \centering
-\includegraphics[width=\linewidth]{figures/MB-finalPartition_BA.png}
+\includegraphics[width=\linewidth]{static/figures/PK-Clustering/VISPaperFigures/MB-finalPartition_BA.png}
 \caption{Final consolidated partition of the Marie Boucher dataset. The persons are colored and grouped by the consolidated knowledge. We can see that the final grouping makes sense in the graph visualization on the right. Only one person is not part of any group: Jacques Souchay.}
 \label{fig:MB-finalPartition}
 \end{figure}
@@ -672,7 +672,7 @@ For the Marie Boucher case study, the report would write \todo{check}:
 
 \begin{figure}[tb]
 \centering
-\includegraphics[width=\linewidth]{figures/Vast_PK_Clustering_View.png}
+\includegraphics[width=\linewidth]{static/figures/PK-Clustering/VISPaperFigures/Vast_PK_Clustering_View.png}
 \caption{Computing the Lineages of VAST authors: Prior Knowledge from Alice and results of the clusterings matching it.}
 \label{fig:Vast_PK_Clustering_View}
 \end{figure}
@@ -711,7 +711,7 @@ in the end, the final selection only uses the lineage criterion among many other
 
 \begin{figure}[tb]
 \centering
-\includegraphics[width=\linewidth]{figures/vast_some_consolidated_groups.png}
+\includegraphics[width=\linewidth]{static/figures/PK-Clustering/VISPaperFigures/vast_some_consolidated_groups.png}
 \caption{Four consolidated groups in the VAST dataset: C North, RVAC, Andrienko and London}
 \label{fig:vast_some_consolidated_groups}
 \end{figure}
@@ -723,7 +723,7 @@ in the end, the final selection only uses the lineage criterion among many other
 \iffalse
 \begin{figure}[tb]
 \centering
-\includegraphics[width=\linewidth]{figures/vast_PC_dist.pdf}
+\includegraphics[width=\linewidth]{static/figures/PK-Clustering/VISPaperFigures/vast_PC_dist.pdf}
 \caption{VAST Program Committee from 2019. The first column represents the respective lineage groups found using PK-clustering. Second column is the name of the PC Member, and the third one, their affiliation in 2019. }
 \label{fig:MB-vast_PC_dist}
 \end{figure}

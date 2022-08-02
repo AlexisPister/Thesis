@@ -32,6 +32,9 @@
 \usepackage{amssymb}
 \usepackage{xcolor} % où color selon l'installation
 \usepackage{enumitem}
+\usepackage{cite}
+%\usepackage[nottoc]{tocbibind}
+\usepackage{biblatex}
 
 % Colors
 \definecolor{Prune}{RGB}{99,0,60} % l14-33 : couleurs de la charte graphique upsaclay
@@ -59,7 +62,8 @@
 \newcommand{\modelplural}{bipartite multivariate dynamic networks\xspace}
 
 \pagestyle{plain} % pour ne garder que les n°de page en milieu-bas et supprimer les indications de chapitre en marge haute
-\usepackage{lipsum} % à retirer!!!
+\usepackage{lipsum}
+%\usepackage{biblatex} % à retirer!!!
 
 % Document
 \begin{document}
@@ -227,23 +231,17 @@
     \newgeometry{top=4cm, bottom=4cm, left=4cm, right=4cm}
 
 
+%    \include{chapters/Introduction}
+%    \include{chapters/Context}
+%    \include{chapters/NetworkModels}
+%    \include{chapters/PK-Clustering}
+%    \include{chapters/ComBiNet}
 
+    big test \cite{bachNetworkCubeBringingDynamic}
 
-
-
-%\title{Thesis}
-%\author{Alexis Pister}
-%\date{\today}
-%\maketitle
-%\tableofcontents
-    \include{chapters/Introduction}
-    \include{chapters/Context}
-    \include{chapters/NetworkModels}
-    \include{chapters/PK-Clustering}
-    \include{chapters/ComBiNet}
-
-%    \bibliography{main}
-%    \bibliographystyle{plain}
+    \bibliographystyle{plain}
+%    \bibliographystyle{IEEEtranS}
+    \bibliography{bibliography}
 
 
 \end{document}
