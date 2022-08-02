@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.6.11)  2 AUG 2022 21:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.6.11)  2 AUG 2022 23:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1199,75 +1199,8 @@ Package csquotes Info: Redefining alias 'default' -> 'french'.
 (/home/alexis/Documents/Thesis/out/chapters/Introduction.aux)
 (/home/alexis/Documents/Thesis/out/chapters/Context.aux)
 (/home/alexis/Documents/Thesis/out/chapters/NetworkModels.aux)
-(/home/alexis/Documents/Thesis/out/chapters/PK-Clustering.aux
-/home/alexis/Documents/Thesis/out/chapters/PK-Clustering.aux:47: You can't use 
-`\spacefactor' in vertical mode.
-\@ ->\spacefactor 
-                  \@m {}
-l.47 \@
-       
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-/home/alexis/Documents/Thesis/out/chapters/PK-Clustering.aux:47: Missing $ inse
-rted.
-<inserted text> 
-                $
-l.47 \@
-       
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-/home/alexis/Documents/Thesis/out/chapters/PK-Clustering.aux:47: LaTeX Error: M
-issing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.47 \@
-       
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Trying to load font information for U+msa on input line 47.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 47.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)))
-Runaway argument?
-{ 
-./main.tex:72: File ended while scanning use of \abx@aux@segm.
-<inserted text> 
-                \par 
-l.72 \begin{document}
-                     
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
-./main.tex:72: Missing $ inserted.
-<inserted text> 
-                $
-l.72 \begin{document}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-Missing character: There is no è in font cmex10!
+(/home/alexis/Documents/Thesis/out/chapters/PK-Clustering.aux)
+(/home/alexis/Documents/Thesis/out/chapters/ComBiNet.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
@@ -1288,6 +1221,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 72.
 LaTeX Font Info:    ... okay on input line 72.
 LaTeX Font Info:    Trying to load font information for T1+opensans-TLF on inpu
 t line 72.
+
 (/usr/share/texlive/texmf-dist/tex/latex/opensans/T1opensans-TLF.fd
 File: T1opensans-TLF.fd 2019/06/24 Font definitions for T1/opensans-TLF.
 )
@@ -1415,12 +1349,6 @@ Package biblatex Info: ... file 'main.bbl' not found.
 No file main.bbl.
 Package biblatex Info: Reference section=0 on input line 72.
 Package biblatex Info: Reference segment=0 on input line 72.
-[1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
-
-
-]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -1453,7 +1381,7 @@ Package biblatex Info: Reference segment=0 on input line 72.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<static/logos/Frame-ups.pdf, id=17, 303.38344pt x 849.92531pt>
+<static/logos/Frame-ups.pdf, id=324, 303.38344pt x 849.92531pt>
 File: static/logos/Frame-ups.pdf Graphic file (type pdf)
 <use static/logos/Frame-ups.pdf>
 Package pdftex.def Info: static/logos/Frame-ups.pdf  used on input line 78.
@@ -1461,11 +1389,10 @@ Package pdftex.def Info: static/logos/Frame-ups.pdf  used on input line 78.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
 (Font)              scaled to size 16.41594pt on input line 88.
 
-
 LaTeX Font Warning: Font shape `T1/opensans-TLF/m/sc' undefined
 (Font)              using `T1/opensans-TLF/m/n' instead on input line 88.
 
-<static/logos/logo2.png, id=18, 194.97844pt x 87.32625pt>
+<static/logos/logo2.png, id=325, 194.97844pt x 87.32625pt>
 File: static/logos/logo2.png Graphic file (type png)
 <use static/logos/logo2.png>
 Package pdftex.def Info: static/logos/logo2.png  used on input line 97.
@@ -1484,16 +1411,27 @@ LaTeX Font Info:    Trying to load font information for T1+fvs on input line 11
 (/usr/share/texlive/texmf-dist/tex/latex/bera/t1fvs.fd
 File: t1fvs.fd 2004/09/07 scalable font definitions for T1/fvs.
 )
+LaTeX Font Info:    Trying to load font information for U+msa on input line 123
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 123
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
 (Font)              scaled to size 7.59998pt on input line 162.
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.162     \end{titlepage}
-                          [1
+ [1
 
- <./static/logos/Frame-ups.pdf> <./static/logos/logo2.png>]
+
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./static/logos/Frame-ups.p
+df> <./static/logos/logo2.png>]
 
 Package scrbase Warning: Usage of deprecated command `\ifthispageodd'.
 (scrbase)                The command has been renamed because of a
@@ -1540,7 +1478,7 @@ LaTeX Font Info:    No file T1rm.fd. on input line 167.
 LaTeX Font Warning: Font shape `T1/rm/m/n' undefined
 (Font)              using `T1/cmr/m/n' instead on input line 167.
 
-<static/logos/EOBE.png, id=33, 1734.48pt x 397.485pt>
+<static/logos/EOBE.png, id=343, 1734.48pt x 397.485pt>
 File: static/logos/EOBE.png Graphic file (type png)
 <use static/logos/EOBE.png>
 Package pdftex.def Info: static/logos/EOBE.png  used on input line 179.
@@ -1549,12 +1487,7 @@ Package mdframed Info: mdframed works in twoside mode on input line 186.
 Package mdframed Info: mdframed works in twoside mode on input line 201.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
 (Font)              scaled to size 10.40245pt on input line 230.
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.230 ...top=4cm, bottom=4cm, left=2cm, right=2cm}
-                                                   [2
+[2
 
  <./static/logos/EOBE.png>]
 *geometry* verbose mode - [ newgeometry ] result:
@@ -1589,15 +1522,16 @@ l.230 ...top=4cm, bottom=4cm, left=2cm, right=2cm}
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- (/home/alexis/Documents/Thesis/out/main.toc)
+ (/home/alexis/Documents/Thesis/out/main.toc
+[3
+
+
+
+] [4])
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- [3
-
-
-
-]
+ [5]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -1632,86 +1566,86 @@ l.230 ...top=4cm, bottom=4cm, left=2cm, right=2cm}
 
 \openout2 = `chapters/Introduction.aux'.
 
- (./chapters/Introduction.tex [4
+ (./chapters/Introduction.tex [6
 
 
 
 
 ]
 Chapitre 1.
-[5]
+[7]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6]
-[7]) [8]
+ [8]
+[9]) [10]
 \openout2 = `chapters/Context.aux'.
 
  (./chapters/Context.tex
 Chapitre 2.
 
-LaTeX Warning: Citation 'morenoFoundationsSociometryIntroduction1941' on page 9
- undefined on input line 18.
+LaTeX Warning: Citation 'morenoFoundationsSociometryIntroduction1941' on page 1
+1 undefined on input line 18.
 
 LaTeX Font Info:    Font shape `T1/opensans-TLF/b/n' will be
 (Font)              scaled to size 10.40245pt on input line 18.
-[9
+[11
 
 
 
 
-] [10] [11]
+] [12] [13]
 
-LaTeX Warning: Citation 'hamberger:halshs-00658667' on page 12 undefined on inp
+LaTeX Warning: Citation 'hamberger:halshs-00658667' on page 14 undefined on inp
 ut line 82.
 
 
-LaTeX Warning: Citation 'gedcom' on page 12 undefined on input line 82.
+LaTeX Warning: Citation 'gedcom' on page 14 undefined on input line 82.
 
 
-LaTeX Warning: Citation 'hamberger_scanning_2014' on page 12 undefined on input
+LaTeX Warning: Citation 'hamberger_scanning_2014' on page 14 undefined on input
  line 82.
 
 
 Underfull \vbox (badness 7012) has occurred while \output is active []
 
- [12]
-[13]) [14]
+ [14]
+[15]) [16]
 \openout2 = `chapters/NetworkModels.aux'.
 
  (./chapters/NetworkModels.tex
 Chapitre 3.
 
-LaTeX Warning: Citation 'wetherell_historical_1998' on page 15 undefined on inp
+LaTeX Warning: Citation 'wetherell_historical_1998' on page 17 undefined on inp
 ut line 15.
 
 
-LaTeX Warning: Citation 'wetherell_historical_1998' on page 15 undefined on inp
+LaTeX Warning: Citation 'wetherell_historical_1998' on page 17 undefined on inp
 ut line 18.
 
 
-LaTeX Warning: Citation 'kerschbaumerPowerNetworksProspects2015' on page 15 und
+LaTeX Warning: Citation 'kerschbaumerPowerNetworksProspects2015' on page 17 und
 efined on input line 18.
 
-[15
+[17
 
 
 
 
 ]
 
-LaTeX Warning: Citation 'prostDouzeLeconsHistoire2014' on page 16 undefined on 
+LaTeX Warning: Citation 'prostDouzeLeconsHistoire2014' on page 18 undefined on 
 input line 54.
 
 
-LaTeX Warning: Citation 'henryRegistresParoissiauxHistoire1956' on page 16 unde
+LaTeX Warning: Citation 'henryRegistresParoissiauxHistoire1956' on page 18 unde
 fined on input line 55.
 
 
-LaTeX Warning: Citation 'karila-cohenNouvellesCuisinesHistoire2018' on page 16 
+LaTeX Warning: Citation 'karila-cohenNouvellesCuisinesHistoire2018' on page 18 
 undefined on input line 55.
 
 
-LaTeX Warning: Citation 'kaplanVeniceTimeMachine2015' on page 16 undefined on i
+LaTeX Warning: Citation 'kaplanVeniceTimeMachine2015' on page 18 undefined on i
 nput line 55.
 
 
@@ -1733,48 +1667,48 @@ le re-sults [[]].
  []
 
 
-LaTeX Warning: Citation 'freeman_development_2004' on page 16 undefined on inpu
+LaTeX Warning: Citation 'freeman_development_2004' on page 18 undefined on inpu
 t line 62.
 
 
-LaTeX Warning: Citation 'coleman_introduction_1964' on page 16 undefined on inp
+LaTeX Warning: Citation 'coleman_introduction_1964' on page 18 undefined on inp
 ut line 62.
 
 
-LaTeX Warning: Citation 'freeman_development_2004' on page 16 undefined on inpu
+LaTeX Warning: Citation 'freeman_development_2004' on page 18 undefined on inpu
 t line 62.
 
-[16]
+[18]
 
-LaTeX Warning: Citation 'wetherell_historical_1998' on page 17 undefined on inp
+LaTeX Warning: Citation 'wetherell_historical_1998' on page 19 undefined on inp
 ut line 64.
 
 
-LaTeX Warning: Citation 'ginzburgMicrohistoire1981' on page 17 undefined on inp
+LaTeX Warning: Citation 'ginzburgMicrohistoire1981' on page 19 undefined on inp
 ut line 66.
 
 
-LaTeX Warning: Citation 'lippKinshipNetworksLocal2005' on page 17 undefined on 
+LaTeX Warning: Citation 'lippKinshipNetworksLocal2005' on page 19 undefined on 
 input line 68.
 
 
-LaTeX Warning: Citation 'moutoukiasReseauxPersonnelsAutorite1992' on page 17 un
+LaTeX Warning: Citation 'moutoukiasReseauxPersonnelsAutorite1992' on page 19 un
 defined on input line 68.
 
 
-LaTeX Warning: Citation 'lemercier12FormalNetwork2015' on page 17 undefined on 
+LaTeX Warning: Citation 'lemercier12FormalNetwork2015' on page 19 undefined on 
 input line 70.
 
 
-LaTeX Warning: Citation 'kerschbaumerPowerNetworksProspects2015' on page 17 und
+LaTeX Warning: Citation 'kerschbaumerPowerNetworksProspects2015' on page 19 und
 efined on input line 70.
 
 
-LaTeX Warning: Citation 'padgettRobustActionRise1993' on page 17 undefined on i
+LaTeX Warning: Citation 'padgettRobustActionRise1993' on page 19 undefined on i
 nput line 71.
 
 
-LaTeX Warning: Citation 'petzCombiningNetworkResearch2022' on page 17 undefined
+LaTeX Warning: Citation 'petzCombiningNetworkResearch2022' on page 19 undefined
  on input line 71.
 
 
@@ -1806,7 +1740,7 @@ Overfull \hbox (140.9615pt too wide) in paragraph at lines 64--72
  []
 
 
-LaTeX Warning: Citation 'freeman_development_2004' on page 17 undefined on inpu
+LaTeX Warning: Citation 'freeman_development_2004' on page 19 undefined on inpu
 t line 75.
 
 
@@ -1816,65 +1750,65 @@ Overfull \hbox (57.92566pt too wide) in paragraph at lines 75--76
  []
 
 
-LaTeX Warning: Citation 'hamberger:halshs-00658667' on page 17 undefined on inp
+LaTeX Warning: Citation 'hamberger:halshs-00658667' on page 19 undefined on inp
 ut line 82.
 
 
-LaTeX Warning: Citation 'gedcom' on page 17 undefined on input line 82.
+LaTeX Warning: Citation 'gedcom' on page 19 undefined on input line 82.
 
 
-LaTeX Warning: Citation 'hamberger_scanning_2014' on page 17 undefined on input
+LaTeX Warning: Citation 'hamberger_scanning_2014' on page 19 undefined on input
  line 82.
 
-[17]
+[19]
 
-LaTeX Warning: Citation 'cristofoliPrincipesUsagesDessins' on page 18 undefined
+LaTeX Warning: Citation 'cristofoliPrincipesUsagesDessins' on page 20 undefined
  on input line 86.
 
 
-LaTeX Warning: Citation 'brandesExploratoryNetworkVisualization' on page 18 und
+LaTeX Warning: Citation 'brandesExploratoryNetworkVisualization' on page 20 und
 efined on input line 86.
 
 
-LaTeX Warning: Citation 'moreno_foundations_1941' on page 18 undefined on input
+LaTeX Warning: Citation 'moreno_foundations_1941' on page 20 undefined on input
  line 87.
 
 
-LaTeX Warning: Citation 'Gephi' on page 18 undefined on input line 88.
+LaTeX Warning: Citation 'Gephi' on page 20 undefined on input line 88.
 
 
-LaTeX Warning: Citation 'batagelj_pajek_nodate' on page 18 undefined on input l
+LaTeX Warning: Citation 'batagelj_pajek_nodate' on page 20 undefined on input l
 ine 88.
 
 
-LaTeX Warning: Citation 'behrischMatrixReorderingMethods2016' on page 18 undefi
+LaTeX Warning: Citation 'behrischMatrixReorderingMethods2016' on page 20 undefi
 ned on input line 89.
 
 
-LaTeX Warning: Citation 'dangTimeArcsVisualizingFluctuations2016' on page 18 un
+LaTeX Warning: Citation 'dangTimeArcsVisualizingFluctuations2016' on page 20 un
 defined on input line 89.
 
 
-LaTeX Warning: Citation 'valdivia_analyzing_2021' on page 18 undefined on input
+LaTeX Warning: Citation 'valdivia_analyzing_2021' on page 20 undefined on input
  line 89.
 
 
-LaTeX Warning: Citation 'henry2007nodetrix' on page 18 undefined on input line 
+LaTeX Warning: Citation 'henry2007nodetrix' on page 20 undefined on input line 
 89.
 
 
-LaTeX Warning: Citation 'vistorian_mini_questionnaires' on page 18 undefined on
+LaTeX Warning: Citation 'vistorian_mini_questionnaires' on page 20 undefined on
  input line 89.
 
 
-LaTeX Warning: Citation 'nobreJuniperTreeTable2019' on page 18 undefined on inp
+LaTeX Warning: Citation 'nobreJuniperTreeTable2019' on page 20 undefined on inp
 ut line 89.
 
 
-LaTeX Warning: Citation 'Stasko' on page 18 undefined on input line 91.
+LaTeX Warning: Citation 'Stasko' on page 20 undefined on input line 91.
 
 
-LaTeX Warning: Citation 'Stasko' on page 18 undefined on input line 92.
+LaTeX Warning: Citation 'Stasko' on page 20 undefined on input line 92.
 
 
 Overfull \hbox (84.08867pt too wide) in paragraph at lines 86--93
@@ -1911,35 +1845,35 @@ Overfull \hbox (32.41461pt too wide) in paragraph at lines 86--93
  []
 
 
-LaTeX Warning: Citation 'glaserDiscoveryGroundedTheory2010' on page 18 undefine
+LaTeX Warning: Citation 'glaserDiscoveryGroundedTheory2010' on page 20 undefine
 d on input line 100.
 
 
-LaTeX Warning: Citation 'karila-cohenNouvellesCuisinesHistoire2018' on page 18 
+LaTeX Warning: Citation 'karila-cohenNouvellesCuisinesHistoire2018' on page 20 
 undefined on input line 101.
 
 
-LaTeX Warning: Citation 'lemercierBackSourcesPracticing2021' on page 18 undefin
+LaTeX Warning: Citation 'lemercierBackSourcesPracticing2021' on page 20 undefin
 ed on input line 101.
 
 
-LaTeX Warning: Citation 'lemercier12FormalNetwork2015' on page 18 undefined on 
+LaTeX Warning: Citation 'lemercier12FormalNetwork2015' on page 20 undefined on 
 input line 102.
 
 
-LaTeX Warning: Citation 'padgettRobustActionRise1993' on page 18 undefined on i
+LaTeX Warning: Citation 'padgettRobustActionRise1993' on page 20 undefined on i
 nput line 102.
 
 
-LaTeX Warning: Citation 'karila-cohenNouvellesCuisinesHistoire2018' on page 18 
+LaTeX Warning: Citation 'karila-cohenNouvellesCuisinesHistoire2018' on page 20 
 undefined on input line 102.
 
 
-LaTeX Warning: Citation 'dufournaudCommentRendreVisible2018' on page 18 undefin
+LaTeX Warning: Citation 'dufournaudCommentRendreVisible2018' on page 20 undefin
 ed on input line 103.
 
 
-LaTeX Warning: Reference `fig:process' on page 18 undefined on input line 104.
+LaTeX Warning: Reference `fig:process' on page 20 undefined on input line 104.
 
 
 Overfull \hbox (124.86957pt too wide) in paragraph at lines 98--105
@@ -1960,38 +1894,38 @@ ata pro-ces-sing\T1/cmss/m/n/10.95 , and \T1/cmss/m/it/10.95 data ana-ly-sis \T
 1/cmss/m/n/10.95 [[]].
  []
 
-[18]
+[20]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19]
+ [21]
 
-LaTeX Warning: Citation 'andrei2011porgy' on page 20 undefined on input line 12
+LaTeX Warning: Citation 'andrei2011porgy' on page 22 undefined on input line 12
 9.
 
 
-LaTeX Warning: Citation 'diesnerImpactEntityDisambiguation2015' on page 20 unde
+LaTeX Warning: Citation 'diesnerImpactEntityDisambiguation2015' on page 22 unde
 fined on input line 129.
 
 
-LaTeX Warning: Citation 'TEI' on page 20 undefined on input line 133.
+LaTeX Warning: Citation 'TEI' on page 22 undefined on input line 133.
 
 
-LaTeX Warning: Citation 'dufournaud:hal-00876586' on page 20 undefined on input
+LaTeX Warning: Citation 'dufournaud:hal-00876586' on page 22 undefined on input
  line 133.
 
 
-LaTeX Warning: Citation 'vistorian_mini_questionnaires' on page 20 undefined on
+LaTeX Warning: Citation 'vistorian_mini_questionnaires' on page 22 undefined on
  input line 133.
 
 
 Underfull \vbox (badness 4819) has occurred while \output is active []
 
- [20]
+ [22]
 
-LaTeX Warning: Citation 'alkadi2022' on page 21 undefined on input line 138.
+LaTeX Warning: Citation 'alkadi2022' on page 23 undefined on input line 138.
 
 
-LaTeX Warning: Citation 'freeman_development_2004' on page 21 undefined on inpu
+LaTeX Warning: Citation 'freeman_development_2004' on page 23 undefined on inpu
 t line 151.
 
 
@@ -2001,7 +1935,7 @@ ts [[]].
  []
 
 
-LaTeX Warning: Citation 'dufournaudCommentRendreVisible2018' on page 21 undefin
+LaTeX Warning: Citation 'dufournaudCommentRendreVisible2018' on page 23 undefin
 ed on input line 176.
 
 
@@ -2012,21 +1946,21 @@ Overfull \hbox (35.91255pt too wide) in paragraph at lines 175--182
 
 Underfull \vbox (badness 1024) has occurred while \output is active []
 
- [21]
+ [23]
 
-LaTeX Warning: Citation 'wetherell_historical_1998' on page 22 undefined on inp
+LaTeX Warning: Citation 'wetherell_historical_1998' on page 24 undefined on inp
 ut line 197.
 
 
-LaTeX Warning: Citation 'sairioMethodologicalPracticalAspects2009' on page 22 u
+LaTeX Warning: Citation 'sairioMethodologicalPracticalAspects2009' on page 24 u
 ndefined on input line 198.
 
 
-LaTeX Warning: Citation 'moreno_foundations_1941' on page 22 undefined on input
+LaTeX Warning: Citation 'moreno_foundations_1941' on page 24 undefined on input
  line 201.
 
 
-LaTeX Warning: Citation 'eriksonMalfeasanceFoundationsGlobal2006b' on page 22 u
+LaTeX Warning: Citation 'eriksonMalfeasanceFoundationsGlobal2006b' on page 24 u
 ndefined on input line 202.
 
 
@@ -2035,23 +1969,23 @@ Overfull \hbox (44.06825pt too wide) in paragraph at lines 202--206
  []
 
 
-LaTeX Warning: Citation 'hamberger_scanning_2014' on page 22 undefined on input
+LaTeX Warning: Citation 'hamberger_scanning_2014' on page 24 undefined on input
  line 209.
 
 
-LaTeX Warning: Citation 'Cristofoli2018' on page 22 undefined on input line 210
+LaTeX Warning: Citation 'Cristofoli2018' on page 24 undefined on input line 210
 .
 
-[22]
+[24]
 
-LaTeX Warning: Citation 'multilayer' on page 23 undefined on input line 213.
+LaTeX Warning: Citation 'multilayer' on page 25 undefined on input line 213.
 
 
-LaTeX Warning: Citation 'CRNOVRSANIN201456' on page 23 undefined on input line 
+LaTeX Warning: Citation 'CRNOVRSANIN201456' on page 25 undefined on input line 
 213.
 
 
-LaTeX Warning: Citation 'vanVugt_2017' on page 23 undefined on input line 213.
+LaTeX Warning: Citation 'vanVugt_2017' on page 25 undefined on input line 213.
 
 
 Overfull \hbox (9.50494pt too wide) in paragraph at lines 213--214
@@ -2059,30 +1993,30 @@ Overfull \hbox (9.50494pt too wide) in paragraph at lines 213--214
  []
 
 
-LaTeX Warning: Citation 'kgraphs' on page 23 undefined on input line 214.
+LaTeX Warning: Citation 'kgraphs' on page 25 undefined on input line 214.
 
-[23]
+[25]
 
-LaTeX Warning: Citation 'Stasko' on page 24 undefined on input line 300.
+LaTeX Warning: Citation 'Stasko' on page 26 undefined on input line 300.
 
 
-LaTeX Warning: Citation 'cristofoli_aux_2008' on page 24 undefined on input lin
+LaTeX Warning: Citation 'cristofoli_aux_2008' on page 26 undefined on input lin
 e 309.
 
 
-LaTeX Warning: Citation 'valdivia_analyzing_2021' on page 24 undefined on input
+LaTeX Warning: Citation 'valdivia_analyzing_2021' on page 26 undefined on input
  line 349.
 
 
 LaTeX Warning: Citation 'penaarayaHyperStorylinesInteractivelyUntangling2022' o
-n page 24 undefined on input line 349.
+n page 26 undefined on input line 349.
 
 
-LaTeX Warning: Citation 'pister2022visual' on page 24 undefined on input line 3
+LaTeX Warning: Citation 'pister2022visual' on page 26 undefined on input line 3
 50.
 
 
-LaTeX Warning: Citation 'Cristofoli2018' on page 24 undefined on input line 350
+LaTeX Warning: Citation 'Cristofoli2018' on page 26 undefined on input line 350
 .
 
 
@@ -2094,8 +2028,8 @@ d Com-Bi-Net [[]]
 
 Underfull \vbox (badness 2189) has occurred while \output is active []
 
- [24]
-<static/figures/HSNAProcess/OriginalPaperFigures/ComBiNet.png, id=175, 3637.59p
+ [26]
+<static/figures/HSNAProcess/OriginalPaperFigures/ComBiNet.png, id=545, 3637.59p
 t x 1971.365pt>
 File: static/figures/HSNAProcess/OriginalPaperFigures/ComBiNet.png Graphic file
  (type png)
@@ -2107,7 +2041,7 @@ LaTeX Font Info:    Font shape `T1/opensans-TLF/m/sc' will be
 (Font)              scaled to size 11.39996pt on input line 358.
 
 
-LaTeX Warning: Citation 'Cristofoli2018' on page 25 undefined on input line 358
+LaTeX Warning: Citation 'Cristofoli2018' on page 27 undefined on input line 358
 .
 
 LaTeX Font Info:    Font shape `T1/opensans-TLF/b/n' will be
@@ -2115,10 +2049,10 @@ LaTeX Font Info:    Font shape `T1/opensans-TLF/b/n' will be
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/it' will be
 (Font)              scaled to size 11.39996pt on input line 358.
 
-LaTeX Warning: Citation 'Cristofoli2018' on page 25 undefined on input line 358
+LaTeX Warning: Citation 'Cristofoli2018' on page 27 undefined on input line 358
 .
 
-[25 <./static/figures/HSNAProcess/OriginalPaperFigures/ComBiNet.png>]) [26]
+[27 <./static/figures/HSNAProcess/OriginalPaperFigures/ComBiNet.png>]) [28]
 \openout2 = `chapters/PK-Clustering.aux'.
 
 
@@ -2153,16 +2087,16 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-LaTeX Warning: Citation 'Rstat' on page 27 undefined on input line 16.
+LaTeX Warning: Citation 'Rstat' on page 29 undefined on input line 16.
 
 
-LaTeX Warning: Citation 'gephi' on page 27 undefined on input line 16.
+LaTeX Warning: Citation 'gephi' on page 29 undefined on input line 16.
 
 
-LaTeX Warning: Citation 'networkx' on page 27 undefined on input line 16.
+LaTeX Warning: Citation 'networkx' on page 29 undefined on input line 16.
 
 
-LaTeX Warning: Citation 'pajek' on page 27 undefined on input line 16.
+LaTeX Warning: Citation 'pajek' on page 29 undefined on input line 16.
 
 
 ./chapters/PK-Clustering.tex:18: LaTeX Error: Environment wrapfigure undefined.
@@ -2199,7 +2133,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-<static/figures/PK-Clustering/VISPaperFigures/traditionalclustering.png, id=190
+<static/figures/PK-Clustering/VISPaperFigures/traditionalclustering.png, id=558
 , 428.09938pt x 464.73625pt>
 File: static/figures/PK-Clustering/VISPaperFigures/traditionalclustering.png Gr
 aphic file (type png)
@@ -2237,17 +2171,17 @@ or  <return>  to continue without it.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [27
+ [29
 
 
 
 
 ]
 
-LaTeX Warning: Citation 'kleinberg2003impossibility' on page 28 undefined on in
+LaTeX Warning: Citation 'kleinberg2003impossibility' on page 30 undefined on in
 put line 31.
 
-<static/figures/PK-Clustering/VISPaperFigures/pkprocess_new.png, id=197, 1031.8
+<static/figures/PK-Clustering/VISPaperFigures/pkprocess_new.png, id=563, 1031.8
 55pt x 1034.86626pt>
 File: static/figures/PK-Clustering/VISPaperFigures/pkprocess_new.png Graphic fi
 le (type png)
@@ -2255,8 +2189,8 @@ le (type png)
 Package pdftex.def Info: static/figures/PK-Clustering/VISPaperFigures/pkprocess
 _new.png  used on input line 44.
 (pdftex.def)             Requested size: 369.88583pt x 370.9567pt.
-[28 <./static/figures/PK-Clustering/VISPaperFigures/traditionalclustering.png>]
-[29 <./static/figures/PK-Clustering/VISPaperFigures/pkprocess_new.png>]
+[30 <./static/figures/PK-Clustering/VISPaperFigures/traditionalclustering.png>]
+[31 <./static/figures/PK-Clustering/VISPaperFigures/pkprocess_new.png>]
 ./chapters/PK-Clustering.tex:59: Undefined control sequence.
 l.59 \rev
          {According to the need to combine data mining with visualizations~\...
@@ -2267,11 +2201,11 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation 'Ben02DiscoveryTools' on page 30 undefined on input lin
+LaTeX Warning: Citation 'Ben02DiscoveryTools' on page 32 undefined on input lin
 e 59.
 
 
-LaTeX Warning: Citation 'Horvitz99' on page 30 undefined on input line 59.
+LaTeX Warning: Citation 'Horvitz99' on page 32 undefined on input line 59.
 
 ./chapters/PK-Clustering.tex:59: Undefined control sequence.
 l.59 ...z99}, the proposed approach follows a \rev
@@ -2283,7 +2217,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation 'Horvitz99' on page 30 undefined on input line 59.
+LaTeX Warning: Citation 'Horvitz99' on page 32 undefined on input line 59.
 
 
 Overfull \hbox (53.00754pt too wide) in paragraph at lines 59--66
@@ -2292,10 +2226,10 @@ Overfull \hbox (53.00754pt too wide) in paragraph at lines 59--66
  []
 
 
-LaTeX Warning: Citation 'molnar2019' on page 30 undefined on input line 69.
+LaTeX Warning: Citation 'molnar2019' on page 32 undefined on input line 69.
 
 
-LaTeX Warning: Reference `fig:teaser' on page 30 undefined on input line 74.
+LaTeX Warning: Reference `fig:teaser' on page 32 undefined on input line 74.
 
 
 ./chapters/PK-Clustering.tex:83: LaTeX Error: Environment comment undefined.
@@ -2310,7 +2244,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[30]
+[32]
 
 ./chapters/PK-Clustering.tex:95: LaTeX Error: \begin{document} ended by \end{co
 mment}.
@@ -2335,7 +2269,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation 'Girvan7821' on page 31 undefined on input line 110.
+LaTeX Warning: Citation 'Girvan7821' on page 33 undefined on input line 110.
 
 ./chapters/PK-Clustering.tex:112: Undefined control sequence.
 l.112 ... made only on topological algorithms, \ie
@@ -2347,7 +2281,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation 'FORTUNATO201075' on page 31 undefined on input line 11
+LaTeX Warning: Citation 'FORTUNATO201075' on page 33 undefined on input line 11
 2.
 
 ./chapters/PK-Clustering.tex:113: Undefined control sequence.
@@ -2366,19 +2300,19 @@ Overfull \hbox (40.04468pt too wide) in paragraph at lines 110--114
  []
 
 
-LaTeX Warning: Citation 'alzahrani2016community' on page 31 undefined on input 
+LaTeX Warning: Citation 'alzahrani2016community' on page 33 undefined on input 
 line 115.
 
 
-LaTeX Warning: Citation 'yang2013community' on page 31 undefined on input line 
+LaTeX Warning: Citation 'yang2013community' on page 33 undefined on input line 
 117.
 
 
-LaTeX Warning: Citation 'rossetiSurvey' on page 31 undefined on input line 117.
+LaTeX Warning: Citation 'rossetiSurvey' on page 33 undefined on input line 117.
 
 
 
-LaTeX Warning: Citation 'cdlib' on page 31 undefined on input line 117.
+LaTeX Warning: Citation 'cdlib' on page 33 undefined on input line 117.
 
 
 Overfull \hbox (75.228pt too wide) in paragraph at lines 117--118
@@ -2386,12 +2320,12 @@ Overfull \hbox (75.228pt too wide) in paragraph at lines 117--118
 es of the nodes [[]]
  []
 
-[31]
+[33]
 
-LaTeX Warning: Citation 'basu08' on page 32 undefined on input line 126.
+LaTeX Warning: Citation 'basu08' on page 34 undefined on input line 126.
 
 
-LaTeX Warning: Citation 'wagstaff2001constrained' on page 32 undefined on input
+LaTeX Warning: Citation 'wagstaff2001constrained' on page 34 undefined on input
  line 126.
 
 
@@ -2401,27 +2335,27 @@ t-link (CL) constraints [[],
  []
 
 
-LaTeX Warning: Citation 'basu02' on page 32 undefined on input line 128.
+LaTeX Warning: Citation 'basu02' on page 34 undefined on input line 128.
 
 
-LaTeX Warning: Citation 'bensaid96' on page 32 undefined on input line 128.
+LaTeX Warning: Citation 'bensaid96' on page 34 undefined on input line 128.
 
 
-LaTeX Warning: Citation 'bohm08' on page 32 undefined on input line 128.
+LaTeX Warning: Citation 'bohm08' on page 34 undefined on input line 128.
 
 
-LaTeX Warning: Citation 'lelis09' on page 32 undefined on input line 128.
+LaTeX Warning: Citation 'lelis09' on page 34 undefined on input line 128.
 
 
-LaTeX Warning: Citation 'wagstaff2001constrained' on page 32 undefined on input
+LaTeX Warning: Citation 'wagstaff2001constrained' on page 34 undefined on input
  line 128.
 
 
-LaTeX Warning: Citation 'shang2017efficiently' on page 32 undefined on input li
+LaTeX Warning: Citation 'shang2017efficiently' on page 34 undefined on input li
 ne 130.
 
 
-LaTeX Warning: Citation 'SAWANT2018' on page 32 undefined on input line 132.
+LaTeX Warning: Citation 'SAWANT2018' on page 34 undefined on input line 132.
 
 
 ./chapters/PK-Clustering.tex:138: LaTeX Error: Environment revs undefined.
@@ -2437,7 +2371,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-LaTeX Warning: Citation 'Horvitz99' on page 32 undefined on input line 141.
+LaTeX Warning: Citation 'Horvitz99' on page 34 undefined on input line 141.
 
 ./chapters/PK-Clustering.tex:141: Undefined control sequence.
 l.141 ...sed on mixed-initiative interactions, \eg
@@ -2449,19 +2383,19 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation 'makonin16' on page 32 undefined on input line 141.
+LaTeX Warning: Citation 'makonin16' on page 34 undefined on input line 141.
 
 
-LaTeX Warning: Citation 'cook15' on page 32 undefined on input line 141.
+LaTeX Warning: Citation 'cook15' on page 34 undefined on input line 141.
 
 
-LaTeX Warning: Citation 'zhou13' on page 32 undefined on input line 141.
+LaTeX Warning: Citation 'zhou13' on page 34 undefined on input line 141.
 
 
-LaTeX Warning: Citation 'wall18' on page 32 undefined on input line 141.
+LaTeX Warning: Citation 'wall18' on page 34 undefined on input line 141.
 
 
-LaTeX Warning: Citation 'baeetal20' on page 32 undefined on input line 144.
+LaTeX Warning: Citation 'baeetal20' on page 34 undefined on input line 144.
 
 ./chapters/PK-Clustering.tex:146: Undefined control sequence.
 l.146 ...lication. Several such systems exist (\eg
@@ -2473,11 +2407,11 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation 'cavallo2018clustrophile' on page 32 undefined on input
+LaTeX Warning: Citation 'cavallo2018clustrophile' on page 34 undefined on input
  line 146.
 
 
-LaTeX Warning: Citation 'l2015xclusim' on page 32 undefined on input line 146.
+LaTeX Warning: Citation 'l2015xclusim' on page 34 undefined on input line 146.
 
 
 Overfull \hbox (18.64206pt too wide) in paragraph at lines 144--152
@@ -2499,7 +2433,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[32]
+[34]
 ./chapters/PK-Clustering.tex:164: Undefined control sequence.
 l.164 \rev
           {
@@ -2510,21 +2444,21 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation 'EVstar.groupstructures15' on page 33 undefined on inpu
+LaTeX Warning: Citation 'EVstar.groupstructures15' on page 35 undefined on inpu
 t line 166.
 
 
-LaTeX Warning: Citation 'Jianu14' on page 33 undefined on input line 167.
+LaTeX Warning: Citation 'Jianu14' on page 35 undefined on input line 167.
 
 
-LaTeX Warning: Citation 'Saket14' on page 33 undefined on input line 171.
+LaTeX Warning: Citation 'Saket14' on page 35 undefined on input line 171.
 
 
-LaTeX Warning: Citation 'Holten2006HierEdgeBundles' on page 33 undefined on inp
+LaTeX Warning: Citation 'Holten2006HierEdgeBundles' on page 35 undefined on inp
 ut line 174.
 
 
-LaTeX Warning: Citation 'proulx06sandbox' on page 33 undefined on input line 17
+LaTeX Warning: Citation 'proulx06sandbox' on page 35 undefined on input line 17
 7.
 
 ./chapters/PK-Clustering.tex:177: Undefined control sequence.
@@ -2537,11 +2471,11 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation 'kosara2006parallel' on page 33 undefined on input line
+LaTeX Warning: Citation 'kosara2006parallel' on page 35 undefined on input line
  177.
 
 
-LaTeX Warning: Citation 'gratzl2014domino' on page 33 undefined on input line 1
+LaTeX Warning: Citation 'gratzl2014domino' on page 35 undefined on input line 1
 77.
 
 
@@ -2555,20 +2489,20 @@ Overfull \hbox (2.15816pt too wide) in paragraph at lines 174--178
  []
 
 
-LaTeX Warning: Citation 'wang08' on page 33 undefined on input line 184.
+LaTeX Warning: Citation 'wang08' on page 35 undefined on input line 184.
 
 
-LaTeX Warning: Citation 'strehl2002cluster' on page 33 undefined on input line 
+LaTeX Warning: Citation 'strehl2002cluster' on page 35 undefined on input line 
 184.
 
 
-LaTeX Warning: Citation 'kumpf18' on page 33 undefined on input line 185.
+LaTeX Warning: Citation 'kumpf18' on page 35 undefined on input line 185.
 
 
-LaTeX Warning: Citation 'Bonneau2014' on page 33 undefined on input line 185.
+LaTeX Warning: Citation 'Bonneau2014' on page 35 undefined on input line 185.
 
 
-LaTeX Warning: Citation 'maceachren05' on page 33 undefined on input line 185.
+LaTeX Warning: Citation 'maceachren05' on page 35 undefined on input line 185.
 
 ./chapters/PK-Clustering.tex:188: Undefined control sequence.
 l.188 \rev
@@ -2579,7 +2513,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[33]
+[35]
 ./chapters/PK-Clustering.tex:211: Undefined control sequence.
 l.211 ...r prototype is implemented in the \paovis
                                                    tool~\cite{paohvis} which...
@@ -2590,7 +2524,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation 'paohvis' on page 34 undefined on input line 211.
+LaTeX Warning: Citation 'paohvis' on page 36 undefined on input line 211.
 
 ./chapters/PK-Clustering.tex:226: Undefined control sequence.
 l.226 ...y specify the PK by defining  groups, \ie
@@ -2610,7 +2544,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[34]
+[36]
 ./chapters/PK-Clustering.tex:234: Undefined control sequence.
 l.234 ... the graph visualization  (in the \paovis
                                                    display in our prototype)
@@ -2655,8 +2589,8 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-<static/figures/PK-Clustering/VISPaperFigures/Small-PK_specification.png, id=25
-4, 285.065pt x 193.72375pt>
+<static/figures/PK-Clustering/VISPaperFigures/Small-PK_specification.png, id=61
+2, 285.065pt x 193.72375pt>
 File: static/figures/PK-Clustering/VISPaperFigures/Small-PK_specification.png G
 raphic file (type png)
 <use static/figures/PK-Clustering/VISPaperFigures/Small-PK_specification.png>
@@ -2698,7 +2632,7 @@ Overfull \hbox (37.64702pt too wide) in paragraph at lines 247--253
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [35]
+ [37]
 ./chapters/PK-Clustering.tex:279: Undefined control sequence.
 l.279 ...eir type. For categorical attributes (\eg
                                                    male / female) it finds m...
@@ -2717,23 +2651,23 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[36 <./static/figures/PK-Clustering/VISPaperFigures/Small-PK_specification.png>
+[38 <./static/figures/PK-Clustering/VISPaperFigures/Small-PK_specification.png>
 ]
 
-LaTeX Warning: Citation 'baroni17' on page 37 undefined on input line 283.
+LaTeX Warning: Citation 'baroni17' on page 39 undefined on input line 283.
 
 
-LaTeX Warning: Citation 'brandes08' on page 37 undefined on input line 283.
+LaTeX Warning: Citation 'brandes08' on page 39 undefined on input line 283.
 
 
-LaTeX Warning: Citation 'coClustering' on page 37 undefined on input line 313.
+LaTeX Warning: Citation 'coClustering' on page 39 undefined on input line 313.
 
 
-LaTeX Warning: Citation 'bipartiteProjection' on page 37 undefined on input lin
+LaTeX Warning: Citation 'bipartiteProjection' on page 39 undefined on input lin
 e 313.
 
 
-LaTeX Warning: Citation 'guimera2007module' on page 37 undefined on input line 
+LaTeX Warning: Citation 'guimera2007module' on page 39 undefined on input line 
 313.
 
 
@@ -2759,7 +2693,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation '6876043' on page 37 undefined on input line 320.
+LaTeX Warning: Citation '6876043' on page 39 undefined on input line 320.
 
 
 ./chapters/PK-Clustering.tex:326: LaTeX Error: \begin{document} ended by \end{r
@@ -2778,7 +2712,7 @@ or  <return>  to continue without it.
 
 Underfull \vbox (badness 4819) has occurred while \output is active []
 
- [37]
+ [39]
 ./chapters/PK-Clustering.tex:340: Undefined control sequence.
 l.340 ... is a subset of an exclusive cluster, \ie
                                                    if every person of a PK-g...
@@ -2789,7 +2723,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation 'Assignment' on page 38 undefined on input line 346.
+LaTeX Warning: Citation 'Assignment' on page 40 undefined on input line 346.
 
 ./chapters/PK-Clustering.tex:348: Undefined control sequence.
 l.348 ...of the sets of the second partition), \ie
@@ -2835,7 +2769,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-<static/figures/PK-Clustering/VISPaperFigures/bipartiteMatching.png, id=279, 11
+<static/figures/PK-Clustering/VISPaperFigures/bipartiteMatching.png, id=635, 11
 32.23pt x 518.93875pt>
 File: static/figures/PK-Clustering/VISPaperFigures/bipartiteMatching.png Graphi
 c file (type png)
@@ -2874,7 +2808,7 @@ Overfull \hbox (37.64702pt too wide) in paragraph at lines 351--358
 []\T1/cmss/m/n/10.95 r0.5 []
  []
 
-[38 <./static/figures/PK-Clustering/VISPaperFigures/bipartiteMatching.png>]
+[40 <./static/figures/PK-Clustering/VISPaperFigures/bipartiteMatching.png>]
 ./chapters/PK-Clustering.tex:378: Undefined control sequence.
 l.378 \rev
           {
@@ -2903,7 +2837,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `fig:teaser' on page 39 undefined on input line 395.
+LaTeX Warning: Reference `fig:teaser' on page 41 undefined on input line 395.
 
 
 ./chapters/PK-Clustering.tex:398: LaTeX Error: Environment wrapfigure undefined
@@ -2940,7 +2874,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-<static/figures/PK-Clustering/VISPaperFigures/matchingExampleFinal.png, id=288,
+<static/figures/PK-Clustering/VISPaperFigures/matchingExampleFinal.png, id=643,
  880.28876pt x 669.50125pt>
 File: static/figures/PK-Clustering/VISPaperFigures/matchingExampleFinal.png Gra
 phic file (type png)
@@ -2983,7 +2917,7 @@ Overfull \hbox (35.22923pt too wide) in paragraph at lines 398--405
 
 Underfull \vbox (badness 6658) has occurred while \output is active []
 
- [39]
+ [41]
 ./chapters/PK-Clustering.tex:429: Undefined control sequence.
 l.429 the \textit{degree of matching} (\ie
                                            they can choose to look at algori...
@@ -2993,7 +2927,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[40 <./static/figures/PK-Clustering/VISPaperFigures/matchingExampleFinal.png>]
+[42 <./static/figures/PK-Clustering/VISPaperFigures/matchingExampleFinal.png>]
 
 ./chapters/PK-Clustering.tex:435: LaTeX Error: Environment revs undefined.
 
@@ -3049,10 +2983,10 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation 'paohvis' on page 41 undefined on input line 451.
+LaTeX Warning: Citation 'paohvis' on page 43 undefined on input line 451.
 
 
-LaTeX Warning: Citation 'lex2014upset' on page 41 undefined on input line 451.
+LaTeX Warning: Citation 'lex2014upset' on page 43 undefined on input line 451.
 
 ./chapters/PK-Clustering.tex:451: Undefined control sequence.
 l.451 ...h as node link diagrams---but the \paovis
@@ -3073,7 +3007,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `fig:teaser' on page 41 undefined on input line 464.
+LaTeX Warning: Reference `fig:teaser' on page 43 undefined on input line 464.
 
 ./chapters/PK-Clustering.tex:464: Undefined control sequence.
 l.464 ...overall context). By default, the \paovis
@@ -3087,8 +3021,8 @@ and I'll forget about whatever was undefined.
 
 Underfull \vbox (badness 5359) has occurred while \output is active []
 
- [41]
-<static/figures/PK-Clustering/VISPaperFigures/Small-initial.png, id=314, 992.20
+ [43]
+<static/figures/PK-Clustering/VISPaperFigures/Small-initial.png, id=665, 992.20
 688pt x 442.65375pt>
 File: static/figures/PK-Clustering/VISPaperFigures/Small-initial.png Graphic fi
 le (type png)
@@ -3096,7 +3030,7 @@ le (type png)
 Package pdftex.def Info: static/figures/PK-Clustering/VISPaperFigures/Small-ini
 tial.png  used on input line 476.
 (pdftex.def)             Requested size: 369.88583pt x 165.01535pt.
-<static/figures/PK-Clustering/VISPaperFigures/Small-validating.png, id=315, 955
+<static/figures/PK-Clustering/VISPaperFigures/Small-validating.png, id=666, 955
 .06813pt x 441.65pt>
 File: static/figures/PK-Clustering/VISPaperFigures/Small-validating.png Graphic
  file (type png)
@@ -3114,7 +3048,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[42] [43 <./static/figures/PK-Clustering/VISPaperFigures/Small-initial.png> <./
+[44] [45 <./static/figures/PK-Clustering/VISPaperFigures/Small-initial.png> <./
 static/figures/PK-Clustering/VISPaperFigures/Small-validating.png>]
 ./chapters/PK-Clustering.tex:500: Undefined control sequence.
 l.500 ...n users can validate the suggestions \rev
@@ -3126,7 +3060,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `fig:teaser' on page 44 undefined on input line 500.
+LaTeX Warning: Reference `fig:teaser' on page 46 undefined on input line 500.
 
 ./chapters/PK-Clustering.tex:528: Undefined control sequence.
 l.528 ...a new color is given to that cluster (\eg
@@ -3137,8 +3071,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<static/figures/PK-Clustering/VISPaperFigures/Small-extraClusters-01.png, id=33
-3, 1008.4074pt x 658.6206pt>
+<static/figures/PK-Clustering/VISPaperFigures/Small-extraClusters-01.png, id=68
+4, 1008.4074pt x 658.6206pt>
 File: static/figures/PK-Clustering/VISPaperFigures/Small-extraClusters-01.png G
 raphic file (type png)
 <use static/figures/PK-Clustering/VISPaperFigures/Small-extraClusters-01.png>
@@ -3159,7 +3093,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 <static/figures/PK-Clustering/VISPaperFigures/Small-multivis_distribution_conse
-nsus.png, id=334, 581.67313pt x 84.315pt>
+nsus.png, id=685, 581.67313pt x 84.315pt>
 File: static/figures/PK-Clustering/VISPaperFigures/Small-multivis_distribution_
 consensus.png Graphic file (type png)
 <use static/figures/PK-Clustering/VISPaperFigures/Small-multivis_distribution_c
@@ -3214,7 +3148,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<static/figures/PK-Clustering/VISPaperFigures/Small-FinalPartition.png, id=335,
+<static/figures/PK-Clustering/VISPaperFigures/Small-FinalPartition.png, id=686,
  1000.23688pt x 448.17438pt>
 File: static/figures/PK-Clustering/VISPaperFigures/Small-FinalPartition.png Gra
 phic file (type png)
@@ -3222,11 +3156,7 @@ phic file (type png)
 Package pdftex.def Info: static/figures/PK-Clustering/VISPaperFigures/Small-Fin
 alPartition.png  used on input line 558.
 (pdftex.def)             Requested size: 369.88583pt x 165.73302pt.
-
-LaTeX Warning: Reference `fig:extendedPartialConsolidatedDataset' on page 44 un
-defined on input line 568.
-
-[44] [45 <./static/figures/PK-Clustering/VISPaperFigures/Small-extraClusters-01
+[46] [47 <./static/figures/PK-Clustering/VISPaperFigures/Small-extraClusters-01
 .png (PNG copy)>]
 
 ./chapters/PK-Clustering.tex:578: LaTeX Error: Environment revs undefined.
@@ -3266,16 +3196,16 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[46 <./static/figures/PK-Clustering/VISPaperFigures/Small-multivis_distribution
+[48 <./static/figures/PK-Clustering/VISPaperFigures/Small-multivis_distribution
 _consensus.png>]
 
-LaTeX Warning: Citation 'Dufournaud17' on page 47 undefined on input line 603.
+LaTeX Warning: Citation 'Dufournaud17' on page 49 undefined on input line 603.
 
 
-LaTeX Warning: Reference `fig:teaser' on page 47 undefined on input line 616.
+LaTeX Warning: Reference `fig:teaser' on page 49 undefined on input line 616.
 
 
-LaTeX Warning: Reference `fig:teaser' on page 47 undefined on input line 618.
+LaTeX Warning: Reference `fig:teaser' on page 49 undefined on input line 618.
 
 
 ./chapters/PK-Clustering.tex:620: LaTeX Error: Environment comment undefined.
@@ -3325,15 +3255,15 @@ or  <return>  to continue without it.
 
 Underfull \vbox (badness 1072) has occurred while \output is active []
 
- [47 <./static/figures/PK-Clustering/VISPaperFigures/Small-FinalPartition.png>]
+ [49 <./static/figures/PK-Clustering/VISPaperFigures/Small-FinalPartition.png>]
 
 
-LaTeX Warning: Reference `fig:teaser' on page 48 undefined on input line 631.
+LaTeX Warning: Reference `fig:teaser' on page 50 undefined on input line 631.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [48]
+ [50]
 ./chapters/PK-Clustering.tex:634: Undefined control sequence.
 l.634 ...p article validating her hypotheses. \rev
                                                   {The summary report will h...
@@ -3424,8 +3354,8 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<static/figures/PK-Clustering/VISPaperFigures/Vast_PK_Clustering_View.png, id=3
-71, 1857.94125pt x 674.52pt>
+<static/figures/PK-Clustering/VISPaperFigures/Vast_PK_Clustering_View.png, id=7
+20, 1857.94125pt x 674.52pt>
 File: static/figures/PK-Clustering/VISPaperFigures/Vast_PK_Clustering_View.png 
 Graphic file (type png)
 <use static/figures/PK-Clustering/VISPaperFigures/Vast_PK_Clustering_View.png>
@@ -3433,7 +3363,7 @@ Package pdftex.def Info: static/figures/PK-Clustering/VISPaperFigures/Vast_PK_C
 lustering_View.png  used on input line 675.
 (pdftex.def)             Requested size: 369.88583pt x 134.28406pt.
 
-LaTeX Warning: Citation 'infovisfaq' on page 49 undefined on input line 683.
+LaTeX Warning: Citation 'infovisfaq' on page 51 undefined on input line 683.
 
 
 ./chapters/PK-Clustering.tex:684: LaTeX Error: Environment itemize* undefined.
@@ -3554,22 +3484,14 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-LaTeX Warning: Citation 'VisPubData' on page 49 undefined on input line 692.
+LaTeX Warning: Citation 'VisPubData' on page 51 undefined on input line 692.
 
 
-LaTeX Warning: Reference `fig:Vast_PK_Clustering_View' on page 49 undefined on 
-input line 696.
+LaTeX Warning: Citation 'VisMaster' on page 51 undefined on input line 700.
 
-
-LaTeX Warning: Reference `fig:vast_some_consolidated_groups' on page 49 undefin
-ed on input line 700.
-
-
-LaTeX Warning: Citation 'VisMaster' on page 49 undefined on input line 700.
-
-[49] [50]
+[51] [52]
 <static/figures/PK-Clustering/VISPaperFigures/vast_some_consolidated_groups.png
-, id=382, 1510.6839pt x 916.3836pt>
+, id=734, 1510.6839pt x 916.3836pt>
 File: static/figures/PK-Clustering/VISPaperFigures/vast_some_consolidated_group
 s.png Graphic file (type png)
 <use static/figures/PK-Clustering/VISPaperFigures/vast_some_consolidated_groups
@@ -3577,8 +3499,8 @@ s.png Graphic file (type png)
 Package pdftex.def Info: static/figures/PK-Clustering/VISPaperFigures/vast_some
 _consolidated_groups.png  used on input line 714.
 (pdftex.def)             Requested size: 369.88583pt x 224.36913pt.
- [51 <./static/figures/PK-Clustering/VISPaperFigures/Vast_PK_Clustering_View.pn
-g>] [52 <./static/figures/PK-Clustering/VISPaperFigures/vast_some_consolidated_
+ [53 <./static/figures/PK-Clustering/VISPaperFigures/Vast_PK_Clustering_View.pn
+g>] [54 <./static/figures/PK-Clustering/VISPaperFigures/vast_some_consolidated_
 groups.png (PNG copy)>]
 ./chapters/PK-Clustering.tex:747: Undefined control sequence.
 l.747 ...explanations are more understandable, \eg
@@ -3611,7 +3533,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[53]
+[55]
 
 ./chapters/PK-Clustering.tex:769: LaTeX Error: \begin{document} ended by \end{r
 evs}.
@@ -3649,12 +3571,6 @@ LaTeX Font Info:    Trying to load font information for TS1+cmss on input line
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmss.fd
 File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-
-LaTeX Warning: Reference `sud:MB' on page 54 undefined on input line 787.
-
-
-LaTeX Warning: Reference `sud:VAST' on page 54 undefined on input line 788.
-
 ./chapters/PK-Clustering.tex:789: Undefined control sequence.
 l.789 ...d social scientists carefully curate (\ie
                                                    50--500 nodes).}
@@ -3664,9 +3580,9 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[54]
+[56]
 
-LaTeX Warning: Citation 'Progressive' on page 55 undefined on input line 794.
+LaTeX Warning: Citation 'Progressive' on page 57 undefined on input line 794.
 
 ./chapters/PK-Clustering.tex:796: Undefined control sequence.
 l.796 ...ions between the proposed clusters.  \rev
@@ -3687,15 +3603,15 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation 'keim2000pixel' on page 55 undefined on input line 796.
+LaTeX Warning: Citation 'keim2000pixel' on page 57 undefined on input line 796.
 
 
 
-LaTeX Warning: Citation 'Jakobsen06-fisheye' on page 55 undefined on input line
+LaTeX Warning: Citation 'Jakobsen06-fisheye' on page 57 undefined on input line
  798.
 
 
-LaTeX Warning: Citation 'rao94' on page 55 undefined on input line 798.
+LaTeX Warning: Citation 'rao94' on page 57 undefined on input line 798.
 
 ./chapters/PK-Clustering.tex:803: Undefined control sequence.
 l.803 In this article, we introduced a new \rev
@@ -3715,15 +3631,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-) [55]
+) [57] [58]
 \openout2 = `chapters/ComBiNet.aux'.
 
- (./chapters/ComBiNet.tex [56
-
-
-
-
-]
+ (./chapters/ComBiNet.tex
 Chapitre 5.
 
 Overfull \hbox (3.36989pt too wide) in paragraph at lines 1--1
@@ -3731,19 +3642,19 @@ Overfull \hbox (3.36989pt too wide) in paragraph at lines 1--1
  []
 
 
-LaTeX Warning: Citation 'wetherell_historical_1998' on page 57 undefined on inp
+LaTeX Warning: Citation 'wetherell_historical_1998' on page 59 undefined on inp
 ut line 7.
 
 
-LaTeX Warning: Citation 'grandjean_analisi_2017' on page 57 undefined on input 
+LaTeX Warning: Citation 'grandjean_analisi_2017' on page 59 undefined on input 
 line 11.
 
 
-LaTeX Warning: Citation 'rossi_exploration_2014' on page 57 undefined on input 
+LaTeX Warning: Citation 'rossi_exploration_2014' on page 59 undefined on input 
 line 11.
 
 
-LaTeX Warning: Citation 'shafie_hypergraph_2017' on page 57 undefined on input 
+LaTeX Warning: Citation 'shafie_hypergraph_2017' on page 59 undefined on input 
 line 11.
 
 
@@ -3752,18 +3663,23 @@ Overfull \hbox (11.23381pt too wide) in paragraph at lines 9--12
  []
 
 
-LaTeX Warning: Citation 'cristofoli_aux_2008' on page 57 undefined on input lin
+LaTeX Warning: Citation 'cristofoli_aux_2008' on page 59 undefined on input lin
 e 14.
 
-[57]
-
-LaTeX Warning: Citation 'Gephi' on page 58 undefined on input line 16.
+[59
 
 
-LaTeX Warning: Citation 'NodeXL' on page 58 undefined on input line 16.
 
 
-LaTeX Warning: Citation 'neo4j' on page 58 undefined on input line 25.
+]
+
+LaTeX Warning: Citation 'Gephi' on page 60 undefined on input line 16.
+
+
+LaTeX Warning: Citation 'NodeXL' on page 60 undefined on input line 16.
+
+
+LaTeX Warning: Citation 'neo4j' on page 60 undefined on input line 25.
 
 ./chapters/ComBiNet.tex:27: Undefined control sequence.
 l.27 \name
@@ -3795,9 +3711,9 @@ and I'll forget about whatever was undefined.
 
 Underfull \vbox (badness 2035) has occurred while \output is active []
 
- [58]
+ [60]
 
-LaTeX Warning: Citation 'freeman2004development' on page 59 undefined on input 
+LaTeX Warning: Citation 'freeman2004development' on page 61 undefined on input 
 line 64.
 
 
@@ -3807,86 +3723,86 @@ sing stan-dard graphs [[]],
  []
 
 
-LaTeX Warning: Citation 'STARDynGraphs' on page 59 undefined on input line 74.
+LaTeX Warning: Citation 'STARDynGraphs' on page 61 undefined on input line 74.
 
 
-LaTeX Warning: Citation 'neo4j' on page 59 undefined on input line 81.
+LaTeX Warning: Citation 'neo4j' on page 61 undefined on input line 81.
 
-[59]
+[61]
 
-LaTeX Warning: Citation 'FOAF2007' on page 60 undefined on input line 83.
-
-
-LaTeX Warning: Citation 'sparql' on page 60 undefined on input line 84.
+LaTeX Warning: Citation 'FOAF2007' on page 62 undefined on input line 83.
 
 
-LaTeX Warning: Citation 'hamberger:halshs-00658667' on page 60 undefined on inp
+LaTeX Warning: Citation 'sparql' on page 62 undefined on input line 84.
+
+
+LaTeX Warning: Citation 'hamberger:halshs-00658667' on page 62 undefined on inp
 ut line 86.
 
 
-LaTeX Warning: Citation 'gedcom' on page 60 undefined on input line 86.
+LaTeX Warning: Citation 'gedcom' on page 62 undefined on input line 86.
 
 
-LaTeX Warning: Citation 'PUCK' on page 60 undefined on input line 86.
+LaTeX Warning: Citation 'PUCK' on page 62 undefined on input line 86.
 
 
-LaTeX Warning: Citation 'Gephi' on page 60 undefined on input line 90.
+LaTeX Warning: Citation 'Gephi' on page 62 undefined on input line 90.
 
 
-LaTeX Warning: Citation 'batagelj_pajek_nodate' on page 60 undefined on input l
+LaTeX Warning: Citation 'batagelj_pajek_nodate' on page 62 undefined on input l
 ine 90.
 
 
-LaTeX Warning: Citation 'ucinet' on page 60 undefined on input line 90.
+LaTeX Warning: Citation 'ucinet' on page 62 undefined on input line 90.
 
 
-LaTeX Warning: Citation 'NodeXL' on page 60 undefined on input line 90.
+LaTeX Warning: Citation 'NodeXL' on page 62 undefined on input line 90.
 
 
-LaTeX Warning: Citation 'vistorian' on page 60 undefined on input line 91.
+LaTeX Warning: Citation 'vistorian' on page 62 undefined on input line 91.
 
 
-LaTeX Warning: Citation 'valdivia:hal-02264960' on page 60 undefined on input l
+LaTeX Warning: Citation 'valdivia:hal-02264960' on page 62 undefined on input l
 ine 91.
 
 
-LaTeX Warning: Citation 'GeneaQuilts' on page 60 undefined on input line 92.
+LaTeX Warning: Citation 'GeneaQuilts' on page 62 undefined on input line 92.
 
-[60]
+[62]
 
-LaTeX Warning: Citation 'DBLP:journals/ivs/GorgLS14' on page 61 undefined on in
+LaTeX Warning: Citation 'DBLP:journals/ivs/GorgLS14' on page 63 undefined on in
 put line 94.
 
 
-LaTeX Warning: Citation 'valdivia:hal-02264960' on page 61 undefined on input l
+LaTeX Warning: Citation 'valdivia:hal-02264960' on page 63 undefined on input l
 ine 96.
 
 
-LaTeX Warning: Citation 'RStat' on page 61 undefined on input line 106.
+LaTeX Warning: Citation 'RStat' on page 63 undefined on input line 106.
 
 
-LaTeX Warning: Citation 'Python' on page 61 undefined on input line 106.
+LaTeX Warning: Citation 'Python' on page 63 undefined on input line 106.
 
 
-LaTeX Warning: Citation 'igraph' on page 61 undefined on input line 106.
+LaTeX Warning: Citation 'igraph' on page 63 undefined on input line 106.
 
 
-LaTeX Warning: Citation 'NetworkX' on page 61 undefined on input line 106.
+LaTeX Warning: Citation 'NetworkX' on page 63 undefined on input line 106.
 
 
-LaTeX Warning: Citation 'chau_graphite_2008' on page 61 undefined on input line
+LaTeX Warning: Citation 'chau_graphite_2008' on page 63 undefined on input line
  114.
 
 
-LaTeX Warning: Citation 'cuenca_vertigo_2021' on page 61 undefined on input lin
+LaTeX Warning: Citation 'cuenca_vertigo_2021' on page 63 undefined on input lin
 e 114.
 
 
-LaTeX Warning: Citation 'shadoan_visual_2013' on page 61 undefined on input lin
+LaTeX Warning: Citation 'shadoan_visual_2013' on page 63 undefined on input lin
 e 114.
 
 
-LaTeX Warning: Citation 'pienta_vigor_2018' on page 61 undefined on input line 
+LaTeX Warning: Citation 'pienta_vigor_2018' on page 63 undefined on input line 
 114.
 
 
@@ -3896,22 +3812,22 @@ ea-ver [[]]
  []
 
 
-LaTeX Warning: Citation 'gleicher_visual_2011' on page 61 undefined on input li
+LaTeX Warning: Citation 'gleicher_visual_2011' on page 63 undefined on input li
 ne 132.
 
-[61]
+[63]
 
-LaTeX Warning: Citation 'andrews_visual_2009' on page 62 undefined on input lin
+LaTeX Warning: Citation 'andrews_visual_2009' on page 64 undefined on input lin
 e 135.
 
 
-LaTeX Warning: Citation 'ManyNets' on page 62 undefined on input line 137.
+LaTeX Warning: Citation 'ManyNets' on page 64 undefined on input line 137.
 
 
-LaTeX Warning: Citation 'HascoetD12' on page 62 undefined on input line 139.
+LaTeX Warning: Citation 'HascoetD12' on page 64 undefined on input line 139.
 
 
-LaTeX Warning: Citation 'tovanich_vast_2021' on page 62 undefined on input line
+LaTeX Warning: Citation 'tovanich_vast_2021' on page 64 undefined on input line
  140.
 
 
@@ -3931,10 +3847,10 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation 'Cristofoli2018' on page 62 undefined on input line 194
+LaTeX Warning: Citation 'Cristofoli2018' on page 64 undefined on input line 194
 .
 
-[62] [63]
+[64] [65]
 ./chapters/ComBiNet.tex:216: Undefined control sequence.
 <argument> ...f a french family between the 17\ts 
                                                   {th}--20\ts {th} centuries...
@@ -4041,10 +3957,10 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation 'moutoukias2016buenos' on page 64 undefined on input li
+LaTeX Warning: Citation 'moutoukias2016buenos' on page 66 undefined on input li
 ne 237.
 
-[64]
+[66]
 Overfull \hbox (1.38724pt too wide) in paragraph at lines 243--244
 []\T1/cmss/m/n/10.95 Select mar-riages with spouses and wit-nesses, where the s
 pouse
@@ -4063,7 +3979,7 @@ ires ?
  []
 
 
-LaTeX Warning: Citation 'diminescu:hal-02556007' on page 65 undefined on input 
+LaTeX Warning: Citation 'diminescu:hal-02556007' on page 67 undefined on input 
 line 252.
 
 
@@ -4148,10 +4064,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-
-LaTeX Warning: Reference `tab:tasks' on page 65 undefined on input line 332.
-
-[65] [66]
+[67] [68]
 ./chapters/ComBiNet.tex:346: Undefined control sequence.
 <argument> The \name 
                      System
@@ -4215,7 +4128,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `fig:teaser' on page 67 undefined on input line 348.
+LaTeX Warning: Reference `fig:teaser' on page 69 undefined on input line 348.
 
 ./chapters/ComBiNet.tex:352: Undefined control sequence.
 l.352 \name
@@ -4227,15 +4140,15 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation 'Gephi' on page 67 undefined on input line 355.
+LaTeX Warning: Citation 'Gephi' on page 69 undefined on input line 355.
 
 
-LaTeX Warning: Citation 'batagelj_pajek_nodate' on page 67 undefined on input l
+LaTeX Warning: Citation 'batagelj_pajek_nodate' on page 69 undefined on input l
 ine 355.
 
-[67]
+[69]
 
-LaTeX Warning: Reference `fig:teaser' on page 68 undefined on input line 374.
+LaTeX Warning: Reference `fig:teaser' on page 70 undefined on input line 374.
 
 ./chapters/ComBiNet.tex:384: Undefined control sequence.
 l.384 ... features and interactions allowing \name
@@ -4246,24 +4159,11 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[68]
-
-LaTeX Warning: Reference `fig:linkTypes' on page 69 undefined on input line 390
-.
-
-
-LaTeX Warning: Reference `fig:linkTypes' on page 69 undefined on input line 390
-.
-
-
+[70]
 Overfull \hbox (0.79759pt too wide) in paragraph at lines 388--391
 \T1/cmss/m/n/10.95 build a sub-graph query gra-phi-cally, which re-pre-sents a 
 to-po-lo-gi-cal constraint (T2.1).
  []
-
-
-LaTeX Warning: Reference `fig:linkTypes' on page 69 undefined on input line 406
-.
 
 
 ./chapters/ComBiNet.tex:410: LaTeX Error: Environment overpic undefined.
@@ -4321,14 +4221,11 @@ ures/links/allLinks.pdf
  []
 
 
-LaTeX Warning: Citation 'DynamicQueries' on page 69 undefined on input line 444
+LaTeX Warning: Citation 'DynamicQueries' on page 71 undefined on input line 444
 .
 
-[69]
-
-LaTeX Warning: Reference `fig:widgets' on page 70 undefined on input line 452.
-
-<static/figures/ComBiNet/OriginalPaperFigures/constraintRegion.png, id=496, 815
+[71]
+<static/figures/ComBiNet/OriginalPaperFigures/constraintRegion.png, id=837, 815
 .045pt x 402.50375pt>
 File: static/figures/ComBiNet/OriginalPaperFigures/constraintRegion.png Graphic
  file (type png)
@@ -4336,7 +4233,7 @@ File: static/figures/ComBiNet/OriginalPaperFigures/constraintRegion.png Graphic
 Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/constrain
 tRegion.png  used on input line 456.
 (pdftex.def)             Requested size: 221.93375pt x 109.59871pt.
-<static/figures/ComBiNet/OriginalPaperFigures/nominalWidget.png, id=497, 737.75
+<static/figures/ComBiNet/OriginalPaperFigures/nominalWidget.png, id=838, 737.75
 626pt x 143.53625pt>
 File: static/figures/ComBiNet/OriginalPaperFigures/nominalWidget.png Graphic fi
 le (type png)
@@ -4344,7 +4241,7 @@ le (type png)
 Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/nominalWi
 dget.png  used on input line 458.
 (pdftex.def)             Requested size: 221.93375pt x 43.17728pt.
-<static/figures/ComBiNet/OriginalPaperFigures/numericWidget.png, id=498, 737.75
+<static/figures/ComBiNet/OriginalPaperFigures/numericWidget.png, id=839, 737.75
 626pt x 177.66376pt>
 File: static/figures/ComBiNet/OriginalPaperFigures/numericWidget.png Graphic fi
 le (type png)
@@ -4353,13 +4250,11 @@ Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/numericWi
 dget.png  used on input line 459.
 (pdftex.def)             Requested size: 221.93375pt x 53.4432pt.
 
-LaTeX Warning: Reference `fig:widgets' on page 70 undefined on input line 465.
 
-
-LaTeX Warning: Citation 'fekete2019progressive' on page 70 undefined on input l
+LaTeX Warning: Citation 'fekete2019progressive' on page 72 undefined on input l
 ine 482.
 
-[70]
+[72]
 
 ./chapters/ComBiNet.tex:510: LaTeX Error: Environment subfigure undefined.
 
@@ -4394,8 +4289,8 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/apprGuar.png, id=5
-07, 833.1125pt x 875.27pt>
+<static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/apprGuar.png, id=8
+49, 833.1125pt x 875.27pt>
 File: static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/apprGuar.png 
 Graphic file (type png)
 <use static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/apprGuar.png>
@@ -4450,8 +4345,8 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/barchart.pdf, id=5
-08, 256.96pt x 242.9075pt>
+<static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/barchart.pdf, id=8
+50, 256.96pt x 242.9075pt>
 File: static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/barchart.pdf 
 Graphic file (type pdf)
 <use static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/barchart.pdf>
@@ -4507,7 +4402,7 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 <static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/sankey_bigger.pdf,
- id=509, 541.02126pt x 303.1325pt>
+ id=851, 541.02126pt x 303.1325pt>
 File: static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/sankey_bigger
 .pdf Graphic file (type pdf)
 <use static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/sankey_bigger.
@@ -4538,15 +4433,9 @@ LaTeX Font Info:    Font shape `T1/opensans-TLF/m/it' will be
 
 LaTeX Warning: Float too large for page by 619.85156pt on input line 526.
 
-
-LaTeX Warning: Reference `fig:sankeys' on page 71 undefined on input line 531.
-
-
-LaTeX Warning: Reference `fig:sankeys' on page 71 undefined on input line 533.
-
-[71 <./static/figures/ComBiNet/OriginalPaperFigures/constraintRegion.png> <./st
+[73 <./static/figures/ComBiNet/OriginalPaperFigures/constraintRegion.png> <./st
 atic/figures/ComBiNet/OriginalPaperFigures/nominalWidget.png> <./static/figures
-/ComBiNet/OriginalPaperFigures/numericWidget.png>] [72 <./static/figures/ComBiN
+/ComBiNet/OriginalPaperFigures/numericWidget.png>] [74 <./static/figures/ComBiN
 et/OriginalPaperFigures/CGF/sankeyPLot/apprGuar.png> <./static/figures/ComBiNet
 /OriginalPaperFigures/CGF/sankeyPLot/barchart.pdf> <./static/figures/ComBiNet/O
 riginalPaperFigures/CGF/sankeyPLot/sankey_bigger.pdf
@@ -4556,11 +4445,11 @@ GF/sankeyPLot/sankey_bigger.pdf): PDF inclusion: multiple pdfs with page group
 included in a single page
 >]
 
-LaTeX Warning: Citation 'cutler_trrack_2020' on page 73 undefined on input line
+LaTeX Warning: Citation 'cutler_trrack_2020' on page 75 undefined on input line
  553.
 
 
-LaTeX Warning: Reference `fig:teaser' on page 73 undefined on input line 553.
+LaTeX Warning: Reference `fig:teaser' on page 75 undefined on input line 553.
 
 ./chapters/ComBiNet.tex:566: Undefined control sequence.
 l.566 ...ults of a query to the whole graph, \name
@@ -4570,13 +4459,6 @@ of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `tab:tasks' on page 73 undefined on input line 574.
-
-
-LaTeX Warning: Reference `fig:visualQueriesExamples' on page 73 undefined on in
-put line 575.
 
 
 ./chapters/ComBiNet.tex:606: LaTeX Error: Environment subfigure undefined.
@@ -4612,7 +4494,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/MutualGuarantors.png, id=549,
+<static/figures/ComBiNet/OriginalPaperFigures/CGF/MutualGuarantors.png, id=894,
  837.1275pt x 560.0925pt>
 File: static/figures/ComBiNet/OriginalPaperFigures/CGF/MutualGuarantors.png Gra
 phic file (type png)
@@ -4668,7 +4550,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/Turin.png, id=550, 843.15pt x
+<static/figures/ComBiNet/OriginalPaperFigures/CGF/Turin.png, id=895, 843.15pt x
  1192.455pt>
 File: static/figures/ComBiNet/OriginalPaperFigures/CGF/Turin.png Graphic file (
 type png)
@@ -4676,7 +4558,7 @@ type png)
 Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/Turin
 .png  used on input line 614.
 (pdftex.def)             Requested size: 170.14996pt x 240.63383pt.
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinoSuburbs.png, id=551, 84
+<static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinoSuburbs.png, id=896, 84
 1.1425pt x 1178.4025pt>
 File: static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinoSuburbs.png Graphi
 c file (type png)
@@ -4702,23 +4584,16 @@ or  <return>  to continue without it.
 LaTeX Warning: Float too large for page by 228.6444pt on input line 620.
 
 
-LaTeX Warning: Reference `fig:teaser' on page 73 undefined on input line 623.
+LaTeX Warning: Reference `fig:teaser' on page 75 undefined on input line 623.
 
 
-LaTeX Warning: Reference `fig:teaser' on page 73 undefined on input line 624.
+LaTeX Warning: Reference `fig:teaser' on page 75 undefined on input line 624.
 
-
-LaTeX Warning: Reference `fig:attributeComparison' on page 73 undefined on inpu
-t line 639.
-
-
-LaTeX Warning: Reference `tab:tasks' on page 73 undefined on input line 640.
-
-[73] [74 <./static/figures/ComBiNet/OriginalPaperFigures/CGF/MutualGuarantors.p
+[75] [76 <./static/figures/ComBiNet/OriginalPaperFigures/CGF/MutualGuarantors.p
 ng> <./static/figures/ComBiNet/OriginalPaperFigures/CGF/Turin.png> <./static/fi
 gures/ComBiNet/OriginalPaperFigures/CGF/TurinoSuburbs.png>]
 <static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/type+chantier.pdf,
- id=567, 256.96pt x 411.5375pt>
+ id=913, 256.96pt x 411.5375pt>
 File: static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/type+chantier
 .pdf Graphic file (type pdf)
 <use static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/type+chantier.
@@ -4726,7 +4601,7 @@ pdf>
 Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/Turin
 Plots/type+chantier.pdf  used on input line 656.
 (pdftex.def)             Requested size: 37.60132pt x 60.22522pt.
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/time.pdf, id=568, 
+<static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/time.pdf, id=914, 
 431.6125pt x 365.365pt>
 File: static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/time.pdf Grap
 hic file (type pdf)
@@ -4735,7 +4610,7 @@ Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/Turin
 Plots/time.pdf  used on input line 657.
 (pdftex.def)             Requested size: 71.14053pt x 60.22522pt.
 <static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/centrality.pdf, id
-=569, 458.71375pt x 249.93375pt>
+=915, 458.71375pt x 249.93375pt>
 File: static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/centrality.pd
 f Graphic file (type pdf)
 <use static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/centrality.pdf
@@ -4754,18 +4629,18 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation 'd3' on page 75 undefined on input line 667.
+LaTeX Warning: Citation 'd3' on page 77 undefined on input line 667.
 
 
-LaTeX Warning: Citation 'satyanarayan2016vega' on page 75 undefined on input li
+LaTeX Warning: Citation 'satyanarayan2016vega' on page 77 undefined on input li
 ne 667.
 
 
-LaTeX Warning: Citation 'cutler_trrack_2020' on page 75 undefined on input line
+LaTeX Warning: Citation 'cutler_trrack_2020' on page 77 undefined on input line
  667.
 
 
-LaTeX Warning: Citation 'parr1995antlr' on page 75 undefined on input line 669.
+LaTeX Warning: Citation 'parr1995antlr' on page 77 undefined on input line 669.
 
 
 
@@ -4773,8 +4648,12 @@ Overfull \hbox (31.49pt too wide) in paragraph at lines 667--671
 \T1/cmss/m/n/10.95 D3 [[]], Vega [[]], and the Trr-rack li-brary [[]].
  []
 
-[75 <./static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/type+chantie
-r.pdf> <./static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/time.pdf
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [77 <./static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/type+chanti
+er.pdf> <./static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/time.pdf
+
 
 pdfTeX warning: pdflatex (file ./static/figures/ComBiNet/OriginalPaperFigures/C
 GF/TurinPlots/time.pdf): PDF inclusion: multiple pdfs with page group included 
@@ -4786,15 +4665,8 @@ pdfTeX warning: pdflatex (file ./static/figures/ComBiNet/OriginalPaperFigures/C
 GF/TurinPlots/centrality.pdf): PDF inclusion: multiple pdfs with page group inc
 luded in a single page
 >]
-
-LaTeX Warning: Reference `tab:tasks' on page 76 undefined on input line 684.
-
-
-LaTeX Warning: Reference `fig:useCasePascal' on page 76 undefined on input line
- 692.
-
 <static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/region.pdf, id
-=625, 354.32375pt x 333.245pt>
+=970, 354.32375pt x 333.245pt>
 File: static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/region.pd
 f Graphic file (type pdf)
 <use static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/region.pdf
@@ -4803,7 +4675,7 @@ Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZ
 oPlots/v2/region.pdf  used on input line 736.
 (pdftex.def)             Requested size: 53.35712pt x 50.18768pt.
 <static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/type-chantier.
-pdf, id=626, 337.26pt x 333.245pt>
+pdf, id=971, 337.26pt x 333.245pt>
 File: static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/type-chan
 tier.pdf Graphic file (type pdf)
 <use static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/type-chant
@@ -4812,7 +4684,7 @@ Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZ
 oPlots/v2/type-chantier.pdf  used on input line 737.
 (pdftex.def)             Requested size: 50.7875pt x 50.18768pt.
 <static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/materiel.pdf, 
-id=627, 314.17375pt x 333.245pt>
+id=972, 314.17375pt x 333.245pt>
 File: static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/materiel.
 pdf Graphic file (type pdf)
 <use static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/materiel.p
@@ -4821,7 +4693,7 @@ Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZ
 oPlots/v2/materiel.pdf  used on input line 738.
 (pdftex.def)             Requested size: 47.31099pt x 50.18768pt.
 <static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/BC_crop.pdf, i
-d=628, 207.77625pt x 231.86626pt>
+d=973, 207.77625pt x 231.86626pt>
 File: static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/BC_crop.p
 df Graphic file (type pdf)
 <use static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/BC_crop.pd
@@ -4829,6 +4701,7 @@ f>
 Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZ
 oPlots/v2/BC_crop.pdf  used on input line 739.
 (pdftex.def)             Requested size: 44.9722pt x 50.18768pt.
+ [78]
 ./chapters/ComBiNet.tex:747: Undefined control sequence.
 l.747 We describe how \name
                             allowed to answer one of the main questions of o...
@@ -4837,18 +4710,6 @@ of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `tab:tasks' on page 76 undefined on input line 747.
-
-[76]
-
-LaTeX Warning: Reference `fig:UseCaseNicoleQ' on page 77 undefined on input lin
-e 750.
-
-
-LaTeX Warning: Reference `fig:UseCaseNicoleS' on page 77 undefined on input lin
-e 750.
 
 
 ./chapters/ComBiNet.tex:768: LaTeX Error: Environment subfigure undefined.
@@ -4885,7 +4746,7 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 <static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migrationQuer
-y.png, id=635, 819.06pt x 746.79pt>
+y.png, id=982, 819.06pt x 746.79pt>
 File: static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migratio
 nQuery.png Graphic file (type png)
 <use static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migration
@@ -4942,7 +4803,7 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 <static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migration3.pd
-f, id=636, 541.02126pt x 294.09875pt>
+f, id=983, 541.02126pt x 294.09875pt>
 File: static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migratio
 n3.pdf Graphic file (type pdf)
 <use static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migration
@@ -4967,14 +4828,7 @@ or  <return>  to continue without it.
 
 LaTeX Warning: Float too large for page by 51.23573pt on input line 781.
 
-
-LaTeX Warning: Reference `tab:tasks' on page 77 undefined on input line 783.
-
-
-LaTeX Warning: Reference `fig:useCaseNicole2' on page 77 undefined on input lin
-e 783.
-
-[77 <./static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/region.p
+[79 <./static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/region.p
 df> <./static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/type-cha
 ntier.pdf
 
@@ -4993,7 +4847,7 @@ f
 pdfTeX warning: pdflatex (file ./static/figures/ComBiNet/OriginalPaperFigures/C
 GF/MenaZoPlots/v2/BC_crop.pdf): PDF inclusion: multiple pdfs with page group in
 cluded in a single page
->] [78 <./static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migr
+>] [80 <./static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migr
 ationQuery.png> <./static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenea
 logy/migration3.pdf>]
 
@@ -5031,7 +4885,7 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 <static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migration_18.
-pdf, id=711, 541.02126pt x 288.07625pt>
+pdf, id=1060, 541.02126pt x 288.07625pt>
 File: static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migratio
 n_18.pdf Graphic file (type pdf)
 <use static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migration
@@ -5088,7 +4942,7 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 <static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migration_19.
-pdf, id=712, 541.02126pt x 295.1025pt>
+pdf, id=1061, 541.02126pt x 295.1025pt>
 File: static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migratio
 n_19.pdf Graphic file (type pdf)
 <use static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migration
@@ -5110,8 +4964,16 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+[81] [82 <./static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/mi
+gration_18.pdf> <./static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenea
+logy/migration_19.pdf
 
-LaTeX Warning: Citation 'shneiderman2006network' on page 79 undefined on input 
+pdfTeX warning: pdflatex (file ./static/figures/ComBiNet/OriginalPaperFigures/C
+GF/frenchGenealogy/migration_19.pdf): PDF inclusion: multiple pdfs with page gr
+oup included in a single page
+>]
+
+LaTeX Warning: Citation 'shneiderman2006network' on page 83 undefined on input 
 line 872.
 
 ./chapters/ComBiNet.tex:872: Undefined control sequence.
@@ -5123,20 +4985,12 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[79] [80 <./static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/mi
-gration_18.pdf> <./static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenea
-logy/migration_19.pdf
 
-pdfTeX warning: pdflatex (file ./static/figures/ComBiNet/OriginalPaperFigures/C
-GF/frenchGenealogy/migration_19.pdf): PDF inclusion: multiple pdfs with page gr
-oup included in a single page
->]
-
-LaTeX Warning: Citation 'klamt2009hypergraphs' on page 81 undefined on input li
+LaTeX Warning: Citation 'klamt2009hypergraphs' on page 83 undefined on input li
 ne 876.
 
 
-LaTeX Warning: Citation 'konstantinova2001application' on page 81 undefined on 
+LaTeX Warning: Citation 'konstantinova2001application' on page 83 undefined on 
 input line 876.
 
 ./chapters/ComBiNet.tex:876: Undefined control sequence.
@@ -5149,7 +5003,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation 'monroe2012exploring' on page 81 undefined on input lin
+LaTeX Warning: Citation 'monroe2012exploring' on page 83 undefined on input lin
 e 878.
 
 ./chapters/ComBiNet.tex:887: Undefined control sequence.
@@ -5170,7 +5024,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[81]
+[83]
 ./chapters/ComBiNet.tex:896: Undefined control sequence.
 l.896 ...y, attributes, and time, we believe \name
                                                    leads the way towards a n...
@@ -5199,32 +5053,26 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation 'valdivia:hal-02264960' on page 82 undefined on input l
+LaTeX Warning: Citation 'valdivia:hal-02264960' on page 84 undefined on input l
 ine 900.
 
-) [82]
+) [84]
 
-LaTeX Warning: Empty bibliography on input line 247.
+LaTeX Warning: Empty bibliography on input line 248.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 248.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 248.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 249.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 249.
 (/home/alexis/Documents/Thesis/out/main.aux
 (/home/alexis/Documents/Thesis/out/chapters/Introduction.aux)
 (/home/alexis/Documents/Thesis/out/chapters/Context.aux)
 (/home/alexis/Documents/Thesis/out/chapters/NetworkModels.aux)
 (/home/alexis/Documents/Thesis/out/chapters/PK-Clustering.aux)
 (/home/alexis/Documents/Thesis/out/chapters/ComBiNet.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 248.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 248.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 249.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 249.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: <no file>.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  B85B6244AD590FB6705C184BF42FCA27;5798.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.26pt have occurred.
@@ -5236,9 +5084,6 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                main
 (biblatex)                and rerun LaTeX afterwards.
@@ -5248,13 +5093,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30743 strings out of 481239
- 582401 string characters out of 5920377
- 1348306 words of memory out of 5000000
- 45114 multiletter control sequences out of 15000+600000
- 597883 words of font info for 96 fonts, out of 8000000 for 9000
+ 30828 strings out of 481239
+ 583818 string characters out of 5920377
+ 1359912 words of memory out of 5000000
+ 45194 multiletter control sequences out of 15000+600000
+ 598275 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,18n,81p,1850b,1752s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,18n,81p,1845b,2166s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf
 /fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/
 enc/dvips/opensans/a_jg4h6q.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/
@@ -5277,11 +5122,11 @@ r/sfss2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb></usr
 /share/texmf/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf/fonts/t
 ype1/public/cm-super/sfsx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super
 /sftt1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on /home/alexis/Documents/Thesis/out/main.pdf (84 pages, 4620265
+Output written on /home/alexis/Documents/Thesis/out/main.pdf (84 pages, 4631738
  bytes).
 PDF statistics:
- 880 PDF objects out of 1000 (max. 8388607)
- 666 compressed objects within 7 object streams
- 226 named destinations out of 1000 (max. 500000)
- 193 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1228 PDF objects out of 1440 (max. 8388607)
+ 1010 compressed objects within 11 object streams
+ 228 named destinations out of 1000 (max. 500000)
+ 825 words of extra memory for PDF output out of 10000 (max. 10000000)
 
