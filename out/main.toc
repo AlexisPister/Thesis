@@ -1,2 +1,4 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {french}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}test}{5}{chapter.1}%

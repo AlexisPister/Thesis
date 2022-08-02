@@ -32,11 +32,12 @@
 \usepackage{amssymb}
 \usepackage{xcolor} % où color selon l'installation
 \usepackage{enumitem}
-\usepackage{cite}
+\usepackage{csquotes}
 %\usepackage[nottoc]{tocbibind}
 
-\usepackage[backend=bibtex,style=numeric]{biblatex} 
-\addbibresource{bibliography.bib}  
+%\usepackage[backend=bibtex,style=numeric]{biblatex}
+\usepackage[backend=biber,style=numeric]{biblatex}
+\addbibresource{bibliography.bib}
 
 % Colors
 \definecolor{Prune}{RGB}{99,0,60} % l14-33 : couleurs de la charte graphique upsaclay
@@ -240,7 +241,7 @@
 %    \include{chapters/ComBiNet}
 
     \chapter{test}
-    big test \cite{NaturalEarth}
+    big test \cite{NaturalEarth}.
 
     % \bibliographystyle{plain}
     % \bibliographystyle{IEEEtranS}
