@@ -34,7 +34,9 @@
 \usepackage{enumitem}
 \usepackage{cite}
 %\usepackage[nottoc]{tocbibind}
-\usepackage{biblatex}
+
+\usepackage[backend=bibtex,style=numeric]{biblatex} 
+\addbibresource{bibliography.bib}  
 
 % Colors
 \definecolor{Prune}{RGB}{99,0,60} % l14-33 : couleurs de la charte graphique upsaclay
@@ -237,11 +239,12 @@
 %    \include{chapters/PK-Clustering}
 %    \include{chapters/ComBiNet}
 
-    big test \cite{bachNetworkCubeBringingDynamic}
+    \chapter{test}
+    big test \cite{NaturalEarth}
 
-    \bibliographystyle{plain}
-%    \bibliographystyle{IEEEtranS}
-    \bibliography{bibliography}
-
-
+    % \bibliographystyle{plain}
+    % \bibliographystyle{IEEEtranS}
+    % \bibliography{bibliography}
+    
+    \printbibliography
 \end{document}
