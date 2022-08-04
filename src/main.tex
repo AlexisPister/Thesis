@@ -35,9 +35,9 @@
 \usepackage{csquotes}
 %\usepackage[nottoc]{tocbibind}
 
-\usepackage[backend=bibtex,style=numeric]{biblatex}
+%\usepackage[backend=bibtex,style=numeric]{biblatex}
 %\usepackage[backend=biber,style=numeric]{biblatex}
-\addbibresource{bibliography.bib}
+%\addbibresource{bibliography.bib}
 
 % Colors
 \definecolor{Prune}{RGB}{99,0,60} % l14-33 : couleurs de la charte graphique upsaclay
@@ -104,11 +104,12 @@
         \vspace{10mm} % à régler éventuellement
         \color{Prune}
         \fontfamily{cmss}\fontseries{m}\fontsize{22}{26}\selectfont
-        \Huge Titre de la thèse (sur plusieurs lignes si nécessaire) \\
+        \Huge Analyse Visuelle pour l'Analyse de Réseaux Sociaux Historiques  \\
 
         \normalsize
         \color{black}
-        \Large{\textit{Traduction du titre de la thèse (sur plusieurs lignes si nécessaire)}} \\
+        \Large{\textit{Visual Analytics for Historical Network Research }} \\
+%        \Large{\textit{Traduction du titre de la thèse (sur plusieurs lignes si nécessaire)}} \\
         %*****************************************************
 
         \fontfamily{fvs}\fontseries{m}\fontsize{8}{12}\selectfont
@@ -116,16 +117,20 @@
         \vspace{1.5cm}
 
         \normalsize
-        \textbf{Thèse de doctorat de l'université Paris-Saclay et de l'université XXX (si cotutelle - sinon enlever cette seconde partie)} \\
+        \textbf{Thèse de doctorat de l'université Paris-Saclay et de Telecom Paris} \\
 
         \vspace{6mm}
 
-        \small École doctorale n$^{\circ}$ d'accréditation, dénomination et sigle\\
-        \small Spécialité de doctorat: voir annexe\\
-        \small Graduate School : voir annexe, Référent : voir annexe \\
+        \small École doctorale n$^{\circ}580$ : Sciences et technologies de l’information et de la communication (STIC)\\
+        \small Spécialité de doctorat: Informatique\\
+        \small Graduate School : Informatique et Sciences du Numérique\\
+        \small Référent : Faculté des sciences d’Orsay \\
         \vspace{6mm}
 
-        \footnotesize Thèse préparée dans la (ou les) unité(s) de recherche Nom(s) (voir annexe), sous la direction de Prénom NOM, titre du directeur ou de la directrice de thèse, la co-direction de Prénom NOM, titre du co-directeur ou de la co-directrice de thèse, le co-encadrement de Prénom NOM, titre, du co-encadrant ou de la co-encadrante ou la co-supervision de Prénom NOM, titre, du tuteur ou de la tutrice (en cas de partenariat industriel) \\
+%        \footnotesize Thèse préparée dans la (ou les) unité(s) de recherche Nom(s) (voir annexe), sous la direction de Prénom NOM, titre du directeur ou de la directrice de thèse, la co-direction de Prénom NOM, titre du co-directeur ou de la co-directrice de thèse, le co-encadrement de Prénom NOM, titre, du co-encadrant ou de la co-encadrante ou la co-supervision de Prénom NOM, titre, du tuteur ou de la tutrice (en cas de partenariat industriel) \\
+
+        \footnotesize Thèse préparée au Laboratoire interdisciplinaire des sciences du numérique (Université Paris-Saclay, CNRS, Inria), et à Telecom Paris, sous la direction de Jean-Daniel FEKETE, Directeur de recherche et la co-direction de Christophe Prieur, Professeur des universités. \\
+
         \vspace{15mm}
 
         \textbf{Thèse soutenue à Paris-Saclay, le JJ mois AAAA, par}\\
@@ -234,16 +239,15 @@
     \newgeometry{top=4cm, bottom=4cm, left=4cm, right=4cm}
 
 
-    \include{chapters/Introduction}
+%    \include{chapters/Introduction}
     \include{chapters/Context}
-    \include{chapters/NetworkModels}
-    \include{chapters/PK-Clustering}
-    \include{chapters/ComBiNet}
-
+%    \include{chapters/NetworkModels}
+%    \include{chapters/PK-Clustering}
+%    \include{chapters/ComBiNet}
 
     % \bibliographystyle{IEEEtranS}
-%    \bibliography{bibliography}
-%    \bibliographystyle{plain}
+    \bibliography{bibliography}
+    \bibliographystyle{plain}
     
-    \printbibliography
+%    \printbibliography
 \end{document}
