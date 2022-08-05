@@ -1,0 +1,290 @@
+\begin{thebibliography}{10}
+
+\bibitem{anscombeGraphsStatisticalAnalysis1973}
+F.~J. Anscombe.
+\newblock Graphs in {{Statistical Analysis}}.
+\newblock {\em The American Statistician}, 27(1):17--21, February 1973.
+
+\bibitem{Gephi}
+Mathieu Bastian, Sebastien Heymann, and Mathieu Jacomy.
+\newblock Gephi: {{An}} open source software for exploring and manipulating
+  networks.
+\newblock In Eytan Adar, Matthew Hurst, Tim Finin, Natalie~S. Glance, Nicolas
+  Nicolov, and Belle~L. Tseng, editors, {\em {{ICWSM}}' 2009}. {The AAAI
+  Press}, 2009.
+
+\bibitem{bertin1967}
+Jacques Bertin.
+\newblock {\em {S\'emiologie graphique: les diagrammes, les r\'eseaux, les
+  cartes}}.
+\newblock {Paris: Gauthier-Villars}, 1967.
+
+\bibitem{colemanIntroductionMathematicalSociology1964}
+J.~S. Coleman.
+\newblock Introduction to mathematical sociology.
+\newblock {\em Introduction to mathematical sociology.}, 1964.
+
+\bibitem{cristofoliPrincipesUsagesDessins}
+Pascal Cristofoli.
+\newblock {Principes et usages des dessins de r\'eseaux en SHS}.
+\newblock {\em La visualisation des donn\'ees en histoire}, page~35, 2015.
+
+\bibitem{erdos2011}
+P.~Erd{\"o}s and A.~R{\'e}nyi.
+\newblock On the evolution of random graphs.
+\newblock In {\em On the Evolution of Random Graphs}, pages 38--82. {Princeton
+  University Press}, October 2011.
+
+\bibitem{eveDeuxTraditionsAnalyse2002}
+Michael Eve.
+\newblock {Deux traditions d'analyse des reseaux sociaux}.
+\newblock {\em R\'eseaux}, 115(5):183--212, 2002.
+
+\bibitem{freeman_development_2004}
+L.C. Freeman.
+\newblock {\em The Development of Social Network Analysis: {{A}} Study in the
+  Sociology of Science}.
+\newblock {Empirical Press}, 2004.
+
+\bibitem{friendlyVisionsReVisionsCharles2002}
+Michael Friendly.
+\newblock Visions and {{Re-Visions}} of {{Charles Joseph Minard}}.
+\newblock {\em Journal of Educational and Behavioral Statistics}, 27(1):31--51,
+  March 2002.
+
+\bibitem{friendlyBriefHistoryData2008}
+Michael Friendly.
+\newblock A {{Brief History}} of {{Data Visualization}}.
+\newblock In Chun-houh Chen, Wolfgang H{\"a}rdle, and Antony Unwin, editors,
+  {\em Handbook of {{Data Visualization}}}, Springer {{Handbooks
+  Comp}}.{{Statistics}}, pages 15--56. {Springer}, {Berlin, Heidelberg}, 2008.
+
+\bibitem{gedcom}
+{{GEDCOM}}: {{The}} genealogy data standard.
+
+\bibitem{ghoniemComparisonReadabilityGraphs2004}
+Mohammad Ghoniem, J.-D. Fekete, and Philippe Castagliola.
+\newblock A comparison of the readability of graphs using node-link and
+  matrix-based representations.
+\newblock In {\em {{IEEE}} Symposium on Information Visualization}, pages
+  17--24. {Ieee}, 2004.
+
+\bibitem{ginzburgMicrohistoire1981}
+Carlo Ginzburg and Carlo Poni.
+\newblock {La micro-histoire}.
+\newblock {\em Le D\'ebat}, 17(10):133, 1981.
+
+\bibitem{grandjeanSocialNetworkAnalysis2015}
+Martin Grandjean.
+\newblock Social network analysis and visualization: {{Moreno}}'s
+  {{Sociograms}} revisited, 2015.
+
+\bibitem{gribaudi1990}
+Maurizio Gribaudi and Alain Blum.
+\newblock {Des cat\'egories aux liens individuels : l'analyse statistique de
+  l'espace social}.
+\newblock {\em Annales}, 45(6):1365--1402, 1990.
+
+\bibitem{guldiHistoryManifesto2014}
+Jo~Guldi and David Armitage.
+\newblock {\em The {{History Manifesto}}}.
+\newblock {Cambridge University Press}, October 2014.
+
+\bibitem{hambergerScanningPatternsRelationship2014}
+Klaus Hamberger, Cyril Grange, Michael Houseman, and Christian Momon.
+\newblock Scanning for patterns of relationship: Analyzing kinship and marriage
+  networks with {{Puck}} 2.0.
+\newblock {\em The History of the Family}, 19(4):564--596, October 2014.
+
+\bibitem{hamberger:halshs-00658667}
+Klaus Hamberger, Michael Houseman, and R.~White, Douglas.
+\newblock Kinship network analysis.
+\newblock In John Scott \& Peter~J. Carrington, editor, {\em The Sage Handbook
+  of Social Network Analysis}, pages 533--549. {Sage Publications}, 2011.
+
+\bibitem{henryRegistresParoissiauxHistoire1956}
+Louis Henry and Michel Fleury.
+\newblock Des registres paroissiaux a l'histoire de la population: Manuel de
+  d\'epouillement et d'exploitation de l'\'etat civil ancien.
+\newblock {\em Population (French Edition)}, 11(1):142--144, 1956.
+
+\bibitem{henryNodeTrixHybridVisualization2007}
+Nathalie Henry, Jean-Daniel Fekete, and Michael~J. McGuffin.
+\newblock {{NodeTrix}}: A {{Hybrid Visualization}} of {{Social Networks}}.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  13(6):1302--1309, November 2007.
+
+\bibitem{karila-cohenNouvellesCuisinesHistoire2018}
+Karine {Karila-Cohen}, Claire Lemercier, Isabelle Ros{\'e}, and Claire Zalc.
+\newblock {Nouvelles cuisines de l'histoire quantitative}.
+\newblock {\em Annales. Histoire, Sciences Sociales}, 73(4):773--783, December
+  2018.
+
+\bibitem{keimVisualAnalyticsDefinition2008}
+Daniel Keim, Gennady Andrienko, Jean-Daniel Fekete, Carsten G{\"o}rg, J{\"o}rn
+  Kohlhammer, and Guy Melan{\c c}on.
+\newblock Visual {{Analytics}}: {{Definition}}, {{Process}}, and
+  {{Challenges}}.
+\newblock In Andreas Kerren, John~T. Stasko, Jean-Daniel Fekete, and Chris
+  North, editors, {\em Information {{Visualization}}: {{Human-Centered Issues}}
+  and {{Perspectives}}}, Lecture {{Notes}} in {{Computer Science}}, pages
+  154--175. {Springer}, {Berlin, Heidelberg}, 2008.
+
+\bibitem{kerschbaumerPowerNetworksProspects2015}
+Florian Kerschbaumer, Linda {von Keyserlingk-Rehbein}, Martin Stark, and Marten
+  D{\"u}ring.
+\newblock {\em The {{Power}} of {{Networks}}. {{Prospects}} of {{Historical
+  Network Research}}}.
+\newblock {Routledge}, December 2021.
+
+\bibitem{kosakAutomatingLayoutNetwork1994}
+C.~Kosak, J.~Marks, and S.~Shieber.
+\newblock Automating the layout of network diagrams with specified visual
+  organization.
+\newblock {\em IEEE Transactions on Systems, Man, and Cybernetics},
+  24(3):440--454, March 1994.
+
+\bibitem{lemercier12FormalNetwork2015}
+Claire Lemercier.
+\newblock 12. {{Formal}} network methods in history: {{Why}} and how?
+\newblock In Georg Fertig, editor, {\em Social {{Networks}}, {{Political
+  Institutions}}, and {{Rural Societies}}}, volume~11, pages 281--310. {Brepols
+  Publishers}, {Turnhout}, January 2015.
+
+\bibitem{lemercierQuantitativeMethodsHumanities2019}
+Claire Lemercier and Claire Zalc.
+\newblock {\em Quantitative {{Methods}} in the {{Humanities}}: {{An
+  Introduction}}}.
+\newblock {University of Virginia Press}, March 2019.
+
+\bibitem{lepetitHistoireQuantitativeDeux1989}
+Bernard Lepetit.
+\newblock {L'histoire quantitative : deux ou trois choses que je sais d'elle}.
+\newblock {\em Histoire \& Mesure}, 4(3):191--199, 1989.
+
+\bibitem{lippKinshipNetworksLocal2005}
+Carola Lipp.
+\newblock Kinship {{Networks}}, {{Local Government}}, and {{Elections}} in a
+  {{Town}} in {{Southwest Germany}}, 1800-1850.
+\newblock {\em Journal of Family History}, 30(4):347--365, October 2005.
+
+\bibitem{maurizio2000}
+Gribaudi Maurizio.
+\newblock {\em Espaces, Temporalit\'es, Stratifications :. {{Exercices}}
+  M\'ethodologiques Sur Les R\'eseaux Sociaux}.
+\newblock {Editions de l'Ecole des Hautes Etudes en Sciences Sociales},
+  {Paris}, January 2000.
+
+\bibitem{mayerMigrancyStudyAfricans1962}
+Philip Mayer.
+\newblock Migrancy and the {{Study}} of {{Africans}} in {{Towns}}.
+\newblock {\em American Anthropologist}, 64(3):576--592, 1962.
+
+\bibitem{mcguffinSimpleAlgorithmsNetwork2012}
+Michael~J. McGuffin.
+\newblock Simple algorithms for network visualization: {{A}} tutorial.
+\newblock {\em Tsinghua Science and Technology}, 17(4):383--398, August 2012.
+
+\bibitem{morenoWhoShallSurvive1934}
+J.~L. Moreno.
+\newblock {\em Who Shall Survive?: {{A}} New Approach to the Problem of Human
+  Interrelations}.
+\newblock Who Shall Survive?: {{A}} New Approach to the Problem of Human
+  Interrelations. {Nervous and Mental Disease Publishing Co}, {Washington, DC,
+  US}, 1934.
+
+\bibitem{morenoFoundationsSociometryIntroduction1941}
+J.~L. Moreno.
+\newblock Foundations of {{Sociometry}}: {{An Introduction}}.
+\newblock {\em Sociometry}, 4(1):15, February 1941.
+
+\bibitem{moutoukias1992}
+Zacharias Moutoukias.
+\newblock R\'eseaux personnels et autorit\'e coloniale : Les n\'egociants de
+  {{Buenos Aires}} au {{XVIIIe}} si\`ecle.
+\newblock {\em Annales. Histoire, Sciences Sociales}, 47(4-5):889--915, October
+  1992.
+
+\bibitem{batagelj_pajek_nodate}
+Andrej Mrvar and Vladimir Batagelj.
+\newblock Analysis and visualization of large networks with program package
+  {{Pajek}}.
+\newblock {\em Complex Adaptive Systems Modeling}, 4(1), April 2016.
+
+\bibitem{nobreJuniperTreeTable2019}
+Carolina Nobre, Marc Streit, and Alexander Lex.
+\newblock Juniper: {{A Tree}}+{{Table Approach}} to {{Multivariate Graph
+  Visualization}}.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  25(1):544--554, January 2019.
+
+\bibitem{padgettRobustActionRise1993}
+John~F. Padgett and Christopher~K. Ansell.
+\newblock Robust {{Action}} and the {{Rise}} of the {{Medici}}, 1400-1434.
+\newblock {\em American Journal of Sociology}, 98(6):1259--1319, May 1993.
+
+\bibitem{petzCombiningNetworkResearch2022}
+Cindarella Sarah~Maria Petz.
+\newblock {\em On Combining Network Research and Computational Methods on
+  Historical Research Questions and Its Implications for the Digital
+  Humanities}.
+\newblock PhD thesis, TU M\"unchen, 2022.
+
+\bibitem{prost2014}
+Antoine Prost.
+\newblock {\em {Douze Le\c{c}ons sur l'histoire}}.
+\newblock {M\'edia Diffusion}, April 2014.
+
+\bibitem{vistorian_mini_questionnaires}
+Vanessa Serrano~Molinero, Benjamin Bach, Catherine Plaisant, Nicole Dufournaud,
+  and Jean-Daniel Fekete.
+\newblock Understanding the use of the vistorian: {{Complementing}} logs with
+  context mini-questionnaires.
+\newblock In {\em Visualization for the Digital Humanities Workshop}, {Phoenix,
+  United States}, October 2017.
+
+\bibitem{simmel2013}
+Georg Simmel.
+\newblock {\em {Soziologie: Untersuchungen \"uber die Formen der
+  Vergesellschaftung}}.
+\newblock {Duncker \& Humblot}, {Berlin}, 7. aufl edition, 2013.
+
+\bibitem{smithAnalyzingSocialMedia2009}
+Marc~A. Smith, Ben Shneiderman, Natasa {Milic-Frayling}, Eduarda
+  Mendes~Rodrigues, Vladimir Barash, Cody Dunne, Tony Capone, Adam Perer, and
+  Eric Gleave.
+\newblock Analyzing (social media) networks with {{NodeXL}}.
+\newblock In {\em Proceedings of the Fourth International Conference on
+  {{Communities}} and Technologies}, C\&amp;{{T}} '09, pages 255--264, {New
+  York, NY, USA}, June 2009. {Association for Computing Machinery}.
+
+\bibitem{snowModeCommunicationCholera1856}
+John Snow.
+\newblock On the {{Mode}} of {{Communication}} of {{Cholera}}.
+\newblock {\em Edinb Med J}, 1(7):668--670, January 1856.
+
+\bibitem{Stasko}
+John~T. Stasko, Carsten G{\"o}rg, and Zhicheng Liu.
+\newblock Jigsaw: Supporting investigative analysis through interactive
+  visualization.
+\newblock {\em Inf. Vis.}, 7(2):118--132, 2008.
+
+\bibitem{tukeyFutureDataAnalysis1962}
+John~W. Tukey.
+\newblock The {{Future}} of {{Data Analysis}}.
+\newblock {\em The Annals of Mathematical Statistics}, 33(1):1--67, 1962.
+
+\bibitem{valdiviaAnalyzingDynamicHypergraphs2021}
+Paola Valdivia, Paolo Buono, Catherine Plaisant, Nicole Dufournaud, and
+  Jean-Daniel Fekete.
+\newblock Analyzing {{Dynamic Hypergraphs}} with {{Parallel Aggregated Ordered
+  Hypergraph Visualization}}.
+\newblock {\em IEEE Trans. Visual. Comput. Graphics}, 27(1):1--13, January
+  2021.
+
+\bibitem{wetherellHistoricalSocialNetwork1998}
+Charles Wetherell.
+\newblock Historical {{Social Network Analysis}}.
+\newblock {\em Int Rev of Soc His}, 43(S6):125--144, December 1998.
+
+\end{thebibliography}
