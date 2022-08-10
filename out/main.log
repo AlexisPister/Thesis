@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.6.11)  10 AUG 2022 17:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.6.11)  10 AUG 2022 17:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -754,6 +754,9 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 17.
 
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
 (/usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
 )
@@ -1099,18 +1102,18 @@ LaTeX Info: Redefining \nameref on input line 14.
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
+\symgns@font=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
+(Font)                  TS1/opensans-TLF/m/n --> TS1/opensans-TLF/b/n on input 
+line 14.
+Package gensymb Info: Math companion symbols declared on input line 14.
+LaTeX Info: Redefining \degree on input line 14.
 LaTeX Info: Redefining \celsius on input line 14.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 14.
-
-
-
-Package gensymb Warning: Not defining \perthousand.
-
+Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
+erthousand on input line 14.
 LaTeX Info: Redefining \ohm on input line 14.
-Package gensymb Info: Using \Omega for \ohm on input line 14.
-
-Package gensymb Warning: Not defining \micro.
-
+Package gensymb Info: Using \textohm for \ohm on input line 14.
+Package gensymb Info: Using \textmu for \micro on input line 14.
 LaTeX Info: Redefining \degres on input line 14.
 LaTeX Info: Redefining \dots on input line 14.
 Package french.ldf Info: Setting StandardItemizeEnv=true for
@@ -1162,6 +1165,7 @@ Package pdftex.def Info: static/logos/Frame-ups.pdf  used on input line 20.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
 (Font)              scaled to size 16.41594pt on input line 30.
 
+
 LaTeX Font Warning: Font shape `T1/opensans-TLF/m/sc' undefined
 (Font)              using `T1/opensans-TLF/m/n' instead on input line 30.
 
@@ -1196,6 +1200,20 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 66.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+LaTeX Font Info:    Trying to load font information for TS1+opensans-TLF on inp
+ut line 66.
+
+(/usr/share/texlive/texmf-dist/tex/latex/opensans/TS1opensans-TLF.fd
+File: TS1opensans-TLF.fd 2019/06/24 Font definitions for TS1/opensans-TLF.
+)
+LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
+(Font)              scaled to size 10.40245pt on input line 66.
+LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
+(Font)              scaled to size 7.59998pt on input line 66.
+LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
+(Font)              scaled to size 5.69998pt on input line 66.
+LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
+(Font)              scaled to size 4.74998pt on input line 92.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
 (Font)              scaled to size 7.59998pt on input line 109.
  [1
@@ -1205,13 +1223,6 @@ LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./static/logos/Frame-ups.p
 df> <./static/logos/logo2.png>]
-
-Package scrbase Warning: Usage of deprecated command `\ifthispageodd'.
-(scrbase)                The command has been renamed because of a
-(scrbase)                recommendation of The LaTeX Project Team.
-(scrbase)                Please replace `\ifthispageodd' by `\Ifthispageodd' on
- input line 111.
-
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -1247,6 +1258,7 @@ Package scrbase Warning: Usage of deprecated command `\ifthispageodd'.
 LaTeX Font Info:    Trying to load font information for T1+rm on input line 114
 .
 LaTeX Font Info:    No file T1rm.fd. on input line 114.
+
 
 LaTeX Font Warning: Font shape `T1/rm/m/n' undefined
 (Font)              using `T1/cmr/m/n' instead on input line 114.
@@ -1367,8 +1379,7 @@ LaTeX Font Info:    Font shape `T1/opensans-TLF/b/n' will be
 (Font)              scaled to size 10.40245pt on input line 62.
 
 
-LaTeX Warning: Citation `lazegaRéseauxSociauxStructures1998' on page 6 undefine
-d on input line 62.
+LaTeX Warning: Citation `lazegaReseaux' on page 6 undefined on input line 62.
 
 [6]
 Underfull \vbox (badness 1137) has occurred while \output is active []
@@ -1468,6 +1479,9 @@ Package pdftex.def Info: static/figures/HSNAProcess/OriginalPaperFigures/models
 (pdftex.def)             Requested size: 369.88583pt x 74.19661pt.
  [26 <./static/figures/HSNAProcess/OriginalPaperFigures/models.pdf>]
 [27]
+LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
+(Font)              scaled to size 11.39996pt on input line 308.
+
 Underfull \hbox (badness 10000) in paragraph at lines 309--309
 []|\T1/opensans-TLF/m/sc/12 Co-
  []
@@ -1656,16 +1670,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 24234 strings out of 481239
- 445456 string characters out of 5920377
- 1046876 words of memory out of 5000000
- 38776 multiletter control sequences out of 15000+600000
- 596781 words of font info for 92 fonts, out of 8000000 for 9000
+ 24313 strings out of 481239
+ 447241 string characters out of 5920377
+ 1047156 words of memory out of 5000000
+ 38847 multiletter control sequences out of 15000+600000
+ 598456 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  67i,19n,83p,1220b,1160s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{cite.diminescu\\penalty\040\\@M\040\040:hal-02556
@@ -1695,7 +1706,7 @@ re/texmf/fonts/type1/public/cm-super/sfss1095.pfb></usr/share/texmf/fonts/type1
 x0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb></usr/shar
 e/texmf/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf/fonts/type1/
 public/cm-super/sfsx1728.pfb>
-Output written on /home/alexis/Documents/Thesis/out/main.pdf (38 pages, 1999603
+Output written on /home/alexis/Documents/Thesis/out/main.pdf (38 pages, 1999576
  bytes).
 PDF statistics:
  729 PDF objects out of 1000 (max. 8388607)
