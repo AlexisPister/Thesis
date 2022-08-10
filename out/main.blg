@@ -2,49 +2,53 @@ This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 A level-1 auxiliary file: chapters/Context.aux
+A level-1 auxiliary file: chapters/NetworkModels.aux
 The style file: plain.bst
-Database file #1: bibliography.bib
+Database file #1: main.bib
 Warning--I didn't find a database entry for "lazegaRéseauxSociauxStructures1998"
-Warning--I didn't find a database entry for "kaplanVeniceTimeMachine2015"
-You've used 47 entries,
+Warning--to sort, need author or key in Rolla2018
+Warning--empty author in Rolla2018
+Warning--empty booktitle in Rolla2018
+Warning--there's a number but no volume in cristofoli2018
+You've used 72 entries,
             2118 wiz_defined-function locations,
-            835 strings with 14069 characters,
-and the built_in function-call counts, 15370 in all, are:
-= -- 1526
-> -- 658
-< -- 9
-+ -- 264
-- -- 211
-* -- 1102
-:= -- 2551
-add.period$ -- 147
-call.type$ -- 47
-change.case$ -- 231
+            993 strings with 19763 characters,
+and the built_in function-call counts, 23446 in all, are:
+= -- 2315
+> -- 1060
+< -- 14
++ -- 425
+- -- 344
+* -- 1702
+:= -- 3918
+add.period$ -- 226
+call.type$ -- 72
+change.case$ -- 367
 chr.to.int$ -- 0
-cite$ -- 47
-duplicate$ -- 608
-empty$ -- 1258
-format.name$ -- 211
-if$ -- 3220
+cite$ -- 76
+duplicate$ -- 918
+empty$ -- 1881
+format.name$ -- 344
+if$ -- 4889
 int.to.chr$ -- 0
-int.to.str$ -- 47
-missing$ -- 53
-newline$ -- 235
-num.names$ -- 102
-pop$ -- 246
+int.to.str$ -- 72
+missing$ -- 82
+newline$ -- 358
+num.names$ -- 154
+pop$ -- 387
 preamble$ -- 1
-purify$ -- 193
+purify$ -- 307
 quote$ -- 0
-skip$ -- 407
+skip$ -- 609
 stack$ -- 0
-substring$ -- 973
-swap$ -- 112
-text.length$ -- 9
+substring$ -- 1375
+swap$ -- 159
+text.length$ -- 14
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 170
-warning$ -- 0
-while$ -- 163
-width$ -- 49
-write$ -- 520
-(There were 2 warnings)
+type$ -- 260
+warning$ -- 4
+while$ -- 240
+width$ -- 74
+write$ -- 799
+(There were 5 warnings)

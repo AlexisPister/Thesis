@@ -1,5 +1,18 @@
 \begin{thebibliography}{10}
 
+\bibitem{Rolla2018}
+Mobilit\'e et conflits. {{Travailler}} sur les chantiers de construction
+  pi\'emontais dans la premi\`ere moiti\'e du {{XVIIIe}} si\`ecle.
+\newblock Coll. {{Histoire}} et Civilisations. {Presses universitaires du
+  Septentrion}, {Villeneuve d'Ascq}, 2018.
+
+\bibitem{alkadi2022}
+Mashael AlKadi, Vanessa Serrano, James {Scott-Brown}, Catherine Plaisant,
+  Jean-Daniel Fekete, Uta Hinrichs, and Benjamin Bach.
+\newblock Understanding barriers to network exploration with visualization:
+  {{A}} report from the trenches.
+\newblock {\em IEEE Trans. Vis. Comput. Graphics}, 27(2), February 2023.
+
 \bibitem{anscombeGraphsStatisticalAnalysis1973}
 F.~J. Anscombe.
 \newblock Graphs in {{Statistical Analysis}}.
@@ -19,21 +32,87 @@ Jacques Bertin.
   cartes}}.
 \newblock {Paris: Gauthier-Villars}, 1967.
 
+\bibitem{brandesModularityClustering2008}
+Ulrik Brandes, Daniel Delling, Marco Gaertler, Robert Gorke, Martin Hoefer,
+  Zoran Nikoloski, and Dorothea Wagner.
+\newblock On {{Modularity Clustering}}.
+\newblock {\em IEEE Transactions on Knowledge and Data Engineering},
+  20(2):172--188, February 2008.
+
 \bibitem{colemanIntroductionMathematicalSociology1964}
 J.~S. Coleman.
 \newblock Introduction to mathematical sociology.
 \newblock {\em Introduction to mathematical sociology.}, 1964.
+
+\bibitem{TEI}
+TEI Consortium.
+\newblock {{TEI P5}}: {{Guidelines}} for electronic text encoding and
+  interchange, February 2021.
+
+\bibitem{cristofoliAuxSourcesGrands2008}
+Pascal Cristofoli.
+\newblock {Aux sources des grands r\'eseaux d'interactions}.
+\newblock {\em Reseaux}, 152(6):21--58, 2008.
 
 \bibitem{cristofoliPrincipesUsagesDessins}
 Pascal Cristofoli.
 \newblock {Principes et usages des dessins de r\'eseaux en SHS}.
 \newblock {\em La visualisation des donn\'ees en histoire}, page~35, 2015.
 
+\bibitem{cristofoli2018}
+Pascal Cristofoli and Nicoletta Rolla.
+\newblock {Temporalit\'es \`a l'\oe uvre dans les chantiers du b\^atiment}.
+\newblock {\em Temporalit\'es. Revue de sciences sociales et humaines}, (27),
+  June 2018.
+
+\bibitem{CRNOVRSANIN201456}
+Tarik Crnovrsanin, Chris~W. Muelder, Robert Faris, Diane Felmlee, and Kwan-Liu
+  Ma.
+\newblock Visualization techniques for categorical analysis of social networks
+  with multiple edge sets.
+\newblock {\em Social Networks}, 37:56--64, 2014.
+
+\bibitem{diesnerImpactEntityDisambiguation2015}
+Jana Diesner, Craig Evans, and Jinseok Kim.
+\newblock Impact of {{Entity Disambiguation Errors}} on {{Social Network
+  Properties}}.
+\newblock {\em Proceedings of the International AAAI Conference on Web and
+  Social Media}, 9(1):81--90, 2015.
+
+\bibitem{diminescu:hal-02556007}
+Dana Diminescu.
+\newblock The migration of ethnic germans from romania to west germany:
+  {{Insights}} from the archives of the former communist regime.
+\newblock In {\em {{CERS}}, Public Lecture, {{UCLA}}}, {Los Angeles, United
+  States}, March 2020.
+
+\bibitem{dufournaudCommentRendreVisible2018}
+Nicole Dufournaud.
+\newblock Comment rendre visible le r\^ole \'economique des femmes sous
+  l'{{Ancien R\'egime}} ? {{\'Etude}} m\'ethodologique sur les marchandes \`a
+  {{Nantes}} aux {{XVIe}} et {{XVIIe}} si\`ecles.
+\newblock In Bernard Michon and Nicole Dufournaud, editors, {\em Femmes et
+  N\'egoce Dans Les Ports Europ\'eens (Fin Du {{Moyen Age}} - {{XIXe}}
+  Si\`ecle)}, pages 65--84. {Peter Lang}, 2018.
+
+\bibitem{dufournaudComparaisonOutilsPour2006}
+Nicole Dufournaud and Jean-Daniel Fekete.
+\newblock {Comparaison d'outils pour la visualisation de sources historiques
+  cod\'ees en XML/TEI}.
+\newblock {\em Document num\'erique}, 9(2):37--56, April 2006.
+
 \bibitem{erdos2011}
 P.~Erd{\"o}s and A.~R{\'e}nyi.
 \newblock On the evolution of random graphs.
 \newblock In {\em On the Evolution of Random Graphs}, pages 38--82. {Princeton
   University Press}, October 2011.
+
+\bibitem{eriksonMalfeasanceFoundationsGlobal2006}
+Emily Erikson and Peter Bearman.
+\newblock Malfeasance and the {{Foundations}} for {{Global Trade}}: {{The
+  Structure}} of {{English Trade}} in the {{East Indies}}, 1601\textendash
+  1833.
+\newblock {\em American Journal of Sociology}, 112(1):195--230, July 2006.
 
 \bibitem{eveDeuxTraditionsAnalyse2002}
 Michael Eve.
@@ -74,6 +153,13 @@ Carlo Ginzburg and Carlo Poni.
 \newblock {La micro-histoire}.
 \newblock {\em Le D\'ebat}, 17(10):133, 1981.
 
+\bibitem{glaserDiscoveryGroundedTheory2010}
+Barney~G. Glaser and Anselm~L. Strauss.
+\newblock {\em The Discovery of Grounded Theory: Strategies for Qualitative
+  Research}.
+\newblock {Aldine Transaction}, {New Brunswick}, 5. paperback print edition,
+  2010.
+
 \bibitem{grandjeanSocialNetworkAnalysis2015}
 Martin Grandjean.
 \newblock Social network analysis and visualization: {{Moreno}}'s
@@ -113,6 +199,25 @@ Nathalie Henry, Jean-Daniel Fekete, and Michael~J. McGuffin.
 \newblock {{NodeTrix}}: A {{Hybrid Visualization}} of {{Social Networks}}.
 \newblock {\em IEEE Transactions on Visualization and Computer Graphics},
   13(6):1302--1309, November 2007.
+
+\bibitem{kgraphs}
+Aidan Hogan, Eva Blomqvist, Michael Cochez, Claudia D'amato, Gerard~De Melo,
+  Claudio Gutierrez, and Sabrina {Kirrane et al.}
+\newblock Knowledge graphs.
+\newblock {\em ACM Comput. Surv.}, 54(4), July 2021.
+
+\bibitem{hudsonHistoryNumbersIntroduction2016}
+Pat Hudson and Mina Ishizu.
+\newblock {\em History by {{Numbers}}: {{An Introduction}} to {{Quantitative
+  Approaches}}}.
+\newblock {Bloomsbury Publishing}, November 2016.
+
+\bibitem{kaplanVeniceTimeMachine2015}
+Fr{\'e}d{\'e}ric Kaplan.
+\newblock The {{Venice Time Machine}}.
+\newblock In {\em Proceedings of the 2015 {{ACM Symposium}} on {{Document
+  Engineering}}}, {{DocEng}} '15, page~73, {New York, NY, USA}, September 2015.
+  {Association for Computing Machinery}.
 
 \bibitem{karila-cohenNouvellesCuisinesHistoire2018}
 Karine {Karila-Cohen}, Claire Lemercier, Isabelle Ros{\'e}, and Claire Zalc.
@@ -157,6 +262,12 @@ Claire Lemercier and Claire Zalc.
   Introduction}}}.
 \newblock {University of Virginia Press}, March 2019.
 
+\bibitem{lemercierBackSourcesPracticing2021}
+Claire Lemercier and Claire Zalc.
+\newblock Back to the {{Sources}}: {{Practicing}} and {{Teaching Quantitative
+  History}} in the 2020s.
+\newblock {\em Capitalism}, 2(2):473--508, 2021.
+
 \bibitem{lepetitHistoireQuantitativeDeux1989}
 Bernard Lepetit.
 \newblock {L'histoire quantitative : deux ou trois choses que je sais d'elle}.
@@ -180,6 +291,13 @@ Philip Mayer.
 \newblock Migrancy and the {{Study}} of {{Africans}} in {{Towns}}.
 \newblock {\em American Anthropologist}, 64(3):576--592, 1962.
 
+\bibitem{multilayer}
+Fintan McGee, Benjamin Renoust, Daniel Archambault, Mohammad Ghoniem, Andreas
+  Kerren, and Bruno {Pinaud et al.}
+\newblock {\em Visual Analysis of Multilayer Networks}.
+\newblock Synthesis Lectures on Visualization. {Morgan \& Claypool Publishers},
+  2021.
+
 \bibitem{mcguffinSimpleAlgorithmsNetwork2012}
 Michael~J. McGuffin.
 \newblock Simple algorithms for network visualization: {{A}} tutorial.
@@ -197,6 +315,13 @@ J.~L. Moreno.
 J.~L. Moreno.
 \newblock Foundations of {{Sociometry}}: {{An Introduction}}.
 \newblock {\em Sociometry}, 4(1):15, February 1941.
+
+\bibitem{moutoukias2016buenos}
+Zacarias Moutoukias.
+\newblock Buenos {{Aires}}, port between two oceans: Mobilities, networks,
+  stratifications (2nd half of the 18th century).
+\newblock {\em E-SPANIA-REVUE ELECTRONIQUE D ETUDES HISPANIQUES MEDIEVALES},
+  25, 2016.
 
 \bibitem{moutoukias1992}
 Zacharias Moutoukias.
@@ -218,10 +343,24 @@ Carolina Nobre, Marc Streit, and Alexander Lex.
 \newblock {\em IEEE Transactions on Visualization and Computer Graphics},
   25(1):544--554, January 2019.
 
+\bibitem{osaSolidarityContentionNetworks2003}
+Maryjane Osa.
+\newblock {\em Solidarity {{And Contention}}: {{Networks Of Polish
+  Opposition}}}.
+\newblock {Univ Of Minnesota Press}, {Minneapolis}, first edition edition, July
+  2003.
+
 \bibitem{padgettRobustActionRise1993}
 John~F. Padgett and Christopher~K. Ansell.
 \newblock Robust {{Action}} and the {{Rise}} of the {{Medici}}, 1400-1434.
 \newblock {\em American Journal of Sociology}, 98(6):1259--1319, May 1993.
+
+\bibitem{hyperstorylines}
+Vanessa {Pe{\~n}a-Araya}, Tong Xue, Emmanuel Pietriga, Laurent Amsaleg, and
+  Anastasia Bezerianos.
+\newblock {{HyperStorylines}}: {{Interactively}} untangling dynamic
+  hypergraphs.
+\newblock {\em Information Visualization}, 21(1):38--62, January 2022.
 
 \bibitem{petzCombiningNetworkResearch2022}
 Cindarella Sarah~Maria Petz.
@@ -234,6 +373,25 @@ Cindarella Sarah~Maria Petz.
 Antoine Prost.
 \newblock {\em {Douze Le\c{c}ons sur l'histoire}}.
 \newblock {M\'edia Diffusion}, April 2014.
+
+\bibitem{rueda1989matrimonios}
+C.J. Rueda and Catedral {de Buenos Aires}.
+\newblock {\em Matrimonios de La {{Catedral}} de {{Buenos Aires}}, 1747-1823}.
+\newblock Number v. 2 in Fuentes Hist\'oricas y Geneal\'ogicas Argentinas.
+  {Fuentes Hist\'oricas y Geneal\'ogicas Argentinas}, 1989.
+
+\bibitem{sairioMethodologicalPracticalAspects2009}
+Anni Sairio.
+\newblock Methodological and practical aspects of historical network analysis:
+  {{A}} case study of the {{Bluestocking}} letters.
+\newblock In Arja Nurmi, Minna Nevala, and Minna {Palander-Collin}, editors,
+  {\em Pragmatics \& {{Beyond New Series}}}, volume 183, pages 107--135. {John
+  Benjamins Publishing Company}, {Amsterdam}, 2009.
+
+\bibitem{scottSocialNetworkAnalysis1988}
+John Scott.
+\newblock Social {{Network Analysis}}.
+\newblock {\em Sociology}, 22(1):109--127, February 1988.
 
 \bibitem{vistorian_mini_questionnaires}
 Vanessa Serrano~Molinero, Benjamin Bach, Catherine Plaisant, Nicole Dufournaud,
@@ -281,6 +439,13 @@ Paola Valdivia, Paolo Buono, Catherine Plaisant, Nicole Dufournaud, and
   Hypergraph Visualization}}.
 \newblock {\em IEEE Trans. Visual. Comput. Graphics}, 27(1):1--13, January
   2021.
+
+\bibitem{vanVugt_2017}
+Ingeborg {van Vugt}.
+\newblock Using multi-layered networks to disclose books in the republic of
+  letters.
+\newblock {\em Journal of Historical Network Research}, 1(1):25--51, October
+  2017.
 
 \bibitem{wetherellHistoricalSocialNetwork1998}
 Charles Wetherell.
