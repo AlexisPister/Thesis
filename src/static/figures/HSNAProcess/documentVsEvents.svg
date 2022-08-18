@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="330.2406mm"
-   height="151.20949mm"
-   viewBox="0 0 330.2406 151.20949"
+   width="330.12076mm"
+   height="118.76125mm"
+   viewBox="0 0 330.12076 118.76125"
    version="1.1"
    id="svg5"
    inkscape:version="1.1.2 (1:1.1+202202050950+0a00cf5339)"
@@ -25,7 +25,7 @@
      showgrid="false"
      inkscape:zoom="0.69469051"
      inkscape:cx="612.50297"
-     inkscape:cy="235.35661"
+     inkscape:cy="112.99996"
      inkscape:window-width="1848"
      inkscape:window-height="1016"
      inkscape:window-x="793"
@@ -42,21 +42,21 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(232.91502,-366.72987)">
+     transform="translate(232.85509,-399.11816)">
     <rect
-       style="fill:#ff0000;fill-opacity:0.210012;stroke:#c8c8c8;stroke-width:1.04985;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:#ff0000;fill-opacity:0.210012;stroke:#c8c8c8;stroke-width:0.929996;stroke-miterlimit:4;stroke-dasharray:none"
        id="rect846"
-       width="219.19075"
-       height="150.01938"
+       width="219.19099"
+       height="117.72121"
        x="-232.39009"
-       y="367.39505" />
+       y="399.69321" />
     <rect
-       style="fill:#0201ff;fill-opacity:0.210012;stroke:#c8c8c8;stroke-width:1.04985;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:#0201ff;fill-opacity:0.210012;stroke:#c8c8c8;stroke-width:0.929996;stroke-miterlimit:4;stroke-dasharray:none"
        id="rect15656"
        width="219.19075"
-       height="150.01938"
+       height="117.72121"
        x="-122.39008"
-       y="367.25479" />
+       y="399.58316" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none"
@@ -67,7 +67,7 @@
          id="tspan21998"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none"
          x="-230.22824"
-         y="514.18591">Document model</tspan></text>
+         y="514.18591">(a) Document model</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none"
@@ -78,7 +78,7 @@
          id="tspan22100"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none"
          x="-10.635847"
-         y="514.18591">Event model</tspan></text>
+         y="514.18591">(c) Event model</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none"
@@ -89,6 +89,6 @@
          id="tspan34500"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none"
          x="-119.82507"
-         y="514.18591">Document + Event model</tspan></text>
+         y="514.18591">(b) Document + Event model</tspan></text>
   </g>
 </svg>
