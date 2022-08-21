@@ -1,83 +1,26 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2022.6.11)  18 AUG 2022 10:28
- restricted system commands enabled.
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.6.11)  21 AUG 2022 17:27
+entering extended mode
+ restricted \write18 enabled.
  file:line:error style messages enabled.
+ %&-line parsing enabled.
 **main.tex
 (./main.tex
 LaTeX2e <2020-02-02> patch level 2
-Lua module: luaotfload-main 2020-02-02 3.12 luaotfload entry point
-Lua module: luaotfload-init 2020-02-02 3.12 luaotfload submodule / initializatio
-n
-Lua module: lualibs 2020-02-02 2.70 ConTeXt Lua standard libraries.
-Lua module: lualibs-extended 2020-02-02 2.70 ConTeXt Lua libraries -- extended c
-ollection.
-Lua module: luaotfload-log 2020-02-02 3.12 luaotfload submodule / logging
-Lua module: luaotfload-parsers 2020-02-02 3.12 luaotfload submodule / filelist
-Lua module: luaotfload-configuration 2020-02-02 3.12 luaotfload submodule / conf
-ig file reader
-luaotfload | conf : Root cache directory is /home/alexis/.texlive2019/texmf-var/
-luatex-cache/generic-dev/names.
-luaotfload | init : Loading fontloader “fontloader-2020-01-26.lua” from kpse
--resolved path “/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/fontloader
--2020-01-26.lua”.
-Lua-only attribute luaotfload@state = 2
-Lua-only attribute luaotfload@noligature = 3
-Lua-only attribute luaotfload@syllabe = 4
-luaotfload | init : Context OpenType loader version “3.11”
-Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
-Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
-Lua module: luaotfload-loaders 2020-02-02 3.12 luaotfload submodule / callback h
-andling
-Inserting `luaotfload.define_font' at position 1 in `define_font'.
-Lua module: luaotfload-database 2020-02-02 3.12 luaotfload submodule / database
-Lua module: luaotfload-unicode 2020-02-02 3.12 luaotfload submodule / Unicode he
-lpers
-Lua module: luaotfload-colors 2020-02-02 3.12 luaotfload submodule / color
-Lua-only attribute luaotfload_color_attribute = 5
-Lua module: luaotfload-resolvers 2020-02-02 3.12 luaotfload submodule / resolver
-s
-luaotfload | conf : Root cache directory is /home/alexis/.texlive2019/texmf-var/
-luatex-cache/generic-dev/names.
-Lua module: luaotfload-features 2020-02-02 3.12 luaotfload submodule / features
-Lua module: luaotfload-letterspace 2020-02-02 3.12 luaotfload submodule / color
-Lua module: luaotfload-embolden 2020-02-02 3.12 luaotfload submodule / color
-Lua module: luaotfload-notdef 2020-02-02 3.12 luaotfload submodule / color
-Lua module: luaotfload-auxiliary 2020-02-02 3.12 luaotfload submodule / auxiliar
-y functions
-Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
-font'.
-Inserting `luaotfload.aux.set_font_index' at position 2 in `luaotfload.patch_fon
-t'.
-Inserting `luaotfload.aux.patch_cambria_domh' at position 3 in `luaotfload.patch
-_font'.
-Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
-t_unsafe'.
-Inserting `luaotfload.aux.set_capheight' at position 4 in `luaotfload.patch_font
-'.
-Inserting `luaotfload.aux.set_xheight' at position 5 in `luaotfload.patch_font'.
-Lua module: luaotfload-fallback 2020-02-02 3.12 luaotfload submodule / fallback
-Lua module: luaotfload-multiscript 2020-02-02 3.12 luaotfload submodule / multis
-cript
-Lua module: luaotfload-script 2020-02-02 3.12 luaotfload submodule / Script help
-ers
-Lua module: luaotfload-tounicode 2020-02-02 3.12 luaotfload submodule / tounicod
-e
-Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
-. L3 programming layer <2020-02-14>
+L3 programming layer <2020-02-14>
 (/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2019/12/20 v1.4l Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/bk12.clo
 File: bk12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
-luaotfload | db : Font names database loaded from /home/alexis/.texlive2019/texm
-f-var/luatex-cache/generic-dev/names/luaotfload-names.luc)
-\c@part=\count163
-\c@chapter=\count164
-\c@section=\count165
-\c@subsection=\count166
-\c@subsubsection=\count167
-\c@paragraph=\count168
-\c@subparagraph=\count169
-\c@figure=\count170
-\c@table=\count171
+)
+\c@part=\count167
+\c@chapter=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\c@figure=\count174
+\c@table=\count175
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen134
@@ -104,18 +47,18 @@ Package: expl3 2020-02-14 L3 programming layer (loader)
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count172
+\l__kernel_color_stack_int=\count176
 \l__pdf_internal_box=\box45
 ))
 Package: xparse 2020-02-14 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count173
-\g__xparse_grabber_int=\count174
-\l__xparse_m_args_int=\count175
-\l__xparse_v_nesting_int=\count176
+\l__xparse_current_arg_int=\count177
+\g__xparse_grabber_int=\count178
+\l__xparse_m_args_int=\count179
+\l__xparse_v_nesting_int=\count180
 )
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count177
+\etb@tempcnta=\count181
 )
 (/usr/share/texlive/texmf-dist/tex/latex/zref/zref-abspage.sty
 Package: zref-abspage 2019/11/29 v2.28 Module abspage for zref (HO)
@@ -130,8 +73,8 @@ Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO)
-
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+)
 
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2019/11/07 v1.0c TeX engine tests
@@ -139,7 +82,6 @@ Package: iftex 2019/11/07 v1.0c TeX engine tests
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-\pdftexcmds@toks=\toks15
 )
 (/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
@@ -154,7 +96,7 @@ Package zref Info: New property: page on input line 765.
 (/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
-\c@abspage=\count178
+\c@abspage=\count182
 Package zref Info: New property: abspage on input line 66.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/needspace/needspace.sty
@@ -166,13 +108,13 @@ Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: luatex.def on input line 147.
+Package color Info: Driver file: pdftex.def on input line 147.
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/luatex.def
-File: luatex.def 2018/01/08 v1.0l Graphics/color driver for luatex
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \mdf@templength=\skip49
-\c@mdf@globalstyle@cnt=\count179
+\c@mdf@globalstyle@cnt=\count183
 \mdf@skipabove@length=\skip50
 \mdf@skipbelow@length=\skip51
 \mdf@leftmargin@length=\skip52
@@ -248,35 +190,35 @@ File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 \mdf@horizontalspaceofbox=\skip113
 \mdfsubtitleheight=\skip114
 \mdfsubsubtitleheight=\skip115
-\c@mdfcountframes=\count180
+\c@mdfcountframes=\count184
 
 ****** mdframed patching \endmdf@trivlist
 
 ****** -- success******
 
-\mdf@envdepth=\count181
-\c@mdf@env@i=\count182
-\c@mdf@env@ii=\count183
-\c@mdf@zref@counter=\count184
+\mdf@envdepth=\count185
+\c@mdf@env@i=\count186
+\c@mdf@env@ii=\count187
+\c@mdf@zref@counter=\count188
 Package zref Info: New property: mdf@pagevalue on input line 895.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
 \multirow@colwidth=\skip116
-\multirow@cntb=\count185
+\multirow@cntb=\count189
 \multirow@dima=\skip117
 \bigstrutjot=\dimen135
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
-\c@tracingmulticols=\count186
+\c@tracingmulticols=\count190
 \mult@box=\box51
 \multicol@leftmargin=\dimen136
-\c@unbalance=\count187
-\c@collectmore=\count188
-\doublecol@number=\count189
-\multicoltolerance=\count190
-\multicolpretolerance=\count191
+\c@unbalance=\count191
+\c@collectmore=\count192
+\doublecol@number=\count193
+\multicoltolerance=\count194
+\multicolpretolerance=\count195
 \full@width=\dimen137
 \page@free=\dimen138
 \premulticols=\dimen139
@@ -327,27 +269,27 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \@tempa=\box92
 \@tempa=\box93
 \@tempa=\box94
-\c@minrows=\count192
-\c@columnbadness=\count193
-\c@finalcolumnbadness=\count194
+\c@minrows=\count196
+\c@columnbadness=\count197
+\c@finalcolumnbadness=\count198
 \last@try=\dimen142
 \multicolovershoot=\dimen143
 \multicolundershoot=\dimen144
 \mult@nat@firstbox=\box95
 \colbreak@box=\box96
-\mc@col@check@num=\count195
+\mc@col@check@num=\count199
 )
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrextend.sty
-Package: scrextend 2020/01/24 v3.29 KOMA-Script package (extend other classes wi
-th features of KOMA-Script classes)
+Package: scrextend 2020/01/24 v3.29 KOMA-Script package (extend other classes w
+ith features of KOMA-Script classes)
 
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrkbase.sty
-Package: scrkbase 2020/01/24 v3.29 KOMA-Script package (KOMA-Script-dependent ba
-sics and keyval usage)
+Package: scrkbase 2020/01/24 v3.29 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
 
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbase.sty
-Package: scrbase 2020/01/24 v3.29 KOMA-Script package (KOMA-Script-independent b
-asics and keyval usage)
+Package: scrbase 2020/01/24 v3.29 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
 
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
 Package: scrlfile 2020/01/24 v3.29 KOMA-Script package (loading files)
@@ -356,7 +298,7 @@ Package: scrlfile 2020/01/24 v3.29 KOMA-Script package (loading files)
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks16
+\pgfutil@everybye=\toks15
 \pgfutil@tempdima=\dimen145
 \pgfutil@tempdimb=\dimen146
 
@@ -385,7 +327,7 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: luatex.def on input line 105.
+Package graphics Info: Driver file: pdftex.def on input line 105.
 )
 \Gin@req@height=\dimen147
 \Gin@req@width=\dimen148
@@ -395,12 +337,12 @@ Package graphics Info: Driver file: luatex.def on input line 105.
 Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks17
-\pgfkeys@temptoks=\toks18
+\pgfkeys@pathtoks=\toks16
+\pgfkeys@temptoks=\toks17
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
 ex
-\pgfkeys@tmptoks=\toks19
+\pgfkeys@tmptoks=\toks18
 ))
 \pgf@x=\dimen149
 \pgf@y=\dimen150
@@ -414,21 +356,21 @@ ex
 \pgf@yd=\dimen158
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count196
-\c@pgf@countb=\count197
-\c@pgf@countc=\count198
-\c@pgf@countd=\count199
-\t@pgf@toka=\toks20
-\t@pgf@tokb=\toks21
-\t@pgf@tokc=\toks22
-\pgf@sys@id@count=\count266
+\c@pgf@counta=\count266
+\c@pgf@countb=\count267
+\c@pgf@countc=\count268
+\c@pgf@countd=\count269
+\t@pgf@toka=\toks19
+\t@pgf@tokb=\toks20
+\t@pgf@tokc=\toks21
+\pgf@sys@id@count=\count270
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
 )
-Driver file for pgf: pgfsys-luatex.def
+Driver file for pgf: pgfsys-pdftex.def
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-luatex.def
-File: pgfsys-luatex.def 2020/01/08 v3.1.5b (3.1.5b)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
 f
@@ -437,8 +379,8 @@ File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
 tex
 File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfsyssoftpath@smallbuffer@items=\count267
-\pgfsyssoftpath@bigbuffer@items=\count268
+\pgfsyssoftpath@smallbuffer@items=\count271
+\pgfsyssoftpath@bigbuffer@items=\count272
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
 tex
@@ -449,7 +391,7 @@ Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: luatex.def on input line 225.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
 LaTeX Info: Redefining \color on input line 709.
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
@@ -469,11 +411,11 @@ Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen159
-\pgfmath@count=\count269
+\pgfmath@count=\count273
 \pgfmath@box=\box98
-\pgfmath@toks=\toks23
-\pgfmath@stack@operand=\toks24
-\pgfmath@stack@operation=\toks25
+\pgfmath@toks=\toks22
+\pgfmath@stack@operand=\toks23
+\pgfmath@stack@operation=\toks24
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
@@ -493,7 +435,7 @@ tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
 thmetics.code.tex)))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count270
+\c@pgfmathroundto@lastzeros=\count274
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
@@ -532,7 +474,7 @@ File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfpic=\box99
 \pgf@hbox=\box100
 \pgf@layerbox@main=\box101
-\pgf@picture@serial@count=\count271
+\pgf@picture@serial@count=\count275
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
@@ -565,8 +507,8 @@ File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@max=\dimen183
-\pgf@sys@shading@range@num=\count272
-\pgf@shadingcount=\count273
+\pgf@sys@shading@range@num=\count276
+\pgf@shadingcount=\count277
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
@@ -617,8 +559,8 @@ Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen186
 \pgffor@skip=\dimen187
-\pgffor@stack=\toks26
-\pgffor@toks=\toks27
+\pgffor@stack=\toks25
+\pgffor@toks=\toks26
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
@@ -626,7 +568,7 @@ Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@plot@mark@count=\count274
+\pgf@plot@mark@count=\count278
 \pgfplotmarksize=\dimen188
 )
 \tikz@lastx=\dimen189
@@ -641,18 +583,18 @@ File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \tikz@figbox@bg=\box105
 \tikz@tempbox=\box106
 \tikz@tempbox@bg=\box107
-\tikztreelevel=\count275
-\tikznumberofchildren=\count276
-\tikznumberofcurrentchild=\count277
-\tikz@fig@count=\count278
+\tikztreelevel=\count279
+\tikznumberofchildren=\count280
+\tikznumberofcurrentchild=\count281
+\tikz@fig@count=\count282
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfmatrixcurrentrow=\count279
-\pgfmatrixcurrentcolumn=\count280
-\pgf@matrix@numberofcolumns=\count281
+\pgfmatrixcurrentrow=\count283
+\pgfmatrixcurrentcolumn=\count284
+\pgf@matrix@numberofcolumns=\count285
 )
-\tikz@expandcount=\count282
+\tikz@expandcount=\count286
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -672,7 +614,7 @@ Grid set 16 x 16 = 37.34424pt x 52.81541pt
 \TPboxrulesize=\dimen257
 \TP@ox=\dimen258
 \TP@oy=\dimen259
-\TP@tbargs=\toks28
+\TP@tbargs=\toks27
 \TP@prevdepth=\dimen260
 TextBlockOrigin set to 0pt x 0pt
 ) (/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
@@ -683,12 +625,12 @@ Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \col@sep=\dimen261
 \ar@mcellbox=\box110
 \extrarowheight=\dimen262
-\NC@list=\toks29
+\NC@list=\toks28
 \extratabsurround=\skip120
 \backup@length=\skip121
 \ar@cellbox=\box111
 )
-\everycr=\toks30
+\everycr=\toks29
 \minrowclearance=\skip122
 )
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
@@ -697,9 +639,9 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count283
-\Gm@cntv=\count284
-\c@Gm@tempcnt=\count285
+\Gm@cnth=\count287
+\Gm@cntv=\count288
+\c@Gm@tempcnt=\count289
 \Gm@bindingoffset=\dimen263
 \Gm@wd@mp=\dimen264
 \Gm@odd@mp=\dimen265
@@ -708,7 +650,7 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutheight=\dimen268
 \Gm@layouthoffset=\dimen269
 \Gm@layoutvoffset=\dimen270
-\Gm@dimlist=\toks31
+\Gm@dimlist=\toks30
 )
 (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
@@ -717,7 +659,7 @@ Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \aftertitleunit=\skip124
 \ttl@plus=\dimen271
 \ttl@minus=\dimen272
-\ttl@toksa=\toks32
+\ttl@toksa=\toks31
 \titlewidth=\dimen273
 \titlewidthlast=\dimen274
 \titlewidthfirst=\dimen275
@@ -735,16 +677,19 @@ Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
 \@linkdim=\dimen276
-\Hy@linkcounter=\count286
-\Hy@pagecounter=\count287
+\Hy@linkcounter=\count290
+\Hy@pagecounter=\count291
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
 )
 (/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count288
+\Hy@SavedSpaceFactor=\count292
+\pdfmajorversion=\count293
 Package hyperref Info: Hyper figures OFF on input line 4547.
 Package hyperref Info: Link nesting OFF on input line 4552.
 Package hyperref Info: Hyper index ON on input line 4555.
@@ -752,7 +697,7 @@ Package hyperref Info: Plain pages OFF on input line 4562.
 Package hyperref Info: Backreferencing OFF on input line 4567.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4800.
-\c@Hy@tempcnt=\count289
+\c@Hy@tempcnt=\count294
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
@@ -765,10 +710,10 @@ LaTeX Info: Redefining \url on input line 5159.
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
 (/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
-
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
 ))
-\Fld@menulength=\count290
+\Fld@menulength=\count295
 \Field@Width=\dimen278
 \Fld@charsize=\dimen279
 Package hyperref Info: Hyper figures OFF on input line 6430.
@@ -780,27 +725,21 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6455.
 Package hyperref Info: PDF/A mode OFF on input line 6460.
 LaTeX Info: Redefining \ref on input line 6500.
 LaTeX Info: Redefining \pageref on input line 6504.
-\Hy@abspage=\count291
-\c@Item=\count292
-\c@Hfootnote=\count293
+\Hy@abspage=\count296
+\c@Item=\count297
+\c@Hfootnote=\count298
 )
-Package hyperref Info: Driver (autodetected): hluatex.
+Package hyperref Info: Driver (autodetected): hpdftex.
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hluatex.def
-File: hluatex.def 2020/01/14 v7.00d Hyperref driver for luaTeX
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2020/01/14 v7.00d Hyperref: PDF Unicode definition (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
-
-)
 (/usr/share/texlive/texmf-dist/tex/latex/atveryend/atveryend.sty
 Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
 )
-\Fld@listcount=\count294
-\c@bookmark@seq@number=\count295
+\HyAnn@Count=\count299
+\Fld@listcount=\count300
+\c@bookmark@seq@number=\count301
 
 (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
@@ -808,8 +747,8 @@ Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
-6.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
 )
 \Hy@SectionHShift=\skip125
 )
@@ -823,149 +762,48 @@ Package: gensymb 2003/07/02 v1.0 (WaS)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks33
-\inpenc@posthook=\toks34
-
-
-Package inputenc Warning: inputenc package ignored with utf8 based engines.
-
-) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+\inpenc@prehook=\toks32
+\inpenc@posthook=\toks33
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 112
-.
-
-(/usr/share/texmf/tex/latex/lm/t1lmr.fd
-File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-))
+)
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2020/02/14 3.40 The Babel package
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
 File: switch.def 2020/02/14 3.40 Babel switching mechanism
 )
-(/usr/share/texlive/texmf-dist/tex/generic/babel/luababel.def
-\bbl@readstream=\read3
-\l@dumylang=\language2
-Package babel Info: Non-standard hyphenation setup on input line 117.
-\l@nohyphenation=\language3
-\l@marathi=\language4
-\l@esperanto=\language5
-\l@churchslavonic=\language6
-\l@estonian=\language7
-\l@malayalam=\language8
-\l@pinyin=\language9
-\l@telugu=\language10
-\l@ancientgreek=\language11
-\l@serbian=\language12
-\l@german=\language13
-\l@kurmanji=\language14
-\l@russian=\language15
-\l@classiclatin=\language16
-\l@indonesian=\language17
-\l@latvian=\language18
-\l@french=\language19
-\l@finnish=\language20
-\l@catalan=\language21
-\l@serbianc=\language22
-\l@swedish=\language23
-\l@uppersorbian=\language24
-\l@irish=\language25
-\l@hungarian=\language26
-\l@assamese=\language27
-\l@portuguese=\language28
-\l@ibycus=\language29
-\l@gujarati=\language30
-\l@slovenian=\language31
-\l@sanskrit=\language32
-\l@occitan=\language33
-\l@italian=\language34
-\l@panjabi=\language35
-\l@ngerman-x-2019-04-04=\language36
-\l@turkish=\language37
-\l@coptic=\language38
-\l@bokmal=\language39
-\l@tamil=\language40
-\l@afrikaans=\language41
-\l@oriya=\language42
-\l@arabic=\language43
-\l@lithuanian=\language44
-\l@mongolianlmc=\language45
-\l@romanian=\language46
-\l@hindi=\language47
-\l@danish=\language48
-\l@icelandic=\language49
-\l@greek=\language50
-\l@piedmontese=\language51
-\l@spanish=\language52
-\l@armenian=\language53
-\l@ngerman=\language54
-\l@galician=\language55
-\l@kannada=\language56
-\l@liturgicallatin=\language57
-\l@mongolian=\language58
-\l@belarusian=\language59
-\l@swissgerman=\language60
-\l@croatian=\language61
-\l@polish=\language62
-\l@czech=\language63
-\l@farsi=\language64
-\l@latin=\language65
-\l@ukrainian=\language66
-\l@bulgarian=\language67
-\l@bengali=\language68
-\l@georgian=\language69
-\l@interlingua=\language70
-\l@basque=\language71
-\l@romansh=\language72
-\l@welsh=\language73
-\l@turkmen=\language74
-\l@usenglishmax=\language75
-\l@ukenglish=\language76
-\l@slovak=\language77
-\l@ethiopic=\language78
-\l@friulan=\language79
-\l@nynorsk=\language80
-\l@pali=\language81
-\l@monogreek=\language82
-\l@thai=\language83
-\l@german-x-2019-04-04=\language84
-\l@dutch=\language85
-)
 (/usr/share/texlive/texmf-dist/tex/generic/babel-french/french.ldf
 Language: french 2020/01/30 v3.5g French support from the babel system
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2020/02/14 3.40 Babel common definitions
-\babel@savecnt=\count296
+\babel@savecnt=\count302
 \U@D=\dimen280
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel/luababel.def
-\bbl@attr@locale=\attribute6
-))
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read3
+\bbl@dirlevel=\count303
+)
 Package babel Info: \l@acadian = using hyphenrules for french
-(babel)             (\language19) on input line 91.
+(babel)             (\language18) on input line 91.
 Package babel Info: \l@canadien = using hyphenrules for french
-(babel)             (\language19) on input line 92.
-\FB@nonchar=\count297
-\FB@spacing=\attribute7
-\FB@addDPspace=\attribute8
-\FB@addGUILspace=\attribute9
-\FB@ucsNBSP=\attribute10
-\FB@dialect=\attribute11
-Package french.ldf Info: No need for active punctuation characters
-(french.ldf)             with this version of LuaTeX!
-(french.ldf)             reported on input line 254.
-\FBguill@level=\count298
-\FBold@everypar=\toks35
+(babel)             (\language18) on input line 92.
+\FB@nonchar=\count304
+Package babel Info: Making : an active character on input line 419.
+Package babel Info: Making ; an active character on input line 420.
+Package babel Info: Making ! an active character on input line 421.
+Package babel Info: Making ? an active character on input line 422.
+\FBguill@level=\count305
+\FBold@everypar=\toks34
 \FB@Mht=\dimen281
-LaTeX Info: Redefining \degres on input line 782.
-\mc@charclass=\count299
-\mc@charfam=\count300
-\mc@charslot=\count301
-\std@mcc=\count302
-\dec@mcc=\count303
-Inserting `frenchb.french_punctuation' at position 1 in `kerning'.
-\c@FBcaption@count=\count304
+\mc@charclass=\count306
+\mc@charfam=\count307
+\mc@charslot=\count308
+\std@mcc=\count309
+\dec@mcc=\count310
+\c@FBcaption@count=\count311
 \listindentFB=\dimen282
 \descindentFB=\dimen283
 \labelindentFB=\dimen284
@@ -973,12 +811,8 @@ Inserting `frenchb.french_punctuation' at position 1 in `kerning'.
 \leftmarginFB=\dimen286
 \parindentFFN=\dimen287
 \FBfnindent=\dimen288
-
-(/usr/share/texlive/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-fr.tex
-UTF-8 French hyphenation patterns
-(/usr/share/texlive/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-fr.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/hyph-utf8/patterns/quote/hyph-quote-
-fr.tex)))) (/usr/share/texlive/texmf-dist/tex/latex/carlisle/scalefnt.sty)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/carlisle/scalefnt.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/opensans/opensans.sty
 Package: opensans 2019/06/20 Style file for Open Sans.
 
@@ -1006,604 +840,12 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks36
-\XKV@tempa@toks=\toks37
+\XKV@toks=\toks35
+\XKV@tempa@toks=\toks36
 )
-\XKV@depth=\count305
+\XKV@depth=\count312
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
-(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
-Package: fontspec 2020/02/03 v2.7h Font selection for XeLaTeX and LuaLaTeX
-Lua module: fontspec 2020/02/03 2.7h Font selection for XeLaTeX and LuaLaTeX
-(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
-Package: fontspec-luatex 2020/02/03 v2.7h Font selection for XeLaTeX and LuaLaTe
-X
-\l__fontspec_script_int=\count306
-\l__fontspec_language_int=\count307
-\l__fontspec_strnum_int=\count308
-\l__fontspec_tmp_int=\count309
-\l__fontspec_tmpa_int=\count310
-\l__fontspec_tmpb_int=\count311
-\l__fontspec_tmpc_int=\count312
-\l__fontspec_em_int=\count313
-\l__fontspec_emdef_int=\count314
-\l__fontspec_strong_int=\count315
-\l__fontspec_strongdef_int=\count316
-\l__fontspec_tmpa_dim=\dimen289
-\l__fontspec_tmpb_dim=\dimen290
-\l__fontspec_tmpc_dim=\dimen291
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
-)
-(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
-luaotfload | aux : font no 30 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 31 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 32 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 33 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 34 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 35 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 36 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 37 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 38 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 39 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 40 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 41 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 42 (nil) does not define feature smcp for script latn
- with language dflt
-
-Package fontspec Info: Font family 'opensans-TLF' created for font 'OpenSans'
-(fontspec)             with options
-(fontspec)             [Extension=.ttf,Ligatures={TeX,Common},Scale=.95,FontFace
-={l}{n}{*-Light},FontFace={l}{it}{*-LightItalic},FontFace={lc}{n}{*Condensed-Lig
-ht},FontFace={lc}{it}{*Condensed-LightItalic},UprightFont={*-Regular},ItalicFont
-={*-Italic},FontFace={sb}{n}{*-SemiBold},FontFace={sb}{it}{*-SemiBoldItalic},Fon
-tFace={b}{n}{*-Bold},FontFace={b}{it}{*-BoldItalic},BoldFont={*-Bold},BoldItalic
-Font={*-BoldItalic},FontFace={bc}{n}{*Condensed-Bold},FontFace={eb}{n}{*-ExtraBo
-ld},FontFace={eb}{it}{*-ExtraBoldItalic},Numbers={Monospaced,Lining},NFSSFamily=
-opensans-TLF].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - (l/n) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-Light.ttf]:mode=node;script=latn;lan
-guage=dflt;+tlig;+liga;+tnum;+lnum;"
-(fontspec)             -  (l/sc) with NFSS spec.: 
-(fontspec)             - (l/it) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-LightItalic.ttf]:mode=node;script=la
-tn;language=dflt;+tlig;+liga;+tnum;+lnum;"
-(fontspec)             -  (l/scit) with NFSS spec.: 
-(fontspec)             - (lc/n) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSansCondensed-Light.ttf]:mode=node;script
-=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
-(fontspec)             -  (lc/sc) with NFSS spec.: 
-(fontspec)             - (lc/it) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSansCondensed-LightItalic.ttf]:mode=node;
-script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
-(fontspec)             -  (lc/scit) with NFSS spec.: 
-(fontspec)             - (sb/n) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-SemiBold.ttf]:mode=node;script=latn;
-language=dflt;+tlig;+liga;+tnum;+lnum;"
-(fontspec)             -  (sb/sc) with NFSS spec.: 
-(fontspec)             - (sb/it) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-SemiBoldItalic.ttf]:mode=node;script
-=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
-(fontspec)             -  (sb/scit) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-Bold.ttf]:mode=node;script=latn;lang
-uage=dflt;+tlig;+liga;+tnum;+lnum;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-BoldItalic.ttf]:mode=node;script=lat
-n;language=dflt;+tlig;+liga;+tnum;+lnum;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-(fontspec)             - (bc/n) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSansCondensed-Bold.ttf]:mode=node;script=
-latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
-(fontspec)             -  (bc/sc) with NFSS spec.: 
-(fontspec)             - (eb/n) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-ExtraBold.ttf]:mode=node;script=latn
-;language=dflt;+tlig;+liga;+tnum;+lnum;"
-(fontspec)             -  (eb/sc) with NFSS spec.: 
-(fontspec)             - (eb/it) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-ExtraBoldItalic.ttf]:mode=node;scrip
-t=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
-(fontspec)             -  (eb/scit) with NFSS spec.: 
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-Regular.ttf]:mode=node;script=latn;l
-anguage=dflt;+tlig;+liga;+tnum;+lnum;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-Italic.ttf]:mode=node;script=latn;la
-nguage=dflt;+tlig;+liga;+tnum;+lnum;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-
-luaotfload | aux : font no 30 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 31 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 32 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 33 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 34 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 35 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 36 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 37 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 38 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 39 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 40 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 41 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 42 (nil) does not define feature smcp for script latn
- with language dflt
-
-Package fontspec Info: Font family 'opensans-LF' created for font 'OpenSans'
-(fontspec)             with options
-(fontspec)             [Extension=.ttf,Ligatures={TeX,Common},Scale=.95,FontFace
-={l}{n}{*-Light},FontFace={l}{it}{*-LightItalic},FontFace={lc}{n}{*Condensed-Lig
-ht},FontFace={lc}{it}{*Condensed-LightItalic},UprightFont={*-Regular},ItalicFont
-={*-Italic},FontFace={sb}{n}{*-SemiBold},FontFace={sb}{it}{*-SemiBoldItalic},Fon
-tFace={b}{n}{*-Bold},FontFace={b}{it}{*-BoldItalic},BoldFont={*-Bold},BoldItalic
-Font={*-BoldItalic},FontFace={bc}{n}{*Condensed-Bold},FontFace={eb}{n}{*-ExtraBo
-ld},FontFace={eb}{it}{*-ExtraBoldItalic},Numbers={Proportional,Lining},NFSSFamil
-y=opensans-LF].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - (l/n) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-Light.ttf]:mode=node;script=latn;lan
-guage=dflt;+tlig;+liga;+pnum;+lnum;"
-(fontspec)             -  (l/sc) with NFSS spec.: 
-(fontspec)             - (l/it) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-LightItalic.ttf]:mode=node;script=la
-tn;language=dflt;+tlig;+liga;+pnum;+lnum;"
-(fontspec)             -  (l/scit) with NFSS spec.: 
-(fontspec)             - (lc/n) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSansCondensed-Light.ttf]:mode=node;script
-=latn;language=dflt;+tlig;+liga;+pnum;+lnum;"
-(fontspec)             -  (lc/sc) with NFSS spec.: 
-(fontspec)             - (lc/it) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSansCondensed-LightItalic.ttf]:mode=node;
-script=latn;language=dflt;+tlig;+liga;+pnum;+lnum;"
-(fontspec)             -  (lc/scit) with NFSS spec.: 
-(fontspec)             - (sb/n) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-SemiBold.ttf]:mode=node;script=latn;
-language=dflt;+tlig;+liga;+pnum;+lnum;"
-(fontspec)             -  (sb/sc) with NFSS spec.: 
-(fontspec)             - (sb/it) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-SemiBoldItalic.ttf]:mode=node;script
-=latn;language=dflt;+tlig;+liga;+pnum;+lnum;"
-(fontspec)             -  (sb/scit) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-Bold.ttf]:mode=node;script=latn;lang
-uage=dflt;+tlig;+liga;+pnum;+lnum;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-BoldItalic.ttf]:mode=node;script=lat
-n;language=dflt;+tlig;+liga;+pnum;+lnum;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-(fontspec)             - (bc/n) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSansCondensed-Bold.ttf]:mode=node;script=
-latn;language=dflt;+tlig;+liga;+pnum;+lnum;"
-(fontspec)             -  (bc/sc) with NFSS spec.: 
-(fontspec)             - (eb/n) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-ExtraBold.ttf]:mode=node;script=latn
-;language=dflt;+tlig;+liga;+pnum;+lnum;"
-(fontspec)             -  (eb/sc) with NFSS spec.: 
-(fontspec)             - (eb/it) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-ExtraBoldItalic.ttf]:mode=node;scrip
-t=latn;language=dflt;+tlig;+liga;+pnum;+lnum;"
-(fontspec)             -  (eb/scit) with NFSS spec.: 
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-Regular.ttf]:mode=node;script=latn;l
-anguage=dflt;+tlig;+liga;+pnum;+lnum;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-Italic.ttf]:mode=node;script=latn;la
-nguage=dflt;+tlig;+liga;+pnum;+lnum;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-
-luaotfload | aux : font no 30 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 31 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 32 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 33 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 34 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 35 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 36 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 37 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 38 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 39 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 40 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 41 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 42 (nil) does not define feature smcp for script latn
- with language dflt
-
-Package fontspec Info: Font family 'opensans-TOsF' created for font 'OpenSans'
-(fontspec)             with options
-(fontspec)             [Extension=.ttf,Ligatures={TeX,Common},Scale=.95,FontFace
-={l}{n}{*-Light},FontFace={l}{it}{*-LightItalic},FontFace={lc}{n}{*Condensed-Lig
-ht},FontFace={lc}{it}{*Condensed-LightItalic},UprightFont={*-Regular},ItalicFont
-={*-Italic},FontFace={sb}{n}{*-SemiBold},FontFace={sb}{it}{*-SemiBoldItalic},Fon
-tFace={b}{n}{*-Bold},FontFace={b}{it}{*-BoldItalic},BoldFont={*-Bold},BoldItalic
-Font={*-BoldItalic},FontFace={bc}{n}{*Condensed-Bold},FontFace={eb}{n}{*-ExtraBo
-ld},FontFace={eb}{it}{*-ExtraBoldItalic},Numbers={Monospaced,OldStyle},NFSSFamil
-y=opensans-TOsF].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - (l/n) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-Light.ttf]:mode=node;script=latn;lan
-guage=dflt;+tlig;+liga;+tnum;+onum;"
-(fontspec)             -  (l/sc) with NFSS spec.: 
-(fontspec)             - (l/it) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-LightItalic.ttf]:mode=node;script=la
-tn;language=dflt;+tlig;+liga;+tnum;+onum;"
-(fontspec)             -  (l/scit) with NFSS spec.: 
-(fontspec)             - (lc/n) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSansCondensed-Light.ttf]:mode=node;script
-=latn;language=dflt;+tlig;+liga;+tnum;+onum;"
-(fontspec)             -  (lc/sc) with NFSS spec.: 
-(fontspec)             - (lc/it) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSansCondensed-LightItalic.ttf]:mode=node;
-script=latn;language=dflt;+tlig;+liga;+tnum;+onum;"
-(fontspec)             -  (lc/scit) with NFSS spec.: 
-(fontspec)             - (sb/n) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-SemiBold.ttf]:mode=node;script=latn;
-language=dflt;+tlig;+liga;+tnum;+onum;"
-(fontspec)             -  (sb/sc) with NFSS spec.: 
-(fontspec)             - (sb/it) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-SemiBoldItalic.ttf]:mode=node;script
-=latn;language=dflt;+tlig;+liga;+tnum;+onum;"
-(fontspec)             -  (sb/scit) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-Bold.ttf]:mode=node;script=latn;lang
-uage=dflt;+tlig;+liga;+tnum;+onum;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-BoldItalic.ttf]:mode=node;script=lat
-n;language=dflt;+tlig;+liga;+tnum;+onum;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-(fontspec)             - (bc/n) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSansCondensed-Bold.ttf]:mode=node;script=
-latn;language=dflt;+tlig;+liga;+tnum;+onum;"
-(fontspec)             -  (bc/sc) with NFSS spec.: 
-(fontspec)             - (eb/n) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-ExtraBold.ttf]:mode=node;script=latn
-;language=dflt;+tlig;+liga;+tnum;+onum;"
-(fontspec)             -  (eb/sc) with NFSS spec.: 
-(fontspec)             - (eb/it) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-ExtraBoldItalic.ttf]:mode=node;scrip
-t=latn;language=dflt;+tlig;+liga;+tnum;+onum;"
-(fontspec)             -  (eb/scit) with NFSS spec.: 
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-Regular.ttf]:mode=node;script=latn;l
-anguage=dflt;+tlig;+liga;+tnum;+onum;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-Italic.ttf]:mode=node;script=latn;la
-nguage=dflt;+tlig;+liga;+tnum;+onum;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-
-luaotfload | aux : font no 30 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 31 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 32 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 33 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 34 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 35 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 36 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 37 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 38 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 39 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 40 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 41 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 42 (nil) does not define feature smcp for script latn
- with language dflt
-
-Package fontspec Info: Font family 'opensans-OsF' created for font 'OpenSans'
-(fontspec)             with options
-(fontspec)             [Extension=.ttf,Ligatures={TeX,Common},Scale=.95,FontFace
-={l}{n}{*-Light},FontFace={l}{it}{*-LightItalic},FontFace={lc}{n}{*Condensed-Lig
-ht},FontFace={lc}{it}{*Condensed-LightItalic},UprightFont={*-Regular},ItalicFont
-={*-Italic},FontFace={sb}{n}{*-SemiBold},FontFace={sb}{it}{*-SemiBoldItalic},Fon
-tFace={b}{n}{*-Bold},FontFace={b}{it}{*-BoldItalic},BoldFont={*-Bold},BoldItalic
-Font={*-BoldItalic},FontFace={bc}{n}{*Condensed-Bold},FontFace={eb}{n}{*-ExtraBo
-ld},FontFace={eb}{it}{*-ExtraBoldItalic},Numbers={Proportional,OldStyle},NFSSFam
-ily=opensans-OsF].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - (l/n) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-Light.ttf]:mode=node;script=latn;lan
-guage=dflt;+tlig;+liga;+pnum;+onum;"
-(fontspec)             -  (l/sc) with NFSS spec.: 
-(fontspec)             - (l/it) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-LightItalic.ttf]:mode=node;script=la
-tn;language=dflt;+tlig;+liga;+pnum;+onum;"
-(fontspec)             -  (l/scit) with NFSS spec.: 
-(fontspec)             - (lc/n) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSansCondensed-Light.ttf]:mode=node;script
-=latn;language=dflt;+tlig;+liga;+pnum;+onum;"
-(fontspec)             -  (lc/sc) with NFSS spec.: 
-(fontspec)             - (lc/it) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSansCondensed-LightItalic.ttf]:mode=node;
-script=latn;language=dflt;+tlig;+liga;+pnum;+onum;"
-(fontspec)             -  (lc/scit) with NFSS spec.: 
-(fontspec)             - (sb/n) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-SemiBold.ttf]:mode=node;script=latn;
-language=dflt;+tlig;+liga;+pnum;+onum;"
-(fontspec)             -  (sb/sc) with NFSS spec.: 
-(fontspec)             - (sb/it) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-SemiBoldItalic.ttf]:mode=node;script
-=latn;language=dflt;+tlig;+liga;+pnum;+onum;"
-(fontspec)             -  (sb/scit) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-Bold.ttf]:mode=node;script=latn;lang
-uage=dflt;+tlig;+liga;+pnum;+onum;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-BoldItalic.ttf]:mode=node;script=lat
-n;language=dflt;+tlig;+liga;+pnum;+onum;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-(fontspec)             - (bc/n) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSansCondensed-Bold.ttf]:mode=node;script=
-latn;language=dflt;+tlig;+liga;+pnum;+onum;"
-(fontspec)             -  (bc/sc) with NFSS spec.: 
-(fontspec)             - (eb/n) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-ExtraBold.ttf]:mode=node;script=latn
-;language=dflt;+tlig;+liga;+pnum;+onum;"
-(fontspec)             -  (eb/sc) with NFSS spec.: 
-(fontspec)             - (eb/it) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-ExtraBoldItalic.ttf]:mode=node;scrip
-t=latn;language=dflt;+tlig;+liga;+pnum;+onum;"
-(fontspec)             -  (eb/scit) with NFSS spec.: 
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-Regular.ttf]:mode=node;script=latn;l
-anguage=dflt;+tlig;+liga;+pnum;+onum;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-Italic.ttf]:mode=node;script=latn;la
-nguage=dflt;+tlig;+liga;+pnum;+onum;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-
-luaotfload | aux : font no 30 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 31 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 32 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 33 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 34 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 35 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 36 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 37 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 38 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 39 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 40 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 41 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 42 (nil) does not define feature smcp for script latn
- with language dflt
-
-Package fontspec Info: Font family 'fos' created for font 'OpenSans' with
-(fontspec)             options
-(fontspec)             [Extension=.ttf,Ligatures={TeX,Common},Scale=.95,FontFace
-={l}{n}{*-Light},FontFace={l}{it}{*-LightItalic},FontFace={lc}{n}{*Condensed-Lig
-ht},FontFace={lc}{it}{*Condensed-LightItalic},UprightFont={*-Regular},ItalicFont
-={*-Italic},FontFace={sb}{n}{*-SemiBold},FontFace={sb}{it}{*-SemiBoldItalic},Fon
-tFace={b}{n}{*-Bold},FontFace={b}{it}{*-BoldItalic},BoldFont={*-Bold},BoldItalic
-Font={*-BoldItalic},FontFace={bc}{n}{*Condensed-Bold},FontFace={eb}{n}{*-ExtraBo
-ld},FontFace={eb}{it}{*-ExtraBoldItalic},Numbers={Monospaced,Lining},NFSSFamily=
-fos].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - (l/n) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-Light.ttf]:mode=node;script=latn;lan
-guage=dflt;+tlig;+liga;+tnum;+lnum;"
-(fontspec)             -  (l/sc) with NFSS spec.: 
-(fontspec)             - (l/it) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-LightItalic.ttf]:mode=node;script=la
-tn;language=dflt;+tlig;+liga;+tnum;+lnum;"
-(fontspec)             -  (l/scit) with NFSS spec.: 
-(fontspec)             - (lc/n) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSansCondensed-Light.ttf]:mode=node;script
-=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
-(fontspec)             -  (lc/sc) with NFSS spec.: 
-(fontspec)             - (lc/it) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSansCondensed-LightItalic.ttf]:mode=node;
-script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
-(fontspec)             -  (lc/scit) with NFSS spec.: 
-(fontspec)             - (sb/n) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-SemiBold.ttf]:mode=node;script=latn;
-language=dflt;+tlig;+liga;+tnum;+lnum;"
-(fontspec)             -  (sb/sc) with NFSS spec.: 
-(fontspec)             - (sb/it) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-SemiBoldItalic.ttf]:mode=node;script
-=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
-(fontspec)             -  (sb/scit) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-Bold.ttf]:mode=node;script=latn;lang
-uage=dflt;+tlig;+liga;+tnum;+lnum;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-BoldItalic.ttf]:mode=node;script=lat
-n;language=dflt;+tlig;+liga;+tnum;+lnum;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-(fontspec)             - (bc/n) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSansCondensed-Bold.ttf]:mode=node;script=
-latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
-(fontspec)             -  (bc/sc) with NFSS spec.: 
-(fontspec)             - (eb/n) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-ExtraBold.ttf]:mode=node;script=latn
-;language=dflt;+tlig;+liga;+tnum;+lnum;"
-(fontspec)             -  (eb/sc) with NFSS spec.: 
-(fontspec)             - (eb/it) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-ExtraBoldItalic.ttf]:mode=node;scrip
-t=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
-(fontspec)             -  (eb/scit) with NFSS spec.: 
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-Regular.ttf]:mode=node;script=latn;l
-anguage=dflt;+tlig;+liga;+tnum;+lnum;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-Italic.ttf]:mode=node;script=latn;la
-nguage=dflt;+tlig;+liga;+tnum;+lnum;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-
-luaotfload | aux : font no 30 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 31 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 32 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 33 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 34 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 35 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 36 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 37 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 38 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 39 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 40 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 41 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 42 (nil) does not define feature smcp for script latn
- with language dflt
-
-Package fontspec Info: Font family 'OpenSans(0)' created for font 'OpenSans'
-(fontspec)             with options
-(fontspec)             [Ligatures=TeX,Extension=.ttf,Ligatures={TeX,Common},Scal
-e=.95,FontFace={l}{n}{*-Light},FontFace={l}{it}{*-LightItalic},FontFace={lc}{n}{
-*Condensed-Light},FontFace={lc}{it}{*Condensed-LightItalic},UprightFont={*-Regul
-ar},ItalicFont={*-Italic},FontFace={sb}{n}{*-SemiBold},FontFace={sb}{it}{*-SemiB
-oldItalic},FontFace={b}{n}{*-Bold},FontFace={b}{it}{*-BoldItalic},BoldFont={*-Bo
-ld},BoldItalicFont={*-BoldItalic},FontFace={bc}{n}{*Condensed-Bold},FontFace={eb
-}{n}{*-ExtraBold},FontFace={eb}{it}{*-ExtraBoldItalic},Numbers={Monospaced,Linin
-g}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - (l/n) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-Light.ttf]:mode=node;script=latn;lan
-guage=dflt;+tlig;+liga;+tnum;+lnum;"
-(fontspec)             -  (l/sc) with NFSS spec.: 
-(fontspec)             - (l/it) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-LightItalic.ttf]:mode=node;script=la
-tn;language=dflt;+tlig;+liga;+tnum;+lnum;"
-(fontspec)             -  (l/scit) with NFSS spec.: 
-(fontspec)             - (lc/n) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSansCondensed-Light.ttf]:mode=node;script
-=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
-(fontspec)             -  (lc/sc) with NFSS spec.: 
-(fontspec)             - (lc/it) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSansCondensed-LightItalic.ttf]:mode=node;
-script=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
-(fontspec)             -  (lc/scit) with NFSS spec.: 
-(fontspec)             - (sb/n) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-SemiBold.ttf]:mode=node;script=latn;
-language=dflt;+tlig;+liga;+tnum;+lnum;"
-(fontspec)             -  (sb/sc) with NFSS spec.: 
-(fontspec)             - (sb/it) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-SemiBoldItalic.ttf]:mode=node;script
-=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
-(fontspec)             -  (sb/scit) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-Bold.ttf]:mode=node;script=latn;lang
-uage=dflt;+tlig;+liga;+tnum;+lnum;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-BoldItalic.ttf]:mode=node;script=lat
-n;language=dflt;+tlig;+liga;+tnum;+lnum;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-(fontspec)             - (bc/n) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSansCondensed-Bold.ttf]:mode=node;script=
-latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
-(fontspec)             -  (bc/sc) with NFSS spec.: 
-(fontspec)             - (eb/n) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-ExtraBold.ttf]:mode=node;script=latn
-;language=dflt;+tlig;+liga;+tnum;+lnum;"
-(fontspec)             -  (eb/sc) with NFSS spec.: 
-(fontspec)             - (eb/it) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-ExtraBoldItalic.ttf]:mode=node;scrip
-t=latn;language=dflt;+tlig;+liga;+tnum;+lnum;"
-(fontspec)             -  (eb/scit) with NFSS spec.: 
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-Regular.ttf]:mode=node;script=latn;l
-anguage=dflt;+tlig;+liga;+tnum;+lnum;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[.95]"[OpenSans-Italic.ttf]:mode=node;script=latn;la
-nguage=dflt;+tlig;+liga;+tnum;+lnum;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-
-LaTeX Font Info:    Font shape `TU/OpenSans(0)/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 151.
-)
+)))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2020/01/20 v2.17e AMS math features
 \@mathmargin=\skip126
@@ -1614,51 +856,51 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks38
-\ex@=\dimen292
+\@emptytoks=\toks37
+\ex@=\dimen289
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen293
+\pmbraise@=\dimen290
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count317
+\inf@bad=\count313
 LaTeX Info: Redefining \frac on input line 227.
-\uproot@=\count318
-\leftroot@=\count319
+\uproot@=\count314
+\leftroot@=\count315
 LaTeX Info: Redefining \overline on input line 389.
-\classnum@=\count320
-\DOTSCASE@=\count321
+\classnum@=\count316
+\DOTSCASE@=\count317
 LaTeX Info: Redefining \ldots on input line 486.
 LaTeX Info: Redefining \dots on input line 489.
 LaTeX Info: Redefining \cdots on input line 610.
 \Mathstrutbox@=\box113
 \strutbox@=\box114
-\big@size=\dimen294
+\big@size=\dimen291
 LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
-\macc@depth=\count322
-\c@MaxMatrixCols=\count323
+\macc@depth=\count318
+\c@MaxMatrixCols=\count319
 \dotsspace@=\muskip17
-\c@parentequation=\count324
-\dspbrk@lvl=\count325
-\tag@help=\toks39
-\row@=\count326
-\column@=\count327
-\maxfields@=\count328
-\andhelp@=\toks40
-\eqnshift@=\dimen295
-\alignsep@=\dimen296
-\tagshift@=\dimen297
-\tagwidth@=\dimen298
-\totwidth@=\dimen299
-\lineht@=\dimen300
-\@envbody=\toks41
+\c@parentequation=\count320
+\dspbrk@lvl=\count321
+\tag@help=\toks38
+\row@=\count322
+\column@=\count323
+\maxfields@=\count324
+\andhelp@=\toks39
+\eqnshift@=\dimen292
+\alignsep@=\dimen293
+\tagshift@=\dimen294
+\tagwidth@=\dimen295
+\totwidth@=\dimen296
+\lineht@=\dimen297
+\@envbody=\toks40
 \multlinegap=\skip127
 \multlinetaggap=\skip128
-\mathdisplay@stack=\toks42
+\mathdisplay@stack=\toks41
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
 )
@@ -1671,8 +913,8 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
-
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
 \f@nch@headwidth=\skip129
 \f@nch@O@elh=\skip130
 \f@nch@O@erh=\skip131
@@ -1689,21 +931,21 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip138
-\enit@outerparindent=\dimen301
-\enit@toks=\toks43
+\enit@outerparindent=\dimen298
+\enit@toks=\toks42
 \enit@inbox=\box115
-\enit@count@id=\count329
-\enitdp@description=\count330
+\enit@count@id=\count325
+\enitdp@description=\count326
 )
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2019-12-06 v5.2j context-sensitive quotations (JAW)
-\csq@reset=\count331
-\csq@gtype=\count332
-\csq@glevel=\count333
-\csq@qlevel=\count334
-\csq@maxlvl=\count335
-\csq@tshold=\count336
-\csq@ltx@everypar=\toks44
+\csq@reset=\count327
+\csq@gtype=\count328
+\csq@glevel=\count329
+\csq@qlevel=\count330
+\csq@maxlvl=\count331
+\csq@tshold=\count332
+\csq@ltx@everypar=\toks43
 
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2019-12-06 v5.2j csquotes generic definitions (JAW)
@@ -1719,21 +961,21 @@ Package: overpic 2018/09/02 1.2 picture overlays (RN)
 
 (/usr/share/texlive/texmf-dist/tex/latex/eepic/epic.sty
 Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
-\@@multicnt=\count337
-\d@lta=\count338
-\@delta=\dimen302
-\@@delta=\dimen303
-\@gridcnt=\count339
-\@joinkind=\count340
-\@dotgap=\dimen304
-\@ddotgap=\dimen305
-\@x@diff=\count341
-\@y@diff=\count342
-\x@diff=\dimen306
-\y@diff=\dimen307
+\@@multicnt=\count333
+\d@lta=\count334
+\@delta=\dimen299
+\@@delta=\dimen300
+\@gridcnt=\count335
+\@joinkind=\count336
+\@dotgap=\dimen301
+\@ddotgap=\dimen302
+\@x@diff=\count337
+\@y@diff=\count338
+\x@diff=\dimen303
+\y@diff=\dimen304
 \@dotbox=\box116
-\num@segments=\count343
-\num@segmentsi=\count344
+\num@segments=\count339
+\num@segmentsi=\count340
 \@datafile=\read4
 )
 \OVP@box=\box117
@@ -1755,57 +997,57 @@ Package: caption 2020/01/03 v3.4h Customizing captions (AR)
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 61.
-\captionmargin=\dimen308
-\captionmargin@=\dimen309
-\captionwidth=\dimen310
-\caption@tempdima=\dimen311
-\caption@indent=\dimen312
-\caption@parindent=\dimen313
-\caption@hangindent=\dimen314
+\captionmargin=\dimen305
+\captionmargin@=\dimen306
+\captionwidth=\dimen307
+\caption@tempdima=\dimen308
+\caption@indent=\dimen309
+\caption@parindent=\dimen310
+\caption@hangindent=\dimen311
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count345
-\c@continuedfloat=\count346
+\c@caption@flags=\count341
+\c@continuedfloat=\count342
 Package caption Info: hyperref package is loaded.
 )
-\c@subfigure=\count347
-\c@subtable=\count348
+\c@subfigure=\count343
+\c@subtable=\count344
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
-\TX@col@width=\dimen315
-\TX@old@table=\dimen316
-\TX@old@col=\dimen317
-\TX@target=\dimen318
-\TX@delta=\dimen319
-\TX@cols=\count349
-\TX@ftn=\toks45
+\TX@col@width=\dimen312
+\TX@old@table=\dimen313
+\TX@old@col=\dimen314
+\TX@target=\dimen315
+\TX@delta=\dimen316
+\TX@cols=\count345
+\TX@ftn=\toks44
 )
 (/usr/share/texlive/texmf-dist/tex/latex/sttools/flushend.sty
 Package: flushend 2017/03/27 v3.3 Balancing columns in twocolumn mode
 \flushend@@lastskip@a=\skip139
 \flushend@@lastskip@b=\skip140
 \flushend@@lastskip@c=\skip141
-\flushend@@penalty@a=\count350
-\flushend@@lastkern@a=\dimen320
-\var@@temp@spread=\dimen321
-\var@@temp@a=\dimen322
-\flushend@@page@rule=\dimen323
+\flushend@@penalty@a=\count346
+\flushend@@lastkern@a=\dimen317
+\var@@temp@spread=\dimen318
+\var@@temp@a=\dimen319
+\flushend@@page@rule=\dimen320
 \flushend@@varbox@a=\box118
 \flushend@@varbox@c=\box119
 \flushend@@tempbox@a=\box120
 \flushend@@tempbox@c=\box121
 \@viper=\box122
 \hold@viper=\box123
-\atColsBreak=\toks46
-\atColsEnd=\toks47
+\atColsBreak=\toks45
+\atColsEnd=\toks46
 )
 (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
 Package: adjustbox 2019/01/04 v1.2 Adjusting TeX boxes (trim, clip, ...)
 
 (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty
-Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-
-ends (calc, etex, pgfmath)
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/trimclip.sty
 Package: trimclip 2018/04/08 v1.1 Trim and clip general TeX material
@@ -1814,40 +1056,38 @@ Package: trimclip 2018/04/08 v1.1 Trim and clip general TeX material
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
 \collectedbox=\box124
 )
-\tc@llx=\dimen324
-\tc@lly=\dimen325
-\tc@urx=\dimen326
-\tc@ury=\dimen327
+\tc@llx=\dimen321
+\tc@lly=\dimen322
+\tc@urx=\dimen323
+\tc@ury=\dimen324
+Package trimclip Info: Using driver 'tc-pdftex.def'.
 
-(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-pgf.def
-File: tc-pgf.def 2019/01/04 v2.2 trimclip fall-back clipping driver using PGF
-)
-Package trimclip Info: No clipping driver 'tc-luatex.def' available.
-(trimclip)             Using fall-back PGF driver.
-)
-\adjbox@Width=\dimen328
-\adjbox@Height=\dimen329
-\adjbox@Depth=\dimen330
-\adjbox@Totalheight=\dimen331
-\adjbox@pwidth=\dimen332
-\adjbox@pheight=\dimen333
-\adjbox@pdepth=\dimen334
-\adjbox@ptotalheight=\dimen335
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen325
+\adjbox@Height=\dimen326
+\adjbox@Depth=\dimen327
+\adjbox@Totalheight=\dimen328
+\adjbox@pwidth=\dimen329
+\adjbox@pheight=\dimen330
+\adjbox@pdepth=\dimen331
+\adjbox@ptotalheight=\dimen332
 
 (/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count351
+\c@checkoddpage=\count347
 )
 (/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box125
-\sift@deathcycles=\count352
-\@vwid@loff=\dimen336
-\@vwid@roff=\dimen337
+\sift@deathcycles=\count348
+\@vwid@loff=\dimen333
+\@vwid@roff=\dimen334
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/graphbox/graphbox.sty
-Package: graphbox 2018/01/17 v1.1 extension for graphicx to adjust containing bo
-x
+Package: graphbox 2018/01/17 v1.1 extension for graphicx to adjust containing b
+ox
 \Gin@box@box=\box126
 \Gin@box@width=\skip142
 \Gin@box@height=\skip143
@@ -1871,7 +1111,7 @@ Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'french'.
  (/home/alexis/Documents/Thesis/out/main.aux
 (/home/alexis/Documents/Thesis/out/chapters/ComBiNet.aux))
-\openout1 = main.aux
+\openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
@@ -1882,14 +1122,6 @@ LaTeX Font Info:    ... okay on input line 14.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 14
-.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
-File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
@@ -1897,37 +1129,43 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Trying to load font information for T1+opensans-TLF on inpu
+t line 14.
+
+(/usr/share/texlive/texmf-dist/tex/latex/opensans/T1opensans-TLF.fd
+File: T1opensans-TLF.fd 2019/06/24 Font definitions for T1/opensans-TLF.
+)
+LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
+(Font)              scaled to size 11.39996pt on input line 14.
 \AtBeginShipoutBox=\box127
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count353
-\scratchdimen=\dimen338
+\scratchcounter=\count349
+\scratchdimen=\dimen335
 \scratchbox=\box128
-\nofMPsegments=\count354
-\nofMParguments=\count355
-\everyMPshowfont=\toks48
-\MPscratchCnt=\count356
-\MPscratchDim=\dimen339
-\MPnumerator=\count357
-\makeMPintoPDFobject=\count358
-\everyMPtoPDFconversion=\toks49
+\nofMPsegments=\count350
+\nofMParguments=\count351
+\everyMPshowfont=\toks47
+\MPscratchCnt=\count352
+\MPscratchDim=\dimen336
+\MPnumerator=\count353
+\makeMPintoPDFobject=\count354
+\everyMPtoPDFconversion=\toks48
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
-5.
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
 ))
 ABD: EveryShipout initializing macros
 *geometry* driver: auto-detecting
-*geometry* detected driver: luatex
+*geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
-* driver: luatex
+* driver: pdftex
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -1968,7 +1206,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count359
+\c@section@level=\count355
 )
 LaTeX Info: Redefining \ref on input line 14.
 LaTeX Info: Redefining \pageref on input line 14.
@@ -1977,20 +1215,21 @@ LaTeX Info: Redefining \nameref on input line 14.
 (/home/alexis/Documents/Thesis/out/main.out)
 (/home/alexis/Documents/Thesis/out/main.out)
 \@outlinefile=\write5
+\openout5 = `main.out'.
 
-\openout5 = main.out
 \symgns@font=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/OpenSans(0)/m/n --> TS1/OpenSans(0)/b/n on input lin
-e 14.
+(Font)                  TS1/opensans-TLF/m/n --> TS1/opensans-TLF/b/n on input 
+line 14.
 Package gensymb Info: Math companion symbols declared on input line 14.
 LaTeX Info: Redefining \degree on input line 14.
 LaTeX Info: Redefining \celsius on input line 14.
-Package gensymb Info: Using text companion symbols for \degree, \celsius and \pe
-rthousand on input line 14.
+Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
+erthousand on input line 14.
 LaTeX Info: Redefining \ohm on input line 14.
 Package gensymb Info: Using \textohm for \ohm on input line 14.
 Package gensymb Info: Using \textmu for \micro on input line 14.
+LaTeX Info: Redefining \degres on input line 14.
 LaTeX Info: Redefining \dots on input line 14.
 Package french.ldf Info: Setting StandardItemizeEnv=true for
 (french.ldf)             compatibility with enumitem package,
@@ -1999,80 +1238,12 @@ Package french.ldf Info: Setting StandardEnumerateEnv=true for
 (french.ldf)             compatibility with enumitem package,
 (french.ldf)             reported on input line 14.
 LaTeX Info: Redefining \up on input line 14.
-\c@mv@tabular=\count360
-\c@mv@boldtabular=\count361
-
-Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
-(fontspec)             this).
-
-\symlegacymaths=\mathgroup7
-LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 14.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 14.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 14.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 14.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 14.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 14.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 14.
-LaTeX Font Info:    Redeclaring math accent \check on input line 14.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 14.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 14.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 14.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 14.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 14.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 14.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 14.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 14.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 14.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 14.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 14.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 14.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 14.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 14.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 14.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 14.
-LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 14.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/OpenSans(0)/m/n on input line 14.
-LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 14.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/OpenSans(0)/m/n on input line 14.
-LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `tabular' on input line 14.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `tabular'
-(Font)                  OT1/cmr/m/n --> TU/OpenSans(0)/m/n on input line 14.
-LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `boldtabular' on input line 
-14.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `boldtabular'
-
-(Font)                  OT1/cmr/bx/n --> TU/OpenSans(0)/m/n on input line 14.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/OpenSans(0)/m/n --> TU/OpenSans(0)/m/n on input line 
-14.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/OpenSans(0)/m/it on input line 14.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/OpenSans(0)/b/n on input line 14.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 14.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 14.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/OpenSans(0)/m/n --> TU/OpenSans(0)/b/n on input line 
-14.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/OpenSans(0)/b/it on input line 14.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 14.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 14.
+\c@mv@tabular=\count356
+\c@mv@boldtabular=\count357
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 *geometry* verbose mode - [ newgeometry ] result:
-* driver: luatex
+* driver: pdftex
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -2103,79 +1274,74 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<static/logos/Frame-ups.pdf, id=91, 303.38344pt x 849.9253pt>
+<static/logos/Frame-ups.pdf, id=95, 303.38344pt x 849.92531pt>
 File: static/logos/Frame-ups.pdf Graphic file (type pdf)
 <use static/logos/Frame-ups.pdf>
-Package luatex.def Info: static/logos/Frame-ups.pdf  used on input line 20.
-(luatex.def)             Requested size: 303.38269pt x 849.92322pt.
-LaTeX Font Info:    Font shape `TU/OpenSans(0)/m/n' will be
+Package pdftex.def Info: static/logos/Frame-ups.pdf  used on input line 20.
+(pdftex.def)             Requested size: 303.38269pt x 849.92323pt.
+LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
 (Font)              scaled to size 16.41594pt on input line 30.
 
 
-LaTeX Font Warning: Font shape `TU/OpenSans(0)/m/sc' undefined
-(Font)              using `TU/OpenSans(0)/m/n' instead on input line 30.
+LaTeX Font Warning: Font shape `T1/opensans-TLF/m/sc' undefined
+(Font)              using `T1/opensans-TLF/m/n' instead on input line 30.
 
-<static/logos/logo2.png, id=92, 194.97844pt x 87.32625pt>
+<static/logos/logo2.png, id=96, 194.97844pt x 87.32625pt>
 File: static/logos/logo2.png Graphic file (type png)
 <use static/logos/logo2.png>
-Package luatex.def Info: static/logos/logo2.png  used on input line 39.
-(luatex.def)             Requested size: 194.97795pt x 87.32603pt.
-LaTeX Font Info:    Trying to load font information for TU+cmss on input line 48
+Package pdftex.def Info: static/logos/logo2.png  used on input line 39.
+(pdftex.def)             Requested size: 194.97795pt x 87.32603pt.
+LaTeX Font Info:    Trying to load font information for T1+cmss on input line 4
+8.
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
+File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+
+LaTeX Font Warning: Font shape `T1/cmss/m/n' in size <22> not available
+(Font)              size <20.74> substituted on input line 48.
+
+LaTeX Font Info:    Trying to load font information for T1+fvs on input line 57
 .
-LaTeX Font Info:    No file TUcmss.fd. on input line 48.
-
-LaTeX Font Warning: Font shape `TU/cmss/m/n' undefined
-(Font)              using `TU/lmr/m/n' instead on input line 48.
-
-
-LaTeX Font Warning: Font shape `TU/cmss/m/it' undefined
-(Font)              using `TU/cmss/m/n' instead on input line 53.
-
-LaTeX Font Info:    Trying to load font information for TU+fvs on input line 57.
-
-LaTeX Font Info:    No file TUfvs.fd. on input line 57.
-
-LaTeX Font Warning: Font shape `TU/fvs/m/n' undefined
-(Font)              using `TU/lmr/m/n' instead on input line 57.
-
-
-LaTeX Font Warning: Font shape `TU/fvs/b/n' undefined
-(Font)              using `TU/fvs/m/n' instead on input line 62.
-
-LaTeX Font Info:    Font shape `TU/OpenSans(0)/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 66.
-LaTeX Font Info:    Font shape `TU/OpenSans(0)/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 66.
-LaTeX Font Info:    Font shape `TU/OpenSans(0)/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 66.
+(/usr/share/texlive/texmf-dist/tex/latex/bera/t1fvs.fd
+File: t1fvs.fd 2004/09/07 scalable font definitions for T1/fvs.
+)
 LaTeX Font Info:    Trying to load font information for U+msa on input line 66.
+
+
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 66.
 
+
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for TS1+OpenSans(0) on input
- line 66.
-LaTeX Font Info:    No file TS1OpenSans(0).fd. on input line 66.
+LaTeX Font Info:    Trying to load font information for TS1+opensans-TLF on inp
+ut line 66.
 
-
-LaTeX Font Warning: Font shape `TS1/OpenSans(0)/m/n' undefined
-(Font)              using `TS1/cmr/m/n' instead on input line 66.
-
-LaTeX Font Info:    Font shape `TU/OpenSans(0)/m/n' will be
+(/usr/share/texlive/texmf-dist/tex/latex/opensans/TS1opensans-TLF.fd
+File: TS1opensans-TLF.fd 2019/06/24 Font definitions for TS1/opensans-TLF.
+)
+LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
+(Font)              scaled to size 10.40245pt on input line 66.
+LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
+(Font)              scaled to size 7.59998pt on input line 66.
+LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
+(Font)              scaled to size 5.69998pt on input line 66.
+LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
 (Font)              scaled to size 4.74998pt on input line 92.
-[1
+LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
+(Font)              scaled to size 7.59998pt on input line 109.
+ [1
 
 
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}<./static/logos/Frame-ups.pdf
-><./static/logos/logo2.png>]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./static/logos/Frame-ups.p
+df> <./static/logos/logo2.png>]
 *geometry* verbose mode - [ newgeometry ] result:
-* driver: luatex
+* driver: pdftex
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -2206,30 +1372,28 @@ LaTeX Font Info:    Font shape `TU/OpenSans(0)/m/n' will be
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for TU+rm on input line 114.
+LaTeX Font Info:    Trying to load font information for T1+rm on input line 114
+.
+LaTeX Font Info:    No file T1rm.fd. on input line 114.
 
-LaTeX Font Info:    No file TUrm.fd. on input line 114.
 
+LaTeX Font Warning: Font shape `T1/rm/m/n' undefined
+(Font)              using `T1/cmr/m/n' instead on input line 114.
 
-LaTeX Font Warning: Font shape `TU/rm/m/n' undefined
-(Font)              using `TU/lmr/m/n' instead on input line 114.
-
-<static/logos/EOBE.png, id=109, 1734.48pt x 397.485pt>
+<static/logos/EOBE.png, id=115, 1734.48pt x 397.485pt>
 File: static/logos/EOBE.png Graphic file (type png)
 <use static/logos/EOBE.png>
-Package luatex.def Info: static/logos/EOBE.png  used on input line 126.
-(luatex.def)             Requested size: 304.17374pt x 69.70915pt.
+Package pdftex.def Info: static/logos/EOBE.png  used on input line 126.
+(pdftex.def)             Requested size: 304.17374pt x 69.70915pt.
 Package mdframed Info: mdframed works in twoside mode on input line 133.
-
-LaTeX Font Warning: Font shape `TU/cmss/b/n' undefined
-(Font)              using `TU/cmss/m/n' instead on input line 135.
-
 Package mdframed Info: mdframed works in twoside mode on input line 148.
+LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
+(Font)              scaled to size 10.40245pt on input line 177.
 [2
 
-<./static/logos/EOBE.png>]
+ <./static/logos/EOBE.png>]
 *geometry* verbose mode - [ newgeometry ] result:
-* driver: luatex
+* driver: pdftex
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -2262,8 +1426,8 @@ Package mdframed Info: mdframed works in twoside mode on input line 148.
 
  (/home/alexis/Documents/Thesis/out/main.toc)
 \tf@toc=\write6
+\openout6 = `main.toc'.
 
-\openout6 = main.toc
 
 [3
 
@@ -2271,7 +1435,7 @@ Package mdframed Info: mdframed works in twoside mode on input line 148.
 
 ]
 *geometry* verbose mode - [ newgeometry ] result:
-* driver: luatex
+* driver: pdftex
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -2302,8 +1466,8 @@ Package mdframed Info: mdframed works in twoside mode on input line 148.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+\openout2 = `chapters/ComBiNet.aux'.
 
-\openout2 = chapters/ComBiNet.aux
  (./chapters/ComBiNet.tex [4
 
 
@@ -2312,29 +1476,31 @@ Package mdframed Info: mdframed works in twoside mode on input line 148.
 ]
 Chapitre 1.
 
-LaTeX Warning: Citation `wetherell_historical_1998' on page 5 undefined on input
- line 7.
+Overfull \hbox (3.36989pt too wide) in paragraph at lines 1--1
+\T1/cmss/bx/n/17.28 son of Bi-par-tite Dy-na-mic Mul-ti-va-riate Net-
+ []
 
 
-LaTeX Warning: Citation `grandjean_analisi_2017' on page 5 undefined on input li
-ne 11.
+LaTeX Warning: Citation `wetherell_historical_1998' on page 5 undefined on inpu
+t line 7.
 
 
-LaTeX Warning: Citation `rossi_exploration_2014' on page 5 undefined on input li
-ne 11.
+LaTeX Warning: Citation `grandjean_analisi_2017' on page 5 undefined on input l
+ine 11.
 
 
-LaTeX Warning: Citation `shafie_hypergraph_2017' on page 5 undefined on input li
-ne 11.
+LaTeX Warning: Citation `rossi_exploration_2014' on page 5 undefined on input l
+ine 11.
 
 
-LaTeX Warning: Citation `cristofoli_aux_2008' on page 5 undefined on input line 
-14.
+LaTeX Warning: Citation `shafie_hypergraph_2017' on page 5 undefined on input l
+ine 11.
 
 
-Underfull \vbox (badness 1924) has occurred while \output is active []
+LaTeX Warning: Citation `cristofoli_aux_2008' on page 5 undefined on input line
+ 14.
 
- [5]
+[5]
 
 LaTeX Warning: Citation `NodeXL' on page 6 undefined on input line 16.
 
@@ -2342,542 +1508,666 @@ LaTeX Warning: Citation `NodeXL' on page 6 undefined on input line 16.
 LaTeX Warning: Citation `neo4j' on page 6 undefined on input line 25.
 
 
-Underfull \vbox (badness 4819) has occurred while \output is active []
+Underfull \vbox (badness 2035) has occurred while \output is active []
 
  [6]
-LaTeX Font Info:    Font shape `TU/OpenSans(0)/b/n' will be
+LaTeX Font Info:    Font shape `T1/opensans-TLF/b/n' will be
 (Font)              scaled to size 10.40245pt on input line 57.
 
 
-LaTeX Warning: Reference `ch:related-work' on page 7 undefined on input line 57.
-
-
-
-LaTeX Warning: Citation `RStat' on page 7 undefined on input line 62.
-
-
-LaTeX Warning: Citation `Python' on page 7 undefined on input line 62.
-
-
-LaTeX Warning: Citation `igraph' on page 7 undefined on input line 62.
-
-
-LaTeX Warning: Citation `NetworkX' on page 7 undefined on input line 62.
-
-
-LaTeX Warning: Citation `chau_graphite_2008' on page 7 undefined on input line 7
-0.
-
-
-LaTeX Warning: Citation `cuenca_vertigo_2021' on page 7 undefined on input line 
-70.
-
-
-LaTeX Warning: Citation `shadoan_visual_2013' on page 7 undefined on input line 
-70.
-
-
-LaTeX Warning: Citation `pienta_vigor_2018' on page 7 undefined on input line 70
+LaTeX Warning: Reference `ch:related-work' on page 7 undefined on input line 57
 .
 
+LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
+(Font)              scaled to size 9.49997pt on input line 62.
 
-LaTeX Warning: Citation `gleicher_visual_2011' on page 7 undefined on input line
- 91.
+LaTeX Warning: Citation `tovanichVAST2020Contest2021' on page 7 undefined on in
+put line 62.
+
+
+LaTeX Warning: Citation `miloNetworkMotifsSimple2002' on page 7 undefined on in
+put line 68.
+
+
+LaTeX Warning: Citation `ingramNetworkMotifsStructure2006' on page 7 undefined 
+on input line 71.
+
+
+LaTeX Warning: Citation `ribeiroDiscoveringColoredNetwork2014' on page 7 undefi
+ned on input line 72.
 
 [7]
 
-LaTeX Warning: Citation `andrews_visual_2009' on page 8 undefined on input line 
-94.
+LaTeX Warning: Citation `RStat' on page 8 undefined on input line 81.
 
 
-LaTeX Warning: Citation `ManyNets' on page 8 undefined on input line 96.
+LaTeX Warning: Citation `Python' on page 8 undefined on input line 81.
 
 
-LaTeX Warning: Citation `HascoetD12' on page 8 undefined on input line 98.
+LaTeX Warning: Citation `igraph' on page 8 undefined on input line 81.
 
 
-LaTeX Warning: Citation `tovanich_vast_2021' on page 8 undefined on input line 9
+LaTeX Warning: Citation `NetworkX' on page 8 undefined on input line 81.
+
+
+LaTeX Warning: Citation `chau_graphite_2008' on page 8 undefined on input line 
+89.
+
+
+LaTeX Warning: Citation `cuenca_vertigo_2021' on page 8 undefined on input line
+ 89.
+
+
+LaTeX Warning: Citation `shadoan_visual_2013' on page 8 undefined on input line
+ 89.
+
+
+LaTeX Warning: Citation `pienta_vigor_2018' on page 8 undefined on input line 8
 9.
 
 
-LaTeX Warning: Citation `raganCharacterizingProvenanceVisualization2016' on page
- 8 undefined on input line 103.
+LaTeX Warning: Citation `gleicher_visual_2011' on page 8 undefined on input lin
+e 110.
 
 
-LaTeX Warning: Citation `callahanVisTrailsVisualizationMeets2006' on page 8 unde
-fined on input line 103.
+LaTeX Warning: Citation `andrews_visual_2009' on page 8 undefined on input line
+ 113.
 
 
-LaTeX Warning: Citation `dunneGraphTrailAnalyzingLarge2012' on page 8 undefined 
-on input line 103.
+LaTeX Warning: Citation `ManyNets' on page 8 undefined on input line 115.
 
 
-LaTeX Warning: Citation `battleCharacterizingExploratoryVisual2019' on page 8 un
-defined on input line 104.
+LaTeX Warning: Citation `HascoetD12' on page 8 undefined on input line 117.
 
 
-LaTeX Warning: Citation `borsProvenanceTaskAbstraction2019' on page 8 undefined 
-on input line 104.
+LaTeX Warning: Citation `tovanich_vast_2021' on page 8 undefined on input line 
+118.
 
 
-LaTeX Warning: Citation `ren2018charticulator' on page 8 undefined on input line
- 105.
+Underfull \vbox (badness 1675) has occurred while \output is active []
+
+ [8]
+
+LaTeX Warning: Citation `raganCharacterizingProvenanceVisualization2016' on pag
+e 9 undefined on input line 122.
 
 
-LaTeX Warning: Citation `xuSurveyAnalysisUser2020' on page 8 undefined on input 
-line 106.
+LaTeX Warning: Citation `callahanVisTrailsVisualizationMeets2006' on page 9 und
+efined on input line 122.
 
 
-LaTeX Warning: Reference `sec:HSNA-examples' on page 8 undefined on input line 1
-22.
+LaTeX Warning: Citation `dunneGraphTrailAnalyzingLarge2012' on page 9 undefined
+ on input line 122.
 
-[8]
-Underfull \hbox (badness 1845) in paragraph at lines 140--140
-[]\TU/OpenSans(0)/m/n/8 A node-link re-
+
+LaTeX Warning: Citation `battleCharacterizingExploratoryVisual2019' on page 9 u
+ndefined on input line 123.
+
+
+LaTeX Warning: Citation `borsProvenanceTaskAbstraction2019' on page 9 undefined
+ on input line 123.
+
+
+LaTeX Warning: Citation `ren2018charticulator' on page 9 undefined on input lin
+e 124.
+
+
+LaTeX Warning: Citation `xuSurveyAnalysisUser2020' on page 9 undefined on input
+ line 125.
+
+
+LaTeX Warning: Reference `sec:HSNA-examples' on page 9 undefined on input line 
+141.
+
+
+Underfull \hbox (badness 1838) in paragraph at lines 159--159
+[]\T1/opensans-TLF/m/n/8 A node-link re-
  []
 
 
-Underfull \hbox (badness 6825) in paragraph at lines 140--140
-\TU/OpenSans(0)/m/n/8 pre-sen-ta-tion is
+Underfull \hbox (badness 6825) in paragraph at lines 159--159
+\T1/opensans-TLF/m/n/8 pre-sen-ta-tion is
  []
 
 
-Overfull \vbox (26.60005pt too high) detected at line 140
+Overfull \vbox (26.57571pt too high) detected at line 159
  []
 
 
-Underfull \hbox (badness 1558) in paragraph at lines 141--141
+Underfull \hbox (badness 1558) in paragraph at lines 160--160
 []|  
  []
 
 
-Underfull \hbox (badness 1558) in paragraph at lines 142--142
+Underfull \hbox (badness 1558) in paragraph at lines 161--161
 []|  
  []
 
 
-Underfull \hbox (badness 1558) in paragraph at lines 143--143
+Underfull \hbox (badness 1558) in paragraph at lines 162--162
 []|  
  []
 
 
-Underfull \hbox (badness 1558) in paragraph at lines 144--144
+Underfull \hbox (badness 1558) in paragraph at lines 163--163
 []|  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--148
-[]\TU/OpenSans(0)/m/n/8 Constraints
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+[]\T1/opensans-TLF/m/n/8 Constraints
  []
 
 
-Underfull \hbox (badness 1558) in paragraph at lines 149--149
+Underfull \hbox (badness 1558) in paragraph at lines 168--168
 []|  
  []
 
 
-Underfull \hbox (badness 1558) in paragraph at lines 150--150
+Underfull \hbox (badness 1558) in paragraph at lines 169--169
 []|  
  []
 
 
-Underfull \hbox (badness 1558) in paragraph at lines 151--151
+Underfull \hbox (badness 1558) in paragraph at lines 170--170
 []|  
  []
 
 
-Underfull \hbox (badness 1558) in paragraph at lines 155--155
+Underfull \hbox (badness 1558) in paragraph at lines 174--174
 [][]|  
  []
 
 
-Underfull \hbox (badness 1558) in paragraph at lines 156--156
+Underfull \hbox (badness 1558) in paragraph at lines 175--175
 []|  
  []
 
 
-Underfull \hbox (badness 1558) in paragraph at lines 157--157
+Underfull \hbox (badness 1558) in paragraph at lines 176--176
 []|  
  []
 
-LaTeX Font Info:    Font shape `TU/OpenSans(0)/m/sc' will be
-(Font)              scaled to size 11.39996pt on input line 159.
+LaTeX Font Info:    Font shape `T1/opensans-TLF/m/sc' will be
+(Font)              scaled to size 11.39996pt on input line 178.
 
-LaTeX Warning: Citation `Cristofoli2018' on page 9 undefined on input line 169.
+LaTeX Warning: Citation `Cristofoli2018' on page 9 undefined on input line 188.
 
-LaTeX Font Info:    Font shape `TU/OpenSans(0)/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 173.
+
 [9]
-LaTeX Font Info:    Font shape `TU/OpenSans(0)/b/n' will be
-(Font)              scaled to size 9.49997pt on input line 173.
-LaTeX Font Info:    Font shape `TU/OpenSans(0)/m/n' will be
-(Font)              scaled to size 6.64998pt on input line 201.
- [10] [11]
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/teaser/v2/teaser.png, id=193, 
-4531.17844pt x 1766.85094pt>
-File: static/figures/ComBiNet/OriginalPaperFigures/CGF/teaser/v2/teaser.png Grap
-hic file (type png)
+LaTeX Font Info:    Font shape `T1/opensans-TLF/b/n' will be
+(Font)              scaled to size 9.49997pt on input line 192.
+
+Overfull \hbox (16.80199pt too wide) in paragraph at lines 205--206
+[]\T1/cmss/m/n/10 Are there people mu-tually gua-ran-tors to each other in dif-
+ferent contracts ?
+ []
+
+[10]
+LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
+(Font)              scaled to size 9.49997pt on input line 220.
+LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
+(Font)              scaled to size 6.64998pt on input line 220.
+ [11]
+Overfull \hbox (3.09146pt too wide) in paragraph at lines 253--254
+[]\T1/cmss/m/n/10 What price does the emi-grant have to pay, gi-ven their socio
+-economic
+ []
+
+[12]
+<static/figures/ComBiNet/OriginalPaperFigures/CGF/teaser/v2/teaser.png, id=213,
+ 4531.17844pt x 1766.85094pt>
+File: static/figures/ComBiNet/OriginalPaperFigures/CGF/teaser/v2/teaser.png Gra
+phic file (type png)
 <use static/figures/ComBiNet/OriginalPaperFigures/CGF/teaser/v2/teaser.png>
-Package luatex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/teaser
-/v2/teaser.png  used on input line 264.
-(luatex.def)             Requested size: 369.88583pt x 144.20871pt.
-LaTeX Font Info:    Font shape `TU/OpenSans(0)/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 281.
+Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/tease
+r/v2/teaser.png  used on input line 283.
+(pdftex.def)             Requested size: 369.88583pt x 144.20871pt.
+LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
+(Font)              scaled to size 5.69998pt on input line 284.
+LaTeX Font Info:    Font shape `T1/opensans-TLF/b/n' will be
+(Font)              scaled to size 11.39996pt on input line 300.
 
 
-LaTeX Warning: Citation `Cristofoli2018' on page 12 undefined on input line 281.
+LaTeX Warning: Citation `Cristofoli2018' on page 13 undefined on input line 300
+.
+
+LaTeX Font Info:    Font shape `T1/opensans-TLF/m/it' will be
+(Font)              scaled to size 11.39996pt on input line 300.
+
+LaTeX Warning: Citation `Cristofoli2018' on page 13 undefined on input line 300
+.
+
+[13 <./static/figures/ComBiNet/OriginalPaperFigures/CGF/teaser/v2/teaser.png>]
+
+LaTeX Warning: Citation `igraph' on page 14 undefined on input line 313.
 
 
-LaTeX Font Info:    Font shape `TU/OpenSans(0)/m/it' will be
-(Font)              scaled to size 11.39996pt on input line 281.
-
-LaTeX Warning: Citation `Cristofoli2018' on page 12 undefined on input line 281.
+LaTeX Warning: Citation `d3' on page 14 undefined on input line 313.
 
 
-[12] [13<./static/figures/ComBiNet/OriginalPaperFigures/CGF/teaser/v2/teaser.png
->]
-
-LaTeX Warning: Citation `igraph' on page 14 undefined on input line 294.
+LaTeX Warning: Citation `noauthor_nodexl_nodate' on page 14 undefined on input 
+line 314.
 
 
-LaTeX Warning: Citation `d3' on page 14 undefined on input line 294.
+LaTeX Warning: Citation `NaturalEarth' on page 14 undefined on input line 331.
 
 
-LaTeX Warning: Citation `noauthor_nodexl_nodate' on page 14 undefined on input l
-ine 295.
-
-
-LaTeX Warning: Citation `NaturalEarth' on page 14 undefined on input line 312.
+LaTeX Warning: Citation `bezerianosGraphDiceSystemExploring2010' on page 14 und
+efined on input line 339.
 
 [14]
 
-LaTeX Warning: Citation `bezerianosGraphDiceSystemExploring2010' on page 15 unde
-fined on input line 320.
+LaTeX Warning: Citation `heer_vizster_2005' on page 15 undefined on input line 
+353.
 
-
-LaTeX Warning: Citation `heer_vizster_2005' on page 15 undefined on input line 3
-34.
-
-<static/figures/ComBiNet/Piemont_timeSelected.png, id=221, 1841.88126pt x 979.66
-pt>
+<static/figures/ComBiNet/Piemont_timeSelected.png, id=234, 1841.88126pt x 979.6
+6pt>
 File: static/figures/ComBiNet/Piemont_timeSelected.png Graphic file (type png)
 <use static/figures/ComBiNet/Piemont_timeSelected.png>
-Package luatex.def Info: static/figures/ComBiNet/Piemont_timeSelected.png  used 
-on input line 339.
-(luatex.def)             Requested size: 369.88583pt x 261.31277pt.
-[15] [16<./static/figures/ComBiNet/Piemont_timeSelected.png>]
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/links.pdf, id=238, 383.42334pt
- x 114.86983pt>
-File: static/figures/ComBiNet/OriginalPaperFigures/CGF/links.pdf Graphic file (t
-ype pdf)
+Package pdftex.def Info: static/figures/ComBiNet/Piemont_timeSelected.png  used
+ on input line 358.
+(pdftex.def)             Requested size: 369.88583pt x 261.31277pt.
+[15] [16 <./static/figures/ComBiNet/Piemont_timeSelected.png>]
+<static/figures/ComBiNet/OriginalPaperFigures/CGF/links.pdf, id=250, 383.42334p
+t x 114.86983pt>
+File: static/figures/ComBiNet/OriginalPaperFigures/CGF/links.pdf Graphic file (
+type pdf)
 <use static/figures/ComBiNet/OriginalPaperFigures/CGF/links.pdf>
-Package luatex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/links.
-pdf  used on input line 386.
-(luatex.def)             Requested size: 332.89499pt x 99.7361pt.
- [17]
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/MutualGuarantors.png, id=249, 
-837.1275pt x 560.0925pt>
-File: static/figures/ComBiNet/OriginalPaperFigures/CGF/MutualGuarantors.png Grap
-hic file (type png)
+Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/links
+.pdf  used on input line 405.
+(pdftex.def)             Requested size: 332.89499pt x 99.7361pt.
+ [17 <./static/figures/ComBiNet/OriginalPaperFigures/CGF/links.pdf>]
+<static/figures/ComBiNet/OriginalPaperFigures/CGF/MutualGuarantors.png, id=280,
+ 837.1275pt x 560.0925pt>
+File: static/figures/ComBiNet/OriginalPaperFigures/CGF/MutualGuarantors.png Gra
+phic file (type png)
 <use static/figures/ComBiNet/OriginalPaperFigures/CGF/MutualGuarantors.png>
-Package luatex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/Mutual
-Guarantors.png  used on input line 404.
-(luatex.def)             Requested size: 107.2644pt x 71.76338pt.
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/Turin.png, id=250, 843.15pt x 
-1192.455pt>
-File: static/figures/ComBiNet/OriginalPaperFigures/CGF/Turin.png Graphic file (t
-ype png)
+Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/Mutua
+lGuarantors.png  used on input line 423.
+(pdftex.def)             Requested size: 107.2644pt x 71.76338pt.
+<static/figures/ComBiNet/OriginalPaperFigures/CGF/Turin.png, id=281, 843.15pt x
+ 1192.455pt>
+File: static/figures/ComBiNet/OriginalPaperFigures/CGF/Turin.png Graphic file (
+type png)
 <use static/figures/ComBiNet/OriginalPaperFigures/CGF/Turin.png>
-Package luatex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/Turin.
-png  used on input line 409.
-(luatex.def)             Requested size: 119.10445pt x 168.43459pt.
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinoSuburbs.png, id=251, 841
-.1425pt x 1178.4025pt>
-File: static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinoSuburbs.png Graphic
- file (type png)
+Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/Turin
+.png  used on input line 428.
+(pdftex.def)             Requested size: 119.10445pt x 168.43459pt.
+<static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinoSuburbs.png, id=282, 84
+1.1425pt x 1178.4025pt>
+File: static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinoSuburbs.png Graphi
+c file (type png)
 <use static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinoSuburbs.png>
-Package luatex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/Turino
-Suburbs.png  used on input line 410.
-(luatex.def)             Requested size: 119.10445pt x 166.84525pt.
+Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/Turin
+oSuburbs.png  used on input line 429.
+(pdftex.def)             Requested size: 119.10445pt x 166.84525pt.
 
 
-LaTeX Warning: Citation `DynamicQueries' on page 18 undefined on input line 447.
+LaTeX Warning: Citation `DynamicQueries' on page 18 undefined on input line 466
+.
 
-
-<static/figures/ComBiNet/OriginalPaperFigures/constraintRegion.png, id=253, 815.
-045pt x 402.50375pt>
-File: static/figures/ComBiNet/OriginalPaperFigures/constraintRegion.png Graphic 
-file (type png)
+<static/figures/ComBiNet/OriginalPaperFigures/constraintRegion.png, id=284, 815
+.045pt x 402.50375pt>
+File: static/figures/ComBiNet/OriginalPaperFigures/constraintRegion.png Graphic
+ file (type png)
 <use static/figures/ComBiNet/OriginalPaperFigures/constraintRegion.png>
-Package luatex.def Info: static/figures/ComBiNet/OriginalPaperFigures/constraint
-Region.png  used on input line 461.
-(luatex.def)             Requested size: 258.91895pt x 127.86414pt.
-<static/figures/ComBiNet/OriginalPaperFigures/nominalWidget.png, id=254, 737.756
-26pt x 143.53625pt>
-File: static/figures/ComBiNet/OriginalPaperFigures/nominalWidget.png Graphic fil
-e (type png)
+Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/constrain
+tRegion.png  used on input line 480.
+(pdftex.def)             Requested size: 258.91895pt x 127.86414pt.
+<static/figures/ComBiNet/OriginalPaperFigures/nominalWidget.png, id=285, 737.75
+626pt x 143.53625pt>
+File: static/figures/ComBiNet/OriginalPaperFigures/nominalWidget.png Graphic fi
+le (type png)
 <use static/figures/ComBiNet/OriginalPaperFigures/nominalWidget.png>
-Package luatex.def Info: static/figures/ComBiNet/OriginalPaperFigures/nominalWid
-get.png  used on input line 462.
-(luatex.def)             Requested size: 221.93375pt x 43.17728pt.
-<static/figures/ComBiNet/OriginalPaperFigures/numericWidget.png, id=255, 737.756
-26pt x 177.66376pt>
-File: static/figures/ComBiNet/OriginalPaperFigures/numericWidget.png Graphic fil
-e (type png)
+Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/nominalWi
+dget.png  used on input line 481.
+(pdftex.def)             Requested size: 221.93375pt x 43.17728pt.
+<static/figures/ComBiNet/OriginalPaperFigures/numericWidget.png, id=286, 737.75
+626pt x 177.66376pt>
+File: static/figures/ComBiNet/OriginalPaperFigures/numericWidget.png Graphic fi
+le (type png)
 <use static/figures/ComBiNet/OriginalPaperFigures/numericWidget.png>
-Package luatex.def Info: static/figures/ComBiNet/OriginalPaperFigures/numericWid
-get.png  used on input line 463.
-(luatex.def)             Requested size: 221.93375pt x 53.4432pt.
-[18<./static/figures/ComBiNet/OriginalPaperFigures/CGF/links.pdf>]
+Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/numericWi
+dget.png  used on input line 482.
+(pdftex.def)             Requested size: 221.93375pt x 53.4432pt.
+[18 <./static/figures/ComBiNet/OriginalPaperFigures/CGF/MutualGuarantors.png> <
+./static/figures/ComBiNet/OriginalPaperFigures/CGF/Turin.png> <./static/figures
+/ComBiNet/OriginalPaperFigures/CGF/TurinoSuburbs.png>]
 
-LaTeX Warning: Citation `fekete2019progressive' on page 19 undefined on input li
-ne 494.
+LaTeX Warning: Citation `fekete2019progressive' on page 19 undefined on input l
+ine 515.
 
-
-Underfull \vbox (badness 1748) has occurred while \output is active []
-
- [19<./static/figures/ComBiNet/OriginalPaperFigures/CGF/MutualGuarantors.png><./
-static/figures/ComBiNet/OriginalPaperFigures/CGF/Turin.png><./static/figures/Com
-BiNet/OriginalPaperFigures/CGF/TurinoSuburbs.png>]
-<static/figures/ComBiNet/Piemont-mutual-guarantor-table.png, id=297, 2756.2975pt
- x 712.6625pt>
-File: static/figures/ComBiNet/Piemont-mutual-guarantor-table.png Graphic file (t
-ype png)
+<static/figures/ComBiNet/Piemont-mutual-guarantor-table.png, id=303, 2756.2975p
+t x 712.6625pt>
+File: static/figures/ComBiNet/Piemont-mutual-guarantor-table.png Graphic file (
+type png)
 <use static/figures/ComBiNet/Piemont-mutual-guarantor-table.png>
-Package luatex.def Info: static/figures/ComBiNet/Piemont-mutual-guarantor-table.
-png  used on input line 508.
-(luatex.def)             Requested size: 369.88583pt x 95.62894pt.
-<static/figures/ComBiNet/piemont-mutual-guarantors-results.png, id=298, 2722.17p
-t x 670.505pt>
-File: static/figures/ComBiNet/piemont-mutual-guarantors-results.png Graphic file
- (type png)
+Package pdftex.def Info: static/figures/ComBiNet/Piemont-mutual-guarantor-table
+.png  used on input line 527.
+(pdftex.def)             Requested size: 369.88583pt x 95.62894pt.
+<static/figures/ComBiNet/piemont-mutual-guarantors-results.png, id=304, 2722.17
+pt x 670.505pt>
+File: static/figures/ComBiNet/piemont-mutual-guarantors-results.png Graphic fil
+e (type png)
 <use static/figures/ComBiNet/piemont-mutual-guarantors-results.png>
-Package luatex.def Info: static/figures/ComBiNet/piemont-mutual-guarantors-resul
-ts.png  used on input line 513.
-(luatex.def)             Requested size: 369.88583pt x 91.10767pt.
+Package pdftex.def Info: static/figures/ComBiNet/piemont-mutual-guarantors-resu
+lts.png  used on input line 532.
+(pdftex.def)             Requested size: 369.88583pt x 91.10767pt.
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/apprGuar.png, id=29
-9, 833.1125pt x 875.27pt>
-File: static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/apprGuar.png G
-raphic file (type png)
+<static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/apprGuar.png, id=3
+05, 833.1125pt x 875.27pt>
+File: static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/apprGuar.png 
+Graphic file (type png)
 <use static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/apprGuar.png>
-Package luatex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/sankey
-PLot/apprGuar.png  used on input line 530.
-(luatex.def)             Requested size: 88.77463pt x 93.26164pt.
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/barchart.pdf, id=30
-0, 256.96pt x 242.9075pt>
-File: static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/barchart.pdf G
-raphic file (type pdf)
+Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/sanke
+yPLot/apprGuar.png  used on input line 549.
+(pdftex.def)             Requested size: 88.77463pt x 93.26164pt.
+<static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/barchart.pdf, id=3
+06, 256.96pt x 242.9075pt>
+File: static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/barchart.pdf 
+Graphic file (type pdf)
 <use static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/barchart.pdf>
-Package luatex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/sankey
-PLot/barchart.pdf  used on input line 534.
-(luatex.def)             Requested size: 110.96687pt x 104.90036pt.
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/sankey_bigger.pdf, 
-id=301, 541.02126pt x 303.1325pt>
-File: static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/sankey_bigger.
-pdf Graphic file (type pdf)
-<use static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/sankey_bigger.p
-df>
-Package luatex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/sankey
-PLot/sankey_bigger.pdf  used on input line 538.
-(luatex.def)             Requested size: 162.75066pt x 91.1856pt.
-LaTeX Font Info:    Font shape `TU/OpenSans(0)/m/sl' in size <12> not available
-(Font)              Font shape `TU/OpenSans(0)/m/it' tried instead on input line
- 543.
-LaTeX Font Info:    Font shape `TU/OpenSans(0)/m/it' will be
-(Font)              scaled to size 11.39996pt on input line 543.
+Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/sanke
+yPLot/barchart.pdf  used on input line 553.
+(pdftex.def)             Requested size: 110.96687pt x 104.90036pt.
+<static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/sankey_bigger.pdf,
+ id=307, 541.02126pt x 303.1325pt>
+File: static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/sankey_bigger
+.pdf Graphic file (type pdf)
+<use static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/sankey_bigger.
+pdf>
+Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/sanke
+yPLot/sankey_bigger.pdf  used on input line 557.
+(pdftex.def)             Requested size: 162.75066pt x 91.1856pt.
+LaTeX Font Info:    Font shape `T1/opensans-TLF/m/sl' in size <12> not availabl
+e
+(Font)              Font shape `T1/opensans-TLF/m/it' tried instead on input li
+ne 562.
+LaTeX Font Info:    Font shape `T1/opensans-TLF/m/it' will be
+(Font)              scaled to size 11.39996pt on input line 562.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 5
+62.
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+Underfull \vbox (badness 4819) has occurred while \output is active []
 
-LaTeX Warning: Citation `cutler_trrack_2020' on page 20 undefined on input line 
-574.
+ [19]
 
-<static/figures/ComBiNet/tree_tooltip_torinoquery_crop.png, id=306, 1237.62375pt
- x 1373.88281pt>
-File: static/figures/ComBiNet/tree_tooltip_torinoquery_crop.png Graphic file (ty
-pe png)
+LaTeX Warning: Citation `cutler_trrack_2020' on page 20 undefined on input line
+ 593.
+
+<static/figures/ComBiNet/tree_tooltip_torinoquery_crop.png, id=319, 1237.62375p
+t x 1373.88281pt>
+File: static/figures/ComBiNet/tree_tooltip_torinoquery_crop.png Graphic file (t
+ype png)
 <use static/figures/ComBiNet/tree_tooltip_torinoquery_crop.png>
-Package luatex.def Info: static/figures/ComBiNet/tree_tooltip_torinoquery_crop.p
-ng  used on input line 585.
-(luatex.def)             Requested size: 184.94292pt x 205.29787pt.
+Package pdftex.def Info: static/figures/ComBiNet/tree_tooltip_torinoquery_crop.
+png  used on input line 604.
+(pdftex.def)             Requested size: 184.94292pt x 205.29787pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [20]
-<static/figures/ComBiNet/OriginalPaperFigures/comparisonPlots/graphMeasuresCompa
-rison.png, id=319, 579.16376pt x 330.23375pt>
-File: static/figures/ComBiNet/OriginalPaperFigures/comparisonPlots/graphMeasures
-Comparison.png Graphic file (type png)
-<use static/figures/ComBiNet/OriginalPaperFigures/comparisonPlots/graphMeasuresC
-omparison.png>
-Package luatex.def Info: static/figures/ComBiNet/OriginalPaperFigures/comparison
-Plots/graphMeasuresComparison.png  used on input line 636.
-(luatex.def)             Requested size: 295.90979pt x 168.72435pt.
+<static/figures/ComBiNet/OriginalPaperFigures/comparisonPlots/graphMeasuresComp
+arison.png, id=332, 579.16376pt x 330.23375pt>
+File: static/figures/ComBiNet/OriginalPaperFigures/comparisonPlots/graphMeasure
+sComparison.png Graphic file (type png)
+<use static/figures/ComBiNet/OriginalPaperFigures/comparisonPlots/graphMeasures
+Comparison.png>
+Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/compariso
+nPlots/graphMeasuresComparison.png  used on input line 655.
+(pdftex.def)             Requested size: 295.90979pt x 168.72435pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[21]
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/type+chantier.pdf, 
-id=331, 256.96pt x 411.5375pt>
-File: static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/type+chantier.
-pdf Graphic file (type pdf)
-<use static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/type+chantier.p
-df>
-Package luatex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinP
-lots/type+chantier.pdf  used on input line 679.
-(luatex.def)             Requested size: 56.4059pt x 90.33646pt.
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/time.pdf, id=332, 4
-31.6125pt x 365.365pt>
-File: static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/time.pdf Graph
-ic file (type pdf)
+
+Underfull \vbox (badness 1038) has occurred while \output is active []
+
+ [21]
+<static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/type+chantier.pdf,
+ id=340, 256.96pt x 411.5375pt>
+File: static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/type+chantier
+.pdf Graphic file (type pdf)
+<use static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/type+chantier.
+pdf>
+Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/Turin
+Plots/type+chantier.pdf  used on input line 698.
+(pdftex.def)             Requested size: 56.4059pt x 90.33783pt.
+<static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/time.pdf, id=341, 
+431.6125pt x 365.365pt>
+File: static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/time.pdf Grap
+hic file (type pdf)
 <use static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/time.pdf>
-Package luatex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinP
-lots/time.pdf  used on input line 680.
-(luatex.def)             Requested size: 106.71739pt x 90.33646pt.
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/centrality.pdf, id=
-333, 458.71375pt x 249.93375pt>
-File: static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/centrality.pdf
- Graphic file (type pdf)
-<use static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/centrality.pdf>
-
-Package luatex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinP
-lots/centrality.pdf  used on input line 681.
-(luatex.def)             Requested size: 165.79477pt x 90.33646pt.
+Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/Turin
+Plots/time.pdf  used on input line 699.
+(pdftex.def)             Requested size: 106.71739pt x 90.33783pt.
+<static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/centrality.pdf, id
+=342, 458.71375pt x 249.93375pt>
+File: static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/centrality.pd
+f Graphic file (type pdf)
+<use static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/centrality.pdf
+>
+Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/Turin
+Plots/centrality.pdf  used on input line 700.
+(pdftex.def)             Requested size: 165.80176pt x 90.33783pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Citation `d3' on page 22 undefined on input line 691.
+LaTeX Warning: Citation `d3' on page 22 undefined on input line 710.
 
 
-LaTeX Warning: Citation `satyanarayan2016vega' on page 22 undefined on input lin
-e 691.
+LaTeX Warning: Citation `satyanarayan2016vega' on page 22 undefined on input li
+ne 710.
 
 
-LaTeX Warning: Citation `cutler_trrack_2020' on page 22 undefined on input line 
-691.
+LaTeX Warning: Citation `cutler_trrack_2020' on page 22 undefined on input line
+ 710.
 
 
-LaTeX Warning: Citation `parr1995antlr' on page 22 undefined on input line 693.
+LaTeX Warning: Citation `parr1995antlr' on page 22 undefined on input line 712.
+
 
 [22]
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/region.pdf, id=
-341, 354.32375pt x 333.245pt>
-File: static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/region.pdf
- Graphic file (type pdf)
-<use static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/region.pdf>
+<static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/region.pdf, id
+=349, 354.32375pt x 333.245pt>
+File: static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/region.pd
+f Graphic file (type pdf)
+<use static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/region.pdf
+>
+Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZ
+oPlots/v2/region.pdf  used on input line 751.
+(pdftex.def)             Requested size: 110.96687pt x 104.36253pt.
+<static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/type-chantier.
+pdf, id=350, 337.26pt x 333.245pt>
+File: static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/type-chan
+tier.pdf Graphic file (type pdf)
+<use static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/type-chant
+ier.pdf>
+Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZ
+oPlots/v2/type-chantier.pdf  used on input line 752.
+(pdftex.def)             Requested size: 110.96687pt x 109.64575pt.
+<static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/materiel.pdf, 
+id=351, 314.17375pt x 333.245pt>
+File: static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/materiel.
+pdf Graphic file (type pdf)
+<use static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/materiel.p
+df>
+Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZ
+oPlots/v2/materiel.pdf  used on input line 753.
+(pdftex.def)             Requested size: 110.96687pt x 117.70023pt.
+LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
+(Font)              scaled to size 11.39996pt on input line 758.
 
-Package luatex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZo
-Plots/v2/region.pdf  used on input line 732.
-(luatex.def)             Requested size: 110.96687pt x 104.36253pt.
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/type-chantier.p
-df, id=342, 337.26pt x 333.245pt>
-File: static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/type-chant
-ier.pdf Graphic file (type pdf)
-<use static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/type-chanti
-er.pdf>
-Package luatex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZo
-Plots/v2/type-chantier.pdf  used on input line 733.
-(luatex.def)             Requested size: 110.96687pt x 109.64575pt.
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/materiel.pdf, i
-d=343, 314.17375pt x 333.245pt>
-File: static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/materiel.p
-df Graphic file (type pdf)
-<use static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/materiel.pd
-f>
-Package luatex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZo
-Plots/v2/materiel.pdf  used on input line 734.
-(luatex.def)             Requested size: 110.96687pt x 117.70023pt.
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migrationQuer
+y.png, id=355, 819.06pt x 746.79pt>
+File: static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migratio
+nQuery.png Graphic file (type png)
+<use static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migration
+Query.png>
+Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/frenc
+hGenealogy/migrationQuery.png  used on input line 819.
+(pdftex.def)             Requested size: 147.95207pt x 134.89499pt.
+<static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migration3.pd
+f, id=356, 541.02126pt x 294.09875pt>
+File: static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migratio
+n3.pdf Graphic file (type pdf)
+<use static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migration
+3.pdf>
+Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/frenc
+hGenealogy/migration3.pdf  used on input line 826.
+(pdftex.def)             Requested size: 218.23128pt x 118.62917pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [23]
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migrationQuery
-.png, id=353, 819.06pt x 746.79pt>
-File: static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migration
-Query.png Graphic file (type png)
-<use static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migrationQ
-uery.png>
-Package luatex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/french
-Genealogy/migrationQuery.png  used on input line 800.
-(luatex.def)             Requested size: 147.95207pt x 134.89499pt.
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migration3.pdf
-, id=354, 541.02126pt x 294.09875pt>
-File: static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migration
-3.pdf Graphic file (type pdf)
-<use static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migration3
-.pdf>
-Package luatex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/french
-Genealogy/migration3.pdf  used on input line 807.
-(luatex.def)             Requested size: 218.23128pt x 118.62917pt.
+<static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migration_18.
+pdf, id=365, 541.02126pt x 288.07625pt>
+File: static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migratio
+n_18.pdf Graphic file (type pdf)
+<use static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migration
+_18.pdf>
+Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/frenc
+hGenealogy/migration_18.pdf  used on input line 850.
+(pdftex.def)             Requested size: 181.24608pt x 96.50723pt.
+<static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migration_19.
+pdf, id=366, 541.02126pt x 295.1025pt>
+File: static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migratio
+n_19.pdf Graphic file (type pdf)
+<use static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migration
+_19.pdf>
+Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/frenc
+hGenealogy/migration_19.pdf  used on input line 854.
+(pdftex.def)             Requested size: 181.24608pt x 98.86107pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migration_18.p
-df, id=357, 541.02126pt x 288.07625pt>
-File: static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migration
-_18.pdf Graphic file (type pdf)
-<use static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migration_
-18.pdf>
-Package luatex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/french
-Genealogy/migration_18.pdf  used on input line 831.
-(luatex.def)             Requested size: 181.24608pt x 96.50723pt.
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migration_19.p
-df, id=358, 541.02126pt x 295.1025pt>
-File: static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migration
-_19.pdf Graphic file (type pdf)
-<use static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migration_
-19.pdf>
-Package luatex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/french
-Genealogy/migration_19.pdf  used on input line 835.
-(luatex.def)             Requested size: 181.24608pt x 98.86107pt.
+<static/figures/ComBiNet/Thesis-first-exploration.png, id=370, 3681.755pt x 196
+3.335pt>
+File: static/figures/ComBiNet/Thesis-first-exploration.png Graphic file (type p
+ng)
+<use static/figures/ComBiNet/Thesis-first-exploration.png>
+Package pdftex.def Info: static/figures/ComBiNet/Thesis-first-exploration.png  
+used on input line 880.
+(pdftex.def)             Requested size: 295.90979pt x 157.789pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [24]
-
-LaTeX Warning: Citation `monroe2012exploring' on page 25 undefined on input line
- 915.
-
-
-LaTeX Warning: Citation `klamt2009hypergraphs' on page 25 undefined on input lin
-e 925.
-
-
-LaTeX Warning: Citation `konstantinova2001application' on page 25 undefined on i
-nput line 925.
-
-[25]) [26] [27<./static/figures/ComBiNet/OriginalPaperFigures/constraintRegion.p
-ng><./static/figures/ComBiNet/OriginalPaperFigures/nominalWidget.png><./static/f
-igures/ComBiNet/OriginalPaperFigures/numericWidget.png>] [28<./static/figures/Co
-mBiNet/Piemont-mutual-guarantor-table.png><./static/figures/ComBiNet/piemont-mut
-ual-guarantors-results.png>] [29<./static/figures/ComBiNet/OriginalPaperFigures/
-CGF/sankeyPLot/apprGuar.png><./static/figures/ComBiNet/OriginalPaperFigures/CGF/
-sankeyPLot/barchart.pdf><./static/figures/ComBiNet/OriginalPaperFigures/CGF/sank
-eyPLot/sankey_bigger.pdf><./static/figures/ComBiNet/tree_tooltip_torinoquery_cro
-p.png>] [30<./static/figures/ComBiNet/OriginalPaperFigures/comparisonPlots/graph
-MeasuresComparison.png><./static/figures/ComBiNet/OriginalPaperFigures/CGF/Turin
-Plots/type+chantier.pdf><./static/figures/ComBiNet/OriginalPaperFigures/CGF/Turi
-nPlots/time.pdf><./static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/c
-entrality.pdf><./static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2
-/region.pdf><./static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/t
-ype-chantier.pdf><./static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots
-/v2/materiel.pdf>] [31<./static/figures/ComBiNet/OriginalPaperFigures/CGF/french
-Genealogy/migrationQuery.png><./static/figures/ComBiNet/OriginalPaperFigures/CGF
-/frenchGenealogy/migration3.pdf><./static/figures/ComBiNet/OriginalPaperFigures/
-CGF/frenchGenealogy/migration_18.pdf><./static/figures/ComBiNet/OriginalPaperFig
-ures/CGF/frenchGenealogy/migration_19.pdf>]
-(/home/alexis/Documents/Thesis/out/main.bbl [32
+<static/figures/ComBiNet/Thesis-query01-and-results.png, id=380, 3683.7625pt x 
+1967.35pt>
+File: static/figures/ComBiNet/Thesis-query01-and-results.png Graphic file (type
+ png)
+<use static/figures/ComBiNet/Thesis-query01-and-results.png>
+Package pdftex.def Info: static/figures/ComBiNet/Thesis-query01-and-results.png
+  used on input line 904.
+(pdftex.def)             Requested size: 295.90979pt x 158.02162pt.
 
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-] [33] [34] [35] [36] [37])
-[38]
+
+LaTeX Warning: Citation `monroe2012exploring' on page 25 undefined on input lin
+e 976.
+
+[25]
+
+LaTeX Warning: Citation `klamt2009hypergraphs' on page 26 undefined on input li
+ne 986.
+
+
+LaTeX Warning: Citation `konstantinova2001application' on page 26 undefined on 
+input line 986.
+
+
+Underfull \vbox (badness 1024) has occurred while \output is active []
+
+ [26]
+
+LaTeX Warning: Citation `valdivia:hal-02264960' on page 27 undefined on input l
+ine 1017.
+
+) [27] [28 <./static/figures/ComBiNet/OriginalPaperFigures/constraintRegion.png
+> <./static/figures/ComBiNet/OriginalPaperFigures/nominalWidget.png> <./static/
+figures/ComBiNet/OriginalPaperFigures/numericWidget.png>] [29 <./static/figures
+/ComBiNet/Piemont-mutual-guarantor-table.png> <./static/figures/ComBiNet/piemon
+t-mutual-guarantors-results.png>] [30 <./static/figures/ComBiNet/OriginalPaperF
+igures/CGF/sankeyPLot/apprGuar.png> <./static/figures/ComBiNet/OriginalPaperFig
+ures/CGF/sankeyPLot/barchart.pdf> <./static/figures/ComBiNet/OriginalPaperFigur
+es/CGF/sankeyPLot/sankey_bigger.pdf
+
+pdfTeX warning: pdflatex (file ./static/figures/ComBiNet/OriginalPaperFigures/C
+GF/sankeyPLot/sankey_bigger.pdf): PDF inclusion: multiple pdfs with page group 
+included in a single page
+> <./static/figures/ComBiNet/tree_tooltip_torinoquery_crop.png>] [31 <./static/
+figures/ComBiNet/OriginalPaperFigures/comparisonPlots/graphMeasuresComparison.p
+ng> <./static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/type+chantie
+r.pdf> <./static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/time.pdf
+
+pdfTeX warning: pdflatex (file ./static/figures/ComBiNet/OriginalPaperFigures/C
+GF/TurinPlots/time.pdf): PDF inclusion: multiple pdfs with page group included 
+in a single page
+> <./static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/centrality.pdf
+
+
+pdfTeX warning: pdflatex (file ./static/figures/ComBiNet/OriginalPaperFigures/C
+GF/TurinPlots/centrality.pdf): PDF inclusion: multiple pdfs with page group inc
+luded in a single page
+> <./static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/region.pdf
+
+
+pdfTeX warning: pdflatex (file ./static/figures/ComBiNet/OriginalPaperFigures/C
+GF/MenaZoPlots/v2/region.pdf): PDF inclusion: multiple pdfs with page group inc
+luded in a single page
+> <./static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/type-chant
+ier.pdf
+
+pdfTeX warning: pdflatex (file ./static/figures/ComBiNet/OriginalPaperFigures/C
+GF/MenaZoPlots/v2/type-chantier.pdf): PDF inclusion: multiple pdfs with page gr
+oup included in a single page
+> <./static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/materiel.p
+df
+
+pdfTeX warning: pdflatex (file ./static/figures/ComBiNet/OriginalPaperFigures/C
+GF/MenaZoPlots/v2/materiel.pdf): PDF inclusion: multiple pdfs with page group i
+ncluded in a single page
+>] [32 <./static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migr
+ationQuery.png> <./static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenea
+logy/migration3.pdf> <./static/figures/ComBiNet/OriginalPaperFigures/CGF/french
+Genealogy/migration_18.pdf
+
+pdfTeX warning: pdflatex (file ./static/figures/ComBiNet/OriginalPaperFigures/C
+GF/frenchGenealogy/migration_18.pdf): PDF inclusion: multiple pdfs with page gr
+oup included in a single page
+> <./static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migration
+_19.pdf
+
+pdfTeX warning: pdflatex (file ./static/figures/ComBiNet/OriginalPaperFigures/C
+GF/frenchGenealogy/migration_19.pdf): PDF inclusion: multiple pdfs with page gr
+oup included in a single page
+> <./static/figures/ComBiNet/Thesis-first-exploration.png>] [33 <./static/figur
+es/ComBiNet/Thesis-query01-and-results.png>]
+(/home/alexis/Documents/Thesis/out/main.bbl [34
+
+
+
+] [35] [36] [37] [38]
+Underfull \hbox (badness 5022) in paragraph at lines 411--418
+[]\T1/cmss/m/n/10.95 Marc A. Smith, Ben Shnei-der-man, Na-tasa Milic-Frayling, 
+Eduarda
+ []
+
+[39]) [40]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 195.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 195.
  (/home/alexis/Documents/Thesis/out/main.aux
@@ -2888,40 +2178,50 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
 
 
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.26pt have occurred.
+
+
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
 LaTeX Warning: There were undefined references.
 
-)
-
-Here is how much of LuaTeX's memory you used:
- 33595 strings out of 481365
- 596944,1373583 words of node,token memory allocated
- 502410 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 230 glue, 4 kern, 1 penalty, 69574 glyph, 5717 attr
-ibute, 100 glue_spec, 818 attribute_list, 2 write, 3 pdf_action nodes
-   avail lists: 1:7,2:2673,3:375,4:120,5:312,6:80,7:2312,8:25,9:676,10:24,11:755
-
- 48473 multiletter control sequences out of 65536+600000
- 111 fonts using 11681011 bytes
- 68i,15n,120p,1687b,898s stack positions out of 5000i,500n,10000p,200000b,100000s
-</usr/share/texmf/fonts/opentype/public/lm/lmmono12-regular.otf></usr/share/font
-s/truetype/open-sans/OpenSans-Italic.ttf></usr/share/texmf/fonts/opentype/public
-/lm/lmroman7-regular.otf></usr/share/fonts/truetype/open-sans/OpenSans-Bold.ttf>
-</usr/share/texmf/fonts/opentype/public/lm/lmroman8-regular.otf></usr/share/texm
-f/fonts/opentype/public/lm/lmroman10-regular.otf></usr/share/texmf/fonts/opentyp
-e/public/lm/lmroman12-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmr
-oman17-regular.otf></usr/share/fonts/truetype/open-sans/OpenSans-Regular.ttf></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (38 pages, 4774572 bytes).
-
-PDF statistics: 703 PDF objects out of 1000 (max. 8388607)
- 531 compressed objects within 6 object streams
- 158 named destinations out of 1000 (max. 131072)
- 194 words of extra memory for PDF output out of 10000 (max. 100000000)
+ ) 
+Here is how much of TeX's memory you used:
+ 26625 strings out of 481239
+ 494865 string characters out of 5920377
+ 1066870 words of memory out of 5000000
+ 41075 multiletter control sequences out of 15000+600000
+ 606492 words of font info for 117 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 68i,15n,117p,1688b,881s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texliv
+e/texmf-dist/fonts/enc/dvips/opensans/a_jg4h6q.enc}{/usr/share/texlive/texmf-di
+st/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/ascen
+der/opensans/OpenSans-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/ascen
+der/opensans/OpenSans-Italic.pfb></usr/share/texlive/texmf-dist/fonts/type1/asc
+ender/opensans/OpenSans-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/bera/fvsb8a.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/bera/fvsr8a.pfb></usr/share/texmf/font
+s/type1/public/cm-super/sfsi1095.pfb></usr/share/texmf/fonts/type1/public/cm-su
+per/sfsi1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss0700.pfb></u
+sr/share/texmf/fonts/type1/public/cm-super/sfss0800.pfb></usr/share/texmf/fonts
+/type1/public/cm-super/sfss1000.pfb></usr/share/texmf/fonts/type1/public/cm-sup
+er/sfss1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss2488.pfb></us
+r/share/texmf/fonts/type1/public/cm-super/sfsx0800.pfb></usr/share/texmf/fonts/
+type1/public/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/type1/public/cm-supe
+r/sfsx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1728.pfb></usr
+/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on /home/alexis/Documents/Thesis/out/main.pdf (40 pages, 1058556
+6 bytes).
+PDF statistics:
+ 771 PDF objects out of 1000 (max. 8388607)
+ 605 compressed objects within 7 object streams
+ 164 named destinations out of 1000 (max. 500000)
+ 350 words of extra memory for PDF output out of 10000 (max. 10000000)
 

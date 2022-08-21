@@ -57,6 +57,25 @@ Our contributions are:
 As we already discussed the related work on network modeling and social network visualization in \autoref{ch:related-work} we only discuss in this section visual graph querying, visual graph comparison and provenance.
 
 
+\subsection{Graphlet Analysis}
+
+One of the inspiration of this project came after participating in the 2020 VAST challenge \footnote{This is a challenged organized in the context of the IEEE Visual Analytics Science and Technology (VAST) conference. The challenge consisted in a series of analytical questions united under an overarching cyber threat scenario. We participated in the Mini-Challenge 1 that asked participants to identify a group of people that accidentally caused an internet outage. To identify this group, we were given a network profile and a large multi-variate social network to search in.} where we used graphlets to measure similarity between several networks \cite{tovanichVAST2020Contest2021}.
+
+Graphlets are small connected induced, non-isomorphic subgraphs composing any network.
+In an induced subgraph, two vertices linked in the original graph remain linked in the subgraph.
+For instance, if the original graph is a triangle we can only induce the simple edge or triangle subgraph (graphlet)
+The path of length 2 has all vertices of the original graph but misses an edge and is, therefore, not a possible graphlet.
+They were first introduced by Milo et al. \cite{miloNetworkMotifsSimple2002} to explore the structural differences between biological networks, but they are now used in several disciplines involving networks such as sociology.
+
+One of the aims of the VAST 2020 challenge was to compare several multivariate networks.
+However, by using graphlets we realized that 1) it was not very efficient to compare several networks in contrast to other measures and 2) the interpretation of all graphlets patterns one find in a network is not straightforward and can be complicated given the fact that one specific pattern can have various interpretations given the nodes involved and their positions in the network \cite{ingramNetworkMotifsStructure2006}.
+This is especially true that the number of potential graphlets grow exponentially if we increase the number of nodes considered (there is 6 graphlets of size 4 and 21 graphlets of size 5) and if we add complexity to the network model, for example by adding directed links or node and link types \cite{ribeiroDiscoveringColoredNetwork2014}.
+
+Instead of counting every graphlet occurrence and interpret those with a sociological lens, social scientists are more interested in finding specific patterns to answer questions they ask themselves on the data.
+
+
+
+
 \subsection{Visual Graph Querying}
 
 Several scripting languages, such as R~\cite{RStat} and Python~\cite{Python}, have been extended to support the exploration of social networks using specialized libraries such as igraph~\cite{igraph} and NetworkX~\cite{NetworkX}. However, social scientists are often challenged to use scripting languages and programming.
@@ -488,21 +507,21 @@ The visual and textual representations are synchronized, meaning that changing o
 Each modification of the query, whether from the node-link dynamic query, the widgets, or the Cypher text boxes, update the two visualization panels (V1, V2), the entities tables (V3), the graph measures view (V5), and the attribute plots (V6).
 The nodes and links that do not match (are not retrieved by the query) are grayed out in V1 and V2, and are removed from the persons and documents tables (V3).
 A third table shows every occurrence found of the created pattern that we call the occurrence table.
-The occurence table for question 1 of collaboration \pascal is shown in \autoref{fig:combinet-example-results} (a).
-Users can switch between the three tables in the table view with tabs.
+The occurrence table for question 1 of collaboration \pascal is shown in \autoref{fig:combinet-example-results} (a).
+It tells us that the pattern has been found 36 times.
+Users can switch between the three tables in the table view using the tabs.
 The graph measures are computed on the new graph formed by the union of all patterns found and updated on the graph measures view (V5).
+\autoref{fig:combinet-example-results} (b) (left) shows the user the different graph measures of the subgraph induced by the patterns found.
 Since some measures can be long to compute, the values are computed iteratively in the backend and shown progressively \cite{fekete2019progressive} to avoid blocking the interface.
 The distribution plots in the attributes view (V6) are updated, showing the values of the entities of the latest constructed query, next to the global distributions.
+%By selecting the \textit{origin} attribute as seen in \autoref{fig:combinet-example-results} (b) (right)
 
 % Each modification of the query, whether from the node-link dynamic query, the widgets, or the Cypher text boxes, update the two visualization panels. The nodes and links that do not match (are not retrieved by the query) are grayed out. It allows to rapidly visualize the subset of entities resulting from the applied query while maintaining the context.
 % The results are shown in detail in the results section panel, constituted of the results tables and summary tabs, both shown in \autoref{fig:ResultsSection}. The table shows each occurrence of the query pattern found in the graph, with details on demands. Clicking on a row shows every attribute of the matched entities. Users can select a set of rows to highlight and visualize the occurrences directly in the two graph views.
 
 % The summary tab presents graph measures computed from the subgraph resulting from the union of all occurrences of the queried pattern, such as the number of persons, documents, bipartite density, and the bipartite clustering coefficient. For the specified query, 42 documents are localized in Torino, 99 persons are mentioned in these contracts 153 times (given by the number of links).
 
-\todo{show resuts of first question here}
-
-
-\begin{figure}[h]
+\begin{figure}[!h]
     \centering
     \begin{subfigure}[b]{\linewidth}
         \includegraphics[width=\textwidth]{static/figures/ComBiNet/Piemont-mutual-guarantor-table}
@@ -840,9 +859,51 @@ to compare the migrations between the 18th and 19th centuries. She thought peopl
 \end{figure}
 
 
-\subsection{Thesis Data}
+\subsection{Sociology thesis in France}
+
+We describe in this third use case how \name can be used to answer questions about thesis in France between 2016 and 2022.
+Indeed, some sociological datasets made of documents can also be well modeled as \modelplural like for example thesis dissertations: a thesis is a document with specific attributes such as the subject, the doctoral school, the domain, the university, and the date of defense, and mention several peoples who are socially connected through the thesis defense with different roles: author (\textit{auteur} in french), director(s) (\textit{directeur}), referees (\textit{rapporteur}), and jury president (\textit{président de jury}).
+%We discussed with sociologists who were interested in this type of data for explorations purposes.
+We present here an exploration of the data by ourselves using \name.
+A first look of the graph measures tells us that 896 thesis have been defended in sociology in France between 2016 and 2021 in France, with 2453 persons included in the defenses (see \autoref{fig:combinet-thesis-exploration} bottom).
+The bipartite node-link view shows us an overview of the network, but is hard to parse due to the network's size.
+Zoom actions though allow to center the view for specific parts of the network.
+The map view allows us to see that thesis have been defended all around France.
+We can however see that the majority of thesis are defended in Paris.
+This is confirmed if we look at the distribution of the cities (\autoref{fig:combinet-thesis-exploration} bottom right): around half of the defenses are in Paris, compared to the rest of the country which is more or less homogeneous.
+By setting the threshold to link creation to one (meaning that a link is created between two documents if they mention at least one common person), a lot of links are created as seen in \autoref{fig:combinet-thesis-exploration} (right).
+It means that a lot of thesis defenses include referee and juries from different cities.
 
 
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{static/figures/ComBiNet/Thesis-first-exploration}
+    \caption{\name used for exploring thesis of sociology defended in France between 2016 and 2021. The bipartite and map views show an overview of two vision of the network. The user select the \textit{region} attribute, showing the geographical distribution of the defended thesis.}\label{fig:combinet-thesis-exploration}
+\end{figure}
+
+Let's now try to answer an interesting question: ``Do referees and jury presidents often ask thesis directors to be referees and jury presidents in their turn of other thesis where they are directors ?"".
+For this, we can construct a visual query representing this pattern by creating two person nodes and two document nodes, and by connecting them with two president links and two referee or jury director links in a symmetrical way, as shown in \autoref{fig:combinet-thesis-query} (right).
+The occurrence table tells us that this pattern has been found 76 times in the network, meaning that this is a recurrent behaviour.
+We are now interested in characterizing the thesis occurring in this pattern, by their regions.
+We can look at the \textit{city} attribute distribution for this thesis by selecting it in the attribute view as shown in \autoref{fig:combinet-thesis-query} (bottom right).
+We can first see on the map that this pattern occur mainly in the biggest cities of the country.
+By selecting the Sankey view option, we can investigate if this pattern occur between thesis defended in different regions or if it occur mainly in the same ones.
+We learn that it depends mainly of the regions: in Bourgogne-Fanche-Comté 26 out of 29 thesis are connected with thesis of another region.
+In contrary in \textit{Occitanie} it is the case for only 4 out of 17.
+In average, we can see that this pattern occur a lot for thesis of the same region. In Ile-de-France, it is the case for around half of the thesis (28/50).
+This explorative analysis shows that \name can be use to explore and gain insight on such datasets.
+
+
+
+
+
+
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{static/figures/ComBiNet/Thesis-query01-and-results}
+    \caption{Sociology thesis dataset explored with \name. The user constructed a visual query to see there are symmetrical relationships between thesis directors and referees (or jury directors). The \textit{region} attribute is selected with the Sankey option, letting the user see if their are correlations between the regions of the thesis found in this pattern.  }\label{fig:combinet-thesis-query}
+\end{figure}
 
 
 
@@ -918,7 +979,7 @@ The visual query system could be extended by introducing more complex time const
 % Large networks are usually hard to read due to edge crossings \cite{shneiderman2006network}.
 \name allows navigating relatively large sparse graphs (thousands of nodes) with the node-link visualization using zoom \& pan and filtering with the query system. It lets users focus on subsets of the data, one or two at a time.
 
-\noindent\textbf{Generalizibility.} The system has been designed specifically for \model, which models well a diversity of historical sources we encountered via our collaborations: marriage acts, birth/death certificates, construction/work contracts, census, and migrations forms.
+\noindent\textbf{Generalizibility.} The system has been designed specifically for \modelplural, which models well a diversity of historical sources we encountered via our collaborations: marriage acts, birth/death certificates, construction/work contracts, census, and migrations forms.
 Moreover, \model can also be used to model other similar data types, such as scientific publications or thesis data.
 However, other kinds of historical textual data exist where documents can mention each other, such as in private letters for example.
 The model and interface would need to be slightly modified to take into account document-to-document links for these datasets.
@@ -931,17 +992,36 @@ Bipartite networks are also used in various other disciplines, such as biology \
 %\vspace{-1mm}
 \section{Conclusion and Future Work}
 
-We presented \name, a system for exploring social networks modeled from historical textual sources, aimed at social scientists. It relies on modeling data as bipartite, multivariate, dynamic social networks where persons are linked to documents or events using typed links that express roles.
+We presented \name, a system for exploring social networks modeled from historical textual sources, aimed at social scientists.
+It relies on modeling data as bipartite, multivariate, dynamic social networks where persons are linked to documents or events using typed links that express roles.
 % We have successfully applied our data model to a wide variety of historical, sociological, genealogical datasets, and publication data.
 Our tool \name relies on this data model to let historians explore their data and then answer their socio-historical questions using 1) dynamic queries on the network structure and attributes to highlight groups of interests, and 2) visual comparisons to contrast selected groups according to their structure, time, or any other attribute.
 % \name supports dynamic queries that are translated in textual queries in the Cypher language, providing a mixed modality to query data.
 The results can be visualized as a node-link diagram, a geographical map, graph measures, and distributions of values for the attributes.
 We have shown that complex explorations and analyses were easy or possible to perform, and validated our approach by first describing two use cases among many more projects we are collaborating with and by performing a formative usability study showing that the system is usable by social scientists.
-Our collaborations with social scientists revealed that the process of modeling historical sources into an analyzable network is not easy.
+%Our collaborations with social scientists revealed that the process of modeling historical sources into an analyzable network is not easy.
 % Several weeks of discussion led to the decision to model their data as \model which allows to have a representation of the original documents while modeling well the social relationships mentioned in the sources. It
-Modeling their data as \model allows social scientists to have a common representation to both cleanup and analyze their data.
+%Modeling their data as \model allows social scientists to have a common representation to both cleanup and analyze their data.
 
-By specifying a unifying data model and novel high-level visual and interactive tools for comparing topology, attributes, and time, we believe \name leads the way towards a new generation of highly interactive exploration tools applicable to wrangle and analyze a wide variety of real social networks modeled from textual sources.
+By specifying a unifying data model and novel high-level visual and interactive tools for comparing topology, attributes, and time, social scientists were able to clean their data more easily by finding errors and inconsistencies by exploring the network and querying errors induced patterns.
+Thanks to the document-centered model, it was easy for them to trace back the errors and inconsistencies to the sources for corrections.
+With the same representation they were able to operate explorations and analyses using complex interactions implemented in \name such as coordinated views, visual querying and comparisons mechanisms.
+
+Using these mechanisms, social scientists were able to perform visual exploratory analyses of their network based on topological and attribute descriptions and comparisons of subgroups of interests, and of the overall network.
+This methodology allows them to either ground or refute their hypotheses in their results, or to generate new ones from new insight revealed thanks to the complex exploratory and interactions mechanisms.
+
+We believe \name leads the way towards a new generation of highly interactive exploration tools applicable to wrangle and analyze a wide variety of real social networks modeled from textual sources, with a focus on the traceability of the network and results, which is essential for any historical workflow.
+
+For future work, \name could be extended to support more SNA measures and computations such as clustering; it would create a new attribute containing a cluster identifier.
+The interface currently propose two layouts based on the topology and the geolocations of the entities.
+Providing more layouts options could be interesting, especially one to highlight better the time, similar to the PAOHvis technique~\cite{valdivia:hal-02264960}.
+Finally, the interface currently let social scientists build their queries to answer questions they have on their data.
+In the future, the system could make suggestions on the query construction process with a mixed initiative perspective, to guide users towards frequent subgraphs in the data which could be interesting to investigate.
+
+
+
+%By specifying a unifying data model and novel high-level visual and interactive tools for comparing topology, attributes, and time, we believe \name leads the way towards a new generation of highly interactive exploration tools applicable to wrangle and analyze a wide variety of real social networks modeled from textual sources.
+
 
 
 
