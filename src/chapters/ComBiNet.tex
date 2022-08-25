@@ -1,33 +1,44 @@
 \chapter{ComBiNet: Visual Query and Comparison of Bipartite Dynamic Multivariate Networks with Roles}
 
 
+Social historians and sociologists aim at retrieving and studying facts about a specific region and period of time that they focus on.
+Their work essentially relies on documents---such as marriage acts, census records, surveys, and business contracts---to gather information about the life of important actors that they explore in-depth, or to draw conclusions on social aspects of groups in the society of that period and place.
+Instead of drawing conclusions from their gathered knowledge and interpretations of the documents, a more systematic approach consists in constructing a social network from the documents and following a Social Network Analysis (SNA) approach~\cite{wetherellHistoricalSocialNetwork1998}.
+For this, they need to encode their documents to extract the persons and any other useful information in the text and transfer it into a structured file or a database.
+Social scientists can then explore, validate, or refute their hypotheses by observing and analyzing the network structure and the connectivity patterns between the entities of the resulting network.
+They also want to visually explore their data to generate new insights and hypotheses.
 
-%\section{Introduction}
-
-Social historians and sociologists aim at retrieving and studying facts about a specific region and period of time that they focus on. Their work essentially relies on documents---such as marriage acts, census records, surveys, and business contracts---to gather information about the life of important actors that they explore in-depth, or to draw conclusions on social aspects of groups in the society of that period and place. Instead of drawing conclusions from their gathered knowledge and interpretations of the documents, a more systematic approach consists in constructing a social network from the documents and following a Social Network Analysis (SNA) approach~\cite{wetherellHistoricalSocialNetwork1998}. For this, they need to encode their documents to extract the persons and any other useful information in the text and transfer it into a structured file or a database. Social scientists can then explore, validate, or refute their hypotheses by observing and analyzing the network structure and the connectivity patterns between the entities of the resulting network. They also want to visually explore their data to generate new insights and hypotheses.
-
-Currently, social scientists often model their datasets as simple networks where the nodes are the persons mentioned in the documents. Usually, Two persons are then connected together in the network when they appear in shared documents.
-% Currently, social scientists often model their datasets as simple networks composed of the persons mentioned in the documents connected together when they present a specific tie (e.g., they appear in the same document).
+Currently, social scientists often model their datasets as simple networks where the nodes are the persons mentioned in the documents (see \autoref{ch:hsna-process-and-network-modeling}). Usually, Two persons are then connected together in the network when they appear in shared documents.
 This representation is easy to visualize and analyze but simplifies and distorts the information by hiding the documents that witness the relationships between the persons.
 Thus, another approach consists in modeling the data as bipartite networks, where both the documents and the persons are represented as nodes and are connected together when a document mentions a given person~\cite{grandjeanAnalisiVisualizzazioniReti2017, rossiExplorationLargeDatabase2014, shafieHypergraphRepresentationsStudy2017}.
 
-In addition, historical documents include time and geospatial information corresponding to the date and location of the events they refer to. Documents often mention additional information on the persons, such as their sex, profession, and date of birth. These are often essential to understanding underlying social phenomena, as time, space, and social status play an important role in social dynamics.
-For these reasons, historical sources and the underlying social phenomena they refer to can be modeled well by \emph{bipartite} with \emph{roles},  \emph{multivariate} \emph{dynamic} networks. \emph{Bipartite} means that both persons and documents (or events, that are often witnessed by physical documents) are modeled as typed nodes. \emph{Multivariate} means that the nodes and links can carry additional attributes. \emph{Dynamic} means that time is a mandatory attribute of documents. Furthermore, a link created between a person's node and a document's node (when the person is mentioned in the document), has an associated link type that models the \emph{role} of the person in the document/event. Additionally, documents can optionally carry a geographical location. This model unifies several social network models and allows to model the historical sources with any transformation, simplification, or loss of information~\cite{cristofoliAuxSourcesGrands2008}.
+In addition, historical documents include time and geospatial information corresponding to the date and location of the events they refer to.
+Documents often mention additional information on the persons, such as their sex, profession, and date of birth.
+These are often essential to understanding underlying social phenomena, as time, space, and social status play an important role in social dynamics.
+For these reasons, historical sources and the underlying social phenomena they refer to can be modeled well by \emph{bipartite} with \emph{roles},  \emph{multivariate} \emph{dynamic} networks. \emph{Bipartite} means that both persons and documents (or events, that are often witnessed by physical documents) are modeled as typed nodes. \emph{Multivariate} means that the nodes and links can carry additional attributes. \emph{Dynamic} means that time is a mandatory attribute of documents.
+Furthermore, a link created between a person's node and a document's node (when the person is mentioned in the document), has an associated link type that models the \emph{role} of the person in the document/event.
+Additionally, documents can optionally carry a geographical location.
+This model unifies several social network models and allows to model the historical sources with any transformation, simplification, or loss of information~\cite{cristofoliAuxSourcesGrands2008}.
 
-Several sophisticated tools exist to explore and analyze rich social networks. However, the majority of them either enforce too simplistic network models, such as Gephi~\cite{Gephi} and NodeXL~\cite{NodeXL} or do not enforce any data model and lead to very complicated interfaces which are complicated to navigate for users like historians.
+Several sophisticated tools exist to explore and analyze rich social networks.
+However, the majority of them either enforce too simplistic network models, such as Gephi~\cite{Gephi} and NodeXL~\cite{NodeXL} or do not enforce any data model and lead to very complicated interfaces which are complicated to navigate for users like historians.
 Moreover, the majority of social network visual analytics tools provide limited interactions to query and explore richly encoded data.
 
 % Contrary to the early taxonomy of tasks on graphs~\cite{lee:hal-00851754}, with the data model we use, it becomes impossible to characterize a finite set of simple tasks to support, along with their associated visual representations and interactions techniques.
 
-In this paper, we present a visual analytic system to explore and analyze Bipartite Multivariate Dynamic Social Networks, with the aim of answering historical and sociological questions. We elaborated our tool based on four collaborations with social scientist colleagues. We first collected important questions they each had on their data and transcribed them from a network analysis perspective. The majority of the questions raised consisted in either finding specific patterns in the network or in comparing several subsets of the network, in terms of network measures, attribute distributions, and their overlaps.
+In this chapter, we present a visual analytic system to explore and analyze Bipartite Multivariate Dynamic Social Networks, with the aim of answering historical and sociological questions.
+We elaborated our tool based on four collaborations with social scientist colleagues.
+We first collected important questions they each had on their data and transcribed them from a network analysis perspective.
+The majority of the questions raised consisted in either finding specific patterns in the network or in comparing several subsets of the network, in terms of network measures, attribute distributions, and their overlaps.
 
 % In this paper, we thus present a visual analytic system to explore and analyze Bipartite Multivariate Dynamic Social Networks. Based on the needs and questions of our collaborators,
-we thus focus on three high-level tasks: exploration, queries, and comparison of this type of network. Users can explore the data using two layouts: a node-link bipartite view showing the sociological structure of the network, and a map layout based on the geolocation of documents.
+we thus focus on three high-level tasks: exploration, queries, and comparison of this type of network.
+Users can explore the data using two layouts: a node-link bipartite view showing the sociological structure of the network, and a map layout based on the geolocation of documents.
 We designed and implemented a new visual graph query system that allows us to build both topological and attribute constraints, based respectively on a node-link interactive representation, and dynamic widgets. For this, we rely on the Neo4j graph database~\cite{neo4j} and its language \emph{Cypher}. Most visualization systems offer dynamic queries to hide the complexity of query languages. However, using a rich data model, some queries are much easier to refine using scripting than dynamic queries. We implemented dynamic queries that also show the translated Cypher queries, and inversely, can translate textual queries into visual queries.
 With that interface, social scientists can start building their queries with simple widgets and, if needed, complement them by editing the query, alone or with the help of power users. On top of that, they can easily copy and paste the textual query to share the current state of the query and associated results with someone else or to start an analysis session from a previous result.
 \name also implements subgraph comparison techniques, allowing the comparison of networks, network-related measures, and attribute distributions between the entities returned by the queries.
 % In this first version of \name, we focused on the power of queries and comparisons and not usability so most of the explorations have been done by one of the authors or close to.
-We validate the query and comparison system with a usability study and we demonstrate \name can be used to answer sociological questions by describing in depth several real-world use cases.
+We validate the query and comparison system with a formative usability study and we demonstrate \name can be used to answer sociological questions by describing in depth several real-world use cases.
 
 % 1) a succession of attribute and topological queries that are usually applied sequentially, from the simplest to the more complex, % which can be done with a graph database system and associated query language;
 % \item The comparison of several query resulting subgraphs, in terms of connectivity metrics or attribute distributions
@@ -41,7 +52,8 @@ We validate the query and comparison system with a usability study and we demons
 % Need tools to explore these specific kind of dataset
 % Query and comparison to answer historical and sociological questions
 
-After the related work section, we describe our data model in detail using four use cases, and present our system \name, with the design of the visual query and comparison features. Finally, we present two use cases demonstrating the utility of our system, showing it can be used to explore complex historical data and allowing  historians to answer several of their questions using queries and comparisons.
+After the related work section, we describe our data model in detail using four use cases, and present our system \name, with the design of the visual query and comparison features.
+Finally, we present three use cases demonstrating the utility of our system, showing it can be used to explore complex historical data and allowing  historians to answer several of their questions using queries and comparisons.
 Our contributions are:
 \begin{itemize}
 % \item The description, motivations, and benefits of our unified data model: \emph{bipartite} with \emph{roles}, \emph{multivariate} and \emph{dynamic}, for the visual exploration and analysis of social networks;
@@ -124,10 +136,6 @@ Provenance in the context of Visual Analytics consists in the logging of the seq
 Provenance can also be beneficial for visualization designers and researchers, as it gives them a tool to understand users' behaviors~\cite{battleCharacterizingExploratoryVisual2019, borsProvenanceTaskAbstraction2019}
 and evaluate/improve visualization systems~\cite{renCharticulatorInteractiveConstruction2019}.
 All the reasons and concrete implementations of provenance are discussed in depth in Xu's survey~\cite{xuSurveyAnalysisUser2020}.
-
-
-
-
 
 \section{Task Analysis and Design Process}\label{sec:tasks}
 
@@ -279,7 +287,7 @@ The tasks are described here and summarized in \autoref{tab:tasks}:
 
 \section{The \name System}\label{sec:system}
 
-\begin{figure}
+\begin{figure}[!ht]
  \centering
     \begin{overpic}[width=\textwidth]{static/figures/ComBiNet/OriginalPaperFigures/CGF/teaser/v2/teaser}
     \put(30,17){\tiny Comparison}
@@ -302,6 +310,24 @@ The tasks are described here and summarized in \autoref{tab:tasks}:
 \end{figure}
 
 \name is designed to visualize, explore, and analyze social networks encoded as \model.
+Some other systems exist to explore bipartite social networks such as Jigsaw and Puck, but do not encode every aspects of historical documents historians are interested in. See \autoref{tab:combinet-VA-comparison} for a comparison of their data model compared to \name.
+
+\begin{table}[]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|l|l|l|l|l|l|}
+\hline
+         & Bipartite & Node Attributes & Links Attributes & Dynamic & Geolocated \\ \hline
+Jigsaw   & \cmark    & Only some       & \xmark           & \cmark  & \cmark     \\ \hline
+Puck     & \cmark    & \xmark          & \xmark           & \cmark  & \xmark     \\ \hline
+ComBiNet & \cmark    & \cmark          & Encode roles     & \cmark  & \cmark     \\ \hline
+\end{tabular}%
+}
+    \caption{Comparison of the data model of several VA systems aimed at exploring bipartite social networks.
+    }\label{tab:combinet-VA-comparison}
+\end{table}
+
+
 When started, it dynamically collects the node types, roles, sub-types, and attributes when reading the network from the database. \name is constituted of four main panels, split into different views as shown in\autoref{fig:combinet-overall}: the query and comparison panel, the graph visualization panel, the map visualization panel, and the query results panel.
 
 
@@ -354,7 +380,7 @@ By clicking on the button, the visual encoding and distribution remain selected.
  This interaction is inspired by the x-ray technique of the Vizster system~\cite{heerVizsterVisualizingOnline2005}.
 Users can follow a first exploration of their data by visually detecting correlations between attribute values and some groups of persons or between attribute values and some specific areas in the map view (T1.2, T1.4, T1.5).
 
-\begin{figure}
+\begin{figure}[!ht]
  \centering
     \includegraphics[trim={16cm 0 0 0},clip,width=\textwidth]{static/figures/ComBiNet/Piemont_timeSelected.png}
     \caption{\name interface with the dataset of collaboration \pascal. The user selected the year attribute, showing the distribution of document years with a histogram (bottom right), and coloring the documents node on the bipartite view (left) and map view simultaneously (right).}\label{fig:combinet-time-selected}
@@ -399,7 +425,7 @@ When a node or link is created in the query, it is given an identifier starting 
 These identifiers are used in the attribute constraint panels and the textual query and can be changed through their textual representations.
 
 
-\begin{figure}
+\begin{figure}[!ht]
     \centering
     % \begin{overpic}[width=0.6\linewidth]{static/figures/ComBiNet/OriginalPaperFigures/links/allLinks.pdf}
     % \end{overpic}
@@ -416,7 +442,7 @@ The database will then return all the links in the graph with their attached nod
 
 
 
-\begin{figure}
+\begin{figure}[!ht]
     \centering
 
     \begin{subfigure}[b]{0.29\linewidth}
@@ -474,7 +500,7 @@ The widget design will vary according to the three possible attribute types: num
 For the categorical and nominal widgets, selecting several values will correspond to the union of the filters.
 The three widget types are shown in \autoref{fig:combinet-widgets}.
 
-\begin{figure}[b]
+\begin{figure}[!ht]
     \centering
 %    \includegraphics[trim=30 145 300 110,clip,width=0.8\linewidth]{static/figures/ComBiNet/OriginalPaperFigures/constraintRegion.png}%
     % \includegraphics[width=0.8\linewidth]{static/figures/ComBiNet/OriginalPaperFigures/categoricalWidget}
@@ -522,7 +548,7 @@ The distribution plots in the attributes view (V6) are updated, showing the valu
 
 % The summary tab presents graph measures computed from the subgraph resulting from the union of all occurrences of the queried pattern, such as the number of persons, documents, bipartite density, and the bipartite clustering coefficient. For the specified query, 42 documents are localized in Torino, 99 persons are mentioned in these contracts 153 times (given by the number of links).
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
     \centering
     \begin{subfigure}[b]{\linewidth}
         \includegraphics[width=\textwidth]{static/figures/ComBiNet/Piemont-mutual-guarantor-table}
@@ -543,7 +569,7 @@ The distribution plots in the attributes view (V6) are updated, showing the valu
 
 
 
-\begin{figure}
+\begin{figure}[!ht]
     \centering
 
     \begin{subfigure}[b]{0.24\linewidth}
@@ -599,7 +625,7 @@ Hovering over a node shows a tooltip with the query panel associated with the se
 It let users rapidly see what query is associated with each node of the tree
 If a new change is made on the query from a previous state, a new branch is created on the tree, allowing to revisit and refine explorations.  \autoref{fig:combinet-trees} shows the provenance tree made to answer question 2, split into 2 branches, with the tooltip showing one of the node query state.
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
      \centering
 %     \includegraphics[width=0.3\linewidth]{static/figures/ComBiNet/torino_tree}
      \includegraphics[width=0.5\linewidth]{static/figures/ComBiNet/tree_tooltip_torinoquery_crop}
@@ -651,7 +677,7 @@ Moreover, the summary tab (top of \autoref{fig:combinet-overall}-D) allows compa
 % as shown in \autoref{fig:comparisonTable}.
 Comparing these measures, such as the number of matched documents or the densities, is crucial for SNA.
 
-\begin{figure}[h]
+\begin{figure}[!ht]
     \centering
     \includegraphics[width=0.8\linewidth]{static/figures/ComBiNet/OriginalPaperFigures/comparisonPlots/graphMeasuresComparison.png}
   The  \caption{Comparison table of the graph measures the query filters (A) and (B)}\label{fig:combinet-comparisonTable}
@@ -683,7 +709,7 @@ One of the questions the historian had (question 2 of \autoref{tab:tasks}) was t
 If we look at the betweenness centrality, on average, the values are higher for this group of people, meaning that the persons who work on the construction site at Torino and Torino's territory are clearly two distinct groups, and the persons collaborating in the two areas act as bridges between these groups.
 This visual demonstration was convincing and revealing for our users.
 
-\begin{figure}[h]
+\begin{figure}[!ht]
     \centering
 
     % \includegraphics[width=0.2\linewidth]{static/figures/ComBiNet/OriginalPaperFigures/comparisonPlots/type_chantier}
@@ -741,7 +767,7 @@ Our user is then interested in comparing the distribution of several attributes 
 % Moreover, we can see in detail the difference in the region of contracts of the two families.
 
 
-\begin{figure}[h]
+\begin{figure}[!ht]
     \centering
 
     % \includegraphics[height=70px]{static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/materiel.pdf}
@@ -802,7 +828,7 @@ To find patterns of migrations within families, we first make a query representi
 
 
 % We now can use the Sankey visualization of the \textit{department} attribute to see if there is interesting patterns of migration.
-\begin{figure}[h]
+\begin{figure}[!ht]
     \centering
     % \begin{subfigure}{0.49\linewidth}
     % \includegraphics[width=\textwidth]{static/figures/ComBiNet/OriginalPaperFigures/useCase02/queryParents3gen.png}
@@ -836,7 +862,7 @@ Afterward, we answered question 8 (\autoref{tab:tasks}),
 % of our user closely related to the first one.
 to compare the migrations between the 18th and 19th centuries. She thought people started moving in the 19th century and wanted to confirm it. To answer this, we first created a query to retrieve the people with birth and death certificates from a specified department. We then applied a time filter on the death certificate node, first for the 18th century and then the 19th century, compared the two query results using the comparison mode, and looked side by side the Sankey graphs related to \textit{departments} (\autoref{fig:useCaseNicole2}). We can clearly see that people do not move at all in the 18th century, while in the 19th century even if the majority of people stay in the same place from their birth to their death, more than half moved.%  It thus confirms the hypothesis of our collaborator.
 
-\begin{figure}[h]
+\begin{figure}[!ht]
     \centering
     % \begin{subfigure}{0.49\linewidth}
     % \includegraphics[width=\textwidth]{static/figures/ComBiNet/OriginalPaperFigures/useCase02/sankeyDep18c.pdf}
@@ -876,7 +902,7 @@ By setting the threshold to link creation to one (meaning that a link is created
 It means that a lot of thesis defenses include referees and juries from different cities.
 
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
     \centering
     \includegraphics[width=0.8\textwidth]{static/figures/ComBiNet/Thesis-first-exploration}
     \caption{\name used for exploring theses of sociology defended in France between 2016 and 2021. The bipartite and map views show an overview of two visions of the network. The user selects the \textit{region} attribute, showing the geographical distribution of the defended thesis.}\label{fig:combinet-thesis-exploration}
@@ -897,11 +923,7 @@ This exploratory analysis shows that \name can be used to explore and gain insig
 
 
 
-
-
-
-
-\begin{figure}[!h]
+\begin{figure}[!ht]
     \centering
     \includegraphics[width=0.8\textwidth]{static/figures/ComBiNet/Thesis-query01-and-results}
     \caption{Sociology thesis dataset explored with \name. The user constructed a visual query to see if there are symmetrical relationships between thesis directors and referees (or jury directors). The \textit{region} attribute is selected with the Sankey option, letting the user see if there are correlations between the regions of the thesis found in this pattern.  }\label{fig:combinet-thesis-query}

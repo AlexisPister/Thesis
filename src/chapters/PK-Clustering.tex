@@ -5,20 +5,24 @@
 
 
 The goal of this work is to help social scientists, such as historians and sociologists, create meaningful clusters from social networks they study.
-In contrast to the belief that most data is easily available on the Web, as of today, most social scientists spend a long time collecting data, to construct social networks, based on documents or surveys,
-\begin{revs}in order to create and carefully validate medium-sized networks (50--500 vertices).
-\end{revs}
+In contrast to the belief that most data is easily available on the Web, as of today, most social scientists spend a long time collecting data, to construct social networks, based on documents or surveys, in order to create and carefully validate medium-sized networks (50--500 vertices).
 %Many %suchprojects involve a long data generation process, searching archives, interviewing participants, analyzing documents, and generating medium-sized networks (50--500 vertices), followed by careful and detailed analysis of all the relationships.
-Before the start of the cluster analysis a great deal of effort goes into analysing other data and gathering knowledge (which we call prior knowledge in the rest of the paper). Social scientists study in great details the network entities (most of the time people), and the social ties they weave together, as it is the unit brick with which they can make historical or social hypothesis and conclusions.
-When the network is small, less than 30--50 nodes, it is possible to remember most of the relations and persons and visualization directly helps to show groups, hubs, disconnected entities, outliers, and other interpretable motifs. When the network grows larger, with hundred entities or millions of them, it becomes impossible to perform the visual analysis only at the entity level. The graph has to be summarized, and typically social scientists want to organize it in social \emph{communities}.  A large number of algorithms are available today to compute \emph{clusters} of entities from a graph, with the assumption that the computed clusters represent faithfully the social communities. However, most social scientists are not familiar with all of the available algorithms and are challenged to choose which algorithm to run, with which parameters, and how to reconcile the computed clusters with their prior knowledge. Furthermore, the clusters computed by the algorithms do not always align with the concept of community from the social scientists.
+Before the start of the cluster analysis a great deal of effort goes into analysing other data and gathering knowledge (which we call prior knowledge in the rest of the paper).
+Social scientists study in great details the network entities (most of the time people), and the social ties they weave together, as it is the unit brick with which they can make historical or social hypothesis and conclusions.
+When the network is small, less than 30--50 nodes, it is possible to remember most of the relations and persons and visualization directly helps to show groups, hubs, disconnected entities, outliers, and other interpretable motifs.
+When the network grows larger, with hundred entities or millions of them, it becomes impossible to perform the visual analysis only at the entity level.
+The graph has to be summarized, and typically social scientists want to organize it in social \emph{communities}.  A large number of algorithms are available today to compute \emph{clusters} of entities from a graph, with the assumption that the computed clusters represent faithfully the social communities.
+However, most social scientists are not familiar with all of the available algorithms and are challenged to choose which algorithm to run, with which parameters, and how to reconcile the computed clusters with their prior knowledge. Furthermore, the clusters computed by the algorithms do not always align with the concept of community from the social scientists.
 
 
-Typically, social scientists select an analysis tool based on their familiarity with the tool and the level of local or online support they can access. Therefore, they most often use popular systems such as R~\cite{Rstat}, Gephi~\cite{gephi}, Python with NetworkX~\cite{networkx}, or Pajek~\cite{pajek}.
-To compute clusters, they follow a strained process: they select and run algorithms provided in the tool and then try to make sense of the results (see~\autoref{fig:traditionalpkprocess}). When they are not satisfied or unsure, they iteratively tweak the parameters of the algorithms at hand, run them again and hope to get results more aligned with their prior knowledge. This analysis process is unsatisfactory for three main reasons:
+Typically, social scientists select an analysis tool based on their familiarity with the tool and the level of local or online support they can access.
+Therefore, they most often use popular systems such as R~\cite{Rstat}, Gephi~\cite{gephi}, Python with NetworkX~\cite{networkx}, or Pajek~\cite{pajek}.
+To compute clusters, they follow a strained process: they select and run algorithms provided in the tool and then try to make sense of the results (see~\autoref{fig:PK-traditionalpkprocess}).
+When they are not satisfied or unsure, they iteratively tweak the parameters of the algorithms at hand, run them again and hope to get results more aligned with their prior knowledge. This analysis process is unsatisfactory for three main reasons:
 \begin{wrapfigure}{r}{0.5\columnwidth}
     \includegraphics[width=0.5\columnwidth]{static/figures/PK-Clustering/VISPaperFigures/traditionalclustering.png}
     \caption{Traditional Clustering.  The output is a clustering, usually from a randomly chosen algorithm.}
-    \label{fig:traditionalpkprocess}
+    \label{fig:PK-traditionalpkprocess}
 \end{wrapfigure}
 \begin{enumerate}[left=0pt .. \parindent,nosep]
     \item it forces them to try a sometimes large number of black-box algorithms one by one, tweaking parameters that often do not make sense to them; \item even when a parameter makes sense to them, such as the number of clusters to compute, $k$ in $k$-means clustering, they have no clue of what value would generate good results, and are left with trial and error;
@@ -28,26 +32,31 @@ To compute clusters, they follow a strained process: they select and run algorit
 Those complaints have been heard repetitively during the decades our team has worked with social scientists.
 
 
-Moreover, clustering is an ill-defined problem: for one dataset, there is no ground truth, and several partitions can be considered good according to the metric chosen to evaluate the result~\cite{kleinberg2003impossibility}. In a Social Sciences setting, this means, for example, that the same social network could be clustered to find families, friend groups, or business relationships. One partition is not better than the other: it depends on the purpose of the analysis. This problem increases the need for interactive tools, which lets the user specify which type of partition is expected.
+Moreover, clustering is an ill-defined problem: for one dataset, there is no ground truth, and several partitions can be considered good according to the metric chosen to evaluate the result~\cite{kleinberg2003impossibility}.
+In a Social Sciences setting, this means, for example, that the same social network could be clustered to find families, friend groups, or business relationships.
+One partition is not better than the other: it depends on the purpose of the analysis.
+This problem increases the need for interactive tools, which let the user specify which type of partition is expected.
 
-To address those issues we propose a novel approach, called PK-clustering, which allows social scientists to iteratively construct and validate clusters using both their \emph{prior knowledge} and consensus among clustering algorithms. A prototype system illustrates such approach.
+To address those issues we propose a novel approach, called PK-clustering, which allows social scientists to iteratively construct and validate clusters using both their \emph{prior knowledge} and consensus among clustering algorithms.
+A prototype system illustrates such approach.
 
 %\begin{figure*}
 %    \centering
 %    \includegraphics[width=0.7\linewidth]{pkprocess}
 %    \caption{Traditional clustering vs PK-clustering processes}
-%    \label{fig:pkprocess}
+%    \label{fig:PK-pkprocess}
 %\end{figure*}
 
 \begin{figure}
     \centering
-    \includegraphics[width=\columnwidth]{static/figures/PK-Clustering/VISPaperFigures/pkprocess_new.png}
+%    \includegraphics[width=\columnwidth]{static/figures/PK-Clustering/VISPaperFigures/pkprocess_new.png}
+    \includegraphics[width=\textwidth]{static/figures/PK-Clustering/VISPaperFigures/pkprocess_new}
     \caption{PK-clustering. The output is a clustering supported by algorithms and validated (fully or partially) according to the user's Prior Knowledge.}
 %\cp{need to update the diagram to add "provenance table and summary"}}
-\label{fig:pkprocess}
+\label{fig:PK-pkprocess}
 \end{figure}
 
-The proposed approach includes three main steps (see~\autoref{fig:pkprocess}):
+The proposed approach includes three main steps (see~\autoref{fig:PK-pkprocess}):
 \begin{enumerate}[nosep]
 \item \textit{Specify Prior Knowledge (PK)}. Users  introduce their prior knowledge of the domain by defining partial clusters. The tool then runs all available clustering algorithms.
 \item \textit{Consolidate expanded PK clusters}. Users review the list of algorithms, ranked according to how well they match the prior knowledge.  They compare results and consensus, then accept or ignore suggestions to expand the prior knowledge clusters
@@ -71,14 +80,9 @@ Contrary to a current trend\cite{molnar2019}, we do not aim to improve the inter
 The main contributions of this article are:
 \begin{enumerate}[left=0pt .. \parindent,nosep]
 \item a new interactive clustering approach;
-\item a prototype (shown in \autoref{fig:teaser}) implementing PK-clustering with 11 clustering algorithms of different families applied with different parameters configurations;
+\item a prototype (shown in \autoref{fig:PK-teaser}) implementing PK-clustering with 11 clustering algorithms of different families applied with different parameters configurations;
 \item two case studies.
 \end{enumerate}
-%\pb{the number of visible algorithms in Fig. 1 are 12, should we change 13 in 12 or leave 13 which is the number of algorithm we actually have in the tool?}
-
-% Pasted in the abstract.
-% We believe our clustering paradigm offers a novel constructive method to allow social scientists to iteratively build knowledge on their communities while avoiding to be overly influenced by the results of black-box algorithms.
-
 
 \begin{comment}
 Currently, two types of social network analysis systems exist:
@@ -95,15 +99,9 @@ Our main question is: Can we bridge the two worlds: providing more control to th
 \end{comment}
 
 
-
-% -*- mode: latex; TeX-master: "main"; -*-
-%!TEX root = main.tex
 \section{Related Work}
 
 Our approach relies on several families of clustering methods and the visualization and exploration of their results. We first describe a brief overview of clustering for graphs, as well as semi-supervised methods, then several works in the literature related to \rev{visual analytics: interactive clustering, }groups in networks and ensemble cluster visualization.
-
-%\subsection{Clustering}
-%Our paradigm uses several families of clustering algorithms. Although the domain is vast and we do not intend to survey all the methods, we provide a brief overview of clustering for graphs, as well as semi-supervised methods.
 
 \subsection{Graph Clustering}
 
@@ -217,7 +215,7 @@ After a general overview of the process, we describe each step in more details, 
 \label{sec:pk-clustering}
 
 In PK-clustering the user and the system take turn to construct and validate clusters.
-The process involves three main steps, each with several activities (see ~\autoref{fig:pkprocess}.
+The process involves three main steps, each with several activities (see ~\autoref{fig:PK-pkprocess}.
 The blue boxes describe the user activities while the yellow boxes describe the system activities.)
 After loading the dataset, the process is as follows:
 
@@ -247,7 +245,7 @@ Typically, an expert would assign a few items (1-3) to a few groups (2-5), thus 
 \begin{wrapfigure}{r}{0.4\linewidth}
 \includegraphics[trim=15 10 10 10,width=\linewidth]{static/figures/PK-Clustering/VISPaperFigures/Small-PK_specification}
 \caption{Prior Knowledge specification, the user defined two groups composed of two members.}% for the Marie Boucher dataset.}
-\label{fig:Small-PK_specification}
+\label{fig:PK-Small-PK_specification}
 \end{wrapfigure}
 By specifying the PK in the first phase, before running the algorithms, users avoid being influenced by the first clustering results they encounter.  The process leads to algorithms whose results match the PK, but it also allows to review results that contradict it.
 
@@ -260,14 +258,14 @@ We will now review each step in more details.
 %    \centering
 %    \includegraphics[width=0.6\linewidth]{static/figures/PK-Clustering/VISPaperFigures/groupeditor_and_bou_abtbou.png}
 %    \caption{The user has defined three partial clusters (groups), each composed of two people}
-%    \label{fig:MBHubertBA}
+%    \label{fig:PK-MBHubertBA}
 %\end{figure}
 
 
 \subsection{Specification of Prior Knowledge}
 
 We ask users to represent prior knowledge as a set of groups. Each group contains the node(s) that the expert is confident belong to the defined group.
-In the case of \autoref{fig:Small-PK_specification}, each of the two prior knowledge groups contains two nodes, and it specifies that the user is expecting to see at least two clusters, with the first two people in a blue cluster A, and the other two in a red cluster B.
+In the case of \autoref{fig:PK-Small-PK_specification}, each of the two prior knowledge groups contains two nodes, and it specifies that the user is expecting to see at least two clusters, with the first two people in a blue cluster A, and the other two in a red cluster B.
 This representation expresses \emph{must-link} and \emph{cannot-link} constraints described in \autoref{sec:semisupervised} in a simple visual and compact form. It is not required to specify all binary constraints because the information is derived from the prior knowledge groups. %\cp {please check, as I corrected a broken sentence but I am not completely sure}\pv{ok}
 
 \subsection{Running the Clustering Algorithms} \label{sub:families}
@@ -352,9 +350,9 @@ Once this matching is computed, the total sum of the weights minus the sum of th
 \centering
 \includegraphics[width=\linewidth]{static/figures/PK-Clustering/VISPaperFigures/bipartiteMatching.png}
 \caption{Red edges represent the prior knowledge matching}
-\label{fig:BipartiteMatching}
+\label{fig:PK-BipartiteMatching}
 \end{wrapfigure}
-For example, given a clustering of 12 nodes $N = {1,2, \ldots, 12}$, the clusters $C_1 = [1,2,3,4]$, $C_2 = [7,9,10,12]$ and $C_3 = [5,6,8,11]$ and a PK composed of 3 groups $PK_1 = [1,2]$, $PK_2 = [5]$ and $PK_3 = [3,7]$, the maximum-weight matching is given by the edges $(PK_1, C_1)$, $(PK_2, C_3)$ and $(PK_3, C_2)$. This is illustrated in ~\autoref{fig:BipartiteMatching}. The edges of the matching correspond to the matching between the PK-groups and the clusters. The edit distance is then equal to the sum of all the weights of the bipartite graph minus the sum of the weights of the maximum matching (in red), thus equaling $5 - 4 = 1$. In other words, we only have to move the node 3 from $PK_3$ to $PK_1$, for every PK-group to be a subset of an unique cluster, with no overlap.
+For example, given a clustering of 12 nodes $N = {1,2, \ldots, 12}$, the clusters $C_1 = [1,2,3,4]$, $C_2 = [7,9,10,12]$ and $C_3 = [5,6,8,11]$ and a PK composed of 3 groups $PK_1 = [1,2]$, $PK_2 = [5]$ and $PK_3 = [3,7]$, the maximum-weight matching is given by the edges $(PK_1, C_1)$, $(PK_2, C_3)$ and $(PK_3, C_2)$. This is illustrated in ~\autoref{fig:PK-BipartiteMatching}. The edges of the matching correspond to the matching between the PK-groups and the clusters. The edit distance is then equal to the sum of all the weights of the bipartite graph minus the sum of the weights of the maximum matching (in red), thus equaling $5 - 4 = 1$. In other words, we only have to move the node 3 from $PK_3$ to $PK_1$, for every PK-group to be a subset of an unique cluster, with no overlap.
 
 
 %If two PK-groups are subsets of a cluster, only the one with the biggest intersection will be linked to the cluster, and the other will be linked to nothing. If the two intersections are of the same size, then one PK-group is selected randomly.
@@ -392,7 +390,7 @@ Semi-supervised methods will always provide a perfect match by definition. But i
 %As stated in \autoref{sub:families}, we use the parsimony constraint to rank more compact clusterings first.
 
 Once the clustering algorithms have been matched with the PK, users can review the list of algorithms, ranked by how well their results match the PK.
-\autoref{fig:matchingvis} shows two modalities to visualize the ranked list (individual nodes, and aggregate representation). We will describe in details the first modality, which shows individual nodes as small colored circles (also used on the left of~\autoref{fig:teaser}):
+\autoref{fig:PK-matchingvis} shows two modalities to visualize the ranked list (individual nodes, and aggregate representation). We will describe in details the first modality, which shows individual nodes as small colored circles (also used on the left of~\autoref{fig:PK-teaser}):
 
 
 \begin{wrapfigure}{r}{0.5\linewidth}%}figure}[hbt]
@@ -400,21 +398,21 @@ Once the clustering algorithms have been matched with the PK, users can review t
 %\includegraphics[width=\linewidth]{Small-modalities-01}
 \includegraphics[width=\linewidth]{static/figures/PK-Clustering/VISPaperFigures/matchingExampleFinal.png}
 \caption{Two different modalities for the ranked list of algorithms. Top: persons are shown as circles. Bottom: aggregated view. Colors indicate the matching group. Gray indicates no match. White indicates extra nodes or clusters.}
-\label{fig:matchingvis}
+\label{fig:PK-matchingvis}
 \end{wrapfigure}
 
 
-Each row is an algorithm, and the algorithms are grouped by family. On the right of the name of the algorithm we can see a representation of the clusters that best match each of the PK-groups. In~\autoref{fig:matchingvis} we first see the cluster which best matches the blue PK-group, and then the cluster which best matches the red PK-group.  In each cluster we see colored dots for each person that matches, and dark gray dots with a X for no match. Additional nodes in the cluster are represented as white dots with a number next to it.  On the right most we see how many other clusters (if any) have been found by the algorithm - also represented as white dots with a number next to it.
+Each row is an algorithm, and the algorithms are grouped by family. On the right of the name of the algorithm we can see a representation of the clusters that best match each of the PK-groups. In~\autoref{fig:PK-matchingvis} we first see the cluster which best matches the blue PK-group, and then the cluster which best matches the red PK-group.  In each cluster we see colored dots for each person that matches, and dark gray dots with a X for no match. Additional nodes in the cluster are represented as white dots with a number next to it.  On the right most we see how many other clusters (if any) have been found by the algorithm - also represented as white dots with a number next to it.
 
 So for example, the second algorithm \emph{fluid\_k3} has a blue cluster that matches the blue PK-group plus 1 extra node, a red cluster that matches the red PK-group plus 5 nodes, and one extra cluster.  We see that the top four algorithms match the PK perfectly, while the next one \emph{fluid\_k4}  have a partial match. At the bottom, an algorithm has no match.
 
-The alternate modality of representing the matches (shown at the bottom of~\autoref{fig:matchingvis}) uses bars to aggregate the nodes and show the proportion of matching, non-matching and other nodes in each cluster . This is more useful when dealing with bigger graphs, because it allows the user to see the results in a more compact way.
+The alternate modality of representing the matches (shown at the bottom of~\autoref{fig:PK-matchingvis}) uses bars to aggregate the nodes and show the proportion of matching, non-matching and other nodes in each cluster . This is more useful when dealing with bigger graphs, because it allows the user to see the results in a more compact way.
 
 
 %The algorithms are ranked by edit distance and then by the simplicity of the type of algorithm (attribute-based, topological and propagation-based).% if there is a match.
 %\pb{In the UI it seems that the are ranked by simplicity and then by edit distance, because they are separated by algorithm type (topological $\rightarrow$ attribute $\rightarrow$ propagation)}.
 
-%This visualisation also displays overlaps and shows if a person of a prior knowledge group has been misclassified into a cluster linked to another pk-group (see \autoref{fig:matchingvis} top).
+%This visualisation also displays overlaps and shows if a person of a prior knowledge group has been misclassified into a cluster linked to another pk-group (see \autoref{fig:PK-matchingvis} top).
 
 % [ap] Images of the matching visualisation, node_centred and aggregated
 
@@ -440,7 +438,7 @@ PK-Clustering expresses its prior knowledge through \emph{must-link} and \emph{c
 %     \centering
 %     \includegraphics[width=0.6\linewidth]{static/figures/PK-Clustering/VISPaperFigures/fluidk4_clusters.png}
 %     \caption{Two views of the clusters proposed by the \texttt{PK\_fluid\_k4} algorithm, before and after the user clicks on \textit{Others} group label. This is a portion in the larger PAOHVIS display}
-%     \label{fig:groupsAndClusters}
+%     \label{fig:PK-groupsAndClusters}
 % \end{figure}
 
 \rev{\subsection{Reviewing and Consolidating Final Results }
@@ -448,34 +446,34 @@ To consolidate the final results several approaches are possible. Applying mixed
 The notion of prior knowledge can evolve during the exploration and the process can be iterated from the beginning when new knowledge is gained, thus giving new algorithm matches. Therefore, the approach is not linear but can be iterative.}
 
 \subsubsection{Reviewing Results of a Single Algorithm}
-By clicking on an algorithm name the results of that algorithm are displayed in the \paovis view (see~\autoref{fig:initialView}). \rev{In this view, each line corresponds to a person in the graph, and each vertical line represents an hyperedge connecting them~\cite{paohvis}, in a way visually similar to the UpSet representation~\cite{lex2014upset} but semantically different.  Alternative graph representations are available as well---such as node link diagrams---but the \paovis view is well adapted to PK-Clustering.}
+By clicking on an algorithm name the results of that algorithm are displayed in the \paovis view (see~\autoref{fig:PK-initialView}). \rev{In this view, each line corresponds to a person in the graph, and each vertical line represents an hyperedge connecting them~\cite{paohvis}, in a way visually similar to the UpSet representation~\cite{lex2014upset} but semantically different.  Alternative graph representations are available as well---such as node link diagrams---but the \paovis view is well adapted to PK-Clustering.}
 
 %This is particularly useful if one algorithm stands out as being superior.
 
 Names are grouped by the proposed clusters. Clusters that match the prior knowledge are at the top, colored by their respective colors.  Black borders around labels highlight nodes that belong to the PK, making them easy to find.   All the other (non PK) clusters are initially regrouped in a single group labeled \textit{Others}.
 A click on the \textit{Others} label expands the group into the additional clusters defined by the selected algorithm.
-% ~\autoref{fig:MBstaticFamily} shows two different moments, on the left the \textit{Others} group contains four nodes. On the right, after the user has clicked on the \textit{Others} label, two clusters labeled with a number appear, each containing two nodes.
+% ~\autoref{fig:PK-MBstaticFamily} shows two different moments, on the left the \textit{Others} group contains four nodes. On the right, after the user has clicked on the \textit{Others} label, two clusters labeled with a number appear, each containing two nodes.
 Users can rename the clusters, and change which algorithm is used for grouping and coloring the nodes.
 
 \subsubsection{Comparing Multiple Algorithm Results}
 
-From the ranked list of algorithms users can select a set of algorithms and click the large green button to review and compare the selected algorithms in the \paovis view (see ~\autoref{fig:initialView}
-% was ~\autoref{fig:extendedPartialConsolidatedDataset} but I think it was wrong
-and also ~\autoref{fig:teaser} for overall context). By default, the \paovis view groups the names using the clusters of the 1st algorithm, but on the left of the node names now appears complementary information about the results of all the selected algorithms.
+From the ranked list of algorithms users can select a set of algorithms and click the large green button to review and compare the selected algorithms in the \paovis view (see ~\autoref{fig:PK-initialView}
+% was ~\autoref{fig:PK-extendedPartialConsolidatedDataset} but I think it was wrong
+and also ~\autoref{fig:PK-teaser} for overall context). By default, the \paovis view groups the names using the clusters of the 1st algorithm, but on the left of the node names now appears complementary information about the results of all the selected algorithms.
 
 On the far left, the consensus distribution appears as a horizontal stacked bar chart. The size of bar segments corresponds to the number of algorithms that associate the specific node to the cluster having the same color. On the right of the stacked bar chart, first appears the prior knowledge (with square icons). Icons and names of PK nodes have a black border. Further right are shown the individual algorithms' results, represented by diamonds, one for each node and algorithm. When the node is classified in one of the clusters matching a PK-group the diamond is colored with the color of that group.
 
 
 For each node, the horizontal pattern of colored diamonds quickly tell users if there is agreement among the algorithms. If all algorithms agree the line of diamonds is of a single color. Conversely, if they disagree diamonds will vary in color. If a node does not match any PK-group then no icon is displayed in this phase.
 
-In ~\autoref{fig:initialView} PK\_louvain is selected as the base algorithm for the grouping of names in the list. We see that there is very good consensus on the red cluster, but in the blue cluster only 4 out of 7 algorithms see Joseph as belonging to it.  Others see him as belonging to the red cluster. In \emph{Others}, 4 algorithms consistently disagree by assigning 3 more nodes to the blue cluster.
+In ~\autoref{fig:PK-initialView} PK\_louvain is selected as the base algorithm for the grouping of names in the list. We see that there is very good consensus on the red cluster, but in the blue cluster only 4 out of 7 algorithms see Joseph as belonging to it.  Others see him as belonging to the red cluster. In \emph{Others}, 4 algorithms consistently disagree by assigning 3 more nodes to the blue cluster.
 There are clearly many ways to cluster data, and users must decide the more meaningful one, based on their deep knowledge of the people in the network before validating clusters, possibly by re-reading source documents or gathering more.
 
 \begin{figure}
 \centering
 \includegraphics[width=\linewidth]{static/figures/PK-Clustering/VISPaperFigures/Small-initial.png}
 \caption{Reviewing and comparing results of multiple algorithms. One algorithm is selected to order the names and group them, but icons show how other algorithms cluster the nodes differently, summarized in the consensus bar on the left.}
-\label{fig:initialView}
+\label{fig:PK-initialView}
 \end{figure}
 
 
@@ -483,7 +481,7 @@ There are clearly many ways to cluster data, and users must decide the more mean
 \centering
 \includegraphics[width=\linewidth]{static/figures/PK-Clustering/VISPaperFigures/Small-validating.png}
 \caption{The user quickly drags on consecutive icons (in yellow) representing the suggestions made by one algorithm to validate node clustering. Once the cursor is released the validated nodes appear as squares icons in the Consolidated Knowledge column.}
-\label{fig:multipleValidation}
+\label{fig:PK-multipleValidation}
 \end{figure}
 
 \subsubsection{Consolidating the prior knowledge clusters}
@@ -494,10 +492,10 @@ Next, using their knowledge and the consensus of the algorithms, users validate 
 
 \begin{description}[leftmargin=0pt,nosep]
 
-\item [Partial Copy.] By clicking on one of the icons or dragging the cursor down on a set of icons, users validate the suggestion(s) of an algorithm, adding colored squares in the consolidation column. Once this validation is done, the squares do not change color anymore and represent the user's final decision (unless changed manually again). \autoref{fig:multipleValidation} shows how a user drag-selects a set of diamonds in the column PK\_fluid\_k4. They are connected by a yellow line, which appears while dragging over the icons.
+\item [Partial Copy.] By clicking on one of the icons or dragging the cursor down on a set of icons, users validate the suggestion(s) of an algorithm, adding colored squares in the consolidation column. Once this validation is done, the squares do not change color anymore and represent the user's final decision (unless changed manually again). \autoref{fig:PK-multipleValidation} shows how a user drag-selects a set of diamonds in the column PK\_fluid\_k4. They are connected by a yellow line, which appears while dragging over the icons.
 When done the status of the nodes in the Consolidated Knowledge column (rightmost) will change to square.
 
-\item [Consensus slider.] Users can set the consensus slider to a certain value (for example 4) to automatically select all nodes that have been classified in the same cluster by at least 4 algorithms. While the slider is being manipulated circles appear in the consolidated column.  Then users can validate the suggestions \rev{by clicking or dragging on the circles, or by using the \emph{consolidate suggestions} button which will validate all suggestions at once. This button is shown in Fig. \ref{fig:teaser}.}  In summary, diamonds represent suggestions from one algorithm, circles temporary choices, and squares represents the knowledge validated by the user.
+\item [Consensus slider.] Users can set the consensus slider to a certain value (for example 4) to automatically select all nodes that have been classified in the same cluster by at least 4 algorithms. While the slider is being manipulated circles appear in the consolidated column.  Then users can validate the suggestions \rev{by clicking or dragging on the circles, or by using the \emph{consolidate suggestions} button which will validate all suggestions at once. This button is shown in Fig. \ref{fig:PK-teaser}.}  In summary, diamonds represent suggestions from one algorithm, circles temporary choices, and squares represents the knowledge validated by the user.
 
 
 
@@ -506,10 +504,10 @@ When done the status of the nodes in the Consolidated Knowledge column (rightmos
 
 
 
-% (thus, the minimum number for this threshold must be equal to at least half the number of algorithm, otherwise there can be ties). To still give users more control, the automatic suggestions appear as circles in the consolidated knowledge column (see~\autoref{fig:consolidatedDataset}).
+% (thus, the minimum number for this threshold must be equal to at least half the number of algorithm, otherwise there can be ties). To still give users more control, the automatic suggestions appear as circles in the consolidated knowledge column (see~\autoref{fig:PK-consolidatedDataset}).
 
 \item [Direct tagging.] At any time, users can manually overwrite the association of a node to a cluster by right clicking on the node in the consolidated knowledge column and selecting an cluster from a menu.
-%    A menu of clusters appears (~\autoref{fig:consolidatedDataset}.)
+%    A menu of clusters appears (~\autoref{fig:PK-consolidatedDataset}.)
 When no clear decision can be made users can leave nodes unassigned, and no shape is displayed in the consolidated knowledge column.
 \end{description}
 
@@ -525,22 +523,22 @@ The last step of PK-clustering aims to find new clusters for the nodes that have
 First, the user selects one algorithm in the PAOHVis view and the nodes are grouped by the clusters found by the algorithm.
 iThe PK-clusters are displayed at the top, followed by \emph{Others}, which contains everyone else. When users click on \emph{Others}, the other clusters are displayed ordered by consensus. Since the number of clusters can be high, all new clusters appear in gray to avoid the rainbow effect. A secondary matching process matches the clusters of the current algorithm with those of all the other algorithms, one by one (similar to the matching process described in~\autoref{sec:matching}) . Once the matching is done, the consensus of one cluster is computed as the sum of the cardinalities of the intersections between the cluster and all the other clusters of the other algorithms matched with it, divided by the number of nodes of the cluster.
 
-When users hover over one cluster name, a new color is given to that cluster (\eg green) and new (green) diamonds appear for each algorithm that match the cluster and for each node that is assigned to the cluster (\autoref{fig:extraClusteringInteraction}).
+When users hover over one cluster name, a new color is given to that cluster (\eg green) and new (green) diamonds appear for each algorithm that match the cluster and for each node that is assigned to the cluster (\autoref{fig:PK-extraClusteringInteraction}).
 %all its corresponding clusters in the other algorithms will be showcased with the apparition of diamonds the same color this algorithms columns for the nodes of the matched clusters.
-Users can therefore see if the selected cluster is consensual, and with which algorithms.  The top part of~\autoref{fig:extraClusteringInteraction} shows the mouse pointer before hovering on the cluster 2. The bottom part shows that hovering the mouse pointer over the cluster 2, it changes to green and several green diamonds appear along three columns.
+Users can therefore see if the selected cluster is consensual, and with which algorithms.  The top part of~\autoref{fig:PK-extraClusteringInteraction} shows the mouse pointer before hovering on the cluster 2. The bottom part shows that hovering the mouse pointer over the cluster 2, it changes to green and several green diamonds appear along three columns.
 
 %\begin{figure}[ht]
 %    \centering
 %    \includegraphics[width=0.6\linewidth]{static/figures/PK-Clustering/VISPaperFigures/Small-manualGroupAssignment.png}
 %    \caption{To modify the cluster assignment of a single node users right click on the node. The gray box means no cluster.}
-%    \label{fig:consolidatedDataset}
+%    \label{fig:PK-consolidatedDataset}
 %\end{figure}
 
 \begin{figure}
 \centering
 \includegraphics[width=\linewidth]{static/figures/PK-Clustering/VISPaperFigures/Small-extraClusters-01.png}
 \caption{Suggestion of extra clusters. The two PK-groups (red and blue) are validated (nodes in the consensus column are all squared). One extra clusters is proposed by the Louvain algorithm, labeled as 2. Hovering over the cluster 2, the consensus is displayed by the green diamonds. This feedback is also visible in the graph.}
-\label{fig:extraClusteringInteraction}
+\label{fig:PK-extraClusteringInteraction}
 \end{figure}
 
 \begin{comment}
@@ -548,7 +546,7 @@ Users can therefore see if the selected cluster is consensual, and with which al
 \centering
 \includegraphics[width=0.7\linewidth]{static/figures/PK-Clustering/VISPaperFigures/Small-multivis_distribution_consensus.png}
 \caption{The user has multiple possibilities to compare the consensus. Looking at \textit{Claude} node, four algorithms suggest the red cluster, one algorithm the blue cluster and one the green one.\jdf{we can remove this figure if needed}}
-\label{fig:multivisConsensus}
+\label{fig:PK-multivisConsensus}
 \end{figure}
 \end{comment}
 
@@ -557,22 +555,22 @@ Users can therefore see if the selected cluster is consensual, and with which al
 \centering
 \includegraphics[width=\linewidth]{static/figures/PK-Clustering/VISPaperFigures/Small-FinalPartition.png}
 \caption{The dataset has been fully consolidated. The persons are grouped and colored by the consolidated knowledge. The user decided to assign Claude, Guillaume, Madeleine and Renexent to cluster $C$, by taking into account the graph and the consensus of the algorithms.}
-\label{fig:extendedPartialConsolidatedDataset}
+\label{fig:PK-extendedPartialConsolidatedDataset}
 \end{figure}
 
 
 The evaluation of the best cluster for a node can be done using multiple encodings.
-%\autoref{fig:multivisConsensus} shows that
+%\autoref{fig:PK-multivisConsensus} shows that
 The suggested clusters appear into the consensus bar chart, in the set of algorithm output and when hovering over the node. A click on the color will validate the node into the cluster having that color.
 If users are satisfied with the association proposed by the current algorithm, they can validate it by clicking on the cluster name. This will create a new group, so the user can classify the nodes into this new group, as seen before (\autoref{sec:validating-pk}): using the consensus slider, copying an algorithm result, or through manual labeling.
-This process is repeated for the other clusters until there are no unlabeled nodes or the user is satisfied with the partial clustering. An example of a fully consolidated dataset is shown in \autoref{fig:extendedPartialConsolidatedDataset}.
+This process is repeated for the other clusters until there are no unlabeled nodes or the user is satisfied with the partial clustering. An example of a fully consolidated dataset is shown in \autoref{fig:PK-extendedPartialConsolidatedDataset}.
 
 % \subsubsection{Update Clustering results}
-% Once the mixed-initiative algorithm compute the clusterings, the results is shown to the user as in \autoref{fig:Clustresult}, where each single node of the graph is associated to a clustering and multiple column, one for each clustering algorithm the user has selected, with different results appear.
+% Once the mixed-initiative algorithm compute the clusterings, the results is shown to the user as in \autoref{fig:PK-Clustresult}, where each single node of the graph is associated to a clustering and multiple column, one for each clustering algorithm the user has selected, with different results appear.
 
 % The user may want to change the associations proposed by the algorithms. There are two ways to do this. A quick change is performed by clicking on the circle corresponding to the node and to the clustering algorithm and chose the desired cluster in the list that appears. This is good for a small number of edits and for quick fix.
 
-% The other possibility, that is more fast for a bigger number of items to edit is by using the group editor, shown in \autoref{fig:groupeditorMBandA} that, after the clustering results appears updated with the results chosen by the user. The group editor also allows to easily add new groups and associate unlabeled nodes to them.
+% The other possibility, that is more fast for a bigger number of items to edit is by using the group editor, shown in \autoref{fig:PK-groupeditorMBandA} that, after the clustering results appears updated with the results chosen by the user. The group editor also allows to easily add new groups and associate unlabeled nodes to them.
 
 
 \begin{revs}
@@ -600,35 +598,35 @@ We describe two case studies using realistic scenarios where the clustering has 
 \subsection{Marie Boucher Social Network}
 \label{sud:MB}
 
-We asked our historian colleague her prior knowledge on her network about the trades of Marie Boucher~\cite{Dufournaud17},  %\autoref{fig:MBstaticFamily} shows that the Marie Boucher dataset is
+We asked our historian colleague her prior knowledge on her network about the trades of Marie Boucher~\cite{Dufournaud17},  %\autoref{fig:PK-MBstaticFamily} shows that the Marie Boucher dataset is
 composed of two main families: Antheaume and Boucher. Family ties were important for merchants, but could not scale above a certain level. Marie Boucher expanded her trade network far beyond that limit. She then had to connect to bankers, investors, and foreign traders, far outside her family and yet connected to it indirectly. % The network is visualized with the PAOH technique using only one time slot from 1660 to 1692.
 As hinted in her article, Dufournaud believes that the network can be split in three clusters: one related to the Boucher family, one to the Antheaume family, and the third to the Boucher \& Antheaume company. Using standard visualization tools, she could see different connection patterns over time, but she wanted to validate her hypothesis using more formal measures and computational methods.
 
-%This last cluster is also visible by selecting the Marie Boucher and Hubert item from the list on the left, as shown in \autoref{fig:groupeditorMBandA}.
+%This last cluster is also visible by selecting the Marie Boucher and Hubert item from the list on the left, as shown in \autoref{fig:PK-groupeditorMBandA}.
 
 %\begin{figure}[tb]
 %    \centering
 %    \includegraphics[width=\linewidth]{static/figures/PK-Clustering/VISPaperFigures/MBStaticFamily.png}
 %    \caption{Marie Boucher dataset with two families Antheaume (blue) and Boucher (red).}
-%    \label{fig:MBstaticFamily}
+%    \label{fig:PK-MBstaticFamily}
 %\end{figure}
 
-So she specified her hypotheses as Prior Knowledge and started the analysis. \autoref{fig:teaser} (top left) shows the three PK groups: Marie Boucher for the Boucher family, Hubert Antheaume for the Antheaume family, and the Boucher \& Antheaume corporation alone for the company.
+So she specified her hypotheses as Prior Knowledge and started the analysis. \autoref{fig:PK-teaser} (top left) shows the three PK groups: Marie Boucher for the Boucher family, Hubert Antheaume for the Antheaume family, and the Boucher \& Antheaume corporation alone for the company.
 
-After running the algorithms, 9 algorithms produced a perfect match out of the 13 executed (see \autoref{fig:teaser} - left.) with the first algorithm listed an attribute based algorithm that uses the time attribute in its computation. That summary alone was found very interesting because the 3 clusters seemed very consensual among all the 9 algorithms, and furthermore, they appeared explainable by time alone..
+After running the algorithms, 9 algorithms produced a perfect match out of the 13 executed (see \autoref{fig:PK-teaser} - left.) with the first algorithm listed an attribute based algorithm that uses the time attribute in its computation. That summary alone was found very interesting because the 3 clusters seemed very consensual among all the 9 algorithms, and furthermore, they appeared explainable by time alone..
 
 \begin{comment}
 \begin{figure}[tb]
 \centering
 \includegraphics[width=\linewidth]{static/figures/PK-Clustering/VISPaperFigures/MB-Matching.png}
 \caption{Ranking of the clustering algorithms based on their matching with the PK for the Marie Boucher dataset}
-\label{fig:MB-matching}
+\label{fig:PK-MB-matching}
 \end{figure}
 \end{comment}
 
 In the PAOH view, she started by consolidating the 3 PK-groups using the amount of consensus among the algorithms as well as the graph representation and her own knowledge of the persons. At the end of this step, the Boucher, Antheaume, and Boucher \& Antheaume groups were consolidated, but there were still several persons not labeled on the consolidated knowledge. She decided to review in more detail the clustering results using the \emph{ilouvain\_time} algorithm because of its reliance on the time attribute, and also because its results seemed good in the matching view. After clicking on the virtual group \emph{Others}, the four other clusters computed by \emph{ilouvain\_time} appeared and were reviewed  by hovering the mouse on the names of these new groups. She selected only one clusters she was comfident about and consolidated it.
 
-The final validated partition of the dataset is represented in \autoref{fig:teaser} (right).
+The final validated partition of the dataset is represented in \autoref{fig:PK-teaser} (right).
 The persons are colored and grouped by the consolidated knowledge. We can see that the final grouping makes sense in the PAOH visualization on the right. Only one person is not part of any group: Jacques Souchay. It is not unusual in historical sources to have persons mentioned without any information on them. % except their connection pattern.
 
 Our historian colleague can now publish a follow-up article validating her hypotheses. \rev{The summary report will help document where the final grouping came from, increasing trust with regard to her claims.}
@@ -645,14 +643,14 @@ For the Marie Boucher case study, the report would write \todo{check}:
 %     \centering
 %     \includegraphics[width=\linewidth]{static/figures/PK-Clustering/VISPaperFigures/newGroupsMB.png}
 %     \caption{Final phase of PK-clustering. The \emph{ilouvain\_time} algorithm proposes four extra clusters. After reviewing them one by one, based on the graph and on her knowledge, the user validated one of them, thus becoming purple. The majority of the people in the 3 other clusters (3, 6 and 10) were already consolidated in one of the PK-group.}
-%     \label{fig:detailConsolidated}
+%     \label{fig:PK-detailConsolidated}
 % \end{figure}
 
 
 
 %how the tool appears at the beginning, reporting only the groups existing in the dataset. Since the user knows that there is also the Boucher \& Antheaume relationship she decide to add such information before running the clustering.
-%Once the user configures the prior knowledge as visible in \autoref{fig:MB-PK}.
-%She runs the system and obtains 2 algorithms that perfectly match, while the others contain some unmatched results. \autoref{fig:Clustresult} reports the results, sorted by prior knowledge.%\pb{bug in the figure}
+%Once the user configures the prior knowledge as visible in \autoref{fig:PK-MB-PK}.
+%She runs the system and obtains 2 algorithms that perfectly match, while the others contain some unmatched results. \autoref{fig:PK-Clustresult} reports the results, sorted by prior knowledge.%\pb{bug in the figure}
 %All the algorithms match Hubert Antheaume, Marie Boucher and Marie Boucher et Hub company. The user then wants to explore what happens in ``Others'' group.
 
 %Once the prior knowledge has been matched the algorithm proposes other associations that can be considered in the dataset, which are all those without the black border. The user can then revise such associations in the group editor and then run again the algorithm, in order to refine the clustering.
@@ -662,7 +660,7 @@ For the Marie Boucher case study, the report would write \todo{check}:
 \centering
 \includegraphics[width=\linewidth]{static/figures/PK-Clustering/VISPaperFigures/MB-finalPartition_BA.png}
 \caption{Final consolidated partition of the Marie Boucher dataset. The persons are colored and grouped by the consolidated knowledge. We can see that the final grouping makes sense in the graph visualization on the right. Only one person is not part of any group: Jacques Souchay.}
-\label{fig:MB-finalPartition}
+\label{fig:PK-MB-finalPartition}
 \end{figure}
 \end{comment}
 
@@ -674,7 +672,7 @@ For the Marie Boucher case study, the report would write \todo{check}:
 \centering
 \includegraphics[width=\linewidth]{static/figures/PK-Clustering/VISPaperFigures/Vast_PK_Clustering_View.png}
 \caption{Computing the Lineages of VAST authors: Prior Knowledge from Alice and results of the clusterings matching it.}
-\label{fig:Vast_PK_Clustering_View}
+\label{fig:PK-Vast_PK_Clustering_View}
 \end{figure}
 
 In the second cases study we took the role of Alice, a VAST Steering Committee (SC) member, who participates in a SC meeting to validate the Program Committee proposed by the VAST paper chairs for the next conference.
@@ -693,11 +691,11 @@ Alice will use the ``Visualization Publications Data'' (VisPubData~\cite{VisPubD
 
 Using PK-clustering, Alice loads the VisPubData, filtered to only contain articles from the VAST conference, between 2009--2018. Only prolific authors can be members of the program committee, but highly filtering the co-authorship network  would change its structure and disconnect it. Thus, she will use the unfiltered network of 1383 authors to run the algorithms and perform the matching (Step 1 of the process), even if at the end only 113 authors with more than 4 articles will be need to consolidated (Steps 2 and 3).
 
-Alice starts the PK-clustering process by entering her prior knowledge, which is partial and based on two strategies: her knowledge of some areas of VAST, and the name of well-known researchers who have developed their own lineage. She runs the algorithms (\autoref{fig:Vast_PK_Clustering_View}) and 5 algorithms produce a perfect match, acknowledging her knowledge of some areas of VAST. She then shows the results to other members of the SC who will help her consolidate the lineage clusters.
+Alice starts the PK-clustering process by entering her prior knowledge, which is partial and based on two strategies: her knowledge of some areas of VAST, and the name of well-known researchers who have developed their own lineage. She runs the algorithms (\autoref{fig:PK-Vast_PK_Clustering_View}) and 5 algorithms produce a perfect match, acknowledging her knowledge of some areas of VAST. She then shows the results to other members of the SC who will help her consolidate the lineage clusters.
 
 % Create clear lineages groups and discuss with other SC members to name them.
 Her initial PK clusters are quickly consolidated, using Internet search to validate some less known authors. She then decides to create as many additional clusters and lineage groups as she can.
-For some authors, she decides to override the consensus of the algorithms. For example, she decides, and her colleagues agree, that Gennady and Natalia Andrienko should be in their own lineage group and not in D. Keim's (\autoref{fig:vast_some_consolidated_groups}). The history of VAST in Europe, very much centered around D.\ Keim and the VisMaster project~\cite{VisMaster}, has strongly influenced the network structure and some external knowledge is required to untangle it.
+For some authors, she decides to override the consensus of the algorithms. For example, she decides, and her colleagues agree, that Gennady and Natalia Andrienko should be in their own lineage group and not in D. Keim's (\autoref{fig:PK-vast_some_consolidated_groups}). The history of VAST in Europe, very much centered around D.\ Keim and the VisMaster project~\cite{VisMaster}, has strongly influenced the network structure and some external knowledge is required to untangle it.
 
 Using the \emph{PK\_louvain} algorithm as starting point, Alice creates new groups and achieves a consensus among the experts on a plausible set of lineages for VAST.
 She then checks with the list proposed by the program committee by entering it in on a spreadsheet with the names and affiliations. She adds the groups and their color, and sort the list by group.
@@ -713,7 +711,7 @@ in the end, the final selection only uses the lineage criterion among many other
 \centering
 \includegraphics[width=\linewidth]{static/figures/PK-Clustering/VISPaperFigures/vast_some_consolidated_groups.png}
 \caption{Four consolidated groups in the VAST dataset: C North, RVAC, Andrienko and London}
-\label{fig:vast_some_consolidated_groups}
+\label{fig:PK-vast_some_consolidated_groups}
 \end{figure}
 
 %\subsection{General feedback about usability}
@@ -725,7 +723,7 @@ in the end, the final selection only uses the lineage criterion among many other
 \centering
 \includegraphics[width=\linewidth]{static/figures/PK-Clustering/VISPaperFigures/vast_PC_dist.pdf}
 \caption{VAST Program Committee from 2019. The first column represents the respective lineage groups found using PK-clustering. Second column is the name of the PC Member, and the third one, their affiliation in 2019. }
-\label{fig:MB-vast_PC_dist}
+\label{fig:PK-MB-vast_PC_dist}
 \end{figure}
 \fi
 
