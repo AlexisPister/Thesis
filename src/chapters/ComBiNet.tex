@@ -1,5 +1,12 @@
 \chapter{ComBiNet: Visual Query and Comparison of Bipartite Dynamic Multivariate Networks with Roles}
 
+In the previous chapter \autoref{ch:hsna-process-and-network-modeling}, we decided with historians collaborators to model their historical documents into \modelplural to follow HSNA analysis, as it satisfy \emph{simplicity}, \emph{reality} and \emph{traceability} constraints.
+However, no visual tools currently exist based on this data model, to allow social scientists explore and analyze such network.
+In this chapter, we propose a VA interface aimed at exploring historical documents modeled as \modelplural.
+We try to answer Q2 by analyzing tasks and questions historians have on their data and providing interactions mechanisms which would allow them to answer their sociological and historical questions.
+
+
+\section{Context}
 
 Social historians and sociologists aim at retrieving and studying facts about a specific region and period of time that they focus on.
 Their work essentially relies on documents---such as marriage acts, census records, surveys, and business contracts---to gather information about the life of important actors that they explore in-depth, or to draw conclusions on social aspects of groups in the society of that period and place.
@@ -8,7 +15,8 @@ For this, they need to encode their documents to extract the persons and any oth
 Social scientists can then explore, validate, or refute their hypotheses by observing and analyzing the network structure and the connectivity patterns between the entities of the resulting network.
 They also want to visually explore their data to generate new insights and hypotheses.
 
-Currently, social scientists often model their datasets as simple networks where the nodes are the persons mentioned in the documents (see \autoref{ch:hsna-process-and-network-modeling}). Usually, Two persons are then connected together in the network when they appear in shared documents.
+Currently, social scientists often model their datasets as simple networks where the nodes are the persons mentioned in the documents (see \autoref{ch:hsna-process-and-network-modeling}).
+Usually, Two persons are then connected together in the network when they appear in shared documents.
 This representation is easy to visualize and analyze but simplifies and distorts the information by hiding the documents that witness the relationships between the persons.
 Thus, another approach consists in modeling the data as bipartite networks, where both the documents and the persons are represented as nodes and are connected together when a document mentions a given person~\cite{grandjeanAnalisiVisualizzazioniReti2017, rossiExplorationLargeDatabase2014, shafieHypergraphRepresentationsStudy2017}.
 
@@ -22,7 +30,7 @@ This model unifies several social network models and allows to model the histori
 
 Several sophisticated tools exist to explore and analyze rich social networks.
 However, the majority of them either enforce too simplistic network models, such as Gephi~\cite{Gephi} and NodeXL~\cite{NodeXL} or do not enforce any data model and lead to very complicated interfaces which are complicated to navigate for users like historians.
-Moreover, the majority of social network visual analytics tools provide limited interactions to query and explore richly encoded data.
+Moreover, the majority of social network visual analytics tools provide limited interactions to query and explore richly encoded data, and historians often reach simple conclusions.
 
 % Contrary to the early taxonomy of tasks on graphs~\cite{lee:hal-00851754}, with the data model we use, it becomes impossible to characterize a finite set of simple tasks to support, along with their associated visual representations and interactions techniques.
 
