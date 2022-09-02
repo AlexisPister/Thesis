@@ -26,11 +26,12 @@
 \usepackage{fancyhdr}
 \usepackage{amssymb}
 \usepackage{xcolor} % où color selon l'installation
-\usepackage{enumitem}
+\usepackage[inline]{enumitem}
 \usepackage{csquotes}
 \usepackage{overpic}
 \usepackage{lipsum}
 \usepackage{xspace}
+\usepackage{xpunctuate}
 \usepackage{subcaption}
 \usepackage{tabularx}
 \usepackage{flushend}
@@ -39,11 +40,17 @@
 \usepackage{cite}
 \usepackage{comment}
 \usepackage{varwidth} %for the varwidth minipage environment
+\usepackage{wrapfig}
 
 \usepackage{pifont}% http://ctan.org/pkg/pifont
 \newcommand{\cmark}{\ding{51}}%
 \newcommand{\xmark}{\ding{55}}%
-
+\newcommand{\rev}[1]{#1}
+\newenvironment{revs}{}{}
+\newcommand{\del}[1]{}
+\newcommand{\ie}{i.e.\xcomma}
+\newcommand{\eg}{e.g.\xcomma}
+\newcommand{\paovis}{PAOHVis\xspace}
 
 %\usepackage[backend=bibtex,style=numeric]{biblatex}
 %\usepackage[backend=biber,style=numeric]{biblatex}
