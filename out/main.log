@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.6.11)  1 SEP 2022 17:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.6.11)  6 SEP 2022 09:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -988,6 +988,9 @@ File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
 (/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
+(/usr/share/texlive/texmf-dist/tex/latex/xpunctuate/xpunctuate.sty
+Package: xpunctuate 2012/05/21 v1.0 trailing punctuation package (PGR)
+)
 (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2020/01/22 v1.3d Sub-captions (AR)
 
@@ -1105,6 +1108,14 @@ Package: cite 2015/02/27  v 5.5
 \CommentStream=\write4
 
 Excluding comment 'comment')
+(/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen335
+\WF@size=\dimen336
+\c@WF@wrappedlines=\count349
+\WF@box=\box127
+\WF@everypar=\toks47
+Package: wrapfig 2003/01/31  v 3.6
+)
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/pifont.sty
 Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
 LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
@@ -1125,48 +1136,48 @@ Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'french'.
 
 (/home/alexis/Documents/Thesis/out/main.aux
-(/home/alexis/Documents/Thesis/out/chapters/Introduction.aux))
+(/home/alexis/Documents/Thesis/out/chapters/Conclusion.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
 LaTeX Font Info:    Trying to load font information for T1+opensans-TLF on inpu
-t line 14.
+t line 15.
 
 (/usr/share/texlive/texmf-dist/tex/latex/opensans/T1opensans-TLF.fd
 File: T1opensans-TLF.fd 2019/06/24 Font definitions for T1/opensans-TLF.
 )
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 14.
-\AtBeginShipoutBox=\box127
+(Font)              scaled to size 11.39996pt on input line 15.
+\AtBeginShipoutBox=\box128
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count349
-\scratchdimen=\dimen335
-\scratchbox=\box128
-\nofMPsegments=\count350
-\nofMParguments=\count351
-\everyMPshowfont=\toks47
-\MPscratchCnt=\count352
-\MPscratchDim=\dimen336
-\MPnumerator=\count353
-\makeMPintoPDFobject=\count354
-\everyMPtoPDFconversion=\toks48
+\scratchcounter=\count350
+\scratchdimen=\dimen337
+\scratchbox=\box129
+\nofMPsegments=\count351
+\nofMParguments=\count352
+\everyMPshowfont=\toks48
+\MPscratchCnt=\count353
+\MPscratchDim=\dimen338
+\MPnumerator=\count354
+\makeMPintoPDFobject=\count355
+\everyMPtoPDFconversion=\toks49
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1211,7 +1222,7 @@ ABD: EveryShipout initializing macros
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 14.
+Package hyperref Info: Link coloring ON on input line 15.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -1221,11 +1232,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count355
+\c@section@level=\count356
 )
-LaTeX Info: Redefining \ref on input line 14.
-LaTeX Info: Redefining \pageref on input line 14.
-LaTeX Info: Redefining \nameref on input line 14.
+LaTeX Info: Redefining \ref on input line 15.
+LaTeX Info: Redefining \pageref on input line 15.
+LaTeX Info: Redefining \nameref on input line 15.
 
 (/home/alexis/Documents/Thesis/out/main.out)
 (/home/alexis/Documents/Thesis/out/main.out)
@@ -1235,27 +1246,28 @@ LaTeX Info: Redefining \nameref on input line 14.
 \symgns@font=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
 (Font)                  TS1/opensans-TLF/m/n --> TS1/opensans-TLF/b/n on input 
-line 14.
-Package gensymb Info: Math companion symbols declared on input line 14.
-LaTeX Info: Redefining \degree on input line 14.
-LaTeX Info: Redefining \celsius on input line 14.
+line 15.
+Package gensymb Info: Math companion symbols declared on input line 15.
+LaTeX Info: Redefining \degree on input line 15.
+LaTeX Info: Redefining \celsius on input line 15.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 14.
-LaTeX Info: Redefining \ohm on input line 14.
-Package gensymb Info: Using \textohm for \ohm on input line 14.
-Package gensymb Info: Using \textmu for \micro on input line 14.
-LaTeX Info: Redefining \degres on input line 14.
-LaTeX Info: Redefining \dots on input line 14.
+erthousand on input line 15.
+LaTeX Info: Redefining \ohm on input line 15.
+Package gensymb Info: Using \textohm for \ohm on input line 15.
+Package gensymb Info: Using \textmu for \micro on input line 15.
+LaTeX Info: Redefining \degres on input line 15.
+LaTeX Info: Redefining \dots on input line 15.
 Package french.ldf Info: Setting StandardItemizeEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 14.
+(french.ldf)             reported on input line 15.
 Package french.ldf Info: Setting StandardEnumerateEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 14.
-LaTeX Info: Redefining \up on input line 14.
-\c@mv@tabular=\count356
-\c@mv@boldtabular=\count357
+(french.ldf)             reported on input line 15.
+LaTeX Info: Redefining \up on input line 15.
+\c@mv@tabular=\count357
+\c@mv@boldtabular=\count358
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
@@ -1292,62 +1304,62 @@ Package caption Info: End \AtBeginDocument code.
 <static/logos/Frame-ups.pdf, id=27, 303.38344pt x 849.92531pt>
 File: static/logos/Frame-ups.pdf Graphic file (type pdf)
 <use static/logos/Frame-ups.pdf>
-Package pdftex.def Info: static/logos/Frame-ups.pdf  used on input line 20.
+Package pdftex.def Info: static/logos/Frame-ups.pdf  used on input line 21.
 (pdftex.def)             Requested size: 303.38269pt x 849.92323pt.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 16.41594pt on input line 30.
+(Font)              scaled to size 16.41594pt on input line 31.
 
 
 LaTeX Font Warning: Font shape `T1/opensans-TLF/m/sc' undefined
-(Font)              using `T1/opensans-TLF/m/n' instead on input line 30.
+(Font)              using `T1/opensans-TLF/m/n' instead on input line 31.
 
 <static/logos/logo2.png, id=28, 194.97844pt x 87.32625pt>
 File: static/logos/logo2.png Graphic file (type png)
 <use static/logos/logo2.png>
-Package pdftex.def Info: static/logos/logo2.png  used on input line 39.
+Package pdftex.def Info: static/logos/logo2.png  used on input line 40.
 (pdftex.def)             Requested size: 194.97795pt x 87.32603pt.
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 4
-8.
+9.
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 
 LaTeX Font Warning: Font shape `T1/cmss/m/n' in size <22> not available
-(Font)              size <20.74> substituted on input line 48.
+(Font)              size <20.74> substituted on input line 49.
 
-LaTeX Font Info:    Trying to load font information for T1+fvs on input line 57
+LaTeX Font Info:    Trying to load font information for T1+fvs on input line 58
 .
 (/usr/share/texlive/texmf-dist/tex/latex/bera/t1fvs.fd
 File: t1fvs.fd 2004/09/07 scalable font definitions for T1/fvs.
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 66.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 67.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 66.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 67.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for TS1+opensans-TLF on inp
-ut line 66.
+ut line 67.
 
 (/usr/share/texlive/texmf-dist/tex/latex/opensans/TS1opensans-TLF.fd
 File: TS1opensans-TLF.fd 2019/06/24 Font definitions for TS1/opensans-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 66.
+(Font)              scaled to size 10.40245pt on input line 67.
 LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 66.
+(Font)              scaled to size 7.59998pt on input line 67.
 LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 66.
+(Font)              scaled to size 5.69998pt on input line 67.
 LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
-(Font)              scaled to size 4.74998pt on input line 92.
+(Font)              scaled to size 4.74998pt on input line 93.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 109.
+(Font)              scaled to size 7.59998pt on input line 110.
  [1
 
 
@@ -1387,23 +1399,23 @@ df> <./static/logos/logo2.png>]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for T1+rm on input line 114
+LaTeX Font Info:    Trying to load font information for T1+rm on input line 115
 .
-LaTeX Font Info:    No file T1rm.fd. on input line 114.
+LaTeX Font Info:    No file T1rm.fd. on input line 115.
 
 
 LaTeX Font Warning: Font shape `T1/rm/m/n' undefined
-(Font)              using `T1/cmr/m/n' instead on input line 114.
+(Font)              using `T1/cmr/m/n' instead on input line 115.
 
 <static/logos/EOBE.png, id=47, 1734.48pt x 397.485pt>
 File: static/logos/EOBE.png Graphic file (type png)
 <use static/logos/EOBE.png>
-Package pdftex.def Info: static/logos/EOBE.png  used on input line 126.
+Package pdftex.def Info: static/logos/EOBE.png  used on input line 127.
 (pdftex.def)             Requested size: 304.17374pt x 69.70915pt.
-Package mdframed Info: mdframed works in twoside mode on input line 133.
-Package mdframed Info: mdframed works in twoside mode on input line 148.
+Package mdframed Info: mdframed works in twoside mode on input line 134.
+Package mdframed Info: mdframed works in twoside mode on input line 149.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 177.
+(Font)              scaled to size 10.40245pt on input line 178.
 [2
 
  <./static/logos/EOBE.png>]
@@ -1481,32 +1493,84 @@ LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\openout2 = `chapters/Introduction.aux'.
+\openout2 = `chapters/Conclusion.aux'.
 
- (./chapters/Introduction.tex [4
+ (./chapters/Conclusion.tex [4
 
 
 
 
 ]
 Chapitre 1.
+./chapters/Conclusion.tex:12: Undefined control sequence.
+l.12 Specifically, we answer our question \qone
+                                                on how to model historical d...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-LaTeX Warning: Citation `wassermanSocialNetworkAnalysis1994' on page 5 undefine
-d on input line 13.
+./chapters/Conclusion.tex:12: Undefined control sequence.
+l.12 ...documents by proposing to use \modelPlural
+                                                   which satisfy these three...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./chapters/Conclusion.tex:13: Undefined control sequence.
+l.13 ...ists answer their complex questions (\qtwo
+                                                  ).
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./chapters/Conclusion.tex:14: Undefined control sequence.
+l.14 ...explore there data modeled as \modelPlural
+                                                  , and implementing visual ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 [5]
+LaTeX Font Info:    Font shape `T1/opensans-TLF/b/n' will be
+(Font)              scaled to size 10.40245pt on input line 44.
 
-LaTeX Warning: Citation `blochApologiePourHistoire1949' on page 6 undefined on 
-input line 51.
 
-[6]
+LaTeX Warning: Reference `ch:hsna-process-and-network-modeling' on page 6 undef
+ined on input line 44.
 
-LaTeX Warning: Citation `tukeyExploratoryDataAnalysis1977' on page 7 undefined 
-on input line 102.
+
+Underfull \vbox (badness 4819) has occurred while \output is active []
+
+ [6]
+
+LaTeX Warning: Citation `staskoJigsawSupportingInvestigative2008' on page 7 und
+efined on input line 61.
+
+
+LaTeX Warning: Citation `philipsHistoricalDocumentProcessing2020' on page 7 und
+efined on input line 97.
+
+
+LaTeX Warning: Citation `michalskiPredictingSocialNetwork2012' on page 7 undefi
+ned on input line 97.
+
+
+LaTeX Warning: Citation `heerAgencyAutomationDesigning2019' on page 7 undefined
+ on input line 100.
 
 [7]
-LaTeX Font Info:    Font shape `T1/opensans-TLF/b/n' will be
-(Font)              scaled to size 10.40245pt on input line 143.
+
+LaTeX Warning: Reference `ch:hsna-process-and-network-modeling' on page 8 undef
+ined on input line 106.
+
 ) [8] (/home/alexis/Documents/Thesis/out/main.bbl [9
 
 
@@ -1518,12 +1582,12 @@ Eduarda
  []
 
 [13]) [14]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 195.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 195.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 197.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 197.
  (/home/alexis/Documents/Thesis/out/main.aux
-(/home/alexis/Documents/Thesis/out/chapters/Introduction.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 195.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 195.
+(/home/alexis/Documents/Thesis/out/chapters/Conclusion.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 197.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 197.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
 
@@ -1539,16 +1603,17 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 26222 strings out of 481239
- 478664 string characters out of 5920377
- 1052714 words of memory out of 5000000
- 40783 multiletter control sequences out of 15000+600000
- 595593 words of font info for 89 fonts, out of 8000000 for 9000
+ 26335 strings out of 481239
+ 480152 string characters out of 5920377
+ 1054457 words of memory out of 5000000
+ 40887 multiletter control sequences out of 15000+600000
+ 595988 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,9n,117p,892b,814s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texliv
-e/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texlive/texmf-dist/fonts/e
-nc/dvips/opensans/a_jg4h6q.enc}</usr/share/texlive/texmf-dist/fonts/type1/ascen
+e/texmf-dist/fonts/enc/dvips/opensans/a_jg4h6q.enc}{/usr/share/texlive/texmf-di
+st/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/ascen
+der/opensans/OpenSans-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/ascen
 der/opensans/OpenSans-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/bera/fvsb
@@ -1559,10 +1624,10 @@ sfss1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss2488.pfb></usr/s
 hare/texmf/fonts/type1/public/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/typ
 e1/public/cm-super/sfsx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
 fsx1728.pfb>
-Output written on /home/alexis/Documents/Thesis/out/main.pdf (14 pages, 227604 
+Output written on /home/alexis/Documents/Thesis/out/main.pdf (14 pages, 232303 
 bytes).
 PDF statistics:
- 258 PDF objects out of 1000 (max. 8388607)
+ 259 PDF objects out of 1000 (max. 8388607)
  220 compressed objects within 3 object streams
  94 named destinations out of 1000 (max. 500000)
  68 words of extra memory for PDF output out of 10000 (max. 10000000)
