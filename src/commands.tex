@@ -19,7 +19,7 @@
 \usepackage{gensymb}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage[french]{babel}
+\usepackage[main=english,french]{babel}
 \usepackage[default, scale=.95]{opensans} % police Open Sans
 \usepackage{amsmath}
 \usepackage{amsfonts}
@@ -51,6 +51,13 @@
 \newcommand{\ie}{i.e.\xcomma}
 \newcommand{\eg}{e.g.\xcomma}
 \newcommand{\paovis}{PAOHVis\xspace}
+
+% replace autoref's default "Section~\ref{#1}" by \S\ref{#1}
+
+\def\Snospace~{\S{}} % eat the ~ added by \autoref after the macro
+\renewcommand*\sectionautorefname{\Snospace}
+\renewcommand*\subsectionautorefname{\Snospace}
+\renewcommand*\subsubsectionautorefname{\Snospace}
 
 %\usepackage[backend=bibtex,style=numeric]{biblatex}
 %\usepackage[backend=biber,style=numeric]{biblatex}
@@ -100,6 +107,8 @@
 
 \newcommand{\todo}[1]{\textcolor{red}{\textbf{#1}}}
 \newcommand{\name}{ComBiNet\xspace}
+
+\newcommand{\eg}{e.g.\xspace}
 
 
 

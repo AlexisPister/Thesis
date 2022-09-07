@@ -135,7 +135,7 @@ However, datasets that historians produce are getting bigger and bigger and VA t
 
 %For example, clustering algorithms are often implemented in classical software for SNA such as Gephi and Pajek, allowing social scientists to explore potential interesting grouping of individuals in the network.
 
-\section{Historical Social Networks Visual Analytics}\label{sec:historical-social-networks-visual-analytics}
+\section{Historical Social Networks Visual Analytics}\label{sec:intro-HSNV}
 
 Currently, social historians spend a lot of time in their data acquisition, processing, and cleaning steps which lead them to the construction of a network.
 They typically visualize and analyze their network at the very end of this process only.
@@ -153,15 +153,15 @@ One of the reasons is that automatic results can be hard to interpret, especiall
 
 
 
-\section{Contribution and research statement}\label{sec:contribution-and-research-statement}
+\section{Contributions and Research Statement}\label{sec:contribution-and-research-statement}
 
 
-As seen in \autoref{sec:historical-social-networks-visual-analytics}, most VA tools for HSNA are focused on the final analysis of a polished network.
-Instead of only providing analysis capabilities, We think VA could help social historians in their entire workflow, from data acquisition to analysis, instead of focusing only on the final steps.
+As seen in \autoref{sec:intro-HSNVA}, most VA tools for HSNA are focused on the final analysis of a polished network.
+Instead of only providing analysis capabilities, we think VA could help social historians in their entire workflow, from data acquisition to analysis, instead of focusing only on the final steps.
 Concerning the analysis step, VA tools should satisfy the constraints of social historians, i.e.\ being able to answer complex questions with effective visual representations, letting the user in control of the analysis loop and algorithmic results, and satisfying traceability to the original sources.
 %without losing the traceability to their original historical sources and the temporality of the phenomena they study.
-The goal of this thesis is to give answers to the high-level question ``How can VA help social historians in their entire HSNA process ?''.
-To answer this question, we first characterize the HSNA process from start to finish, with the goal of identifying pitfalls and problems that regularly arise and characterizing social historians' needs.
+The goal of this thesis is therefore to give answers to the high-level question ``How can VA help social historians in their entire HSNA process?''.
+To answer this question, we first characterize the HSNA process from start to finish from discussions and collaborations with social historians, with the goal of identifying pitfalls and problems that regularly arise and characterizing social historians' needs.
 From this, we give answers and directions to three issues that frequently arise in social scientists' workflows:
 
 \newcommand{\qone}{\textbf{Q1}\xspace}
@@ -170,8 +170,8 @@ From this, we give answers and directions to three issues that frequently arise 
 \begin{description}
 %    \item \textbf{Q1}: How should historians collect, annotate and model their historical documents, allowing them to answer their complex questions with HSNA methods?
     \item \qone:  How to model historical documents into an analyzable network with the right balance between expressiveness and simplicity?
-    \item \qtwo:  What representations and interactions are necessary for social historians to answer complex historical questions while being easy enough to navigate?
-    \item \qthree: How to design VA tools and interactions that leverage algorithmic power but let historians in control of their analysis without introducing bias?
+    \item \qtwo:  What representations and interactions are efficient for social historians to answer complex historical questions and generate insight and hypotheses, while being easy enough to navigate?
+    \item \qthree: How to design VA tools and interactions that leverage algorithmic power but keep historians in control of their analysis and bias?
 \end{description}
 
 %\begin{description}
@@ -182,8 +182,8 @@ From this, we give answers and directions to three issues that frequently arise 
 %\end{description}
 
 In \autoref{ch:hsna-process-and-network-modeling}, we start by describing the HSNA workflow and identify recurring pitfalls we encountered in our collaborations with historians and give answers to \qone.
-In the following \autoref{ch:combinet}, we give answers to \qtwo by providing a VA interface to explore \modelplural, with queries and comparison interactions with the aim of letting historians answer their questions.
-Finally, in \autoref{ch:pk-clustering}, we propose PK-Clustering, a clustering technique for social scientists based on their prior knowledge, algorithmic consensus, and traceability of results, as a concrete example of a technique giving answers to \qthree.
+In the following \autoref{ch:combinet}, we give answers to \qtwo by providing a VA interface to explore \modelplural, with queries and comparison interactions with the aim of letting historians answer their questions and generate interesting hypotheses.
+Finally, in \autoref{ch:pk-clustering}, we propose PK-Clustering, a mixed-initiative clustering technique for social scientists based on their prior knowledge, algorithmic consensus, and traceability of results, as a concrete example of a system providing answers to \qthree.
 
 
 

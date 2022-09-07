@@ -1,7 +1,7 @@
 %! Author = alexis
 %! Date = 20/06/2022
 
-\chapter{Historical Network Analysis and Visualization}\label{ch:related-work}
+\chapter{Related Work}\label{ch:related-work}
 
 Social historians rely on textual historical documents to draw socio-economic conclusions about the past.
 They read and analyze the documents they can find from a period and subject of interest, and make their conclusions after analyzing them and cross-referencing the information they found.
@@ -20,6 +20,7 @@ In this chapter, we therefore present a general overview of the fields of SNA (\
 
 \section{Social Network Analysis}\label{sec:social-network-analysis}
 
+SNA is defined as an ``approach grounded in the intuitive notion that the patterning of social ties in which actors are embedded has important consequences for those actors. Network analysts, then, seek to uncover various kinds of patterns. And they try to determine the conditions under which those patterns arise and to discover their consequences'' \cite{freeman_development_2004}.
 The concept of SNA emerged in sociology in response to traditional methods using pre-defined taxonomies and social categories to understand and explain sociological behaviors and phenomena, which could introduce bias.
 By modeling real observed social relationships and interactions with networks and by using mathematical and statistical methods to study those, sociologists have been able to explain sociological phenomena and describe sociological interactions through their direct observation using networks.
 SNA is now a well-praised methodology in sociology, which has also been extended to History to study relational aspects of societies and institutions of the past.
@@ -27,7 +28,7 @@ SNA is now a well-praised methodology in sociology, which has also been extended
 \subsection{Sociometry to SNA}
 
 One of Sociology's main goals is to study social relationships between individuals and find recurrent patterns and structures allowing to explain the behaviors of people and groups.
-Traditional methods try to explain social phenomena using classical social classifications such as age, social status, profession, and sex.
+Traditional methods try to explain social phenomena using classical social classifications such as age, social status, profession, and gender.
 For example, the socio-economic position of people living in a small city could be explained by their age, demographics, and family status which are traditional social categories.
 However, some criticism emerged that this type of division is often partially biased and comes from predefined categories which are not always grounded in reality.
 Sociometry is considered one of the bases of SNA and had the goal of redefining social categories through the lens of real social interactions and ties between persons, that sociologists wanted to observe in real conditions.
@@ -36,9 +37,9 @@ He developed sociograms as a way to visually show friendships between people wit
 \autoref{fig:moreno-sociogram} shows one of Moreno's original sociograms to depict friendships in a class of first grades (left).
 %This way, he could rapidly see the main actors and hubs of interaction inside the social network represented visually.
 Sociometry tremendously helped disseminate the metaphor of networks to model and understand social structures and phenomena.
-It was during the 1960s that sociologists and anthropologists took these concepts further and formalized SNA using graphs and mathematical methods, following the emergence of Graph Theory studies in the 1950s by Mathematicians such as Erdos \cite{erdos2011}.
+It was during the 1960s that sociologists and anthropologists took these concepts further and formalized SNA using graphs and mathematical methods, following the emergence of Graph Theory studies in the 1950s by Mathematicians such as Erd\H{o}s \cite{erdos2011}.
 %It did not take long until sociologists used these concepts to model social ties and relationships into graphs.
-Sociologists already had structural theories of social phenomena, and they rapidly saw the potential of graphs to model social relationships between actors, representing the persons as nodes and relationships as links.
+Sociologists already had structural theories of social phenomena, and they rapidly saw the potential of networks\footnote{Graphs and networks refer to the same thing but are often used in different contexts. The term graph is preferred in a mathematical and abstraction setting, while the term network is mostly used when modeling real-world phenomena. We talk about nodes and links for networks and vertices and edges for graphs.} to model social relationships between actors, representing the persons as nodes and relationships as links.
 Graph theory brought a panoply of concepts and methods to study and describe networks, that sociologists such as Coleman started to codify to use in a sociology setting \cite{colemanIntroductionMathematicalSociology1964}.
 Using mathematical and network methods, it was possible to formally describe social relationships to make sociological conclusions grounded in real observations modeled as networks.
 
@@ -56,7 +57,7 @@ Using mathematical and network methods, it was possible to formally describe soc
 \subsection{Structuralism and Ego Studies}
 
 %After SNA started to be formalized, lots of sociological studies used those concepts.
-Lots of sociological studies used SNA concepts after it has been formalized.
+Many sociological studies used SNA concepts after it has been formalized.
 However, there were not yet strong protocols and methods to follow, and networks are an abstraction that can model different things in different ways.
 When looking retrospectively, we can see that two schools of thought emerged with different objectives and methods: the structuralists and the school of Manchester \cite{eveDeuxTraditionsAnalyse2002, maurizio2000, freemanDevelopmentSocialNetwork2004}.
 
@@ -80,14 +81,14 @@ It is also common to compare several ego networks to make correlations between t
 These two methodologies of SNA are often not exclusives and current studies usually involve concepts and methods from both.
 This is especially true in history where even if historians may want to describe exhaustively a group or institution of the past, they are almost always interested in specific individuals they study in depth.
 
-\subsection{Methods and tools}\label{subsec:methods-dans-tools}
+\subsection{Methods and Tools}\label{subsec:methods-dans-tools}
 
-Graph theorists and network scientists developed a myriad of measures and algorithms that social scientists appropriated to describe and characterize social phenomena.
-When constructing networks, the first thing sociologists do is often to identify the main actors of the network and explain why these actors are the most central, for example by linking it to their profession or social status.
+Graph theoreticians and network scientists developed a myriad of graph measures (\eg density, centrality, and diameter) and algorithms that social scientists appropriated to describe and characterize social phenomena.
+When constructing networks, the first thing sociologists do is to identify the main actors of the network and explain why these actors are the most central, for example by linking it to their profession or social status.
 Computing the degree---which is the number of connections for a node---distribution is the main straightforward way of doing it, but other more complex measures like centrality have also been developed.
-Lots of types of centrality have been proposed, based on different criteria, as there are several ways of defining the more important actors.
+Several types of centrality measures (\eg betweenness, closeness) have been proposed, based on different criteria, as there are several ways of defining the more important actors.
 Some centrality measures highlight actors with the highest number of connections while others highlight people bridging different groups with low interactions.
-More generally sociologists aimed at identifying recurring patterns of sociability between actors.
+More generally sociologists aim at identifying recurring patterns of sociability between actors.
 The concepts of dyads and triads counting, which are basic structural patterns of 2 and 3 nodes, give insights into low-level relationships between people.
 This reflects on Simmel's formal sociology, where he already referred to dyads and triads as a primal form of sociability \cite{Simmel2013}.
 More recently, graphlet analysis extended this concept to every pattern of N-entities.
@@ -95,7 +96,7 @@ Graphlet analysis aims at enumerating every small structure of $N$ nodes composi
 Graphlets counting shows that graphlets are not found in a uniform distribution in social networks, thus revealing that social networks usually do not have the same structure that random networks.
 This is a fact well known in SNA. Precisely, entities in real-world networks tend to agglomerate into groups (also called clusters) where entities in the same groups interact more between them than with entities from other groups.
 From a sociology perspective, it means that people tend to interact and socialize in groups and interact more rarely with other people from outside groups.
-These groups are often referred to as \emph{communities}, and a lot of algorithms have been proposed to find these automatically.
+These groups are often referred to as \emph{communities}, and many algorithms have been proposed to find these automatically.
 
 \section{Historical Network Research}\label{sec:historical-network-research}
 
@@ -193,15 +194,15 @@ Moreover, historians rarely rely on a single approach when studying an era or ph
 
 \subsection{Network Modeling}
 
-Constructing a network from historical documents, which can vary a lot in their formats and structures, is not a trivial task.
+Constructing a network from historical documents, which can vary tremendously in their formats and structures, is not a trivial task \cite{alkadi2022}.
 The most straightforward and well-known approach consists in constructing a social network based on a simple graph $G = (V, E)$ with $V$ a set of vertices representing the actors of interest (very often individuals mentioned in the documents), and $E \subseteq V^2$ a set of edges modeling the social ties between pairs of actors.
 This allows to have a simple network to visualize and analyze, but it does not always reflect the sociological complexity of information contained in the documents.
 %More complex networks models have been proposed in SNA and HNR to be able to model more complex social relationships.
-HNR network models have evolved over time to better take into account concrete properties of social networks, such as types of actors using labeled networks, the importance of actors or relations with weighted networks, mixed relationships with multiplex networks, dynamics of relations with dynamic networks.
+HSNA network models have evolved over time to better take into account concrete properties of social networks, such as types of actors using labeled networks, the importance of actors or relations with weighted networks, mixed relationships with multiplex networks, dynamics of relations with dynamic networks.
 Bipartite networks have been proposed to model relations between two types of entities, such as organization and employees where the relations link employees to organizations but not employees to employees or organizations to organizations.
 Many social situations or documents can be modeled in these terms (%\textit{Interlocking directorates},
 affiliation lists or co-authoring).
-Multivariate networks, i.e.,  graphs, where vertices and edges can be assigned multiple ``properties'' or ``attributes'', are less used in SNA\@.
+Multivariate networks, \ie graphs, where vertices and edges can be assigned multiple ``properties'' or ``attributes'', are less used in SNA\@.
 These attributes are often considered secondary, the emphasis of SNA being on the topology, its features, measures, and evolution.
 
 Historians, demographers, sociologists, and anthropologists have also been designing specific data models for their social networks, based on genealogy or more generally kinship~\cite{hambergerKinshipNetworkAnalysis2011}.
@@ -213,7 +214,7 @@ The \href{https://www.kintip.net/}{Puck software} has extended its original gene
 \section{Social Network Visualization}\label{sec:social-network-visualization}
 
 Practitioners of SNA and HSNA have always depicted visually their networks for validation and communication purposes, mostly using node-link diagrams.
-With the increase in average network size and the diversity of network models, new visualization techniques have been proposed to represent the diversity of studied networks.
+With the increase in average network size and density and the diversity of network models, new visualization techniques have been proposed to represent the diversity of studied networks.
 Moreover, more and more social scientists are following exploratory approaches using Visual Analytics (VA) tools, to describe more in-depth their data and generate new interesting hypotheses, using interaction and exploration capabilities.
 
 \subsection{Visualization}
@@ -254,9 +255,9 @@ Finding an optimal placement for the nodes is however not that simple as several
 In \autoref{fig:moreno-sociogram} we can see the difference in readability between the original manual layout (left) and an automatic one (right).
 Automatic layouts which aim at optimizing readability metrics give clearer diagrams.
 The number of edge crossings is often considered the most important measure, but finding a drawing with the optimal number of crossings is an NP-Hard problem, meaning that heuristics are needed for most real-world use cases.
-Lots of algorithms have been designed such as force-directed ones, modeling the nodes as particles that repulse each other and are attracted together when connected with a link that can be seen as strings.
+A large number of algorithms have been designed such as force-directed ones, modeling the nodes as particles that repulse each other and are attracted together when connected with a link that can be seen as strings.
 Other visual techniques have been proposed to represent networks such as matrices, circular layouts, and arcs, but are less used in social sciences \cite{mcguffinSimpleAlgorithmsNetwork2012}.
-Still, Matrices have been shown to be better than node-link diagrams for a lot of tasks such as finding cluster-related patterns, especially for medium to large networks \cite{ghoniemComparisonReadabilityGraphs2004}.
+Still, Matrices have been shown to be more effective than node-link diagrams for several tasks such as finding cluster-related patterns, especially for medium to large networks \cite{ghoniemComparisonReadabilityGraphs2004}.
 
 \begin{figure}
     \centering % avoid the use of \begin{center}...\end{center} and use \centering instead (more compact)
@@ -265,10 +266,10 @@ Still, Matrices have been shown to be better than node-link diagrams for a lot o
     \label{fig:kosak-graph-drawing}
 \end{figure}
 
-As social scientists started to use more complex network models such as bipartite or temporal networks, more sophisticated representations are needed.
+As social scientists are using more complex network models such as bipartite or temporal networks, more sophisticated representations are needed.
 %The visualization community proposed new visualization systems for specific network types such as PAOHVis for temporal hypergraphs, NodeTrix for clustered networks or Juniper for Multivariate networks.
 The visualization community developed new representations to visualize other network types such as dynamic hypergraphs with PAOHVis \cite{valdiviaAnalyzingDynamicHypergraphs2021}, clustered graphs with NodeTrix \cite{henryNodeTrixHybridVisualization2007} (illustrated in \autoref{fig:Riche-NodeTrix}), geolocated social networks with the Vistorian \cite{serranomolineroUnderstandingUseVistorian2017}, and multivariate networks with Juniper \cite{nobreJuniperTreeTable2019}.
-However, these new network representations take time to be adopted by social scientists who rarely use those.
+However, these new network representations take time to be adopted by social scientists who rarely use them.
 
 
 \begin{figure}
@@ -316,8 +317,8 @@ Users can also analyze their data using network measures computed directly in th
     \label{fig:gephi}
 \end{figure}
 
-Unfortunately, social scientists are often not trained in computer science and mathematical methods, and a lot of them have been frustrated by VA tools and by how it was guiding their analysis in predefined ways.
-For example, lots of social network VA interfaces propose clustering features, allowing users to find interesting groups with the help of automatic algorithms, but social scientists often do not understand how the algorithms work and are not always satisfied with the results, as they can have knowledge from other sources not modeled inside the network.
+Unfortunately, social scientists are often not trained in computer science and mathematical methods, and most of them have been frustrated by VA tools and by how it was guiding their analysis in predefined ways.
+For example, several social network VA interfaces propose clustering methods, allowing users to find interesting groups with the help of automatic algorithms, but social scientists often do not understand how the algorithms work and are not always satisfied with the results, as they can have knowledge from other sources not modeled inside the network.
 They usually end up trying several algorithms until they stumble upon a satisfactory enough solution.
 Cleaning and importing the data is also complicated, as the annotation and network modeling process are not straightforward and social scientists often encounter errors and inconsistencies in the data once they visualize it, that they would like to correct.
 Historians thus always have to go back and forth between their analysis process inside the VA tool they are using, and their original sources and annotation/modeling process, to correct errors or modify annotations.
