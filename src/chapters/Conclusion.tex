@@ -89,7 +89,27 @@ Other types of quantitative methods can also be used by historians, such as text
 We list in this section how this work could be extended, and interesting research directions for social history VA applications.
 
 
-\noindent\textbf{Dynamic Layouts and Clustering.} As discussed in \autoref{sec:discussion},
+\noindent\textbf{Dynamic Layouts and Clustering.} As discussed in \autoref{sec:discussion}, temporality is one of the key dimension of historical networks modeleds as \modelplural.
+Several layouts have been proposed to show the dynamic aspect of dynamic graphs and bipartite dynamic graph, such as PAOHVIS \cite{valdiviaAnalyzingDynamicHypergraphs2021}, which is the layout PK-Clustering is based on.
+However, this type of layout do not allow to see the attributes of persons and documents, nor the geolocation of entities.
+Moreover, most proposed layouts do not scale beyond approximately one hundred nodes.
+One way to solve this scalability problem is to aggregate the network, for example using dynamic clustering.
+Several dynamic clustering algorithms have been developed for dynamic networks, but they often struggle to take into account complex dynamic of clusters, such as merging, splitting, or community drifting.
+Furthermore, no layout currently exist to visually display those dynamic communities specifically for dynamic hypergraphs.
+More work can still be done in this space, to visualize the dynamic aspect of \modelplural, and visualizing dynamic communities.
+\todo{talk about prototype}
+As with static clustering, the results produced by algorithms can be biased, and several interesting dynamic partitions coexist.
+A similar procedure of PK-Clustering but with dynamic clustering would mitigate those problems, by providing a way to construct meaningful clusters for social scientists using their prior-knowledge, algorithmic consensus, and exploration capabilities.
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -114,6 +134,7 @@ All these operations make their process tedious, and usually break the traceabil
 In the contrary, if all the processes they do is integrated in the same visual environment, it would help the flow of their analysis, increase the traceability of the results and actions, and allow them to take several explorations paths more easily.
 An interesting research direction would be to develop such systems, allowing social historians to collect, annotate, apply transform, analyze and visualize their data in the same environment, and with visual analytics capabilities.
 
+\todo{combining both projects}
 
 
 \section{Conclusion}
