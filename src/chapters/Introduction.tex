@@ -10,7 +10,7 @@ Social scientists such as historians and sociologists want to make sense of the 
 Social Network Analysis (SNA), also called  Historical Social Network Analysis (HSNA) when applied to historical data, is one of the main methods ---sometimes referred to as a paradigm---to achieve this goal, and grew in popularity in recent years as the concept of networks became a widespread abstraction in many empirical sciences.
 It consists in modeling the social relationships between agents---such as persons and organizations---as a network and studying its local and global structure to make sociological conclusions, based on real observations.
 Compared to other more classical sociological approaches, ``it is based on an assumption of the importance of relationships among interacting units.
-The social network perspective encompasses theories, models, and applications that are expressed in terms of relational concepts or processes.'' \cite{wassermanSocialNetworkAnalysis1994}.
+The social network perspective encompasses theories, models, and applications that are expressed in terms of relational concepts or processes.''\cite{wassermanSocialNetworkAnalysis1994}.
 Social historians rely on textual documents---such as marriage acts, birth certificate, and migration acts---and try to exhaustively extract all mentions of social relationships between persons that they model into a social network, where the nodes usually model persons, and links social relationships.
 Using mathematical computations and measures to characterize the network's structure, they are able to make sociological conclusions on relational sociological phenomena based on real observations.
 %Usually, agents are represented as nodes in the network, while the links model social relationships, such as friendships, business, or family links.
@@ -25,7 +25,7 @@ However, the process leading to the analyzable network from the historical docum
 Specifically, historians can model their networks in many ways, and choosing a model loosely can lead to simplifications and distortions in the social reality and the final analyses.
 Annotating the documents and cleaning the extracted information is also not trivial and can lead to errors and biases.
 Most VA tools currently focus on the analysis part only of the process and do not help social historians in their annotation, cleaning, and modeling steps.
-Moreover, automatic algorithms capabilities such as clustering are often available in SNA tools to help users make sense of the network structure, but interpreting the results from a sociological perspective is complicated especially without guidance, and social scientists have become frustrated by the use of such software \cite{lemercierBackSourcesPracticing2021}.
+Moreover, automatic algorithms capabilities such as clustering are often available in SNA tools to help users make sense of the network structure, but interpreting the results from a sociological perspective is complicated especially without guidance, and social scientists have become frustrated by the use of such software\cite{lemercierBackSourcesPracticing2021}.
 %The goal of this thesis is therefore to see how VA can be useful to social historians, in their entire process.
 %Particularly, we first characterize the HSNA process and from this,
 The goals of this thesis are therefore first to characterize the HSNA process of social historians, and from characterizing recurring pitfalls, see how VA can help them in this complex process.
@@ -56,22 +56,22 @@ Particularly, we study how VA can help them follow complex analyses to answer th
 \section{Social History and Historical Social Network Analysis}
 
 HSNA is now a widely used method among historians to study relational phenomena like kinship, business, and institutions of the past, using network concepts and methods.
-It appeared as an effective way to study their sources after a long process of methodological shifts and discussions \cite{cristofoliAuxSourcesGrands2008}.
+It appeared as an effective way to study their sources after a long process of methodological shifts and discussions\cite{cristofoliAuxSourcesGrands2008}.
 %It is though a relatively new approach in History, where methodology changed through the years.
 %History is the science of retrieving and characterizing facts about the past, in all their complexity.
-We can trace it back to the birth of Social History with the ``Annales School'' in the 1930s, where Historians gained interest in socio-economic questions, and started to rely heavily on the exhaustive extraction and analysis of historical documents coming from archives \cite{blochApologiePourHistoire1949}.
+We can trace it back to the birth of Social History with the ``Annales School'' in the 1930s, where Historians gained interest in socio-economic questions, and started to rely heavily on the exhaustive extraction and analysis of historical documents coming from archives\cite{blochApologiePourHistoire1949}.
 Beforehand, History was mainly political and event-centered, as the majority of works consisted in narrating and characterizing specific events---such as wars and diplomatic alliances---while eliciting their causes and consequences, and describing the lives of historic figures, such as sovereigns.
-Social History shifted the focus by trying to link together sociological, economical, and political issues and by placing individuals at the center of these questions \cite{prost2014}.
-Later on in the 1960s, with the development of Computer Science, historians started to use quantitative methods to analyze data extracted from historical documents and make conclusions grounded in statistical results, in various subjects like demographics \cite{henryRegistresParoissiauxHistoire1956} or economics \cite{goldinCliometricsNobel1995}.
+Social History shifted the focus by trying to link together sociological, economical, and political issues and by placing individuals at the center of these questions\cite{prost2014}.
+Later on in the 1960s, with the development of Computer Science, historians started to use quantitative methods to analyze data extracted from historical documents and make conclusions grounded in statistical results, in various subjects like demographics\cite{henryRegistresParoissiauxHistoire1956} or economics\cite{goldinCliometricsNobel1995}.
 Around the same time, the use and study of networks started to become popular in various disciplines to study real-world relational phenomena based on mathematical computations and measures.
 A network is an abstraction based on graph theory concepts used to model phenomena based on relationships (called links) between entities (called nodes).
 
 %More recently, with the development of network science and computer science, sociologists started to study social phenomena and relationships from a network perspective.
 %A network is an abstraction based on graph theory concepts used to model phenomena based on relationships between entities, made of nodes and links.
-Sociologists started to use this concept to model social ties between agents of interest---very often persons---and study social phenomena through the description of the network structure, using the SNA methodology \cite{wassermanSocialNetworkAnalysis1994}.
-It allowed them to leverage quantitative measures from the network to make sociological conclusions based on real observations, instead of relying on traditional social categories such as age, job, and gender \cite{freemanDevelopmentSocialNetwork2004}.
+Sociologists started to use this concept to model social ties between agents of interest---very often persons---and study social phenomena through the description of the network structure, using the SNA methodology\cite{wassermanSocialNetworkAnalysis1994}.
+It allowed them to leverage quantitative measures from the network to make sociological conclusions based on real observations, instead of relying on traditional social categories such as age, job, and gender\cite{freemanDevelopmentSocialNetwork2004}.
 It has been applied to study various subjects like families, political institutions, schools, friendships, work environments, and sports clubs, with promising results.
-This method grew in popularity in recent years and has started to be used and formalized by historians in the 1980s, under the term Historical Network Research (HNR) or Historical Social Network Analysis (HSNA) \cite{wetherellHistoricalSocialNetwork1998}.
+This method grew in popularity in recent years and has started to be used and formalized by historians in the 1980s, under the term Historical Network Research (HNR) or Historical Social Network Analysis (HSNA)\cite{wetherellHistoricalSocialNetwork1998}.
 It allowed historians to study relational phenomena of the past---such as families and institutions ---through real social relationships directly extracted from historical documents and modeled into a network.
 These documents can be anything mentioning social relationships between actors of interest, such as marriage acts, birth certificates, census, migration acts, and work contracts.
 After selecting a corpus of documents (often extracted from archives), they manually annotate each document to extract the mentions of persons along their relationships to model those with a network.
@@ -79,8 +79,8 @@ This is a long and tedious process that can result in small to large networks th
 
 Typically, social historians using quantitative and network methods work in a descriptive framework and leverage values and measures to make conclusions.
 %Several subjects are also not well suited for such methods, like microhistoria, narratives, ethnography, or biography.
-Lemercier and Zalc say ``Although history is not an exact science, counting, comparing, classifying, and modeling are nevertheless useful methods for measuring our degree of doubt or certainty, making our hypotheses explicit, and evaluating the influence of a phenomenon.'' \cite{lemercierQuantitativeMethodsHumanities2019}
-Social historians, therefore, have hypotheses about their subject of study, that they can back up or refute with the help of quantitative and network results, similarly to the competing hypotheses workflow of Intelligence Analysis \cite{dhamiAnalysisCompetingHypotheses2019}.
+Lemercier and Zalc say ``Although history is not an exact science, counting, comparing, classifying, and modeling are nevertheless useful methods for measuring our degree of doubt or certainty, making our hypotheses explicit, and evaluating the influence of a phenomenon.''\cite{lemercierQuantitativeMethodsHumanities2019}
+Social historians, therefore, have hypotheses about their subject of study, that they can back up or refute with the help of quantitative and network results, similarly to the competing hypotheses workflow of Intelligence Analysis\cite{dhamiAnalysisCompetingHypotheses2019}.
 By pointing to evidence supporting or refuting hypotheses, they can give insight into the level of the plausibility of different claims.
 To verify their findings, historians rely on Social Network Visualization (SNV) to represent visually their data.
 It lets them find patterns to confirm or deny hypotheses and communicate their finding.
@@ -114,7 +114,7 @@ It lets them find patterns to confirm or deny hypotheses and communicate their f
 
 \section{Visualization and Visual Analytics}
 
-Visualization is the process of displaying data visually to leverage the human visual system and enhance cognition to gain insight into the data \cite{cardReadingsInformationVisualization1999}.
+Visualization is the process of displaying data visually to leverage the human visual system and enhance cognition to gain insight into the data\cite{cardReadingsInformationVisualization1999}.
 Using visual abstractions (such as size, color, and position) to display real data allows us to rapidly detect potential hidden structures and patterns.
 As data keeps growing in size with time, visualization is a powerful tool to gain insight into the underlying structure of various datasets.
 Visualization is mainly used for confirmatory and communication purposes, particularly in social sciences.
@@ -124,10 +124,10 @@ Social scientists following a network analysis typically use node-link diagrams,
 It let them confirm or deny some of their hypotheses by observing the network structure and communicating their results.
 
 However, visualization can also be used for exploration, which can help to understand the underlying structure of data and generate new hypotheses.
-Tukey defined this process as Exploratory Data Analysis (EDA) in the 1960s \cite{tukeyExploratoryDataAnalysis1977}, as a procedure to gain insight into the structure of the data by identifying outliers, trends, and patterns with the usage of visualization and statistical measures.
+Tukey defined this process as Exploratory Data Analysis (EDA) in the 1960s\cite{tukeyExploratoryDataAnalysis1977}, as a procedure to gain insight into the structure of the data by identifying outliers, trends, and patterns with the usage of visualization and statistical measures.
 Interaction in visualization helps this process by letting users navigate more easily on multivariate datasets with the help of direct manipulation of the data.
 The detection of patterns and trends can also be facilitated with automatic methods coming from data mining and machine learning fields, directly implemented in the visual analysis loop.
-This coupling of visual exploration and automatic data mining algorithms has been coined as Visual Analytics (VA) and is defined as the process of using interactive visualizations, transformations, and models of the data in an analysis workflow to create knowledge \cite{keimVisualAnalyticsDefinition2008}.
+This coupling of visual exploration and automatic data mining algorithms has been coined as Visual Analytics (VA) and is defined as the process of using interactive visualizations, transformations, and models of the data in an analysis workflow to create knowledge\cite{keimVisualAnalyticsDefinition2008}.
 %Such interfaces aim at producing knowledge on the data, based on transformation of the data and interactions by the user.
 
 EDA and VA are currently not widely used in HSNA, as social historians always have prior hypotheses before getting their data in shape.
@@ -141,14 +141,14 @@ Currently, social historians spend a lot of time in their data acquisition, proc
 They typically visualize and analyze their network at the very end of this process only.
 This can be explained in part because most VA tools focus only on this final analysis and not on the preprocessing steps.
 Social historians collect, annotate and clean their data using custom scripts and ad-hoc methods before doing any analysis.
-However, research showed that all the steps preceding the analysis can introduce errors and misconceptions, especially since social scientists are often not trained in Computer Science and Data Science \cite{lemercier12FormalNetwork2015a, lkadi2022}.
-Social scientists usually visualize their network using SNA tools like Gephi \cite{Gephi}, Pajek \cite{pajek}, and NodeXl \cite{noauthor_nodexl_nodate} which encompass basic interactions, node-link visualization, SNA measure computations, and clustering algorithms.
+However, research showed that all the steps preceding the analysis can introduce errors and misconceptions, especially since social scientists are often not trained in Computer Science and Data Science\cite{lemercier12FormalNetwork2015, alkadi2022}.
+Social scientists usually visualize their network using SNA tools like Gephi\cite{Gephi}, Pajek\cite{pajek}, and NodeXl\cite{noauthor_nodexl_nodate} which encompass basic interactions, node-link visualization, SNA measure computations, and clustering algorithms.
 Once they visualize their data, they typically notice errors and inconsistencies in the data, such as duplication of the same entities, merging of different entities, or geolocation errors.
 They, therefore, have to go back and forth between the visualization software and the cleaning process which can be tedious, especially since it can be complicated to trace back the entities of the data model back to the original documents for correction.
 VA tools which encompass the whole process of social historians should therefore be beneficial for the flow of their work and could help detect and correct errors or analysis plans way before the final analysis.
 
 Moreover, social scientists have been frustrated by current data mining tools as the results they get from tasks such as clustering and classification come from black-box algorithms and may mismatch their vision of the data.
-They thus often feel they do not have control over their analysis \cite{lepetitHistoireQuantitativeDeux1989}.
+They thus often feel they do not have control over their analysis\cite{lepetitHistoireQuantitativeDeux1989}.
 One of the reasons is that automatic results can be hard to interpret, especially in disciplines such as History and Sociology, where users often have little knowledge of computer science.
 
 
@@ -156,7 +156,7 @@ One of the reasons is that automatic results can be hard to interpret, especiall
 \section{Contributions and Research Statement}\label{sec:contribution-and-research-statement}
 
 
-As seen in \autoref{sec:intro-HSNVA}, most VA tools for HSNA are focused on the final analysis of a polished network.
+As seen in \autoref{sec:intro-HSNV}, most VA tools for HSNA are focused on the final analysis of a polished network.
 Instead of only providing analysis capabilities, we think VA could help social historians in their entire workflow, from data acquisition to analysis, instead of focusing only on the final steps.
 Concerning the analysis step, VA tools should satisfy the constraints of social historians, i.e.\ being able to answer complex questions with effective visual representations, letting the user in control of the analysis loop and algorithmic results, and satisfying traceability to the original sources.
 %without losing the traceability to their original historical sources and the temporality of the phenomena they study.
