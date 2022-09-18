@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.6.11)  13 SEP 2022 09:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.6.11)  18 SEP 2022 12:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1138,27 +1138,13 @@ LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/upsy.fd
 File: upsy.fd 2001/06/04 font definitions for U/psy.
-))
-
-./commands.tex:111: LaTeX Error: Command \eg already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.111 \newcommand{\eg}{e.g.\xspace}
-                                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-)
+)))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
- (/home/alexis/Documents/Thesis/out/main.aux
+
+(/home/alexis/Documents/Thesis/out/main.aux
 (/home/alexis/Documents/Thesis/out/chapters/Introduction.aux)
 (/home/alexis/Documents/Thesis/out/chapters/Context2.aux)
 (/home/alexis/Documents/Thesis/out/chapters/NetworkModels.aux)
@@ -1167,30 +1153,30 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
 (/home/alexis/Documents/Thesis/out/chapters/Conclusion.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Trying to load font information for T1+opensans-TLF on inpu
-t line 15.
+t line 16.
 
 (/usr/share/texlive/texmf-dist/tex/latex/opensans/T1opensans-TLF.fd
 File: T1opensans-TLF.fd 2019/06/24 Font definitions for T1/opensans-TLF.
 )
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 15.
+(Font)              scaled to size 11.39996pt on input line 16.
 \AtBeginShipoutBox=\box128
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -1250,7 +1236,7 @@ ABD: EveryShipout initializing macros
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 15.
+Package hyperref Info: Link coloring ON on input line 16.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -1262,9 +1248,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count356
 )
-LaTeX Info: Redefining \ref on input line 15.
-LaTeX Info: Redefining \pageref on input line 15.
-LaTeX Info: Redefining \nameref on input line 15.
+LaTeX Info: Redefining \ref on input line 16.
+LaTeX Info: Redefining \pageref on input line 16.
+LaTeX Info: Redefining \nameref on input line 16.
 
 (/home/alexis/Documents/Thesis/out/main.out)
 (/home/alexis/Documents/Thesis/out/main.out)
@@ -1274,18 +1260,18 @@ LaTeX Info: Redefining \nameref on input line 15.
 \symgns@font=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
 (Font)                  TS1/opensans-TLF/m/n --> TS1/opensans-TLF/b/n on input 
-line 15.
-Package gensymb Info: Math companion symbols declared on input line 15.
-LaTeX Info: Redefining \degree on input line 15.
-LaTeX Info: Redefining \celsius on input line 15.
+line 16.
+Package gensymb Info: Math companion symbols declared on input line 16.
+LaTeX Info: Redefining \degree on input line 16.
+LaTeX Info: Redefining \celsius on input line 16.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 15.
-LaTeX Info: Redefining \ohm on input line 15.
-Package gensymb Info: Using \textohm for \ohm on input line 15.
-Package gensymb Info: Using \textmu for \micro on input line 15.
-LaTeX Info: Redefining \degres on input line 15.
-LaTeX Info: Redefining \dots on input line 15.
-LaTeX Info: Redefining \up on input line 15.
+erthousand on input line 16.
+LaTeX Info: Redefining \ohm on input line 16.
+Package gensymb Info: Using \textohm for \ohm on input line 16.
+Package gensymb Info: Using \textmu for \micro on input line 16.
+LaTeX Info: Redefining \degres on input line 16.
+LaTeX Info: Redefining \dots on input line 16.
+LaTeX Info: Redefining \up on input line 16.
 \c@mv@tabular=\count357
 \c@mv@boldtabular=\count358
 Package caption Info: Begin \AtBeginDocument code.
@@ -1323,65 +1309,65 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<static/logos/Frame-ups.pdf, id=71, 303.38344pt x 849.92531pt>
+<static/logos/Frame-ups.pdf, id=27, 303.38344pt x 849.92531pt>
 File: static/logos/Frame-ups.pdf Graphic file (type pdf)
 <use static/logos/Frame-ups.pdf>
-Package pdftex.def Info: static/logos/Frame-ups.pdf  used on input line 21.
+Package pdftex.def Info: static/logos/Frame-ups.pdf  used on input line 22.
 (pdftex.def)             Requested size: 303.38269pt x 849.92323pt.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 16.41594pt on input line 31.
+(Font)              scaled to size 16.41594pt on input line 32.
 
 
 LaTeX Font Warning: Font shape `T1/opensans-TLF/m/sc' undefined
-(Font)              using `T1/opensans-TLF/m/n' instead on input line 31.
+(Font)              using `T1/opensans-TLF/m/n' instead on input line 32.
 
-<static/logos/logo2.png, id=72, 194.97844pt x 87.32625pt>
+<static/logos/logo2.png, id=28, 194.97844pt x 87.32625pt>
 File: static/logos/logo2.png Graphic file (type png)
 <use static/logos/logo2.png>
-Package pdftex.def Info: static/logos/logo2.png  used on input line 40.
+Package pdftex.def Info: static/logos/logo2.png  used on input line 41.
 (pdftex.def)             Requested size: 194.97795pt x 87.32603pt.
-LaTeX Font Info:    Trying to load font information for T1+cmss on input line 4
-9.
+LaTeX Font Info:    Trying to load font information for T1+cmss on input line 5
+0.
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 
 LaTeX Font Warning: Font shape `T1/cmss/m/n' in size <22> not available
-(Font)              size <20.74> substituted on input line 49.
+(Font)              size <20.74> substituted on input line 50.
 
-LaTeX Font Info:    Trying to load font information for T1+fvs on input line 58
+LaTeX Font Info:    Trying to load font information for T1+fvs on input line 59
 .
 (/usr/share/texlive/texmf-dist/tex/latex/bera/t1fvs.fd
 File: t1fvs.fd 2004/09/07 scalable font definitions for T1/fvs.
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 67.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 68.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 67.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 68.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for TS1+opensans-TLF on inp
-ut line 67.
+ut line 68.
 
 (/usr/share/texlive/texmf-dist/tex/latex/opensans/TS1opensans-TLF.fd
 File: TS1opensans-TLF.fd 2019/06/24 Font definitions for TS1/opensans-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 67.
+(Font)              scaled to size 10.40245pt on input line 68.
 LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 67.
+(Font)              scaled to size 7.59998pt on input line 68.
 LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 67.
+(Font)              scaled to size 5.69998pt on input line 68.
 LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
-(Font)              scaled to size 4.74998pt on input line 93.
+(Font)              scaled to size 4.74998pt on input line 94.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 110.
+(Font)              scaled to size 7.59998pt on input line 111.
  [1
 
 
@@ -1421,23 +1407,23 @@ df> <./static/logos/logo2.png>]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for T1+rm on input line 115
+LaTeX Font Info:    Trying to load font information for T1+rm on input line 116
 .
-LaTeX Font Info:    No file T1rm.fd. on input line 115.
+LaTeX Font Info:    No file T1rm.fd. on input line 116.
 
 
 LaTeX Font Warning: Font shape `T1/rm/m/n' undefined
-(Font)              using `T1/cmr/m/n' instead on input line 115.
+(Font)              using `T1/cmr/m/n' instead on input line 116.
 
-<static/logos/EOBE.png, id=91, 1734.48pt x 397.485pt>
+<static/logos/EOBE.png, id=47, 1734.48pt x 397.485pt>
 File: static/logos/EOBE.png Graphic file (type png)
 <use static/logos/EOBE.png>
-Package pdftex.def Info: static/logos/EOBE.png  used on input line 127.
+Package pdftex.def Info: static/logos/EOBE.png  used on input line 128.
 (pdftex.def)             Requested size: 304.17374pt x 69.70915pt.
-Package mdframed Info: mdframed works in twoside mode on input line 134.
-Package mdframed Info: mdframed works in twoside mode on input line 149.
+Package mdframed Info: mdframed works in twoside mode on input line 135.
+Package mdframed Info: mdframed works in twoside mode on input line 150.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 178.
+(Font)              scaled to size 10.40245pt on input line 179.
 [2
 
  <./static/logos/EOBE.png>]
@@ -1478,8 +1464,8 @@ LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
 
 
 
-] [4]
-Overfull \hbox (0.9803pt too wide) detected at line 96
+]
+Overfull \hbox (0.9803pt too wide) detected at line 80
  []\T1/opensans-TLF/m/n/10.95 101
  []
 
@@ -1487,7 +1473,7 @@ Overfull \hbox (0.9803pt too wide) detected at line 96
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- [5]
+ [4]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -1520,258 +1506,130 @@ Overfull \hbox (0.9803pt too wide) detected at line 96
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\openout2 = `chapters/Context2.aux'.
+\openout2 = `chapters/Introduction.aux'.
 
- (./chapters/Context2.tex [12
+ (./chapters/Introduction.tex
+Chapter 1.
 
+LaTeX Warning: Citation `freemanDevelopmentSocialNetwork2004' on page 5 undefin
+ed on input line 26.
+
+
+LaTeX Warning: Citation `tabassumSocialNetworkAnalysis2018' on page 5 undefined
+ on input line 26.
+
+LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
+(Font)              scaled to size 9.49997pt on input line 26.
+LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
+(Font)              scaled to size 9.49997pt on input line 26.
+LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
+(Font)              scaled to size 6.64998pt on input line 26.
+LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
+(Font)              scaled to size 6.64998pt on input line 26.
+
+LaTeX Warning: Citation `langloisIntroductionAuxÉtudes2014' on page 5 undefine
+d on input line 27.
+
+
+LaTeX Warning: Citation `hambergerKinshipNetworkAnalysis2011' on page 5 undefin
+ed on input line 30.
+
+
+LaTeX Warning: Citation `rubio-mondejarWomenEntrepreneursFamily2022' on page 5 
+undefined on input line 30.
+
+
+LaTeX Warning: Citation `larsonThomasTartaronMaritime2014' on page 5 undefined 
+on input line 30.
+
+
+LaTeX Warning: Citation `merckléPeutonModéliserPersécution2018' on page 5 un
+defined on input line 30.
+
+
+Overfull \hbox (20.99452pt too wide) in paragraph at lines 24--33
+[]\T1/cmss/m/n/10.95 Historical So-cial Net-work Anal-y-sis is a method---somet
+imes re-ferred as a paradigm---
+ []
+
+
+LaTeX Warning: Citation `dufournaudRechercheEmpiriqueHistoire2015' on page 5 un
+defined on input line 34.
+
+
+LaTeX Warning: Citation `freemanVisualizingSocialNetworks2000' on page 5 undefi
+ned on input line 39.
+
+[5
 
 
 
 
 ]
-Chapter 2.
+
+LaTeX Warning: Citation `blochApologiePourHistoire1949' on page 6 undefined on 
+input line 92.
+
+
+LaTeX Warning: Citation `tilly1984retrieving' on page 6 undefined on input line
+ 94.
+
+
+LaTeX Warning: Citation `goldinCliometricsNobel1995' on page 6 undefined on inp
+ut line 95.
+
+
+LaTeX Warning: Citation `freemanDevelopmentSocialNetwork2004' on page 6 undefin
+ed on input line 102.
+
+
+Underfull \vbox (badness 2189) has occurred while \output is active []
+
+ [6]
+
+LaTeX Warning: Citation `dhamiAnalysisCompetingHypotheses2019' on page 7 undefi
+ned on input line 116.
+
+
+LaTeX Warning: Citation `cardReadingsInformationVisualization1999' on page 7 un
+defined on input line 154.
+
+
+LaTeX Warning: Citation `tukeyExploratoryDataAnalysis1977' on page 7 undefined 
+on input line 166.
+
+
+Underfull \vbox (badness 1024) has occurred while \output is active []
+
+ [7]
+
+LaTeX Warning: Citation `pajek' on page 8 undefined on input line 188.
+
+
+LaTeX Warning: Citation `noauthor_nodexl_nodate' on page 8 undefined on input l
+ine 188.
+
+
+LaTeX Warning: Citation `pajek' on page 8 undefined on input line 193.
+
+
+Underfull \vbox (badness 6032) has occurred while \output is active []
+
+ [8]
 LaTeX Font Info:    Font shape `T1/opensans-TLF/b/n' will be
-(Font)              scaled to size 10.40245pt on input line 16.
+(Font)              scaled to size 10.40245pt on input line 221.
 
-LaTeX Warning: Reference `sec:social-network-analysis' on page 13 undefined on 
-input line 16.
+[9]) [10] (/home/alexis/Documents/Thesis/out/main.bbl [102
 
 
-LaTeX Warning: Citation `cardReadingsInformationVisualization1999' on page 13 u
-ndefined on input line 21.
 
-[13]
 
-LaTeX Warning: Citation `cardReadingsInformationVisualization1999' on page 14 u
-ndefined on input line 29.
 
-<static/figures/RelatedWork/Anscombe.pdf, id=301, 948.54375pt x 632.3625pt>
-File: static/figures/RelatedWork/Anscombe.pdf Graphic file (type pdf)
-<use static/figures/RelatedWork/Anscombe.pdf>
-Package pdftex.def Info: static/figures/RelatedWork/Anscombe.pdf  used on input
- line 43.
-(pdftex.def)             Requested size: 295.90979pt x 197.27507pt.
 
-LaTeX Warning: Citation `wilkinsonGrammarGraphics1993' on page 14 undefined on 
-input line 50.
 
-[14]
 
-LaTeX Warning: Citation `tukeyExploratoryDataAnalysis1977' on page 15 undefined
- on input line 65.
-
-
-LaTeX Warning: Citation `shneidermanEyesHaveIt1996' on page 15 undefined on inp
-ut line 66.
-
-<static/figures/RelatedWork/Keim-VisualAnalytics.png, id=319, 2426.06375pt x 12
-92.83pt>
-File: static/figures/RelatedWork/Keim-VisualAnalytics.png Graphic file (type pn
-g)
-<use static/figures/RelatedWork/Keim-VisualAnalytics.png>
-Package pdftex.def Info: static/figures/RelatedWork/Keim-VisualAnalytics.png  u
-sed on input line 80.
-(pdftex.def)             Requested size: 369.88583pt x 197.09218pt.
-[15 <./static/figures/RelatedWork/Anscombe.pdf>]
-
-LaTeX Warning: Citation `langloisIntroductionAuxÉtudes2014' on page 16 undefin
-ed on input line 113.
-
-
-Underfull \vbox (badness 2469) has occurred while \output is active []
-
- [16 <./static/figures/RelatedWork/Keim-VisualAnalytics.png>]
-
-LaTeX Warning: Citation `noirielNaissanceMétierHistorien1990' on page 17 undef
-ined on input line 116.
-
-
-LaTeX Warning: Citation `carbonellHistoriographie1981' on page 17 undefined on 
-input line 123.
-
-
-LaTeX Warning: Citation `febvreVERSAUTREHISTOIRE1949' on page 17 undefined on i
-nput line 124.
-
-
-LaTeX Warning: Citation `bourdieuRapportsEntreSociologie1995' on page 17 undefi
-ned on input line 129.
-
-
-LaTeX Warning: Citation `burkeHistorySocialTheory2005' on page 17 undefined on 
-input line 132.
-
-LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 136.
-LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 136.
-LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
-(Font)              scaled to size 6.64998pt on input line 136.
-LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 6.64998pt on input line 136.
-
-LaTeX Warning: Citation `labrousse1990crise' on page 17 undefined on input line
- 136.
-
-
-Underfull \vbox (badness 4819) has occurred while \output is active []
-
- [17]
-
-LaTeX Warning: Citation `terras2011quantifying' on page 18 undefined on input l
-ine 176.
-
-
-LaTeX Warning: Citation `burdickDigitalHumanities2016' on page 18 undefined on 
-input line 177.
-
-
-LaTeX Warning: Citation `InterchangePromiseDigital2008' on page 18 undefined on
- input line 178.
-
-[18]
-<static/figures/RelatedWork/RepublicOfLetter_BenjFranklin.png, id=367, 1760.577
-5pt x 1367.1075pt>
-File: static/figures/RelatedWork/RepublicOfLetter_BenjFranklin.png Graphic file
- (type png)
-<use static/figures/RelatedWork/RepublicOfLetter_BenjFranklin.png>
-Package pdftex.def Info: static/figures/RelatedWork/RepublicOfLetter_BenjFrankl
-in.png  used on input line 184.
-(pdftex.def)             Requested size: 369.88583pt x 287.20535pt.
-
-
-LaTeX Warning: Citation `edelsteinHistoricalResearchDigital2017' on page 19 und
-efined on input line 189.
-
-
-LaTeX Warning: Citation `ahnertNetworkTurnChanging2020' on page 19 undefined on
- input line 193.
-
-
-LaTeX Warning: Citation `cordell2017viral' on page 19 undefined on input line 1
-94.
-
-
-LaTeX Warning: Citation `ardanuyLivingMachinesStudy2020' on page 19 undefined o
-n input line 194.
-
-
-LaTeX Warning: Reference `subsec:hsna' on page 19 undefined on input line 195.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [19]
-[20 <./static/figures/RelatedWork/RepublicOfLetter_BenjFranklin.png>] [21]
-<static/figures/RelatedWork/Moreno-1.png, id=395, 598.235pt x 758.835pt>
-File: static/figures/RelatedWork/Moreno-1.png Graphic file (type png)
-<use static/figures/RelatedWork/Moreno-1.png>
-Package pdftex.def Info: static/figures/RelatedWork/Moreno-1.png  used on input
- line 235.
-(pdftex.def)             Requested size: 147.95207pt x 187.6704pt.
-<static/figures/RelatedWork/Moreno-1_GrandJean.png, id=396, 1003.75pt x 1003.75
-pt>
-File: static/figures/RelatedWork/Moreno-1_GrandJean.png Graphic file (type png)
-
-<use static/figures/RelatedWork/Moreno-1_GrandJean.png>
-Package pdftex.def Info: static/figures/RelatedWork/Moreno-1_GrandJean.png  use
-d on input line 236.
-(pdftex.def)             Requested size: 203.43832pt x 203.42674pt.
-
-
-LaTeX Warning: Citation `freemanDevelopmentSocialNetwork2004' on page 22 undefi
-ned on input line 251.
-
-
-LaTeX Warning: Citation `lazegaReseaux' on page 22 undefined on input line 255.
-
-
-[22 <./static/figures/RelatedWork/Moreno-1.png> <./static/figures/RelatedWork/M
-oreno-1_GrandJean.png>]
-
-LaTeX Warning: Citation `Simmel2013' on page 23 undefined on input line 285.
-
-[23]
-<static/figures/RelatedWork/padgett-Medicis.png, id=429, 1175.39125pt x 1330.97
-25pt>
-File: static/figures/RelatedWork/padgett-Medicis.png Graphic file (type png)
-<use static/figures/RelatedWork/padgett-Medicis.png>
-Package pdftex.def Info: static/figures/RelatedWork/padgett-Medicis.png  used o
-n input line 314.
-(pdftex.def)             Requested size: 295.90979pt x 335.07784pt.
- [24] [25 <./static/figures/RelatedWork/padgett-Medicis.png>]
-
-LaTeX Warning: Citation `hambergerKinshipNetworkAnalysis2011' on page 26 undefi
-ned on input line 344.
-
-
-LaTeX Warning: Citation `mrvarAnalysisVisualizationLarge2016' on page 26 undefi
-ned on input line 365.
-
-
-LaTeX Warning: Citation `abdelaalComparativeEvaluationBipartite2022' on page 26
- undefined on input line 372.
-
-[26]
-<static/figures/RelatedWork/Kosak-nodelinkdiagramMetrics.png, id=476, 2052.6687
-5pt x 1202.4925pt>
-File: static/figures/RelatedWork/Kosak-nodelinkdiagramMetrics.png Graphic file 
-(type png)
-<use static/figures/RelatedWork/Kosak-nodelinkdiagramMetrics.png>
-Package pdftex.def Info: static/figures/RelatedWork/Kosak-nodelinkdiagramMetric
-s.png  used on input line 376.
-(pdftex.def)             Requested size: 369.88583pt x 216.67784pt.
-
-
-LaTeX Warning: Citation `serranomolineroUnderstandingUseVistorian2017' on page 
-27 undefined on input line 383.
-
-
-Underfull \vbox (badness 4582) has occurred while \output is active []
-
- [27 <./static/figures/RelatedWork/Kosak-nodelinkdiagramMetrics.png>]
-<static/figures/RelatedWork/NodeTrix.png, id=495, 769.87625pt x 323.2075pt>
-File: static/figures/RelatedWork/NodeTrix.png Graphic file (type png)
-<use static/figures/RelatedWork/NodeTrix.png>
-Package pdftex.def Info: static/figures/RelatedWork/NodeTrix.png  used on input
- line 389.
-(pdftex.def)             Requested size: 295.90979pt x 124.2306pt.
-
-
-LaTeX Warning: Citation `mrvarAnalysisVisualizationLarge2016' on page 28 undefi
-ned on input line 397.
-
-
-LaTeX Warning: Citation `NodeXL' on page 28 undefined on input line 397.
-
-<static/figures/RelatedWork/Gephi_0.9.1_Network_Analysis_and_Visualization_Soft
-ware.png, id=500, 1402.23875pt x 874.26625pt>
-File: static/figures/RelatedWork/Gephi_0.9.1_Network_Analysis_and_Visualization
-_Software.png Graphic file (type png)
-<use static/figures/RelatedWork/Gephi_0.9.1_Network_Analysis_and_Visualization_
-Software.png>
-Package pdftex.def Info: static/figures/RelatedWork/Gephi_0.9.1_Network_Analysi
-s_and_Visualization_Software.png  used on input line 403.
-(pdftex.def)             Requested size: 295.90979pt x 184.49512pt.
-
-LaTeX Warning: Citation `pisterIntegratingPriorKnowledge2021' on page 28 undefi
-ned on input line 414.
-
-
-LaTeX Warning: Citation `staskoJigsawSupportingInvestigative2008' on page 28 un
-defined on input line 421.
-
-[28 <./static/figures/RelatedWork/NodeTrix.png>]) [29 <./static/figures/Related
-Work/Gephi_0.9.1_Network_Analysis_and_Visualization_Software.png>]
-(/home/alexis/Documents/Thesis/out/main.bbl [102
-
-
-
-
-
-
-
-] [103] [104] [105]
+] [103] [104]
+[105]
 Underfull \hbox (badness 1067) in paragraph at lines 283--288
 []\T1/cmss/m/n/10.95 Gribaudi Mau-r-izio.  \T1/cmss/m/it/10.95 Es-paces, Tem-po
 -ral-it�s, Strat-i-fi-ca-tions :. Ex-er-ci-ces
@@ -1790,8 +1648,8 @@ d-uarda
  []
 
 ) [108]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 199.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 199.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 200.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 200.
  (/home/alexis/Documents/Thesis/out/main.aux
 (/home/alexis/Documents/Thesis/out/chapters/Introduction.aux)
 (/home/alexis/Documents/Thesis/out/chapters/Context2.aux)
@@ -1799,8 +1657,8 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 199.
 (/home/alexis/Documents/Thesis/out/chapters/ComBiNet.aux)
 (/home/alexis/Documents/Thesis/out/chapters/PK-Clustering.aux)
 (/home/alexis/Documents/Thesis/out/chapters/Conclusion.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 199.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 199.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 200.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 200.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
 
@@ -1816,11 +1674,11 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 26703 strings out of 481239
- 489903 string characters out of 5920377
- 1071009 words of memory out of 5000000
- 41098 multiletter control sequences out of 15000+600000
- 600073 words of font info for 102 fonts, out of 8000000 for 9000
+ 26557 strings out of 481239
+ 485024 string characters out of 5920377
+ 1068676 words of memory out of 5000000
+ 41003 multiletter control sequences out of 15000+600000
+ 599678 words of font info for 101 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,9n,117p,1046b,814s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{section.6.4} has been referenced but does not exi
@@ -2033,44 +1891,24 @@ pdfTeX warning (dest): name{section.3.1} has been referenced but does not exist
 pdfTeX warning (dest): name{chapter.3} has been referenced but does not exist, 
 replaced by a fixed one
 
-pdfTeX warning (dest): name{section.1.4} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.3} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.1} has been referenced but does not exist, 
-replaced by a fixed one
-
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/
-texmf-dist/fonts/enc/dvips/opensans/a_jg4h6q.enc}{/usr/share/texlive/texmf-dist
-/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/ascende
-r/opensans/OpenSans-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/ascende
+texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texlive/texmf-dist/fonts/enc
+/dvips/opensans/a_jg4h6q.enc}</usr/share/texlive/texmf-dist/fonts/type1/ascende
 r/opensans/OpenSans-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/bera/fvsb8a.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/bera/fvsr8a.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1
-/public/cm-super/sfsi1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfs
-i1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss0800.pfb></usr/shar
-e/texmf/fonts/type1/public/cm-super/sfss1095.pfb></usr/share/texmf/fonts/type1/
-public/cm-super/sfss2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx
-1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share
-/texmf/fonts/type1/public/cm-super/sfsx1728.pfb>
-Output written on /home/alexis/Documents/Thesis/out/main.pdf (30 pages, 2089273
- bytes).
+ic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/bera/fvsb8a
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/bera/fvsr8a.pfb></usr/sh
+are/texmf/fonts/type1/public/cm-super/sfsi1095.pfb></usr/share/texmf/fonts/type
+1/public/cm-super/sfsi1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sf
+ss0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1095.pfb></usr/sha
+re/texmf/fonts/type1/public/cm-super/sfss2488.pfb></usr/share/texmf/fonts/type1
+/public/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfs
+x1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1728.pfb>
+Output written on /home/alexis/Documents/Thesis/out/main.pdf (17 pages, 254217 
+bytes).
 PDF statistics:
- 681 PDF objects out of 1000 (max. 8388607)
- 596 compressed objects within 6 object streams
- 207 named destinations out of 1000 (max. 500000)
- 201 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 463 PDF objects out of 1000 (max. 8388607)
+ 419 compressed objects within 5 object streams
+ 169 named destinations out of 1000 (max. 500000)
+ 68 words of extra memory for PDF output out of 10000 (max. 10000000)
 
