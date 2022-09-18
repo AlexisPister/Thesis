@@ -1,14 +1,21 @@
 \chapter{HSNA Process and Network Modeling}\label{ch:hsna-process-and-network-modeling}
 
-We describe in this chapter the HSNA workflow followed by social historians, to shed light on their process and potential needs for VA tools.
+
+
+
+
+We describe in this chapter the HSNA workflow followed by social historians, to shed light on their process and summarize recurring pitfalls to identify how VA could help them in this process.
 Specifically, we discuss in depth the network modeling step, as the choice of the network model influence the overall process, especially the possibilities of the analysis.
 %We describe the different network models used in HSNA and discuss their traceabikity, simplicity and relationship to reality.
 Most HSNA practitioners report on their findings concerning the network they constructed from their sources, but few highlight their process which led to these conclusions from the raw historical documents.
 Similarly, VA tools always focus on the analysis part, once the network have been constructed, without helping historians in the previous steps.
-However, data collection, cleaning, and transformation steps are crucial and can introduce lots of bias and distortion on the final data if not done correctly.
+However, the data collection, encoding, and transformation steps are crucial and can introduce lots of bias and distortion on the final data if not done correctly.
 This is especially true for social history where historical documents can lack structure and can be hard to parse, and where historical claims should be traceable to the original sources.
 We therefore describe the HSNA workflow split into 5 steps and characterize recurring pitfalls which can occur in each step.
 We also discuss in depth the network modeling step, as social historians can model their documents with various models which have an impact on the representation of the social relationships, traceability to the documents, and simplicity of usage.
+
+
+\paperbox{This chapter is an updated version of an article presented at the VIS4DH workshop of the IEEE VIS: Visualization & Visual Analytics Conference 2022, and published in IEEE Explore \cite{pisterHistoricalDocumentsSocial2022}. It was a collaboration with Nicole Dufournaud, Pascal Cristofoli, and my supervisors Christophe Prieur and Jean-Daniel Fekete. I participated in the discussions, elaboration of concepts, and writing of the paper.}
 
 
 % Social historians' goal is to characterize socio-economic phenomena and their dynamics on a restricted period and place of interest, and see how individual people of that time lived through them. For this, they rely on historical documents such as conversational letters, census, marriage acts etc. They usually extract qualitative and quantitative information from an identified corpus of documents, to then make quantitative conclusions on interesting socio-economic patterns. This can range from the distribution of jobs and social status, the migratory flux, to the structure of families in a given society. For this, historians can follow a Social Network Analysis (SNA) or more precisely a Historical Social Network Analysis (HSNA) approach. HSNA is a method---sometimes referred as a paradigm---which consists in modeling the social relationships between a set of entities---usually individuals---into a network, using the information from the historical documents. Very often, historians model the persons mentioned in the text as the nodes of the network, who are connected two by two by links modeling social relationships, such as friendships and family ties.
@@ -24,7 +31,7 @@ Tools for social network visualization tend to ignore the context in which the n
 Yet, practitioners of social history need to generate many networks from the same documents/sources to visualize and analyze them.
 % and need to maintain the provenance from documents to analyzes and back.
 % In this article, we explain why and how effective tools for supporting Historical Social Network Analysis~\cite{wetherell_historical_1998} (HSNA) should model social networks in multiple steps to support three essential principles: \emph{traceability}, connection to \emph{reality}, and \emph{simplicity}.
-In this chapter, after describing and characterizing the workflow of Historical Social Network Analysis~\cite{wetherellHistoricalSocialNetwork1998} (HSNA) from our collaborations with social historians, we explain why and how effective tools for supporting this process should model social networks in multiple steps to support three essential principles: \emph{traceability}, connection to \emph{reality}, and \emph{simplicity}.
+In this chapter, after describing and characterizing the workflow of Historical Social Network Analysis~\cite{wetherellHistoricalSocialNetwork1998} from our collaborations with social historians, we explain why and how effective tools for supporting this process should model social networks in multiple steps to support three essential principles: \emph{traceability}, connection to \emph{reality}, and \emph{simplicity}.
 These principles emerged from joint experiences as historians and computer scientists while collaborating on multiple projects.
 
 Social historians' goal is to characterize socio-economic phenomena and their dynamics in a restricted period and place of interest and to see how individual people of that time lived through those changes.

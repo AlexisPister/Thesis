@@ -5,23 +5,25 @@
 
 Social historians rely on textual historical documents to draw socio-economic conclusions about the past.
 They read and analyze the documents they can find from a period and subject of interest, and make their conclusions after analyzing them and cross-referencing the information they found.
-Several methods have been developed in History to extract and analyze the information contained in the documents in a rigorous way, such as qualitative analysis, quantitative methods, or Historical Social Network Analysis (HSNA).
-HSNA is a method coming from Sociology consisting in modeling the relational information mentioned in the documents---such as family, business, or friendship ties---in a network, to be able to characterize and explain social behaviors through the description of the network's structure.
-HSNA is directly inspired by Social Network Analysis (SNA), which is a well-known method in sociology where a lot of methods and protocols had already been proposed when historians started to use similar approaches.
-Historians appropriated this method and adjusted it to the historian framework which differs from sociology by its relation to the sources (historians are limited by the documents they have, and all their work goes through them) and its focus on the temporality of their studies.
-They first have to annotate the documents to extract useful information, to then model it into an analyzable network.
-The annotation and modeling process is thus particularly complicated and specific to HSNA.
-Historians usually use social network visualization tools to confirm or generate new hypotheses once they successfully constructed their network.
-As the network models used by historians are more and more complicated, new visualization systems are needed, first to analyze their networks, but also to help them in their HSNA process, from the acquisition of relevant documents to the final analysis and visualization steps.
+Several methods have been developed in History to extract and analyze the information contained in the documents in a rigorous way, such as qualitative analysis, quantitative methods, or \hsna.
+\hsna is a method coming from Sociology consisting in modeling the relational information mentioned in the documents---such as family, business, or friendship ties---in a network, to be able to characterize and explain social behaviors through the description of the network's structure \cite{wetherellHistoricalSocialNetwork1998, kerschbaumerPowerNetworksProspects2015}.
+\hsna is directly inspired by \sna, which is a well-known method in sociology that sociologist theorized to understand and describe real world social relationships modeled as networks \cite{freemanDevelopmentSocialNetwork2004, scottSocialNetworkAnalysis1988}.
+Historians appropriated this methods, by extracting relationships from historical documents.
+The specificy of \hsna is therefore the modeling of the network from the historical documents---which are at the core of the historical work \cite{prost2014}---and the integration of the time aspect which is often disregarded in traditional \sna.
+%Historians appropriated this method and adjusted it to the historian framework which differs from sociology by its relation to the sources (historians are limited by the documents they have, and all their work goes through them) and its focus on the temporality of their studies.
+%They first have to annotate the documents to extract useful information, to then model it into an analyzable network.
+%The annotation and modeling process is thus particularly complicated and specific to HSNA.
+Historians typically use social network visualization tools to confirm or generate new hypotheses once they successfully constructed their network \cite{freemanVisualizingSocialNetworks2000}.
+%As the network models used by historians are more and more complicated, new visualization systems are needed, first to analyze their networks, but also to help them in their HSNA process, from the acquisition of relevant documents to the final analysis and visualization steps.
 In this chapter, we therefore present a general overview of the fields of SNA (\autoref{sec:social-network-analysis}), HSNA (\autoref{sec:historical-network-research}), and Social Network Visualization (\autoref{sec:social-network-visualization}).
 
 
 \section{Visualization}
 
 Visualization is often defined as ``the use of computer-supported, interactive, visual representations of data to amplify cognition"" \cite{cardReadingsInformationVisualization1999}.
-Graphically displaying data allows us to leverage our visual human system to gain a better acquisition and use of knowledge, and with that increase possibilities of discoveries, decision-making and explanation.
+Graphically displaying data allows us to leverage our visual human system to gain a better acquisition of knowledge, leading to better decision-making, communication, and potential discoveries.
 The field of visualization can be split in three sub domains: \textbf{Scientific visualization} focus on visualizing continuous physically based data such as weather, astrophysics, and anatomical data, sometimes produced with simulations whereas \textbf{Information Visualization} is centered around the visualization of discrete abstract data points, often multidimensional. \textbf{Visual Analytics} emerged later from Information Visualization by mixing data mining and more complex analysis process with traditional information visualization displays.
-
+We focus in this thesis on the two former branches of visualization, as social scientists use both information visualization and visual analytics systems to gain insight on the structure of the networks they are studying.
 
 
 \subsection{Information Visualization}
@@ -32,7 +34,7 @@ If several examples of information visualization can be found thorough history, 
 In this foundational work, Bertin described and organized the different visual elements usable in graphical information displays, and linked them to data features and relations types.
 Michael Friendly writes that ``To some, this appeared to do for graphics what Mendeleev had done for the organization of the chemical elements'' \cite{friendlyBriefHistoryData2008}.
 The development of computer science and the rise of hardware capabilities during the same time created a big need for data visualization.
-The amount of data stored increased exponentially and descriptive statistics were not enough to understand the underlying structure of the amount and diversity of produced data.
+The amount of data stored increased exponentially \cite{hilbertWorldTechnologicalCapacity2011} and descriptive statistics were not enough to understand the underlying structure of the amount and diversity of produced data.
 Visualization, leveraging the human visual system, allowed to rapidly see the hidden structure of a dataset and detect interesting and unexpected patterns very often unseen with classical statistical methods.
 One classical illustration of this is Anscombe's quartet \cite{anscombeGraphsStatisticalAnalysis1973} which consists of four datasets of points in $\mathbb{R} ^{2}$ with the same statistical measures (mean, variance, correlation coefficient, etc.) but with very different structures, that plotting the data show immediately.
 The four datasets are illustrated in \autoref{fig:anscombe-quartet}.
@@ -45,13 +47,13 @@ The four datasets are illustrated in \autoref{fig:anscombe-quartet}.
     \label{fig:anscombe-quartet}
 \end{figure}
 
-A large number of visualization techniques emerged to make sense of the diversity of data produced, such as multidimensional, temporal, spatial, or network data.
+A large number of visualization techniques emerged to make sense of the diversity of data produced, such as multidimensional, temporal, spatial, or network data \cite{shneidermanEyesHaveIt1996}.
 Instead of using taxonomies classifying graphics into categories such as histograms, pie charts, and stream graphs, some theorized how to describe graphics in a more systematic and structural way.
 In 1993, Wilkinson extended Bertin's work and developed the Grammar of Graphics \cite{wilkinsonGrammarGraphics1993} as a way to describe the deep structure unifying every possible graphics, thus allowing to characterize and create graphics using common terms and rules.
 In this framework, a graphic can be defined as a function of six components: data (a set of data points and attributes from a dataset), transformations (statistical operations which modify the original data, \eg mean and rank transformations), scales (\eg linear and log scales), coordinate systems (\eg cartesian and polar coordinate systems), elements (graphical marks such as rectangular or circular marks, and their aesthetics, \eg color and size), and guides (additional information such as axes and legend).
 Many well-known visualization toolkits are now based on this framework, such as vega and ggplot, as it allows great expressiveness and reusability for graphic creation.
-Visualization is mainly used for confirmatory and communications purposes.
-Many scientists use graphics to confirm hypothesis they have on their data, and later on to communicate their findings.
+Visualization allows to gain insight on the structure of a given data, and has traditionally been used for confirmation and communication purposes, for example to verify hypothesis on empirical sciences, and later on to communicate findings.
+%Many scientists use graphics to confirm hypothesis they have on their data, and later on to communicate their findings.
 Visualization is also used to communicate information to wider general audiences, for example in the context of data journalism to support a point.
 
 
@@ -61,10 +63,10 @@ Visualization is also used to communicate information to wider general audiences
 
 \subsection{Visual Analytics}
 
-Visualization can also be used for exploratory aims, to gain new insights into the data and potentially generate new hypotheses.
-This process has been characterized by Tukey in 1960 as \emph{Exploratory Data Analysis (EDA)} \cite{tukeyExploratoryDataAnalysis1977} and consist in trying to characterize the structure of a dataset with the help of visualization and statistical measurements.
-Visual exploration is enhanced by direct manipulation interfaces and interaction and usually follows the information-seeking mantra formalized by Schneiderman: ``Overview first, zoom and filter, then details-on-demand"" \cite{shneidermanEyesHaveIt1996}.
-It allows users to first have an overview of the data and get an idea of its overall structure, and then changing the point of focus in the data to highlight interesting patterns with the help of filtering, querying, sorting, and zooming mechanisms.
+Visualization can also be used for exploratory aims, to gain new insights on the general structure of the data and potentially generate new hypotheses.
+This process has been characterized by Tukey in 1960 as \emph{Exploratory Data Analysis} \cite{tukeyExploratoryDataAnalysis1977} and consist in trying to characterize the structure of a dataset with the help of visualization and statistical measurements.
+Visual exploration is enhanced by direct manipulation interfaces through interaction and usually follows the information-seeking mantra formalized by Schneiderman: ``Overview first, zoom and filter, then details-on-demand"" \cite{shneidermanEyesHaveIt1996}.
+It allows users to first have a visual overview of the data and get an idea of its overall structure, to then change the point of focus to highlight interesting patterns with the help of filtering, querying, sorting, and zooming mechanisms.
 %Exploration is enhanced by direct manipulation interfaces and interaction, which allows changing the point of focus in the data to highlight interesting patterns, with the help of filtering, querying, sorting, and zooming mechanisms.
 %Most visual exploration interfaces are based on Schneiderman information-seeking mantra: ``Overview first, zoom and filter, then details-on-demand"" \cite{shneidermanEyesHaveIt1996}.
 As the average size of datasets keeps growing, exploratory tools are often needed to make sense of large datasets and generate interesting hypotheses.
@@ -75,17 +77,17 @@ More recent visual exploration interfaces also incorporate automatic analytical 
 This coupling of visualization and data mining has been defined as Visual Analytics (VA) and is still undergoing lots of research.
 Keim and al.\ define it as ``a combination of automatic and visual analysis methods with a tight coupling through human interaction in order to gain knowledge from data'' \cite{keimVisualAnalyticsDefinition2008}. \autoref{fig:keim-va} shows an abstract representation of the VA process.
 
-\begin{figure}
-    \centering % avoid the use of \begin{center}...\end{center} and use \centering instead (more compact)
-    \includegraphics[width=1\textwidth]{static/figures/RelatedWork/Keim-VisualAnalytics.png}
-    \caption{Abstraction of the VA process. It is characterized by continuous interactions between the data, visualizations, models, and knowledge. Image from \cite{keimVisualAnalyticsDefinition2008}.}
-    \label{fig:keim-va}
-\end{figure}
+%\begin{figure}
+%    \centering % avoid the use of \begin{center}...\end{center} and use \centering instead (more compact)
+%    \includegraphics[width=1\textwidth]{static/figures/RelatedWork/Keim-VisualAnalytics.png}
+%    \caption{Abstraction of the VA process. It is characterized by continuous interactions between the data, visualizations, models, and knowledge. Image from \cite{keimVisualAnalyticsDefinition2008}.}
+%    \label{fig:keim-va}
+%\end{figure}
 
 It is defined around the generation of knowledge using visualizations and models of the data, that the user generates and explores using interaction.
-VA systems have been proposed in various empirical domains, such as biology, astronomy, engineering, and social sciences, but are nonetheless not used by the majority of application scientists.
-Indeed, there are currently debates on the roles of EDA and VA in the scientific process, as exploratory findings do not have the same level of proof than statistical results coming from the hypothetico-deductive model.
-EDA and VA are nevertheless efficient tools to refute and generate hypothesis, especially with the ever-increasing amount of stored data.
+VA systems have been developed in various empirical domains, such as biology, astronomy, engineering, and social sciences, as it allow to rapidly gain insight on the structure of various potentially large dataset, while generating and refuting hypotheses. %but are nonetheless not used by the majority of application scientists.
+%Indeed, there are currently debates on the roles of EDA and VA in the scientific process, as exploratory findings do not have the same level of proof than statistical results coming from the hypothetico-deductive model.
+%\eda and \va are nevertheless efficient tools to refute and generate hypothesis, especially with the ever-increasing amount of stored data.
 
 
 %Social scientists now frequently use VA systems to make sense of their data by using visualization, interaction, and data mining algorithms in their analysis loop to find interesting patterns and verify and create hypotheses.

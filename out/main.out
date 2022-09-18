@@ -1,5 +1,16 @@
-\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
-\BOOKMARK [1][-]{section.1.1}{Social History and Historical Social Network Analysis}{chapter.1}% 2
-\BOOKMARK [1][-]{section.1.2}{Visualization and Visual Analytics}{chapter.1}% 3
-\BOOKMARK [1][-]{section.1.3}{Historical Social Networks Visual Analytics}{chapter.1}% 4
-\BOOKMARK [1][-]{section.1.4}{Contributions and Research Statement}{chapter.1}% 5
+\BOOKMARK [0][-]{chapter.3}{HSNA Process and Network Modeling}{}% 20
+\BOOKMARK [1][-]{section.3.1}{Context}{chapter.3}% 21
+\BOOKMARK [1][-]{section.3.2}{Related Work}{chapter.3}% 22
+\BOOKMARK [1][-]{section.3.3}{Historical Social Network Analysis Workflow}{chapter.3}% 23
+\BOOKMARK [2][-]{subsection.3.3.1}{Textual Sources Acquisition}{section.3.3}% 24
+\BOOKMARK [2][-]{subsection.3.3.2}{Digitization}{section.3.3}% 25
+\BOOKMARK [2][-]{subsection.3.3.3}{Annotation}{section.3.3}% 26
+\BOOKMARK [2][-]{subsection.3.3.4}{Network Creation}{section.3.3}% 27
+\BOOKMARK [2][-]{subsection.3.3.5}{Network Analysis and Visualization}{section.3.3}% 28
+\BOOKMARK [1][-]{section.3.4}{Network modeling and analysis}{chapter.3}% 29
+\BOOKMARK [2][-]{subsection.3.4.1}{Network Models}{section.3.4}% 30
+\BOOKMARK [2][-]{subsection.3.4.2}{Bipartite Multivariate Dynamic Social Network}{section.3.4}% 31
+\BOOKMARK [2][-]{subsection.3.4.3}{Examples}{section.3.4}% 32
+\BOOKMARK [1][-]{section.3.5}{Applications}{chapter.3}% 33
+\BOOKMARK [1][-]{section.3.6}{Discussion}{chapter.3}% 34
+\BOOKMARK [1][-]{section.3.7}{Conclusion}{chapter.3}% 35

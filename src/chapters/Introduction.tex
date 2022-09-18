@@ -33,7 +33,7 @@ Moreover, quantitative and network analysis are complex processes, and demand ma
 
 Social historians have to take many annotation and modeling decisions, concerning \emph{what} to model from their sources into a network, and \emph{how} to model it \cite{cristofoliAuxSourcesGrands2008, dufournaudRechercheEmpiriqueHistoire2015}, \ie should the information of interest be represented as a node, a link, an attribute, or not reflected in the network at all.
 Practically, they usually use adhoc processing and analysis scripts to transform historical documents to analyzable networks, which is time-consuming, sometimes to end up with trivial or hard to interpret results \cite{alkadi2022}.
-Still, HSNA led to many highly regarded studies with thorough conclusions, such as the study of families of power in Florence by Padgett where they explained the rise of the Medici family through their central position in the economical, political, and trading networks of powerful families.
+Still, HSNA led to many highly regarded studies with thorough conclusions, such as the study of families of power in Florence by Padgett and Ansell where they explained the rise of the Medici family through their central position in the economical, political, and trading networks of powerful families \cite{padgettRobustActionRise1993}.
 
 The usage of visuals to graphically display networks is common in \sna as it allows to unfold the structure of networks to the eyes, thus letting social scientists confirm hypotheses they had when collecting and exploring their data aswell as gaining new insight through the discovery of interesting patterns and trends \cite{cristofoliPrincipesUsagesDessins}.
 Images of networks also constitute an efficient mean of communication, especially in scientific productions \cite{freemanVisualizingSocialNetworks2000}.
@@ -152,23 +152,52 @@ By pointing to evidence supporting or refuting hypotheses, they can give insight
 \section{Visualization and Visual Analytics}
 
 Visualization is the process of displaying data visually to leverage the human visual system and enhance cognition to gain insight into the data\cite{cardReadingsInformationVisualization1999}.
-Using visual abstractions (such as size, color, and position) to display abstract data allows us to rapidly see structure and patterns otherwise hidden in the raw text and numbers.
-As data keeps growing in size with time, visualization is a powerful tool to gain insight into the underlying structure of various datasets.
+Using visual abstractions (such as size, color, and position) to display abstract data allows us to rapidly see structure and patterns otherwise hidden in raw text and numbers.
+As data keeps growing in size with time due to the increase of hardware and storage capabilities, visualization is a powerful tool to gain insight into the underlying structure of various complex datasets.
 
-Visualization has been traditionally used for confirmatory and communication purposes, particularly in empirical sciences.
-By plotting their data, analysts are able to confirm or deny their hypotheses and communicate their findings in scientific productions.
-Social scientists following a network analysis typically use node-link diagrams, which allow them to represent a network with circles and lines to respectively represent nodes and links.
-It lets them confirm or deny some of their hypotheses by observing the network structure and communicating their results.
+Visualization has traditionally been used for confirmatory and communication purposes, particularly in empirical sciences.
+By showing data visually, analysts are able to confirm or deny hypotheses and communicate their findings in scientific productions.
+
+%Social scientists following a network analysis typically use node-link diagrams, which allow them to represent a network with circles and lines to respectively represent nodes and links.
+%It lets them confirm or deny some of their hypotheses by observing the network structure and communicating their results.
+
 %Visualization is mainly used for confirmatory and communication purposes, particularly in social sciences.
 %Analysts generally have hypotheses that they want to test: they collect data, model it, compute measures, and plot the data visually to verify that it matches the results.
 %They typically use similar plots to communicate findings, for example in scientific reports and presentations.
 However, visualization can also be used for exploration, which can help to understand the underlying structure of data and generate new hypotheses.
 Tukey defined this process as Exploratory Data Analysis in the 1960s\cite{tukeyExploratoryDataAnalysis1977}, as a procedure to gain insight into the structure of the data by identifying outliers, trends, and patterns with the usage of visualization and statistical measures.
-Interaction in visualization helps this process by letting users navigate more easily on multivariate datasets with the help of direct manipulation of the data.
+Social network visualization is used for communication of findings in the field, but is also often following this exploration process as showing the network visually allows social scientists to reveal the structure of their data.
+As freeman write ``Images of social networks have provided investigators with new insights about network structures and have helped them to communicate those insights to others''\cite{freemanVisualizingSocialNetworks2000}.
+Social scientists very often represent their data using node-link diagrams, that we find in every production of reference in the field \cite{wassermanSocialNetworkAnalysis1994, tabassumSocialNetworkAnalysis2018, sna, lazegaReseaux}.
+
+\begin{figure}[!ht]
+    \centering % avoid the use of \begin{center}...\end{center} and use \centering instead (more compact)
+    \includegraphics[width=0.8\textwidth]{static/figures/RelatedWork/padgett-Medicis.png}
+    \caption{Marriage, partnership. trading, banking, and real estate networks of the powerful families of Florence from \cite{padgettRobustActionRise1993}. We can see the central position in the network of the Medici Family.}
+    \label{fig:padgett-medicis}
+\end{figure}
+
+\autoref{fig:padgett-medicis} shows a node-link representation of the network constructed by Padgett and Ancell in their work on the Medici.
+At that time, diagrams were often drawed by hand, practice which have now been replaced by automatic layout algorithms.
+
+Most visual software for \sna such as Gephi, Pajek, NodeXl, or Ucinet are based on this representation, and allow an exploration of the data with the help of interaction mechanisms and the computation of network measures.
+
+%Interaction in visualization helps this process by letting users navigate more easily on multivariate datasets with the help of direct manipulation of the data.
+
 The detection of patterns and trends can also be facilitated with automatic methods coming from data mining and machine learning fields, directly implemented in the visual analysis loop.
 This coupling of visual exploration and automatic data mining algorithms has been coined as Visual Analytics (VA) and is defined as the process of using interactive visualizations, transformations, and models of the data in an interactive analysis workflow to create knowledge\cite{keimVisualAnalyticsDefinition2008}.
+
+\begin{figure}
+    \centering % avoid the use of \begin{center}...\end{center} and use \centering instead (more compact)
+    \includegraphics[width=1\textwidth]{static/figures/RelatedWork/Keim-VisualAnalytics.png}
+    \caption{Abstraction of the VA process. It is characterized by continuous interactions between the data, visualizations, models, and knowledge. Image from \cite{keimVisualAnalyticsDefinition2008}.}
+    \label{fig:keim-va}
+\end{figure}
 %Such interfaces aim at producing knowledge on the data, based on transformation of the data and interactions by the user.
-If most widely used visual interface for HSNA do not yet provide complex interactions or data mining capabilities, VA can be a powerful support for social scientists to gain insight on the structure of their network, especially that the data they study keep growing in size and complexity \cite{kaplanVeniceTimeMachine2015}.
+
+\autoref{fig:keim-va} illustrate the schematic process of VA: the coupling of visualization and data mining models operated by the user through interaction lead to the generation of knowledge on the data.
+
+If most widely used visual interface for \hsna do not yet provide complex interactions or data mining capabilities, more recent tools are oriented towards VA, as complex interactions and data mining capabilities can be a powerful support for social scientists to gain insight on the structure of their network, especially that the data they study keep growing in size and complexity \cite{kaplanVeniceTimeMachine2015}.
 
 
 %EDA and VA are currently not widely used in HSNA, as social historians always have prior hypotheses before getting their data in shape.

@@ -41,23 +41,11 @@
 \usepackage{comment}
 \usepackage{varwidth} %for the varwidth minipage environment
 \usepackage{wrapfig}
-
 \usepackage{pifont}% http://ctan.org/pkg/pifont
-\newcommand{\cmark}{\ding{51}}%
-\newcommand{\xmark}{\ding{55}}%
-\newcommand{\rev}[1]{#1}
-\newenvironment{revs}{}{}
-\newcommand{\del}[1]{}
-\newcommand{\ie}{i.e.\xcomma}
-\newcommand{\eg}{e.g.\xcomma}
-\newcommand{\paovis}{PAOHVis\xspace}
+%\usepackage{natbib}
+%\usepackage{bibentry}
 
-% replace autoref's default "Section~\ref{#1}" by \S\ref{#1}
 
-\def\Snospace~{\S{}} % eat the ~ added by \autoref after the macro
-\renewcommand*\sectionautorefname{\Snospace}
-\renewcommand*\subsectionautorefname{\Snospace}
-\renewcommand*\subsubsectionautorefname{\Snospace}
 
 %\usepackage[backend=bibtex,style=numeric]{biblatex}
 %\usepackage[backend=biber,style=numeric]{biblatex}
@@ -92,6 +80,21 @@
 \colorlet{epoux}{orange!80!white!50}
 \colorlet{epouse}{purple!80!white!50}
 
+
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\xmark}{\ding{55}}%
+\newcommand{\rev}[1]{#1}
+\newenvironment{revs}{}{}
+\newcommand{\del}[1]{}
+\newcommand{\ie}{i.e.\xcomma}
+\newcommand{\eg}{e.g.\xcomma}
+\newcommand{\paovis}{PAOHVis\xspace}
+
+\def\Snospace~{\S{}} % eat the ~ added by \autoref after the macro
+\renewcommand*\sectionautorefname{\Snospace}
+\renewcommand*\subsectionautorefname{\Snospace}
+\renewcommand*\subsubsectionautorefname{\Snospace}
+
 \newcommand{\alexis}[1]{\textcolor{red}{alexis: #1}}
 \newcommand{\jdf}[1]{\textcolor{blue}{jdf: #1}}
 \newcommand{\christophe}[1]{\textcolor{green}{christophe: #1}}
@@ -115,6 +118,14 @@
 \newcommand{\sna}{SNA\xspace}
 \newcommand{\va}{VA\xspace}
 \newcommand{\eda}{Exploratory Data Analysis\xspace}
+
+
+
+\newcommand{\paperbox}[1]{\noindent\fbox{\begin{minipage}{\textwidth}
+#1
+\end{minipage}}
+\vspace{1em}
+}
 
 
 
