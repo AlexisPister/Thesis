@@ -110,8 +110,6 @@ The concept of History is hard to define as its practice and cutomes highly evol
 History of a given time can be characterized by the different historical work produces at that time.
 However, the work of the historians always focused on the collection and study of historical documents, to characterize the past.
 As Langlois and Seignobos write, ``The search for and the collection of documents is thus a part, logically the first and most important part, of the historian's craft'' \cite{langloisIntroductionAuxÉtudes2014}.
-
-%History is the science of retrieving and characterizing facts about the past.
 History emerged as a field with its own rules, conventions and journals in the 1880s from faculties of letters, to counterbalance previous history works which were judged as too ``literary'' \cite{noirielNaissanceMétierHistorien1990}.
 History can be seen through two facets: one is societal, and serves creating a shared story for the country and a sense of unity to its citizens.
 Antoine Prost says that ``it's through history than France thinks itself'' (translated from french) \cite{prost2014}.
@@ -151,7 +149,7 @@ Social History continued to evolve since the 1930s, introducing new methods and 
 %This narrative approach to history has been criticized for its lack of traceability and the open interpretation of historical documents, which can introduce bias from the authors.
 %To solve this problem, the ``Annales school'' (Ecole des Annales) proposed to characterize past social phenomena through the exhaustive and systematic analysis of historical documents~\cite{prost2014}.
 
-With the development of statistical methods and more precisely Computer Science, quantitative approaches of History emerged in the 1960s with the aim of analyzing quantitative data directly extracted from historical documents.
+With the development of statistical methods and Computer Science, quantitative approaches of History emerged in the 1960s with the aim of analyzing quantitative data directly extracted from historical documents.
 %Using quantitative data, historians were able to make numeric conclusions on topics such as demography \cite{henryRegistresParoissiauxHistoire1956} or job distribution.
 Using such methods, historians were able to make conclusions based on statistical results on topics such as demography \cite{henryRegistresParoissiauxHistoire1956} or job distribution.
 For example, Gribaudi and Blum illustrated a shift in the most widespread professions in France during the 19th century using the data extracted from 50000 marriage acts \cite{gribaudi1990} and using statistical methods.
@@ -352,7 +350,8 @@ The \href{https://www.kintip.net/}{Puck software} has extended its original gene
 
 \section{Social Network Visualization}\label{sec:social-network-visualization}
 
-Practitioners of SNA and HSNA have always depicted visually their networks for validation and communication purposes, mostly using node-link diagrams.
+
+Practitioners of SNA and HSNA have always visually depicted their networks for validation and communication purposes, mostly using node-link diagrams.
 With the increase in average network size and density and the diversity of network models, new visualization techniques have been proposed to represent the diversity of studied networks.
 Moreover, more and more social scientists are following exploratory approaches using Visual Analytics (VA) tools, to describe more in-depth their data and generate new interesting hypotheses, using interaction and exploration capabilities.
 
@@ -397,6 +396,7 @@ Most widely used social network visualization softwares by social scientists are
 These softwares usually provides automatic computation of several network measures such as the density and the diameter, allowing users to follow SNA workflows all in the interface.
 Similarly, Automatic clustering capabilities are provided letting users find interesting community structure in their network.
 \autoref{fig:gephi} presents the Gephi interface showing a clustered social network, where each node is part of a cluster, encoded by color.
+
 \begin{figure}
     \centering % avoid the use of \begin{center}...\end{center} and use \centering instead (more compact)
     \includegraphics[width=0.8\textwidth]{static/figures/RelatedWork/Gephi_0.9.1_Network_Analysis_and_Visualization_Software}
@@ -413,21 +413,18 @@ Interfaces leveraging automatic data mining algorithms sometimes put users in an
 They usually end up trying several algorithms until they stumble upon a satisfactory enough solution \cite{pisterIntegratingPriorKnowledge2021}.
 
 Cleaning and importing the data is also complicated, as the annotation and network modeling process are not straightforward.
-Thus, social scientists often encounter errors and inconsistencies in the data once they visualize it, that they would like to correct.
-Historians thus always have to go back and forth between their analysis process inside the VA tool they are using, and their original sources and annotation/modeling process, to correct errors or modify annotations.
+Thus, social scientists often encounter errors and inconsistencies in the data once they visualize it, that they want to correct.
+It leads to continuous back and forth between their analysis process inside the VA tool they are using, and their original sources and annotation/modeling process, to correct errors or modify annotations.
 Interestingly, the network model choice plays a crucial role in the process, as a simple network model representing only the persons (as it is often the case) will make it harder to trace back to the original documents containing the annotations from the network entities.
 Yet the majority of Social Network VA systems enforce simple network models, making this retroactive process harder.
 Some interfaces still incorporate data models encapsulating document representations, such as Jigsaw \cite{staskoJigsawSupportingInvestigative2008} which is a VA systems using textual documents as a data model, originally developed for intelligence analysis.
 It allows an analysis of the documents and their mentions of entities (persons, locations, institutions, etc.) through multiple coordinated views.
 Using such model allow to rapidly see errors and inconsistencies in the documents annotations, while still following complex analyzes.
+
 Finally, more work is still to be done on social network VA tools, to provide more guidance and power to social scientists while doing their analysis, and to help them to do easier back and forth between their analysis and the annotation, network modeling, and cleaning steps, as they play a big role in the historian workflow.
 
 
 
-%Social scientists now frequently use VA systems to make sense of their data by using visualization, interaction, and data mining algorithms in their analysis loop to find interesting patterns and verify and create hypotheses.
-%The most used social network VA tools are Gephi \cite{Gephi}, Pajek \cite{mrvarAnalysisVisualizationLarge2016}, and NodeXl \cite{NodeXL}. \autoref{fig:gephi} presents the Gephi interface showing a clustered social network, where each node is part of a cluster, encoded by color.
-%They all let users visualize their networks with a node-link diagram, and allow an interactive exploration of the data with operations like filtering.
-%Users can also analyze their data using network measures computed directly in the interface, and apply data mining algorithms such as clustering which results are explorable visually.
 
 
 
@@ -458,6 +455,6 @@ Finally, more work is still to be done on social network VA tools, to provide mo
 
 
 
-
-
-
+=======
+Finally, more work is still to be done on social network VA tools, to provide more guidance and power to social scientists while doing their analysis, and to help them to do easier back and forth between their analysis and the annotation, network modeling, and cleaning steps, as they play a big role in the historian workflow.
+>>>>>>> origin/overleaf-2022-09-13-0755
