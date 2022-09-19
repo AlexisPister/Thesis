@@ -6,13 +6,18 @@
 
 %% Packages
 \input{commands}
-%\includeonly{chapters/Introduction}
-%\includeonly{chapters/Context}
-\includeonly{chapters/NetworkModels}
 
 \pagestyle{plain} % pour ne garder que les n°de page en milieu-bas et supprimer les indications de chapitre en marge haute
 %\usepackage{biblatex} % à retirer!!!
 
+
+\includeonly{
+%  chapters/Introduction,
+  chapters/Context,
+  chapters/NetworkModels,
+  chapters/ComBiNet,
+%  chapters/PK-Clustering
+}
 % Document
 \begin{document}
     \begin{titlepage}
@@ -185,12 +190,10 @@
 
     \include{chapters/Introduction}
     \include{chapters/Context}
-%    \include{chapters/Context2}
     \include{chapters/NetworkModels}
     \include{chapters/ComBiNet}
     \include{chapters/PK-Clustering}
     \include{chapters/Conclusion}
-
 
 
     % \bibliographystyle{IEEEtranS}

@@ -1,16 +1,55 @@
-\BOOKMARK [0][-]{chapter.3}{HSNA Process and Network Modeling}{}% 20
-\BOOKMARK [1][-]{section.3.1}{Context}{chapter.3}% 21
-\BOOKMARK [1][-]{section.3.2}{Related Work}{chapter.3}% 22
-\BOOKMARK [1][-]{section.3.3}{Historical Social Network Analysis Workflow}{chapter.3}% 23
-\BOOKMARK [2][-]{subsection.3.3.1}{Textual Sources Acquisition}{section.3.3}% 24
-\BOOKMARK [2][-]{subsection.3.3.2}{Digitization}{section.3.3}% 25
-\BOOKMARK [2][-]{subsection.3.3.3}{Annotation}{section.3.3}% 26
-\BOOKMARK [2][-]{subsection.3.3.4}{Network Creation}{section.3.3}% 27
-\BOOKMARK [2][-]{subsection.3.3.5}{Network Analysis and Visualization}{section.3.3}% 28
-\BOOKMARK [1][-]{section.3.4}{Network modeling and analysis}{chapter.3}% 29
-\BOOKMARK [2][-]{subsection.3.4.1}{Network Models}{section.3.4}% 30
-\BOOKMARK [2][-]{subsection.3.4.2}{Bipartite Multivariate Dynamic Social Network}{section.3.4}% 31
-\BOOKMARK [2][-]{subsection.3.4.3}{Examples}{section.3.4}% 32
-\BOOKMARK [1][-]{section.3.5}{Applications}{chapter.3}% 33
-\BOOKMARK [1][-]{section.3.6}{Discussion}{chapter.3}% 34
-\BOOKMARK [1][-]{section.3.7}{Conclusion}{chapter.3}% 35
+\BOOKMARK [0][-]{chapter.2}{Related Work}{}% 6
+\BOOKMARK [1][-]{section.2.1}{Visualization}{chapter.2}% 7
+\BOOKMARK [2][-]{subsection.2.1.1}{Information Visualization}{section.2.1}% 8
+\BOOKMARK [2][-]{subsection.2.1.2}{Visual Analytics}{section.2.1}% 9
+\BOOKMARK [1][-]{section.2.2}{Social History}{chapter.2}% 10
+\BOOKMARK [2][-]{subsection.2.2.1}{History, Social History and Methodology}{section.2.2}% 11
+\BOOKMARK [2][-]{subsection.2.2.2}{Quantitative History}{section.2.2}% 12
+\BOOKMARK [2][-]{subsection.2.2.3}{Digital Humanities}{section.2.2}% 13
+\BOOKMARK [1][-]{section.2.3}{Historical Social Network Analysis}{chapter.2}% 14
+\BOOKMARK [2][-]{subsection.2.3.1}{Sociometry to SNA}{section.2.3}% 15
+\BOOKMARK [2][-]{subsection.2.3.2}{Methods and Measures}{section.2.3}% 16
+\BOOKMARK [2][-]{subsection.2.3.3}{Historical Social Network Analysis}{section.2.3}% 17
+\BOOKMARK [2][-]{subsection.2.3.4}{Network Modeling}{section.2.3}% 18
+\BOOKMARK [1][-]{section.2.4}{Social Network Visualization}{chapter.2}% 19
+\BOOKMARK [2][-]{subsection.2.4.1}{Graph Drawing}{section.2.4}% 20
+\BOOKMARK [2][-]{subsection.2.4.2}{Social Network Visual Analytics}{section.2.4}% 21
+\BOOKMARK [0][-]{chapter.3}{HSNA Process and Network Modeling}{}% 22
+\BOOKMARK [1][-]{section.3.1}{Context}{chapter.3}% 23
+\BOOKMARK [1][-]{section.3.2}{Related Work}{chapter.3}% 24
+\BOOKMARK [1][-]{section.3.3}{Historical Social Network Analysis Workflow}{chapter.3}% 25
+\BOOKMARK [2][-]{subsection.3.3.1}{Textual Sources Acquisition}{section.3.3}% 26
+\BOOKMARK [2][-]{subsection.3.3.2}{Digitization}{section.3.3}% 27
+\BOOKMARK [2][-]{subsection.3.3.3}{Annotation}{section.3.3}% 28
+\BOOKMARK [2][-]{subsection.3.3.4}{Network Creation}{section.3.3}% 29
+\BOOKMARK [2][-]{subsection.3.3.5}{Network Analysis and Visualization}{section.3.3}% 30
+\BOOKMARK [1][-]{section.3.4}{Network modeling and analysis}{chapter.3}% 31
+\BOOKMARK [2][-]{subsection.3.4.1}{Network Models}{section.3.4}% 32
+\BOOKMARK [2][-]{subsection.3.4.2}{Bipartite Multivariate Dynamic Social Network}{section.3.4}% 33
+\BOOKMARK [2][-]{subsection.3.4.3}{Examples}{section.3.4}% 34
+\BOOKMARK [1][-]{section.3.5}{Applications}{chapter.3}% 35
+\BOOKMARK [1][-]{section.3.6}{Discussion}{chapter.3}% 36
+\BOOKMARK [1][-]{section.3.7}{Conclusion}{chapter.3}% 37
+\BOOKMARK [0][-]{chapter.4}{ComBiNet: Visual Query and Comparison of Bipartite Dynamic Multivariate Networks with Roles}{}% 38
+\BOOKMARK [1][-]{section.4.1}{Context}{chapter.4}% 39
+\BOOKMARK [1][-]{section.4.2}{Related Work}{chapter.4}% 40
+\BOOKMARK [2][-]{subsection.4.2.1}{Graphlet Analysis}{section.4.2}% 41
+\BOOKMARK [2][-]{subsection.4.2.2}{Visual Graph Querying}{section.4.2}% 42
+\BOOKMARK [2][-]{subsection.4.2.3}{Visual Graph Comparison}{section.4.2}% 43
+\BOOKMARK [2][-]{subsection.4.2.4}{Provenance}{section.4.2}% 44
+\BOOKMARK [1][-]{section.4.3}{Task Analysis and Design Process}{chapter.4}% 45
+\BOOKMARK [2][-]{subsection.4.3.1}{Use Cases}{section.4.3}% 46
+\BOOKMARK [2][-]{subsection.4.3.2}{Tasks Analysis}{section.4.3}% 47
+\BOOKMARK [1][-]{section.4.4}{The ComBiNet System}{chapter.4}% 48
+\BOOKMARK [2][-]{subsection.4.4.1}{Visualizations}{section.4.4}% 49
+\BOOKMARK [2][-]{subsection.4.4.2}{Query Panel}{section.4.4}% 50
+\BOOKMARK [2][-]{subsection.4.4.3}{Comparison}{section.4.4}% 51
+\BOOKMARK [2][-]{subsection.4.4.4}{Implementation}{section.4.4}% 52
+\BOOKMARK [1][-]{section.4.5}{Use Cases}{chapter.4}% 53
+\BOOKMARK [2][-]{subsection.4.5.1}{Construction sites in Piedmont \(\0431\)}{section.4.5}% 54
+\BOOKMARK [2][-]{subsection.4.5.2}{French Genealogy \(\0432\)}{section.4.5}% 55
+\BOOKMARK [2][-]{subsection.4.5.3}{Sociology thesis in France}{section.4.5}% 56
+\BOOKMARK [1][-]{section.4.6}{Formative Usability Study}{chapter.4}% 57
+\BOOKMARK [2][-]{subsection.4.6.1}{Feedback}{section.4.6}% 58
+\BOOKMARK [1][-]{section.4.7}{Discussion}{chapter.4}% 59
+\BOOKMARK [1][-]{section.4.8}{Conclusion and Future Work}{chapter.4}% 60
