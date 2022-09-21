@@ -75,17 +75,19 @@ As the average size of datasets keeps growing, exploratory tools are often neede
 %Social scientists also often want to gain insight with the help of statistical and machine learning methods, that visualization only can not provide.
 More recent visual exploration interfaces also incorporate automatic analytical tools along with graphical displays, letting users apply data mining algorithms directly in the exploratory loop.
 This coupling of visualization and data mining has been defined as Visual Analytics (VA) and is still undergoing lots of research.
-Keim and al.\ define it as ``a combination of automatic and visual analysis methods with a tight coupling through human interaction in order to gain knowledge from data'' \cite{keimVisualAnalyticsDefinition2008}. \autoref{fig:keim-va} shows an abstract representation of the VA process.
+Keim and al.\ define it as ``a combination of automatic and visual analysis methods with a tight coupling through human interaction in order to gain knowledge from data'' \cite{keimVisualAnalyticsDefinition2008}.
 
-%\begin{figure}
-%    \centering % avoid the use of \begin{center}...\end{center} and use \centering instead (more compact)
-%    \includegraphics[width=1\textwidth]{static/figures/RelatedWork/Keim-VisualAnalytics.png}
-%    \caption{Abstraction of the VA process. It is characterized by continuous interactions between the data, visualizations, models, and knowledge. Image from \cite{keimVisualAnalyticsDefinition2008}.}
-%    \label{fig:keim-va}
-%\end{figure}
+\begin{figure}
+    \centering % avoid the use of \begin{center}...\end{center} and use \centering instead (more compact)
+    \includegraphics[width=1\textwidth]{static/figures/RelatedWork/TULIP}
+    \caption{TULIP software designed for application-independant network visual analytics\cite{auberTULIP2017}. The view shows a dataset among multiple interactive coordinated views. Users can also apply data mining algorithms on the data to extract interesting patterns.}
+    \label{fig:RW-tulip}
+\end{figure}
 
 It is defined around the generation of knowledge using visualizations and models of the data, that the user generates and explores using interaction.
-VA systems have been developed in various empirical domains, such as biology, astronomy, engineering, and social sciences, as it allow to rapidly gain insight on the structure of various potentially large dataset, while generating and refuting hypotheses. %but are nonetheless not used by the majority of application scientists.
+VA systems have been developed in various empirical domains, such as biology, astronomy, engineering, and social sciences, as it allow to rapidly gain insight on the structure of various potentially large dataset, while generating and refuting hypotheses.
+\autoref{fig:RW-tulip} shows the TULIP system, a \va system developed for the analysis of network data.
+%but are nonetheless not used by the majority of application scientists.
 %Indeed, there are currently debates on the roles of EDA and VA in the scientific process, as exploratory findings do not have the same level of proof than statistical results coming from the hypothetico-deductive model.
 %\eda and \va are nevertheless efficient tools to refute and generate hypothesis, especially with the ever-increasing amount of stored data.
 
@@ -97,23 +99,39 @@ VA systems have been developed in various empirical domains, such as biology, as
 
 
 
-\section{Social History}\label{sec:historical-network-research}
+\section{Quantitative Social History}\label{sec:historical-network-research}
 
-If Sociology and Anthropology started to use network concepts and methods rapidly in the 1950s, it was not until the 1980s that historians started to use this type of methodology.
-Yet, historians started to use quantitative methods in the 1960s, with the rise of social history, by extracting information from historical textual documents and studying them with statistical methods.
-When seeing the potential of SNA concepts for historical purposes, historians started to extract the relational information contained in documents to study historical social phenomena using the power of networks and methods already developed in SNA.
+
+Social History is a branch of history which focus on the study of socio-economic aspect of past societies.
+Charles Tilly argues that its goal is to ``(i) documenting large structural changes, (2) reconstructing the experiences of ordinary people in the course of those changes, and (3) connecting the two'' \cite{tilly1984retrieving}.
+If the purpose of social history remained the same across time, methods and formalisms have evolved since its beginning in the 1930s.
+Specifically, the rise of computer science led to the development of quantitative history methods in the 1960s---now often referred as Digital Humanities---which brought new ways of grounding results in numbers and quantitative models, instead of solely relying on qualitative inspection and citation of historical documents \cite{haskinsUnderstandingQuantitativeHistory2011}.
+We discuss in this section the evolution of Social History from its birth to the use of more recent quantitative approaches.
+
+
+%First social history studies emphasized the methodic extraction of historical documents from archives to ground results in the reality of the documents.
+%Following the rise of computer science, historians started to use quantitative methods in the 1960s on data extracted from historical documents.
+
+
+%If Sociology and Anthropology started to use network concepts and methods rapidly in the 1950s, it was not until the 1980s that historians started to use this type of methodology.
+%Yet, historians started to use quantitative methods in the 1960s, with the rise of social history, by extracting information from historical textual documents and studying them with statistical methods.
+%When seeing the potential of SNA concepts for historical purposes, historians started to extract the relational information contained in documents to study historical social phenomena using the power of networks and methods already developed in SNA.
 
 
 \subsection{History, Social History and Methodology}\label{subsec:history-and-social-history}
 
-The concept of History is hard to define as its practice and cutomes highly evolved through time \cite{prost2014}.
-History of a given time can be characterized by the different historical work produces at that time.
-However, the work of the historians always focused on the collection and study of historical documents, to characterize the past.
+The concept of History is hard to define as its practice and codes highly evolved through time.
+Prost write that ``History is what historians do. The discipline called history is not an eternal essence, a Platonic idea. It is a reality that is itself historical, i.e. situated in time and space, carried out by men who call themselves historians and are recognized as such, received as history by various publics \cite{prost2014}.''
+Retrospectively, History of a given time can thus be characterized by the different historical work produces at that time.
+Nonetheless, historians always focused on the collection and study of historical documents, to characterize the past.
 As Langlois and Seignobos write, ``The search for and the collection of documents is thus a part, logically the first and most important part, of the historian's craft'' \cite{langloisIntroductionAuxÉtudes2014}.
 History emerged as a field with its own rules, conventions and journals in the 1880s from faculties of letters, to counterbalance previous history works which were judged as too ``literary'' \cite{noirielNaissanceMétierHistorien1990}.
-History can be seen through two facets: one is societal, and serves creating a shared story for the country and a sense of unity to its citizens.
-Antoine Prost says that ``it's through history than France thinks itself'' (translated from french) \cite{prost2014}.
-The second facet of history constitute a methodology to describe the past in a rigorous and scientific way, with proofs.
+
+History can be seen through two facets: political and methodological.
+The former approach serves to create a shared story for the country and a sense of unity to its citizens.
+Antoine Prost says that ``it's through history than France thinks itself''\cite{prost2014}.
+%It is closely related to political power
+The latter aspect of history constitute a methodology to describe the past through methodic inspection of historical sources, in aim of minimizing possible bias.
 For this, historians rely on historical documents that they leverage to infer dated facts about the past (the temporal aspects of conclusions is always central to the historian work).
 The textual sources are thus at the core of the work of the historians, and having to cite historical documents and previous peers work to new claims is primordial to be considered as rigorous History work.
 However, even if those two aspects are well characterized (temporal aspect of the work and its relationships to sources), methodological and epistemological facets (how historians should read and analyze their sources, how to cite them, what to report/not report etc.) of History have not been studied and discussed for a long time, until the end of the 1980s.
@@ -126,13 +144,12 @@ At the start, history was mainly event-centered, and was focusing in characteriz
 This narrative approach to history has been criticized for its open interpretation of historical documents, which can introduce bias from the authors \cite{bourdieuRapportsEntreSociologie1995}.
 %Social History emerged as a sub discipline of history with a focus on the social ascpect of history, trying to link political events (such as a revolution) to
 
-In the 1930s, March Bloch and Lucien fèbvre detached from traditional history by creating the ``Annales school'' (Ecole des Annales) which tried to replace the human as a component of a broader sociological, political and economic system with influences between each other \cite{burkeHistorySocialTheory2005}.
+In the 1930s, March Bloch and Lucien fèbvre detached from traditional history by creating the ``Annales school'' (Ecole des Annales) which tried to replace the human as a component of a broader sociological, political, and economic system with influences between each other \cite{burkeHistorySocialTheory2005}.
 They strongly advised to exhaustively search from archives, to ground historical results in documents, texts and numbers.
-This new way of studying past events and societies became successful in a profession in crisis, by bringing a new lens of study on various societal subjects more grounded in the real and with a better intelligibility.
+This new way of studying past events and societies became successful in a profession in crisis, by bringing a new lens of study on various societal subjects more grounded in sources and with a better intelligibility.
 This school of thought can be seen as one of the biggest milestones for Social History, a branch of History which focuses on the socio-economical aspects of societies and their changes through time, rather than an event-centric view of History.
 For example, in his thesis, Ernest Labrousse---a well known figure of Social History---tries to describe and explain the economic crisis of France at the end of the ``Ancien Régime''\footnote{The ``Ancien Régime'' is an historical period of France which starts from the beginning of the reign of the Bourbon house at 1589 until the Revolution in 1789.} through the evolution of the economic power of different social groups such as farmers, workers, property owners etc\. instead of solely describing memorable facts about the period \cite{labrousse1990crise}.
 Social History continued to evolve since the 1930s, introducing new methods and concepts, but always with the goals to describe periods and historical facts through a sociological lens and with a strong focus on sources and traceability.
-
 
 
 \subsection{Quantitative History}\label{subsec:quantitative-history}
@@ -402,7 +419,7 @@ Similarly, Automatic clustering capabilities are provided letting users find int
     \caption{Gephi \cite{Gephi} interface. The network is represented with a node-link diagram. Users can interact on the visualization and encode node and links visual attribute (color, size etc.) with network measures computed directly in the interface, such as the node degree, or clustering results.}
     \label{fig:gephi}
 \end{figure}
-More complex VA interface have been proposed to explore social networks with complex interactions and more complex network models such as GUESS and the Vistorian.
+More complex VA interface have been proposed to explore social networks with complex interactions and more complex network models such as GUESS\cite{adarGUESSLanguageInterface2006} and the Vistorian\cite{serranomolineroUnderstandingUseVistorian2017}.
 These interfaces let social scientists explore their data with other interactions such as filtering, and often propose multiple coordinated views allowing to see the data through different lens.
 For example, the Vistorian can show the data using a node-link diagram, a matrix, a map, and arc diagrams.
 %These interfaces are usually aimed at more complex model than simple network,
@@ -421,39 +438,3 @@ It allows an analysis of the documents and their mentions of entities (persons, 
 Using such model allow to rapidly see errors and inconsistencies in the documents annotations, while still following complex analyzes.
 
 Finally, more work is still to be done on social network VA tools, to provide more guidance and power to social scientists while doing their analysis, and to help them to do easier back and forth between their analysis and the annotation, network modeling, and cleaning steps, as they play a big role in the historian workflow.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======
-Finally, more work is still to be done on social network VA tools, to provide more guidance and power to social scientists while doing their analysis, and to help them to do easier back and forth between their analysis and the annotation, network modeling, and cleaning steps, as they play a big role in the historian workflow.
->>>>>>> origin/overleaf-2022-09-13-0755

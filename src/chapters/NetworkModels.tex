@@ -1,9 +1,5 @@
 \chapter{HSNA Process and Network Modeling}\label{ch:hsna-process-and-network-modeling}
 
-
-
-
-
 We describe in this chapter the HSNA workflow followed by social historians, to shed light on their process and summarize recurring pitfalls to identify how VA could help them in this process.
 Specifically, we discuss in depth the network modeling step, as the choice of the network model influence the overall process, especially the possibilities of the analysis.
 %We describe the different network models used in HSNA and discuss their traceabikity, simplicity and relationship to reality.
@@ -31,25 +27,25 @@ Tools for social network visualization tend to ignore the context in which the n
 Yet, practitioners of social history need to generate many networks from the same documents/sources to visualize and analyze them.
 % and need to maintain the provenance from documents to analyzes and back.
 % In this article, we explain why and how effective tools for supporting Historical Social Network Analysis~\cite{wetherell_historical_1998} (HSNA) should model social networks in multiple steps to support three essential principles: \emph{traceability}, connection to \emph{reality}, and \emph{simplicity}.
-In this chapter, after describing and characterizing the workflow of Historical Social Network Analysis~\cite{wetherellHistoricalSocialNetwork1998} from our collaborations with social historians, we explain why and how effective tools for supporting this process should model social networks in multiple steps to support three essential principles: \emph{traceability}, connection to \emph{reality}, and \emph{simplicity}.
+In this chapter, after describing and characterizing the workflow of \hsna~\cite{wetherellHistoricalSocialNetwork1998} from our collaborations with social historians, we explain why and how effective tools for supporting this process should model social networks in multiple steps to support three essential principles: \emph{traceability}, \emph{document reality}, and \emph{simplicity}.
 These principles emerged from joint experiences as historians and computer scientists while collaborating on multiple projects.
 
-Social historians' goal is to characterize socio-economic phenomena and their dynamics in a restricted period and place of interest and to see how individual people of that time lived through those changes.
-For this, they rely on historical documents such as conversational letters, censuses, and marriage acts.
-They usually extract qualitative and quantitative information from an identified corpus of documents, to then make conclusions on interesting socio-economic topics such as migrations, business dynamics, education, and kinship.
+Social historians' goal is to characterize socio-economic phenomena and their dynamics in a restricted period and place of interest and to see how individual people of that time lived through those changes\cite{tilly1984retrieving}.
+For this, they rely on historical documents---such as conversational letters, censuses, and marriage acts---that they inspect in depth to next extract qualitative and quantitative information allowing them to answer their research questions.
+
+%They typically extract qualitative and quantitative information from an identified corpus of documents, to then make conclusions on socio-economic topics such as migrations, business dynamics, education, and kinship.
 %For doing this, historians can apply Social Network Analysis (SNA), a method---sometimes referred to as a paradigm---which consists in modeling the social relationships between a set of entities---usually individuals---into a network.
 %Much work has been done to adapt SNA to the context of historical document exploitation, and although several approaches coexist they can be brought together under the banner of Historical Social Network Analysis~\cite{wetherellHistoricalSocialNetwork1998} (HSNA) or Historical Network Research~\cite{kerschbaumerPowerNetworksProspects2015} (HNR).
-For doing this, historians can apply HSNA methods, by modeling the social relationships between a set of entities---usually individuals---into a network. %that they analyze, to make socio historical conclusions.
-Historians therefore collect documents, annotate them, construct a network from the annotations that they finally analyze and visualize to validate or find new hypotheses.
-Unfortunately, the process is often linear, and it is common that, when visualizing their network, historians spot errors and inconsistencies in the annotations that they could have fixed if the process was iterative.
-
-Moreover, historical documents are often complex and the annotation and modeling process can be done in many ways.
+To study relational social structures where individuals influence each others such as families, companies, and institutions, historians can rely on \hsma by modeling the social relationships between a set of entities---usually individuals---into a network.
+%Historians therefore collect documents, annotate them, construct a network from the annotations that they finally analyze and visualize to understand the structural aspect of their object of study by validating and/or generating new hypotheses.
+However, the process leading to the final network from the raw documents is often linear, and it is common that, when visualizing their network, historians spot errors and inconsistencies in the network structure that they could have fixed if the process was more iterative\cite{alkadi2022}.
+Moreover, historical documents are often complex and the annotation, and modeling process can be done in many different ways, concerning what to annotate from the documents\cite{lemercierBackSourcesPracticing2021} and how to model the annotation in a network\cite{cristofoliAuxSourcesGrands2008}.
 Several network models have been proposed ranging from simple and specific ones like co-occurrence networks to more general and complex ones such as multilayer networks and knowledge graphs.
 Simple models allow answering specific questions and are easy to manipulate but are often too simplistic and may distort the information contained in the documents.
 Moreover, they often break the traceability from the analysis to the original documents, making the communication of findings less reproducible and the process of cleaning the annotations complicated.
-Indeed, errors and mismatches often occur in the annotation process, for example, due to entity disambiguation problems.
+Indeed, errors and mismatches often occur in the annotation process, for example, due to entity disambiguation problems\cite{diesnerImpactEntityDisambiguation2015}.
 On the contrary, too complex models are complicated to visualize and analyze, and historians do not always have the tools to create them properly.
-In this chapter, we propose to model historical datasets as \modelplural, where both persons and documents are modeled as nodes with attributes.
+In this chapter, we answer \qone (how to model historical documents into analyzable network with the right balance between expressivity and simplicity) by proposing to model historical documents as \modelplural, where both persons and documents are modeled as nodes with attributes and the links represent both individuals' mentions in the documents and their social roles in the event witnessed by the documents (such as witness in a marriage act).
 While this model is simple enough for creation and inspection, it allows tracing back the entities of the network to the original sources for a continuous annotation process and still accurately models the social relationships mentioned in the documents.
 Historians can therefore use this model to simultaneously find errors and inconsistencies in their annotation process---allowing them easier back and forth between the annotation and analysis steps---while starting a first analysis and exploration of the data to answer their sociological questions.
 The traceability to the original sources also makes the communications of findings more replicable and transparent.
@@ -64,40 +60,121 @@ The traceability to the original sources also makes the communications of findin
 % Then, after describing the most used network models in HSNA, we formalize a network model which satisfies \textit{reality} and \textit{traceability} properties, and
 % which models well the majority of historical sources we encountered with their complexity: the \model. We give real world examples on how this model has been used to follow HSNA pipelines, from data preparation to visual analysis using a visual query system. From these examples, we identify three problems which arise when doing a network projection but not when using \modelplural: no loss of information, no duplication, and no distortion.
 
+%
+%\section{Related Work}
+%
+%Since we already elaborated on the related work of SNA, HNR, network modeling, and social network visualization in \autoref{ch:related-work}, we only discuss in this section the related work concerning historians' workflow and methodology descriptions.
+%
+%The essence of the historical discipline is based on a critical approach of sources and involves considering peers' work.
+%Traditional approaches to history often focus on the construction of a narrative, without necessarily adopting a systematic and problematized approach to the exploitation of original sources.
+%Social history and the ``Annales School'' proposed a new approach to history, by trying to describe and characterize socio-economic phenomena of the past by rigorously extracting information from historical documents and making conclusions from them.
+%
+%
+%
+%With similar aims, Glaser and Strauss developed the ``Grounded Theory''~\cite{glaserDiscoveryGroundedTheory2010} as a methodology for the humanities to build hypotheses and theories by solely studying and categorizing real-world observations, without starting from prior knowledge and predefined categories.
+%Later on in the 1960s, quantitative methods started to be used in history, providing statistical and later computer-supported tools to aid historians in grounding their analysis in mathematical models and results.
+%Unfortunately, the lack of methodology and understanding between the two worlds led to many criticisms by historians pointing to using wrong metrics, simplifying categories, and disconnections between the original documents and analysis~\cite{karila-cohenNouvellesCuisinesHistoire2018, lemercierBackSourcesPracticing2021}.
+%Quantitative history has been showed to be useful when used properly and when not focusing only on numbers, and several books have been published on how to efficiently use statistical methods such as summarizations, correlations, statistical distributions, statistical testing, time series etc.~\cite{hudsonHistoryNumbersIntroduction2016, lemercierQuantitativeMethodsHumanities2019}.
+%Similarly, the use of network science for historical aims increased in recent years, and a lot or resources exist on how to use network methods and measures for historical research~\cite{lemercier12FormalNetwork2015, kerschbaumerPowerNetworksProspects2015}.
+%
+%However, little work has been done on describing and formalizing the process before the analysis part for a quantitative and network research workflow.
+%Indeed, if it is central to know how to manipulate statistical and network concepts and methods when following this kind of methodology, it is as important if not even more to follow a correct and rigorous workflow to generate the data we plan to analyze beforehand.
+%The process to generate a clean quantitative or network dataset from historical sources is difficult and requires several data acquisition, annotation, and cleaning steps.
+%Social analysts are not always trained on how to do these steps effectivity, which can lead to errors, inconsistencies, and mismatches between the chosen data models and the historical questions~\cite{alkadi2022}.
+%Karila-Cohen and al.\ provide some advice on how to annotate historical documents with the aim of using quantitative methods~\cite{karila-cohenNouvellesCuisinesHistoire2018} and prone that the annotation and analytical processes should not be dispatched between several persons, as both usually influence each other.
+%Dufournaud describes her workflow in depth when studying the socio-economic status of women in France in the 16th and 17th centuries, which she splits into three steps: \textit{data collection}, \textit{data processing}, and \textit{data analysis}~\cite{dufournaudCommentRendreVisible2018}.
+%She provides the tools and methodology she used to annotate her data, providing transparency on her historical analysis and methodological resources.
+%Cristofoli discusses the network modeling problem when following an HSNA and highlights the fact that the same historical documents can be modeled in different ways~\cite{cristofoliAuxSourcesGrands2008}.
+%Historians should be aware of this and choose a network model which fits their analytical goals.
+
+
 
 \section{Related Work}
 
-Since we already elaborated on the related work of SNA, HNR, network modeling, and social network visualization in \autoref{ch:related-work}, we only discuss in this section the related work concerning historians' workflow and methodology descriptions.
+Since we already elaborated on the related work of SNA, network modeling, and social network visualization in \autoref{ch:related-work}, we only discuss in this section the related work concerning historians' methodology and workflows.
+
+%\subsection{Methodologies and formalisms}
+
+\subsection{Historian methodology}
+
+%The essence of the historical discipline is based on a critical approach of sources and involves considering peers' work.
+%Traditional approaches to history often focus on the construction of a narrative, without necessarily adopting a systematic and problematized approach to the exploitation of an exhaustive set of historical documents.
+%Social history and the ``Annales School'' shifted the focus from a narrative approach of History focused on individuals, towards exhaustive inspection of documents to make sociological conclusions on groups and organizations.
+%Historians therefore started to extract numbers and categories from their sources to point to social and economical aspects of societies. \todo{example}
+%This type of practice logically led historians to use quantitative methods with the rise of computer science in the 1960s.
+
 
 The essence of the historical discipline is based on a critical approach of sources and involves considering peers' work.
-Traditional approaches to history often focus on the construction of a narrative, without necessarily adopting a systematic and problematized approach to the exploitation of original sources.
-Social history and the ``Annales School'' proposed a new approach to history, by trying to describe and characterize socio-economic phenomena of the past by rigorously extracting information from historical documents and making conclusions from them.
+Traditional approaches to history often focus on the construction of a narrative, without necessarily adopting a systematic and problematized approach to the exploitation of an exhaustive set of historical documents\cite{tillyObservationsSocialProcesses2004}.
+With the development of social and quantitative history, historians now have a panoply of methods to exhaustively extract quantitative data from their sources and analyzing it to ground their results in verifiable claims.
+Many historians criticized this computational aspect of history\cite{lepetitHistoireQuantitativeDeux1989, fogelLimitsQuantitativeMethods1975}, pointing that it would lead to errors and missing the core content of historical sources.
+However, using quantitative approaches and formalisms are not exclusive with having a deep understanding of the documents and their context, nor building a narrative on top of their quantitative analysis.
+Good historical work can in fact be described as a combination of the two \cite{karila-cohenNouvellesCuisinesHistoire2018}, as Tilly says ``Formalisms play their parts in the space between the initial collection of archival material and the final production of narratives. In my own historical research, formalisms figure prominently from early in the ordering of evidence to late in its analysis; [...] As it happens, many other historians rush from sources to reasoned narratives without pausing to employ formalisms, or even to reflect very self-consciously on the logical structure of their arguments, hence on what the evidence should show if their arguments are correct'' \cite{tillyObservationsSocialProcesses2004}.
+Historians have a panoply of methods and formalisms they can leverage to ground their narratives in concrete comparable results, such as serial analysis, tabular analysis, classical statistical treatments, and network analysis.
 
-With similar aims, Glaser and Strauss developed the ``Grounded Theory''~\cite{glaserDiscoveryGroundedTheory2010} as a methodology for the humanities to build hypotheses and theories by solely studying and categorizing real-world observations, without starting from prior knowledge and predefined categories.
-Later on in the 1960s, quantitative methods started to be used in history, providing statistical and later computer-supported tools to aid historians in grounding their analysis in mathematical models and results.
-Unfortunately, the lack of methodology and understanding between the two worlds led to many criticisms by historians pointing to using wrong metrics, simplifying categories, and disconnections between the original documents and analysis~\cite{karila-cohenNouvellesCuisinesHistoire2018, lemercierBackSourcesPracticing2021}.
-Quantitative history has been showed to be useful when used properly and when not focusing only on numbers, and several books have been published on how to efficiently use statistical methods such as summarizations, correlations, statistical distributions, statistical testing, time series etc.~\cite{hudsonHistoryNumbersIntroduction2016, lemercierQuantitativeMethodsHumanities2019}.
-Similarly, the use of network science for historical aims increased in recent years, and a lot or resources exist on how to use network methods and measures for historical research~\cite{lemercier12FormalNetwork2015, kerschbaumerPowerNetworksProspects2015}.
-
-However, little work has been done on describing and formalizing the process before the analysis part for a quantitative and network research workflow.
-Indeed, if it is central to know how to manipulate statistical and network concepts and methods when following this kind of methodology, it is as important if not even more to follow a correct and rigorous workflow to generate the data we plan to analyze beforehand.
-The process to generate a clean quantitative or network dataset from historical sources is difficult and requires several data acquisition, annotation, and cleaning steps.
-Social analysts are not always trained on how to do these steps effectivity, which can lead to errors, inconsistencies, and mismatches between the chosen data models and the historical questions~\cite{alkadi2022}.
-Karila-Cohen and al.\ provide some advice on how to annotate historical documents with the aim of using quantitative methods~\cite{karila-cohenNouvellesCuisinesHistoire2018} and prone that the annotation and analytical processes should not be dispatched between several persons, as both usually influence each other.
-Dufournaud describes her workflow in depth when studying the socio-economic status of women in France in the 16th and 17th centuries, which she splits into three steps: \textit{data collection}, \textit{data processing}, and \textit{data analysis}~\cite{dufournaudCommentRendreVisible2018}.
-She provides the tools and methodology she used to annotate her data, providing transparency on her historical analysis and methodological resources.
-Cristofoli discusses the network modeling problem when following an HSNA and highlights the fact that the same historical documents can be modeled in different ways~\cite{cristofoliAuxSourcesGrands2008}.
-Historians should be aware of this and choose a network model which fits their analytical goals.
+However, formalisms have to be used wisely and with a critical vision of the documents and their context, to not fall into simplifications, anachronisms, and errors which are pertinent critics of quantitative history\cite{lemercierQuantitativeMethodsHumanities2019, lemercierBackSourcesPracticing2021}.
+%Such formalisms often demand categorization and aggregation of the original documents, which can result in distortion and simplification of the original documents content \cite{lemercierQuantitativeMethodsHumanities2019}.
+Most historical work leverage several methods in the same study to support their claims through different qualitative and quantitative results \cite{petzCombiningNetworkResearch2022}.
+The level of plausibility of a claim increase or decrease depending on if the different evidence point to similar results or not.
+%If several different evidence point to the same fact, the level of plausibility of the claim increase, even without uing formal statistical testing.
+Similarly, historians often work on small populations or specific individuals---as it is the case with microhistory studies\cite{ginzburgMicrohistoire1981}---which can results in complications for generalization.
+Only after studying several similar individuals or groups, historians are able to generalize, and to point to exceptions.
+For example, by comparing several jewish commercial communities in Europe during the first half of the 18th century, Trivellato have been able to generalize to what is common to those groups (they have been trading between them and with outer ethnic groups) and what is specific to each (such as their business strategies) \cite{trivellatoThereFutureItalian2011}.
+%Most historical work do not go to the level of statistical testing to verify their claims, but often combine several formalisms with a narrative to refute or support a hypothesis.
+%As the objects of study are often on small to medium groups, the combination of several studies lead to the increase or decrease of level of plausibility of different claims.
 
 
-%HSNA, which can be seen as a sub-component of quantitative history has been criticized for similar reasons~\cite{lemercier12FormalNetwork2015}.
-%Still, the usage of networks for historical analysis provided some interesting results and classical works~\cite{padgettRobustActionRise1993}, meaning that a clearer and more rigorous methodology with simple tools grounded in the historian workflow and sources could improve the methods of the field.
+%\todo{Grounded Theory}
+
+
+
+\subsection{Historian Workflows}
+
+%Many approaches have been introduced to analyze historical documents through various formalisms to analyze their content through quantification.
+Many quantitative methods and formalisms are available for historians to inspect their sources in the aim of making historical claims.
+Several textbooks describe and explain to social scientists and students who do not have formal computer science training in what consist these methods (statistical regression, Chi-squared test, network analysis, etc.) and how to practically use those with softwares and programming language \cite{floudIntroductionQuantitativeMethods2013}.
+However, the process leading from the sources to the numeric artefacts (a table, a network, a timeline) have not been described thoroughly in the literature, especially with concrete examples, and is often not presented in scientific publications of concrete use cases.
+Yet, the process leading from the documents to analyzable data requires social historians to make several annotation, encoding and modeling decision, concerning \emph{what} to extract from the source and \emph{how} to encode it.
+This process is tedious and requires data acquisition, annotation, encoding, modification with continuous back and forth between the different steps \cite{alkadi2022}.
+%The process to generate a clean quantitative or network dataset from historical sources is difficult and requires several data acquisition, annotation, and cleaning steps.
+%Social analysts are not always trained on how to do these steps effectivity, which can lead to errors, inconsistencies, and mismatches between the chosen data models and the historical questions~\cite{alkadi2022}.
+This is a critical step as it can lead to simplifications, anachronism, distortion, or data which do not allow to answer original or new hypotheses \cite{karila-cohenNouvellesCuisinesHistoire2018, lemercierQuantitativeMethodsHumanities2019}.
+Lemercier and al. give guidelines on how to encode information from historical documents to prevent introducing bias, by having a critical view on the documents \cite{lemercierBackSourcesPracticing2021}.
+They emphasize the importance of the input phase of research and advise to copy the first documents by hand while characterizing them the most exhaustive and factual way, without imposing categorization.
+This explorative step let historians familiarize with the content of the document, leading to a better view of what to encode to answer their research questions and sometimes to the formulation of new hypotheses.
+For example, in their project on the social and geographical trajectories of Jews in Lubartów\cite{zakrzewski1932PopulationRegister2020}, a village in Poland, the team noted the mean of writing inside the register documents (pen, pencil, ink, etc.) they were studying.
+This information  allowed them to conclude that the inscription ``expelled'' in pencil was probably added during the second word war by germans to denote exported jews in the extermination camps.
+If historians decide to apply network analysis, they also have to decide how to model their network, based on the entities they can extract from their documents and their research questions.
+Cristofoli discusses the network modeling problem when following a network analysis and highlights the fact that the same historical documents can be modeled in different ways~\cite{cristofoliAuxSourcesGrands2008}, which can result in mismatches between the network shape and the research questions.
+Dufournaud present her quantitative and network workflow when studying the economical role of women during the 16th and 17th centuries in the city of Nantes, that she splits in three steps: data collection, data processing, and data analysis \cite{dufournaudCommentRendreVisible2018}.
+
+
+
+
+
+
+
+%With similar aims, Glaser and Strauss developed the ``Grounded Theory''~\cite{glaserDiscoveryGroundedTheory2010} as a methodology for the humanities to build hypotheses and theories by solely studying and categorizing real-world observations, without starting from prior knowledge and predefined categories.
+%Later on in the 1960s, quantitative methods started to be used in history, providing statistical and later computer-supported tools to aid historians in grounding their analysis in mathematical models and results.
+%Unfortunately, the lack of methodology and understanding between the two worlds led to many criticisms by historians pointing to using wrong metrics, simplifying categories, and disconnections between the original documents and analysis~\cite{karila-cohenNouvellesCuisinesHistoire2018, lemercierBackSourcesPracticing2021}.
+%Quantitative history has been showed to be useful when used properly and when not focusing only on numbers, and several books have been published on how to efficiently use statistical methods such as summarizations, correlations, statistical distributions, statistical testing, time series etc.~\cite{hudsonHistoryNumbersIntroduction2016, lemercierQuantitativeMethodsHumanities2019}.
+%Similarly, the use of network science for historical aims increased in recent years, and a lot or resources exist on how to use network methods and measures for historical research~\cite{lemercier12FormalNetwork2015, kerschbaumerPowerNetworksProspects2015}.
+%
+%However, little work has been done on describing and formalizing the process before the analysis part for a quantitative and network research workflow.
+%Indeed, if it is central to know how to manipulate statistical and network concepts and methods when following this kind of methodology, it is as important if not even more to follow a correct and rigorous workflow to generate the data we plan to analyze beforehand.
+%The process to generate a clean quantitative or network dataset from historical sources is difficult and requires several data acquisition, annotation, and cleaning steps.
+%Social analysts are not always trained on how to do these steps effectivity, which can lead to errors, inconsistencies, and mismatches between the chosen data models and the historical questions~\cite{alkadi2022}.
+%Karila-Cohen and al.\ provide some advice on how to annotate historical documents with the aim of using quantitative methods~\cite{karila-cohenNouvellesCuisinesHistoire2018} and prone that the annotation and analytical processes should not be dispatched between several persons, as both usually influence each other.
+%Dufournaud describes her workflow in depth when studying the socio-economic status of women in France in the 16th and 17th centuries, which she splits into three steps: \textit{data collection}, \textit{data processing}, and \textit{data analysis}~\cite{dufournaudCommentRendreVisible2018}.
+%She provides the tools and methodology she used to annotate her data, providing transparency on her historical analysis and methodological resources.
+%Cristofoli discusses the network modeling problem when following an HSNA and highlights the fact that the same historical documents can be modeled in different ways~\cite{cristofoliAuxSourcesGrands2008}.
+%Historians should be aware of this and choose a network model which fits their analytical goals.
 
 
 \section{Historical Social Network Analysis Workflow}
 
 
-From the literature and our own projects of HSNA we conducted during the last years in collaborations with historians, we propose an HSNA workflow divided into 5 steps: \textit{textual sources acquisition}, \textit{digitization}, \textit{annotation}, \textit{network creation}, and finally \textit{visualization and analysis}.
+From the literature and our own projects of \hsna we conducted during the last three years in collaborations with historians, we propose a formalization of the \hsna workflow divided into 5 steps: \textit{textual sources acquisition}, \textit{digitization}, \textit{annotation}, \textit{network creation}, and finally \textit{visualization and analysis}.
 The workflow is presented in \autoref{fig:HSNA-process} along with potential and recurrent pitfalls.
 
 \begin{figure}
@@ -158,14 +235,14 @@ Unfortunately, the guidelines are not meant to define a canonical annotation and
 % Several softwares can be used for annotation and are usually stored in markups formats such as XML .
 
 \subsection{Network Creation}
-Historians construct a network from the annotations of the documents.
-Usually, all persons mentioned are annotated and will be transformed into network nodes (vertices).
+Historians construct one or multiple networks from the annotations of the documents.
+Typically, all persons mentioned are annotated and are transformed into network nodes (vertices).
 Additional information such as their age, profession, and gender can be stored as node attributes.
 How the network's links are created is not as trivial and can vary from project to project~\cite{alkadi2022}.
 The most straightforward approach is to create a link between every pair of persons mentioned in one document, thus forming a clique motif.
 This is a simplistic heuristic as social relationships can be quite complex, involving more than two persons who can have different roles in the relationship.
-The choice of the network model has a major impact on the future analysis and \textbf{may add bias if chosen loosely (P6).}
-More complex models have been proposed in the literature such as weighted, dynamic, bipartite, and layered networks. % We discuss them more in depth in \autoref{sec:modeling}.
+The choice of the network model has a major impact on the future analysis and \textbf{may add bias if chosen loosely (P6)}, such as the creation of network structural artefacts when using network projections\cite{cristofoliAuxSourcesGrands2008}.
+More complex models have been proposed in the literature such as weighted, dynamic, bipartite, and layered networks, but can be hard to manipulate and visualize. % We discuss them more in depth in \autoref{sec:modeling}.
 
 % A more factual approach consists in differentiating the roles of the persons in the documents and modeling them as link types. For example, for marriage acts, the witnesses will be linked with the spouses with a \textit{witness} link, while the spouses will be linked together with a \textit{spouse} link. However, there are often several possible representations, as the social relationships include several people and are difficult to represent as pairwise ties. For example, witnesses can be linked to one, or both of the spouses depending on the analysis goals. If a priest is leading the ceremony, he could be linked to the spouses, or the spouses and the witnesses.
 % Furthermore, for both examples, there is a loss of information concerning the precise events and we may not retrieve who was mentioned in the exact same documents from the network alone. For example, if someone marry twice, we may not know which marriage the witnesses are from.
@@ -219,7 +296,7 @@ Moreover, visualizing the network very often highlights errors and artifacts of 
 Historians then have to correct or change their annotations, even though it is a very tedious and demanding process to repeatedly switch back and forth between the network and the annotated documents.
 Several network models make the task harder as they do not directly represent the documents, and it is thus difficult to relate a network entity to a specific document and annotation.
 Therefore, we believe that more visual analytics tools should support social scientists in annotating and modeling their documents to make the HSNA process less linear by allowing easier back and forth between the annotation, modeling, and visualization steps.
-Network models satisfying  \emph{traceability}, \emph{reality} and \emph{simplicity} properties would mitigate those problems by allowing to navigate more easily between the network and the documents while still modeling well the social relationships mentioned in the sources and being easy enough to visualize and manipulate for analytical and cleaning goals.
+Network models satisfying  \emph{traceability}, \emph{document reality}\footnote{We chose the term ``document reality'' over simply ``reality'' after a conversation with an historian to highlight the fact the historical documents do not describe factually the reality and reflect the subjective bias of the context in which the person wrote them\cite{karila-cohenNouvellesCuisinesHistoire2018}. The content of the documents therefore have to be modeled by taking into account this context, which can reveal interesting behaviours and structural patterns. See \cite{lemercierBackSourcesPracticing2021} for specific examples.} and \emph{simplicity} properties would mitigate those problems by allowing to navigate more easily between the network and the documents while still modeling well the social relationships mentioned in the sources and being easy enough to visualize and manipulate for analytical and data modification goals.
 %the data and detect potential errors and inconsistencies.
 
 \subsection{Network Models}
@@ -246,12 +323,6 @@ We describe here the most used network models in HSNA along with more recent one
     \item \textbf{Knowledge Graphs (KG)\cite{hoganKnowledgeGraphs2021}: } they represent knowledge as triples $(S, P, O)$ where $S$ is a \emph{subject}, $P$ is a \emph{predicate}, and $O$ is an \emph{object}. Everything is encoded with these triples using controlled vocabularies of predicates and rules known as \emph{ontologies}. KG is popular for encoding knowledge on the web, including historical knowledge. However, it is notoriously complex to encode documents using KG due to the complexity of the format and the wide choice of possible ontologies. Most historians are unable to understand KG and even less to use it for annotating a corpus. Since KG are generic, they need complex transformations to be visualized, with no generic system to support historians in taming their high complexity.
 \end{itemize}
 
-\begin{figure}
-    \centering
-    \includegraphics[width=\columnwidth]{static/figures/HSNAProcess/OriginalPaperFigures/models.pdf}
-    \caption{Schematic representations of Different network models used for analyzing historical documents, ordered by complexity and expressiveness}
-    \label{fig:HSNA-network-models}
-\end{figure}
 
 %\autoref{fig:HSNA-network-models} shows a schematic representation of the different network models.
 %We can rank the models given two axes: simplicity/complexity and specificity/expressiveness.
@@ -265,16 +336,25 @@ We describe here the most used network models in HSNA along with more recent one
 %Therefore, we argue that historians should aim to model a network that is simple enough to manipulate, can be traced back to the original sources, and model well the social reality of the documents---i.e. having those three properties: \textit{simplicity}, \textit{traceability}, and \textit{reality}.
 
 
-We argue that historians should aim to model their networks simply enough to be manipulated by them, in a way that entities can be traced back to the sources, and expressive enough to model accurately the social reality of the documents---i.e., having those three properties:  \textit{simplicity}, \textit{traceability}, and \textit{reality}.
+We argue that historians should aim to model their networks simply enough to be manipulated by them, in a way that entities can be traced back to the sources, and expressive enough to model accurately the social reality of the documents---i.e., having those three properties:  \textit{simplicity}, \textit{traceability}, and \textit{document reality}.
 
-Currently, most digital historical projects use unipartite networks (simple, co-occurrence, and multiplex) that are simple and allow answering specific questions, but they do not capture all the complexity of the documents, and social scientists may miss important patterns.
-For example, modeling only co-occurrences of persons in documents remove the variety of social relationships these mentions can refer to.
-Moreover, since documents are not explicit in the unipartite model, it is hard to trace the network entities back to the sources: the traceability property is not satisfied.
-On the other side, multilayer networks and KG allow to model documents as entities and express complex relationships between various other entities they mention.
-These models can be very expressive but are challenging to use for historians, especially without guidelines; without \textit{simplicity}, the \textit{traceability} and \textit{reality} properties can be hard to achieve.
-Moreover, they are difficult to visualize and analyze, especially for social scientists.
+Currently, most digital historical projects use unipartite networks (simple, co-occurrence, and multiplex) that are simple and allow answering specific questions, but they do not capture all the complexity of the documents, resulting in simplifications and distorsions of the structural patterns.
+For example, modeling only co-occurrences of persons in documents remove the variety of social relationships these mentions can refer to\cite{lemercier12FormalNetwork2015}.
+Moreover, since documents are not explicit in the unipartite model, it is hard to trace the network entities back to the sources: the traceability property is not satisfied, meaning that the data is harder to correct and that analyses are less replicable.
+On the other side, multilayer networks and knowledge graphs allow to model documents as entities and express complex relationships between various other entities they mention.
+These models can be very expressive but are challenging to use for historians, especially without guidelines; without \textit{simplicity}, the \textit{traceability} and \textit{document reality} properties can be hard to achieve.
+The lack of simplicity therefore result in difficulties for visualization and analysis, especially for social scientists.
 
-\autoref{fig:HSNA-network-models} shows a schematic representation of the different network models, ranked on simplicity/complexity and specificity/expressiveness axis.
+
+% TODO: maybe to a better figure
+%\begin{figure}
+%    \centering
+%    \includegraphics[width=\columnwidth]{static/figures/HSNAProcess/OriginalPaperFigures/models.pdf}
+%    \caption{Schematic representations of Different network models used for analyzing historical documents, ordered by complexity and expressiveness}
+%    \label{fig:HSNA-network-models}
+%\end{figure}
+
+%\autoref{fig:HSNA-network-models} shows a schematic representation of the different network models, ranked on simplicity/complexity and specificity/expressiveness axis.
 
 
 % \begin{table}
@@ -440,7 +520,6 @@ For example, in the example \pascal in \autoref{tab:models} the time is stored i
 %% Exploring historic datasets modeled as \modelplural allows answering complicated questions both related o the events (here the constructions) and the persons while being able to trace back to the original documents directly in the interface for cleaning purposes.
 
 
-
 Several tools have been designed for visualizing dynamic bipartite networks that can also be considered dynamic hypergraphs~\cite{valdiviaAnalyzingDynamicHypergraphs2021, hyperstorylines}, but few incorporate attributes.
 Moreover, the vast majority of visual analytics tools are solely focused on the analytical part of the data, meaning that the link between the original documents and the hypergraph abstraction is often broken.
 Social scientists therefore always have to do many back and forth between the visual analytics tools and their original documents and the annotation/modeling processes.
@@ -457,7 +536,7 @@ For example, the Vistorian\cite{serranomolineroUnderstandingUseVistorian2017} no
 % However, we think using \modelplural as a first step in the analysis is a good way of stepping in the network domain space while keeping the traceability to the original sources, and can be used easily to create other networks with the help of projections and transformations~\cite{andrei2011porgy}.
 
 Most tools for social network visualization focus solely on the visualization and analysis steps, without considering the whole historical data analysis process, preventing researchers from going back to the original source, and supporting the social analyst in the annotation and modeling steps.
-We think visual analytics tools helping social scientists annotate and model their data with \textit{reality}, \textit{traceability}, and \textit{simplicity} principles in mind are essential to conducting socio-historical inquiries with limited friction, realistic training, and scientific transparency.
+We think visual analytics tools helping social scientists annotate and model their data with \textit{document reality}, \textit{traceability}, and \textit{simplicity} principles in mind are essential to conducting socio-historical inquiries with limited friction, realistic training, and scientific transparency.
 % useful if even more than purely analytical systems and can be an interesting research direction.
 Concerning the network modeling step, \modelplural model well the majority of structured historical documents such as marriage acts, birth certificates, and business contracts as these documents refer to specific events (birth, marriage, transaction, etc).
 The document nodes, therefore, represent both the textual documents and the specific events.
@@ -486,11 +565,12 @@ We show what would look like the resulting networks \autoref{fig:HSNA-doc-vs-eve
 
 \section{Conclusion}
 
-HSNA is a complex process that starts by collecting historical documents and ends with elaborating high-level sociological conclusions.
-Historians support their conclusions by modeling individuals' social relationships extracted from the documents and analyzing the resulting networks.
-We tried to shed light on this process by dividing it into 5 steps and describing recurrent pitfalls we encountered in our projects and collaborations.
-More importantly, we think this process should be done following the principles of \textit{reality}, \textit{traceability}, and \textit{simplicity}, to avoid biasing the analysis, allowing to go back to the original source at any point of the workflow, and using models and methods simple and powerful enough for social scientists.
-Visual analytics software designed for HSNA should consider those principles to provide tools allowing to follow non-biased and reproducible analysis starting from the raw documents while supporting historians in going back and forth more easily between the annotation and analysis/visualization steps.
+\hsna is a complex process that starts by collecting historical documents and ends with elaborating high-level sociological conclusions.
+Historians support their conclusions by modeling individuals' social relationships extracted from the documents and analyzing them through network visualization and analysis methods.
+Most historical work do not provide details how they constructed their final network, even though it is a complicated and tedious process which can result in many biases and distortions if not done carefully\cite{alkadi2022}.
+We shed light on this process by dividing it into 5 steps and describing recurrent pitfalls we encountered in our projects and collaborations.
+More importantly, we think this process should be done following the principles of \textit{document reality}, \textit{traceability}, and \textit{simplicity}, to avoid biasing the analysis, allowing to go back to the original source at any point of the workflow for easier corrections and replicability, and using models and methods simple and powerful enough for social scientists.
+Visual analytics software designed for \hsna should consider those principles to provide tools allowing to follow non-biased and reproducible analysis starting from the raw documents while supporting historians in going back and forth more easily between the annotation and analysis/visualization steps.
 We discussed the network modeling process in depth and claim that \modelplural satisfies those three core principles, letting historians both wrangle their data and characterize sociological phenomena using a common model and visual representation.
 Therefore, using this model VA interfaces could help social scientists manage and analyze their data starting at the data acquisition and annotations steps instead on focusing on the analysis only, while providing efficient representations of the data for analysis and exploration.
 We explore what could be such VA interfaces in the two next chapters.
