@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.6.11)  28 SEP 2022 01:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.6.11)  28 SEP 2022 01:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -24,278 +24,41 @@ File: bk12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen134
-)
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
-Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
+) (./commands.tex
+(/usr/share/texlive/texmf-dist/tex/latex/mdframed/mdframed.sty
+Package: mdframed 2013/07/01 1.9b: mdframed
 
-(/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
-)
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2019/11/07 v1.0c TeX engine tests
-)
-(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
-)
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count176
-)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
-
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
 (/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
-Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count177
-
-(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
-File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-))
-(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip16
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
-\c@tabx@nest=\count178
-\c@listtotal=\count179
-\c@listcount=\count180
-\c@liststart=\count181
-\c@liststop=\count182
-\c@citecount=\count183
-\c@citetotal=\count184
-\c@multicitecount=\count185
-\c@multicitetotal=\count186
-\c@instcount=\count187
-\c@maxnames=\count188
-\c@minnames=\count189
-\c@maxitems=\count190
-\c@minitems=\count191
-\c@citecounter=\count192
-\c@maxcitecounter=\count193
-\c@savedcitecounter=\count194
-\c@uniquelist=\count195
-\c@uniquename=\count196
-\c@refsection=\count197
-\c@refsegment=\count198
-\c@maxextratitle=\count199
-\c@maxextratitleyear=\count266
-\c@maxextraname=\count267
-\c@maxextradate=\count268
-\c@maxextraalpha=\count269
-\c@abbrvpenalty=\count270
-\c@highnamepenalty=\count271
-\c@lownamepenalty=\count272
-\c@maxparens=\count273
-\c@parenlevel=\count274
-\blx@tempcnta=\count275
-\blx@tempcntb=\count276
-\blx@tempcntc=\count277
-\blx@maxsection=\count278
-\blx@maxsegment@0=\count279
-\blx@notetype=\count280
-\blx@parenlevel@text=\count281
-\blx@parenlevel@foot=\count282
-\blx@sectionciteorder@0=\count283
-\blx@entrysetcounter=\count284
-\labelnumberwidth=\skip49
-\labelalphawidth=\skip50
-\biblabelsep=\skip51
-\bibitemsep=\skip52
-\bibnamesep=\skip53
-\bibinitsep=\skip54
-\bibparsep=\skip55
-\bibhang=\skip56
-\blx@bcfin=\read2
-\blx@bcfout=\write3
-\blx@langwohyphens=\language85
-\c@mincomprange=\count285
-\c@maxcomprange=\count286
-\c@mincompwidth=\count287
-Package biblatex Info: Trying to load biblatex default data model...
-Package biblatex Info: ... file 'blx-dm.def' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def
-File: blx-dm.def 2019/12/01 v3.14 biblatex localization (PK/MW)
-)
-Package biblatex Info: Trying to load biblatex custom data model...
-Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count288
-\c@savedafterword=\count289
-\c@annotator=\count290
-\c@savedannotator=\count291
-\c@author=\count292
-\c@savedauthor=\count293
-\c@bookauthor=\count294
-\c@savedbookauthor=\count295
-\c@commentator=\count296
-\c@savedcommentator=\count297
-\c@editor=\count298
-\c@savededitor=\count299
-\c@editora=\count300
-\c@savededitora=\count301
-\c@editorb=\count302
-\c@savededitorb=\count303
-\c@editorc=\count304
-\c@savededitorc=\count305
-\c@foreword=\count306
-\c@savedforeword=\count307
-\c@holder=\count308
-\c@savedholder=\count309
-\c@introduction=\count310
-\c@savedintroduction=\count311
-\c@namea=\count312
-\c@savednamea=\count313
-\c@nameb=\count314
-\c@savednameb=\count315
-\c@namec=\count316
-\c@savednamec=\count317
-\c@translator=\count318
-\c@savedtranslator=\count319
-\c@shortauthor=\count320
-\c@savedshortauthor=\count321
-\c@shorteditor=\count322
-\c@savedshorteditor=\count323
-\c@labelname=\count324
-\c@savedlabelname=\count325
-\c@institution=\count326
-\c@savedinstitution=\count327
-\c@lista=\count328
-\c@savedlista=\count329
-\c@listb=\count330
-\c@savedlistb=\count331
-\c@listc=\count332
-\c@savedlistc=\count333
-\c@listd=\count334
-\c@savedlistd=\count335
-\c@liste=\count336
-\c@savedliste=\count337
-\c@listf=\count338
-\c@savedlistf=\count339
-\c@location=\count340
-\c@savedlocation=\count341
-\c@organization=\count342
-\c@savedorganization=\count343
-\c@origlocation=\count344
-\c@savedoriglocation=\count345
-\c@origpublisher=\count346
-\c@savedorigpublisher=\count347
-\c@publisher=\count348
-\c@savedpublisher=\count349
-\c@language=\count350
-\c@savedlanguage=\count351
-\c@origlanguage=\count352
-\c@savedoriglanguage=\count353
-\c@pageref=\count354
-\c@savedpageref=\count355
-\shorthandwidth=\skip57
-\shortjournalwidth=\skip58
-\shortserieswidth=\skip59
-\shorttitlewidth=\skip60
-\shortauthorwidth=\skip61
-\shorteditorwidth=\skip62
-\locallabelnumberwidth=\skip63
-\locallabelalphawidth=\skip64
-\localshorthandwidth=\skip65
-\localshortjournalwidth=\skip66
-\localshortserieswidth=\skip67
-\localshorttitlewidth=\skip68
-\localshortauthorwidth=\skip69
-\localshorteditorwidth=\skip70
-Package biblatex Info: Trying to load compatibility code...
-Package biblatex Info: ... file 'blx-compat.def' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
-File: blx-compat.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
-)
-Package biblatex Info: Trying to load generic definitions...
-Package biblatex Info: ... file 'biblatex.def' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
-File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
-\c@textcitecount=\count356
-\c@textcitetotal=\count357
-\c@textcitemaxnames=\count358
-\c@biburlbigbreakpenalty=\count359
-\c@biburlbreakpenalty=\count360
-\c@biburlnumpenalty=\count361
-\c@biburlucpenalty=\count362
-\c@biburllcpenalty=\count363
-\biburlbigskip=\muskip17
-\biburlnumskip=\muskip18
-\biburlucskip=\muskip19
-\biburllcskip=\muskip20
-\c@smartand=\count364
-)
-Package biblatex Info: Trying to load bibliography style 'numeric'...
-Package biblatex Info: ... file 'numeric.bbx' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
-File: numeric.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
-Package biblatex Info: Trying to load bibliography style 'standard'...
-Package biblatex Info: ... file 'standard.bbx' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
-File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count365
-\c@bbx:relatedtotal=\count366
-))
-Package biblatex Info: Trying to load citation style 'numeric'...
-Package biblatex Info: ... file 'numeric.cbx' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
-File: numeric.cbx 2019/12/01 v3.14 biblatex citation style (PK/MW)
-Package biblatex Info: Redefining '\cite'.
-Package biblatex Info: Redefining '\parencite'.
-Package biblatex Info: Redefining '\footcite'.
-Package biblatex Info: Redefining '\footcitetext'.
-Package biblatex Info: Redefining '\smartcite'.
-Package biblatex Info: Redefining '\supercite'.
-Package biblatex Info: Redefining '\textcite'.
-Package biblatex Info: Redefining '\textcites'.
-Package biblatex Info: Redefining '\cites'.
-Package biblatex Info: Redefining '\parencites'.
-Package biblatex Info: Redefining '\smartcites'.
-)
-Package biblatex Info: Trying to load configuration file...
-Package biblatex Info: ... file 'biblatex.cfg' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
-File: biblatex.cfg 
-))
-(./commands.tex (/usr/share/texlive/texmf-dist/tex/latex/mdframed/mdframed.sty
-Package: mdframed 2013/07/01 1.9b: mdframed
-
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2020-02-14 L3 programming layer (loader) 
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count367
+\l__kernel_color_stack_int=\count176
 \l__pdf_internal_box=\box45
 ))
 Package: xparse 2020-02-14 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count368
-\g__xparse_grabber_int=\count369
-\l__xparse_m_args_int=\count370
-\l__xparse_v_nesting_int=\count371
+\l__xparse_current_arg_int=\count177
+\g__xparse_grabber_int=\count178
+\l__xparse_m_args_int=\count179
+\l__xparse_v_nesting_int=\count180
+)
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count181
 )
 (/usr/share/texlive/texmf-dist/tex/latex/zref/zref-abspage.sty
 Package: zref-abspage 2019/11/29 v2.28 Module abspage for zref (HO)
@@ -303,8 +66,22 @@ Package: zref-abspage 2019/11/29 v2.28 Module abspage for zref (HO)
 (/usr/share/texlive/texmf-dist/tex/latex/zref/zref-base.sty
 Package: zref-base 2019/11/29 v2.28 Module base for zref (HO)
 
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
 (/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
 )
 (/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
@@ -319,7 +96,7 @@ Package zref Info: New property: page on input line 765.
 (/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
-\c@abspage=\count372
+\c@abspage=\count182
 Package zref Info: New property: abspage on input line 66.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/needspace/needspace.sty
@@ -336,47 +113,47 @@ Package color Info: Driver file: pdftex.def on input line 147.
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-\mdf@templength=\skip71
-\c@mdf@globalstyle@cnt=\count373
-\mdf@skipabove@length=\skip72
-\mdf@skipbelow@length=\skip73
-\mdf@leftmargin@length=\skip74
-\mdf@rightmargin@length=\skip75
-\mdf@innerleftmargin@length=\skip76
-\mdf@innerrightmargin@length=\skip77
-\mdf@innertopmargin@length=\skip78
-\mdf@innerbottommargin@length=\skip79
-\mdf@splittopskip@length=\skip80
-\mdf@splitbottomskip@length=\skip81
-\mdf@outermargin@length=\skip82
-\mdf@innermargin@length=\skip83
-\mdf@linewidth@length=\skip84
-\mdf@innerlinewidth@length=\skip85
-\mdf@middlelinewidth@length=\skip86
-\mdf@outerlinewidth@length=\skip87
-\mdf@roundcorner@length=\skip88
-\mdf@footenotedistance@length=\skip89
-\mdf@userdefinedwidth@length=\skip90
-\mdf@needspace@length=\skip91
-\mdf@frametitleaboveskip@length=\skip92
-\mdf@frametitlebelowskip@length=\skip93
-\mdf@frametitlerulewidth@length=\skip94
-\mdf@frametitleleftmargin@length=\skip95
-\mdf@frametitlerightmargin@length=\skip96
-\mdf@shadowsize@length=\skip97
-\mdf@extratopheight@length=\skip98
-\mdf@subtitleabovelinewidth@length=\skip99
-\mdf@subtitlebelowlinewidth@length=\skip100
-\mdf@subtitleaboveskip@length=\skip101
-\mdf@subtitlebelowskip@length=\skip102
-\mdf@subtitleinneraboveskip@length=\skip103
-\mdf@subtitleinnerbelowskip@length=\skip104
-\mdf@subsubtitleabovelinewidth@length=\skip105
-\mdf@subsubtitlebelowlinewidth@length=\skip106
-\mdf@subsubtitleaboveskip@length=\skip107
-\mdf@subsubtitlebelowskip@length=\skip108
-\mdf@subsubtitleinneraboveskip@length=\skip109
-\mdf@subsubtitleinnerbelowskip@length=\skip110
+\mdf@templength=\skip49
+\c@mdf@globalstyle@cnt=\count183
+\mdf@skipabove@length=\skip50
+\mdf@skipbelow@length=\skip51
+\mdf@leftmargin@length=\skip52
+\mdf@rightmargin@length=\skip53
+\mdf@innerleftmargin@length=\skip54
+\mdf@innerrightmargin@length=\skip55
+\mdf@innertopmargin@length=\skip56
+\mdf@innerbottommargin@length=\skip57
+\mdf@splittopskip@length=\skip58
+\mdf@splitbottomskip@length=\skip59
+\mdf@outermargin@length=\skip60
+\mdf@innermargin@length=\skip61
+\mdf@linewidth@length=\skip62
+\mdf@innerlinewidth@length=\skip63
+\mdf@middlelinewidth@length=\skip64
+\mdf@outerlinewidth@length=\skip65
+\mdf@roundcorner@length=\skip66
+\mdf@footenotedistance@length=\skip67
+\mdf@userdefinedwidth@length=\skip68
+\mdf@needspace@length=\skip69
+\mdf@frametitleaboveskip@length=\skip70
+\mdf@frametitlebelowskip@length=\skip71
+\mdf@frametitlerulewidth@length=\skip72
+\mdf@frametitleleftmargin@length=\skip73
+\mdf@frametitlerightmargin@length=\skip74
+\mdf@shadowsize@length=\skip75
+\mdf@extratopheight@length=\skip76
+\mdf@subtitleabovelinewidth@length=\skip77
+\mdf@subtitlebelowlinewidth@length=\skip78
+\mdf@subtitleaboveskip@length=\skip79
+\mdf@subtitlebelowskip@length=\skip80
+\mdf@subtitleinneraboveskip@length=\skip81
+\mdf@subtitleinnerbelowskip@length=\skip82
+\mdf@subsubtitleabovelinewidth@length=\skip83
+\mdf@subsubtitlebelowlinewidth@length=\skip84
+\mdf@subsubtitleaboveskip@length=\skip85
+\mdf@subsubtitlebelowskip@length=\skip86
+\mdf@subsubtitleinneraboveskip@length=\skip87
+\mdf@subsubtitleinnerbelowskip@length=\skip88
 
 (/usr/share/texlive/texmf-dist/tex/latex/mdframed/md-frame-0.mdf
 File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
@@ -386,68 +163,68 @@ File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 \mdf@splitbox@one=\box48
 \mdf@splitbox@two=\box49
 \mdf@splitbox@save=\box50
-\mdfsplitboxwidth=\skip111
-\mdfsplitboxtotalwidth=\skip112
-\mdfsplitboxheight=\skip113
-\mdfsplitboxdepth=\skip114
-\mdfsplitboxtotalheight=\skip115
-\mdfframetitleboxwidth=\skip116
-\mdfframetitleboxtotalwidth=\skip117
-\mdfframetitleboxheight=\skip118
-\mdfframetitleboxdepth=\skip119
-\mdfframetitleboxtotalheight=\skip120
-\mdffootnoteboxwidth=\skip121
-\mdffootnoteboxtotalwidth=\skip122
-\mdffootnoteboxheight=\skip123
-\mdffootnoteboxdepth=\skip124
-\mdffootnoteboxtotalheight=\skip125
-\mdftotallinewidth=\skip126
-\mdfboundingboxwidth=\skip127
-\mdfboundingboxtotalwidth=\skip128
-\mdfboundingboxheight=\skip129
-\mdfboundingboxdepth=\skip130
-\mdfboundingboxtotalheight=\skip131
-\mdf@freevspace@length=\skip132
-\mdf@horizontalwidthofbox@length=\skip133
-\mdf@verticalmarginwhole@length=\skip134
-\mdf@horizontalspaceofbox=\skip135
-\mdfsubtitleheight=\skip136
-\mdfsubsubtitleheight=\skip137
-\c@mdfcountframes=\count374
+\mdfsplitboxwidth=\skip89
+\mdfsplitboxtotalwidth=\skip90
+\mdfsplitboxheight=\skip91
+\mdfsplitboxdepth=\skip92
+\mdfsplitboxtotalheight=\skip93
+\mdfframetitleboxwidth=\skip94
+\mdfframetitleboxtotalwidth=\skip95
+\mdfframetitleboxheight=\skip96
+\mdfframetitleboxdepth=\skip97
+\mdfframetitleboxtotalheight=\skip98
+\mdffootnoteboxwidth=\skip99
+\mdffootnoteboxtotalwidth=\skip100
+\mdffootnoteboxheight=\skip101
+\mdffootnoteboxdepth=\skip102
+\mdffootnoteboxtotalheight=\skip103
+\mdftotallinewidth=\skip104
+\mdfboundingboxwidth=\skip105
+\mdfboundingboxtotalwidth=\skip106
+\mdfboundingboxheight=\skip107
+\mdfboundingboxdepth=\skip108
+\mdfboundingboxtotalheight=\skip109
+\mdf@freevspace@length=\skip110
+\mdf@horizontalwidthofbox@length=\skip111
+\mdf@verticalmarginwhole@length=\skip112
+\mdf@horizontalspaceofbox=\skip113
+\mdfsubtitleheight=\skip114
+\mdfsubsubtitleheight=\skip115
+\c@mdfcountframes=\count184
 
 ****** mdframed patching \endmdf@trivlist
 
 ****** -- success******
 
-\mdf@envdepth=\count375
-\c@mdf@env@i=\count376
-\c@mdf@env@ii=\count377
-\c@mdf@zref@counter=\count378
+\mdf@envdepth=\count185
+\c@mdf@env@i=\count186
+\c@mdf@env@ii=\count187
+\c@mdf@zref@counter=\count188
 Package zref Info: New property: mdf@pagevalue on input line 895.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
-\multirow@colwidth=\skip138
-\multirow@cntb=\count379
-\multirow@dima=\skip139
+\multirow@colwidth=\skip116
+\multirow@cntb=\count189
+\multirow@dima=\skip117
 \bigstrutjot=\dimen135
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
-\c@tracingmulticols=\count380
+\c@tracingmulticols=\count190
 \mult@box=\box51
 \multicol@leftmargin=\dimen136
-\c@unbalance=\count381
-\c@collectmore=\count382
-\doublecol@number=\count383
-\multicoltolerance=\count384
-\multicolpretolerance=\count385
+\c@unbalance=\count191
+\c@collectmore=\count192
+\doublecol@number=\count193
+\multicoltolerance=\count194
+\multicolpretolerance=\count195
 \full@width=\dimen137
 \page@free=\dimen138
 \premulticols=\dimen139
 \postmulticols=\dimen140
-\multicolsep=\skip140
-\multicolbaselineskip=\skip141
+\multicolsep=\skip118
+\multicolbaselineskip=\skip119
 \partial@page=\box52
 \last@line=\box53
 \maxbalancingoverflow=\dimen141
@@ -492,15 +269,15 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \@tempa=\box92
 \@tempa=\box93
 \@tempa=\box94
-\c@minrows=\count386
-\c@columnbadness=\count387
-\c@finalcolumnbadness=\count388
+\c@minrows=\count196
+\c@columnbadness=\count197
+\c@finalcolumnbadness=\count198
 \last@try=\dimen142
 \multicolovershoot=\dimen143
 \multicolundershoot=\dimen144
 \mult@nat@firstbox=\box95
 \colbreak@box=\box96
-\mc@col@check@num=\count389
+\mc@col@check@num=\count199
 )
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrextend.sty
 Package: scrextend 2020/01/24 v3.29 KOMA-Script package (extend other classes w
@@ -577,16 +354,16 @@ ex
 \pgf@yc=\dimen156
 \pgf@xd=\dimen157
 \pgf@yd=\dimen158
-\w@pgf@writea=\write4
-\r@pgf@reada=\read3
-\c@pgf@counta=\count390
-\c@pgf@countb=\count391
-\c@pgf@countc=\count392
-\c@pgf@countd=\count393
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count266
+\c@pgf@countb=\count267
+\c@pgf@countc=\count268
+\c@pgf@countd=\count269
 \t@pgf@toka=\toks19
 \t@pgf@tokb=\toks20
 \t@pgf@tokc=\toks21
-\pgf@sys@id@count=\count394
+\pgf@sys@id@count=\count270
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
 )
@@ -602,8 +379,8 @@ File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
 tex
 File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfsyssoftpath@smallbuffer@items=\count395
-\pgfsyssoftpath@bigbuffer@items=\count396
+\pgfsyssoftpath@smallbuffer@items=\count271
+\pgfsyssoftpath@bigbuffer@items=\count272
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
 tex
@@ -634,7 +411,7 @@ Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen159
-\pgfmath@count=\count397
+\pgfmath@count=\count273
 \pgfmath@box=\box98
 \pgfmath@toks=\toks22
 \pgfmath@stack@operand=\toks23
@@ -658,7 +435,7 @@ tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
 thmetics.code.tex)))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count398
+\c@pgfmathroundto@lastzeros=\count274
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
@@ -697,7 +474,7 @@ File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfpic=\box99
 \pgf@hbox=\box100
 \pgf@layerbox@main=\box101
-\pgf@picture@serial@count=\count399
+\pgf@picture@serial@count=\count275
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
@@ -730,8 +507,8 @@ File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@max=\dimen183
-\pgf@sys@shading@range@num=\count400
-\pgf@shadingcount=\count401
+\pgf@sys@shading@range@num=\count276
+\pgf@shadingcount=\count277
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
@@ -791,7 +568,7 @@ Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@plot@mark@count=\count402
+\pgf@plot@mark@count=\count278
 \pgfplotmarksize=\dimen188
 )
 \tikz@lastx=\dimen189
@@ -806,18 +583,18 @@ File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \tikz@figbox@bg=\box105
 \tikz@tempbox=\box106
 \tikz@tempbox@bg=\box107
-\tikztreelevel=\count403
-\tikznumberofchildren=\count404
-\tikznumberofcurrentchild=\count405
-\tikz@fig@count=\count406
+\tikztreelevel=\count279
+\tikznumberofchildren=\count280
+\tikznumberofcurrentchild=\count281
+\tikz@fig@count=\count282
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfmatrixcurrentrow=\count407
-\pgfmatrixcurrentcolumn=\count408
-\pgf@matrix@numberofcolumns=\count409
+\pgfmatrixcurrentrow=\count283
+\pgfmatrixcurrentcolumn=\count284
+\pgf@matrix@numberofcolumns=\count285
 )
-\tikz@expandcount=\count410
+\tikz@expandcount=\count286
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -849,12 +626,12 @@ Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \ar@mcellbox=\box110
 \extrarowheight=\dimen262
 \NC@list=\toks28
-\extratabsurround=\skip142
-\backup@length=\skip143
+\extratabsurround=\skip120
+\backup@length=\skip121
 \ar@cellbox=\box111
 )
 \everycr=\toks29
-\minrowclearance=\skip144
+\minrowclearance=\skip122
 )
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -862,9 +639,9 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count411
-\Gm@cntv=\count412
-\c@Gm@tempcnt=\count413
+\Gm@cnth=\count287
+\Gm@cntv=\count288
+\c@Gm@tempcnt=\count289
 \Gm@bindingoffset=\dimen263
 \Gm@wd@mp=\dimen264
 \Gm@odd@mp=\dimen265
@@ -878,8 +655,8 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \ttl@box=\box112
-\beforetitleunit=\skip145
-\aftertitleunit=\skip146
+\beforetitleunit=\skip123
+\aftertitleunit=\skip124
 \ttl@plus=\dimen271
 \ttl@minus=\dimen272
 \ttl@toksa=\toks31
@@ -900,8 +677,8 @@ Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
 \@linkdim=\dimen276
-\Hy@linkcounter=\count414
-\Hy@pagecounter=\count415
+\Hy@linkcounter=\count290
+\Hy@pagecounter=\count291
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
@@ -911,64 +688,71 @@ Now handling font encoding PD1 ...
 (/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count416
-\pdfmajorversion=\count417
+\Hy@SavedSpaceFactor=\count292
+\pdfmajorversion=\count293
 Package hyperref Info: Hyper figures OFF on input line 4547.
 Package hyperref Info: Link nesting OFF on input line 4552.
 Package hyperref Info: Hyper index ON on input line 4555.
 Package hyperref Info: Plain pages OFF on input line 4562.
-Package hyperref Info: Backreferencing OFF on input line 4567.
+Package hyperref Info: Backreferencing ON on input line 4565.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4800.
-\c@Hy@tempcnt=\count418
-LaTeX Info: Redefining \url on input line 5159.
-\XeTeXLinkMargin=\dimen277
 
-(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
-Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/backref.sty
+Package: backref 2020/01/14 v1.40 Bibliographical back referencing
+
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/atveryend/atveryend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 
 (/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count419
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+))
+\c@Hy@tempcnt=\count294
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5159.
+\XeTeXLinkMargin=\dimen277
+
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+)
+\Fld@menulength=\count295
 \Field@Width=\dimen278
 \Fld@charsize=\dimen279
 Package hyperref Info: Hyper figures OFF on input line 6430.
 Package hyperref Info: Link nesting OFF on input line 6435.
 Package hyperref Info: Hyper index ON on input line 6438.
-Package hyperref Info: backreferencing OFF on input line 6445.
+Package hyperref Info: backreferencing ON on input line 6443.
 Package hyperref Info: Link coloring OFF on input line 6450.
 Package hyperref Info: Link coloring with OCG OFF on input line 6455.
 Package hyperref Info: PDF/A mode OFF on input line 6460.
 LaTeX Info: Redefining \ref on input line 6500.
 LaTeX Info: Redefining \pageref on input line 6504.
-\Hy@abspage=\count420
-\c@Item=\count421
-\c@Hfootnote=\count422
+\Hy@abspage=\count296
+\c@Item=\count297
+\c@Hfootnote=\count298
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
-
-(/usr/share/texlive/texmf-dist/tex/latex/atveryend/atveryend.sty
-Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
-)
-\HyAnn@Count=\count423
-\Fld@listcount=\count424
-\c@bookmark@seq@number=\count425
-
-(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
-Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
-Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
-)
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-86.
-)
-\Hy@SectionHShift=\skip147
+\HyAnn@Count=\count299
+\Fld@listcount=\count300
+\c@bookmark@seq@number=\count301
+\Hy@SectionHShift=\skip125
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 17.
 
@@ -997,31 +781,31 @@ Language: french 2020/01/30 v3.5g French support from the babel system
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2020/02/14 3.40 Babel common definitions
-\babel@savecnt=\count426
+\babel@savecnt=\count302
 \U@D=\dimen280
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
-\bbl@readstream=\read4
-\bbl@dirlevel=\count427
+\bbl@readstream=\read3
+\bbl@dirlevel=\count303
 )
 Package babel Info: \l@acadian = using hyphenrules for french
 (babel)             (\language18) on input line 91.
 Package babel Info: \l@canadien = using hyphenrules for french
 (babel)             (\language18) on input line 92.
-\FB@nonchar=\count428
+\FB@nonchar=\count304
 Package babel Info: Making : an active character on input line 419.
 Package babel Info: Making ; an active character on input line 420.
 Package babel Info: Making ! an active character on input line 421.
 Package babel Info: Making ? an active character on input line 422.
-\FBguill@level=\count429
+\FBguill@level=\count305
 \FBold@everypar=\toks34
 \FB@Mht=\dimen281
-\mc@charclass=\count430
-\mc@charfam=\count431
-\mc@charslot=\count432
-\std@mcc=\count433
-\dec@mcc=\count434
-\c@FBcaption@count=\count435
+\mc@charclass=\count306
+\mc@charfam=\count307
+\mc@charslot=\count308
+\std@mcc=\count309
+\dec@mcc=\count310
+\c@FBcaption@count=\count311
 \listindentFB=\dimen282
 \descindentFB=\dimen283
 \labelindentFB=\dimen284
@@ -1070,12 +854,12 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@toks=\toks35
 \XKV@tempa@toks=\toks36
 )
-\XKV@depth=\count436
+\XKV@depth=\count312
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2020/01/20 v2.17e AMS math features
-\@mathmargin=\skip148
+\@mathmargin=\skip126
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -1093,13 +877,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count437
+\inf@bad=\count313
 LaTeX Info: Redefining \frac on input line 227.
-\uproot@=\count438
-\leftroot@=\count439
+\uproot@=\count314
+\leftroot@=\count315
 LaTeX Info: Redefining \overline on input line 389.
-\classnum@=\count440
-\DOTSCASE@=\count441
+\classnum@=\count316
+\DOTSCASE@=\count317
 LaTeX Info: Redefining \ldots on input line 486.
 LaTeX Info: Redefining \dots on input line 489.
 LaTeX Info: Redefining \cdots on input line 610.
@@ -1108,15 +892,15 @@ LaTeX Info: Redefining \cdots on input line 610.
 \big@size=\dimen291
 LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
-\macc@depth=\count442
-\c@MaxMatrixCols=\count443
-\dotsspace@=\muskip21
-\c@parentequation=\count444
-\dspbrk@lvl=\count445
+\macc@depth=\count318
+\c@MaxMatrixCols=\count319
+\dotsspace@=\muskip17
+\c@parentequation=\count320
+\dspbrk@lvl=\count321
 \tag@help=\toks38
-\row@=\count446
-\column@=\count447
-\maxfields@=\count448
+\row@=\count322
+\column@=\count323
+\maxfields@=\count324
 \andhelp@=\toks39
 \eqnshift@=\dimen292
 \alignsep@=\dimen293
@@ -1125,8 +909,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 \totwidth@=\dimen296
 \lineht@=\dimen297
 \@envbody=\toks40
-\multlinegap=\skip149
-\multlinetaggap=\skip150
+\multlinegap=\skip127
+\multlinetaggap=\skip128
 \mathdisplay@stack=\toks41
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
@@ -1142,36 +926,36 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
 s
-\f@nch@headwidth=\skip151
-\f@nch@O@elh=\skip152
-\f@nch@O@erh=\skip153
-\f@nch@O@olh=\skip154
-\f@nch@O@orh=\skip155
-\f@nch@O@elf=\skip156
-\f@nch@O@erf=\skip157
-\f@nch@O@olf=\skip158
-\f@nch@O@orf=\skip159
+\f@nch@headwidth=\skip129
+\f@nch@O@elh=\skip130
+\f@nch@O@erh=\skip131
+\f@nch@O@olh=\skip132
+\f@nch@O@orh=\skip133
+\f@nch@O@elf=\skip134
+\f@nch@O@erf=\skip135
+\f@nch@O@olf=\skip136
+\f@nch@O@orf=\skip137
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
 (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip160
+\labelindent=\skip138
 \enit@outerparindent=\dimen298
 \enit@toks=\toks42
 \enit@inbox=\box115
-\enit@count@id=\count449
-\enitdp@description=\count450
+\enit@count@id=\count325
+\enitdp@description=\count326
 )
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2019-12-06 v5.2j context-sensitive quotations (JAW)
-\csq@reset=\count451
-\csq@gtype=\count452
-\csq@glevel=\count453
-\csq@qlevel=\count454
-\csq@maxlvl=\count455
-\csq@tshold=\count456
+\csq@reset=\count327
+\csq@gtype=\count328
+\csq@glevel=\count329
+\csq@qlevel=\count330
+\csq@maxlvl=\count331
+\csq@tshold=\count332
 \csq@ltx@everypar=\toks43
 
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
@@ -1188,22 +972,22 @@ Package: overpic 2018/09/02 1.2 picture overlays (RN)
 
 (/usr/share/texlive/texmf-dist/tex/latex/eepic/epic.sty
 Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
-\@@multicnt=\count457
-\d@lta=\count458
+\@@multicnt=\count333
+\d@lta=\count334
 \@delta=\dimen299
 \@@delta=\dimen300
-\@gridcnt=\count459
-\@joinkind=\count460
+\@gridcnt=\count335
+\@joinkind=\count336
 \@dotgap=\dimen301
 \@ddotgap=\dimen302
-\@x@diff=\count461
-\@y@diff=\count462
+\@x@diff=\count337
+\@y@diff=\count338
 \x@diff=\dimen303
 \y@diff=\dimen304
 \@dotbox=\box116
-\num@segments=\count463
-\num@segmentsi=\count464
-\@datafile=\read5
+\num@segments=\count339
+\num@segmentsi=\count340
+\@datafile=\read4
 )
 \OVP@box=\box117
 ) (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
@@ -1236,12 +1020,12 @@ Package caption3 Info: TeX engine: e-TeX on input line 61.
 \caption@hangindent=\dimen311
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count465
-\c@continuedfloat=\count466
+\c@caption@flags=\count341
+\c@continuedfloat=\count342
 Package caption Info: hyperref package is loaded.
 )
-\c@subfigure=\count467
-\c@subtable=\count468
+\c@subfigure=\count343
+\c@subtable=\count344
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
@@ -1250,15 +1034,15 @@ Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 \TX@old@col=\dimen314
 \TX@target=\dimen315
 \TX@delta=\dimen316
-\TX@cols=\count469
+\TX@cols=\count345
 \TX@ftn=\toks44
 )
 (/usr/share/texlive/texmf-dist/tex/latex/sttools/flushend.sty
 Package: flushend 2017/03/27 v3.3 Balancing columns in twocolumn mode
-\flushend@@lastskip@a=\skip161
-\flushend@@lastskip@b=\skip162
-\flushend@@lastskip@c=\skip163
-\flushend@@penalty@a=\count470
+\flushend@@lastskip@a=\skip139
+\flushend@@lastskip@b=\skip140
+\flushend@@lastskip@c=\skip141
+\flushend@@penalty@a=\count346
 \flushend@@lastkern@a=\dimen317
 \var@@temp@spread=\dimen318
 \var@@temp@a=\dimen319
@@ -1306,12 +1090,12 @@ File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 
 (/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count471
+\c@checkoddpage=\count347
 )
 (/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box125
-\sift@deathcycles=\count472
+\sift@deathcycles=\count348
 \@vwid@loff=\dimen333
 \@vwid@roff=\dimen334
 ))
@@ -1319,12 +1103,12 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 Package: graphbox 2018/01/17 v1.1 extension for graphicx to adjust containing b
 ox
 \Gin@box@box=\box126
-\Gin@box@width=\skip164
-\Gin@box@height=\skip165
-\Gin@box@raise=\skip166
-\Gin@box@hspace=\skip167
-\Gin@box@bwidth=\skip168
-\Gin@box@bheight=\skip169
+\Gin@box@width=\skip142
+\Gin@box@height=\skip143
+\Gin@box@raise=\skip144
+\Gin@box@hspace=\skip145
+\Gin@box@bwidth=\skip146
+\Gin@box@bheight=\skip147
 )
 (/usr/share/texlive/texmf-dist/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 302.
@@ -1332,13 +1116,13 @@ LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
 (/usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
-\CommentStream=\write5
+\CommentStream=\write4
 
 Excluding comment 'comment')
 (/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 \wrapoverhang=\dimen335
 \WF@size=\dimen336
-\c@WF@wrappedlines=\count473
+\c@WF@wrappedlines=\count349
 \WF@box=\box127
 \WF@everypar=\toks47
 Package: wrapfig 2003/01/31  v 3.6
@@ -1478,28 +1262,12 @@ LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/upsy.fd
 File: upsy.fd 2001/06/04 font definitions for U/psy.
 )))
-
-./main.tex:25: Package biblatex Error: Incompatible package 'cite'.
-
-See the biblatex package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.25 \begin{document}
-                     
-The 'cite' package and biblatex are incompatible.
-
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
-(/home/alexis/Documents/Thesis/out/main.aux
-(/home/alexis/Documents/Thesis/out/chapters/Introduction.aux)
-(/home/alexis/Documents/Thesis/out/chapters/Context.aux)
-(/home/alexis/Documents/Thesis/out/chapters/NetworkModels.aux)
-(/home/alexis/Documents/Thesis/out/chapters/ComBiNet.aux)
-(/home/alexis/Documents/Thesis/out/chapters/PK-Clustering.aux)
-(/home/alexis/Documents/Thesis/out/chapters/Conclusion.aux))
+
+(/home/alexis/Documents/Thesis/out/main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
@@ -1542,55 +1310,20 @@ File: T1opensans-TLF.fd 2019/06/24 Font definitions for T1/opensans-TLF.
 )
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
 (Font)              scaled to size 11.39996pt on input line 25.
-Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'english.lbx' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-File: english.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
-)
-Package biblatex Info: Trying to load language 'french'...
-Package biblatex Info: ... file 'french.lbx' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/french.lbx
-File: french.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
-)
-Package biblatex Info: Input encoding 'utf8' detected.
-Package biblatex Info: Automatic encoding selection.
-(biblatex)             Assuming data encoding 'utf8'.
-\openout3 = `main.bcf'.
-
-Package biblatex Info: Trying to load bibliographic data...
-
-
-./main.tex:25: Package biblatex Error: File 'main.bbl' not created by biblatex.
-
-
-See the biblatex package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.25 \begin{document}
-                     ^^M
-This file was apparently not created by biblatex. Rename it or
-move it to a location were TeX will not find it. If this error
-persists, consider redefining \blxauxsuffix.See the biblatex
-manual for details.
-
-Package biblatex Info: Reference section=0 on input line 25.
-Package biblatex Info: Reference segment=0 on input line 25.
 \AtBeginShipoutBox=\box128
+
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count474
+\scratchcounter=\count350
 \scratchdimen=\dimen337
 \scratchbox=\box129
-\nofMPsegments=\count475
-\nofMParguments=\count476
+\nofMPsegments=\count351
+\nofMParguments=\count352
 \everyMPshowfont=\toks48
-\MPscratchCnt=\count477
+\MPscratchCnt=\count353
 \MPscratchDim=\dimen338
-\MPnumerator=\count478
-\makeMPintoPDFobject=\count479
+\MPnumerator=\count354
+\makeMPintoPDFobject=\count355
 \everyMPtoPDFconversion=\toks49
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1646,7 +1379,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count480
+\c@section@level=\count356
 )
 LaTeX Info: Redefining \ref on input line 25.
 LaTeX Info: Redefining \pageref on input line 25.
@@ -1654,8 +1387,8 @@ LaTeX Info: Redefining \nameref on input line 25.
 
 (/home/alexis/Documents/Thesis/out/main.out)
 (/home/alexis/Documents/Thesis/out/main.out)
-\@outlinefile=\write6
-\openout6 = `main.out'.
+\@outlinefile=\write5
+\openout5 = `main.out'.
 
 \symgns@font=\mathgroup14
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
@@ -1672,8 +1405,8 @@ Package gensymb Info: Using \textmu for \micro on input line 25.
 LaTeX Info: Redefining \degres on input line 25.
 LaTeX Info: Redefining \dots on input line 25.
 LaTeX Info: Redefining \up on input line 25.
-\c@mv@tabular=\count481
-\c@mv@boldtabular=\count482
+\c@mv@tabular=\count357
+\c@mv@boldtabular=\count358
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -1709,7 +1442,7 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<static/logos/Frame-ups.pdf, id=71, 303.38344pt x 849.92531pt>
+<static/logos/Frame-ups.pdf, id=7, 303.38344pt x 849.92531pt>
 File: static/logos/Frame-ups.pdf Graphic file (type pdf)
 <use static/logos/Frame-ups.pdf>
 Package pdftex.def Info: static/logos/Frame-ups.pdf  used on input line 31.
@@ -1721,7 +1454,7 @@ LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
 LaTeX Font Warning: Font shape `T1/opensans-TLF/m/sc' undefined
 (Font)              using `T1/opensans-TLF/m/n' instead on input line 41.
 
-<static/logos/logo2.png, id=72, 194.97844pt x 87.32625pt>
+<static/logos/logo2.png, id=8, 194.97844pt x 87.32625pt>
 File: static/logos/logo2.png Graphic file (type png)
 <use static/logos/logo2.png>
 Package pdftex.def Info: static/logos/logo2.png  used on input line 50.
@@ -1812,9 +1545,9 @@ LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
 LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
 (Font)              scaled to size 5.69998pt on input line 78.
 LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
-(Font)              scaled to size 4.74998pt on input line 104.
+(Font)              scaled to size 4.74998pt on input line 121.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 121.
+(Font)              scaled to size 7.59998pt on input line 139.
  [1
 
 
@@ -1822,6 +1555,10 @@ LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./static/logos/Frame-ups.p
 df> <./static/logos/logo2.png>]
+
+Package scrextend Warning: odd/even page label number 1 undefined on input line
+ 141.
+
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -1854,1246 +1591,45 @@ df> <./static/logos/logo2.png>]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for T1+rm on input line 126
+LaTeX Font Info:    Trying to load font information for T1+rm on input line 144
 .
-LaTeX Font Info:    No file T1rm.fd. on input line 126.
-
+LaTeX Font Info:    No file T1rm.fd. on input line 144.
 
 LaTeX Font Warning: Font shape `T1/rm/m/n' undefined
-(Font)              using `T1/cmr/m/n' instead on input line 126.
+(Font)              using `T1/cmr/m/n' instead on input line 144.
 
-<static/logos/EOBE.png, id=91, 1734.48pt x 397.485pt>
+<static/logos/EOBE.png, id=27, 1734.48pt x 397.485pt>
 File: static/logos/EOBE.png Graphic file (type png)
 <use static/logos/EOBE.png>
-Package pdftex.def Info: static/logos/EOBE.png  used on input line 138.
+Package pdftex.def Info: static/logos/EOBE.png  used on input line 156.
 (pdftex.def)             Requested size: 304.17374pt x 69.70915pt.
-Package mdframed Info: mdframed works in twoside mode on input line 145.
-Package mdframed Info: mdframed works in twoside mode on input line 160.
-LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 189.
-[2
+Package mdframed Info: mdframed works in twoside mode on input line 163.
 
- <./static/logos/EOBE.png>]
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: pdftex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: twoside 
-* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
-* v-part:(T,H,B)=(113.81102pt, 617.4248pt, 113.81102pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=483.69687pt
-* \textheight=617.4248pt
-* \oddsidemargin=-15.36449pt
-* \evensidemargin=-15.36449pt
-* \topmargin=9.66724pt
-* \headheight=12.0pt
-* \headsep=19.8738pt
-* \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=88.0pt
-* \marginparsep=7.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+LaTeX Warning: Reference `mdf@pagelabel-1' on page 2 undefined on input line 17
+4.
 
- (/home/alexis/Documents/Thesis/out/main.toc
-[3
+Package mdframed Info: mdframed works in twoside mode on input line 178.
 
+! LaTeX Error: File `src/abstract.tex' not found.
 
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
 
-] [4]
-Overfull \hbox (0.9803pt too wide) detected at line 182
- []\T1/opensans-TLF/m/n/10.95 100
- []
+Enter file name: 
+./main.tex:185: Emergency stop.
+<read *> 
+         
+l.185 ...extbf{Abstract:} \input{src/abstract.tex}
+                                                  ^^M
+*** (cannot \read from terminal in nonstop modes)
 
-
-Overfull \hbox (0.9803pt too wide) detected at line 184
- []\T1/opensans-TLF/m/n/10.95 100
- []
-
-
-Overfull \hbox (0.9803pt too wide) detected at line 186
- []\T1/opensans-TLF/m/n/10.95 101
- []
-
-
-Overfull \hbox (0.9803pt too wide) detected at line 190
- []\T1/opensans-TLF/m/n/10.95 103
- []
-
-
-Overfull \hbox (0.9803pt too wide) detected at line 192
- []\T1/opensans-TLF/m/n/10.95 103
- []
-
-
-Overfull \hbox (0.9803pt too wide) detected at line 194
- []\T1/opensans-TLF/m/n/10.95 105
- []
-
-
-Overfull \hbox (0.9803pt too wide) detected at line 196
- []\T1/opensans-TLF/m/n/10.95 107
- []
-
-)
-\tf@toc=\write7
-\openout7 = `main.toc'.
-
- [5]
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: pdftex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: twoside 
-* h-part:(L,W,R)=(113.81102pt, 369.88583pt, 113.81102pt)
-* v-part:(T,H,B)=(113.81102pt, 617.4248pt, 113.81102pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=369.88583pt
-* \textheight=617.4248pt
-* \oddsidemargin=41.54103pt
-* \evensidemargin=41.54103pt
-* \topmargin=9.66724pt
-* \headheight=12.0pt
-* \headsep=19.8738pt
-* \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=88.0pt
-* \marginparsep=7.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-\openout2 = `chapters/Context.aux'.
-
- (./chapters/Context.tex [14
-
-
-
-
-
-]
-Chapter 2.
-
-LaTeX Warning: Citation `tilly1984retrieving' on page 15 undefined on input lin
-e 7.
-
-
-LaTeX Warning: Citation `wetherellHistoricalSocialNetwork1998' on page 15 undef
-ined on input line 10.
-
-
-LaTeX Warning: Citation `kerschbaumerPowerNetworksProspects2015' on page 15 und
-efined on input line 10.
-
-
-LaTeX Warning: Citation `freemanDevelopmentSocialNetwork2004' on page 15 undefi
-ned on input line 11.
-
-
-LaTeX Warning: Citation `scottSocialNetworkAnalysis1988' on page 15 undefined o
-n input line 11.
-
-
-LaTeX Warning: Citation `prost2014' on page 15 undefined on input line 13.
-
-
-LaTeX Warning: Citation `lemercier12FormalNetwork2015' on page 15 undefined on 
-input line 14.
-
-LaTeX Font Info:    Font shape `T1/opensans-TLF/b/n' will be
-(Font)              scaled to size 10.40245pt on input line 29.
-
-LaTeX Warning: Reference `sec:social-network-analysis' on page 15 undefined on 
-input line 29.
-
-
-LaTeX Warning: Reference `sec:historical-network-research' on page 15 undefined
- on input line 29.
-
-
-LaTeX Warning: Citation `cardReadingsInformationVisualization1999' on page 15 u
-ndefined on input line 38.
-
-[15]
-
-LaTeX Warning: Citation `cardReadingsInformationVisualization1999' on page 16 u
-ndefined on input line 46.
-
-
-LaTeX Warning: Citation `friendlyVisionsReVisionsCharles2002' on page 16 undefi
-ned on input line 47.
-
-
-LaTeX Warning: Citation `snowModeCommunicationCholera1856' on page 16 undefined
- on input line 47.
-
-
-LaTeX Warning: Citation `tukeyFutureDataAnalysis1962' on page 16 undefined on i
-nput line 48.
-
-
-LaTeX Warning: Citation `bertin1967' on page 16 undefined on input line 48.
-
-<static/figures/RelatedWork/BertinNetworks.png, id=300, 713.66624pt x 1232.605p
-t>
-File: static/figures/RelatedWork/BertinNetworks.png Graphic file (type png)
-<use static/figures/RelatedWork/BertinNetworks.png>
-Package pdftex.def Info: static/figures/RelatedWork/BertinNetworks.png  used on
- input line 53.
-(pdftex.def)             Requested size: 295.90979pt x 511.07014pt.
-LaTeX Font Info:    Font shape `T1/opensans-TLF/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 54.
-
-LaTeX Warning: Citation `bertin1967' on page 16 undefined on input line 54.
-
-
-LaTeX Warning: Citation `bertin1967' on page 16 undefined on input line 54.
-
-
-LaTeX Warning: Citation `friendlyBriefHistoryData2008' on page 16 undefined on 
-input line 60.
-
-
-LaTeX Warning: Citation `hilbertWorldTechnologicalCapacity2011' on page 16 unde
-fined on input line 62.
-
-
-LaTeX Warning: Citation `anscombeGraphsStatisticalAnalysis1973' on page 16 unde
-fined on input line 64.
-
-<static/figures/RelatedWork/Anscombe.pdf, id=303, 948.54375pt x 632.3625pt>
-File: static/figures/RelatedWork/Anscombe.pdf Graphic file (type pdf)
-<use static/figures/RelatedWork/Anscombe.pdf>
-Package pdftex.def Info: static/figures/RelatedWork/Anscombe.pdf  used on input
- line 69.
-(pdftex.def)             Requested size: 295.90979pt x 197.27507pt.
-
-LaTeX Warning: Citation `anscombeGraphsStatisticalAnalysis1973' on page 16 unde
-fined on input line 70.
-
-
-LaTeX Warning: Citation `anscombeGraphsStatisticalAnalysis1973' on page 16 unde
-fined on input line 70.
-
-
-LaTeX Warning: Citation `shneidermanEyesHaveIt1996' on page 16 undefined on inp
-ut line 74.
-
-
-LaTeX Warning: Citation `wilkinsonGrammarGraphics1993' on page 16 undefined on 
-input line 76.
-
-
-LaTeX Warning: Citation `satyanarayan2016vega' on page 16 undefined on input li
-ne 78.
-
-
-LaTeX Warning: Citation `wickham2007ggplot' on page 16 undefined on input line 
-78.
-
-
-LaTeX Warning: Citation `bradshawDataJournalism2017' on page 16 undefined on in
-put line 79.
-
-[16] [17 <./static/figures/RelatedWork/BertinNetworks.png>]
-
-LaTeX Warning: Citation `tukeyExploratoryDataAnalysis1977' on page 18 undefined
- on input line 91.
-
-
-LaTeX Warning: Citation `shneidermanEyesHaveIt1996' on page 18 undefined on inp
-ut line 92.
-
-[18 <./static/figures/RelatedWork/Anscombe.pdf>]
-
-LaTeX Warning: Citation `keimVisualAnalyticsDefinition2008' on page 19 undefine
-d on input line 102.
-
-<static/figures/RelatedWork/TULIP.png, id=323, 2017.5375pt x 1186.4325pt>
-File: static/figures/RelatedWork/TULIP.png Graphic file (type png)
-<use static/figures/RelatedWork/TULIP.png>
-Package pdftex.def Info: static/figures/RelatedWork/TULIP.png  used on input li
-ne 106.
-(pdftex.def)             Requested size: 369.88583pt x 217.51329pt.
-
-LaTeX Warning: Citation `auberTULIP2017' on page 19 undefined on input line 107
-.
-
-
-LaTeX Warning: Citation `auberTULIP2017' on page 19 undefined on input line 107
-.
-
-
-Underfull \vbox (badness 1515) has occurred while \output is active []
-
- [19 <./static/figures/RelatedWork/TULIP.png>]
-
-LaTeX Warning: Citation `tilly1984retrieving' on page 20 undefined on input lin
-e 133.
-
-
-LaTeX Warning: Citation `haskinsUnderstandingQuantitativeHistory2011' on page 2
-0 undefined on input line 135.
-
-
-LaTeX Warning: Citation `prost2014' on page 20 undefined on input line 151.
-
-
-LaTeX Warning: Citation `langloisIntroductionAuxÉtudes2014' on page 20 undefin
-ed on input line 154.
-
-
-LaTeX Warning: Citation `noirielNaissanceMétierHistorien1990' on page 20 undef
-ined on input line 155.
-
-
-LaTeX Warning: Citation `prost2014' on page 20 undefined on input line 159.
-
-
-LaTeX Warning: Citation `carbonellHistoriographie1981' on page 20 undefined on 
-input line 166.
-
-
-LaTeX Warning: Citation `febvreVERSAUTREHISTOIRE1949' on page 20 undefined on i
-nput line 167.
-
-
-LaTeX Warning: Citation `prost2014' on page 20 undefined on input line 167.
-
-[20]
-
-LaTeX Warning: Citation `bourdieuRapportsEntreSociologie1995' on page 21 undefi
-ned on input line 173.
-
-
-LaTeX Warning: Citation `burkeHistorySocialTheory2005' on page 21 undefined on 
-input line 175.
-
-LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 179.
-LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 179.
-LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
-(Font)              scaled to size 7.12497pt on input line 179.
-LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 7.12497pt on input line 179.
-
-LaTeX Warning: Citation `labrousse1990crise' on page 21 undefined on input line
- 179.
-
-
-LaTeX Warning: Citation `fogelRailroadsAmericanEconomic1964' on page 21 undefin
-ed on input line 197.
-
-
-LaTeX Warning: Citation `fogel1974time' on page 21 undefined on input line 197.
-
-
-
-LaTeX Warning: Citation `whaplesWhereThereConsensus1995' on page 21 undefined o
-n input line 198.
-
-
-LaTeX Warning: Citation `lemercierBackSourcesPracticing2021' on page 21 undefin
-ed on input line 199.
-
-
-LaTeX Warning: Citation `landesHistorySocialScience1971' on page 21 undefined o
-n input line 200.
-
-
-LaTeX Warning: Citation `lemercierQuantitativeMethodsHumanities2019' on page 21
- undefined on input line 201.
-
-[21]
-
-LaTeX Warning: Citation `stoneRevivalNarrativeReflections1979' on page 22 undef
-ined on input line 204.
-
-
-LaTeX Warning: Citation `lemercierQuantitativeMethodsHumanities2019' on page 22
- undefined on input line 208.
-
-
-LaTeX Warning: Citation `trivellatoThereFutureItalian2011' on page 22 undefined
- on input line 210.
-
-
-LaTeX Warning: Citation `lemercierQuantitativeMethodsHumanities2019' on page 22
- undefined on input line 228.
-
-
-LaTeX Warning: Citation `terras2011quantifying' on page 22 undefined on input l
-ine 231.
-
-
-LaTeX Warning: Citation `burdickDigitalHumanities2016' on page 22 undefined on 
-input line 232.
-
-
-LaTeX Warning: Citation `InterchangePromiseDigital2008' on page 22 undefined on
- input line 233.
-
-[22]
-<static/figures/RelatedWork/RepublicOfLetter_BenjFranklin.png, id=348, 1760.577
-5pt x 1367.1075pt>
-File: static/figures/RelatedWork/RepublicOfLetter_BenjFranklin.png Graphic file
- (type png)
-<use static/figures/RelatedWork/RepublicOfLetter_BenjFranklin.png>
-Package pdftex.def Info: static/figures/RelatedWork/RepublicOfLetter_BenjFrankl
-in.png  used on input line 239.
-(pdftex.def)             Requested size: 369.88583pt x 287.20535pt.
-
-
-LaTeX Warning: Citation `edelsteinHistoricalResearchDigital2017' on page 23 und
-efined on input line 240.
-
-
-LaTeX Warning: Citation `edelsteinHistoricalResearchDigital2017' on page 23 und
-efined on input line 240.
-
-
-LaTeX Warning: Citation `edelsteinHistoricalResearchDigital2017' on page 23 und
-efined on input line 244.
-
-
-LaTeX Warning: Citation `kaplanVeniceTimeMachine2015' on page 23 undefined on i
-nput line 246.
-
-
-LaTeX Warning: Citation `lemercierQuantitativeMethodsHumanities2019' on page 23
- undefined on input line 247.
-
-
-LaTeX Warning: Citation `ahnertNetworkTurnChanging2020' on page 23 undefined on
- input line 249.
-
-
-LaTeX Warning: Citation `cordell2017viral' on page 23 undefined on input line 2
-50.
-
-
-LaTeX Warning: Citation `ardanuyLivingMachinesStudy2020' on page 23 undefined o
-n input line 250.
-
-
-LaTeX Warning: Reference `subsec:hsna' on page 23 undefined on input line 251.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [23]
-[24 <./static/figures/RelatedWork/RepublicOfLetter_BenjFranklin.png>]
-
-LaTeX Warning: Citation `freeman_development_2004' on page 25 undefined on inpu
-t line 257.
-
-
-LaTeX Warning: Citation `scottSocialNetworkAnalysis1988' on page 25 undefined o
-n input line 268.
-
-
-LaTeX Warning: Citation `freemanDevelopmentSocialNetwork2004' on page 25 undefi
-ned on input line 270.
-
-
-LaTeX Warning: Citation `bartonSurveyResearchMacroMethodology1968' on page 25 u
-ndefined on input line 271.
-
-
-LaTeX Warning: Citation `morenoFoundationsSociometryIntroduction1941' on page 2
-5 undefined on input line 273.
-
-<static/figures/RelatedWork/Moreno-1.png, id=361, 598.235pt x 758.835pt>
-File: static/figures/RelatedWork/Moreno-1.png Graphic file (type png)
-<use static/figures/RelatedWork/Moreno-1.png>
-Package pdftex.def Info: static/figures/RelatedWork/Moreno-1.png  used on input
- line 279.
-(pdftex.def)             Requested size: 147.95207pt x 187.6704pt.
-<static/figures/RelatedWork/Moreno-1_GrandJean.png, id=362, 1003.75pt x 1003.75
-pt>
-File: static/figures/RelatedWork/Moreno-1_GrandJean.png Graphic file (type png)
-
-<use static/figures/RelatedWork/Moreno-1_GrandJean.png>
-Package pdftex.def Info: static/figures/RelatedWork/Moreno-1_GrandJean.png  use
-d on input line 280.
-(pdftex.def)             Requested size: 203.43832pt x 203.42674pt.
-
-LaTeX Warning: Citation `morenoWhoShallSurvive1934' on page 25 undefined on inp
-ut line 281.
-
-
-LaTeX Warning: Citation `grandjeanSocialNetworkAnalysis2015' on page 25 undefin
-ed on input line 281.
-
-
-LaTeX Warning: Citation `morenoWhoShallSurvive1934' on page 25 undefined on inp
-ut line 281.
-
-
-LaTeX Warning: Citation `grandjeanSocialNetworkAnalysis2015' on page 25 undefin
-ed on input line 281.
-
-
-LaTeX Warning: Citation `erdos2011' on page 25 undefined on input line 288.
-
-
-LaTeX Warning: Citation `colemanIntroductionMathematicalSociology1964' on page 
-25 undefined on input line 291.
-
-[25] [26 <./static/figures/RelatedWork/Moreno-1.png> <./static/figures/RelatedW
-ork/Moreno-1_GrandJean.png>]
-
-LaTeX Warning: Citation `lemercier12FormalNetwork2015' on page 27 undefined on 
-input line 313.
-
-
-LaTeX Warning: Citation `wassermanSocialNetworkAnalysis1994' on page 27 undefin
-ed on input line 314.
-
-
-LaTeX Warning: Citation `Simmel2013' on page 27 undefined on input line 316.
-
-
-LaTeX Warning: Citation `miloNetworkMotifsSimple2002' on page 27 undefined on i
-nput line 317.
-
-
-LaTeX Warning: Citation `pržuljBiologicalNetworkComparison2007' on page 27 und
-efined on input line 317.
-
-
-LaTeX Warning: Citation `miloNetworkMotifsSimple2002' on page 27 undefined on i
-nput line 319.
-
-<static/figures/RelatedWork/graphlets/triangle.pdf, id=376, 752.8125pt x 752.81
-25pt>
-File: static/figures/RelatedWork/graphlets/triangle.pdf Graphic file (type pdf)
-
-<use static/figures/RelatedWork/graphlets/triangle.pdf>
-Package pdftex.def Info: static/figures/RelatedWork/graphlets/triangle.pdf  use
-d on input line 321.
-(pdftex.def)             Requested size: 11.95793pt x 11.96808pt.
-<static/figures/RelatedWork/graphlets/edge.pdf, id=377, 752.8125pt x 752.8125pt
->
-File: static/figures/RelatedWork/graphlets/edge.pdf Graphic file (type pdf)
-<use static/figures/RelatedWork/graphlets/edge.pdf>
-Package pdftex.def Info: static/figures/RelatedWork/graphlets/edge.pdf  used on
- input line 321.
-(pdftex.def)             Requested size: 11.95793pt x 11.96808pt.
-File: static/figures/RelatedWork/graphlets/triangle.pdf Graphic file (type pdf)
-
-<use static/figures/RelatedWork/graphlets/triangle.pdf>
-Package pdftex.def Info: static/figures/RelatedWork/graphlets/triangle.pdf  use
-d on input line 321.
-(pdftex.def)             Requested size: 11.95793pt x 11.96808pt.
-<static/figures/RelatedWork/graphlets/edge2.pdf, id=378, 752.8125pt x 752.8125p
-t>
-File: static/figures/RelatedWork/graphlets/edge2.pdf Graphic file (type pdf)
-<use static/figures/RelatedWork/graphlets/edge2.pdf>
-Package pdftex.def Info: static/figures/RelatedWork/graphlets/edge2.pdf  used o
-n input line 322.
-(pdftex.def)             Requested size: 11.95793pt x 11.96808pt.
-<static/figures/RelatedWork/all_graphlets_undir5.png, id=379, 480.79625pt x 141
-.52875pt>
-File: static/figures/RelatedWork/all_graphlets_undir5.png Graphic file (type pn
-g)
-<use static/figures/RelatedWork/all_graphlets_undir5.png>
-Package pdftex.def Info: static/figures/RelatedWork/all_graphlets_undir5.png  u
-sed on input line 329.
-(pdftex.def)             Requested size: 369.88583pt x 108.88245pt.
-
-LaTeX Warning: Citation `charbeyStarsHolesPaths2019' on page 27 undefined on in
-put line 335.
-
-
-LaTeX Warning: Citation `girvanCommunityStructureSocial2002' on page 27 undefin
-ed on input line 336.
-
-
-LaTeX Warning: Citation `fortunatoCommunityDetectionGraphs2010' on page 27 unde
-fined on input line 338.
-
-[27 <./static/figures/RelatedWork/all_graphlets_undir5.png> <./static/figures/R
-elatedWork/graphlets/triangle.pdf> <./static/figures/RelatedWork/graphlets/edge
-.pdf
-
-pdfTeX warning: pdflatex (file ./static/figures/RelatedWork/graphlets/edge.pdf)
-: PDF inclusion: multiple pdfs with page group included in a single page
-> <./static/figures/RelatedWork/graphlets/edge2.pdf
-
-pdfTeX warning: pdflatex (file ./static/figures/RelatedWork/graphlets/edge2.pdf
-): PDF inclusion: multiple pdfs with page group included in a single page
->]
-
-LaTeX Warning: Citation `eveDeuxTraditionsAnalyse2002' on page 28 undefined on 
-input line 341.
-
-
-LaTeX Warning: Citation `maurizio2000' on page 28 undefined on input line 341.
-
-
-LaTeX Warning: Citation `freemanDevelopmentSocialNetwork2004' on page 28 undefi
-ned on input line 341.
-
-
-LaTeX Warning: Citation `lazegaReseaux' on page 28 undefined on input line 343.
-
-
-
-LaTeX Warning: Citation `mayerMigrancyStudyAfricans1962' on page 28 undefined o
-n input line 350.
-
-[28]
-
-LaTeX Warning: Citation `wetherellHistoricalSocialNetwork1998' on page 29 undef
-ined on input line 367.
-
-
-LaTeX Warning: Citation `ginzburgMicrohistoire1981' on page 29 undefined on inp
-ut line 369.
-
-
-LaTeX Warning: Citation `cristofoliAuxSourcesGrands2008' on page 29 undefined o
-n input line 372.
-
-
-LaTeX Warning: Citation `wetherellHistoricalSocialNetwork1998' on page 29 undef
-ined on input line 378.
-
-
-LaTeX Warning: Citation `hambergerScanningPatternsRelationship2014' on page 29 
-undefined on input line 378.
-
-
-LaTeX Warning: Citation `lippKinshipNetworksLocal2005' on page 29 undefined on 
-input line 378.
-
-
-LaTeX Warning: Citation `moutoukias1992' on page 29 undefined on input line 378
-.
-
-
-LaTeX Warning: Citation `lemercier12FormalNetwork2015' on page 29 undefined on 
-input line 379.
-
-
-LaTeX Warning: Citation `padgettRobustActionRise1993' on page 29 undefined on i
-nput line 379.
-
-
-LaTeX Warning: Citation `alexanderAnalysisAncientNetwork1990' on page 29 undefi
-ned on input line 379.
-
-<static/figures/RelatedWork/Cicero_network.png, id=398, 882.29625pt x 990.70125
-pt>
-File: static/figures/RelatedWork/Cicero_network.png Graphic file (type png)
-<use static/figures/RelatedWork/Cicero_network.png>
-Package pdftex.def Info: static/figures/RelatedWork/Cicero_network.png  used on
- input line 395.
-(pdftex.def)             Requested size: 295.90979pt x 332.26868pt.
-
-LaTeX Warning: Citation `alexanderAnalysisAncientNetwork1990' on page 29 undefi
-ned on input line 396.
-
-
-LaTeX Warning: Citation `alexanderAnalysisAncientNetwork1990' on page 29 undefi
-ned on input line 396.
-
-
-LaTeX Warning: Citation `lemercier12FormalNetwork2015' on page 29 undefined on 
-input line 401.
-
-
-LaTeX Warning: Citation `kerschbaumerPowerNetworksProspects2015' on page 29 und
-efined on input line 401.
-
-
-LaTeX Warning: Citation `padgettRobustActionRise1993' on page 29 undefined on i
-nput line 402.
-
-
-LaTeX Warning: Citation `petzCombiningNetworkResearch2022' on page 29 undefined
- on input line 402.
-
-
-LaTeX Warning: Citation `alkadi2022' on page 29 undefined on input line 415.
-
-[29]
-
-LaTeX Warning: Citation `rossettiCommunityDiscoveryDynamic2018' on page 30 unde
-fined on input line 426.
-
-
-Underfull \vbox (badness 5133) has occurred while \output is active []
-
- [30 <./static/figures/RelatedWork/Cicero_network.png>]
-
-LaTeX Warning: Citation `borgattiSocialNetworkAnalysis2009' on page 31 undefine
-d on input line 429.
-
-
-LaTeX Warning: Citation `hambergerKinshipNetworkAnalysis2011' on page 31 undefi
-ned on input line 436.
-
-
-LaTeX Warning: Citation `gedcom' on page 31 undefined on input line 437.
-
-
-LaTeX Warning: Citation `hambergerScanningPatternsRelationship2014' on page 31 
-undefined on input line 439.
-
-
-LaTeX Warning: Citation `lemercierQuantitativeMethodsHumanities2019' on page 31
- undefined on input line 443.
-
-
-LaTeX Warning: Citation `lemercier12FormalNetwork2015' on page 31 undefined on 
-input line 445.
-
-
-LaTeX Warning: Citation `alexanderAnalysisAncientNetwork1990' on page 31 undefi
-ned on input line 446.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [31]
-
-LaTeX Warning: Citation `freemanVisualizingSocialNetworks2000' on page 32 undef
-ined on input line 461.
-
-
-LaTeX Warning: Citation `morenoWhoShallSurvive1934' on page 32 undefined on inp
-ut line 462.
-
-
-LaTeX Warning: Citation `Gephi' on page 32 undefined on input line 464.
-
-
-LaTeX Warning: Citation `mrvarAnalysisVisualizationLarge2016' on page 32 undefi
-ned on input line 464.
-
-
-LaTeX Warning: Citation `cristofoliPrincipesUsagesDessins' on page 32 undefined
- on input line 465.
-
-
-LaTeX Warning: Citation `kosakAutomatingLayoutNetwork1994' on page 32 undefined
- on input line 465.
-
-
-LaTeX Warning: Citation `kosakAutomatingLayoutNetwork1994' on page 32 undefined
- on input line 465.
-
-
-LaTeX Warning: Citation `mcguffinSimpleAlgorithmsNetwork2012' on page 32 undefi
-ned on input line 470.
-
-
-LaTeX Warning: Citation `ghoniemComparisonReadabilityGraphs2004' on page 32 und
-efined on input line 471.
-
-
-LaTeX Warning: Citation `abdelaalComparativeEvaluationBipartite2022' on page 32
- undefined on input line 471.
-
-<static/figures/RelatedWork/Kosak-nodelinkdiagramMetrics.png, id=418, 2052.6687
-5pt x 1202.4925pt>
-File: static/figures/RelatedWork/Kosak-nodelinkdiagramMetrics.png Graphic file 
-(type png)
-<use static/figures/RelatedWork/Kosak-nodelinkdiagramMetrics.png>
-Package pdftex.def Info: static/figures/RelatedWork/Kosak-nodelinkdiagramMetric
-s.png  used on input line 475.
-(pdftex.def)             Requested size: 369.88583pt x 216.67784pt.
-
-LaTeX Warning: Citation `kosakAutomatingLayoutNetwork1994' on page 32 undefined
- on input line 476.
-
-
-LaTeX Warning: Citation `kosakAutomatingLayoutNetwork1994' on page 32 undefined
- on input line 476.
-
-
-LaTeX Warning: Citation `valdiviaAnalyzingDynamicHypergraphs2021' on page 32 un
-defined on input line 482.
-
-
-LaTeX Warning: Citation `henryNodeTrixHybridVisualization2007' on page 32 undef
-ined on input line 482.
-
-
-LaTeX Warning: Citation `serranomolineroUnderstandingUseVistorian2017' on page 
-32 undefined on input line 482.
-
-
-LaTeX Warning: Citation `nobreJuniperTreeTable2019' on page 32 undefined on inp
-ut line 482.
-
-[32]
-<static/figures/RelatedWork/NodeTrix.png, id=426, 769.87625pt x 323.2075pt>
-File: static/figures/RelatedWork/NodeTrix.png Graphic file (type png)
-<use static/figures/RelatedWork/NodeTrix.png>
-Package pdftex.def Info: static/figures/RelatedWork/NodeTrix.png  used on input
- line 488.
-(pdftex.def)             Requested size: 295.90979pt x 124.2306pt.
-
-
-LaTeX Warning: Citation `henryNodeTrixHybridVisualization2007' on page 33 undef
-ined on input line 489.
-
-
-LaTeX Warning: Citation `henryNodeTrixHybridVisualization2007' on page 33 undef
-ined on input line 489.
-
-
-LaTeX Warning: Citation `Gephi' on page 33 undefined on input line 497.
-
-
-LaTeX Warning: Citation `mrvarAnalysisVisualizationLarge2016' on page 33 undefi
-ned on input line 497.
-
-
-LaTeX Warning: Citation `johnsonUCINETSoftwareTool1987' on page 33 undefined on
- input line 497.
-
-
-LaTeX Warning: Citation `NodeXL' on page 33 undefined on input line 497.
-
-
-LaTeX Warning: Citation `baurVisoneSoftwareVisual2002' on page 33 undefined on 
-input line 498.
-
-
-LaTeX Warning: Citation `serranomolineroUnderstandingUseVistorian2017' on page 
-33 undefined on input line 501.
-
-[33 <./static/figures/RelatedWork/Kosak-nodelinkdiagramMetrics.png> <./static/f
-igures/RelatedWork/NodeTrix.png>]
-<static/figures/RelatedWork/vistorian.png, id=434, 1840.8775pt x 966.61125pt>
-File: static/figures/RelatedWork/vistorian.png Graphic file (type png)
-<use static/figures/RelatedWork/vistorian.png>
-Package pdftex.def Info: static/figures/RelatedWork/vistorian.png  used on inpu
-t line 506.
-(pdftex.def)             Requested size: 295.90979pt x 150.79555pt.
-
-
-LaTeX Warning: Citation `serranomolineroUnderstandingUseVistorian2017' on page 
-34 undefined on input line 507.
-
-
-LaTeX Warning: Citation `serranomolineroUnderstandingUseVistorian2017' on page 
-34 undefined on input line 507.
-
-
-LaTeX Warning: Citation `keimVisualAnalytics' on page 34 undefined on input lin
-e 513.
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 515.
-
-LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 527.
-
-LaTeX Warning: Citation `pajek' on page 34 undefined on input line 527.
-
-
-LaTeX Warning: Citation `johnsonUCINETSoftwareTool1987' on page 34 undefined on
- input line 527.
-
-
-LaTeX Warning: Citation `Gephi' on page 34 undefined on input line 527.
-
-
-LaTeX Warning: Citation `NodeXL' on page 34 undefined on input line 527.
-
-
-LaTeX Warning: Citation `serranomolineroUnderstandingUseVistorian2017' on page 
-34 undefined on input line 527.
-
-
-LaTeX Warning: Citation `henryNodeTrixHybridVisualization2007' on page 34 undef
-ined on input line 528.
-
-
-LaTeX Warning: Citation `henryNodeTrixHybridVisualization2007' on page 34 undef
-ined on input line 528.
-
-
-LaTeX Warning: Citation `wassermanSocialNetworkAnalysis1994' on page 34 undefin
-ed on input line 532.
-
-
-LaTeX Warning: Citation `scottSocialNetworkAnalysis1988' on page 34 undefined o
-n input line 532.
-
-
-LaTeX Warning: Citation `pisterIntegratingPriorKnowledge2021' on page 34 undefi
-ned on input line 533.
-
-
-LaTeX Warning: Citation `serranomolineroUnderstandingUseVistorian2017' on page 
-34 undefined on input line 543.
-
-
-LaTeX Warning: Citation `alkadi2022' on page 34 undefined on input line 543.
-
-
-LaTeX Warning: Citation `lemercier12FormalNetwork2015' on page 34 undefined on 
-input line 545.
-
-[34 <./static/figures/RelatedWork/vistorian.png>]
-
-LaTeX Warning: Citation `staskoJigsawSupportingInvestigative2008' on page 35 un
-defined on input line 551.
-
-
-LaTeX Warning: Citation `diesnerImpactEntityDisambiguation2015' on page 35 unde
-fined on input line 555.
-
-) [35]
-
-./main.tex:204: LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.204     \bibliography
-                       {main}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./main.tex:205: Package biblatex Error: '\bibliographystyle' invalid.
-
-See the biblatex package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.205     \bibliographystyle{plain}
-                                   
-Use the package option 'style' instead.
-I'm ignoring this command.
-
-[108
-
-
-
-
-
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 208.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 208.
- (/home/alexis/Documents/Thesis/out/main.aux
-(/home/alexis/Documents/Thesis/out/chapters/Introduction.aux)
-(/home/alexis/Documents/Thesis/out/chapters/Context.aux)
-(/home/alexis/Documents/Thesis/out/chapters/NetworkModels.aux)
-(/home/alexis/Documents/Thesis/out/chapters/ComBiNet.aux)
-(/home/alexis/Documents/Thesis/out/chapters/PK-Clustering.aux)
-(/home/alexis/Documents/Thesis/out/chapters/Conclusion.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 208.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 208.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: <no file>.
-
-
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 1.26pt have occurred.
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-LaTeX Warning: There were undefined references.
-
-Package logreq Info: Writing requests to 'main.run.xml'.
-\openout1 = `main.run.xml'.
-
- ) 
+ 
 Here is how much of TeX's memory you used:
- 35574 strings out of 481239
- 645250 string characters out of 5920377
- 1447268 words of memory out of 5000000
- 49956 multiletter control sequences out of 15000+600000
- 642780 words of font info for 177 fonts, out of 8000000 for 9000
+ 28836 strings out of 481239
+ 507846 string characters out of 5920377
+ 1051246 words of memory out of 5000000
+ 43457 multiletter control sequences out of 15000+600000
+ 614107 words of font info for 118 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,11n,117p,1129b,2054s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{section.6.4} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.6.3} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.6.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.6.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.6} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{section.5.6} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.5.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.5.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.5.5} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.4.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.4.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.4.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.5.4} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.3.8} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.3.7} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.3.6} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.3.5} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.3.4} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.3.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.3.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.3.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.5.3} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.2.6} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.2.5} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.2.4} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.2.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.2.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.2.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.5.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.5.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.5} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{section.4.8} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.4.7} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.4.6.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.4.6} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.4.5.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.4.5.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.4.5.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.4.5} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.4.4.4} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.4.4.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.4.4.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.4.4.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.4.4} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.4.3.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.4.3.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.4.3} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.4.2.4} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.4.2.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.4.2.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.4.2.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.4.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.4.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.4} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.7} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.6} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.5} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.4.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.4.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.4.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.4} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.3.5} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.3.4} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.3.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.3.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.3.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.3} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.2.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.2.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.3} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.4} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.3} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.1} has been referenced but does not exist, 
-replaced by a fixed one
-
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/
-texmf-dist/fonts/enc/dvips/opensans/a_jg4h6q.enc}{/usr/share/texlive/texmf-dist
-/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/ascende
-r/opensans/OpenSans-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/ascende
-r/opensans/OpenSans-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/bera/fvsb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/bera/fvsr8
-a.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsi1095.pfb></usr/share/te
-xmf/fonts/type1/public/cm-super/sfsi1728.pfb></usr/share/texmf/fonts/type1/publ
-ic/cm-super/sfss0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1095
-.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss2488.pfb></usr/share/tex
-mf/fonts/type1/public/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/type1/publi
-c/cm-super/sfsx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1728.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/stix/stix-mathbb.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/stix/stix-mathcal.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/stix/stix-mathit.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/stix/stix-mathrm.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/stix/stix-mathscr.pfb>
-Output written on /home/alexis/Documents/Thesis/out/main.pdf (28 pages, 3071729
- bytes).
-PDF statistics:
- 542 PDF objects out of 1000 (max. 8388607)
- 461 compressed objects within 5 object streams
- 137 named destinations out of 1000 (max. 500000)
- 232 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 68i,9n,117p,892b,814s stack positions out of 5000i,500n,10000p,200000b,80000s
+./main.tex:185:  ==> Fatal error occurred, no output PDF file produced!

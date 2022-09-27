@@ -3,7 +3,7 @@
 
 % Preamble
 \documentclass[12pt,a4paper]{book}
-\usepackage{biblatex}
+%\usepackage{biblatex}
 
 %% Packages
 \input{commands}
@@ -12,14 +12,14 @@
 %\usepackage{biblatex} % à retirer!!!
 
 
-\includeonly{
+%\includeonly{
 %  chapters/Introduction,
-  chapters/Context,
+%  chapters/Context,
 %  chapters/Context,
 %  chapters/NetworkModels,
 %  chapters/ComBiNet,
 %  chapters/PK-Clustering
-}
+%}
 
 % Document
 \begin{document}
@@ -101,21 +101,39 @@
         \small \textbf{Composition du jury}\\
         \vspace{2mm}
         \scriptsize
-        \begin{tabular}{|p{7cm}l}
+        % \begin{tabular}{|p{7cm}l}
+        %     \arrayrulecolor{Prune}
+        %     \textbf{Prénom Nom} & Président ou Présidente           \\
+        %     Titre, Affiliation  &                                   \\
+        %     \textbf{Prénom Nom} & Rapporteur \& Examinateur / trice \\
+        %     Titre, Affiliation  &                                   \\
+        %     \textbf{Prénom Nom} & Rapporteur \& Examinateur / trice \\
+        %     Titre, Affiliation  &                                   \\
+        %     \textbf{Prénom Nom} & Examinateur ou Examinatrice       \\
+        %     Titre, Affiliation  &                                   \\
+        %     \textbf{Prénom Nom} & Examinateur ou Examinatrice       \\
+        %     Titre, Affiliation  &                                   \\
+        %     \textbf{Prénom Nom} & Directeur ou Directrice de thèse  \\
+        %     Titre, Affiliation  &                                   \\
+        % \end{tabular}
+        
+        % \begin{tabular}{|p{7cm}l} % original
+        \begin{tabular}{|p{9cm}l}
             \arrayrulecolor{Prune}
-            \textbf{Prénom Nom} & Président ou Présidente           \\
-            Titre, Affiliation  &                                   \\
-            \textbf{Prénom Nom} & Rapporteur \& Examinateur / trice \\
-            Titre, Affiliation  &                                   \\
-            \textbf{Prénom Nom} & Rapporteur \& Examinateur / trice \\
-            Titre, Affiliation  &                                   \\
-            \textbf{Prénom Nom} & Examinateur ou Examinatrice       \\
-            Titre, Affiliation  &                                   \\
-            \textbf{Prénom Nom} & Examinateur ou Examinatrice       \\
-            Titre, Affiliation  &                                   \\
-            \textbf{Prénom Nom} & Directeur ou Directrice de thèse  \\
-            Titre, Affiliation  &                                   \\
-
+            \textbf{Ulrik Brandes} & Rapporteur \& Examinateur \\
+            Professeur, ETH Zürich  &                                   \\
+            \textbf{Guy Melançon} & Rapporteur \& Examinateur \\
+            Professeur, Univerité de Bordeaux  &                                   \\
+            \textbf{Wendy Mackay} & Examinatrice       \\
+            Directrice de recherche, Univ. Paris-Saclay, CNRS, Inria, LISN  &                                   \\
+            \textbf{Uta Hinrichs} & Examinatrice       \\
+            Professeur, Université d'Edinburgh  &                                   \\
+            \textbf{Laurent Beauguitte} & Examinateur       \\
+            Maitre de conférence, CNRS  &                                   \\
+            \textbf{Jean-Daniel Fekete} & Directeur de thèse  \\
+            Directeur de recherche, Univ. Paris-Saclay, CNRS, Inria, LISN  &                                   \\
+            \textbf{Chritophe Prieur} & Directeur de thèse  \\
+            Professeur, Université Gustave Eiffel  &           
         \end{tabular}
 
     \end{titlepage}
@@ -164,7 +182,7 @@
         \noindent \textbf{Keywords:} 3 à 6 mots clefs (version en anglais)
 
         \begin{multicols}{2}
-            \noindent \textbf{Abstract:} \lipsum[1-2]
+            \noindent \textbf{Abstract:} \input{src/abstract.tex}
         \end{multicols}
     \end{mdframed}
 
