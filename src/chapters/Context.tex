@@ -29,14 +29,14 @@ We focus in this thesis on the two former branches of visualization, as social s
 \subsection{Information Visualization}
 
 Information Visualization focus on displaying abstract data to amplify cognition and gain insight on real world phenomena \cite{cardReadingsInformationVisualization1999}.
-History is filled with classical examples of visual data displays which helped understand specific events, such as Minard's map of Napoleon's march in Russia \cite{friendlyVisionsReVisionsCharles2002}, or Snow's dot map of cholera cases in London which showed the proximity between street pumps and cholera infections \cite{snowModeCommunicationCholera1856}.
-If several examples of information visualization can be found thorough history, it mainly developed as a scientific field in the 1960s with Tukey's work on data analysis and visualization \cite{tukeyFutureDataAnalysis1962} and Bertin's publication of Semiology of graphics \cite{bertin1967}.
+History is filled with classical examples of visual data displays which helped understand specific events, such as Minard's map of Napoleon's march in Russia \cite{friendlyVisionsReVisionsCharles2002}, or Snow's dot map of cholera cases in London which revealed the proximity between street pumps and cholera infections \cite{snowModeCommunicationCholera1856}.
+If several examples of information visualization can be found through history, it mainly developed as a scientific field in the 1960s with Tukey's work on data analysis and visualization \cite{tukeyFutureDataAnalysis1962} and Bertin's publication of Semiology of graphics \cite{bertin1967}.
 In this foundational work, Bertin described and organized the different visual elements usable in graphical information displays, and linked them to data features and relations types.
 Michael Friendly writes that ``To some, this appeared to do for graphics what Mendeleev had done for the organization of the chemical elements'' \cite{friendlyBriefHistoryData2008}.
 The development of computer science and the rise of hardware capabilities during the same time created a big need for data visualization.
 The amount of data stored increased exponentially \cite{hilbertWorldTechnologicalCapacity2011} and descriptive statistics were not enough to understand the underlying structure of the amount and diversity of produced data.
 Visualization, leveraging the human visual system, allowed to rapidly see the hidden structure of a dataset and detect interesting and unexpected patterns very often unseen with classical statistical methods.
-One classical illustration of this is Anscombe's quartet \cite{anscombeGraphsStatisticalAnalysis1973} which consists of four datasets of points in $\mathbb{R} ^{2}$ with the same statistical measures (mean, variance, correlation coefficient, etc.) but with very different structures, that plotting the data show immediately.
+One classical illustration of this is the Anscombe's quartet \cite{anscombeGraphsStatisticalAnalysis1973} which consists of four datasets of points in $\mathbb{R} ^{2}$ with the same statistical measures (mean, variance, correlation coefficient, etc.) but with very different structures, that plotting the data show immediately.
 The four datasets are illustrated in \autoref{fig:anscombe-quartet}.
 
 
@@ -51,7 +51,7 @@ A large number of visualization techniques emerged to make sense of the diversit
 Instead of using taxonomies classifying graphics into categories such as histograms, pie charts, and stream graphs, some theorized how to describe graphics in a more systematic and structural way.
 In 1993, Wilkinson extended Bertin's work and developed the Grammar of Graphics \cite{wilkinsonGrammarGraphics1993} as a way to describe the deep structure unifying every possible graphics, thus allowing to characterize and create graphics using common terms and rules.
 In this framework, a graphic can be defined as a function of six components: data (a set of data points and attributes from a dataset), transformations (statistical operations which modify the original data, \eg mean and rank transformations), scales (\eg linear and log scales), coordinate systems (\eg cartesian and polar coordinate systems), elements (graphical marks such as rectangular or circular marks, and their aesthetics, \eg color and size), and guides (additional information such as axes and legend).
-Many well-known visualization toolkits are now based on this framework, such as vega and ggplot, as it allows great expressiveness and reusability for graphic creation.
+Many well-known visualization toolkits are now based on this framework, such as Vega and ggplot \cite{vega,ggplot}, as it allows great expressiveness and reusability for graphic creation.
 Visualization allows to gain insight on the structure of a given data, and has traditionally been used for confirmation and communication purposes, for example to verify hypothesis on empirical sciences, and later on to communicate findings.
 %Many scientists use graphics to confirm hypothesis they have on their data, and later on to communicate their findings.
 Visualization is also used to communicate information to wider general audiences, for example in the context of data journalism to support a point.
@@ -74,7 +74,7 @@ As the average size of datasets keeps growing, exploratory tools are often neede
 %Moreover, with the develpment of data mining and machine learning methods,
 %Social scientists also often want to gain insight with the help of statistical and machine learning methods, that visualization only can not provide.
 More recent visual exploration interfaces also incorporate automatic analytical tools along with graphical displays, letting users apply data mining algorithms directly in the exploratory loop.
-This coupling of visualization and data mining has been defined as Visual Analytics (VA) and is still undergoing lots of research.
+This coupling of visualization and analytical methods such as data mining has been defined as Visual Analytics (VA) and is still an active research field.
 Keim and al.\ define it as ``a combination of automatic and visual analysis methods with a tight coupling through human interaction in order to gain knowledge from data'' \cite{keimVisualAnalyticsDefinition2008}.
 
 \begin{figure}
@@ -124,8 +124,8 @@ The concept of History is hard to define as its practice and codes highly evolve
 Prost writes that ``History is what historians do. The discipline called history is not an eternal essence, a Platonic idea. It is a reality that is itself historical, i.e. situated in time and space, carried out by men who call themselves historians and are recognized as such, received as history by various publics \cite{prost2014}.''
 Retrospectively, History of a given time can thus be characterized by the different historical work produced at that time.
 Nevertheless, history can be characterized as the collection and study of historical documents to study and describe the past.
-As Langlois and Seignobos write, ``The search for and the collection of documents is thus a part, logically the first and most important part, of the historian's craft'' \cite{langloisIntroductionAuxÉtudes2014}.
-History emerged as a field with its own rules, conventions and journals in the 1880s from faculties of letters, to counterbalance previous history works which were judged as too ``literary'' \cite{noirielNaissanceMétierHistorien1990}.
+As Langlois and Seignobos write, ``The search for and the collection of documents is thus a part, logically the first and most important part, of the historian's craft'' \cite{langloisIntroductionAuxEtudes2014}.
+History emerged as a field with its own rules, conventions and journals in the 1880s from faculties of letters, to counterbalance previous history works which were judged as too ``literary'' \cite{noirielNaissanceMetierHistorien1990}.
 A that time, two facets characterize the field, which are sometimes overlapping: one is political whereas the other one is methodological.
 %History can be seen through two facets: political and methodological.
 The former aspect of history serves to create a shared story for the studied country and a sense of unity to its citizens.
@@ -137,7 +137,7 @@ Historical documents are thus at the core of the work of historians and having t
 However, methodological and epistemological facets (how historians should read and analyze their sources, how to cite them, what to report/not report etc.) of History have not been studied and discussed for a long time, until the end of the 1980s.
 %However, even if those two aspects are well characterized (temporal aspect of the work and its relationships to sources), methodological and epistemological facets (how historians should read and analyze their sources, how to cite them, what to report/not report etc.) of History have not been studied and discussed for a long time, until the end of the 1980s.
 Some historians were interested in historiography \cite{carbonellHistoriographie1981}, but none were going to philosophical and epistemological reflexions of the History discipline.
-For Lucien fèbvre, philosophising was even constituting a ``capital crime'' \cite{febvreVERSAUTREHISTOIRE1949, prost2014}.
+For Lucien Fèbvre, philosophising was even constituting a ``capital crime'' \cite{febvreVERSAUTREHISTOIRE1949, prost2014}.
 %Les historiens font ordinairement de l’histoire sans méditer sur les limites et les conditions de l’histoire  ; sans doute, ils ont raison ; il vaut mieux que chacun fasse son métier ; d’une façon générale, il vaut mieux qu’un historien commence par faire de l’histoire sans en chercher aussi long : autrement, il n’y aurait jamais rien de fait
 
 %\alexis{maybe talk about the positivists and methodists}
@@ -146,7 +146,7 @@ History was at first mainly event-centered and was focusing in characterizing ce
 This narrative approach to history has been criticized for its open interpretation of historical documents, which can introduce bias from the authors \cite{bourdieuRapportsEntreSociologie1995}.
 %Social History emerged as a sub discipline of history with a focus on the social ascpect of history, trying to link political events (such as a revolution) to
 
-In the 1930s, March Bloch and Lucien fèbvre detached from traditional history by creating the ``Annales school'' (Ecole des Annales) which aimed at placing the human as a component of a broader sociological, political, and economic system with influences between each other \cite{burkeHistorySocialTheory2005}.
+In the 1930s, March Bloch and Lucien Fèbvre detached from traditional history by creating the ``Annales school'' (\'Ecole des Annales) which aimed at placing the human as a component of a broader sociological, political, and economic system with influences between each other \cite{burkeHistorySocialTheory2005}.
 They strongly advised to exhaustively search from archives, to ground historical results in documents, texts and numbers.
 This new way of studying past events and societies became successful in a profession in crisis, by bringing a new lens of study on various societal subjects more grounded in sources and with a better intelligibility.
 This school of thought can be seen as one of the biggest milestones for Social History, which focuses on the socio-economical aspects of societies and their changes through time, rather than an event-centric view of History.
@@ -200,11 +200,11 @@ DH can also provide infrastructures and tools to study large historical database
 \subsection{Digital Humanities}\label{subsec:DH}
 
 Digital Humanities is sometimes described as the second wave of computational social sciences \cite{lemercierQuantitativeMethodsHumanities2019}.
-The term has gained popularity since the 2010s and refer to ``research and teaching taking place at the intersection of digital technologies and humanities. Digital Humanities aims to produce and use applications and models that make possible new kinds of teaching and research, both in the humanities and
+The term has gained popularity since the 2010s and refer to ``\textit{research and teaching taking place at the intersection of digital technologies and humanities. Digital Humanities aims to produce and use applications and models that make possible new kinds of teaching and research, both in the humanities and
 in computer science (and its allied technologies). Digital Humanities also studies the impact of these techniques on cultural heritage,
-memory institutions, libraries, archives and digital culture.'' \cite{terras2011quantifying}.
+memory institutions, libraries, archives and digital culture.}'' \cite{terras2011quantifying}.
 If the first wave of computational social sciences focused a lot on statistical methods such as regression models, correlation testing, and descriptive measures (mean, median, and variance) to make conclusions, digital humanities focuses more on the use of digital tools for exploration, teaching, and communication of humanities datasets and concepts, leveraging design, infographics and interactive systems \cite{burdickDigitalHumanities2016}.
-In the context of historical research, the term Digital History have been coined as ``an approach to examining and representing the past that works with the new communication technologies of the computer, the Internet network, and software systems. On one level, digital history is an open arena of scholarly production and communication, encompassing the development of new course materials and scholarly data collections. On another, it is a methodological approach framed by the hypertextual power of these technologies to make, define, query, and annotate associations in the human record of the past. To do digital history, then, is to create a framework, an ontology, through the technology for people to experience, read, and follow an argument about a historical problem.'' \cite{InterchangePromiseDigital2008}
+In the context of historical research, the term Digital History have been coined as ``\textit{an approach to examining and representing the past that works with the new communication technologies of the computer, the Internet network, and software systems. On one level, digital history is an open arena of scholarly production and communication, encompassing the development of new course materials and scholarly data collections. On another, it is a methodological approach framed by the hypertextual power of these technologies to make, define, query, and annotate associations in the human record of the past. To do digital history, then, is to create a framework, an ontology, through the technology for people to experience, read, and follow an argument about a historical problem.}'' \cite{InterchangePromiseDigital2008}
 %Digital History therefore focus a lot on the curation and exploration of historical archives in the purpose of characterizing and communicate of historical concepts.
 Research which label itself as Digital History pivot around the curation and digitization of historical archives, the identification of historical concepts through computational and exploration methods, but also their communication to the general audience through digital technologies.
 
@@ -215,7 +215,7 @@ Research which label itself as Digital History pivot around the curation and dig
     \label{fig:republic-letters}
 \end{figure}
 
-A lot of Digital History projects are thus multidisciplinary by essence and involve several teams of researchers, such as the Republic of Letters project which consisted in digitizing, storing, and exploring letters of scholars across the world, in a common hub and using shared visualization tools \cite{edelsteinHistoricalResearchDigital2017}.
+Many Digital History projects are thus multidisciplinary by essence and involve several teams of researchers, such as the Republic of Letters project which consisted in digitizing, storing, and exploring letters of scholars across the world, in a common hub and using shared visualization tools \cite{edelsteinHistoricalResearchDigital2017}.
 It resulted in the elaboration of curated datasets and visualizations concerning the correspondence of various scholars such as Voltaire, Benjamin Franklin (see \autoref{fig:republic-letters}), or John Locke, accessible in the same place by researchers and the general audience.
 With modern technologies and infrastructures, it also becomes possible to study large historical databases---often labeled under the term ``big data''---as with the Venice Time Machine project~\cite{kaplanVeniceTimeMachine2015} which aims at digitizing and analyzing thousands of documents from the archives of Venice to understand the political, geographical, and sociological dynamics of the cities across generations and centuries.
 Yet, some historians raised concern about this type of project, fearing that it could rapidly bring the same type of issues that we saw during the first wave of quantification, especially for big projects involving many actors and high ambitious goals.
@@ -227,7 +227,7 @@ We discuss more in depth the related work of network analysis for historical res
 \section{Historical Social Network Analysis}\label{sec:hsna}
 
 Historians started to use network analysis to study relational structures and phenomena of past societies in the 1980s, using similar methods developed by sociologist under the label of \sna.
-\sna is defined as an ``approach grounded in the intuitive notion that the patterning of social ties in which actors are embedded has important consequences for those actors. Network analysts, then, seek to uncover various kinds of patterns. And they try to determine the conditions under which those patterns arise and to discover their consequences'' \cite{freeman_development_2004}.
+\sna is defined as an ``\textit{approach grounded in the intuitive notion that the patterning of social ties in which actors are embedded has important consequences for those actors. Network analysts, then, seek to uncover various kinds of patterns. And they try to determine the conditions under which those patterns arise and to discover their consequences}'' \cite{freeman_development_2004}.
 the use of networks emerged in response to traditional sociology methods using pre-defined taxonomies and social categories to understand and explain sociological behaviors and phenomena, which could introduce bias.
 By modeling real observed social relationships and interactions with networks and by using mathematical and statistical methods to study those, sociologists have been able to explain sociological phenomena and describe sociological interactions through their direct observation modeled as networks.
 %SNA is now a well-praised methodology in sociology, which has also been extended to History to study relational aspects of societies and institutions of the past.
@@ -250,7 +250,7 @@ He developed sociograms as a way to visually show friendships between people wit
 Sociometry tremendously helped disseminate the metaphor of networks to model and understand social structures and phenomena.
 It was during the 1960s that sociologists and anthropologists took these concepts further and formalized SNA using graphs and mathematical methods, following the emergence of Graph Theory studies in the 1950s by Mathematicians such as Erd\H{o}s \cite{erdos2011}.
 %It did not take long until sociologists used these concepts to model social ties and relationships into graphs.
-Sociologists already had structural theories of social phenomena, and they rapidly saw the potential of networks\footnote{Graphs and networks refer to the same thing but are often used in different contexts. The term graph is preferred in a mathematical and abstraction setting, while the term network is mostly used when modeling real-world phenomena. We talk about nodes and links for networks and vertices and edges for graphs.} to model social relationships between actors, representing the persons as nodes and relationships as links.
+Sociologists already had structural theories of social phenomena, and they rapidly saw the potential of networks\footnote{Graphs and networks refer to the same concept but are often used in different contexts. The term graph is preferred in a mathematical and abstraction setting, while the term network is mostly used when modeling real-world phenomena. We talk about vertices and edges for graphs and nodes and links for networks.} to model social relationships between actors, representing the persons as nodes and relationships as links.
 Graph theory brought a panoply of concepts and methods to study and describe networks, that sociologists such as Coleman started to codify to use in a sociology setting \cite{colemanIntroductionMathematicalSociology1964}.
 Using mathematical and network methods, it was possible to formally describe social relationships to make sociological conclusions grounded in real observations modeled as networks.
 
@@ -285,18 +285,18 @@ Thus, they try to construct networks that exhaustively model all the interaction
 
 In contrast, the school of Manchester constituted by anthropologists focuses on studying specific individuals and all their interactions in the different facets of their lives and through time.
 They typically want to explain certain behaviors and social characteristics of individuals by their relationships and interactions in all their complexity and highlight the influence of different social aspects between them in one's life.
-One famous example is Mayer's study on austral Africa rural migrants going to cities \cite{mayerMigrancyStudyAfricans1962} where he showed that the integration of urban mores and customs were directly correlated to the persons' relationships networks in the city.
+One famous example is Mayer's study on austral Africa rural migrants going to cities\cite{mayerMigrancyStudyAfricans1962} where he showed that the integration of urban mores and customs were directly correlated to the persons' relationships networks in the city.
 Xhosa\footnote{Xhosa people are an ethnic group living in South Africa and talking the Xhosa language. and studied} people still interacting with rural people of their village in the city were less changing their customs.
-This school of thought typically relies on the concept of ego network and more recently dynamic and multiplex networks.
+This school of thought typically relies on the concept of ego and multiplex networks\cite{eveDeuxTraditionsAnalyse2002}.
 Ego networks are networks modeling all the direct relations of one central node---in this case, a person---including the relations existing between the persons of this small network.
 They typically try to model the different types of relationships of a person, like their family, work, and friendship ties, and study them through time.
 By studying the ego network structure of someone, sociologists of this school try to leverage explanations on other social aspects of the persons like their social status, job, and gender.
-It is also common to compare several ego networks to make correlations between the social relationships of individuals and other interesting social categories.
+It is also common to compare several ego networks to make correlations between the social relationships of individuals and other interesting social categories\cite{charbeyStarsHolesPaths2019}.
 
 %These two methodologies of SNA are often not exclusives and current studies usually involve concepts and methods from both.
-These two methodologies of SNA are often not exclusives and current studies are typically inspired by those two traditions.
+These two methodologies of \sna are often not exclusives and current studies are typically inspired by those two traditions.
 This is especially true in history where even if historians may want to describe exhaustively a group or institution of the past, they are almost always interested in specific individuals they study in depth.
-
+%
 Furthermore, the two approaches leverage similar network measures and concepts.
 %Graph theoreticians and network scientists developed a myriad of graph measures (\eg density, centrality, and diameter) and algorithms that social scientists appropriated to describe and characterize social phenomena.
 A myriad of graph measures (\eg density, centrality, and diameter) and algorithms have been proposed by graph theoreticians and network scientists that social scientists appropriated to describe and characterize social phenomena.
@@ -331,7 +331,7 @@ Observing and describing the structure of the resulting networks allowed histori
 %followed SNA protocols on networks constructed from the mention of social ties of their textual sources.
 %Using similar concepts of SNA, describing the network of social relationships of the past,
 Since then, HSNA---a term coined by C. Wetherell in 1998 \cite{wetherellHistoricalSocialNetwork1998}---has been applied by historians to study multiple kinds of relationships, like kinship and political mobilization \cite{lippKinshipNetworksLocal2005}, administrative and economic patronage \cite{moutoukias1992}, etc.
-If these approaches fall under similar critics as quantitative history \cite{lemercier12FormalNetwork2015} like leading of trivial conclusions, it still led to classical work and interesting discoveries.
+If these approaches fall under similar critics as quantitative history \cite{lemercier12FormalNetwork2015} like leading to trivial conclusions, it still led to classical work and interesting discoveries.
 One famous example is the study of the rise of the Medici family in Florence in the 15th century by Padgett \cite{padgettRobustActionRise1993}, where he explained the rise of power of this family by their central position in the trading, marriage, and banking networks of the powerful families of Florence. \autoref{fig:padgett-medicis} shows the different networks of Florence families where we can see the central position of the Medici.
 
 %\begin{figure}[!ht]
@@ -343,7 +343,7 @@ One famous example is the study of the rise of the Medici family in Florence in 
 \begin{figure}[!ht]
     \centering % avoid the use of \begin{center}...\end{center} and use \centering instead (more compact)
     \includegraphics[width=0.8\textwidth]{static/figures/RelatedWork/Cicero_network}
-    \caption{}
+    \caption{\textcolor{red}{MISSING CAPTION}}
     \label{fig:cicero-letters}
 \end{figure}
 
@@ -395,12 +395,12 @@ Moreover, more and more social scientists are following exploratory approaches u
 Sociologists rapidly saw the potential of graphically showing relationships between individuals, to better comprehend the underlying social structure and communicate their findings.
 Moreno elaborated sociograms to visually show friendships among schoolchildren with circles and lines to respectively show children and friendships ties \cite{morenoWhoShallSurvive1934}.
 This type of representation---commonly called node-link diagram---is the most widely used in social sciences, as it is rapidly understandable and effective for small to medium-sized networks which is usually the norm in social sciences.
-The most used social network visual analytics software such as Gephi \cite{Gephi} and Pajek \cite{mrvarAnalysisVisualizationLarge2016} are based on this type of representation and allow a fully integrated exploration and analysis with the help of various algorithms.
+The most used social network visualization software such as Gephi \cite{Gephi} and Pajek \cite{mrvarAnalysisVisualizationLarge2016} are based on this type of representation and allow a fully integrated exploration and analysis with the help of various algorithms.
 Finding an optimal placement for the nodes is however not that simple as several metrics can be optimized depending on the desired drawing, such as the number of edge crossings, the variance of edge length, orthogonality of edges, etc~\cite{cristofoliPrincipesUsagesDessins, kosakAutomatingLayoutNetwork1994}. \autoref{fig:kosak-graph-drawing} shows some of these metrics, synthesized by Kosara and al.~\cite{kosakAutomatingLayoutNetwork1994}.
 In \autoref{fig:moreno-sociogram} we can see the difference in readability between the original manual layout (left) and an automatic one (right).
 Automatic layouts which aim at optimizing readability metrics give clearer diagrams.
 The number of edge crossings is often considered the most important measure, but finding a drawing with the optimal number of crossings is an NP-Hard problem, meaning that heuristics are needed for most real-world use cases.
-A large number of algorithms have been designed such as force-directed ones, modeling the nodes as particles that repulse each other and are attracted together when connected with a link that can be seen as strings.
+A large number of algorithms have been designed such as force-directed ones\cite{battistaGraphDrawingAlgorithms1998}, modeling the nodes as particles that repulse each other and are attracted together when connected with a link that can be seen as strings.
 Other visual techniques have been proposed to represent networks such as matrices, circular layouts, and arcs, but are less used in social sciences \cite{mcguffinSimpleAlgorithmsNetwork2012}.
 Still, Matrices have been shown to be more effective than node-link diagrams for several tasks such as finding cluster-related patterns, especially for medium to large networks \cite{ghoniemComparisonReadabilityGraphs2004, abdelaalComparativeEvaluationBipartite2022}.
 
@@ -414,7 +414,7 @@ Still, Matrices have been shown to be more effective than node-link diagrams for
 As social scientists are using more complex network models such as bipartite or temporal networks, more sophisticated representations are needed.
 %The visualization community proposed new visualization systems for specific network types such as PAOHVis for temporal hypergraphs, NodeTrix for clustered networks or Juniper for Multivariate networks.
 The visualization community developed new representations to visualize other network types such as dynamic hypergraphs with PAOHVis \cite{valdiviaAnalyzingDynamicHypergraphs2021}, clustered graphs with NodeTrix \cite{henryNodeTrixHybridVisualization2007} (illustrated in \autoref{fig:Riche-NodeTrix}), geolocated social networks with the Vistorian \cite{serranomolineroUnderstandingUseVistorian2017}, and multivariate networks with Juniper \cite{nobreJuniperTreeTable2019}.
-However, these new network representations take time to be adopted by social scientists who rarely use those.
+However, these new network representations take time to be adopted by social scientists who rarely use them.
 
 
 \begin{figure}
