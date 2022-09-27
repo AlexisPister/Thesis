@@ -17,31 +17,31 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1.1}Information Visualization}{16}{subsection.2.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}Visual Analytics}{17}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.2}Visual Analytics}{18}{subsection.2.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Quantitative Social History}{18}{section.2.2}%
+\contentsline {section}{\numberline {2.2}Quantitative Social History}{20}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}History, Social History and Methodology}{19}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.1}History, Social History, and Methodology}{20}{subsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Quantitative History}{20}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.2}Quantitative History}{21}{subsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.3}Digital Humanities}{21}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.3}Digital Humanities}{22}{subsection.2.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Historical Social Network Analysis}{24}{section.2.3}%
+\contentsline {section}{\numberline {2.3}Historical Social Network Analysis}{25}{section.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}Sociometry to SNA}{24}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.1}Sociometry to SNA}{25}{subsection.2.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Methods and Measures}{25}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.2}Methods and Measures}{26}{subsection.2.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.3}Historical Social Network Analysis}{27}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.3}Historical Social Network Analysis}{29}{subsection.2.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.4}Network Modeling}{28}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.4}Network Modeling}{29}{subsection.2.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Social Network Visualization}{29}{section.2.4}%
+\contentsline {section}{\numberline {2.4}Social Network Visualization}{32}{section.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.1}Graph Drawing}{29}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.1}Graph Drawing}{32}{subsection.2.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.2}Social Network Visual Analytics}{31}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.2}Social Network Visual Analytics}{33}{subsection.2.4.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}HSNA Process and Network Modeling}{33}{chapter.3}%
 \defcounter {refsection}{0}\relax 

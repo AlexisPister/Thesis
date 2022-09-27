@@ -44,6 +44,7 @@
 \usepackage{comment}
 \usepackage{varwidth} %for the varwidth minipage environment
 \usepackage{wrapfig}
+\usepackage{stix}
 \usepackage{pifont}% http://ctan.org/pkg/pifont
 %\usepackage{natbib}
 %\usepackage{bibentry}
@@ -133,6 +134,21 @@
 \end{minipage}}
 % \vspace{1pt}
 }
+
+% Square scales commands
+\newcommand{\scalezero}{$\smwhtsquare \smwhtsquare \smwhtsquare$}
+\newcommand{\scaleone}{$\smblksquare \smwhtsquare \smwhtsquare$}
+\newcommand{\scaletwo}{$\smblksquare \smblksquare \smwhtsquare$}
+\newcommand{\scalethree}{$\smblksquare \smblksquare \smblksquare$}
+
+
+% GRAPHLETS
+\newcommand{\inlinevisImproved}[3]{\raisebox{#1}[0pt][0pt]{\includegraphics[height=#2]{#3}}}
+
+\newcommand{\EDGE}{\inlinevisImproved{-3pt}{1.1em}{static/figures/RelatedWork/graphlets/edge.pdf}}
+\newcommand{\PATH}{\inlinevisImproved{-3pt}{1.1em}{static/figures/RelatedWork/graphlets/edge2.pdf}}
+\newcommand{\TRIANGLE}{\inlinevisImproved{-3pt}{1.1em}{static/figures/RelatedWork/graphlets/triangle.pdf}}
+
 
 
 
