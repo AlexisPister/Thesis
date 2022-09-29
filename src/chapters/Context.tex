@@ -61,7 +61,7 @@ Michael Friendly writes that ``To some, this appeared to do for graphics what Me
 The development of computer science and the rise of hardware capabilities during the same time created a big need for data visualization.
 The amount of data stored increased exponentially \cite{hilbertWorldTechnologicalCapacity2011} and descriptive statistics were not enough to understand the underlying structure of the amount and diversity of produced data.
 Visualization, leveraging the human visual system, allowed to rapidly see the hidden structure of a dataset and detect interesting and unexpected patterns very often unseen with classical statistical methods.
-One classical illustration of this is Anscombe's quartet\cite{anscombeGraphsStatisticalAnalysis1973} which consists of four datasets of points in $\mathbb{R} ^{2}$ with the same statistical measures (mean, variance, correlation coefficient, etc.) but with very different structures, that plotting the data show immediately.
+One classical illustration of this is Anscombe's quartet\cite{anscombeGraphsStatisticalAnalysis1973} which consists of four datasets of 11 points in $\mathbb{R} ^{2}$ with the same statistical measures (mean, variance, correlation coefficient, etc.) but with very different structures, that plotting the data show immediately.
 The four datasets are illustrated in \autoref{fig:anscombe-quartet}.
 
 \begin{figure}
@@ -217,7 +217,7 @@ Still, if their adoption remains slow and sometimes criticized among historians,
 %For example, Gribaudi and Blum illustrated a shift in the most widespread professions in France during the 19th century using the data extracted from 50000 marriage acts \cite{gribaudi1990} and using statistical methods.
 
 
-% TODO: put somewhere
+% TODO: put somewhere?
 %Guildi and Aritage went as far as criticizing the decrease of interest of historians working in archives \cite{guldiHistoryManifesto2014}.
 %Approaches using digital methods and tools are nonetheless more and more popular, sometimes more recently referred to under the umbrella term Digital Humanities (DH).
 
@@ -272,22 +272,38 @@ Sociometry is considered one of the bases of \sna and had the goal of redefining
 It is in the 1930s that Moreno started to develop this new method by trying to depict real social interactions as a way to understand how groups and organizations were socially structured\cite{morenoFoundationsSociometryIntroduction1941}.
 He developed sociograms to visually show friendships between people with the help of circles representing persons and lines modeling friendships.
 
-
 \begin{figure}
     \centering % avoid the use of \begin{center}...\end{center} and use \centering instead (more compact)
-    \includegraphics[width=0.4\textwidth]{static/figures/RelatedWork/Moreno-1}
-    \includegraphics[width=0.55\textwidth]{static/figures/RelatedWork/Moreno-1_GrandJean}
-    \caption{Moreno's original sociogram of a class of first grades from \cite{morenoWhoShallSurvive1934} (left). The diagram shows 21 boys (triangles) and 14 girls (circles). The same sociogram plot using modern practices generated from Gephi from \cite{grandjeanSocialNetworkAnalysis2015}. The color encodes the number of connections incoming.}
+    \includegraphics[width=0.45\textwidth]{static/figures/RelatedWork/Moreno-1}
+%    \includegraphics[width=0.55\textwidth]{static/figures/RelatedWork/Moreno-1_GrandJean}
+    \includegraphics[width=0.50\textwidth,trim={4cm 4cm 4cm 4cm},clip]{static/figures/RelatedWork/Moreno-1_GrandJean}
+    \caption{Moreno's original sociogram of a class of first grades from \cite{morenoWhoShallSurvive1934} (left). The diagram shows 21 boys (triangles) and 14 girls (circles). The same sociogram using modern practices generated from Gephi from \cite{grandjeanSocialNetworkAnalysis2015} (right). The color encodes the number of connections incoming.}
     \label{fig:moreno-sociogram}
 \end{figure}
 
 \autoref{fig:moreno-sociogram} shows one of Moreno's original sociograms to depict friendships in a class of first grades (left).
 %This way, he could rapidly see the main actors and hubs of interaction inside the social network represented visually.
 Sociometry tremendously helped disseminate the metaphor of networks to model and understand social structures and phenomena.
-It was during the 1960s that sociologists and anthropologists took these concepts further and formalized \sna using graphs and mathematical methods, following the emergence of Graph Theory studies in the 1950s by Mathematicians such as Erd\H{o}s \cite{erdos2011}.
+It was during the 1960s that sociologists and anthropologists took these concepts further and formalized \sna using graphs\footnote{Graphs and networks refer to the same thing but are often used in different contexts. The term graph is preferred in a mathematical and abstraction setting, while the term network is mostly used when modeling real-world phenomena. We talk about nodes and links for networks and vertices and edges for graphs.} and mathematical methods\cite{cConceptUseSocial1969, freemanDevelopmentSocialNetwork2004}, following the emergence of Graph Theory studies in the 1950s by Mathematicians such as Erd\H{o}s \cite{erdos2011}.
 %It did not take long until sociologists used these concepts to model social ties and relationships into graphs.
-Sociologists already had structural theories of social phenomena, and they rapidly saw the potential of networks\footnote{Graphs and networks refer to the same thing but are often used in different contexts. The term graph is preferred in a mathematical and abstraction setting, while the term network is mostly used when modeling real-world phenomena. We talk about nodes and links for networks and vertices and edges for graphs.} to model social relationships between actors, representing the persons as nodes and relationships as links.
-Graph theory brought a panoply of concepts and methods to study and describe networks, that sociologists such as Coleman started to codify to use in a sociology setting\cite{colemanIntroductionMathematicalSociology1964}.
+Sociologists already had structural theories of social phenomena, and they rapidly saw the potential of graphs to model social relationships between actors of interest.
+Typically, a graph is noted
+
+\begin{equation}
+    G = (V, E)\label{eq:graph}
+\end{equation}
+
+with $V$ a set of vertices representing the actors of interest---typically persons---and $E \subseteq V^2$ a set of edges modeling social relationships.
+This simple model which do not take into account the diversity and extent of social relationships still allows the characterization of the sociological structure of groups and institutions---which is the primarily focus of \sna\cite{scottSocialNetworkAnalysis1988, freemanDevelopmentSocialNetwork2004}.
+More complex network models have been proposed with time to better take into account concrete properties of social relationships.
+%such as the importance of actors or relations with weighted networks, multiple relationships with multiplex networks, dynamics of relations with dynamic networks.
+We discuss those more in depth in \autoref{subsec:network-modeling}.
+
+%representing the persons as nodes and relationships as links.
+%Sociologists already had structural theories of social phenomena, and they rapidly saw the potential of graphs to model social relationships between actors, representing the persons as nodes and relationships as links.
+
+
+Graph theory brought a panoply of concepts and methods to characterize the structure of  networks, that sociologists such as Coleman started to codify to use in a sociology setting\cite{colemanIntroductionMathematicalSociology1964}.
 The use of network measures let sociologists explain social phenomena through the formal description of real observations of relationships modeled as network.
 
 
@@ -299,12 +315,11 @@ The use of network measures let sociologists explain social phenomena through th
 %When looking retrospectively, we can see that two schools of thought emerged with different objectives and methods: the structuralists and the school of Manchester \cite{eveDeuxTraditionsAnalyse2002, maurizio2000, freemanDevelopmentSocialNetwork2004}.
 
 
-
-Many measures and algorithms have been proposed in the network science and \sna literatures to characterize the structure of a network and relate it to social behaviours and phenomena.
-Networks measures are either global or local, which allow to either make high level conclusions on the general structure of social relationships or individual behaviours.
+Many measures and algorithms have been proposed in the network science and \sna literatures to characterize the structure of simple networks as defined in \autoref{eq:graph} and relate it to social behaviours and phenomena\cite{scottSocialNetworkAnalysis1988, tabassumSocialNetworkAnalysis2018}.
+Network measures are either global or local, which allow to either make high level conclusions on the general structure of social relationships or individual behaviours.
 Widely used global measures include for example the density and the diameter, which give insight on the sparsity of the network and how distant on average are two random pairs of nodes.
 Conversely, local measures give information on the structural position of a node compared to the rest of the network.
-Centrality---probably the most used local measure---allows to formally compute a measure of how important or central are individuals in the network.
+Centrality---probably the most used local measure---allows to formally compute a measure of how important or central are individuals in the network\cite{newmanNetworks2018}.
 As defining what an important node is ambiguous, several types of centrality have been proposed such as the degree, betweenness, and closeness centrality, which respectively measure the number of connexions, how nodes connects different groups, and how close are the nodes compared to the rest of the network.
 
 More generally, sociologists aim at identifying recurring patterns of sociability between actors, and link it to other behaviours, measures, or qualitative knowledge.
@@ -312,8 +327,8 @@ These patterns can for example be small unconnected components, cliques, or bow-
 Groups of nodes similarly located (central or distant) and having similar shapes are sometimes referred as structurally equivalent\cite{lemercier12FormalNetwork2015}.
 Instead of observing complex shapes, network scientists have also been interested at studying relationships at the lowest possible scale, \ie observing relations between sets of 2 and 3 nodes at one, also called dyads and triads\cite{wassermanSocialNetworkAnalysis1994}.
 %The concepts of dyads and triads counting, which are basic structural patterns of 2 and 3 nodes, give insights into low-level relationships between people.
-This reflects on Simmel's formal sociology, where he already referred to dyads and triads as the primal form of sociability \cite{Simmel2013}.
-More recently, graphlet analysis extended this concept to every pattern of N-entities\cite{miloNetworkMotifsSimple2002, pržuljBiologicalNetworkComparison2007}.
+This reflects on Simmel's formal sociology, where he already referred to dyads and triads as the primal form of sociability\cite{Simmel2013}.
+More recently, graphlet analysis extended this concept to every pattern of N-entities\cite{pržuljBiologicalNetworkComparison2007}.
 
 Graphlets are defined as small connected \emph{induced}, \emph{non-isomorphic} subgraphs composing any network\cite{miloNetworkMotifsSimple2002}.
 In an \emph{induced} subgraph, two vertices linked in the original graph remain linked in the subgraph.
@@ -406,10 +421,12 @@ Moreover, historians rarely rely on a single approach when studying an era or ph
 %More complex networks models have been proposed in SNA to be able to model more complex social relationships.
 
 
-\subsection{Network Modeling}
+\subsection{Network Modeling}\label{subsec:network-modeling}
 
 Constructing a network from historical documents, which can vary tremendously in their formats and structures, is not a trivial task\cite{alkadi2022}.
-The most straightforward and well-known approach consists in constructing a network based on a simple graph $G = (V, E)$ with $V$ a set of vertices representing the actors of interest (very often individuals mentioned in the documents), and $E \subseteq V^2$ a set of edges modeling the social ties between pairs of actors.
+
+The most straightforward and well-known approach consists in constructing a network based on a simple graph such as in \autoref{eq:graph}, where the nodes are the persons extracted from the documents and a link is created when a mention of a social relationship is mentioned is the document (or if they appear in the same document)\cite{lemercier12FormalNetwork2015, bouletBatchKernelSOM2008}.
+%The most straightforward and well-known approach consists in constructing a network based on a simple graph $G = (V, E)$ with $V$ a set of vertices representing the actors of interest (very often individuals mentioned in the documents), and $E \subseteq V^2$ a set of edges modeling the social ties between pairs of actors.
 This allows to have a simple network to visualize and analyze, but it does not always reflect the sociological complexity of information contained in the documents.
 %More complex networks models have been proposed in SNA and HNR to be able to model more complex social relationships.
 \hsna network models have evolved over time to better take into account concrete properties of social networks, such as the importance of actors or relations with weighted networks, multiple relationships with multiplex networks, dynamics of relations with dynamic networks.

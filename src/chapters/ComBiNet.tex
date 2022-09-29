@@ -395,7 +395,7 @@ These measures are updated in real-time when filters and comparisons are applied
 
 \noindent\textbf{V5: Attributes View}
 All the attributes in the network are shown as buttons in the bottom right of the interface, sorted by their associated node type (person, document, and ``All'' for both types).
-They can be quickly visualized by hovering over the button, producing two effects: it colors all the nodes on the two views according to their attribute values, and it shows a plot of the distribution of the selected attribute. \autoref{fig:combinet-time-selected} shows the construction dataset of collaboration \pascal where the user selected the \textit{_year} attribute, coloring the documents nodes with their year in the node-link diagram (left) and the map view (right), revealing for example that most construction occurring in 1714 occurred in Torino and Torino close surrounding.
+They can be quickly visualized by hovering over the button, producing two effects: it colors all the nodes on the two views according to their attribute values, and it shows a plot of the distribution of the selected attribute. \autoref{fig:combinet-time-selected} shows the construction dataset of collaboration \pascal where the user selected the \textit{\_year} attribute, coloring the documents nodes with their year in the node-link diagram (left) and the map view (right), revealing for example that most construction occurring in 1714 occurred in Torino and Torino close surrounding.
 By clicking on the button, the visual encoding and the distribution plot remain selected.
  This interaction is inspired by the x-ray technique of the Vizster system~\cite{heerVizsterVisualizingOnline2005}.
 Users can follow a first exploration of their data by visually detecting correlations between attribute values and some groups of persons or between attribute values and some specific areas in the map view (T1.2, T1.4, T1.5).
@@ -403,7 +403,7 @@ Users can follow a first exploration of their data by visually detecting correla
 \begin{figure}[!ht]
  \centering
     \includegraphics[trim={15.9cm 0 0 0},clip,width=\textwidth]{static/figures/ComBiNet/Piemont_timeSelected.png}
-    \caption{\name interface with the dataset of collaboration \pascal. The user selected the \textit{_year} attribute, showing the distribution of document years with a histogram (bottom right), and coloring the documents node on the bipartite view (left) and map view simultaneously (right).}\label{fig:combinet-time-selected}
+    \caption{\name interface with the dataset of collaboration \pascal. The user selected the \textit{\_year} attribute, showing the distribution of document years with a histogram (bottom right), and coloring the documents node on the bipartite view (left) and map view simultaneously (right).}\label{fig:combinet-time-selected}
 \end{figure}
 
 \subsection{Query Panel}
@@ -914,29 +914,32 @@ to compare the migrations between the 18th and 19th centuries. She thought peopl
 
 \subsection{Marriage acts in Buenos Aires (\#3)}
 
-I present in this subsection how \combinet have been used to detect erroneous encoding during the annotation process of the marriage acts.
-The marriage acts mention 6659 individuals, whom can have the same name, especially between fathers and sons as specified by our collaborator.
-During the annotation process, the historians with his or her collaborators give identifiers to the persons mentioned in the documents.
-However, for this case of homonyms, it can be hard to know if some mentions between different documents refer to the same or different persons, and errors can easily be made.
-I used \combinet in collaboration with historians of this project to detect erroneous patterns and help them refine their encoded data.
-For this, we created a query to detect persons mentioned in two acts as \textit{husband}, \textit{wife}, or \textit{witness} with a time difference of 70 years or more.
-Such individuals in the network are almost certain of representing more than one person, who have been given the same identifier in the annotation process.
-The query retun
-
+I present in this subsection how \combinet has been used to detect erroneous encoding during the annotation process of the marriage acts.
+The documents mention 6659 individuals, whom can have the same name, especially between fathers and sons in this period and region as specified by our collaborator.
+During the annotation process, the historian and his collaborators gave identifiers to the persons mentioned in the documents---which is the common annotation procedure.
+However, for this case of homonyms, it can be hard to know if some mentions between different documents refer to the same or different persons.
+Historians cross the information contained in the different documents to disambiguate the persons\cite{winchesterLinkageHistoricalRecords1970}, but errors can easily be made, \ie giving the same identifier to different persons or giving different identifiers to the same person.
+I used \combinet in collaboration with researchers of this project to detect erroneous patterns and help them refine their encoded data.
+%For this, we created a query to detect persons mentioned in two acts either as \textit{husband}, \textit{wife}, or \textit{witness} with a time difference of 70 years or more.
+For this, we can find the persons mentioned in two acts either as \textit{husband}, \textit{wife}, or \textit{witness} with a time difference of 70 years or more.
+Such person nodes in the network are with almost full certainty representing two different persons who lived in different generations.
+We constructed a request to find this pattern with the visual query view and added the time constraint between the two marriage acts with the Cypher textual input.
+%returning this pattern visually and added the time constraint between the two marriage acts with the Cypher view.
+\autoref{fig:combinet-BuenosAires-correction} shows the visual query constructed (left), the bipartite view with the persons and documents matching the query highlighted (middle), and the table listing all the documents having mentions of people with erroneous identifiers (bottom right).
+%The query returned 29 persons found in this pattern.
+The table permit to browse through all persons nodes (29 have been found) who correspond in fact to more than one person and to the documents which contain the wrongly given identifiers.
+Using the exporting capabilities, our collaborator have exported the occurrence table indicating him with their identifiers the pairs of documents mentioning two different persons who have been given the same identifier.
+Using this table, he has been able to rapidly correct those errors in his annotation framework.
 
 \begin{figure}[!ht]
     \centering
-    \includegraphics[width=\textwidth]{static/figures/ComBiNet/BuenosAires_correction}
+    \includegraphics[width=\linewidth]{static/figures/ComBiNet/BuenosAires_correction}
     \caption{\name used to request persons appearing as husband, wife, or witness in two marriages which occurred at 70 years apart or more.}\label{fig:combinet-BuenosAires-correction}
 \end{figure}
 
 
-% 54 occurence, 71 documents
+% 54 occurence, 71 documents, 29 persons
 %MATCH (mar2:MARRIAGE_ACT)-[l3:HUSBAND|WIFE|WITNESS]-(per1:PERSON)-[l:WIFE|HUSBAND|WITNESS]-(mar1:MARRIAGE_ACT) where mar1._year - mar2._year > 70 RETURN *
-
-
-
-
 %6659 PERSONS. 1381 MARRIAGE_ACTS
 
 
