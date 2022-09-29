@@ -1,4 +1,5 @@
 \chapter{ComBiNet: Visual Query and Comparison of Bipartite Dynamic Multivariate Networks with Roles}\label{ch:combinet}
+\newcommand{\combinet}{ComBiNet\xspace}
 
 In the previous chapter \autoref{ch:hsna-process-and-network-modeling}, we showed that \modelplural allow to model well historical documents, with \emph{simplicity}, \emph{reality} and \emph{traceability} properties.
 However, no visual tools currently exist to explore and analyze this type of data.
@@ -395,7 +396,7 @@ These measures are updated in real-time when filters and comparisons are applied
 
 \noindent\textbf{V5: Attributes View}
 All the attributes in the network are shown as buttons in the bottom right of the interface, sorted by their associated node type (person, document, and ``All'' for both types).
-They can be quickly visualized by hovering over the button, producing two effects: it colors all the nodes on the two views according to their attribute values, and it shows a plot of the distribution of the selected attribute. \autoref{fig:combinet-time-selected} shows the construction dataset of collaboration \pascal where the user selected the \textit{_year} attribute, coloring the documents nodes with their year in the node-link diagram (left) and the map view (right), revealing for example that most construction occurring in 1714 occurred in Torino and Torino close surrounding.
+They can be quickly visualized by hovering over the button, producing two effects: it colors all the nodes on the two views according to their attribute values, and it shows a plot of the distribution of the selected attribute. \autoref{fig:combinet-time-selected} shows the construction dataset of collaboration \pascal where the user selected the \textit{\_year} attribute, coloring the documents nodes with their year in the node-link diagram (left) and the map view (right), revealing for example that most construction occurring in 1714 occurred in Torino and Torino close surrounding.
 By clicking on the button, the visual encoding and the distribution plot remain selected.
  This interaction is inspired by the x-ray technique of the Vizster system~\cite{heerVizsterVisualizingOnline2005}.
 Users can follow a first exploration of their data by visually detecting correlations between attribute values and some groups of persons or between attribute values and some specific areas in the map view (T1.2, T1.4, T1.5).
@@ -403,7 +404,7 @@ Users can follow a first exploration of their data by visually detecting correla
 \begin{figure}[!ht]
  \centering
     \includegraphics[trim={15.9cm 0 0 0},clip,width=\textwidth]{static/figures/ComBiNet/Piemont_timeSelected.png}
-    \caption{\name interface with the dataset of collaboration \pascal. The user selected the \textit{_year} attribute, showing the distribution of document years with a histogram (bottom right), and coloring the documents node on the bipartite view (left) and map view simultaneously (right).}\label{fig:combinet-time-selected}
+    \caption{\name interface with the dataset of collaboration \pascal. The user selected the \textit{\_year} attribute, showing the distribution of document years with a histogram (bottom right), and coloring the documents node on the bipartite view (left) and map view simultaneously (right).}\label{fig:combinet-time-selected}
 \end{figure}
 
 \subsection{Query Panel}
