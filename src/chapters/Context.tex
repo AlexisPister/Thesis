@@ -28,7 +28,7 @@ This coupling of visualization and data mining has been described as Visual Anal
 %As the network models used by historians are more and more complicated, new visualization systems are needed, first to analyze their networks, but also to help them in their HSNA process, from the acquisition of relevant documents to the final analysis and visualization steps.
 In this chapter, we present a general overview of the fields of SNA (\autoref{sec:social-network-analysis}), HSNA (\autoref{sec:historical-network-research}), and Social Network Visualization (\autoref{sec:social-network-visualization}).
 
-In this chapter, we first present a general overview of the field of visualization to get a first ideas of the utility of such techniques.
+We first present a general overview of the field of visualization to get a first ideas of the utility of such techniques.
 Then, we present the social history discipline ans the use of quantitative methods in \autoref{sec:social-history}, before describing in depth how network analysis has been applied in the field in \autoref{sec:hsna}.
 Finally, we present in \autoref{sec:social-network-visualization} how visualization and \va have been used in the context of \hsna, along the most popular systems currently used by social scientists.
 
@@ -264,7 +264,6 @@ Leveraging network measures and visualization, they can make conclusions through
 
 \subsection{Sociometry to SNA}
 
-<<<<<<< HEAD
 One of Sociology's main goals is to study social relationships between individuals and find recurrent patterns and structures allowing to generalize on how social relations operate, and what are the social specificity of specific groups and individuals\cite{scottSocialNetworkAnalysis1988}.
 Traditional methods try to answer those questions using classical social classifications such as age, social status, profession, and gender, typically collected from surveys and interviews.
 Criticism pointed that this type of division is often partially biased and comes from predefined categories which are not always grounded in reality\cite{freemanDevelopmentSocialNetwork2004}, and that using random sampling of individual with such methods remove them from their context.
@@ -355,7 +354,6 @@ They typically try to model the different types of relationships of a person, li
 By studying the ego network structure of someone, sociologists of this school try to leverage explanations on other social aspects of the persons like their social status, job, and gender.
 It is also common to compare several ego networks to make correlations between the social relationships of individuals and other interesting social categories\cite{charbeyStarsHolesPaths2019}.
 
-<<<<<<< HEAD
 These two methodologies of \sna are often not exclusives and current studies are typically inspired by those two traditions.
 This is especially true in history where even if historians may want to describe exhaustively a group or institution of the past, they are almost always interested in specific individuals they study in depth.
 
@@ -421,7 +419,7 @@ Multiplex networks allow to model multiple kinds of relationships between actors
 In that case, each edge $e = (u, v, d)$ of the graph $G = (V, E, D)$ have a type $d \in D$ which characterize the relation.
 In the example of marriages, $D = \{spouse, witness\}$.
 Most relations extracted from historical documents also often contain time information, which can be modeled into dynamic networks.
-Many dynamic network models have been proposed\cite{rossettiCommunityDiscoveryDynamic2018}, depending if the time is encoded in the nodes, the links, or both, and if entities have a timestamp of death.
+Many dynamic network models have been proposed\cite{rossettiCommunityDiscoveryDynamic2018}, depending if the time is encoded in the nodes, the links, or both, and if entities have a discrete or interval time.
 As it is often hard to infer the end of social relationships from the trace of historical documents, we only consider in this thesis models which give a timestamp to either nodes or edges, such that $G = (V, E, T)$ with vertices consisting of tuples $(u, t)$ and edges of triples $(u, v, t)$, with $t \in T$.
 
 Bipartite networks have been proposed to model relations between two types of entities, such as organization and employees where the relations link employees to organizations but not employees to employees or organizations to organizations\cite{borgattiSocialNetworkAnalysis2009}.
@@ -523,7 +521,7 @@ NodeXl\cite{NodeXL}    & \scaleone   & \scaleone      & \scaletwo  & \scaleone  
 Vistorian\cite{serranomolineroUnderstandingUseVistorian2017} & \scalethree & \scalezero       & \scalezero & \scaletwo & \scaletwo           \\ \hline
 \end{tabular}%
 }
-    \caption{NodeTrix system showing a scientific collaboration social network with clusters. Each cluster is represented as a matrix,  Image from \cite{henryNodeTrixHybridVisualization2007}.}
+    \caption{\jdf{Not the right caption}NodeTrix system showing a scientific collaboration social network with clusters. Each cluster is represented as a matrix,  Image from \cite{henryNodeTrixHybridVisualization2007}.}
     \label{tab:SNV}
 \end{table}
 
