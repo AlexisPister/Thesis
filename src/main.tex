@@ -12,14 +12,14 @@
 %\usepackage{biblatex} % à retirer!!!
 
 
-%\includeonly{
+\includeonly{
+%    chapters/Publications,
 %  chapters/Introduction,
 %  chapters/Context,
-%  chapters/Context,
 %  chapters/NetworkModels,
-%  chapters/ComBiNet,
+  chapters/ComBiNet,
 %  chapters/PK-Clustering
-%}
+}
 
 % Document
 \begin{document}
@@ -206,11 +206,13 @@
 
     \newgeometry{top=4cm, bottom=4cm, left=2cm, right=2cm}
 
+
+    \include{chapters/Publications}
+
     \tableofcontents
 
     \newgeometry{top=4cm, bottom=4cm, left=4cm, right=4cm}
 
-    \include{chapters/Publications}
     \include{chapters/Introduction}
     \include{chapters/Context}
     \include{chapters/NetworkModels}

@@ -386,20 +386,75 @@ The lack of simplicity, therefore, results in difficulties for visualization and
 
 \subsection{Bipartite Multivariate Dynamic Social Network}
 
-Historical documents are well modeled by bipartite multivariate dynamic networks with roles, which have the following properties:
+Historical documents are well modeled by bipartite multivariate dynamic networks with roles, that can be formalized as
+
+\begin{equation}
+    G = (V, E, B, R, T, L)
+\end{equation}
+
+where $V$ is the set of vertices, $E$ the set of edges, and $B = (person, document)$ the set of node types.
+Each node $u \in U$ is defined as
+
+\begin{equation}
+    u = (u_{id}, b, a_u)
+\end{equation}
+
+where $b \in B$ is the type of the node and $a_u$ is a tuple of the attributes (or properties) of $u$ such that
+
+\begin{equation}
+    a_u = (a_i, ..., a_n)
+\end{equation}
+
+with $a_i, ..., a_n$ the attributes of the node $u$ defined on their domains $A_i, ..., A_n$.
+We do not impose constraints for person nodes, but document nodes always have a time and location such that when $b = document$ then
+
+\begin{equation}
+    a = (t, l, a_i, ..., a_n)
+\end{equation}
+
+with $t \in T$ is the time of the event witness by the document and $l \in L$ its location.
+
+Similarly, each edge $e \in E$ is defined as
+
+\begin{equation}
+    e = (u, v, r, a_e)
+\end{equation}
+
+with $u, v$ the vertices connected by $e$ such that $b_u \neq b_v$, $r \in R$ the role of the person mentioned in the document and $a_e$ the attributes tuple of $e$ such that
+
+\begin{equation}
+    a_e = (a_i, ..., a_n)
+\end{equation}
+
+with $a_i, ..., a_n$ the attributes of the edge $e$ defined on their domains $A_i, ..., A_n$.
+Attributes of vertices and edges are independant of the
+
+
+
+
+The model has therefore the following properties:
 \begin{description}[nosep,leftmargin=2mm]
     \item[{Bipartite:}] There are \textbf{two types of nodes}, persons and documents (or events). An event, such as a marriage, is most of the time witnessed by a document, and we refer to them interchangeably as events and documents. Events considered in the network can be of the same sub-type, such as contracts, or of multiple subtypes, e.g. for genealogy: \emph{birth certificates}, \emph{death certificates}.
     \item[Links and Roles:] A link models the mention of a person in a document. \textbf{Each link has a type corresponding to the role of the person in the document}. For a marriage act, the roles include \emph{wife}, \emph{husband}, \emph{witness}. This is a key aspect of our model since it clarifies the relationship between the persons within an event. In contrast, Jigsaw~\cite{staskoJigsawSupportingInvestigative2008} does not consider the roles.
-    \item[{Multivariate:}] Each entity of the model can have attributes, that give additional information. Person nodes are referenced by a key that reflects the disambiguation process. They can have general information (standardized name, gender, birth date). Documents are also identified by a key, e.g., an archive reference. The associated event can have a date, sometimes a location, and potentially other information. Links can also carry information to describe contextual properties (activity, residence, etc.).
+    \item[{Multivariate:}] Each entity of the model can have attributes, that give additional information. Person nodes are referenced by a key that reflects the disambiguation process. They can have general information (standardized name, gender, birth date). Documents are also identified by a key, e.g., an archive reference. The associated event can have a date, a location, and potentially other information. Links can also carry information to describe contextual properties (activity, residence, etc.).
     \item[{Geolocated:}] Events should have a location when it makes sense, ideally with the longitude and latitude.
     \item[{Dynamic:}] Events are always dated. We rely on this date since it encodes the social dynamics of the network.
 \end{description}
 
 One of the main benefits of this model is that the document nodes represent both the physical documents and the events the documents refer to.
-For example, concerning marriage acts, the document nodes represent both the physical documents with their texts and also the marriage events with their characteristics modeled as attributes (time, location, etc.).
+For example, concerning marriage acts, the document nodes represent both the physical documents with their texts but also the marriage events with their characteristics modeled as attributes (time, location, etc.).
 Therefore, social historians can use this model to store, process, and clean their original documents and follow an analytical workflow with the same representation.
 This model is \textit{simple} enough to manipulate and visualize for historians and allows tracing back every entity of the network to the documents according to the \textit{traceability} principle.
-Still, the network preserves the \textit{reality} of the social relationships mentioned in the sources as no projection or transformation is applied.
+Still, the network preserves the \textit{document reality} of the social relationships mentioned in the sources as no projection or transformation is applied.
+
+
+Visualization tools using this model can focus on the topology of the network, and/or the attributes which we express here in the format of tuples, commonly used by databases and visualization systems\cite{stoltePolarisSystemQuery2002}.
+However, it has to be taken into account that if the attributes extracted from the historical documents are related to vertices and edges independently to the topology of the network, it can be appropriate to compute vertex and edges measures---such as the centrality---and store them similarly to the other attribute, especially so that visualization systems can leverage the same interactions for both.
+In that case, these types of attributes are directly dependant of potential topology changes in the network (in the case of subgraph extraction or network modifications for example).
+
+
+
+
 %More precisely, Cristofoli demonstrates that bipartite networks ensure no distortion or ambiguity, unlike projected networks when modeling textual sources~\cite{cristofoli_aux_2008}.
 
 
@@ -447,11 +502,7 @@ We discussed with four experienced historians collaborators at different steps o
 They all work on semi-structured historic documents, mentioning complex relationships.
 We provide more details in the following:
 
-\newcommand{\pascal}{\#1\xspace}
-\newcommand{\nicole}{\#2\xspace}
-\newcommand{\zacarias}{\#3\xspace}
-\newcommand{\dana}{\#4\xspace}
-\newcommand{\myindent}{~~} % ~\rule{1pt}{6pt}
+
 \begin{enumerate}[nosep,leftmargin=*]
     \item Analysis of the social dynamics from \textbf{construction contracts in Italy in the 18\ts{th} century\cite{Cristofoli2018, Rolla2018}.}
     %\textcolor{red}{PC: The corpus was created by N. Rolla through the exploitation of the manuscript registers of the \textit{Azienda generale fabbriche e fortificazioni} (State Archives of Turin)[REF : Rolla Nicoletta, 2018, "Mobilité et conflits. Travailler sur les chantiers de construction piémontais dans la première moitié du XVIIIe siècle" dans Andrea Caracausi et Marco Schnyder (eds.), Travail et mobilité en Europe (XVIe-XIXe siècles), Villeneuve d’Ascq, Presses universitaires du Septentrion (coll. Histoire et civilisations), p. 49‑72]. }

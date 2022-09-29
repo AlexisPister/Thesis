@@ -34,33 +34,34 @@
 \contentsline {section}{\numberline {3.4}Network modeling and analysis}{47}{section.3.4}%
 \contentsline {subsection}{\numberline {3.4.1}Network Models}{48}{subsection.3.4.1}%
 \contentsline {subsection}{\numberline {3.4.2}Bipartite Multivariate Dynamic Social Network}{50}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Examples}{51}{subsection.3.4.3}%
-\contentsline {section}{\numberline {3.5}Applications}{52}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Discussion}{54}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Conclusion}{54}{section.3.7}%
+\contentsline {subsection}{\numberline {3.4.3}Examples}{52}{subsection.3.4.3}%
+\contentsline {section}{\numberline {3.5}Applications}{53}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Discussion}{55}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Conclusion}{55}{section.3.7}%
 \contentsline {chapter}{\numberline {4}ComBiNet: Visual Query and Comparison of Bipartite Dynamic Multivariate Networks with Roles}{57}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Context}{57}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Related Work}{59}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Graphlet Analysis}{59}{subsection.4.2.1}%
+\contentsline {section}{\numberline {4.2}Related Work}{60}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Graphlet Analysis}{60}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Visual Graph Querying}{60}{subsection.4.2.2}%
 \contentsline {subsection}{\numberline {4.2.3}Visual Graph Comparison}{61}{subsection.4.2.3}%
 \contentsline {subsection}{\numberline {4.2.4}Provenance}{61}{subsection.4.2.4}%
-\contentsline {section}{\numberline {4.3}Task Analysis and Design Process}{61}{section.4.3}%
+\contentsline {section}{\numberline {4.3}Task Analysis and Design Process}{62}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}Use Cases}{62}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Tasks Analysis}{65}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}The ComBiNet\xspace System}{66}{section.4.4}%
+\contentsline {subsection}{\numberline {4.3.2}Tasks Analysis}{64}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}The ComBiNet\xspace System}{65}{section.4.4}%
 \contentsline {subsection}{\numberline {4.4.1}Visualizations}{67}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Query Panel}{68}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.2}Query Panel}{69}{subsection.4.4.2}%
 \contentsline {subsection}{\numberline {4.4.3}Comparison}{75}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}Implementation}{77}{subsection.4.4.4}%
-\contentsline {section}{\numberline {4.5}Use Cases}{77}{section.4.5}%
+\contentsline {subsection}{\numberline {4.4.4}Implementation}{78}{subsection.4.4.4}%
+\contentsline {section}{\numberline {4.5}Use Cases}{78}{section.4.5}%
 \contentsline {subsection}{\numberline {4.5.1}Construction sites in Piedmont (\#1)}{78}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}French Genealogy (\#2)}{78}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}Sociology thesis in France}{80}{subsection.4.5.3}%
-\contentsline {section}{\numberline {4.6}Formative Usability Study}{82}{section.4.6}%
-\contentsline {subsection}{\numberline {4.6.1}Feedback}{82}{subsection.4.6.1}%
-\contentsline {section}{\numberline {4.7}Discussion}{83}{section.4.7}%
-\contentsline {section}{\numberline {4.8}Conclusion and Future Work}{84}{section.4.8}%
+\contentsline {subsection}{\numberline {4.5.2}French Genealogy (\#2)}{79}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Marriage acts in Buenos Aires (\#3)}{81}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4}Sociology thesis in France}{81}{subsection.4.5.4}%
+\contentsline {section}{\numberline {4.6}Formative Usability Study}{83}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Feedback}{84}{subsection.4.6.1}%
+\contentsline {section}{\numberline {4.7}Discussion}{84}{section.4.7}%
+\contentsline {section}{\numberline {4.8}Conclusion and Future Work}{85}{section.4.8}%
 \contentsline {chapter}{\numberline {5}PK-Clustering}{85}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Context}{85}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Related Work}{88}{section.5.2}%
