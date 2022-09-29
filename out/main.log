@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.6.11)  29 SEP 2022 16:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.6.11)  29 SEP 2022 16:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -758,6 +758,7 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 17.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+LaTeX Font Info:    Changing ? sub-encoding to TS1/0 on input line 75.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
@@ -1127,128 +1128,113 @@ Excluding comment 'comment')
 \WF@everypar=\toks47
 Package: wrapfig 2003/01/31  v 3.6
 )
-(/usr/share/texlive/texmf-dist/tex/latex/stix/stix.sty
-Package: stix 2018/04/17 v1.1.3-latex STIX fonts support package
-
-
-/usr/share/texlive/texmf-dist/tex/latex/stix/stix.sty:51: LaTeX Error: Option c
-lash for package textcomp.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.51         \UndeclareTextCommand
-                                  {\textpertenthousand}{T1}
-The package textcomp has already been loaded with options:
-  []
-There has now been an attempt to load it with options
-  [full]
-Adding the global options:
-  ,full
-to your \documentclass declaration may fix this.
-Try typing  <return>  to proceed.
-
+(/usr/share/texlive/texmf-dist/tex/latex/stix2/stix2.sty
+Package: stix2 2018/04/02 v2.0.0-latex STIX Two fonts support package
 Now handling font encoding LS1 ...
 ... no UTF-8 mapping file for font encoding LS1
 Now handling font encoding LS2 ...
 ... no UTF-8 mapping file for font encoding LS2
-LaTeX Font Info:    Redeclaring symbol font `letters' on input line 76.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 78.
 LaTeX Font Info:    Encoding `OML' has changed to `LS1' for symbol font
-(Font)              `letters' in the math version `normal' on input line 76.
+(Font)              `letters' in the math version `normal' on input line 78.
 LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
-(Font)                  OML/cmm/m/it --> LS1/stix/m/it on input line 76.
+(Font)                  OML/cmm/m/it --> LS1/stix2/m/it on input line 78.
 LaTeX Font Info:    Encoding `OML' has changed to `LS1' for symbol font
-(Font)              `letters' in the math version `bold' on input line 76.
+(Font)              `letters' in the math version `bold' on input line 78.
 LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/cmm/b/it --> LS1/stix/m/it on input line 76.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 77.
+(Font)                  OML/cmm/b/it --> LS1/stix2/m/it on input line 78.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 79.
 LaTeX Font Info:    Encoding `OT1' has changed to `LS1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 77.
+(Font)              `operators' in the math version `normal' on input line 79.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> LS1/stix/m/n on input line 77.
+(Font)                  OT1/cmr/m/n --> LS1/stix2/m/n on input line 79.
 LaTeX Font Info:    Encoding `OT1' has changed to `LS1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 77.
+(Font)              `operators' in the math version `bold' on input line 79.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> LS1/stix/m/n on input line 77.
+(Font)                  OT1/cmr/bx/n --> LS1/stix2/m/n on input line 79.
 \symbold-operators=\mathgroup6
-LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 79.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 81.
 LaTeX Font Info:    Encoding `OMS' has changed to `LS1' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 79.
+(Font)              `symbols' in the math version `normal' on input line 81.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> LS1/stixscr/m/n on input line 79.
+(Font)                  OMS/cmsy/m/n --> LS1/stix2scr/m/n on input line 81.
 LaTeX Font Info:    Encoding `OMS' has changed to `LS1' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 79.
+(Font)              `symbols' in the math version `bold' on input line 81.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> LS1/stixscr/m/n on input line 79.
+(Font)                  OMS/cmsy/b/n --> LS1/stix2scr/m/n on input line 81.
 \symsymbols2=\mathgroup7
 \symsymbols3=\mathgroup8
 \symsymbols4=\mathgroup9
 \symintegrals=\mathgroup10
-LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 84.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 86.
 LaTeX Font Info:    Encoding `OMX' has changed to `LS2' for symbol font
 (Font)              `largesymbols' in the math version `normal' on input line 8
-4.
+6.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> LS2/stixex/m/n on input line 84.
+(Font)                  OMX/cmex/m/n --> LS2/stix2ex/m/n on input line 86.
 LaTeX Font Info:    Encoding `OMX' has changed to `LS2' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 84.
+(Font)              `largesymbols' in the math version `bold' on input line 86.
 
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> LS2/stixex/m/n on input line 84.
+(Font)                  OMX/cmex/m/n --> LS2/stix2ex/m/n on input line 86.
 \symarrows1=\mathgroup11
 \symarrows2=\mathgroup12
 \symarrows3=\mathgroup13
 LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  LS1/stix/m/it --> LS1/stix/b/it on input line 88.
+(Font)                  LS1/stix2/m/it --> LS1/stix2/b/it on input line 90.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  LS1/stix/m/n --> LS1/stix/b/n on input line 89.
+(Font)                  LS1/stix2/m/n --> LS1/stix2/b/n on input line 91.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  LS1/stixscr/m/n --> LS1/stixscr/b/n on input line 90.
-LaTeX Font Info:    Overwriting symbol font `symbols2' in version `bold'
-(Font)                  LS1/stixfrak/m/n --> LS1/stixfrak/b/n on input line 91.
+(Font)                  LS1/stix2scr/m/n --> LS1/stix2scr/b/n on input line 92.
 
+LaTeX Font Info:    Overwriting symbol font `symbols2' in version `bold'
+(Font)                  LS1/stix2frak/m/n --> LS1/stix2frak/b/n on input line 9
+3.
 LaTeX Font Info:    Overwriting symbol font `symbols3' in version `bold'
-(Font)                  LS1/stixbb/m/n --> LS1/stixbb/b/n on input line 92.
+(Font)                  LS1/stix2bb/m/n --> LS1/stix2bb/b/n on input line 94.
 LaTeX Font Info:    Overwriting symbol font `symbols4' in version `bold'
-(Font)                  LS1/stixbb/m/it --> LS1/stixbb/b/it on input line 93.
+(Font)                  LS1/stix2bb/m/it --> LS1/stix2bb/b/it on input line 95.
+
 LaTeX Font Info:    Overwriting symbol font `integrals' in version `bold'
-(Font)                  LS2/stixcal/m/n --> LS2/stixcal/b/n on input line 94.
+(Font)                  LS2/stix2cal/m/n --> LS2/stix2cal/b/n on input line 96.
+
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  LS2/stixex/m/n --> LS2/stixex/b/n on input line 95.
+(Font)                  LS2/stix2ex/m/n --> LS2/stix2ex/b/n on input line 97.
 LaTeX Font Info:    Overwriting symbol font `arrows1' in version `bold'
-(Font)                  LS1/stixsf/m/n --> LS1/stixsf/b/n on input line 96.
+(Font)                  LS1/stix2sf/m/n --> LS1/stix2sf/b/n on input line 98.
 LaTeX Font Info:    Overwriting symbol font `arrows2' in version `bold'
-(Font)                  LS1/stixsf/m/it --> LS1/stixsf/b/it on input line 97.
+(Font)                  LS1/stix2sf/m/it --> LS1/stix2sf/b/it on input line 99.
+
 LaTeX Font Info:    Overwriting symbol font `arrows3' in version `bold'
-(Font)                  LS2/stixtt/m/n --> LS2/stixtt/b/n on input line 98.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 99.
-LaTeX Font Info:    Redeclaring math alphabet \mathfrak on input line 102.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 106.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 108.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 109.
-LaTeX Info: Redefining \yen on input line 456.
-LaTeX Info: Redefining \circledR on input line 458.
-LaTeX Info: Redefining \checkmark on input line 460.
-LaTeX Info: Redefining \maltese on input line 461.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 698.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 699.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 700.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 701.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 702.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 703.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 704.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 705.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 707.
-LaTeX Font Info:    Redeclaring math accent \check on input line 708.
-LaTeX Font Info:    Redeclaring math accent \vec on input line 716.
-LaTeX Font Info:    Redeclaring math accent \widehat on input line 728.
-LaTeX Font Info:    Redeclaring math accent \widetilde on input line 729.
-LaTeX Info: Redefining \vdots on input line 1518.
-LaTeX Info: Redefining \cdots on input line 1522.
-LaTeX Font Info:    Redeclaring math symbol \mathsterling on input line 1978.
-LaTeX Info: Redefining \not on input line 2144.
-) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/pifont.sty
+(Font)                  LS2/stix2tt/m/n --> LS2/stix2tt/b/n on input line 100.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 101.
+LaTeX Font Info:    Redeclaring math alphabet \mathfrak on input line 104.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 107.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 109.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 110.
+LaTeX Info: Redefining \yen on input line 455.
+LaTeX Info: Redefining \circledR on input line 457.
+LaTeX Info: Redefining \checkmark on input line 459.
+LaTeX Info: Redefining \maltese on input line 460.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 697.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 698.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 699.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 700.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 701.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 702.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 703.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 704.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 706.
+LaTeX Font Info:    Redeclaring math accent \check on input line 707.
+LaTeX Font Info:    Redeclaring math accent \vec on input line 715.
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 727.
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 728.
+LaTeX Info: Redefining \vdots on input line 1517.
+LaTeX Info: Redefining \cdots on input line 1521.
+LaTeX Font Info:    Redeclaring math symbol \mathsterling on input line 1977.
+LaTeX Info: Redefining \not on input line 2141.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/pifont.sty
 Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
 LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
 
@@ -1293,20 +1279,20 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for LS1/stix/m/n on input line 25.
-LaTeX Font Info:    Trying to load font information for LS1+stix on input line 
-25.
+LaTeX Font Info:    Checking defaults for LS1/stix2/m/n on input line 25.
+LaTeX Font Info:    Trying to load font information for LS1+stix2 on input line
+ 25.
 
-(/usr/share/texlive/texmf-dist/tex/latex/stix/ls1stix.fd
-File: ls1stix.fd 2015/04/17 v1.1.2-latex STIX LS1 font definitions
+(/usr/share/texlive/texmf-dist/tex/latex/stix2/ls1stix2.fd
+File: ls1stix2.fd 2018/04/02 v2.0.0-latex stix2 LS1 font definitions
 )
 LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for LS2/stix/m/n on input line 25.
-LaTeX Font Info:    Trying to load font information for LS2+stix on input line 
-25.
+LaTeX Font Info:    Checking defaults for LS2/stix2/m/n on input line 25.
+LaTeX Font Info:    Trying to load font information for LS2+stix2 on input line
+ 25.
 
-(/usr/share/texlive/texmf-dist/tex/latex/stix/ls2stix.fd
-File: ls2stix.fd 2015/04/17 v1.1.2-latex STIX LS2 font definitions
+(/usr/share/texlive/texmf-dist/tex/latex/stix2/ls2stix2.fd
+File: ls2stix2.fd 2018/04/02 v2.0.0-latex stix2 LS2 font definitions
 )
 LaTeX Font Info:    ... okay on input line 25.
 LaTeX Font Info:    Trying to load font information for T1+opensans-TLF on inpu
@@ -1449,7 +1435,7 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<static/logos/Frame-ups.pdf, id=103, 303.38344pt x 849.92531pt>
+<static/logos/Frame-ups.pdf, id=107, 303.38344pt x 849.92531pt>
 File: static/logos/Frame-ups.pdf Graphic file (type pdf)
 <use static/logos/Frame-ups.pdf>
 Package pdftex.def Info: static/logos/Frame-ups.pdf  used on input line 31.
@@ -1461,11 +1447,6 @@ LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
 LaTeX Font Warning: Font shape `T1/opensans-TLF/m/sc' undefined
 (Font)              using `T1/opensans-TLF/m/n' instead on input line 41.
 
-<static/logos/logo2.png, id=104, 194.97844pt x 87.32625pt>
-File: static/logos/logo2.png Graphic file (type png)
-<use static/logos/logo2.png>
-Package pdftex.def Info: static/logos/logo2.png  used on input line 50.
-(pdftex.def)             Requested size: 194.97795pt x 87.32603pt.
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 5
 9.
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
@@ -1480,18 +1461,18 @@ LaTeX Font Info:    Trying to load font information for T1+fvs on input line 69
 (/usr/share/texlive/texmf-dist/tex/latex/bera/t1fvs.fd
 File: t1fvs.fd 2004/09/07 scalable font definitions for T1/fvs.
 )
-LaTeX Font Info:    Trying to load font information for LS1+stixscr on input li
+LaTeX Font Info:    Trying to load font information for LS1+stix2scr on input l
+ine 78.
+
+(/usr/share/texlive/texmf-dist/tex/latex/stix2/ls1stix2scr.fd
+File: ls1stix2scr.fd 2018/04/02 v2.0.0-latex stix2 script LS1 font definitions
+)
+LaTeX Font Info:    Trying to load font information for LS2+stix2ex on input li
 ne 78.
 
-(/usr/share/texlive/texmf-dist/tex/latex/stix/ls1stixscr.fd
-File: ls1stixscr.fd 2015/04/17 v1.1.2-latex STIX script LS1 font definitions
-)
-LaTeX Font Info:    Trying to load font information for LS2+stixex on input lin
-e 78.
-
-(/usr/share/texlive/texmf-dist/tex/latex/stix/ls2stixex.fd
-File: ls2stixex.fd 2015/04/17 v1.1.2-latex STIX extentions LS2 font definitions
-
+(/usr/share/texlive/texmf-dist/tex/latex/stix2/ls2stix2ex.fd
+File: ls2stix2ex.fd 2018/04/02 v2.0.0-latex stix2 extentions LS2 font definitio
+ns
 )
 LaTeX Font Info:    Trying to load font information for U+msa on input line 78.
 
@@ -1505,39 +1486,40 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 78.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for LS1+stixfrak on input l
-ine 78.
+LaTeX Font Info:    Trying to load font information for LS1+stix2frak on input 
+line 78.
 
-(/usr/share/texlive/texmf-dist/tex/latex/stix/ls1stixfrak.fd
-File: ls1stixfrak.fd 2015/04/17 v1.1.2-latex STIX fraktur LS1 font definitions
+(/usr/share/texlive/texmf-dist/tex/latex/stix2/ls1stix2frak.fd
+File: ls1stix2frak.fd 2018/04/02 v2.0.0-latex stix2 fraktur LS1 font definition
+s
 )
-LaTeX Font Info:    Trying to load font information for LS1+stixbb on input lin
-e 78.
-
-(/usr/share/texlive/texmf-dist/tex/latex/stix/ls1stixbb.fd
-File: ls1stixbb.fd 2015/04/17 v1.1.2-latex STIX blackboard LS1 font definitions
-
-)
-LaTeX Font Info:    Trying to load font information for LS2+stixcal on input li
+LaTeX Font Info:    Trying to load font information for LS1+stix2bb on input li
 ne 78.
 
-(/usr/share/texlive/texmf-dist/tex/latex/stix/ls2stixcal.fd
-File: ls2stixcal.fd 2015/04/17 v1.1.2-latex STIX calligraphic LS2 font definiti
-ons
+(/usr/share/texlive/texmf-dist/tex/latex/stix2/ls1stix2bb.fd
+File: ls1stix2bb.fd 2018/04/02 v2.0.0-latex stix2 blackboard LS1 font definitio
+ns
 )
-LaTeX Font Info:    Trying to load font information for LS1+stixsf on input lin
-e 78.
+LaTeX Font Info:    Trying to load font information for LS2+stix2cal on input l
+ine 78.
 
-(/usr/share/texlive/texmf-dist/tex/latex/stix/ls1stixsf.fd
-File: ls1stixsf.fd 2015/04/17 v1.1.2-latex STIX sans-serif LS1 font definitions
-
+(/usr/share/texlive/texmf-dist/tex/latex/stix2/ls2stix2cal.fd
+File: ls2stix2cal.fd 2018/04/02 v2.0.0-latex stix2 calligraphic LS2 font defini
+tions
 )
-LaTeX Font Info:    Trying to load font information for LS2+stixtt on input lin
-e 78.
+LaTeX Font Info:    Trying to load font information for LS1+stix2sf on input li
+ne 78.
 
-(/usr/share/texlive/texmf-dist/tex/latex/stix/ls2stixtt.fd
-File: ls2stixtt.fd 2015/04/17 v1.1.2-latex STIX typewriter LS2 font definitions
+(/usr/share/texlive/texmf-dist/tex/latex/stix2/ls1stix2sf.fd
+File: ls1stix2sf.fd 2018/04/02 v2.0.0-latex stix2 sans-serif LS1 font definitio
+ns
+)
+LaTeX Font Info:    Trying to load font information for LS2+stix2tt on input li
+ne 78.
 
+(/usr/share/texlive/texmf-dist/tex/latex/stix2/ls2stix2tt.fd
+File: ls2stix2tt.fd 2018/04/02 v2.0.0-latex stix2 typewriter LS2 font definitio
+ns
 )
 LaTeX Font Info:    Trying to load font information for TS1+opensans-TLF on inp
 ut line 78.
@@ -1561,7 +1543,7 @@ LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./static/logos/Frame-ups.p
-df> <./static/logos/logo2.png>]
+df>]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -1602,7 +1584,7 @@ LaTeX Font Info:    No file T1rm.fd. on input line 144.
 LaTeX Font Warning: Font shape `T1/rm/m/n' undefined
 (Font)              using `T1/cmr/m/n' instead on input line 144.
 
-<static/logos/EOBE.png, id=123, 1734.48pt x 397.485pt>
+<static/logos/EOBE.png, id=124, 1734.48pt x 397.485pt>
 File: static/logos/EOBE.png Graphic file (type png)
 <use static/logos/EOBE.png>
 Package pdftex.def Info: static/logos/EOBE.png  used on input line 156.
@@ -1654,18 +1636,13 @@ LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
 
 ]
 (/home/alexis/Documents/Thesis/out/main.toc [7] [8]
-Overfull \hbox (0.9803pt too wide) detected at line 86
+Overfull \hbox (0.9803pt too wide) detected at line 87
  []\T1/opensans-TLF/m/n/10.95 101
  []
 
 
-Overfull \hbox (0.9803pt too wide) detected at line 87
- []\T1/opensans-TLF/m/n/10.95 102
- []
-
-
 Overfull \hbox (0.9803pt too wide) detected at line 88
- []\T1/opensans-TLF/m/n/10.95 103
+ []\T1/opensans-TLF/m/n/10.95 102
  []
 
 
@@ -1675,17 +1652,17 @@ Overfull \hbox (0.9803pt too wide) detected at line 89
 
 
 Overfull \hbox (0.9803pt too wide) detected at line 90
- []\T1/opensans-TLF/m/n/10.95 106
+ []\T1/opensans-TLF/m/n/10.95 103
  []
 
 
 Overfull \hbox (0.9803pt too wide) detected at line 91
- []\T1/opensans-TLF/m/n/10.95 107
+ []\T1/opensans-TLF/m/n/10.95 106
  []
 
 
 Overfull \hbox (0.9803pt too wide) detected at line 92
- []\T1/opensans-TLF/m/n/10.95 108
+ []\T1/opensans-TLF/m/n/10.95 107
  []
 
 
@@ -1695,12 +1672,12 @@ Overfull \hbox (0.9803pt too wide) detected at line 93
 
 
 Overfull \hbox (0.9803pt too wide) detected at line 94
- []\T1/opensans-TLF/m/n/10.95 109
+ []\T1/opensans-TLF/m/n/10.95 108
  []
 
 
-Overfull \hbox (0.9803pt too wide) detected at line 96
- []\T1/opensans-TLF/m/n/10.95 111
+Overfull \hbox (0.9803pt too wide) detected at line 95
+ []\T1/opensans-TLF/m/n/10.95 109
  []
 
 
@@ -1710,11 +1687,16 @@ Overfull \hbox (0.9803pt too wide) detected at line 97
 
 
 Overfull \hbox (0.9803pt too wide) detected at line 98
- []\T1/opensans-TLF/m/n/10.95 113
+ []\T1/opensans-TLF/m/n/10.95 111
  []
 
 
 Overfull \hbox (0.9803pt too wide) detected at line 99
+ []\T1/opensans-TLF/m/n/10.95 113
+ []
+
+
+Overfull \hbox (0.9803pt too wide) detected at line 100
  []\T1/opensans-TLF/m/n/10.95 115
  []
 
@@ -1921,7 +1903,7 @@ Underfull \hbox (badness 1558) in paragraph at lines 294--294
 []|  
  []
 
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/teaser/v2/teaser.png, id=453,
+<static/figures/ComBiNet/OriginalPaperFigures/CGF/teaser/v2/teaser.png, id=456,
  4531.17844pt x 1766.85094pt>
 File: static/figures/ComBiNet/OriginalPaperFigures/CGF/teaser/v2/teaser.png Gra
 phic file (type png)
@@ -1993,36 +1975,36 @@ I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (12.85527pt too wide) in paragraph at lines 396--402
-\T1/cmss/m/n/10.95 user se-lected the $[]\LS1/stix/m/it/10.95 earattribute; col
-oringthedocumentsnodeswiththeiryearinthenode \LS1/stix/m/n/10.95 *
+Overfull \hbox (34.09561pt too wide) in paragraph at lines 396--402
+\T1/cmss/m/n/10.95 user se-lected the $[]\LS1/stix2/m/it/10.95 earattribute; co
+loringthedocumentsnodeswiththeiryearinthenode \LS1/stix2/m/n/10.95 *
  []
 
 
-Overfull \hbox (828.0779pt too wide) in paragraph at lines 396--402
-\LS1/stix/m/it/10.95 linkdiagram\LS1/stix/m/n/10.95 .\LS1/stix/m/it/10.95 left\
-LS1/stix/m/n/10.95 /\LS1/stix/m/it/10.95 andthemapview\LS1/stix/m/n/10.95 .\LS1
-/stix/m/it/10.95 right\LS1/stix/m/n/10.95 /\LS1/stix/m/it/10.95 ; revealingfore
-xamplethatmostconstructionoccurringin\LS1/stix/m/n/10.95 1714\LS1/stix/m/it/10.
-95 occurredinTorinoandTorinoclosesurrounding:Byclickingonthebutton; thevisualen
-codingandthedistributionplotremainselected:Thisinteractionisinspiredbythex \LS1
-/stix/m/n/10.95 *
+Overfull \hbox (904.00333pt too wide) in paragraph at lines 396--402
+\LS1/stix2/m/it/10.95 linkdiagram\LS1/stix2/m/n/10.95 .\LS1/stix2/m/it/10.95 le
+ft\LS1/stix2/m/n/10.95 /\LS1/stix2/m/it/10.95 andthemapview\LS1/stix2/m/n/10.95
+ .\LS1/stix2/m/it/10.95 right\LS1/stix2/m/n/10.95 /\LS1/stix2/m/it/10.95 ; reve
+alingforexamplethatmostconstructionoccurringin\LS1/stix2/m/n/10.95 1714\LS1/sti
+x2/m/it/10.95 occurredinTorinoandTorinoclosesurrounding:Byclickingonthebutton; 
+thevisualencodingandthedistributionplotremainselected:Thisinteractionisinspired
+bythex \LS1/stix2/m/n/10.95 *
  []
 
 
-Overfull \hbox (763.96373pt too wide) in paragraph at lines 396--402
-\LS1/stix/m/it/10.95 raytechniqueoftheVizstersystem \LS1/stix/m/n/10.95 [[]]\LS
-1/stix/m/it/10.95 :Userscanfollowafirstexplorationoftheirdatabyvisuallydetectin
-gcorrelationsbetweenattributevaluesandsomegroupsofpersonsorbetweenattributevalu
-esandsomespecificareasinthemapview\LS1/stix/m/n/10.95 .\LS1/stix/m/it/10.95 T\L
-S1/stix/m/n/10.95 1\LS1/stix/m/it/10.95 :\LS1/stix/m/n/10.95 2\LS1/stix/m/it/10
-.95 ; T\LS1/stix/m/n/10.95 1\LS1/stix/m/it/10.95 :\LS1/stix/m/n/10.95 4\LS1/sti
-x/m/it/10.95 ; T\LS1/stix/m/n/10.95 1\LS1/stix/m/it/10.95 :\LS1/stix/m/n/10.95 
-5/\LS1/stix/m/it/10.95 :$ 
+Overfull \hbox (825.04121pt too wide) in paragraph at lines 396--402
+\LS1/stix2/m/it/10.95 raytechniqueoftheVizstersystem \LS1/stix2/m/n/10.95 [[]]\
+LS1/stix2/m/it/10.95 :Userscanfollowafirstexplorationoftheirdatabyvisuallydetec
+tingcorrelationsbetweenattributevaluesandsomegroupsofpersonsorbetweenattributev
+aluesandsomespecificareasinthemapview\LS1/stix2/m/n/10.95 .\LS1/stix2/m/it/10.9
+5 T\LS1/stix2/m/n/10.95 1\LS1/stix2/m/it/10.95 :\LS1/stix2/m/n/10.95 2\LS1/stix
+2/m/it/10.95 ; T\LS1/stix2/m/n/10.95 1\LS1/stix2/m/it/10.95 :\LS1/stix2/m/n/10.
+95 4\LS1/stix2/m/it/10.95 ; T\LS1/stix2/m/n/10.95 1\LS1/stix2/m/it/10.95 :\LS1/
+stix2/m/n/10.95 5/\LS1/stix2/m/it/10.95 :$ 
  []
 
 [68]
-<static/figures/ComBiNet/Piemont_timeSelected.png, id=499, 1841.88126pt x 979.6
+<static/figures/ComBiNet/Piemont_timeSelected.png, id=502, 1841.88126pt x 979.6
 6pt>
 File: static/figures/ComBiNet/Piemont_timeSelected.png Graphic file (type png)
 <use static/figures/ComBiNet/Piemont_timeSelected.png>
@@ -2102,739 +2084,4 @@ et
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 406--406
-\T1/opensans-TLF/m/n/12 of col-lab-o-ra-tion #1. The user se-lected the
- []
-
-
-Overfull \hbox (509.66112pt too wide) in paragraph at lines 406--406
-[]\LS1/stix/m/it/12 earattribute; showingthedistributionofdocumentyearswithahis
-togram\LS1/stix/m/n/12 .\LS1/stix/m/it/12 bottomright\LS1/stix/m/n/12 /\LS1/sti
-x/m/it/12 ; andcoloringthedocumentsnodeonthebipartiteview\LS1/stix/m/n/12 .\LS1
-/stix/m/it/12 left\LS1/stix/m/n/12 /\LS1/stix/m/it/12 andmapviewsimultaneously\
-LS1/stix/m/n/12 .\LS1/stix/m/it/12 right\LS1/stix/m/n/12 /\LS1/stix/m/it/12 :$ 
-
- []
-
-./chapters/ComBiNet.tex:406: Missing } inserted.
-<inserted text> 
-                }
-l.406 ...ft) and map view simultaneously (right).}
-                                                  \label{fig:combinet-time-s...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-[69 <./static/figures/ComBiNet/Piemont_timeSelected.png>]
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/links.pdf, id=518, 383.42334p
-t x 114.86983pt>
-File: static/figures/ComBiNet/OriginalPaperFigures/CGF/links.pdf Graphic file (
-type pdf)
-<use static/figures/ComBiNet/OriginalPaperFigures/CGF/links.pdf>
-Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/links
-.pdf  used on input line 452.
-(pdftex.def)             Requested size: 332.89499pt x 99.7361pt.
- [70]
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/MutualGuarantors.png, id=529,
- 837.1275pt x 560.0925pt>
-File: static/figures/ComBiNet/OriginalPaperFigures/CGF/MutualGuarantors.png Gra
-phic file (type png)
-<use static/figures/ComBiNet/OriginalPaperFigures/CGF/MutualGuarantors.png>
-Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/Mutua
-lGuarantors.png  used on input line 470.
-(pdftex.def)             Requested size: 107.2644pt x 71.76338pt.
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/Turin.png, id=530, 843.15pt x
- 1192.455pt>
-File: static/figures/ComBiNet/OriginalPaperFigures/CGF/Turin.png Graphic file (
-type png)
-<use static/figures/ComBiNet/OriginalPaperFigures/CGF/Turin.png>
-Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/Turin
-.png  used on input line 475.
-(pdftex.def)             Requested size: 119.10445pt x 168.43459pt.
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinoSuburbs.png, id=531, 84
-1.1425pt x 1178.4025pt>
-File: static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinoSuburbs.png Graphi
-c file (type png)
-<use static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinoSuburbs.png>
-Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/Turin
-oSuburbs.png  used on input line 476.
-(pdftex.def)             Requested size: 119.10445pt x 166.84525pt.
- [71 <./static/figures/ComBiNet/OriginalPaperFigures/CGF/links.pdf> <./static/f
-igures/ComBiNet/OriginalPaperFigures/CGF/MutualGuarantors.png> <./static/figure
-s/ComBiNet/OriginalPaperFigures/CGF/Turin.png> <./static/figures/ComBiNet/Origi
-nalPaperFigures/CGF/TurinoSuburbs.png>]
-<static/figures/ComBiNet/OriginalPaperFigures/constraintRegion.png, id=561, 815
-.045pt x 402.50375pt>
-File: static/figures/ComBiNet/OriginalPaperFigures/constraintRegion.png Graphic
- file (type png)
-<use static/figures/ComBiNet/OriginalPaperFigures/constraintRegion.png>
-Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/constrain
-tRegion.png  used on input line 527.
-(pdftex.def)             Requested size: 258.91895pt x 127.86414pt.
-<static/figures/ComBiNet/OriginalPaperFigures/nominalWidget.png, id=562, 737.75
-626pt x 143.53625pt>
-File: static/figures/ComBiNet/OriginalPaperFigures/nominalWidget.png Graphic fi
-le (type png)
-<use static/figures/ComBiNet/OriginalPaperFigures/nominalWidget.png>
-Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/nominalWi
-dget.png  used on input line 528.
-(pdftex.def)             Requested size: 221.93375pt x 43.17728pt.
-<static/figures/ComBiNet/OriginalPaperFigures/numericWidget.png, id=563, 737.75
-626pt x 177.66376pt>
-File: static/figures/ComBiNet/OriginalPaperFigures/numericWidget.png Graphic fi
-le (type png)
-<use static/figures/ComBiNet/OriginalPaperFigures/numericWidget.png>
-Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/numericWi
-dget.png  used on input line 529.
-(pdftex.def)             Requested size: 221.93375pt x 53.4432pt.
- [72 <./static/figures/ComBiNet/OriginalPaperFigures/constraintRegion.png> <./s
-tatic/figures/ComBiNet/OriginalPaperFigures/nominalWidget.png> <./static/figure
-s/ComBiNet/OriginalPaperFigures/numericWidget.png>]
-<static/figures/ComBiNet/Piemont-mutual-guarantor-table.png, id=581, 2756.2975p
-t x 712.6625pt>
-File: static/figures/ComBiNet/Piemont-mutual-guarantor-table.png Graphic file (
-type png)
-<use static/figures/ComBiNet/Piemont-mutual-guarantor-table.png>
-Package pdftex.def Info: static/figures/ComBiNet/Piemont-mutual-guarantor-table
-.png  used on input line 574.
-(pdftex.def)             Requested size: 369.88583pt x 95.62894pt.
-<static/figures/ComBiNet/mutualGuarantor-table-bottom.png, id=582, 1361.085pt x
- 66.2475pt>
-File: static/figures/ComBiNet/mutualGuarantor-table-bottom.png Graphic file (ty
-pe png)
-<use static/figures/ComBiNet/mutualGuarantor-table-bottom.png>
-Package pdftex.def Info: static/figures/ComBiNet/mutualGuarantor-table-bottom.p
-ng  used on input line 575.
-(pdftex.def)             Requested size: 369.88583pt x 18.0033pt.
-<static/figures/ComBiNet/piemont-mutual-guarantors-results.png, id=583, 2722.17
-pt x 670.505pt>
-File: static/figures/ComBiNet/piemont-mutual-guarantors-results.png Graphic fil
-e (type png)
-<use static/figures/ComBiNet/piemont-mutual-guarantors-results.png>
-Package pdftex.def Info: static/figures/ComBiNet/piemont-mutual-guarantors-resu
-lts.png  used on input line 580.
-(pdftex.def)             Requested size: 369.88583pt x 91.10767pt.
-
-Underfull \vbox (badness 4819) has occurred while \output is active []
-
- [73]
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/apprGuar.png, id=5
-93, 833.1125pt x 875.27pt>
-File: static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/apprGuar.png 
-Graphic file (type png)
-<use static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/apprGuar.png>
-Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/sanke
-yPLot/apprGuar.png  used on input line 607.
-(pdftex.def)             Requested size: 88.77463pt x 93.26164pt.
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/barchart.pdf, id=5
-94, 256.96pt x 242.9075pt>
-File: static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/barchart.pdf 
-Graphic file (type pdf)
-<use static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/barchart.pdf>
-Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/sanke
-yPLot/barchart.pdf  used on input line 611.
-(pdftex.def)             Requested size: 110.96687pt x 104.90036pt.
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/sankey_bigger.pdf,
- id=595, 541.02126pt x 303.1325pt>
-File: static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/sankey_bigger
-.pdf Graphic file (type pdf)
-<use static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/sankey_bigger.
-pdf>
-Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/sanke
-yPLot/sankey_bigger.pdf  used on input line 615.
-(pdftex.def)             Requested size: 162.75066pt x 91.1856pt.
-LaTeX Font Info:    Font shape `T1/opensans-TLF/m/sl' in size <12> not availabl
-e
-(Font)              Font shape `T1/opensans-TLF/m/it' tried instead on input li
-ne 620.
-LaTeX Font Info:    Font shape `T1/opensans-TLF/m/it' will be
-(Font)              scaled to size 11.39996pt on input line 620.
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 6
-20.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-Underfull \vbox (badness 1796) has occurred while \output is active []
-
- [74 <./static/figures/ComBiNet/Piemont-mutual-guarantor-table.png> <./static/f
-igures/ComBiNet/mutualGuarantor-table-bottom.png> <./static/figures/ComBiNet/pi
-emont-mutual-guarantors-results.png>]
-<static/figures/ComBiNet/tree_tooltip_torinoquery_crop.png, id=607, 1237.62375p
-t x 1373.88281pt>
-File: static/figures/ComBiNet/tree_tooltip_torinoquery_crop.png Graphic file (t
-ype png)
-<use static/figures/ComBiNet/tree_tooltip_torinoquery_crop.png>
-Package pdftex.def Info: static/figures/ComBiNet/tree_tooltip_torinoquery_crop.
-png  used on input line 653.
-(pdftex.def)             Requested size: 184.94292pt x 205.29787pt.
- [75 <./static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/apprGuar.pn
-g> <./static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/barchart.pdf>
- <./static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/sankey_bigger.p
-df
-
-pdfTeX warning: pdflatex (file ./static/figures/ComBiNet/OriginalPaperFigures/C
-GF/sankeyPLot/sankey_bigger.pdf): PDF inclusion: multiple pdfs with page group 
-included in a single page
->] [76 <./static/figures/ComBiNet/tree_tooltip_torinoquery_crop.png>]
-<static/figures/ComBiNet/graph_measures_Torino_territoireandpiemont.png, id=645
-, 787.94376pt x 372.39125pt>
-File: static/figures/ComBiNet/graph_measures_Torino_territoireandpiemont.png Gr
-aphic file (type png)
-<use static/figures/ComBiNet/graph_measures_Torino_territoireandpiemont.png>
-Package pdftex.def Info: static/figures/ComBiNet/graph_measures_Torino_territoi
-reandpiemont.png  used on input line 707.
-(pdftex.def)             Requested size: 295.90979pt x 139.85092pt.
- [77 <./static/figures/ComBiNet/graph_measures_Torino_territoireandpiemont.png>
-]
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/type+chantier.pdf,
- id=654, 256.96pt x 411.5375pt>
-File: static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/type+chantier
-.pdf Graphic file (type pdf)
-<use static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/type+chantier.
-pdf>
-Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/Turin
-Plots/type+chantier.pdf  used on input line 747.
-(pdftex.def)             Requested size: 56.4059pt x 90.33783pt.
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/time.pdf, id=655, 
-431.6125pt x 365.365pt>
-File: static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/time.pdf Grap
-hic file (type pdf)
-<use static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/time.pdf>
-Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/Turin
-Plots/time.pdf  used on input line 748.
-(pdftex.def)             Requested size: 106.71739pt x 90.33783pt.
-<static/figures/ComBiNet/TorinoCompBC.pdf, id=656, 462.72874pt x 246.9225pt>
-File: static/figures/ComBiNet/TorinoCompBC.pdf Graphic file (type pdf)
-<use static/figures/ComBiNet/TorinoCompBC.pdf>
-Package pdftex.def Info: static/figures/ComBiNet/TorinoCompBC.pdf  used on inpu
-t line 750.
-(pdftex.def)             Requested size: 169.28645pt x 90.33783pt.
- [78 <./static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/type+chanti
-er.pdf> <./static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/time.pdf
-
-
-pdfTeX warning: pdflatex (file ./static/figures/ComBiNet/OriginalPaperFigures/C
-GF/TurinPlots/time.pdf): PDF inclusion: multiple pdfs with page group included 
-in a single page
-> <./static/figures/ComBiNet/TorinoCompBC.pdf
-
-pdfTeX warning: pdflatex (file ./static/figures/ComBiNet/TorinoCompBC.pdf): PDF
- inclusion: multiple pdfs with page group included in a single page
->]
-Overfull \hbox (0.13441pt too wide) in paragraph at lines 784--788
-[]\T1/cmss/m/it/10.95 To an-swer those ques-tions, we first se-lected the core 
-mem-bers of the Menafoglio
- []
-
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/region.pdf, id
-=712, 354.32375pt x 333.245pt>
-File: static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/region.pd
-f Graphic file (type pdf)
-<use static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/region.pdf
->
-Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZ
-oPlots/v2/region.pdf  used on input line 805.
-(pdftex.def)             Requested size: 110.96687pt x 104.36253pt.
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/type-chantier.
-pdf, id=713, 337.26pt x 333.245pt>
-File: static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/type-chan
-tier.pdf Graphic file (type pdf)
-<use static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/type-chant
-ier.pdf>
-Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZ
-oPlots/v2/type-chantier.pdf  used on input line 806.
-(pdftex.def)             Requested size: 110.96687pt x 109.64575pt.
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/materiel.pdf, 
-id=714, 314.17375pt x 333.245pt>
-File: static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/materiel.
-pdf Graphic file (type pdf)
-<use static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/materiel.p
-df>
-Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZ
-oPlots/v2/materiel.pdf  used on input line 807.
-(pdftex.def)             Requested size: 110.96687pt x 117.70023pt.
-[79]
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migrationQuer
-y.png, id=723, 819.06pt x 746.79pt>
-File: static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migratio
-nQuery.png Graphic file (type png)
-<use static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migration
-Query.png>
-Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/frenc
-hGenealogy/migrationQuery.png  used on input line 873.
-(pdftex.def)             Requested size: 147.95207pt x 134.89499pt.
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migration3.pd
-f, id=724, 541.02126pt x 294.09875pt>
-File: static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migratio
-n3.pdf Graphic file (type pdf)
-<use static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migration
-3.pdf>
-Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/frenc
-hGenealogy/migration3.pdf  used on input line 880.
-(pdftex.def)             Requested size: 218.23128pt x 118.62917pt.
- [80 <./static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/region.
-pdf> <./static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/type-ch
-antier.pdf
-
-pdfTeX warning: pdflatex (file ./static/figures/ComBiNet/OriginalPaperFigures/C
-GF/MenaZoPlots/v2/type-chantier.pdf): PDF inclusion: multiple pdfs with page gr
-oup included in a single page
-> <./static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/materiel.p
-df
-
-pdfTeX warning: pdflatex (file ./static/figures/ComBiNet/OriginalPaperFigures/C
-GF/MenaZoPlots/v2/materiel.pdf): PDF inclusion: multiple pdfs with page group i
-ncluded in a single page
-> <./static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migration
-Query.png> <./static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/
-migration3.pdf
-
-pdfTeX warning: pdflatex (file ./static/figures/ComBiNet/OriginalPaperFigures/C
-GF/frenchGenealogy/migration3.pdf): PDF inclusion: multiple pdfs with page grou
-p included in a single page
->]
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migration_18.
-pdf, id=782, 541.02126pt x 288.07625pt>
-File: static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migratio
-n_18.pdf Graphic file (type pdf)
-<use static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migration
-_18.pdf>
-Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/frenc
-hGenealogy/migration_18.pdf  used on input line 904.
-(pdftex.def)             Requested size: 181.24608pt x 96.50723pt.
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migration_19.
-pdf, id=783, 541.02126pt x 295.1025pt>
-File: static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migratio
-n_19.pdf Graphic file (type pdf)
-<use static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migration
-_19.pdf>
-Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/frenc
-hGenealogy/migration_19.pdf  used on input line 908.
-(pdftex.def)             Requested size: 181.24608pt x 98.86107pt.
-
-./chapters/ComBiNet.tex:918: Undefined control sequence.
-l.918 I present in this subsection how \combinet
-                                                 have been used to detect er...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./chapters/ComBiNet.tex:922: Undefined control sequence.
-l.922 I used \combinet
-                       in collaboration with historians of this project to d...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-<static/figures/ComBiNet/BuenosAires_correction.png, id=784, 1829.83624pt x 984
-.67876pt>
-File: static/figures/ComBiNet/BuenosAires_correction.png Graphic file (type png
-)
-<use static/figures/ComBiNet/BuenosAires_correction.png>
-Package pdftex.def Info: static/figures/ComBiNet/BuenosAires_correction.png  us
-ed on input line 930.
-(pdftex.def)             Requested size: 369.88583pt x 199.03575pt.
-[81 <./static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migrati
-on_18.pdf> <./static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/
-migration_19.pdf
-
-pdfTeX warning: pdflatex (file ./static/figures/ComBiNet/OriginalPaperFigures/C
-GF/frenchGenealogy/migration_19.pdf): PDF inclusion: multiple pdfs with page gr
-oup included in a single page
->]
-<static/figures/ComBiNet/Thesis-first-exploration.png, id=808, 3681.755pt x 196
-3.335pt>
-File: static/figures/ComBiNet/Thesis-first-exploration.png Graphic file (type p
-ng)
-<use static/figures/ComBiNet/Thesis-first-exploration.png>
-Package pdftex.def Info: static/figures/ComBiNet/Thesis-first-exploration.png  
-used on input line 963.
-(pdftex.def)             Requested size: 295.90979pt x 157.789pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [82 <./static/figures/ComBiNet/BuenosAires_correction.png>]
-<static/figures/ComBiNet/Thesis-query01-and-results.png, id=820, 3683.7625pt x 
-1967.35pt>
-File: static/figures/ComBiNet/Thesis-query01-and-results.png Graphic file (type
- png)
-<use static/figures/ComBiNet/Thesis-query01-and-results.png>
-Package pdftex.def Info: static/figures/ComBiNet/Thesis-query01-and-results.png
-  used on input line 984.
-(pdftex.def)             Requested size: 295.90979pt x 158.02162pt.
-
-Underfull \vbox (badness 1270) has occurred while \output is active []
-
- [83 <./static/figures/ComBiNet/Thesis-first-exploration.png>] [84 <./static/fi
-gures/ComBiNet/Thesis-query01-and-results.png>]
-Underfull \vbox (badness 1024) has occurred while \output is active []
-
- [85])
-[86] (/home/alexis/Documents/Thesis/out/main.bbl
-(/home/alexis/Documents/Thesis/out/main.brf)
-\tf@brf=\write7
-\openout7 = `main.brf'.
-
- [116
-
-
-
-
-
-]
-
-Package caption Warning: \label without proper reference on input line 525.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `??' on page 117 undefined on input line 32.
-
-[117] [118] [119] [120] [121] [122] [123]
-Underfull \hbox (badness 1584) in paragraph at lines 531--531
-[]\T1/cmss/m/it/10.95 Fintan McGee, Ben-jamin Re-noust, Daniel Ar-cham-bault, M
-o-ham-mad
- []
-
-[124]
-
-Package caption Warning: \label without proper reference on input line 525.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `??' on page 125 undefined on input line 645.
-
-[125] [126]
-
-Package caption Warning: \label without proper reference on input line 525.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `??' on page 127 undefined on input line 788.
-
-
-Package caption Warning: \label without proper reference on input line 525.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `??' on page 127 undefined on input line 823.
-
-[127] [128]) [129]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 229.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 229.
- (/home/alexis/Documents/Thesis/out/main.aux
-(/home/alexis/Documents/Thesis/out/chapters/Publications.aux)
-(/home/alexis/Documents/Thesis/out/chapters/Introduction.aux)
-(/home/alexis/Documents/Thesis/out/chapters/Context.aux)
-(/home/alexis/Documents/Thesis/out/chapters/NetworkModels.aux)
-(/home/alexis/Documents/Thesis/out/chapters/ComBiNet.aux)
-(/home/alexis/Documents/Thesis/out/chapters/PK-Clustering.aux)
-(/home/alexis/Documents/Thesis/out/chapters/Conclusion.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 229.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 229.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: <no file>.
-Package rerunfilecheck Info: File `main.brf' has not changed.
-(rerunfilecheck)             Checksum: <no file>.
-
-
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 1.26pt have occurred.
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-LaTeX Warning: There were undefined references.
-
- )
-(\end occurred inside a group at level 1)
-
-### simple group (level 1) entered at line 398 ({)
-### bottom level 
-Here is how much of TeX's memory you used:
- 30441 strings out of 481239
- 556454 string characters out of 5920377
- 1091077 words of memory out of 5000000
- 44613 multiletter control sequences out of 15000+600000
- 650299 words of font info for 190 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 68i,15n,117p,1688b,881s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{equation.3.4.6} has been referenced
- but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Item.3} has been referenced but does not exist, rep
-laced by a fixed one
-
-pdfTeX warning (dest): name{Item.20} has been referenced but does not exist, re
-placed by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.6} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.4} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.49} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Item.1} has been referenced but does not exist, rep
-laced by a fixed one
-
-pdfTeX warning (dest): name{Item.4} has been referenced but does not exist, rep
-laced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.12} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.6.4} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.6.3} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.6.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.6.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.6} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{section.5.6} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.5.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.5.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.5.5} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.4.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.4.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.4.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.5.4} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.3.8} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.3.7} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.3.6} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.3.5} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.3.4} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.3.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.3.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.3.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.5.3} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.2.6} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.2.5} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.2.4} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.2.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.2.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.2.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.5.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.5.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.5} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.7} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.6} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.5} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.4.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.4.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.4.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.4} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.3.5} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.3.4} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.3.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.3.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.3.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.3} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.2.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.2.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.3} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.4.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.4.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.2.4} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.3.4} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.3.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.3.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.3.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.2.3} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.2.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.2.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.2.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.2.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.1.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.1.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.2.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.2} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.4} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.3} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.1} has been referenced but does not exist, 
-replaced by a fixed one
-
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/
-texmf-dist/fonts/enc/dvips/opensans/a_jg4h6q.enc}{/usr/share/texlive/texmf-dist
-/fonts/enc/dvips/opensans/a_nvvucy.enc}{/usr/share/texlive/texmf-dist/fonts/enc
-/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/ascender/opensans
-/OpenSans-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/ascender/opensans
-/OpenSans-Italic.pfb></usr/share/texlive/texmf-dist/fonts/type1/ascender/opensa
-ns/OpenSans-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/bera/
-fvsb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/bera/fvsr8a.pfb></
-usr/share/texmf/fonts/type1/public/cm-super/sfsi1095.pfb></usr/share/texmf/font
-s/type1/public/cm-super/sfsi1728.pfb></usr/share/texmf/fonts/type1/public/cm-su
-per/sfso1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfso1200.pfb></u
-sr/share/texmf/fonts/type1/public/cm-super/sfso1728.pfb></usr/share/texmf/fonts
-/type1/public/cm-super/sfss0700.pfb></usr/share/texmf/fonts/type1/public/cm-sup
-er/sfss0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1000.pfb></us
-r/share/texmf/fonts/type1/public/cm-super/sfss1095.pfb></usr/share/texmf/fonts/
-type1/public/cm-super/sfss2488.pfb></usr/share/texmf/fonts/type1/public/cm-supe
-r/sfsx0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb></usr
-/share/texmf/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf/fonts/t
-ype1/public/cm-super/sfsx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super
-/sftt1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/stix/stix-mathe
-x.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/stix/stix-mathit.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/stix/stix-mathrm.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/stix/stix-mathscr.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on /home/alexis/Documents/Thesis/out/main.pdf (51 pages, 1128731
-0 bytes).
-PDF statistics:
- 1462 PDF objects out of 1728 (max. 8388607)
- 1271 compressed objects within 13 object streams
- 338 named destinations out of 1000 (max. 500000)
- 376 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+Underfull \h
