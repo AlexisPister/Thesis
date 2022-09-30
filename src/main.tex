@@ -2,8 +2,15 @@
 %! Date = 11/06/2022
 
 % Preamble
-\documentclass[12pt,a4paper]{book}
+\documentclass[12pt,a4paper, twoside]{book}
+%\documentclass[12pt,a4paper]{book}
+%\documentclass[11pt,twoside]{book}
+
+%\usepackage{graphics}
+%\usepackage[a4paper,width=10mm,top=25mm,bottom=25mm]{geometry}
+
 %\usepackage{biblatex}
+
 
 %% Packages
 \input{commands}
@@ -201,11 +208,14 @@
     \newgeometry{top=4cm, bottom=4cm, left=2cm, right=2cm}
 
 
+
     \include{chapters/Publications}
 
     \tableofcontents
-
-    \newgeometry{top=4cm, bottom=4cm, left=4cm, right=4cm}
+% Old one
+%    \newgeometry{top=4cm, bottom=4cm, left=4cm, right=4cm}
+%    \newgeometry{top=4cm, bottom=4cm, left=2cm, right=4cm}
+    \newgeometry{top=4cm, bottom=4cm, width=150mm}
 
     \include{chapters/Introduction}
     \include{chapters/Context}

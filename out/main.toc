@@ -1,99 +1,99 @@
 \babel@toc {english}{}
-\contentsline {chapter}{\numberline {1}Introduction}{11}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Social History and Historical Social Network Analysis}{12}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Visualization and Visual Analytics}{14}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Visual Analytics Supported Historical Network Research}{16}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Contributions and Research Statement}{19}{section.1.4}%
-\contentsline {chapter}{\numberline {2}Related Work}{21}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Visualization}{22}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Information Visualization}{22}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Visual Analytics}{24}{subsection.2.1.2}%
-\contentsline {section}{\numberline {2.2}Quantitative Social History}{26}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}History, Social History, and Methodology}{26}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Quantitative History}{27}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Digital Humanities}{29}{subsection.2.2.3}%
-\contentsline {section}{\numberline {2.3}Historical Social Network Analysis}{31}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Sociometry to SNA}{31}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Methods and Measures}{33}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Historical Social Network Analysis}{35}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Network Modeling}{37}{subsection.2.3.4}%
-\contentsline {section}{\numberline {2.4}Social Network Visualization}{38}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Graph Drawing}{38}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Social Network Visual Analytics}{40}{subsection.2.4.2}%
-\contentsline {chapter}{\numberline {3}HSNA Process and Network Modeling}{43}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Context}{43}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Related Work}{44}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}History Methodology}{45}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Historian Workflows}{45}{subsection.3.2.2}%
-\contentsline {section}{\numberline {3.3}Historical Social Network Analysis Workflow}{46}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Textual Sources Acquisition}{47}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Digitization}{47}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Annotation}{48}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}Network Creation}{48}{subsection.3.3.4}%
-\contentsline {subsection}{\numberline {3.3.5}Network Analysis and Visualization}{49}{subsection.3.3.5}%
-\contentsline {section}{\numberline {3.4}Network modeling and analysis}{50}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Network Models}{50}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Bipartite Multivariate Dynamic Social Network}{52}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Examples}{54}{subsection.3.4.3}%
-\contentsline {section}{\numberline {3.5}Applications}{55}{section.3.5}%
+\contentsline {chapter}{\numberline {1}Introduction}{13}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Social History and Historical Social Network Analysis}{14}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Visualization and Visual Analytics}{16}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Visual Analytics Supported Historical Network Research}{19}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Contributions and Research Statement}{21}{section.1.4}%
+\contentsline {chapter}{\numberline {2}Related Work}{23}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Visualization}{23}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Information Visualization}{24}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Visual Analytics}{26}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}Quantitative Social History}{28}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}History, Social History, and Methodology}{28}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Quantitative History}{29}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Digital Humanities}{30}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}Historical Social Network Analysis}{32}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Sociometry to SNA}{33}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Methods and Measures}{34}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Historical Social Network Analysis}{36}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Network Modeling}{38}{subsection.2.3.4}%
+\contentsline {section}{\numberline {2.4}Social Network Visualization}{39}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Graph Drawing}{39}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Social Network Visual Analytics}{41}{subsection.2.4.2}%
+\contentsline {chapter}{\numberline {3}HSNA Process and Network Modeling}{45}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Context}{45}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Related Work}{46}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}History Methodology}{47}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Historian Workflows}{47}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Historical Social Network Analysis Workflow}{48}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Textual Sources Acquisition}{48}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Digitization}{49}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Annotation}{49}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Network Creation}{50}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}Network Analysis and Visualization}{51}{subsection.3.3.5}%
+\contentsline {section}{\numberline {3.4}Network modeling and analysis}{51}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Network Models}{52}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Bipartite Multivariate Dynamic Social Network}{54}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Examples}{55}{subsection.3.4.3}%
+\contentsline {section}{\numberline {3.5}Applications}{57}{section.3.5}%
 \contentsline {section}{\numberline {3.6}Discussion}{57}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Conclusion}{57}{section.3.7}%
+\contentsline {section}{\numberline {3.7}Conclusion}{59}{section.3.7}%
 \contentsline {chapter}{\numberline {4}ComBiNet: Visual Query and Comparison of Bipartite Dynamic Multivariate Networks with Roles}{61}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Context}{61}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Related Work}{63}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Graphlet Analysis}{64}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.1}Graphlet Analysis}{63}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Visual Graph Querying}{64}{subsection.4.2.2}%
 \contentsline {subsection}{\numberline {4.2.3}Visual Graph Comparison}{65}{subsection.4.2.3}%
 \contentsline {subsection}{\numberline {4.2.4}Provenance}{65}{subsection.4.2.4}%
-\contentsline {section}{\numberline {4.3}Task Analysis and Design Process}{66}{section.4.3}%
+\contentsline {section}{\numberline {4.3}Task Analysis and Design Process}{65}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}Use Cases}{66}{subsection.4.3.1}%
 \contentsline {subsection}{\numberline {4.3.2}Tasks Analysis}{68}{subsection.4.3.2}%
 \contentsline {section}{\numberline {4.4}The ComBiNet\xspace System}{69}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Visualizations}{71}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Query Panel}{73}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.1}Visualizations}{70}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Query Panel}{72}{subsection.4.4.2}%
 \contentsline {subsection}{\numberline {4.4.3}Comparison}{79}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}Implementation}{82}{subsection.4.4.4}%
+\contentsline {subsection}{\numberline {4.4.4}Implementation}{81}{subsection.4.4.4}%
 \contentsline {section}{\numberline {4.5}Use Cases}{82}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Construction sites in Piedmont (\#1)}{83}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.1}Construction sites in Piedmont (\#1)}{82}{subsection.4.5.1}%
 \contentsline {subsection}{\numberline {4.5.2}French Genealogy (\#2)}{83}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}Marriage acts in Buenos Aires (\#3)}{85}{subsection.4.5.3}%
-\contentsline {subsection}{\numberline {4.5.4}Sociology thesis in France}{86}{subsection.4.5.4}%
-\contentsline {section}{\numberline {4.6}Formative Usability Study}{88}{section.4.6}%
-\contentsline {subsection}{\numberline {4.6.1}Feedback}{89}{subsection.4.6.1}%
-\contentsline {section}{\numberline {4.7}Discussion}{89}{section.4.7}%
-\contentsline {section}{\numberline {4.8}Conclusion and Future Work}{90}{section.4.8}%
-\contentsline {chapter}{\numberline {5}PK-Clustering}{93}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Context}{93}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Related Work}{96}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Graph Clustering}{97}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Semi-supervised Clustering}{97}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}Mixed-Initiative Systems and Interactive Clustering}{98}{subsection.5.2.3}%
-\contentsline {subsection}{\numberline {5.2.4}Groups in Network Visualization}{98}{subsection.5.2.4}%
-\contentsline {subsection}{\numberline {5.2.5}Ensemble Clustering}{98}{subsection.5.2.5}%
-\contentsline {subsection}{\numberline {5.2.6}Summary}{99}{subsection.5.2.6}%
-\contentsline {section}{\numberline {5.3}PK-clustering}{99}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Overview}{100}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}Specification of Prior Knowledge}{101}{subsection.5.3.2}%
-\contentsline {subsection}{\numberline {5.3.3}Running the Clustering Algorithms}{101}{subsection.5.3.3}%
-\contentsline {subsection}{\numberline {5.3.4}Matching Clustering Results and Prior Knowledge}{102}{subsection.5.3.4}%
-\contentsline {subsection}{\numberline {5.3.5}Ranking the Algorithms}{104}{subsection.5.3.5}%
-\contentsline {subsection}{\numberline {5.3.6}Reviewing the Ranked List of Algorithms}{104}{subsection.5.3.6}%
-\contentsline {subsection}{\numberline {5.3.7}Reviewing and Consolidating Final Results }{105}{subsection.5.3.7}%
-\contentsline {subsubsection}{Reviewing Results of a Single Algorithm}{106}{subsubsection*.44}%
-\contentsline {subsubsection}{Comparing Multiple Algorithm Results}{106}{subsubsection*.45}%
-\contentsline {subsubsection}{Consolidating the prior knowledge clusters}{107}{subsubsection*.48}%
-\contentsline {subsubsection}{Consolidating extra clusters}{108}{subsubsection*.49}%
-\contentsline {subsection}{\numberline {5.3.8}Wrapping up and Reporting Results}{110}{subsection.5.3.8}%
-\contentsline {section}{\numberline {5.4}Case studies}{110}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}Marie Boucher Social Network}{111}{subsection.5.4.1}%
-\contentsline {subsection}{\numberline {5.4.2}Lineages at VAST}{112}{subsection.5.4.2}%
-\contentsline {subsection}{\numberline {5.4.3}Feedback from practitioners}{114}{subsection.5.4.3}%
-\contentsline {section}{\numberline {5.5}Discussion}{115}{section.5.5}%
-\contentsline {subsection}{\numberline {5.5.1}Limitations}{116}{subsection.5.5.1}%
-\contentsline {subsection}{\numberline {5.5.2}Performance}{116}{subsection.5.5.2}%
-\contentsline {section}{\numberline {5.6}Conclusion}{117}{section.5.6}%
-\contentsline {chapter}{\numberline {6}Conclusion}{119}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Summary}{119}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Discussion}{119}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Perspectives}{121}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Conclusion}{123}{section.6.4}%
+\contentsline {subsection}{\numberline {4.5.3}Marriage acts in Buenos Aires (\#3)}{84}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4}Sociology thesis in France}{85}{subsection.4.5.4}%
+\contentsline {section}{\numberline {4.6}Formative Usability Study}{87}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Feedback}{88}{subsection.4.6.1}%
+\contentsline {section}{\numberline {4.7}Discussion}{88}{section.4.7}%
+\contentsline {section}{\numberline {4.8}Conclusion and Future Work}{89}{section.4.8}%
+\contentsline {chapter}{\numberline {5}PK-Clustering}{91}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Context}{91}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Related Work}{94}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Graph Clustering}{94}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Semi-supervised Clustering}{95}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Mixed-Initiative Systems and Interactive Clustering}{95}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}Groups in Network Visualization}{96}{subsection.5.2.4}%
+\contentsline {subsection}{\numberline {5.2.5}Ensemble Clustering}{96}{subsection.5.2.5}%
+\contentsline {subsection}{\numberline {5.2.6}Summary}{97}{subsection.5.2.6}%
+\contentsline {section}{\numberline {5.3}PK-clustering}{97}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Overview}{97}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Specification of Prior Knowledge}{99}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Running the Clustering Algorithms}{99}{subsection.5.3.3}%
+\contentsline {subsection}{\numberline {5.3.4}Matching Clustering Results and Prior Knowledge}{100}{subsection.5.3.4}%
+\contentsline {subsection}{\numberline {5.3.5}Ranking the Algorithms}{101}{subsection.5.3.5}%
+\contentsline {subsection}{\numberline {5.3.6}Reviewing the Ranked List of Algorithms}{101}{subsection.5.3.6}%
+\contentsline {subsection}{\numberline {5.3.7}Reviewing and Consolidating Final Results }{103}{subsection.5.3.7}%
+\contentsline {subsubsection}{Reviewing Results of a Single Algorithm}{103}{subsubsection*.44}%
+\contentsline {subsubsection}{Comparing Multiple Algorithm Results}{103}{subsubsection*.45}%
+\contentsline {subsubsection}{Consolidating the prior knowledge clusters}{104}{subsubsection*.48}%
+\contentsline {subsubsection}{Consolidating extra clusters}{105}{subsubsection*.49}%
+\contentsline {subsection}{\numberline {5.3.8}Wrapping up and Reporting Results}{107}{subsection.5.3.8}%
+\contentsline {section}{\numberline {5.4}Case studies}{108}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Marie Boucher Social Network}{108}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Lineages at VAST}{109}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}Feedback from practitioners}{110}{subsection.5.4.3}%
+\contentsline {section}{\numberline {5.5}Discussion}{112}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Limitations}{113}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}Performance}{113}{subsection.5.5.2}%
+\contentsline {section}{\numberline {5.6}Conclusion}{114}{section.5.6}%
+\contentsline {chapter}{\numberline {6}Conclusion}{115}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Summary}{115}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Discussion}{115}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Perspectives}{117}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Conclusion}{119}{section.6.4}%
