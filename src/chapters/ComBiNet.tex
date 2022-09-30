@@ -1,10 +1,10 @@
 \chapter{ComBiNet: Visual Query and Comparison of Bipartite Dynamic Multivariate Networks with Roles}\label{ch:combinet}
 \newcommand{\combinet}{ComBiNet\xspace}
 
-In the previous chapter \autoref{ch:hsna-process-and-network-modeling}, we showed that \modelplural allow to model well historical documents, with \emph{simplicity}, \emph{reality} and \emph{traceability} properties.
-However, no visual tools currently exist to explore and analyze this type of data.
-In this chapter, we propose a \va interface aimed at exploring historical documents modeled as \modelplural.
-We try to answer \textbf{Q2} by analyzing tasks and questions historians have on their data and providing interactions mechanisms which would allow them to answer their historical questions while finding errors in their data.
+In the previous chapter \autoref{ch:hsna-process-and-network-modeling}, I showed that \modelplural allow to model well historical documents, with \emph{simplicity}, \emph{reality} and \emph{traceability} properties.
+However, no visual tools currently exist to specifically explore and manipulate this type of data.
+In this chapter, I propose a \va interface aimed at exploring historical documents modeled as \modelplural, for historians to be able to reflect on their data and encoding, and to follow in depth-analysis.
+I answer \textbf{Q2} by analyzing tasks and questions historians have on their data and providing interactions mechanisms which would allow them to answer their historical questions while finding errors in their data.
 
 \paperbox{This chapter is an updated version of an article currently submited to the journal Computer Graphics Forum, and a poster presented at the conference EuroVis 2022 \cite{pisterVisualQueriesBipartite2022}. It was a joint work with my advisors Christophe Prieur and Jean-Daniel Fekete. I did the development of the interface, and led in the discussions, evaluation, and writing of the paper.}
 
@@ -31,30 +31,30 @@ This model unifies several social network models and allows to represent histori
 
 More complicated models exist such as knowledge graphs\cite{opitzInductionLargeScaleKnowledge2018}, which are very expressive but hard to manipulate, especially for social scientists.
 In contrast, most visual and analytics tools widely used by social scientists such as Gephi~\cite{Gephi} and NodeXL~\cite{NodeXL} enforce too simplistic network models and only provide limited interactions for exploring the network data, even if they provide the computation of several network measure.
-This results in many social historians end their analysis by plotting the network using a node-link diagram---which is hard to read with dense networks---, and identifying the most important actors with the help of centrality measures\cite{lemercierQuantitativeMethodsHumanities2019}.
-Lemercier \& al complain about this phenomenon: ``Network graphs of the “spaghetti monster” variety are a case in point. Often, in historical papers, they are used to show that a network is dense (and that the author has mastered the new technology). The narrative then comments on the individuals identified as central in the network. This approach can indeed be quite interesting, but it is hardly the only possible use for network analysis.\cite{lemercierQuantitativeMethodsHumanities2019}''.
-
+This results in many social historians ending their analysis by plotting the network using a node-link diagram---which is hard to read with dense networks---, and identifying the most important actors with the help of centrality measures\cite{lemercierQuantitativeMethodsHumanities2019}.
+Lemercier \& al describe this phenomena the following: ``Network graphs of the “spaghetti monster” variety are a case in point. Often, in historical papers, they are used to show that a network is dense (and that the author has mastered the new technology). The narrative then comments on the individuals identified as central in the network. This approach can indeed be quite interesting, but it is hardly the only possible use for network analysis.\cite{lemercierQuantitativeMethodsHumanities2019}''.
 \va tools guiding social scientists towards more complex exploration with the help of interaction mechanisms are therefore needed.
 % Contrary to the early taxonomy of tasks on graphs~\cite{lee:hal-00851754}, with the data model we use, it becomes impossible to characterize a finite set of simple tasks to support, along with their associated visual representations and interactions techniques.
 
-In this chapter, we present a visual analytic system to explore and analyze Bipartite Multivariate Dynamic Social Networks, with the aim of answering historical and sociological questions.
-We elaborated our tool based on four collaborations with social scientist colleagues.
-We first collected important questions they each had on their data and transcribed them from a network analysis perspective.
+In this chapter, I present a \va system to explore and analyze Bipartite Multivariate Dynamic Social Networks, with the aim of supporting more complex historical analysis based on easy-to-use interactions, but also potential data correction.
+I elaborated the tool based on four collaborations with social scientist colleagues.
+I first collected important questions they each had on their data and transcribed them from a network analysis perspective.
 The majority of the questions raised consisted in either finding specific patterns in the network---corresponding to specific groups or individual exhibiting intriguing behaviours---or in comparing several subsets of the network, in terms of network measures, attribute distributions, and their overlaps.
 
 % In this paper, we thus present a visual analytic system to explore and analyze Bipartite Multivariate Dynamic Social Networks. Based on the needs and questions of our collaborators,
-we thus focus on three high-level tasks: exploration, queries, and comparison of this type of network.
+I hence focus on three high-level tasks: exploration, queries, and comparison of this type of network.
 Users can explore the data using two layouts: a node-link bipartite view showing the sociological structure of the network, and a map layout based on the geolocation of documents.
-We designed and implemented a new visual graph query system that allows us to build both topological and attribute constraints, based respectively on a node-link interactive representation, and dynamic widgets.
-For this, we rely on the Neo4j graph database~\cite{neo4j} and its language \emph{Cypher}.
+I designed and implemented a new visual graph query system that allows us to build both topological and attribute constraints, based respectively on a node-link interactive representation, and dynamic widgets.
+By easy-to-create queries, social historians are able to 1) detect erroneous patterns and reflect on their encoding process and 2) find relevant patterns which can answer their historical questions.
+For this, I rely on the Neo4j graph database~\cite{neo4j} and its query language \emph{Cypher}.
 Most visualization systems offer dynamic queries to hide the complexity of query languages.
 However, using a rich data model, some queries are easier to refine using scripting than dynamic queries.
-We implemented dynamic queries that also show the translated Cypher queries, and inversely, can translate textual queries into visual queries.
+I implemented dynamic queries that also show the translated Cypher queries, and inversely, can translate textual queries into visual queries.
 With that interface, social scientists can start building their queries with simple widgets and, if needed, complement them by editing the query, alone or with the help of power users.
 Furthermore, they can export their query, the associated results, and its history at any point to share it with someone else or to start an analysis session from a previous result.
 \name also implements subgraph comparison techniques, allowing the comparison of networks, network-related measures, and attribute distributions between the entities returned by the queries.
 % In this first version of \name, we focused on the power of queries and comparisons and not usability so most of the explorations have been done by one of the authors or close to.
-We validate the query and comparison system with a formative usability study and we demonstrate \name can be used to answer sociological questions by describing in depth several real-world use cases.
+I validate the query and comparison system with a formative usability study and I demonstrate \name can be used to answer sociological questions by describing in depth several real-world use cases.
 
 % 1) a succession of attribute and topological queries that are usually applied sequentially, from the simplest to the more complex, % which can be done with a graph database system and associated query language;
 % \item The comparison of several query resulting subgraphs, in terms of connectivity metrics or attribute distributions
@@ -68,22 +68,22 @@ We validate the query and comparison system with a formative usability study and
 % Need tools to explore these specific kind of dataset
 % Query and comparison to answer historical and sociological questions
 
-After the related work section, we describe our design process in \autoref{sec:combinet-tasks}, present our system \name in \autoref{sec:combinet-system} with the design of the visual query and comparison features, and present three use cases demonstrating the utility of our system in \autoref{sec:combinet-usecases} showing it can be used to explore complex historical data and allowing historians to answer several of their questions using queries and comparisons.
-We finish if the results of the formative usability study in \autoref{sec:combinet-usability}.
-Our contributions are:
-\begin{itemize}
-% \item The description, motivations, and benefits of our unified data model: \emph{bipartite} with \emph{roles}, \emph{multivariate} and \emph{dynamic}, for the visual exploration and analysis of social networks;
-% \item The design and implementation of a bipartite graph visualization and map layout specific to social scientist needs.
-    \item The design and implementation of a graph query system, synchronizing the visual representation of the query and the associated script;
-    \item The design and implementation of visualization and interaction techniques aimed at comparing subgraphs, in terms of topology, attributes, time, and geographical location.
-    \item A usability study and three real-world use cases demonstrate the utility of the system to answer socio-historical questions.
-\end{itemize}
+After the related work section, I describe our design process in \autoref{sec:combinet-tasks}, present the system \name in \autoref{sec:combinet-system} with the design of the visual query and comparison features, and present four use cases demonstrating the utility of the system in \autoref{sec:combinet-usecases} showing it can be used to explore complex historical data and allowing historians to answer several of their questions using queries and comparisons.
+I finish with the results of the formative usability study in \autoref{sec:combinet-usability}.
+%Our contributions are:
+%\begin{itemize}
+%% \item The description, motivations, and benefits of our unified data model: \emph{bipartite} with \emph{roles}, \emph{multivariate} and \emph{dynamic}, for the visual exploration and analysis of social networks;
+%% \item The design and implementation of a bipartite graph visualization and map layout specific to social scientist needs.
+%    \item The design and implementation of a graph query system, synchronizing the visual representation of the query and the associated script;
+%    \item The design and implementation of visualization and interaction techniques aimed at comparing subgraphs, in terms of topology, attributes, time, and geographical location.
+%    \item A usability study and three real-world use cases demonstrate the utility of the system to answer socio-historical questions.
+%\end{itemize}
 
 
 
 \section{Related Work}\label{sec:combinet:related-work}
 
-As we already discussed the related work on network modeling and social network visualization in \autoref{ch:related-work} we only discuss in this section the related work on graphlet analysis, visual graph querying, visual graph comparison, and provenance.
+As I already discussed the related work on network modeling and social network visualization in \autoref{ch:related-work} I only discuss in this section the related work on graphlet analysis, visual graph querying, visual graph comparison, and provenance.
 
 \subsection{Graphlet Analysis}
 
@@ -96,8 +96,7 @@ One of the aims of the VAST 2020 challenge was to compare several multivariate n
 However, by using graphlets we realized that 1) it was not very efficient to compare several networks in contrast to other measures and 2) the interpretation of all graphlets patterns that are found in a network is complicated given the fact that one specific pattern can have various interpretations given the nodes involved and their positions in the network~\cite{ingramNetworkMotifsStructure2006}.
 This is especially true that the number of potential graphlets grows exponentially as we increase the number of nodes considered (there are 6 graphlets of size 4 and 21 graphlets of size 5 for example) and if we add complexity to the network model, for example by using directed links or node and link types~\cite{ribeiroDiscoveringColoredNetwork2014}.
 
-Instead of counting every graphlet occurrence and interpreting them with sociological meanings, it appeared more efficient to let social scientists finding specific patterns to answer questions they ask themselves on the data.
-
+Instead of counting every graphlet occurrence and interpreting them with sociological meanings, it appeared more efficient to let social scientists finding specific patterns to answer questions they already ask themselves on the data.
 
 
 \subsection{Visual Graph Querying}
@@ -147,7 +146,7 @@ Freire et al~\cite{ManyNets} describe the ManyNets system to compare many networ
 %
 Hascoët and Dragicevic~\cite{HascoetD12} describe a system to match and compare graphs using superposition, focusing on the topology, not taking into account attributes or time.
 Tovanich et al.\cite{tovanichVAST2020Contest2021} propose a visual analytics tool to compare multivariate, sometimes bipartite, dynamic networks and find common structures.
-However, their tool does not handle roles and is designed for the specific task of matching a subgraph into a larger network.
+However, the tool does not handle roles and is designed for the specific task of matching a subgraph into a larger network.
 
 \subsection{Provenance}
 
@@ -168,7 +167,7 @@ By analyzing the questions we leveraged tasks and requirements that I used to de
 
 \subsection{Use Cases}
 
-We elaborated this interface from the collaborations with historians we described in \autoref{sec:HSNA-examples}.
+We elaborated this interface from the collaborations with historians we described in \autoref{subsec:hsna-examples}.
 These collaborations involved regular meetings and multiple discussions over two years.
 All these datasets are textual corpora constituted of historical documents mentioning people with complex relationships, which are well modeled with \modelplural.
 We give more details about the datasets of these collaborations in this section, along our collaborators' main questions with the associated network queries to answer them.
@@ -1075,32 +1074,35 @@ Bipartite networks are also used in various other disciplines, such as biology~\
 %\vspace{-1mm}
 \section{Conclusion and Future Work}
 
-We presented \name, a system for exploring social networks modeled from historical textual sources, aimed at social scientists.
+I presented in this chapter \name, a \va system for exploring social networks modeled from historical textual sources, primarily aimed at social historians.
 It relies on modeling data as bipartite, multivariate, dynamic social networks where persons are linked to documents or events using typed links that express roles.
 % We have successfully applied our data model to a wide variety of historical, sociological, genealogical datasets, and publication data.
-Our tool \name relies on this data model to let historians explore their data and then answer their socio-historical questions using 1) dynamic queries on the network structure and attributes to highlight groups of interests, and 2) visual comparisons to contrast selected groups according to their structure, time, or any other attribute.
+\name relies on this data model to let historians explore a concrete representation of their annotated documents (\ie the model express the \emph{reality} of the documents, without the use of projections or distortions) with \emph{traceability} to the original sources and \emph{simplicity}.
+Historians can hence reflect on their encoding process and answer their socio-historical questions using 1) dynamic queries on the network structure and attributes to highlight groups of interests or erroneous patterns and 2) visual comparisons to contrast selected groups according to their structure, time, or any other attribute.
 % \name supports dynamic queries that are translated in textual queries in the Cypher language, providing a mixed modality to query data.
 The results can be visualized as a node-link diagram, a geographical map, graph measures, and distributions of values for the attributes.
-We have shown that complex explorations and analyses were easy or possible to perform, and validated our approach by first describing two use cases among many more projects we are collaborating with and by performing a formative usability study showing that the system is usable by social scientists.
+I have shown that complex explorations and analyses were easy to perform, and validated our approach by first describing four use cases among many more projects we are collaborating with and by performing a formative usability study showing that after many improvements the system is usable by social scientists.
 %Our collaborations with social scientists revealed that the process of modeling historical sources into an analyzable network is not easy.
 % Several weeks of discussion led to the decision to model their data as \model which allows to have a representation of the original documents while modeling well the social relationships mentioned in the sources. It
 %Modeling their data as \model allows social scientists to have a common representation to both cleanup and analyze their data.
 
-By specifying a unifying data model and novel high-level visual and interactive tools for comparing topology, attributes, and time, social scientists were able to clean their data more easily by finding errors and inconsistencies by exploring the network and querying errors-induced patterns.
+
+By specifying a unifying data model and novel high-level visual and interactive mechanisms for comparing topology, attributes, and time, social scientists were able to correct their data more easily with exploration and querying errors-induced patterns.
 Thanks to the document-centered model, it was easy for them to trace back the errors and inconsistencies to the sources for corrections.
-With the same representation, they were able to operate explorations and analyses using complex interactions implemented in \name such as coordinated views, visual querying, and comparison mechanisms.
+With the same representation, they were able to operate explorations and analyses using easy-to-use interactions implemented in \name such as coordinated views, visual querying, and comparison.
+Using these mechanisms, social scientists performed visual exploratory analyses of their network based on topological and attribute descriptions, and comparisons of subgroups of interests---between them or the overall network.
+This methodology allows them to either ground or refute their hypotheses in network measures and attribute distributions, or to generate new ones from new insight revealed thanks to the exploratory and interaction mechanisms.
 
-Using these mechanisms, social scientists were able to perform visual exploratory analyses of their network based on topological and attribute descriptions and comparisons of subgroups of interests, and of the overall network.
-This methodology allows them to either ground or refute their hypotheses in their results, or to generate new ones from new insight revealed thanks to the complex exploratory and interaction mechanisms.
+We believe \name leads the way toward a new generation of highly interactive exploration tools applicable to wrangle and analyze a wide variety of real social networks modeled from textual sources, with a focus on the \emph{reality} of the documents, \emph{traceability} of the network and results,  and \emph{simplicity} of use, which are essential for historical work.
 
-We believe \name leads the way toward a new generation of highly interactive exploration tools applicable to wrangle and analyze a wide variety of real social networks modeled from textual sources, with a focus on the traceability of the network and results, which is essential for any historical workflow.
-
-For future work, \name could be extended to support more SNA measures and computations such as clustering; it would create a new attribute containing a cluster identifier.
+For future work, \name could be extended to support more \sna measures and computations such as clustering; it would create a new attribute containing a cluster identifier.
 The interface currently proposes two layouts based on the topology and the geolocations of the entities.
 Providing more layout options could be interesting, especially one to highlight better the time, similar to the PAOHvis technique~\cite{valdiviaAnalyzingDynamicHypergraphs2021}.
-Finally, the interface currently lets social scientists build their queries to answer questions they have about their data.
-In the future, the system could make suggestions on the query construction process with a mixed-initiative perspective, to guide users towards frequent subgraphs in the data which could be interesting to investigate.
+Finally, the interface could in the future make suggestions on the query construction process based on frequent subgraphs similar to VERTIGo\cite{cuencaVERTIGoVisualPlatform2021}, and within a mixed-initiative perspective\cite{makoninMixedInitiativeBigData2016}.
 
+In the next chapter, I present a visual interface following this mixed-initiative framework for network clustering, to answer \qthree and showing that such approaches can help social scientists use data mining tools while controlling their biases---with the condition of an explicit results' traceability.
+
+%Finally, the interface currently lets social scientists build their queries to answer questions they have about their data, but the system could also in the future make suggestions on the query construction process with a mixed-initiative perspective.
 
 
 %By specifying a unifying data model and novel high-level visual and interactive tools for comparing topology, attributes, and time, we believe \name leads the way towards a new generation of highly interactive exploration tools applicable to wrangle and analyze a wide variety of real social networks modeled from textual sources.

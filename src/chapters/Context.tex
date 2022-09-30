@@ -3,34 +3,33 @@
 
 \chapter{Related Work}\label{ch:related-work}
 
+
 %Social historians rely on textual historical documents to draw socio-economic conclusions about the past.
-Social historians rely on textual historical documents to study social groups through their structures and socio-economic place in societies of the past\cite{tilly1984retrieving}.
+Social historians rely on textual historical documents to study social groups through their structures and socio-economic characteristics in societies of the past\cite{tilly1984retrieving}.
 They read and analyze documents they can find from a period and subject of interest, and make their conclusions through deep inspection and cross-referencing of the information they found.
-Several methods have been developed in History to extract and analyze the information contained in the documents in a rigorous way, such as qualitative analysis, quantitative methods, or \hsna.
+Several methods have been developed in History to extract and analyze the information contained in the documents in a methodical way\cite{tillyObservationsSocialProcesses2004}, based on qualitative or quantitative methods---among which \hsna is now widely popular\cite{rollingerProlegomenaProblemsPerspectives2020}.
 \hsna is a method consisting in modeling the relational information mentioned in the documents---such as family, business, or friendship ties---in a network, to be able to characterize and explain social behaviors through the description of the network's structure \cite{wetherellHistoricalSocialNetwork1998, kerschbaumerPowerNetworksProspects2015}.
 This approach is directly inspired by \sna, which is a well-known method that sociologist theorized to understand and describe real world social relationships modeled as networks \cite{freemanDevelopmentSocialNetwork2004, scottSocialNetworkAnalysis1988}.
 Historians appropriated this method, by extracting relationships from historical documents.
-The specificy of \hsna in contrast of its sociology counterpart is therefore the modeling of the network from the historical documents---which are at the core of the historical work \cite{prost2014}---and the integration of the time aspect which is often disregarded in traditional \sna.
+The specifics of \hsna in contrast of its sociology counterpart is therefore the modeling of the network from the historical documents---which are at the core of the historical work \cite{prost2014}---and the integration of the temporal dimension which is often disregarded in traditional \sna but central in history.
 Once they successfully constructed a network---which is a long and tedious process---they typically use network measures and visualization techniques to confirm or generate new hypotheses \cite{lemercier12FormalNetwork2015}.
 Visualization let them unfold the structure of their data, revealing potentially interesting social patterns between actors of the network.
-New visualization systems allow rapid exploration of such data with the help of interaction and data mining capabilities directly implemented in the interfaces.
-This coupling of visualization and data mining has been described as Visual Analytics and can help historians explore their networks with support of algorithmic support.
-
-
-
+Analytics and visualization systems for \sna typically allow exploration of such data with the help of interaction, network measures, and data mining capabilities such as clustering directly implemented in the interfaces.
+Yet, most \hsna studies only give qualitative description of their network---which Rollinger call ``soft'' or ``informal'' network research---probably due to usability and formalism issues\cite{alkadi2022} .
+The coupling of visualization and data mining through interaction to support the generation of knowledge has been described as \va and can therefore provide support to social historians for their network construction, but also to go beyond simple qualitative description of their data.
+%show great promise towards supporting social historians in their analysis loop.
+%This coupling of visualization and data mining has been described as Visual Analytics and can help historians explore their networks with support of algorithmic support.
+In this chapter, I first present a general overview of the field of visualization in \autoref{sec:visualization} to share its utility and potential for social history.
+Then, I present the social history discipline with its use of quantitative methods in \autoref{sec:social-history}, before describing in depth how network analysis has been applied in the field in \autoref{sec:hsna}.
+Finally, I present in \autoref{sec:social-network-visualization} how visualization and \va have been used in the context of \hsna, along the most popular systems currently used by social scientists and their limitations.
 
 
 
 
 %Historians appropriated this method and adjusted it to the historian framework which differs from sociology by its relation to the sources (historians are limited by the documents they have, and all their work goes through them) and its focus on the temporality of their studies.
 %They first have to annotate the documents to extract useful information, to then model it into an analyzable network.
-%The annotation and modeling process is thus particularly complicated and specific to HSNA.
-%As the network models used by historians are more and more complicated, new visualization systems are needed, first to analyze their networks, but also to help them in their HSNA process, from the acquisition of relevant documents to the final analysis and visualization steps.
-In this chapter, we present a general overview of the fields of SNA (\autoref{sec:social-network-analysis}), HSNA (\autoref{sec:historical-network-research}), and Social Network Visualization (\autoref{sec:social-network-visualization}).
+%As the network models used by historians are more and more complicated, new visualization systems are needed, first to analyze their networks, but also to help them in their HSNA process, from the acquisition of relevant documents to the final analysis and visualization steps..
 
-We first present a general overview of the field of visualization to get a first ideas of the utility of such techniques.
-Then, we present the social history discipline ans the use of quantitative methods in \autoref{sec:social-history}, before describing in depth how network analysis has been applied in the field in \autoref{sec:hsna}.
-Finally, we present in \autoref{sec:social-network-visualization} how visualization and \va have been used in the context of \hsna, along the most popular systems currently used by social scientists.
 
 
 \section{Visualization}\label{sec:visualization}
@@ -38,7 +37,7 @@ Finally, we present in \autoref{sec:social-network-visualization} how visualizat
 Visualization is often defined as ``the use of computer-supported, interactive, visual representations of data to amplify cognition'' \cite{cardReadingsInformationVisualization1999}.
 Graphically displaying data allows us to leverage our visual system to gain a better acquisition of knowledge, leading to better decision-making, communication, and potential discoveries.
 The field of visualization can be split in three sub domains: \textbf{Scientific visualization} focus on visualizing continuous physically based data such as weather, astrophysics, and anatomical data, sometimes produced with simulations whereas \textbf{Information Visualization} is centered around the visualization of discrete abstract data points, often multidimensional. \textbf{Visual Analytics} emerged later from Information Visualization by mixing data mining and more complex analysis process with traditional information visualization displays.
-We focus in this thesis on the two former branches of visualization, as social scientists use both information visualization and visual analytics systems to gain insight on the structure of the networks they are studying.
+I focus in this thesis on the two former branches of visualization, as social scientists use both information visualization and \va systems to gain insight on the structure of the networks they are studying.
 
 
 \subsection{Information Visualization}
@@ -86,8 +85,10 @@ Visualization allows to gain insight on the structure of a given data, and has t
 
 \subsection{Visual Analytics}
 
-Visualization can also be used for exploratory aims, to gain new insights on the general structure of the data and potentially generate new hypotheses.
-This process has been characterized by Tukey in 1960 as \emph{Exploratory Data Analysis} \cite{tukeyExploratoryDataAnalysis1977} and consist in trying to characterize the structure of a dataset with the help of visualization and statistical measurements.
+\va consist in the coupling of visualization and data mining techniques to better support user in their knowledge generation process through continuous interaction with the data and statistical models\cite{thomasVisualAnalyticsAgenda2006}.
+It draws inspiration from exploratory visualization, interaction, and data mining.
+The process of exploratory visualization to gain new insights on the general structure of the data and potentially generate new hypotheses has been characterized by Tukey in 1960 as \emph{Exploratory Data Analysis}\cite{tukeyExploratoryDataAnalysis1977}.
+It consists in trying to characterize the structure of a dataset with the help of continuous visualization and statistical measurements of different dimensions of the data.
 Visual exploration is enhanced by direct manipulation interfaces through interaction and usually follows the information-seeking mantra formalized by Schneiderman: ``Overview first, zoom and filter, then details-on-demand"" \cite{shneidermanEyesHaveIt1996}.
 It allows users to first have a visual overview of the data and get an idea of its overall structure, to then change the point of focus to highlight interesting patterns with the help of filtering, querying, sorting, and zooming mechanisms.
 %Exploration is enhanced by direct manipulation interfaces and interaction, which allows changing the point of focus in the data to highlight interesting patterns, with the help of filtering, querying, sorting, and zooming mechanisms.
@@ -108,9 +109,9 @@ Keim and al.\ define it as ``a combination of automatic and visual analysis meth
 \end{figure}
 
 \va consist in the generation of knowledge using visualizations and statistical models of the data, that the user can explore using interaction.
-Such systems have been developed in various empirical domains, such as biology, astronomy, engineering, and social sciences, to explore various data types such as multidimensional, temporal, geolocated, or relational (\ie modeled into a network).
+Such systems have been developed in various empirical domains, such as biology, astronomy, engineering, and social sciences, to explore various data types: multidimensional, temporal, geolocated, or relational (\ie modeled into a network).
 \autoref{fig:RW-tulip} shows the TULIP system, an example of a \va system developed for the analysis of network data.
-We discuss the uses of \va for \hsna in \autoref{subsec:social-network-visual-analytics}
+We discuss the uses of \va specifically for \hsna in \autoref{subsec:social-network-visual-analytics}
 %as it allow to rapidly gain insight on the structure of various potentially large dataset, while generating and refuting hypotheses.
 
 %but are nonetheless not used by the majority of application scientists.
@@ -129,10 +130,10 @@ We discuss the uses of \va for \hsna in \autoref{subsec:social-network-visual-an
 
 
 Social History is a branch of history which aims at studying socio-economic aspect of past societies, with a focus on groups instead of specific individuals only.
-Charles Tilly says that its goal is to ``(i) documenting large structural changes, (2) reconstructing the experiences of ordinary people in the course of those changes, and (3) connecting the two'' \cite{tilly1984retrieving}.
+Charles Tilly writes that its goal is to ``(i) documenting large structural changes, (2) reconstructing the experiences of ordinary people in the course of those changes, and (3) connecting the two'' \cite{tilly1984retrieving}.
 If the purpose of social history remained the same across time, methods and formalisms have evolved since its beginning in the 1930s.
 Specifically, the rise of computer science led to the development of quantitative history methods in the 1960s---now often referred as Digital Humanities---which brought new ways of grounding results in formalisms and quantitative models, instead of solely relying on qualitative inspection of historical documents \cite{haskinsUnderstandingQuantitativeHistory2011}.
-We discuss in this section the evolution of Social History from the context of its beginning to the use of more recent quantitative approaches.
+We discuss in this section the evolution of social history from the context of its beginning to the use of more recent quantitative approaches.
 
 
 %First social history studies emphasized the methodic extraction of historical documents from archives to ground results in the reality of the documents.
@@ -150,7 +151,6 @@ The concept of History is hard to define as its practice and codes highly evolve
 Prost writes that ``History is what historians do. The discipline called history is not an eternal essence, a Platonic idea. It is a reality that is itself historical, i.e. situated in time and space, carried out by men who call themselves historians and are recognized as such, received as history by various publics \cite{prost2014}.''
 Retrospectively, History of a given time can thus be characterized by the different historical work produced at that time.
 Nevertheless, history can be characterized as the collection and study of historical documents to study and describe the past.
-
 As Langlois and Seignobos write, ``The search for and the collection of documents is thus a part, logically the first and most important part, of the historian's craft'' \cite{langloisIntroductionAuxÉtudes2014}.
 History emerged as a field with its own rules, conventions, and journals in the 1880s from faculties of letters, to counterbalance previous history works which were judged as too ``literary'' \cite{noirielNaissanceMetierHistorien1990}.
 A that time and until now, two facets characterize the field, which are sometimes overlapping: one is political whereas the other one is methodological.
