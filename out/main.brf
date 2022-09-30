@@ -1,70 +1,86 @@
-\backcite {whiteNetworkAnalysisEthnographic2005}{{13}{1}{chapter.1}}
-\backcite {freemanDevelopmentSocialNetwork2004, tabassumSocialNetworkAnalysis2018}{{13}{1}{chapter.1}}
-\backcite {freemanDevelopmentSocialNetwork2004}{{13}{1}{chapter.1}}
-\backcite {kerschbaumerPowerNetworksProspects2015}{{13}{1}{chapter.1}}
-\backcite {langloisIntroductionAuxEtudes2014}{{13}{1}{chapter.1}}
-\backcite {wetherellHistoricalSocialNetwork1998, kerschbaumerPowerNetworksProspects2015}{{13}{1}{chapter.1}}
-\backcite {hambergerKinshipNetworkAnalysis2011}{{13}{1}{chapter.1}}
-\backcite {rubio-mondejarWomenEntrepreneursFamily2022}{{13}{1}{chapter.1}}
-\backcite {larsonThomasTartaronMaritime2014}{{13}{1}{chapter.1}}
-\backcite {padgettRobustActionRise1993}{{13}{1}{chapter.1}}
-\backcite {osaSolidarityContentionNetworks2003}{{13}{1}{chapter.1}}
-\backcite {mercklePeutonModeliserPersecution2018}{{13}{1}{chapter.1}}
-\backcite {lepetitHistoireQuantitativeDeux1989, guldiHistoryManifesto2014, karila-cohenNouvellesCuisinesHistoire2018, lemercier12FormalNetwork2015}{{13}{1}{chapter.1}}
-\backcite {cristofoliAuxSourcesGrands2008, dufournaudRechercheEmpiriqueHistoire2015}{{13}{1}{chapter.1}}
-\backcite {alkadi2022}{{13}{1}{chapter.1}}
-\backcite {padgettRobustActionRise1993}{{13}{1}{chapter.1}}
-\backcite {gribaudi1990}{{13}{1}{chapter.1}}
-\backcite {cristofoliPrincipesUsagesDessins}{{14}{1}{chapter.1}}
-\backcite {freemanVisualizingSocialNetworks2000}{{14}{1}{chapter.1}}
-\backcite {lemercierQuantitativeMethodsHumanities2019}{{14}{1}{chapter.1}}
-\backcite {kerschbaumerPowerNetworksProspects2015, petzCombiningNetworkResearch2022}{{14}{1.1}{section.1.1}}
-\backcite {blochApologiePourHistoire1949, prost2014}{{14}{1.1}{section.1.1}}
-\backcite {prost2014}{{14}{1.1}{section.1.1}}
-\backcite {tilly1984retrieving}{{14}{1.1}{section.1.1}}
-\backcite {henryRegistresParoissiauxHistoire1956}{{14}{1.1}{section.1.1}}
-\backcite {goldinCliometricsNobel1995}{{14}{1.1}{section.1.1}}
-\backcite {cConceptUseSocial1969}{{14}{1.1}{section.1.1}}
-\backcite {freemanDevelopmentSocialNetwork2004}{{15}{1.1}{section.1.1}}
-\backcite {ginzburgMicrohistoire1981}{{15}{1.1}{section.1.1}}
-\backcite {wetherellHistoricalSocialNetwork1998}{{15}{1.1}{section.1.1}}
-\backcite {glaserDiscoveryGroundedTheory2010}{{15}{1.1}{figure.caption.2}}
-\backcite {lemercierQuantitativeMethodsHumanities2019}{{15}{1.1}{figure.caption.2}}
-\backcite {dhamiAnalysisCompetingHypotheses2019}{{15}{1.1}{figure.caption.2}}
-\backcite {dufournaudCommentRendreVisible2018}{{16}{1.1}{figure.caption.2}}
-\backcite {freemanVisualizingSocialNetworks2000, wolfeRiseNetworkThinking1978}{{16}{1.2}{section.1.2}}
-\backcite {cardReadingsInformationVisualization1999}{{16}{1.2}{section.1.2}}
-\backcite {shneidermanInventingDiscoveryTools2002}{{16}{1.2}{section.1.2}}
-\backcite {crosbyMeasureReality1998}{{16}{3}{Hfootnote.3}}
-\backcite {tukeyExploratoryDataAnalysis1977}{{17}{1.2}{section.1.2}}
-\backcite {freemanVisualizingSocialNetworks2000}{{17}{1.2}{section.1.2}}
-\backcite {wassermanSocialNetworkAnalysis1994, tabassumSocialNetworkAnalysis2018, lazegaReseaux}{{17}{1.2}{section.1.2}}
-\backcite {padgettRobustActionRise1993}{{17}{1.2}{figure.caption.3}}
-\backcite {Gephi}{{18}{1.2}{figure.caption.3}}
-\backcite {pajek}{{18}{1.2}{figure.caption.3}}
-\backcite {NodeXL}{{18}{1.2}{figure.caption.3}}
-\backcite {ucinet}{{18}{1.2}{figure.caption.3}}
-\backcite {keimVisualAnalyticsDefinition2008}{{18}{1.2}{figure.caption.3}}
-\backcite {keimVisualAnalyticsDefinition2008}{{18}{1.3}{figure.caption.4}}
-\backcite {kaplanVeniceTimeMachine2015}{{18}{1.2}{figure.caption.4}}
-\backcite {dufournaudCommentRendreVisible2018, lemercierBackSourcesPracticing2021}{{19}{1.3}{section.1.3}}
-\backcite {lemercier12FormalNetwork2015}{{19}{1.3}{section.1.3}}
-\backcite {lemercierQuantitativeMethodsHumanities2019, alkadi2022}{{19}{1.3}{section.1.3}}
-\backcite {diesnerImpactEntityDisambiguation2015, alkadi2022}{{19}{1.3}{section.1.3}}
-\backcite {cristofoliAuxSourcesGrands2008}{{19}{1.3}{section.1.3}}
-\backcite {lemercier12FormalNetwork2015}{{19}{1.3}{section.1.3}}
-\backcite {opitzInductionLargeScaleKnowledge2018}{{19}{1.3}{section.1.3}}
-\backcite {rollingerProlegomenaProblemsPerspectives2020}{{19}{1.3}{section.1.3}}
-\backcite {lemercierQuantitativeMethodsHumanities2019}{{19}{1.3}{section.1.3}}
-\backcite {collarNetworksArchaeologyPhenomena2015, lemercierQuantitativeMethodsHumanities2019}{{19}{1.3}{section.1.3}}
-\backcite {bouletBatchKernelSOM2008}{{20}{1.4}{figure.caption.5}}
-\backcite {paxtonDollarsSenseConvincing2006}{{20}{1.3}{figure.caption.5}}
-\backcite {rollingerProlegomenaProblemsPerspectives2020}{{20}{1.3}{figure.caption.5}}
-\backcite {pajek}{{20}{4}{Hfootnote.4}}
-\backcite {johnsonUCINETSoftwareTool1987}{{20}{4}{Hfootnote.4}}
-\backcite {pisterIntegratingPriorKnowledge2021}{{21}{1.3}{figure.caption.5}}
-\backcite {alkadi2022}{{21}{1.4}{section.1.4}}
-\backcite {eveDeuxTraditionsAnalyse2002}{{21}{1.4}{section.1.4}}
+\backcite {dufournaudCommentRendreVisible2018}{{7}{(document)}{Doc-Start}}
+\backcite {padgettRobustActionRise1993}{{7}{(document)}{Doc-Start}}
+\backcite {keimVisualAnalyticsDefinition2008}{{7}{(document)}{Doc-Start}}
+\backcite {bouletBatchKernelSOM2008}{{7}{(document)}{Doc-Start}}
+\backcite {bertin1967}{{7}{(document)}{Doc-Start}}
+\backcite {anscombeGraphsStatisticalAnalysis1973}{{7}{(document)}{Doc-Start}}
+\backcite {auberTULIP2017}{{7}{(document)}{Doc-Start}}
+\backcite {edelsteinHistoricalResearchDigital2017}{{7}{(document)}{Doc-Start}}
+\backcite {morenoWhoShallSurvive1934}{{7}{(document)}{Doc-Start}}
+\backcite {grandjeanSocialNetworkAnalysis2015}{{7}{(document)}{Doc-Start}}
+\backcite {alexanderAnalysisAncientNetwork1990}{{7}{(document)}{Doc-Start}}
+\backcite {kosakAutomatingLayoutNetwork1994}{{7}{(document)}{Doc-Start}}
+\backcite {henryNodeTrixHybridVisualization2007}{{7}{(document)}{Doc-Start}}
+\backcite {serranomolineroUnderstandingUseVistorian2017}{{7}{(document)}{Doc-Start}}
+\backcite {Cristofoli2018}{{8}{(document)}{Doc-Start}}
+\backcite {whiteNetworkAnalysisEthnographic2005}{{9}{1}{chapter.1}}
+\backcite {freemanDevelopmentSocialNetwork2004, tabassumSocialNetworkAnalysis2018}{{9}{1}{chapter.1}}
+\backcite {freemanDevelopmentSocialNetwork2004}{{9}{1}{chapter.1}}
+\backcite {kerschbaumerPowerNetworksProspects2015}{{9}{1}{chapter.1}}
+\backcite {langloisIntroductionAuxEtudes2014}{{9}{1}{chapter.1}}
+\backcite {wetherellHistoricalSocialNetwork1998, kerschbaumerPowerNetworksProspects2015}{{9}{1}{chapter.1}}
+\backcite {hambergerKinshipNetworkAnalysis2011}{{9}{1}{chapter.1}}
+\backcite {rubio-mondejarWomenEntrepreneursFamily2022}{{9}{1}{chapter.1}}
+\backcite {larsonThomasTartaronMaritime2014}{{9}{1}{chapter.1}}
+\backcite {padgettRobustActionRise1993}{{9}{1}{chapter.1}}
+\backcite {osaSolidarityContentionNetworks2003}{{9}{1}{chapter.1}}
+\backcite {mercklePeutonModeliserPersecution2018}{{9}{1}{chapter.1}}
+\backcite {lepetitHistoireQuantitativeDeux1989, guldiHistoryManifesto2014, karila-cohenNouvellesCuisinesHistoire2018, lemercier12FormalNetwork2015}{{9}{1}{chapter.1}}
+\backcite {cristofoliAuxSourcesGrands2008, dufournaudRechercheEmpiriqueHistoire2015}{{9}{1}{chapter.1}}
+\backcite {alkadi2022}{{9}{1}{chapter.1}}
+\backcite {padgettRobustActionRise1993}{{9}{1}{chapter.1}}
+\backcite {gribaudi1990}{{9}{1}{chapter.1}}
+\backcite {cristofoliPrincipesUsagesDessins}{{10}{1}{chapter.1}}
+\backcite {freemanVisualizingSocialNetworks2000}{{10}{1}{chapter.1}}
+\backcite {lemercierQuantitativeMethodsHumanities2019}{{10}{1}{chapter.1}}
+\backcite {kerschbaumerPowerNetworksProspects2015, petzCombiningNetworkResearch2022}{{10}{1.1}{section.1.1}}
+\backcite {blochApologiePourHistoire1949, prost2014}{{10}{1.1}{section.1.1}}
+\backcite {prost2014}{{10}{1.1}{section.1.1}}
+\backcite {tilly1984retrieving}{{10}{1.1}{section.1.1}}
+\backcite {henryRegistresParoissiauxHistoire1956}{{10}{1.1}{section.1.1}}
+\backcite {goldinCliometricsNobel1995}{{10}{1.1}{section.1.1}}
+\backcite {cConceptUseSocial1969}{{10}{1.1}{section.1.1}}
+\backcite {freemanDevelopmentSocialNetwork2004}{{11}{1.1}{section.1.1}}
+\backcite {ginzburgMicrohistoire1981}{{11}{1.1}{section.1.1}}
+\backcite {wetherellHistoricalSocialNetwork1998}{{11}{1.1}{section.1.1}}
+\backcite {glaserDiscoveryGroundedTheory2010}{{11}{1.1}{figure.caption.4}}
+\backcite {lemercierQuantitativeMethodsHumanities2019}{{11}{1.1}{figure.caption.4}}
+\backcite {dhamiAnalysisCompetingHypotheses2019}{{11}{1.1}{figure.caption.4}}
+\backcite {dufournaudCommentRendreVisible2018}{{12}{1.1}{figure.caption.4}}
+\backcite {freemanVisualizingSocialNetworks2000, wolfeRiseNetworkThinking1978}{{12}{1.2}{section.1.2}}
+\backcite {cardReadingsInformationVisualization1999}{{12}{1.2}{section.1.2}}
+\backcite {shneidermanInventingDiscoveryTools2002}{{12}{1.2}{section.1.2}}
+\backcite {crosbyMeasureReality1998}{{12}{3}{Hfootnote.3}}
+\backcite {tukeyExploratoryDataAnalysis1977}{{13}{1.2}{section.1.2}}
+\backcite {freemanVisualizingSocialNetworks2000}{{13}{1.2}{section.1.2}}
+\backcite {wassermanSocialNetworkAnalysis1994, tabassumSocialNetworkAnalysis2018, lazegaReseaux}{{13}{1.2}{section.1.2}}
+\backcite {padgettRobustActionRise1993}{{13}{1.2}{figure.caption.5}}
+\backcite {Gephi}{{14}{1.2}{figure.caption.5}}
+\backcite {pajek}{{14}{1.2}{figure.caption.5}}
+\backcite {NodeXL}{{14}{1.2}{figure.caption.5}}
+\backcite {ucinet}{{14}{1.2}{figure.caption.5}}
+\backcite {keimVisualAnalyticsDefinition2008}{{14}{1.2}{figure.caption.5}}
+\backcite {keimVisualAnalyticsDefinition2008}{{14}{1.3}{figure.caption.6}}
+\backcite {kaplanVeniceTimeMachine2015}{{14}{1.2}{figure.caption.6}}
+\backcite {alkadi2022}{{15}{1.3}{section.1.3}}
+\backcite {dufournaudCommentRendreVisible2018, lemercierBackSourcesPracticing2021}{{15}{1.3}{section.1.3}}
+\backcite {lemercier12FormalNetwork2015}{{15}{1.3}{section.1.3}}
+\backcite {lemercierQuantitativeMethodsHumanities2019, alkadi2022}{{15}{1.3}{section.1.3}}
+\backcite {diesnerImpactEntityDisambiguation2015, alkadi2022}{{15}{1.3}{section.1.3}}
+\backcite {cristofoliAuxSourcesGrands2008}{{15}{1.3}{section.1.3}}
+\backcite {lemercier12FormalNetwork2015}{{15}{1.3}{section.1.3}}
+\backcite {opitzInductionLargeScaleKnowledge2018}{{15}{1.3}{section.1.3}}
+\backcite {rollingerProlegomenaProblemsPerspectives2020}{{15}{1.3}{section.1.3}}
+\backcite {lemercierQuantitativeMethodsHumanities2019}{{15}{1.3}{section.1.3}}
+\backcite {collarNetworksArchaeologyPhenomena2015, lemercierQuantitativeMethodsHumanities2019}{{15}{1.3}{section.1.3}}
+\backcite {bouletBatchKernelSOM2008}{{16}{1.4}{figure.caption.7}}
+\backcite {paxtonDollarsSenseConvincing2006}{{16}{1.3}{figure.caption.7}}
+\backcite {rollingerProlegomenaProblemsPerspectives2020}{{16}{1.3}{figure.caption.7}}
+\backcite {pajek}{{16}{4}{Hfootnote.4}}
+\backcite {johnsonUCINETSoftwareTool1987}{{16}{4}{Hfootnote.4}}
+\backcite {pisterIntegratingPriorKnowledge2021}{{17}{1.3}{figure.caption.7}}
+\backcite {alkadi2022}{{17}{1.4}{section.1.4}}
+\backcite {eveDeuxTraditionsAnalyse2002}{{17}{1.4}{section.1.4}}
 \backcite {tilly1984retrieving}{{23}{2}{chapter.2}}
 \backcite {tillyObservationsSocialProcesses2004}{{23}{2}{chapter.2}}
 \backcite {rollingerProlegomenaProblemsPerspectives2020}{{23}{2}{chapter.2}}
@@ -205,9 +221,9 @@
 \backcite {alkadi2022}{{45}{3}{chapter.3}}
 \backcite {lemercier12FormalNetwork2015, lemercierBackSourcesPracticing2021, edelsteinHistoricalResearchDigital2017}{{45}{3}{chapter.3}}
 \backcite {pisterHistoricalDocumentsSocial2022}{{45}{3}{chapter.3}}
-\backcite {lemercierQuantitativeMethodsHumanities2019}{{45}{3.1}{section.3.1}}
-\backcite {wetherellHistoricalSocialNetwork1998}{{45}{3.1}{section.3.1}}
-\backcite {tilly1984retrieving}{{45}{3.1}{section.3.1}}
+\backcite {lemercierQuantitativeMethodsHumanities2019}{{46}{3.1}{section.3.1}}
+\backcite {wetherellHistoricalSocialNetwork1998}{{46}{3.1}{section.3.1}}
+\backcite {tilly1984retrieving}{{46}{3.1}{section.3.1}}
 \backcite {alkadi2022}{{46}{3.1}{section.3.1}}
 \backcite {lemercierBackSourcesPracticing2021}{{46}{3.1}{section.3.1}}
 \backcite {cristofoliAuxSourcesGrands2008}{{46}{3.1}{section.3.1}}
@@ -219,8 +235,8 @@
 \backcite {lemercierQuantitativeMethodsHumanities2019, lemercierBackSourcesPracticing2021}{{47}{3.2.1}{subsection.3.2.1}}
 \backcite {petzCombiningNetworkResearch2022}{{47}{3.2.1}{subsection.3.2.1}}
 \backcite {ginzburgMicrohistoire1981}{{47}{3.2.1}{subsection.3.2.1}}
-\backcite {trivellatoThereFutureItalian2011}{{47}{3.2.1}{subsection.3.2.1}}
-\backcite {floudIntroductionQuantitativeMethods2013}{{47}{3.2.2}{subsection.3.2.2}}
+\backcite {trivellatoThereFutureItalian2011}{{48}{3.2.1}{subsection.3.2.1}}
+\backcite {floudIntroductionQuantitativeMethods2013}{{48}{3.2.2}{subsection.3.2.2}}
 \backcite {alkadi2022}{{48}{3.2.2}{subsection.3.2.2}}
 \backcite {karila-cohenNouvellesCuisinesHistoire2018, lemercierQuantitativeMethodsHumanities2019}{{48}{3.2.2}{subsection.3.2.2}}
 \backcite {lemercierBackSourcesPracticing2021}{{48}{3.2.2}{subsection.3.2.2}}
@@ -230,7 +246,7 @@
 \backcite {diesnerImpactEntityDisambiguation2015}{{50}{3.3.3}{subsection.3.3.3}}
 \backcite {TEI}{{50}{3.3.3}{subsection.3.3.3}}
 \backcite {dufournaudComparaisonOutilsPour2006, serranomolineroUnderstandingUseVistorian2017}{{50}{3.3.3}{subsection.3.3.3}}
-\backcite {alkadi2022}{{50}{3.3.4}{subsection.3.3.4}}
+\backcite {alkadi2022}{{51}{3.3.4}{subsection.3.3.4}}
 \backcite {cristofoliAuxSourcesGrands2008}{{51}{3.3.4}{subsection.3.3.4}}
 \backcite {freemanDevelopmentSocialNetwork2004, wetherellHistoricalSocialNetwork1998}{{51}{3.3.5}{subsection.3.3.5}}
 \backcite {scottSocialNetworkAnalysis1988}{{51}{3.3.5}{subsection.3.3.5}}
@@ -241,37 +257,37 @@
 \backcite {sairioMethodologicalPracticalAspects2009}{{52}{3.4.1}{subsection.3.4.1}}
 \backcite {morenoFoundationsSociometryIntroduction1941}{{52}{3.4.1}{subsection.3.4.1}}
 \backcite {eriksonMalfeasanceFoundationsGlobal2006}{{52}{3.4.1}{subsection.3.4.1}}
+\backcite {hambergerScanningPatternsRelationship2014}{{52}{3.4.1}{subsection.3.4.1}}
 \backcite {karila-cohenNouvellesCuisinesHistoire2018}{{52}{1}{Hfootnote.8}}
 \backcite {lemercierBackSourcesPracticing2021}{{52}{1}{Hfootnote.8}}
-\backcite {hambergerScanningPatternsRelationship2014}{{53}{3.4.1}{subsection.3.4.1}}
 \backcite {Cristofoli2018}{{53}{3.4.1}{subsection.3.4.1}}
 \backcite {multilayer}{{53}{3.4.1}{subsection.3.4.1}}
 \backcite {CRNOVRSANIN201456}{{53}{3.4.1}{subsection.3.4.1}}
 \backcite {vanVugt_2017}{{53}{3.4.1}{subsection.3.4.1}}
 \backcite {hoganKnowledgeGraphs2021}{{53}{3.4.1}{subsection.3.4.1}}
 \backcite {lemercier12FormalNetwork2015}{{53}{3.4.1}{subsection.3.4.1}}
-\backcite {staskoJigsawSupportingInvestigative2008}{{55}{3.4.2}{equation.3.4.6}}
+\backcite {staskoJigsawSupportingInvestigative2008}{{54}{3.4.2}{equation.3.4.6}}
 \backcite {stoltePolarisSystemQuery2002}{{55}{3.4.2}{equation.3.4.6}}
 \backcite {Cristofoli2018, Rolla2018}{{55}{1}{Item.1}}
 \backcite {moutoukiasBuenosAiresPort2016, rueda1989matrimonios}{{56}{3}{Item.3}}
 \backcite {diminescuMigrationEthnicGermans2020}{{56}{4}{Item.4}}
 \backcite {cristofoliAuxSourcesGrands2008}{{56}{3.4.3}{Item.4}}
 \backcite {cristofoliAuxSourcesGrands2008}{{56}{3.4.3}{Item.4}}
-\backcite {valdiviaAnalyzingDynamicHypergraphs2021, hyperstorylines}{{57}{3.5}{section.3.5}}
-\backcite {staskoJigsawSupportingInvestigative2008}{{57}{3.5}{section.3.5}}
-\backcite {serranomolineroUnderstandingUseVistorian2017}{{57}{3.5}{section.3.5}}
+\backcite {valdiviaAnalyzingDynamicHypergraphs2021, hyperstorylines}{{58}{3.5}{section.3.5}}
+\backcite {staskoJigsawSupportingInvestigative2008}{{58}{3.5}{section.3.5}}
+\backcite {serranomolineroUnderstandingUseVistorian2017}{{58}{3.5}{section.3.5}}
 \backcite {alkadi2022}{{59}{3.7}{section.3.7}}
 \backcite {pisterVisualQueriesBipartite2022}{{61}{4}{chapter.4}}
-\backcite {tilly1984retrieving}{{61}{4.1}{section.4.1}}
-\backcite {wetherellHistoricalSocialNetwork1998}{{61}{4.1}{section.4.1}}
+\backcite {tilly1984retrieving}{{62}{4.1}{section.4.1}}
+\backcite {wetherellHistoricalSocialNetwork1998}{{62}{4.1}{section.4.1}}
 \backcite {grandjeanAnalisiVisualizzazioniReti2017, rossiExplorationLargeDatabase2014, shafieHypergraphRepresentationsStudy2017}{{62}{4.1}{section.4.1}}
 \backcite {lemercier12FormalNetwork2015}{{62}{4.1}{section.4.1}}
 \backcite {cristofoliAuxSourcesGrands2008}{{62}{4.1}{section.4.1}}
 \backcite {opitzInductionLargeScaleKnowledge2018}{{62}{4.1}{section.4.1}}
 \backcite {Gephi}{{62}{4.1}{section.4.1}}
 \backcite {NodeXL}{{62}{4.1}{section.4.1}}
-\backcite {lemercierQuantitativeMethodsHumanities2019}{{62}{4.1}{section.4.1}}
-\backcite {lemercierQuantitativeMethodsHumanities2019}{{62}{4.1}{section.4.1}}
+\backcite {lemercierQuantitativeMethodsHumanities2019}{{63}{4.1}{section.4.1}}
+\backcite {lemercierQuantitativeMethodsHumanities2019}{{63}{4.1}{section.4.1}}
 \backcite {neo4j}{{63}{4.1}{section.4.1}}
 \backcite {tovanichVAST2020Contest2021}{{64}{4.2.1}{subsection.4.2.1}}
 \backcite {miloNetworkMotifsSimple2002}{{64}{4.2.1}{subsection.4.2.1}}
@@ -284,10 +300,10 @@
 \backcite {igraph}{{64}{4.2.2}{subsection.4.2.2}}
 \backcite {NetworkX}{{64}{4.2.2}{subsection.4.2.2}}
 \backcite {neo4j}{{64}{4.2.2}{subsection.4.2.2}}
-\backcite {chauGRAPHITEVisualQuery2008}{{64}{4.2.2}{subsection.4.2.2}}
-\backcite {cuencaVERTIGoVisualPlatform2021}{{64}{4.2.2}{subsection.4.2.2}}
-\backcite {shadoanVisualAnalysisHigherOrder2013}{{64}{4.2.2}{subsection.4.2.2}}
-\backcite {pientaVIGORInteractiveVisual2018}{{64}{4.2.2}{subsection.4.2.2}}
+\backcite {chauGRAPHITEVisualQuery2008}{{65}{4.2.2}{subsection.4.2.2}}
+\backcite {cuencaVERTIGoVisualPlatform2021}{{65}{4.2.2}{subsection.4.2.2}}
+\backcite {shadoanVisualAnalysisHigherOrder2013}{{65}{4.2.2}{subsection.4.2.2}}
+\backcite {pientaVIGORInteractiveVisual2018}{{65}{4.2.2}{subsection.4.2.2}}
 \backcite {Gleicher18}{{65}{4.2.3}{subsection.4.2.3}}
 \backcite {andrewsVisualGraphComparison2009}{{65}{4.2.3}{subsection.4.2.3}}
 \backcite {ManyNets}{{65}{4.2.3}{subsection.4.2.3}}
@@ -302,24 +318,24 @@
 \backcite {Cristofoli2018}{{66}{1}{Item.5}}
 \backcite {moutoukiasBuenosAiresPort2016}{{67}{3}{Item.7}}
 \backcite {diminescuMigrationEthnicGermans2020}{{68}{4}{Item.8}}
-\backcite {Cristofoli2018}{{70}{4.1}{figure.caption.22}}
+\backcite {Cristofoli2018}{{70}{4.1}{figure.caption.5}}
 \backcite {igraph}{{70}{4.4.1}{subsection.4.4.1}}
 \backcite {d3}{{70}{4.4.1}{subsection.4.4.1}}
 \backcite {Gephi, mrvarAnalysisVisualizationLarge2016, NodeXL, cristofoliPrincipesUsagesDessins}{{70}{4.4.1}{subsection.4.4.1}}
 \backcite {NaturalEarth}{{71}{4.4.1}{subsection.4.4.1}}
 \backcite {bezerianosGraphDiceSystemExploring2010}{{71}{4.4.1}{subsection.4.4.1}}
-\backcite {latapyBasicNotionsAnalysis2008}{{72}{4.4.1}{subsection.4.4.1}}
+\backcite {latapyBasicNotionsAnalysis2008}{{71}{4.4.1}{subsection.4.4.1}}
 \backcite {heerVizsterVisualizingOnline2005}{{72}{4.4.1}{subsection.4.4.1}}
-\backcite {DynamicQueries}{{74}{4.4.2}{figure.caption.26}}
-\backcite {feketeProgressiveDataAnalysis2019}{{77}{4.4.2}{figure.caption.27}}
-\backcite {cutlerTrrackLibraryProvenanceTracking2020}{{78}{4.4.2}{figure.caption.29}}
+\backcite {DynamicQueries}{{75}{4.4.2}{figure.caption.9}}
+\backcite {feketeProgressiveDataAnalysis2019}{{76}{4.4.2}{figure.caption.10}}
+\backcite {cutlerTrrackLibraryProvenanceTracking2020}{{78}{4.4.2}{figure.caption.12}}
 \backcite {neo4j}{{81}{4.4.4}{subsection.4.4.4}}
 \backcite {d3}{{81}{4.4.4}{subsection.4.4.4}}
 \backcite {satyanarayan2016vega}{{81}{4.4.4}{subsection.4.4.4}}
 \backcite {cutlerTrrackLibraryProvenanceTracking2020}{{81}{4.4.4}{subsection.4.4.4}}
 \backcite {parr1995antlr}{{81}{4.4.4}{subsection.4.4.4}}
 \backcite {winchesterLinkageHistoricalRecords1970}{{85}{4.5.3}{subsection.4.5.3}}
-\backcite {monroe2012exploring}{{88}{4.7}{section.4.7}}
+\backcite {monroe2012exploring}{{89}{4.7}{section.4.7}}
 \backcite {klamt2009hypergraphs}{{89}{4.7}{section.4.7}}
 \backcite {konstantinovaApplicationHypergraphTheory2001}{{89}{4.7}{section.4.7}}
 \backcite {valdiviaAnalyzingDynamicHypergraphs2021}{{90}{4.8}{section.4.8}}

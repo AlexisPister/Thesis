@@ -1,4 +1,5 @@
 \chapter{HSNA Process and Network Modeling}\label{ch:hsna-process-and-network-modeling}
+\minitoc
 
 I describe in this chapter a formalization of the \hsna workflow followed by social historians, to shed light on their process and summarize recurring pitfalls to identify how \va could support them in this workflow.
 Most \hsna practitioners report on their findings concerning the network they constructed from their sources, but few highlight the process which led to these conclusions from the raw historical documents, even though they have to make several annotation, encoding, and modeling decisions that deeply influence the final analysis\cite{alkadi2022}.
@@ -403,14 +404,14 @@ Each node $u \in U$ is defined as
 where $b \in B$ is the type of the node and $a_u$ is a tuple of the attributes (or properties) of $u$ such that
 
 \begin{equation}
-    a_u = (a_i, ..., a_n)
+    a_u = (a_i, \dotsc, a_n)
 \end{equation}
 
-with $a_i, ..., a_n$ the attributes of the node $u$ defined on their domains $A_i, ..., A_n$.
+with $a_i, \dotsc, a_n$ the attributes of the node $u$ defined on their domains $A_i, \dotsc, A_n$.
 We do not impose constraints for person nodes, but document nodes always have a time and location such that when $b = document$ then
 
 \begin{equation}
-    a = (t, l, a_i, ..., a_n)
+    a = (t, l, a_i, \dotsc, a_n)
 \end{equation}
 
 with $t \in T$ is the time of the event witness by the document and $l \in L$ its location.
@@ -424,10 +425,10 @@ Similarly, each edge $e \in E$ is defined as
 with $u, v$ the vertices connected by $e$ such that $b_u \neq b_v$, $r \in R$ the role of the person mentioned in the document and $a_e$ the attributes tuple of $e$ such that
 
 \begin{equation}
-    a_e = (a_i, ..., a_n)
+    a_e = (a_i, \dotsc, a_n)
 \end{equation}
 
-with $a_i, ..., a_n$ the attributes of the edge $e$ defined on their domains $A_i, ..., A_n$.
+with $a_i, \dotsc, a_n$ the attributes of the edge $e$ defined on their domains $A_i, \dotsc, A_n$.
 
 
 The model has therefore the following properties:
@@ -606,10 +607,10 @@ In that case, social historians can either ignore this type of information in th
 We show what would look like the resulting networks \autoref{fig:HSNA-doc-vs-event-model}for the two cases where marriage acts mention birth information and the case where only marriage-related information is present in the document.
 
 \begin{figure}
-    \begin{overpic}[width=\linewidth]{static/figures/HSNAProcess/documentVsEvents.pdf}
-        \put(2,4){\bipartiteParentsOneEvent{1}}
-        \put(40,4){\bipartiteNoParents}
-        \put(68,4){\bipartiteParents{1}}
+    \begin{overpic}[width=\linewidth, trim={0 0 0 0},clip]{static/figures/HSNAProcess/documentVsEvents.pdf}
+        \put(4,7){\bipartiteParentsOneEvent{1}}
+        \put(42,10){\bipartiteNoParents}
+        \put(70,7){\bipartiteParents{1}}
     \end{overpic}
     \caption{bipartite multivariate dynamic network modeling for two cases of marriage acts of example \zacarias. Some marriage acts mention the parents of the spouses, which is a relationship different than the marriage in itself. This case can be modeled using a document model (a) or an event model (c) by splitting the document into several different event nodes. The other case refers to documents that do not mention the parents (b) and in that case, the network represents both the documents and the events with the same model. M: Marriage, H: Husband, W: Wife, T: Witness, (H/W)(M/F): Husband/Wife Mother/Father. Yellow links refer to parenting mentions/relationships.}\label{fig:HSNA-doc-vs-event-model}
 \end{figure}

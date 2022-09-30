@@ -1,4 +1,6 @@
 \chapter{ComBiNet: Visual Query and Comparison of Bipartite Dynamic Multivariate Networks with Roles}\label{ch:combinet}
+\minitoc
+
 \newcommand{\combinet}{ComBiNet\xspace}
 
 In the previous chapter \autoref{ch:hsna-process-and-network-modeling}, I showed that \modelplural allow to model well historical documents, with \emph{simplicity}, \emph{reality} and \emph{traceability} properties.
@@ -383,9 +385,13 @@ All the persons and the documents of the loaded dataset are listed in two separa
 This way, users can order the entities according to any attribute they want (T1.2).
 The tables are linked to the visualizations, meaning that selecting a row highlights the respective entity in the visualizations and vice-versa.
 Selecting a node hence highlights the corresponding row and pushes it at the top of the table.
-Tables in social network visualization systems have been proven to be efficient and useful for social scientists when exploring their data~\cite{bezerianosGraphDiceSystemExploring2010}.
+Tables in social network visualization systems have been proven to be efficient and useful for social scientists when exploring their data~\cite{bezerianosGraphDiceSystemExploring2010} and is a feature that have been asked by our collaborators.
 It allows them to link the visualization to the network entities more easily, and dive deeper into one entity's attribute values after selecting it in the network.
+For example, if the visualization reveal an intriguing person connected to two distant components through two documents, the user can rapidly see the information of this persons and documents on the tables, to see if this could be an error from the annotations or an interesting person he or she could investigate more in depth in the original sources.
 It also makes ranking entities according to various criteria easier and more straightforward.
+Finally, the tables are exportable in csv, pdf, or directly in the clipboard, which was a request to our collaborators.
+
+
 
 \noindent\textbf{V4: Graph Measures}
 The Graph Measures view shows measures related to the network and gives insights into its structure to users (T1.1).
@@ -551,6 +557,7 @@ The visual and textual representations are synchronized, meaning that modifying 
 
 
 \noindent\textbf{Query Results}
+
 Each modification of the query, whether from the node-link dynamic query, the widgets, or the Cypher text box, update the two visualization panels (V1, V2), the entities tables (V3), the network measures view (V5), and the attribute plots (V6).
 The nodes and links that do not match (are not retrieved by the query) are grayed out in V1 and V2 and are removed from the persons and documents tables (V3).
 A third table shows every occurrence found of the created pattern that we call the occurrence table.
@@ -561,6 +568,7 @@ The network measures are computed on the new subgraph formed by the union of all
 \autoref{fig:combinet-example-results} (b) (left) shows to the user the different graph measures of the subgraph induced by the patterns found.
 Since some measures can be long to compute, the values are computed iteratively in the backend and shown progressively~\cite{feketeProgressiveDataAnalysis2019} to avoid blocking the interface.
 The distribution plots in the attributes view (V6) are updated, showing the values of the entities of the latest constructed query, next to the global distributions.
+
 %By selecting the \textit{origin} attribute as seen in \autoref{fig:combinet-example-results} (b) (right)
 
 % Each modification of the query, whether from the node-link dynamic query, the widgets, or the Cypher text boxes, update the two visualization panels. The nodes and links that do not match (are not retrieved by the query) are grayed out. It allows to rapidly visualize the subset of entities resulting from the applied query while maintaining the context.
@@ -599,6 +607,9 @@ By checking the ``Sankey'' option on top of the distribution visualization, the 
 A Sankey diagram showing the attribute distributions is particularly useful for queries where nodes have a relationship in regard to time, such as birth certificates, marriage, or death certificates where we know the order in which these events occurred.
 It is also useful for queries with user-defined time order constraints as in \autoref{fig:sankeys}.
 
+The attributes plots are exportable in SVG, while the tables are exportable in csv, pdf, or directly in the clipboard.
+%The tables are exportable in csv, pdf, or directly in the clipboard while the attribute plots are exportable in SVG.
+This was a demand of our collaborators, who can share the results of their queries easily or use them in another software or tool, according the \emph{traceability} principle.
 
 \begin{figure}[!ht]
     \centering
@@ -624,18 +635,7 @@ The graph measures and attribute views for the results of question 2 of collabor
 The Sankey view of the \textit{origin} attribute shows that mutual guarantors come from 4 regions only and that usually, people have mutual guarantor relationships only with persons of the same origin.
 This is especially true for persons from \textit{Milano}, and with some reciprocal links between persons from \textit{Bioglio} and the \textit{Comune di Ro}.
 
-% \begin{figure}
-%     \centering
-%     \includegraphics[width=0.99\linewidth]{static/figures/ComBiNet/OriginalPaperFigures/TableExample}
-%     \caption{The table tab of the result panel shows every pattern which matched with the constructed query. Clicking on the plus button shows details on the matched nodes, and users can select specific occurrences to highlight them in the graph view and center the view around them.}\label{fig:ResultsSection}
-% \end{figure}
 
-% \begin{figure}[b]
-%     \centering
-%     \includegraphics[width=0.99\linewidth]{static/figures/ComBiNet/OriginalPaperFigures/TableExample}
-%     \includegraphics[width=0.99\linewidth]{static/figures/ComBiNet/OriginalPaperFigures/SummaryExample}
-%     \caption{The detailed results panel shows a table (top) and summary tab (bottom) of the request specified in the query panel. The table shows each match of the query, while the summary presents graph measures for the graph elements matching the query, along with the distributions of the attributes. Here, the user selected the \textit{date\_year} attribute; the distributions show that the distribution of the selection is similar to the distribution of the whole graph.}\label{fig:ResultsSection}
-% \end{figure}
 
 
 \noindent\textbf{V9: Provenance Tree}
@@ -646,7 +646,6 @@ At any moment, users can rename a tree node or click on it to go back to the pre
 Hovering over a node shows a tooltip with the query panel associated with the selected query state.
 It let users rapidly see what query is associated with each node of the tree
 If a new change is made on the query from a previous state, a new branch is created on the tree, allowing to revisit and refine explorations.  \autoref{fig:combinet-trees} shows the provenance tree made to answer question 2, split into 2 branches, with the tooltip showing one of the node query state.
-
 \begin{figure}[!ht]
      \centering
 %     \includegraphics[width=0.3\linewidth]{static/figures/ComBiNet/torino_tree}
@@ -654,6 +653,7 @@ If a new change is made on the query from a previous state, a new branch is crea
 %     \caption{(a) Provenance tree to answer question 2 of collaboration \pascal: left branch lead to Torino documents (the node is labeled as A) while right branch lead to surrounding documents (the node is labeled as B). }\label{fig:combinet-trees}
      \caption{Provenance tree to answer question 2 of collaboration \pascal: left branch leads to Torino documents (the node is labeled as A) while right branch leads to surrounding documents (the node is labeled as B). The user hovers over one node, revealing a tooltip that shows the visualization of the node's query..}\label{fig:combinet-trees}
  \end{figure}
+The whole provenance tree is exportable and importable in json format, allowing to 1) start a session from a previous exploration and not from scratch, 2) share exploration sessions and results with others, and 3) provide a trace of the exploration leading to a potential interesting result, hence providing \emph{traceability} in the results.
 
 
 \subsection{Comparison}
@@ -769,7 +769,7 @@ Similarly, a manual change in the Cypher query update the abstract syntax tree w
 
 \section{Use Cases}\label{sec:combinet-usecases}
 
-In this section, we describe  how our system has been able to specifically answer questions from two of our collaborations.
+In this section, I describe how our system has been able to specifically answer questions from three of our collaborators and one other use case.
 the tool was mostly operated by the developers working side by side with the collaborators to test the expressiveness of the queries and the value of the results visualizations.
 The tool was refined as needed along the way.
 
@@ -782,47 +782,53 @@ Specifically, he was interested in knowing if there were differences in speciali
 Moreover, he was very interested in characterizing the group of people collaborating with both families.
 
 To answer those questions, we first selected the core members of the \textit{Menafoglio family}, by checking the people known by the historian, and their close neighbors.
-Looking at the bipartite view (see Figure 1 of the supplementary material), we can see that the group is pretty dense with people collaborating a lot between them.
+Looking at the bipartite view (see \autoref{fig:combinet-mena} (a), we can see that the group is pretty dense with people collaborating a lot between them.
 Looking at the map, we can clearly see that the family has been mostly active in Piedmont outside of Torino and Torino's close territory.
 We also have a first view of the attribute distribution of the persons in the group and their contracts.
 
-We then do the same query for the Zo family. We keep the same topological filter and replace the name filters with the core members of the Zo family known by the historian. We see on the graph view (Figure 2 of the supplementary material) that the group is smaller and is in a different area in the graph. The map enriched with a selection of the \textit{region} attribute shows that, contrary to the Menafoglio, the Zo family has been more active in Turin and around.
+\begin{figure}[!ht]
+    \centering
+
+     \begin{subfigure}[b]{1\linewidth}
+    \includegraphics[width=1\linewidth, trim={35cm 37cm 10cm 0}, clip]{static/figures/ComBiNet/OriginalPaperFigures/suppMaterial/menaFamilyResults}
+         \caption{}
+    \end{subfigure}
+    \begin{subfigure}[b]{1\linewidth}
+        \includegraphics[width=1\linewidth, trim={35cm 37cm 10cm 0}, clip]{static/figures/ComBiNet/OriginalPaperFigures/suppMaterial/ZoFamilyResults}
+        \caption{}
+    \end{subfigure}
+
+    \caption{Menafoglio (a) and Zo (b) families retrieved with queries and highlighted in the bipartite node-link and map views.}
+    \label{fig:combinet-mena}
+\end{figure}
+
+We then do the same query for the Zo family. We keep the same topological filter and replace the name filters with the core members of the Zo family known by the historian. We see on the graph view (Figure 2 of the supplementary material) that the group is smaller and is in a different area in the graph. The map enriched with a selection of the \textit{region} attribute shows that, contrary to the Menafoglio, the Zo family has been more active in Torino and Torino territory (very close area of the city).
 
 The two groups can be compared using the \textit{comparison mode} by selecting the two queries in the provenance tree. This opens the comparison menu to quickly navigate between the visual selection of (A), (B), and the set $A \cap B$ that interests our collaborator. The table showing the graph measures of the two subsets confirms what is shown visually: the Menafoglio group is more populated but less dense than the Zo family.
 
-Our user is then interested in comparing the distribution of several attributes between the two groups. We can clearly see in \autoref{fig:useCasePascal} (middle) that the Menafoglio family is more specialized in military sites, while the Zo family is doing more civil construction. This is confirmed by the ``material'' distribution that shows that the contracts of the Menafoglio are often using stones, whereas it is never the case for Zo contracts. Finally, the persons collaborating in the two groups have a betweenness centrality higher on average. This makes sense as they act as bridges linking the two families.
+Our user is then interested in comparing the distribution of several attributes between the two groups. We can clearly see in \autoref{fig:useCasePascal} (top right) that the Menafoglio family is more specialized in military (\textit{mil}) sites, while the Zo family is doing more civil (\textit{civ}) constructions. This is confirmed by the \textit{material} distribution that shows that the contracts of the Menafoglio are often using stones, whereas it is never the case for Zo contracts.
+Finally, the persons collaborating in the two groups have a betweenness centrality higher on average (bottom right, middle chart).
+This makes sense as they act as bridges linking the two families.
 % Moreover, we can see in detail the difference in the region of contracts of the two families.
 
 
 \begin{figure}[!ht]
     \centering
 
-    % \includegraphics[height=70px]{static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/materiel.pdf}
-    %  \includegraphics[height=70px]{static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/type_chantier.pdf}
-    %  \includegraphics[height=70px]{static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/type_travail.pdf}
-    %   \includegraphics[height=80px]{static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/BC_crop.pdf}
+%    \includegraphics[width=0.3\linewidth]{static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/region.pdf}
+%     \includegraphics[width=0.3\linewidth]{static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/type-chantier.pdf}
+%     \includegraphics[width=0.3\linewidth]{static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/materiel.pdf}
+%     \includegraphics[width=0.35\linewidth]{static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/BC_crop.pdf}
 
-    \includegraphics[width=0.3\linewidth]{static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/region.pdf}
-     \includegraphics[width=0.3\linewidth]{static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/type-chantier.pdf}
-     \includegraphics[width=0.3\linewidth]{static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/materiel.pdf}
-     %\includegraphics[width=0.35\linewidth]{static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/BC_crop.pdf}
+    \includegraphics[width=0.40\linewidth]{static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/region.pdf}
+     \includegraphics[width=0.40\linewidth]{static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/type-chantier.pdf}
+     \includegraphics[width=0.40\linewidth]{static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/materiel.pdf}
+     \includegraphics[width=0.40\linewidth]{static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/BC_crop.pdf}
 
     \caption{Attributes distributions plots between the whole graph, the \textit{Menafoglio} family (A), the \textit{Zo} family (B), and $A\cap B$, for the \textit{region,type\_chantier,  material type.}
     % , and \textit{betweeness centrality}.}
     \label{fig:useCasePascal}}
 \end{figure}
-
-% \begin{figure*}
-%     \centering
-
-%     \begin{overpic}[width=0.15\linewidth]{static/figures/ComBiNet/OriginalPaperFigures/useCase01/queryMena.png}\end{overpic}
-%     \begin{overpic}[width=0.15\linewidth]{static/figures/ComBiNet/OriginalPaperFigures/useCase01/queryZo.png}
-%     \end{overpic}
-%     \begin{overpic}[width=0.6\linewidth]{static/figures/ComBiNet/OriginalPaperFigures/useCase01/comparisonRegionNoZoom.png}
-%     \end{overpic}
-
-%     \caption{}\label{fig:useCasePascal}
-% \end{figure*}
 
 
 % \begin{figure*}
@@ -1005,16 +1011,29 @@ This exploratory analysis shows that \name can be used to explore and gain insig
 %\subsection{Procedure}
 
 % After showing our tool can be used to answer socio-historical questions,
-We performed a formative usability study with two historians and one expert in visualization. We had 3 meetings with each and gave them control of the tool to see if they could use it to explore their data and perform queries and comparisons. At each meeting, we asked them to speak aloud, commenting on their aims and actions. At the end of each session, we asked them their general feedback and what other features they would like to have. We improved the system and made the changes asked by the users before setting up new appointments. This usability study led to the redesign of some core features, like the activation of the comparison mode which is now started by first marking the state nodes in the provenance tree. It also led to the implementation of new features, such as the person and document tables (which are updated after each query), the persistent selection of nodes across the two views and the tables, and the undo feature for visual queries.
+I performed a formative usability study with two historians and one expert in visualization.
+I had 3 meetings with each and gave them control of the tool to see if they could use it to explore their data---the visualization expert used the interface with the dataset of construction contracts \pascal---and perform queries and comparisons.
+At the first meeting, I explained to them the panels of the system and each features.
+During each session, they were free to explore the data as they wanted.
+If they were stuck using one feature, I helped them by explaining how to use it.
+If they seemed to not know what to do next, I asked them to answer a specific question on the data (for example ``can you find the persons who collaborated in more than two contracts between 1711 and 1714 in Torino'').
+At each meeting, I asked them to speak aloud, commenting on their aims and actions.
+At the end of each session, they reported their general feedback, what they did not like or understand, and what other features they would like to have to explore their data.
+
+I improved the system and made the changes asked by the users before setting up new appointments.
+This usability study led to the redesign of some core features, like the activation of the comparison mode which is now started by first marking the state nodes in the provenance tree.
+It also led to the implementation of new features, such as the person and document tables (which are updated after each query), the persistent selection of nodes across the two views and the tables, and the undo feature for visual queries.
 % The list of all feedback and modifications are shown in the supplementary material.
 At the final meetings, the three users were able to perform exploration, queries, and comparisons to answer socio-historical questions by themselves.
 
 
-%\vspace{-1mm}
 \subsection{Feedback}
 
 All three users liked the table views and were exploiting them to study in depth who were the person and documents found in their specific queries.
-Both historians liked the Sankey diagram of the attributes, allowing them to see the evolution of distributions and answering several of their questions. Our collaborator of the use case \nicole was making sense of it by linking the migration patterns she was seeing in the Sankey diagram with specific persons of the dataset she knew in depth. She was also curious about other migration patterns she was not aware of and wanted to know who these persons were, the system allowing her to select them and follow a deeper exploration.
+Both historians liked the Sankey diagram of the attributes, allowing them to see the evolution of distributions and answering several of their questions.
+Our collaborator of the use case \nicole was making sense of it by linking the migration patterns she was seeing in the Sankey diagram with specific persons of the dataset she knew in depth.
+She was also curious about other migration patterns she was not aware of and wanted to know who these persons were, the system allowing her to select them and follow a deeper exploration.
+One other historian outside of our direct collaborators liked the overlay of node attributes on the bipartite and map views, and the distribution plots. She said: ``With this data model, even if historians realize the structure of their network do not allow to answer their research questions, they can still visualize and compare attributes of documents and persons with this interface, which is always useful in quantitative history''.
 
 % [jdf] You don't mention theses capabilities in the paper
 % Both liked the export capabilities of the system to collect results in CSV or JSON format, as well as the charts in SVG, for inclusion in their publications or for processing with other tools.
@@ -1051,6 +1070,7 @@ Possible discussion points :
 \section{Discussion}
 
 % We discuss here several points of potential limitations.
+I discuss in this section several points of potential limitation for the system.
 
 \noindent\textbf{Query Expressiveness.}
 The visual query system currently allows finding occurrences of attributed subgraphs, with potential union operations on constraints (links and node attribute values can be set at one value or as a set of values). Being able to express attribute constraints (other than for labels and ids) and unions is new compared to other visual graph query systems.
@@ -1075,13 +1095,13 @@ Bipartite networks are also used in various other disciplines, such as biology~\
 \section{Conclusion and Future Work}
 
 I presented in this chapter \name, a \va system for exploring social networks modeled from historical textual sources, primarily aimed at social historians.
-It relies on modeling data as bipartite, multivariate, dynamic social networks where persons are linked to documents or events using typed links that express roles.
+It relies on modeling documents as bipartite, multivariate, dynamic, geolocated social networks where persons are linked to documents or events using typed links that express roles.
 % We have successfully applied our data model to a wide variety of historical, sociological, genealogical datasets, and publication data.
-\name relies on this data model to let historians explore a concrete representation of their annotated documents (\ie the model express the \emph{reality} of the documents, without the use of projections or distortions) with \emph{traceability} to the original sources and \emph{simplicity}.
-Historians can hence reflect on their encoding process and answer their socio-historical questions using 1) dynamic queries on the network structure and attributes to highlight groups of interests or erroneous patterns and 2) visual comparisons to contrast selected groups according to their structure, time, or any other attribute.
+With this data model, \name let historians explore a concrete representation of their annotated documents (\ie the model express the \emph{reality} of the documents, without the use of projections or distortions) with \emph{traceability} to the original sources and \emph{simplicity}.
+Historians can hence reflect on their encoding process and answer their socio-historical questions using 1) dynamic queries on the network structure and attributes to highlight groups of interests or erroneous patterns and 2) visual comparisons to contrast selected groups according to their structure, location, time, or any other attribute.
 % \name supports dynamic queries that are translated in textual queries in the Cypher language, providing a mixed modality to query data.
-The results can be visualized as a node-link diagram, a geographical map, graph measures, and distributions of values for the attributes.
-I have shown that complex explorations and analyses were easy to perform, and validated our approach by first describing four use cases among many more projects we are collaborating with and by performing a formative usability study showing that after many improvements the system is usable by social scientists.
+The results can be visualized as a bipartite node-link diagram, a geographical map, graph measures, and distributions of values for the attributes.
+I have shown that complex explorations and analyses were easy to perform, and validated our approach by first describing four use cases among several other projects we are collaborating with and by performing a formative usability study showing that after many improvements the system is usable by social scientists.
 %Our collaborations with social scientists revealed that the process of modeling historical sources into an analyzable network is not easy.
 % Several weeks of discussion led to the decision to model their data as \model which allows to have a representation of the original documents while modeling well the social relationships mentioned in the sources. It
 %Modeling their data as \model allows social scientists to have a common representation to both cleanup and analyze their data.
