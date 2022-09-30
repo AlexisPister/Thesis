@@ -21,7 +21,7 @@
 
 
 % \jdf{Start with a sentence that explain the goal of your thesis, \eg The goal of this thesis is to help support social historians in exploring and analyzing their sources to conduct their research.}
-The goal of this thesis is to characterize and produce visual analytics tools that can support social historians conducting research on their sources---particularly when using network methods---with a focus on exploration, analysis, and traceability.
+The goal of this thesis is to characterize and produce visual analytics tools that can support social historians conducting research on their sources---particularly when using network methods---with a focus on exploration, analysis, traceability, and usability.
 Historical Social Network Analysis (HSNA) is a method---sometimes referred as a paradigm\cite{whiteNetworkAnalysisEthnographic2005}---followed by social historians to study sociological phenomena through the observation of relationships of actors of the past, modeled into a network.
 %The usage of networks as an abstraction to represent and study social relationships---such as friendships, kinship, or business ties---grew in popularity in the last 40 years \cite{freemanDevelopmentSocialNetwork2004, tabassumSocialNetworkAnalysis2018}, especially in our time when many of our digital connections and interactions take explicit network shapes\footnote{This analogy goes to the point that the term ``Social Network'' can refer both to the scientific sociological concept of the modeling of social relationships and the social media platforms such as Facebook.}.
 The usage of networks as an abstraction to represent and study social relationships---such as friendships, kinship, or business ties---grew in popularity in the last 40 years \cite{freemanDevelopmentSocialNetwork2004, tabassumSocialNetworkAnalysis2018} and constitute a powerful metaphor, especially in our time when many of our digital connections and interactions use an explicit network structure\footnote{This analogy goes to the point that the term ``Social Network'' can refer both to the sociological metaphor for social relationship and the social media platforms such as Facebook.}.
@@ -181,7 +181,7 @@ By pointing to evidence supporting or refuting hypotheses, they can give insight
 
 \section{Visualization and Visual Analytics}
 
-Visualization has been said to be a central part in the development of \sna\cite{freemanVisualizingSocialNetworks2000, wolfeRiseNetworkThinking1978}---as it the case for many scientific fields\footnote{the historian Alfred Crosby went as far as claiming that visualization is one of the two factors---with measurement---which led to the development of modern science\cite{crosbyMeasureReality1998}}.
+Visualization has been said to be a central part in the development of \sna\cite{freemanVisualizingSocialNetworks2000, wolfeRiseNetworkThinking1978}---as it the case for many scientific fields\footnote{the historian Alfred Crosby went as far as claiming that visualization is one of the two factors---with measurement---which led to the development of modern science~\cite{crosbyMeasureReality1998}.}.
 Social scientists now widely use visual and analytical tools to unfold their network structure, allowing them to confirm or deny hypotheses, or follow exploration analysis.
 
 Visualization is the process of displaying data visually to leverage the human visual system and enhance cognition to gain insight into data\cite{cardReadingsInformationVisualization1999}.
@@ -243,11 +243,11 @@ If most widely used visual interface for \hsna do not yet provide complex intera
 \section{Visual Analytics Supported Historical Network Research}\label{sec:intro-HSNV}
 
 Most visual tools for \sna are designed for the analysis of already curated networks, without taking into account the context in which those networks have been produced, where they come from, and the workflow that led to their creation.
-Moreover, many practitioners have trouble using current computer-supported tools, due to misconception in their encoding and modeling process or usability problems.
+Moreover, many practitioners have trouble using current computer-supported tools, due to misconception in their encoding and modeling process or usability problems~\cite{alkadi2022}.
 \va should therefore support social historians in the entirety of their process, with a focus on usability and simplicity.
 
-%Yet, social historians may need to generate several networks for their analsysis.
-Currently, social historians spend a lot of time in their data acquisition, processing, and encoding steps which lead them to the construction of a network \cite{dufournaudCommentRendreVisible2018, lemercierBackSourcesPracticing2021}.
+
+Currently, social historians spend a long time in their data acquisition, processing, encoding, and modeling steps which lead them to the construction of a network \cite{dufournaudCommentRendreVisible2018, lemercierBackSourcesPracticing2021}.
 They typically visualize and analyze their network at the end of this process, first to verify hypotheses they formulated during the inspection of their sources, then to gain a better view of the structure of the network, allowing them to potentially generate new hypotheses\cite{lemercier12FormalNetwork2015}.
 %This can be explained in part because most VA tools focus only on this final analysis and not on the preprocessing steps.
 %Social historians collect, annotate and clean their data using custom scripts and ad-hoc methods before doing any analysis.
@@ -255,14 +255,15 @@ However, research showed that all the steps preceding the analysis can introduce
 Social scientists usually visualize their network using \sna tools like Gephi, Pajek, and NodeXl which encompass basic interactions, node-link visualization, SNA measure computations, and clustering algorithms.
 Once they visualize their data, they typically notice errors and inconsistencies in the data, such as duplication of the same entities, merging of different entities, or geolocation errors\cite{diesnerImpactEntityDisambiguation2015, alkadi2022}.
 
-Practitionners also have to decide on a network model\cite{cristofoliAuxSourcesGrands2008} (see \autoref{subsec:network-modeling} for more details) when encoding their documents, which sometimes do not match the final analysis goals.
+Practitioners also have to decide on a network model\cite{cristofoliAuxSourcesGrands2008} (see \autoref{subsec:network-modeling} for more details) when encoding their documents, which sometimes do not match the final analysis goals.
 Simple models typically oversimplify the relationships contained in the sources\cite{lemercier12FormalNetwork2015} and too complicated models are hard to manipulate\cite{opitzInductionLargeScaleKnowledge2018}.
 %Lemercier also criticized the fact that the use of networks often result in simplification of the relationships mentioned in the sources---resulting in an abstraction which do not allow to make any in depth conclusion\cite{lemercier12FormalNetwork2015}.
 They, therefore, have to go back and forth between the visualization software and the encoding process which can be tedious, especially since it can be complicated to trace back the entities of the data model back to the original documents for correction.
 \va tools that encompass the whole process of social historians should therefore be beneficial for the flow of their work and could help detect and correct errors or analysis plans way before the visualization of a finalised network.
+Proposing how to design such interfaces with proof-of-concepts is one of the goal of this thesis.
 
 Furthermore, several historians highlighted the fact that many social history studies leveraging network methods simply use networks in a metaphorical sense, in what Rollinger calls ``soft SNA'' or ``informal network research''\cite{rollingerProlegomenaProblemsPerspectives2020}.
-Such studies typically show one---or a couple---node-link diagram(s) of their data, which they describe with qualitative terms\cite{lemercierQuantitativeMethodsHumanities2019} to refer to the global structure of the network (dense, parse, connected, etc.), the place of actors (central, distant), or interesting patterns (cliques, bridges, communities).
+Such studies typically show one---or a couple---node-link diagram(s) which they describe with qualitative terms\cite{lemercierQuantitativeMethodsHumanities2019} to refer to the global structure of the network (dense, parse, connected, etc.), the place of actors (central, distant), or interesting patterns (cliques, bridges, communities).
 In case of dense networks, such descriptions become obsolete, as diagrams start to look like what have been called a ``spaghetti monster''\cite{collarNetworksArchaeologyPhenomena2015, lemercierQuantitativeMethodsHumanities2019} \ie an unreadable image due to the high level of cluttering.
 \autoref{fig:intro-medieval} shows for example a medieval social network of peasants proximity relationships between 1250 and 1350 extracted from agrarian contracts.
 The graphic do not convey much information, especially that the links represent a constructed notion of proximity without indicating the types of relationships the individuals were mentioned in the contracts.
@@ -274,7 +275,7 @@ The graphic do not convey much information, especially that the links represent 
     \label{fig:intro-medieval}
 \end{figure}
 
-The lack of usage of network analytical methods---which are numerous in modern \sna softwares\footnote{See for example the long  technical manuals of Pajek\cite{pajek} or Ucinet\cite{johnsonUCINETSoftwareTool1987}}---have been in part explained by ``math anxiety''\cite{paxtonDollarsSenseConvincing2006}: it takes long effort to learn the mathematical concepts behind network measures and algorithms, and their relationships to sociological concepts\cite{rollingerProlegomenaProblemsPerspectives2020}, especially for practitioners without formal computer science and mathematical training.
+The lack of use of network analytical methods---which are numerous in modern \sna softwares\footnote{See for example the long  technical manuals of Pajek\cite{pajek} or Ucinet\cite{johnsonUCINETSoftwareTool1987}}---have been in part explained by ``math anxiety''\cite{paxtonDollarsSenseConvincing2006}: it takes long effort to learn the mathematical concepts behind network measures and algorithms, and their relationships to sociological concepts\cite{rollingerProlegomenaProblemsPerspectives2020}, especially for practitioners without formal computer science and mathematical training.
 My claim is that current \hsna tools do not support social scientists enough in their analysis due to 1) the lack of interaction, direct manipulation, and exploration mechanisms in current interfaces and 2) the lack of network measures and algorithm interpretations and explainability.
 For example, clustering algorithms are often included in such systems, letting social scientists partition networks into groups, but many algorithms exist in the literature, potentially giving diverse results.
 Scientists often run several algorithms until finding a satisfying enough partition, which can bias the result of an analysis\cite{pisterIntegratingPriorKnowledge2021}.
