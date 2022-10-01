@@ -49,7 +49,7 @@ If several examples of information visualization can be found thorough history, 
 
 \begin{figure}
     \centering % avoid the use of \begin{center}...\end{center} and use \centering instead (more compact)
-    \includegraphics[width=0.8\textwidth]{static/figures/RelatedWork/BertinNetworks}
+    \includegraphics[width=0.75\textwidth]{static/figures/RelatedWork/BertinNetworks}
     \caption{Categorization of visual variables which can be used to represent network data, resulting in many different network representations. Image from \cite{bertin1967}.}
     \label{fig:bertin-network}
 \end{figure}
@@ -100,7 +100,7 @@ More recent visual exploration interfaces also incorporate automatic analytical 
 This coupling of visualization and analytical methods such as data mining has been defined as Visual Analytics (VA) and is still a very active research field.
 Keim and al.\ define it as ``a combination of automatic and visual analysis methods with a tight coupling through human interaction in order to gain knowledge from data'' \cite{keimVisualAnalyticsDefinition2008}.
 
-\begin{figure}
+\begin{figure}[!ht]
     \centering % avoid the use of \begin{center}...\end{center} and use \centering instead (more compact)
     \includegraphics[width=1\textwidth]{static/figures/RelatedWork/TULIP}
     \caption{TULIP software designed for application-independant network visual analytics\cite{auberTULIP2017}. The view shows a dataset among multiple interactive coordinated views. Users can also apply data mining algorithms on the data to extract interesting patterns.}
@@ -231,14 +231,12 @@ If the first wave of computational social sciences focused a lot on statistical 
 In the context of historical research, the term Digital History have been coined as ``\textit{an approach to examining and representing the past that works with the new communication technologies of the computer, the Internet network, and software systems. On one level, digital history is an open arena of scholarly production and communication, encompassing the development of new course materials and scholarly data collections. On another, it is a methodological approach framed by the hypertextual power of these technologies to make, define, query, and annotate associations in the human record of the past. To do digital history, then, is to create a framework, an ontology, through the technology for people to experience, read, and follow an argument about a historical problem.}'' \cite{InterchangePromiseDigital2008}
 %Digital History therefore focus a lot on the curation and exploration of historical archives in the purpose of characterizing and communicate of historical concepts.
 Research which label itself as Digital History pivot around the curation and digitization of historical archives, the identification of historical concepts through computational and exploration methods, but also their communication to the general audience through digital technologies.
-
-\begin{figure}
+\begin{figure}[!ht]
     \centering % avoid the use of \begin{center}...\end{center} and use \centering instead (more compact)
     \includegraphics[width=1\textwidth]{static/figures/RelatedWork/RepublicOfLetter_BenjFranklin}
     \caption{Correspondence letters of Benjamin Franklin and his close relationships, using a map and an histogram, accessible online on the republic of letter website\cite{edelsteinHistoricalResearchDigital2017}.}
     \label{fig:republic-letters}
 \end{figure}
-
 Many Digital History projects are thus multidisciplinary by essence and involve several teams of researchers, such as the Republic of Letters project which consisted in digitizing, storing, and exploring letters of scholars across the world, in a common hub and using shared visualization tools \cite{edelsteinHistoricalResearchDigital2017}.
 It resulted in the elaboration of curated datasets and visualizations concerning the correspondence of various scholars such as Voltaire, Benjamin Franklin (see \autoref{fig:republic-letters}), or John Locke, accessible in the same place by researchers and the general audience.
 With modern technologies and infrastructures, it also becomes possible to study large historical databases---often labeled under the term ``big data''---as with the Venice Time Machine project~\cite{kaplanVeniceTimeMachine2015} which aims at digitizing and analyzing thousands of documents from the archives of Venice to understand the political, geographical, and sociological dynamics of the cities across generations and centuries.
@@ -270,16 +268,14 @@ The sociologist Allen Barton wrote in this regard ``For the last thirty years, e
 Sociometry is considered one of the bases of \sna and had the goal of redefining social categories through the lens of real social interactions and ties between persons, that sociologists wanted to observe in real conditions.
 It is in the 1930s that Moreno started to develop this new method by trying to depict real social interactions as a way to understand how groups and organizations were socially structured\cite{morenoFoundationsSociometryIntroduction1941}.
 He developed sociograms to visually show friendships between people with the help of circles representing persons and lines modeling friendships.
-
-\begin{figure}
+\begin{figure}[!ht]
     \centering % avoid the use of \begin{center}...\end{center} and use \centering instead (more compact)
     \includegraphics[width=0.45\textwidth]{static/figures/RelatedWork/Moreno-1}
 %    \includegraphics[width=0.55\textwidth]{static/figures/RelatedWork/Moreno-1_GrandJean}
     \includegraphics[width=0.50\textwidth,trim={4cm 4cm 4cm 4cm},clip]{static/figures/RelatedWork/Moreno-1_GrandJean}
-    \caption{Moreno's original sociogram of a class of first grades from \cite{morenoWhoShallSurvive1934} (left). The diagram shows 21 boys (triangles) and 14 girls (circles). The same sociogram using modern practices generated from Gephi from \cite{grandjeanSocialNetworkAnalysis2015} (right). The color encodes the number of connections incoming.}
+    \caption{Moreno's original sociogram of a class of first grades from \cite{morenoWhoShallSurvive1934} (left). The diagram shows 21 boys (triangles) and 14 girls (circles). The same sociogram using modern practices generated from Gephi from \cite{grandjeanSocialNetworkAnalysis2015} (right). The color encodes the number of incoming connections.}
     \label{fig:moreno-sociogram}
 \end{figure}
-
 \autoref{fig:moreno-sociogram} shows one of Moreno's original sociograms to depict friendships in a class of first grades (left).
 %This way, he could rapidly see the main actors and hubs of interaction inside the social network represented visually.
 Sociometry tremendously helped disseminate the metaphor of networks to model and understand social structures and phenomena.
@@ -319,7 +315,7 @@ Network measures are either global or local, which allow to either make high lev
 Widely used global measures include for example the density and the diameter, which give insight on the sparsity of the network and how distant on average are two random pairs of nodes.
 Conversely, local measures give information on the structural position of a node compared to the rest of the network.
 Centrality---probably the most used local measure---allows to formally compute a measure of how important or central are individuals in the network\cite{newmanNetworks2018}.
-As defining what an important node is ambiguous, several types of centrality have been proposed such as the degree, betweenness, and closeness centrality, which respectively measure the number of connexions, how nodes connects different groups, and how close are the nodes compared to the rest of the network.
+As defining what an important node is ambiguous, several types of centrality have been proposed such as the degree, betweenness, and closeness centrality, which respectively measure the number of connections, how nodes connects different groups, and how close are the nodes compared to the rest of the network.
 
 More generally, sociologists aim at identifying recurring patterns of sociability between actors, and link it to other behaviours, measures, or qualitative knowledge.
 These patterns can for example be small unconnected components, cliques, or bow-ties structures.
@@ -475,6 +471,12 @@ Moreno elaborated sociograms to visually show friendships among schoolchildren w
 This type of representation---commonly called node-link diagram---is the most widely used in social sciences, as it is rapidly understandable and effective for small to medium-sized networks which are predominant in social sciences.
 %The most used social network visualization softwares such as Gephi\cite{Gephi} and NodeXL\cite{noauthor_nodexl_nodate} are based on this type of representation and allow an integrated exploration and analysis with the help of various algorithms.
 Finding an optimal placement for the nodes is however not that simple as several metrics can be optimized depending on the desired drawing, such as the number of edge crossings, the variance of edge length, orthogonality of edges, etc~\cite{cristofoliPrincipesUsagesDessins, kosakAutomatingLayoutNetwork1994}. \autoref{fig:kosak-graph-drawing} shows some of these metrics, synthesized by Kosara and al.~\cite{kosakAutomatingLayoutNetwork1994}.
+\begin{figure}
+    \centering % avoid the use of \begin{center}...\end{center} and use \centering instead (more compact)
+    \includegraphics[width=1\textwidth]{static/figures/RelatedWork/Kosak-nodelinkdiagramMetrics}
+    \caption{Different criteria are proposed to enhance node-link diagram readability. Image from \cite{kosakAutomatingLayoutNetwork1994}}
+    \label{fig:kosak-graph-drawing}
+\end{figure}
 In \autoref{fig:moreno-sociogram} we can see the difference in readability between the original manual layout (left) and an automatic one (right).
 Automatic layouts which aim at optimizing readability metrics give clearer diagrams.
 The number of edge crossings is often considered the most important measure, but finding a drawing with the optimal number of crossings is an NP-Hard problem, meaning that heuristics are needed for most real-world use cases.
@@ -482,19 +484,11 @@ A large number of algorithms have been designed such as force-directed ones\cite
 Other visual techniques have been proposed to represent networks such as matrices, circular layouts, and arcs, but are less used in social sciences \cite{mcguffinSimpleAlgorithmsNetwork2012}.
 Still, Matrices have been shown to be more effective than node-link diagrams for several tasks such as finding cluster-related patterns, especially for medium to large networks \cite{ghoniemComparisonReadabilityGraphs2004, abdelaalComparativeEvaluationBipartite2022}.
 
-\begin{figure}
-    \centering % avoid the use of \begin{center}...\end{center} and use \centering instead (more compact)
-    \includegraphics[width=1\textwidth]{static/figures/RelatedWork/Kosak-nodelinkdiagramMetrics}
-    \caption{Different criteria are proposed to enhance node-link diagram readability. Image from \cite{kosakAutomatingLayoutNetwork1994}}
-    \label{fig:kosak-graph-drawing}
-\end{figure}
 
 As social scientists are using more complex network models such as bipartite or temporal networks, more sophisticated representations are needed.
 %The visualization community proposed new visualization systems for specific network types such as PAOHVis for temporal hypergraphs, NodeTrix for clustered networks or Juniper for Multivariate networks.
 The visualization community developed new representations to visualize other network types such as dynamic hypergraphs with PAOHVis \cite{valdiviaAnalyzingDynamicHypergraphs2021}, clustered graphs with NodeTrix \cite{henryNodeTrixHybridVisualization2007} (illustrated in \autoref{fig:Riche-NodeTrix}), geolocated social networks with the Vistorian \cite{serranomolineroUnderstandingUseVistorian2017}, and multivariate networks with Juniper \cite{nobreJuniperTreeTable2019}.
 However, these new network representations take time to be adopted by social scientists who rarely use them.
-
-
 \begin{figure}
     \centering % avoid the use of \begin{center}...\end{center} and use \centering instead (more compact)
     \includegraphics[width=0.8\textwidth]{static/figures/RelatedWork/NodeTrix.png}
@@ -512,15 +506,13 @@ However, those softwares often do not include interaction and direct manipulatio
 %Hence, they cannot be considered as purely \va interfaces as the analytical and visual components are not well integrated together.
 In contrast, the Vistorian\cite{serranomolineroUnderstandingUseVistorian2017} let social historians visualize their network with multiple coordinated views (node-link, matrice, arc-diagram, and map), filters and direct manipulation, but do not integrate analytical options.
 \autoref{fig:vistorian} shows the Vistorian interface used to explore an historical social network.
-
-\begin{figure}
+\begin{figure}[!ht]
     \centering % avoid the use of \begin{center}...\end{center} and use \centering instead (more compact)
-    \includegraphics[width=0.8\textwidth,trim={0 1cm 0 0},clip]{static/figures/RelatedWork/vistorian}
+    \includegraphics[width=1\textwidth,trim={0 1cm 0 0},clip]{static/figures/RelatedWork/vistorian}
     \caption{Vistorian interface\cite{serranomolineroUnderstandingUseVistorian2017} used to explore a historical social network of business trades in the 17th century, with a coordinated node-link diagram and a matrice view.}
     \label{fig:vistorian}
 \end{figure}
 %\includegraphics[trim={5cm 0 0 0},clip]{example-image-a}
-
 I propose a classification of all those softwares in \ref{tab:SNV}, which illustrate that most used software are analytical oriented (Pajek, Ucinet, Gephi, NodeXl) while the Vistorian is an interactive visualization tool.
 None of those software therefore fully correspond to the Visual Analytics label\cite{keimVisualAnalytics}.
 
@@ -540,7 +532,6 @@ Vistorian & \scalethree & \scalezero  & \scalezero & \scalethree & \scalethree \
     \caption{Comparison table of most widely used visualization and analytical tool for \hsna. Visualizations: number of different visualization techniques, layout, and interactions. \sna and Models: Number of proposed \sna measures and algorithms. Clustering: Number of proposed clustering algorithms. Filtering: Possibilities of filtering according various criteria. Interaction/Direct Manipulation: Number of possible interactions mechanisms directly applicable on the visualizations. }
     \label{tab:SNV}
 \end{table}
-
 If analytical methods such as the computation of network measures, triad computation, or clustering provide a good framework to describe the structure of a network and link it to sociological explanation\cite{wassermanSocialNetworkAnalysis1994, scottSocialNetworkAnalysis1988}, many social scientists such as historians are not trained in computer science and mathematical methods and therefore have trouble to first use those methods without guidance, but also interpret their results.
 This is particularly the case for black-box algorithms such as for clustering tasks: they usually end up trying several algorithms until they stumble upon a satisfactory enough solution\cite{pisterIntegratingPriorKnowledge2021}.
 
