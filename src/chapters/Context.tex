@@ -432,14 +432,25 @@ This allows to have a simple network to visualize and analyze, but it does not a
 
 Weighted networks model the importance of relations, with a weight $w$ attributed to each edge $e = (u, v, w)$, with $u, v \in V$, $e \in E$, and $w > 0$.
 Multiplex networks allow to model multiple kinds of relationships between actors, such as spouses and witnesses relations for an historical network constructed from marriage acts.
-In that case, each edge $e = (u, v, d)$ of the graph $G = (V, E, D)$ have a type $d \in D$ which characterize the relation.
-In the example of marriages, $D = \{spouse, witness\}$.
+In that case, each edge $e = (u, v, d)$ of the graph
+\begin{equation}
+    G = (V, E, D)
+\end{equation}
+have a type $d \in D$ which characterize the relation. In the example of marriages, $D = \{spouse, witness\}$.
 Most relations extracted from historical documents also often contain time information, which can be modeled into dynamic networks.
 Many dynamic network models have been proposed\cite{rossettiCommunityDiscoveryDynamic2018}, depending if the time is encoded in the nodes, the links, or both, and if entities have a discrete or interval time.
-As it is often hard to infer the end of social relationships from the trace of historical documents, we only consider in this thesis models which give a timestamp to either nodes or edges, such that $G = (V, E, T)$ with vertices consisting of tuples $(u, t)$ and edges of triples $(u, v, t)$, with $t \in T$.
+As it is often hard to infer the end of social relationships from the trace of historical documents, we only consider in this thesis models which give a timestamp to either nodes or edges, such that
+\begin{equation}
+    G = (V, E, T)
+\end{equation}
+with vertices consisting of tuples $(u, t)$ and edges of triples $(u, v, t)$, with $t \in T$.
 
 Bipartite networks have been proposed to model relations between two types of entities, such as organization and employees where the relations link employees to organizations but not employees to employees or organizations to organizations\cite{borgattiSocialNetworkAnalysis2009}.
-Formally, each node have a type $b \in B$, with $G = (V, E, B)$, $card(B) = 2$, and for each edge $e = (u, v) \in E$, the types $b_u$ and $b_v$ of $u$ and $v$ are not equal $b_u \neq b_v$.
+Formally, each node of the graph
+\begin{equation}
+    G = (V, E, B)
+\end{equation}
+have a type $b \in B$, with $card(B) = 2$. For each edge $e = (u, v) \in E$, the types $b_u$ and $b_v$ of $u$ and $v$ are not equal $b_u \neq b_v$.
 Many social situations or documents can be modeled in these terms (%\textit{Interlocking directorates},
 affiliation lists or co-authoring).
 Multivariate networks, \ie graphs, where vertices and edges can be assigned multiple ``properties'' or ``attributes'', are less used in SNA\@.
@@ -448,7 +459,7 @@ These attributes are often considered secondary, the emphasis of SNA being on th
 Historians, demographers, sociologists, and anthropologists have also been designing specific data models for their social networks, based on genealogy or more generally kinship~\cite{hambergerKinshipNetworkAnalysis2011}.
 For genealogy, the standard GEDCOM~\cite{gedcom} format models a genealogical graph as a bipartite graph with two types of vertices: individuals and families.
 This format also integrates an ``event'' object but it is diversely adapted in genealogical tools.
-The \href{https://www.kintip.net/}{Puck software} has extended its original genealogical graph with the concept of ``relational nodes'' to adapt the data model to more family structures and to integrate other social relationships for anthropology and historical studies~\cite{hambergerScanningPatternsRelationship2014}.
+The Puck software~\cite{hambergerScanningPatternsRelationship2014} has extended its original genealogical graph with the concept of ``relational nodes'' to adapt the data model to more family structures and to integrate other social relationships for anthropology and historical studies.
 
 When creating a network, sociologists and anthropologists can use direct observations of the real world, which is not the case for historians who only have access to biased and partial sources.
 Indeed, the documents historians inspect are often produced by the political and economical elite of the time, and include the subjective view of the authors, especially for literary sources (letters, journals, books, etc.).

@@ -3,13 +3,12 @@
 
 \newcommand{\combinet}{ComBiNet\xspace}
 
-In the previous chapter \autoref{ch:hsna-process-and-network-modeling}, I showed that \modelplural allow to model well historical documents, with \emph{simplicity}, \emph{reality} and \emph{traceability} properties.
+In the previous chapter \autoref{ch:hsna-process-and-network-modeling}, I showed that \modelplural allow to model well historical documents, with \emph{traceability}, \emph{document reality}, and \emph{simplicity} properties.
 However, no visual tools currently exist to specifically explore and manipulate this type of data.
 In this chapter, I propose a \va interface aimed at exploring historical documents modeled as \modelplural, for historians to be able to reflect on their data and encoding and to follow in depth-analysis.
-I answer \textbf{Q2} by analyzing tasks and questions historians have on their data and providing interaction mechanisms that would allow them to answer their historical questions while finding errors in their data.
+I answer \textbf{Q2} by analyzing tasks and questions historians have on their data and providing interaction mechanisms that would allow them to apply specific views and extraction, find errors and reflect on the annotations, and answer their high-level historical question through visual queries and comparison.
 
-\paperbox{This chapter is an updated version of an article currently submitted to the journal Computer Graphics Forum, and a poster presented at the conference EuroVis 2022 \cite{pisterVisualQueriesBipartite2022}. It was a joint work with my advisors Christophe Prieur and Jean-Daniel Fekete. I did the development of the interface and led the discussions, evaluation, and writing of the paper.}
-
+\paperbox{This chapter is an updated version of an article currently submitted to the journal Computer Graphics Forum (fast track), and a poster presented at the conference EuroVis 2022 \cite{pisterVisualQueriesBipartite2022}. It was a joint work with my advisors Christophe Prieur and Jean-Daniel Fekete. I did the development of the interface and led the discussions, evaluation, and writing of the paper.}
 
 \section{Context}
 
@@ -169,8 +168,8 @@ By analyzing the questions we leveraged tasks and requirements that I used to de
 
 \subsection{Use Cases}
 
-We elaborated this interface from the collaborations with historians we described in \autoref{subsec:hsna-examples}.
-These collaborations involved regular meetings and multiple discussions over two years.
+We elaborated this interface from the collaborations with historians I described in \autoref{subsec:hsna-examples}.
+These collaborations involved regular meetings and multiple discussions over three years.
 All these datasets are textual corpora constituted of historical documents mentioning people with complex relationships, which are well modeled with \modelplural.
 We give more details about the datasets of these collaborations in this section, along with our collaborators' main questions with the associated network queries to answer them.
 The full answers involve visualizations of the query results and attribute summaries that I describe in the next section.
@@ -220,8 +219,8 @@ We categorized the questions according to four dimensions: global (G)/local (L) 
     \item[\myindent Query 12.2] Select persons in the second half of the 19\ts{th} century with a profession mentioned
     \end{description}
     \end{footnotesize}
-
-    \item Analysis of migrations from Spain to Argentina through the \textbf{marriage acts at Buenos Aires in the 17--19\ts{th} centuries (1396 acts, 6731 persons)~\cite{moutoukiasBuenosAiresPort2016}.}
+%6659 PERSONS. 1381 MARRIAGE_ACTS.
+    \item Analysis of migrations from Spain to Argentina through the \textbf{marriage acts at Buenos Aires in the 17--19\ts{th} centuries (1381 acts, 6659 persons)~\cite{moutoukiasBuenosAiresPort2016}.}
     The corpus is made of acts that mention the spouses and the witnesses of the wedding, which are the roles modeled by the links. The origin, date of birth, and parents' names are specified for both spouses.
     % These parenting relationships are important for our collaborator, but do not refer to the same event as the marriage. Thus, we create another event node referencing the birth event, with \textit{father, mother}, \textit{child} as roles and the associated birth year and location as node attributes.
     \begin{footnotesize}
@@ -925,9 +924,9 @@ It thus confirms the hypothesis of our collaborator.
 
 
 \subsection{Marriage acts in Buenos Aires (\#3)}\label{subsec:usecase-BA}
-
+%6659 PERSONS. 1381 MARRIAGE_ACTS.
 I present in this subsection how \combinet has been used to detect erroneous encoding during the annotation process of the marriage acts of our collaboration \zacarias.
-The documents mention 6659 individuals, who can have the same name, especially between fathers and sons in this period and region as specified by our collaborator.
+The 1381 documents mention 6659 individuals, who can have the same name, especially between fathers and sons in this period and region as specified by our collaborator.
 During the annotation process, the historian and his collaborators gave identifiers to the persons mentioned in the documents---which is typically part of the annotation procedure.
 However, in the case of homonyms, it can be hard to know if some mentions between different documents refer to the same or different persons.
 Historians cross the information contained in the different documents to disambiguate the persons\cite{winchesterLinkageHistoricalRecords1970}, but errors can easily be made, \ie giving the same identifier to different persons or giving different identifiers to the same person.

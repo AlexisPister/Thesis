@@ -182,11 +182,48 @@ Dufournaud presents her quantitative and network workflow when studying the econ
 %Historians should be aware of this and choose a network model which fits their analytical goals.
 
 
-\section{Historical Social Network Analysis Workflow}
+\section{Historical Social Network Analysis Workflow}\label{sec:hsna-workflow}
 
 
-From the literature and our own projects of \hsna we conducted during the last three years in collaborations with historians, we propose a formalization of the \hsna workflow divided into 5 steps: \textit{textual sources acquisition}, \textit{digitization}, \textit{annotation}, \textit{network creation}, and finally \textit{visualization and analysis}.
-The workflow is presented in \autoref{fig:HSNA-process} along with potential and recurrent pitfalls.
+From the literature and our own projects of \hsna we conducted during the last three years in collaborations with social historians, I propose a formalization of the \hsna workflow divided into 5 steps: \textit{textual sources acquisition}, \textit{digitization}, \textit{annotation}, \textit{network creation}, and finally \textit{visualization and analysis}.
+I start by describing the sources and research questions of the different collaborations in \autoref{subsec:hsna-examples}, explain each step of the workflow in \autoref{subsec:hsna-workflow}, and characterize three properties \va systems supporting this workflow should satisfy in \autoref{subsec:hsna-properties}.
+%The workflow is presented in \autoref{fig:HSNA-process} along with potential and recurrent pitfalls.
+
+
+\subsection{Examples}\label{subsec:hsna-examples}
+
+We discussed with four experienced social historians collaborators at different steps of their \hsna workflow about their process: how they inspect and annotate their sources, what network representation they plan to use, and what are their research questions.
+%annotation process and how they wanted to model their data into a network.
+They all work on semi-structured historic documents, mentioning complex relationships.
+I provide more details in the following:
+
+\begin{enumerate}[nosep,leftmargin=*]
+    \item Analysis of the social dynamics from \textbf{construction contracts in Italy in the 18\ts{th} century\cite{Cristofoli2018, Rolla2018}.}
+    %\textcolor{red}{PC: The corpus was created by N. Rolla through the exploitation of the manuscript registers of the \textit{Azienda generale fabbriche e fortificazioni} (State Archives of Turin)[REF : Rolla Nicoletta, 2018, "Mobilité et conflits. Travailler sur les chantiers de construction piémontais dans la première moitié du XVIIIe siècle" dans Andrea Caracausi et Marco Schnyder (eds.), Travail et mobilité en Europe (XVIe-XIXe siècles), Villeneuve d’Ascq, Presses universitaires du Septentrion (coll. Histoire et civilisations), p. 49‑72]. }
+    The corpus is made of contracts for different types of constructions in the Piedmont area in Italy. People are typically mentioned under three different construction roles: \textit{Associates} who are in charge of the construction, \textit{Guarantors} who bring financial guarantees, and \textit{Approvers}, who vouch for the guarantors. Documents contain information about the building sites, the types and materials of constructions, and the origins of people. Historians working on this project were interested in characterizing the social structure underlying those contracts, if there were specializations in types of constructions, and describing the life trajectory certain people.
+    \item Analysis of migrations from the \textbf{genealogy of a French family between the 17\ts{th}--20\ts{th} centuries} [unpublished work].
+    The corpus is made of family trees referring to several document/event types: birth and death certificates, marriage acts, military records, and census reports.
+    The social historian wants to characterize the main migrations of individuals and families in France, according to time and places.
+    She is also interested in studying specific families, with theories that in some areas, people were moving places in a circluar fashion across the years.
+    Finally, she is interested in the average social mobility of individuals across the years.
+%    The roles are different for each event type and consist of \textit{children, father, mother} for the birth events, \textit{deceased} for the death event, \textit{spouse} and \textit{witnesses} for the marriages, and \textit{family member}s for the census events.
+    \item Analysis of \textbf{marriage acts at Buenos Aires in the 17--19\ts{th} centuries ~\cite{moutoukiasBuenosAiresPort2016, rueda1989matrimonios}.}
+% \textcolor{red}{PC: The corpus was created by Z. Moutoukias \& C. Prieur through the digitization and annotation of a publication of the Buenos Aires Archives [REF: Jauregui Rueda, Carlos, Matrimonios de la catedral de Buenos Aires, 1747 – 1823, Buenos Aires, Fuentes Genealógicas e Históricas Argentinas, 1989]. }
+    The corpus is made of summaries of marriage records that mention the spouses and the witnesses of the wedding.
+    The origin, date of birth, and parents' names are specified for both spouses.
+    The historian is mainly interested in characterizing the relationships between witnesses and spouses---if they are typically of the same family, and if being witness is sometimes used to ask favors in exchange.
+    % These parenting relationships are important for our collaborator, but do not refer to the same event as the marriage. Thus, we create another event node referencing the birth event, with \textit{father, mother}, \textit{child} as roles and the associated birth year and location as node attributes.
+    \item Socio-political analysis of \textbf{migration of ethnic Germans from communist Romania to West Germany in the 20th century (ongoing work)~\cite{diminescuMigrationEthnicGermans2020}.}
+    The corpus is made of administrative forms that mention persons requesting to migrate, along with the persons they want to join, and the administrative persons of the ministry in charge of the forms.
+    The family members of the aspiring migrants are also mentioned in the forms, with their respective dates of birth.
+    Our historian collaborator is interested in characterizing the socio-economical profile of migrants and the types of family member they are typically joining in Germany.
+\end{enumerate}
+
+Each historians planned to follow a network analysis.
+They typically first read and inspect their sources in depth, before encoding their content in the aim of constructing a network.
+They plan to use analytical and visualization tools to then explore the structure of the relationships, and answer their questions.
+
+\subsection{Workflow}\label{subsec:hsna-workflow}
 
 \begin{figure}
 %    \includegraphics[origin=c, width=\textwidth]{static/figures/HSNAProcess/OriginalPaperFigures/Process5.pdf}
@@ -195,22 +232,24 @@ The workflow is presented in \autoref{fig:HSNA-process} along with potential and
     \label{fig:HSNA-process}
 \end{figure}
 
-% When following an HSNA, historians' goals is to characterize structural and individual socio-economic patterns between actors of a given period and place. For this, they try to model with a network real world social relationships and interactions between actors, that they extract from historical documents. By characterizing the structure of the network using visualization and analysis techniques, they can conclude on high level sociological conclusions~\cite{wetherell_historical_1998}.
-
 % This process is not straightforward, and has not been discussed a lot in the HSNA community. Dufournaud describes her workflow when studying socio-economic status of women in France in the 16th and 17th centuries, that she split in three steps: \textit{data collection}, \textit{data processing}, and \textit{data analysis}~\cite{dufournaud2018comment}. From the literature and discussions with historians collaborators we propose an HSNA workflow description split in 5 steps: \textit{textual sources acquisition}, \textit{digitization}, \textit{annotation}, \textit{network creation} and finally \textit{visualization and analysis}. The workflow is presented in \autoref{fig:HSNA-process} along recurrent potential issues which can arise.
-
-
 %\noindent\textbf{Textual Sources Acquisition}
 
-\subsection{Textual Sources Acquisition}
+I formalize the \hsna workflow of social historians from of our collaborations (\autoref{subsec:hsna-examples}) but also the literature, and informal discussions with other social historians.
+We can divide it into 5 steps: \textit{textual sources acquisition}, \textit{digitization}, \textit{annotation}, \textit{network creation}, and finally \textit{visualization and analysis}.
+For each step, I present recurring pitfalls which occurred during our collaborations, or that are discussed in the literature\cite{diesnerImpactEntityDisambiguation2015, cristofoliAuxSourcesGrands2008, lemercierAnalyseRéseauxHistoire2005}.
+A diagram of the workflow is presented in \autoref{fig:HSNA-process}.
+
+%\subsubsection{Textual Sources Acquisition}
+\noindent\textbf{Textual Sources Acquisition}
 Historians' first step is gathering a set of textual historical documents mentioning people with whom they will have social ties.
 For this, they usually take documents from a specific source---such as a folder from a national or local archive---and restrict them to a period and place that they want to study.
 They also often restrict themselves to one document type---such as marriage or notary acts---to focus the analysis on one or few types of social relationships that they want to understand in depth.
 However, one rule of the historian's method is to crosscheck from multiple sources, so an initial corpus is often extended with another set of related sources.
 Once they restricted their search to a set of documents, a time, and a geographic area, they try to exhaustively find all the documents matching the desired properties, as \textbf{missing documents can result in uncertainty in the network structure and therefore the sociological conclusions (P1)}.
 
-\subsection{Digitization}
-%\noindent\textbf{Digitization}
+%\subsubsection{Digitization}
+\noindent\textbf{Digitization}
 Digitization consists in converting the sources into a digital format.
 % \textcolor{green}{For modern history where the documents have been produced digitally or scanned and digitized through optical character recognition (OCR), this step can be skipped. For modern documents, digitization is now almost always done as it allows to tremendously ease the storage, indexation, and annotations of the documents} \textcolor{red}{
 This step can be skipped for the most recent periods where many documents have been produced digitally or can be scanned and well digitized through optical character recognition (OCR), allowing to tremendously ease the storage, indexation, and annotation of the documents.
@@ -222,8 +261,8 @@ However, before mid 20th century, most historical primary sources are stored in 
 However, if OCR tools are more and more efficient in English and highly used languages, historians can work with old documents written in old or extinguished languages and with atypical writings (e.g., Fraktur handwriting and typefaces for German in the early 20th century).
 Therefore, OCR tools are often unusable in social history and digitization remains an expensive and sometimes highly skilled process.
 
-\subsection{Annotation}
-%\noindent\textbf{Annotation}
+%\subsection{Annotation}
+\noindent\textbf{Annotation}
 Annotation (often called \emph{encoding}) is the process of finding and extracting useful information from the documents concerning the persons, their social ties, and any useful information for the historian.
 This extra information can concern the persons (their age, profession, sex, ethnicity, etc.) and their social relationships (type, date, place).
 It encompasses named-entity recognition (NER) as well as their resolution.
@@ -236,16 +275,15 @@ Historians also face ambiguity in the process, as several persons and entities (
 They, therefore, have to follow a NER and resolution/disambiguation process to identify entities in the sources and disambiguate them across several documents.
 Entity resolution has always been a problem in social history---as it is more generally in text analysis, where typical groundwork consists in crossing information about the same entities from different heterogeneous sources.
 However, errors in the disambiguation process can lead to important distortions in the final network structure and properties~\cite{diesnerImpactEntityDisambiguation2015}, e.g, people connected to the wrong ``John Doe''.
-
 Historians usually carry out this process manually but can also use automated methods and refine the results themselves later.
-Unfortunately, \textbf{errors are common in this step as automated methods do not provide perfect accuracy, nor doing it manually given the lack of global information (P5)}.
-
+Unfortunately, \textbf{errors are common in this step as automated methods do not provide perfect accuracy, nor doing it manually given the lack of global information (P5)}.\\
 The Text Encoding Initiative (TEI)~\cite{TEI} is an XML vocabulary and a set of guidelines typically used to encode and annotate documents, and the events happening in these documents (unclear parts, gaps, mistakes, etc.).
 It is also used for historical texts and to generate social networks~\cite{dufournaudComparaisonOutilsPour2006, serranomolineroUnderstandingUseVistorian2017}.
 Unfortunately, the guidelines are not meant to define a canonical annotation and different persons can interpret the guidelines in different ways, leading again to inconsistent annotations of corpora (P4) and to errors or distortions in social networks derived from these annotations.
 % Several softwares can be used for annotation and are usually stored in markups formats such as XML .
 
-\subsection{Network Creation}
+%\subsection{Network Creation}
+\noindent\textbf{Network Creation}
 Historians construct one or multiple networks from the annotations of the documents.
 Typically, all persons mentioned are annotated and are transformed into network nodes (vertices).
 Additional information such as their age, profession, and gender can be stored as node attributes.
@@ -253,20 +291,10 @@ How the network's links are created is not as trivial and can vary from project 
 The most straightforward approach is to create a link between every pair of persons mentioned in one document, thus forming a clique motif.
 This is a simplistic heuristic as social relationships can be quite complex, involving more than two persons who can have different roles in the relationship.
 The choice of the network model has a major impact on the future analysis and \textbf{may add bias if chosen loosely (P6)}, such as the creation of network structural artifacts when using network projections\cite{cristofoliAuxSourcesGrands2008}.
-More complex models have been proposed in the literature such as weighted, dynamic, bipartite, and layered networks, but can be hard to manipulate and visualize. % We discuss them more in depth in \autoref{sec:modeling}.
+More complex models have been proposed in the literature such as weighted, dynamic, bipartite, and layered networks, but can be hard to manipulate and visualize. I discuss them more in depth in \autoref{sec:modeling}.
 
-% A more factual approach consists in differentiating the roles of the persons in the documents and modeling them as link types. For example, for marriage acts, the witnesses will be linked with the spouses with a \textit{witness} link, while the spouses will be linked together with a \textit{spouse} link. However, there are often several possible representations, as the social relationships include several people and are difficult to represent as pairwise ties. For example, witnesses can be linked to one, or both of the spouses depending on the analysis goals. If a priest is leading the ceremony, he could be linked to the spouses, or the spouses and the witnesses.
-% Furthermore, for both examples, there is a loss of information concerning the precise events and we may not retrieve who was mentioned in the exact same documents from the network alone. For example, if someone marry twice, we may not know which marriage the witnesses are from.
-% To counter these issues, some historians transform their sources into bipartite networks (also called 2-modes and affiliation networks), where the sources are also modeled as nodes and the links model the occurrences of a person in a document, with their roles.
-
-\subsection{Network Analysis and Visualization}
-%\noindent\textbf{Network Analysis and Visualization}
-
-% Once historians constructed a network they are satisfied with, they start exploring and analyzing it with visualization and quantitative methods.
-% There is traditionally two schools of thought in SNA : Structuralism and Ego studies~\cite{eve_deux_2002}. Structuralists are interested in studying the global structure and properties of the network, and leverage those to make conclusions on real social phenomena.
-% In contrary, sociologists following ego studies focus more on specific individuals, and try to model all their social interactions whatever the type to understand other sociological attributes such as their status, or certain behaviours. This approach is thus often using ego networks, multiplex relationships and dynamic networks.
-% Most HSNA studies usually involve concepts and methods from these two approaches~\cite{cristofoli_aux_2008}, trying to make structural conclusions on how an organization operates while observing specific individuals in all their complexity.
-% During the analysis, historians use visualization tools to gain a better understanding of the network's structure. It allows them to explore the network and detect interesting patterns rapidly. Most widely used tools are Pajek and Gephi, which also provide algorithms for the analysis, such as for community detection or structural analysis.
+%\subsection{Network Analysis and Visualization}
+\noindent\textbf{Network Analysis and Visualization}
 Once historians have constructed a satisfactory network, they start exploring and analyzing it with visualization and quantitative methods.
 The final goal of HSNA is to find interesting patterns and link them to social concepts to gain high-level socio-historical insights~\cite{freemanDevelopmentSocialNetwork2004, wetherellHistoricalSocialNetwork1998}.
 Usually, historians start to visualize their network to visually confirm information they know, then to potentially gain new insight with exploration.
@@ -281,7 +309,33 @@ However, it can also be interpreted as a position of vulnerability in other cont
 Social scientists, therefore, have to be careful when interpreting network measures and take into account the globality of their sources when interpreting the network they constructed.
 
 
-\section{Network modeling and analysis}\label{sec:modeling}
+\subsection{Visual Analytics Supported Historical Social Network Analysis}\label{subsec:hsna-properties}
+
+Social historians typically follow the workflow described in \autoref{subsec:hsna-workflow} linearly, meaning that at the end of the process they can realize that the analysis and visualization of the network does not allow to answer their research questions\cite{lemercier12FormalNetwork2015}.
+This can in part be explained by the fact that visualization and analytical \sna tools are only focused on the last part of the process.
+To fully support social historians, \va interface should therefore provide assistance and guidance on the whole process, from the acquisition of the documents (since archives now provide digital catalogues) to the final analysis.
+Specifically, from discussions with our collaborators, we identify three properties that \va interfaces should satisfy for a good integration into the historians workflow and to limit the recurring pitfalls we identified in \autoref{subsec:hsna-workflow}: \emph{traceability}, \emph{document reality}, and \emph{simplicity}.
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=0.70\linewidth]{static/figures/HSNAProcess/properties}
+    \caption{Three properties essential to \va systems supporting the social historians workflow: \emph{traceability}, \emph{document reality}, and \emph{simplicity}.}\label{fig:HSNA-properties}
+\end{figure}
+First, Traceable systems enable to do easier back and forth between the different annotation, modification, modeling, and analysis steps and provide a transparent chain of operations leading from the acquisition of the sources to the high-level socio-historical conclusions.
+Traceability should be operated during the annotation and modeling process (for example to see why two mentions of persons have been given the same identifier, and to trace back network entities to the documents' annotations) but also during exploration.
+Seeing every low-level operation (filter, selection, group-by, etc.) leading to the generation of insight lead to better transparency and replication\cite{callahanVisTrailsVisualizationMeets2006, xuSurveyAnalysisUser2020}.
+Second, the digitization, encoding, modeling, and analysis/visualization steps should always reflect the textual reality of the documents \ie the \emph{document reality}\footnote{We chose the term ``document reality'' over simply ``reality'' after a conversation with a historian to highlight the fact the historical documents do not describe factually the reality and reflect the subjective bias of the context in which the person wrote them\cite{karila-cohenNouvellesCuisinesHistoire2018}. The content of the documents, therefore, has to be modeled by taking into account this context, which can reveal interesting behaviors and structural patterns. See \cite{lemercierBackSourcesPracticing2021} for specific examples.}, in order to reduce the introduction of bias, simplification, and anachronisms in the analysis\cite{karila-cohenNouvellesCuisinesHistoire2018, lemercierQuantitativeMethodsHumanities2019}.
+Indeed, encoding and modeling the data with abstraction and constructed concepts\footnote{In anthropology, the terms \emph{emics} and \emph{etics} refer respectively to intrinsic phenomena related to observation and constructed categories and abstractions\cite{headlandEmicsEticsInsider1990}.} such as the concept of families or ``social proximity'', often result in distortions (simplification or modifications), duplication, and loss of information contained in the documents.
+Specifically, the choice of the network model embodies how the content of the sources is manipulated and abstracted in the goal of making historical conclusions, and deeply influence the annotation/encoding and analysis/visualization steps.
+I discuss network models more in depth in the next \autoref{sec:modeling}.
+Finally, as discussed in \autoref{sec:intro-HSNV}, social scientists often have trouble importing their data in \sna tools\cite{alkadi2022} and often perform ``soft SNA''\cite{rollingerProlegomenaProblemsPerspectives2020} only due to usability problem and ``Math anxiety''\cite{paxtonDollarsSenseConvincing2006}.
+\va tools should therefore focus on \emph{simplicity} through the use of simple and comprehensible models and high usability systems.
+The three properties and their effects on the workflow are summarized in \autoref{fig:HSNA-properties}.
+
+
+
+
+
+\section{Network Modeling and Analysis}\label{sec:modeling}
 
 % \subsection{Quantitative History}
 
@@ -301,37 +355,42 @@ Social scientists, therefore, have to be careful when interpreting network measu
 % When transforming the information of the documents into a network, historians have to make choices on what to annotate and what to model into the network. As these steps of the workflow are often not transparent, it can be difficult for the reader of an HSNA study to understand how does the network has been constructed, what it represents, and to trace back the network entities from the original sources~\cite{dufournaudCommentRendreVisible2018}. Also, too complicated models are harder to visualize and analyze. For these reasons, we argue that a good network model should reflects well the reality of the social relationships mentioned in the documents, is traceable to the original sources, and is simple enough to visualize and understand.
 % We think network models which satisfy these three properties---\textbf{reality},  \textbf{traceability} and \textbf{simplicity}---should always be constructed from the original sources as a basis for the analysis.
 
-Historians typically construct one or several networks from their annotated documents that they will visualize and analyze to validate or find new hypotheses.
-As the processing steps of the workflow are often not transparent (digitization, annotation, network modeling), it can be difficult for the reader of an HSNA study to understand how the network has been constructed, what it represents, and to trace back the network entities to the original sources~\cite{dufournaudCommentRendreVisible2018}.
+Historians typically construct one or several networks from their annotated documents that they visualize and analyze to validate or find new hypotheses.
+As the processing steps of the workflow are often not transparent (digitization, annotation, network modeling), it can be difficult for the reader of an \hsna study to understand how the network has been constructed, what it represents, and to trace back the network entities to the original sources~\cite{dufournaudCommentRendreVisible2018}.
 Moreover, visualizing the network very often highlights errors and artifacts of the annotations, along with potential mismatches between the network model and the analysis goals.
 Historians then have to correct or change their annotations, even though it is a very tedious and demanding process to repeatedly switch back and forth between the network and the annotated documents.
 Several network models make the task harder as they do not directly represent the documents, and it is thus difficult to relate a network entity to a specific document and annotation.
-Therefore, we believe that more visual analytics tools should support social scientists in annotating and modeling their documents to make the HSNA process less linear by allowing easier back and forth between the annotation, modeling, and visualization steps.
-Network models satisfying  \emph{traceability}, \emph{document reality}\footnote{We chose the term ``document reality'' over simply ``reality'' after a conversation with a historian to highlight the fact the historical documents do not describe factually the reality and reflect the subjective bias of the context in which the person wrote them\cite{karila-cohenNouvellesCuisinesHistoire2018}. The content of the documents, therefore, has to be modeled by taking into account this context, which can reveal interesting behaviors and structural patterns. See \cite{lemercierBackSourcesPracticing2021} for specific examples.} and \emph{simplicity} properties would mitigate those problems by allowing to navigate more easily between the network and the documents while still modeling well the social relationships mentioned in the sources and being easy enough to visualize and manipulate for analytical and data modification goals.
+Therefore, I believe that more visual analytics tools should support social scientists in annotating and modeling their documents to make the HSNA process less linear by allowing easier back and forth between the annotation, modeling, and visualization steps.
+Network models satisfying  \emph{traceability}, \emph{document reality}, and \emph{simplicity} properties would mitigate those problems by allowing to navigate more easily between the network and the documents while still modeling well the social relationships mentioned in the sources and being easy enough to visualize and manipulate for analytical and data modification goals.
 %the data and detect potential errors and inconsistencies.
 
-\subsection{Network Models}
+The choice of the network model to represent the social relationships mentioned in historical documents deeply influence the annotation and visualization/analysis processes.
+Many network types have been proposed in the literature.
+While simple ones---which are widely used---are easy to manipulate, they very often break \emph{traceability}---the network entities are not traceable to direct annotations, and sometimes correspond to constructed concepts---and the \emph{reality} of the documents.
+In the contrary, complex models are often hard to manipulate and visualize.
+I present the most widely use network models in the \hsna literature in \autoref{subsec:hsna-network-models} and present \modelplural as a model satisfying those three properties in \autoref{subsec:hsna-bipartite-model}.
+
+\subsection{Network Models}\label{subsec:hsna-network-models}
 
 Currently, historians use various network models depending on their knowledge of network science, the content of their documents, the schema of their annotations, and the analysis they plan to make.
-We describe here the most used network models in HSNA along with more recent ones:
+I describe here the most used network models in HSNA along with more recent ones:
 
 \begin{itemize}[nosep,leftmargin=*]
-    \item \textbf{Simple Networks~\cite{wetherellHistoricalSocialNetwork1998}:} According to their research hypotheses, historians select and merge document information to build a specific relationship between individuals. They analyze this simple network structure with SNA tools and produce network indicators and node-link visualizations. It is often difficult to connect the results to the original sources.
+    \item \textbf{Simple Networks~\cite{wetherellHistoricalSocialNetwork1998}:} According to their research hypotheses, historians select and merge document information to build a specific relationship between individuals. They analyze this simple network structure with SNA tools and produce network indicators and node-link visualizations. It is often difficult to connect the results to the original sources. Moreover, it does not take into account the diversity of social relationships, as every link is identical.
     \item \textbf{Co-occurrence networks~\cite{sairioMethodologicalPracticalAspects2009}:}
     % rubio-mondejarWomenEntrepreneursFamily2022}: % , keekMovementPerspectivesCollective, bouletBatchKernelSOM2008
-    Only the persons are represented as nodes, and two persons are connected with a link when they are mentioned in the same document (or section).
-    This is a simple model and one of the first to have been used in SNA and HSNA. The major drawback of this model is that it does not take into account the diversity of social relationships, as every link is identical. It can work well when only one type of social relationship is studied like a friendship network~\cite{morenoFoundationsSociometryIntroduction1941}. However, historical documents rarely mention only one type of relationship and this model is thereby very limiting for HSNA.
-    \item \textbf{Multiplex Unipartite Networks~\cite{eriksonMalfeasanceFoundationsGlobal2006}:} Only the persons are represented as nodes, and links model social ties between two persons. Links can have different types representing different types of social relationships. It allows modeling more complex social relations where people can have various social ties e.g. as parents, friends, and business relationships. However very often several possible representations for the same data exist as projections are often applied to the original documents to get this type of model. One of the main drawbacks of this model is that it creates parallel edges that are hard to visualize.
+    Only the persons are represented as nodes, and two persons are connected with a link when they are mentioned in the same document (or section). This can be a useful model to detect community-related patterns, but the constructed notion of ``proximity'' represented by the links simplify and hide the diversity of social relationships.
+    \item \textbf{Multiplex Unipartite Networks~\cite{eriksonMalfeasanceFoundationsGlobal2006}:} Only the persons are represented as nodes, and links model social ties between two persons. Links can have different types representing different types of social relationships. It allows the modeling of more complex social relations where people can have various social ties e.g. as parents, friends, and business relationships. However very often several possible representations for the same data exist as projections are often applied to the original documents to get this type of model.
     %, and very often several possible representations for the same data exist, especially for complex relationships. [jdf] true for the other network types
     \item \textbf{Bipartite (also called 2-mode) Networks
     ~\cite{hambergerScanningPatternsRelationship2014}
     %~\cite{hamberger_scanning_2014, lippPetitionsSocialContext2001a, shafie_hypergraph_2017}
     :} Nodes can have two types: persons and documents in this network model. A link refers to a mention of a person in a document and can thus only occur between persons and documents nodes. Usually, links are not typed and only encode mentions.
-    More recent analyses in HSNA encode the \emph{roles} of the persons in the documents as link types~\cite{Cristofoli2018}. This network model is more aligned with the original sources and allows following an analysis through the original documents themselves and not through concepts. For example, the GEDCOM format introduces the concept of ``family'' that ties together a husband, spouse, and children with different link types.
-    However, the concept of family can have different meanings across time and cultures, meaning that GEDCOM adds a conceptual layer instead of grounding the network to concrete traceable documents and events (e.g., no marriage but birth certificates).
+    More recent analyses in HSNA encode the \emph{roles} of the persons in the documents as link types~\cite{Cristofoli2018}. This network model is more aligned with the original sources and allows following an analysis through the original documents themselves and not through concepts. It can also be used to represent constructed concepts, like the GEDCOM format which introduce the concept of ``family'' that ties together a husband, spouse, and children with different link types.
+    The concept of family can have different meanings across time and cultures, meaning that GEDCOM adds a conceptual layer instead of grounding the network to concrete traceable documents and events (e.g., no marriage but birth certificates).
     % In our model, a family tie would be replaced by different documents: the marriage certificate and  birth certificates, to ground the network to concrete traceable documents and events.
     \item \textbf{Multilayer Networks~\cite{multilayer}: } in these networks, each node (vertex) is associated with a \emph{layer} $l$ and becomes a pair $(v, l)$, allowing to connect vertices inside a layer or between layers. These advanced networks have received attention from sociologists~\cite{CRNOVRSANIN201456} and historians~\cite{vanVugt_2017}, but they are complex. The meaning of a layer varies from one application to another; it can be time (years), type of documents, the origin of sources, etc. They, therefore, offer many (too many) options for modeling a corpus, and visualizing it, with no generic system to support historians for taming their high complexity.
-    \item \textbf{Knowledge Graphs (KG)\cite{hoganKnowledgeGraphs2021}: } they represent knowledge as triples $(S, P, O)$ where $S$ is a \emph{subject}, $P$ is a \emph{predicate}, and $O$ is an \emph{object}. Everything is encoded with these triples using controlled vocabularies of predicates and rules known as \emph{ontologies}. KG is popular for encoding knowledge on the web, including historical knowledge. However, it is notoriously complex to encode documents using KG due to the complexity of the format and the wide choice of possible ontologies. Most historians are unable to understand KG and even less to use it for annotating a corpus. Since KG are generic, they need complex transformations to be visualized, with no generic system to support historians in taming their high complexity.
+    \item \textbf{Knowledge Graphs~\cite{hoganKnowledgeGraphs2021}: } they represent knowledge as triples $(S, P, O)$ where $S$ is a \emph{subject}, $P$ is a \emph{predicate}, and $O$ is an \emph{object}. Everything is encoded with these triples using controlled vocabularies of predicates and rules known as \emph{ontologies}. Knowledge Graphs are popular for encoding knowledge on the web, including historical knowledge. However, it is notoriously complex to encode documents using knowledge graphs due to the complexity of the format and the wide choice of possible ontologies. Most historians are unable to understand knowledge graphs and even less to use it for annotating a corpus. Since knowledge graphs are generic, they need complex transformations to be visualized, with no generic system to support historians in taming their high complexity.
 \end{itemize}
 
 
@@ -346,15 +405,70 @@ We describe here the most used network models in HSNA along with more recent one
 %Using this kind of model usually requires learning complex query language to manipulate the data, such as the SPARQL language for KG\@.
 %Therefore, we argue that historians should aim to model a network that is simple enough to manipulate, can be traced back to the original sources, and model well the social reality of the documents---i.e. having those three properties: \textit{simplicity}, \textit{traceability}, and \textit{reality}.
 
-
-We argue that historians should aim to model their networks simply enough to be manipulated by them, in a way that entities can be traced back to the sources, and expressive enough to model accurately the social reality of the documents---i.e., having those three properties:  \textit{simplicity}, \textit{traceability}, and \textit{document reality}.
+%We argue that historians should aim to model their networks simply enough to be manipulated by them, in a way that entities can be traced back to the sources, and expressive enough to model accurately the social reality of the documents---i.e., having those three properties:  \textit{simplicity}, \textit{traceability}, and \textit{document reality}.
 
 Currently, most digital historical projects use unipartite networks (simple, co-occurrence, and multiplex) that are simple and allow answering specific questions, but they do not capture all the complexity of the documents, resulting in simplifications and distortions of the structural patterns.
-For example, modeling only co-occurrences of persons in documents remove the variety of social relationships these mentions can refer to\cite{lemercier12FormalNetwork2015}.
-Moreover, since documents are not explicit in the unipartite model, it is hard to trace the network entities back to the sources: the traceability property is not satisfied, meaning that the data is harder to correct and that analyses are less replicable.
-On the other side, multilayer networks and knowledge graphs allow to model documents as entities and express complex relationships between various other entities they mention.
-These models can be very expressive but are challenging to use for historians, especially without guidelines; without \textit{simplicity}, the \textit{traceability} and \textit{document reality} properties can be hard to achieve.
-The lack of simplicity, therefore, results in difficulties for visualization and analysis, especially for social scientists.
+I compare what would be the resulting networks for the these models and the bipartite model of our three collaboration use cases (the example \dana is still in the phase of data acquisition), with additional information from the documents encoded as node and link attributes.
+I do this for one given document for each dataset.
+The results are shown in \autoref{tab:models}.
+
+\begin{table}[!ht]
+    \begin{tabular}{|m{4.5cm}|m{2.7cm}|m{2.7cm}|m{2.7cm}|}
+        \hline Original Document & Co-occurrence            & Unipartite Multiplex    & Bipartite           \\
+        \hline \tiny \underline{1712}: Construction of a church in \underline{Torino}.
+        Associates: \colorbox{associate}{Bellotto G, Bello P.M, Bello G.}
+        Guarantor: \colorbox{guarantor}{ Astrano G.A.}
+        Approbator: \colorbox{approbator}{Corte A.} \linebreak
+        \colorbox{associate}{Associate} \colorbox{guarantor}{Guarantor} \colorbox{approbator}{Approbator}
+        & \centering\simplePiemont & \centering\unipartitePiemont & \bipartitePiemont   \\
+        % \hline Le 7 octobre 1901, \colorbox{father}{François Marie Esnault} et \colorbox{mother}{Marie Julie Léopoldine Colson} ont déclaré la naissance de leur fille, nommée \colorbox{child}{Blanche Esnault} dans la commune de Saint-Maur-des-Fossés.uuu
+        \hline \tiny Du \underline{dix-neuf fevrier mil huit cent quatre-vingt quatre}, à six heures du soir.
+        Acte de naissance de \colorbox{child}{Dufournaud Alexis, enfant de sexe masculin} né le \underline{dix-neuf février}, à deux heures du soir au \underline{village de Grudet, commune de Saint} \underline{Symphorien}, des mariés \colorbox{father}{Dufournaud Alexis}, \colorbox{father}{cultivateur colon, âgé de trente ans}, et \colorbox{mother}{Marie Pardonnaud,} \colorbox{mother}{sans profession, agée de vingt-six ans}, demeurant au village de Grudet, dite commune de Saint-Symphorien. [...]
+        \linebreak
+        \colorbox{father}{Father} \colorbox{mother}{Mother} \colorbox{child}{Child}
+        & \centering\birthSimple   & \centering\birthUnipartite   & \birthBipartite     \\
+        \hline % \centering\includegraphics[scale=0.3]{OriginalPaperstatic/figures/HSNAProcess/OriginalPaperFigures/marriageDocumentnoParents}
+        \tiny \underline{20-4-1659} : \colorbox{epoux}{\underline{Capitán} Alonso MUÑOZ de GADEA}, con Da. \colorbox{epouse}{Francisca CABRAL LEAL de AYALA}. Ts.: \colorbox{temoin}{Agustín Gayoso}, y \colorbox{temoin}{Juan Guerrero. Al margen: "\underline{fue Oficial Real}"}, (f. 9v). \linebreak
+        \colorbox{epoux}{Husband} \colorbox{epouse}{Wife} \colorbox{temoin}{Witness}
+        & \centering\simple        & \centering\noParents         & \bipartiteNoParents \\
+        \hline
+    \end{tabular}
+    \caption{Resulting networks using different models produced by one document of the examples detailed in \autoref{subsec:hsna-examples}: co-occurrence, unipartite and bipartite models. The first column shows the partial transcription of real documents (simplification for collaboration \pascal). Colors represent annotations concerning the persons mentioned, their roles, and attributes. Underlines refer to information related to the events and which can be encoded as document/event attributes.
+    Only the time is represented for simplification, but other attributes would follow the same schema.
+    H: Husband, W: wife, T: Witness, M: Marriage, $A_N$: Associate, G: Guarantor, Ap: Approbator, C: Construction, F: Father, M: Mother, C: Child.
+    }\label{tab:models}
+\end{table}
+
+As shown by Cristofoli~\cite{cristofoliAuxSourcesGrands2008}, we can clearly see the co-occurrence model removes the complexity of the social relationships and only show an abstract ``proximity'' between individuals.
+Unipartite multiplex networks allow producing meaningful networks which model well the diversity of relations that can link several people.
+It especially models well simple relationships such as parenting ones as in example \nicole.
+However, it produces distortions for more complex relationships involving more than two persons, as in example \pascal where people can either be mentioned as associates, guarantors, and approbators in the documents.
+Associates should probably be linked together with \textit{associate} links, but the \textit{guarantors} and \textit{approbators} relationships are more complex to model.
+Approbators could be linked to the associates, the guarantors, or both.
+The three ways of modeling this type of relationship make sense but can lead to very different network shapes and analysis results.
+Historians thus have to decide on a transformation among several possibilities, which will probably distort the social reality of the relationships.
+
+These examples also show that when working with multivariate networks, using projections to create unipartite networks brings a duplication of information.
+Indeed, if a document mentions information like a date that we model as an attribute, we can store it as a document node attribute using a bipartite model.
+However, when projecting the network this information appears in the links as many times as there are persons mentioned in the document minus one and often more.
+For example, in the example \pascal in \autoref{tab:models} the time is stored in $\sum_{i=1} ^{4} i = 10$ links in the co-occurrence model and in 9 links in the multiplex unipartite model while it is only stored once as a document node attribute in the bipartite model.
+
+Both co-occurrence and unipartite multiplex models thus do not satisfy the \emph{document reality} property by introducing constructed concepts (notion of ``proximity'') or inferring one-to-one social relationships from mentions in a document mentioning more than two actors.
+
+Moreover, projections add ambiguity in retrospect of the original documents, as it becomes impossible to trace back one link to one specific document, as the same link could potentially refer to several ones~\cite{cristofoliAuxSourcesGrands2008}, \ie they do not satisfy the \emph{traceability} principle.
+
+More complex models such as multilayer networks and knowledge graphs could satisfy \emph{document reality} and \emph{traceability} principles (depending on the modeling choices, as these models are very expressive and do not enforce specific data schemas) but are complex to manipulate and visualize, especially for social scientists.
+In contrast, the bipartite model satisfy the \emph{document reality} and \emph{traceability} properties through the representation of documents as nodes and individuals mentions as links encoding their roles.
+This model is simple enough to manipulate according the number of studies leveraging it \sna\cite{lippPetitionsSocialContext2001, shafieHypergraphRepresentationsStudy2017, davisDeepSouthSocial2009, ochabDetectingOttokarII2022} and the development of \sna bipartite measures and algorithms\cite{borgattiSocialNetworkAnalysis2009, latapyBasicNotionsAnalysis2008, hambergerScanningPatternsRelationship2014}.
+Yet, most \hsna studies are based on the network topology and often do not leverage attributes, including time and location.
+We, therefore, claim that \modelplural allow to model historical documents with \emph{traceability}, \emph{document reality}, and \emph{simplicity} properties.
+I formalize and describe this model in the next \autoref{subsec:hsna-bipartite-model}.
+
+%For example, modeling only co-occurrences of persons in documents remove the variety of social relationships these mentions can refer to\cite{lemercier12FormalNetwork2015}.
+%Moreover, since documents are not explicit in the unipartite model, it is hard to trace the network entities back to the sources: the traceability property is not satisfied, meaning that the data is harder to correct and that analyses are less replicable.
+%On the other side, multilayer networks and knowledge graphs allow to model documents as entities and express complex relationships between various other entities they mention.
+%These models can be very expressive but are challenging to use for historians, especially without guidelines; without \textit{simplicity}, the \textit{traceability} and \textit{document reality} properties can be hard to achieve.
+%The lack of simplicity, therefore, results in difficulties for visualization and analysis, especially for social scientists.
 
 
 % TODO: maybe to a better figure
@@ -386,7 +500,7 @@ The lack of simplicity, therefore, results in difficulties for visualization and
 %  \label{tab:HSNA-modelsAndProps}
 % \end{table}
 
-\subsection{Bipartite Multivariate Dynamic Social Network}
+\subsection{Bipartite Multivariate Dynamic Social Network}\label{subsec:hsna-bipartite-model}
 
 Historical documents are well modeled by bipartite multivariate dynamic networks with roles, that can be formalized as
 
@@ -446,7 +560,6 @@ Therefore, social historians can use this model to store, process, and annotate 
 This model is \textit{simple} enough to manipulate and visualize for historians and allows tracing back every entity of the network to the documents according to the \textit{traceability} principle.
 Still, the network preserves the \textit{document reality} of the social relationships mentioned in the sources as no projection or transformation is applied.
 
-
 Visualization tools using this model can focus on the topology of the network, and/or the attributes which I express here in the format of tuples, commonly used by databases and visualization systems\cite{stoltePolarisSystemQuery2002}.
 However, it has to be taken into account that if the attributes extracted from the historical documents are related to vertices and edges independently to the topology of the network, it can be appropriate to compute vertices and edges measures---such as the centrality---and store them similarly to the other attributes, especially so that visualization systems can leverage the same interactions for both.
 In that case, these types of attributes are directly dependant of potential topology changes in the network (in the case of subgraph extraction or network modifications interactions for example).
@@ -493,84 +606,7 @@ Un tel modelèle de bas niveau (réseau du corpus documentaire) permet :\\
 }
 \fi
 
-
-
-\subsection{Examples}\label{subsec:hsna-examples}
-
-We discussed with four experienced historians collaborators at different steps of their HNSA workflow about their annotation process and how they wanted to model their data into a network.
-They all work on semi-structured historic documents, mentioning complex relationships.
-We provide more details in the following:
-
-
-\begin{enumerate}[nosep,leftmargin=*]
-    \item Analysis of the social dynamics from \textbf{construction contracts in Italy in the 18\ts{th} century\cite{Cristofoli2018, Rolla2018}.}
-    %\textcolor{red}{PC: The corpus was created by N. Rolla through the exploitation of the manuscript registers of the \textit{Azienda generale fabbriche e fortificazioni} (State Archives of Turin)[REF : Rolla Nicoletta, 2018, "Mobilité et conflits. Travailler sur les chantiers de construction piémontais dans la première moitié du XVIIIe siècle" dans Andrea Caracausi et Marco Schnyder (eds.), Travail et mobilité en Europe (XVIe-XIXe siècles), Villeneuve d’Ascq, Presses universitaires du Septentrion (coll. Histoire et civilisations), p. 49‑72]. }
-    The corpus is made of contracts for different types of constructions in the Piedmont area in Italy. People are mentioned under three different roles: \textit{Associates} who are in charge of the construction, \textit{Guarantors} who bring financial guarantees, and \textit{Approvers}, who vouch for the guarantors. Documents contain information about the building site, the type and materials of constructions, and the origin of the people.
-    \item Analysis of migrations from the \textbf{genealogy of a French family between the 17\ts{th}--20\ts{th} centuries} [unpublished work].
-    The corpus is made of family trees referring to several document/event types: birth and death certificates, marriage acts, military records, and census reports.
-    The roles are different for each event type and consist of \textit{children, father, mother} for the birth events, \textit{deceased} for the death event, \textit{spouse} and \textit{witnesses} for the marriages, and \textit{family member}s for the census events.
-    \item Analysis of migrations from Spain to Argentina through the \textbf{marriage acts at Buenos Aires in the 17--19\ts{th} centuries ~\cite{moutoukiasBuenosAiresPort2016, rueda1989matrimonios}.}
-% \textcolor{red}{PC: The corpus was created by Z. Moutoukias \& C. Prieur through the digitization and annotation of a publication of the Buenos Aires Archives [REF: Jauregui Rueda, Carlos, Matrimonios de la catedral de Buenos Aires, 1747 – 1823, Buenos Aires, Fuentes Genealógicas e Históricas Argentinas, 1989]. }
-    The corpus is made of summaries of marriage records that mention the spouses and the witnesses of the wedding.
-    The origin, date of birth, and parents' names are specified for both spouses.
-    % These parenting relationships are important for our collaborator, but do not refer to the same event as the marriage. Thus, we create another event node referencing the birth event, with \textit{father, mother}, \textit{child} as roles and the associated birth year and location as node attributes.
-    \item Socio-political analysis of \textbf{migration of ethnic Germans from communist Romania to West Germany in the 20th century (ongoing work)~\cite{diminescuMigrationEthnicGermans2020}.}
-    The corpus is made of administrative forms that mention persons requesting to migrate, along with the persons they want to join, and the administrative persons of the ministry in charge of the forms.
-    The family members of the aspiring migrants are also mentioned in the forms, with their respective dates of birth.
-\end{enumerate}
-
-We compare what would be the resulting networks for the three first examples (the example \dana is still in the phase of data acquisition) when modeling the data with the three most frequently used network models in HSNA: co-occurrence, multiplex unipartite, and bipartite networks.
-We also encode important information from the document as network attributes.
-We do this for one given document for each dataset.
-The results are shown in \autoref{tab:models}.
-
-As shown by Cristofoli~\cite{cristofoliAuxSourcesGrands2008}, we can clearly see the co-occurrence model removes the complexity of the social relationships and only shows an abstract ``proximity'' between individuals.
-Unipartite projections allow producing meaningful networks which model well the diversity of relations that can link several people.
-It especially models well simple relationships such as parenting ones as in example \nicole.
-However, it produces distortions for more complex relationships involving more than two persons, as in example \pascal where people can either be mentioned as associates, guarantors, and approbators in the documents.
-Associates should probably be linked together with \textit{associate} links, but the \textit{guarantors} and \textit{approbators} relationships are more complex to model.
-Approbators could be linked to the associates, the guarantors, or both.
-The three ways of modeling this type of relationship make sense but can lead to very different network shapes and analysis results.
-Historians thus have to decide on a transformation among several possibilities, which will probably distort the social reality of the relationships.
-
-Moreover, projections add ambiguity in retrospect of the original documents, as it becomes impossible to trace back one link to one specific document, as the same link could potentially refer to several ones~\cite{cristofoliAuxSourcesGrands2008}.
-
-Finally, these examples show that when working with multivariate networks, using projections to create unipartite networks brings a duplication of information.
-% brings problem which is not discussed in the literature which is the duplication of information.
-Indeed, if a document mentions information like a date that we model as an attribute, we can store it as a document node attribute using a bipartite model.
-However, when projecting the network this information appears in the links as many times as there are persons mentioned in the document minus one and often more.
-For example, in the example \pascal in \autoref{tab:models} the time is stored in $\sum_{i=1} ^{4} i = 10$ links in the co-occurrence model and in 9 links in the multiplex unipartite model while it is only stored once as a document node attribute in the bipartite model.
-%For example, if a document mention five people, when creating a co-occurrence Network the time data will appear in the $\sum_{i=1} ^{4} i = 10$ links created.
-
-\begin{table}
-    \begin{tabular}{|m{4.4cm}|m{2.4cm}|m{2.4cm}|m{2.4cm}|}
-        \hline Original Document & Co-occurrence            & Unipartite representation    & Bipartite           \\
-        \hline
-        % \centering\includegraphics[scale=0.3]{OriginalPaperstatic/figures/HSNAProcess/OriginalPaperFigures/marriageDocumentnoParents}
-        \tiny \underline{20-4-1659} : \colorbox{epoux}{\underline{Capitán} Alonso MUÑOZ de GADEA}, con Da. \colorbox{epouse}{Francisca CABRAL LEAL de AYALA}. Ts.: \colorbox{temoin}{Agustín Gayoso}, y \colorbox{temoin}{Juan Guerrero. Al margen: "\underline{fue Oficial Real}"}, (f. 9v). \linebreak
-        \colorbox{epoux}{Husband} \colorbox{epouse}{Wife} \colorbox{temoin}{Witness}
-        & \centering\simple        & \centering\noParents         & \bipartiteNoParents \\
-        \hline \tiny \underline{1712}: Construction of a church in \underline{Torino}.
-        Associates: \colorbox{associate}{Bellotto G, Bello P.M, Bello G.}
-        Guarantor: \colorbox{guarantor}{ Astrano G.A.}
-        Approbator: \colorbox{approbator}{Corte A.} \linebreak
-        \colorbox{associate}{Associate} \colorbox{guarantor}{Guarantor} \colorbox{approbator}{Approbator}
-        & \centering\simplePiemont & \centering\unipartitePiemont & \bipartitePiemont   \\
-        % \hline Le 7 octobre 1901, \colorbox{father}{François Marie Esnault} et \colorbox{mother}{Marie Julie Léopoldine Colson} ont déclaré la naissance de leur fille, nommée \colorbox{child}{Blanche Esnault} dans la commune de Saint-Maur-des-Fossés.uuu
-        \hline \tiny Du \underline{dix-neuf fevrier mil huit cent quatre-vingt quatre}, à six heures du soir.
-        Acte de naissance de \colorbox{child}{Dufournaud Alexis, enfant de sexe masculin} né le \underline{dix-neuf février}, à deux heures du soir au \underline{village de Grudet, commune de Saint} \underline{Symphorien}, des mariés \colorbox{father}{Dufournaud Alexis}, \colorbox{father}{cultivateur colon, âgé de trente ans}, et \colorbox{mother}{Marie Pardonnaud,} \colorbox{mother}{sans profession, agée de vingt-six ans}, demeurant au village de Grudet, dite commune de Saint-Symphorien. [...]
-        \linebreak
-        \colorbox{father}{Father} \colorbox{mother}{Mother} \colorbox{child}{Child}
-        & \centering\birthSimple   & \centering\birthUnipartite   & \birthBipartite     \\
-        \hline
-    \end{tabular}
-    \caption{Resulting networks using different models produced by one document of the examples detailed in \autoref{subsec:hsna-examples}: co-occurrence, unipartite and bipartite models. The first column shows the partial transcription of real documents. Colors represent annotations concerning the persons mentioned, their roles, and attributes. Underline refer to information related to the events and which can be encoded as document/event attributes.
-    H: Husband, W: wife, T: Witness, M: Marriage, $A_N$: Associate, G: Guarantor, Ap: Approbator, C: Construction, F: Father, M: Mother, C: Child.
-    }\label{tab:models}
-\end{table}
-
-
-\section{Applications}
+\section{Applications}\label{sec:hsna-applications}
 
 %% After constructing their network, historians can explore and analyze them using specifically designed visual analytics tools.
 %Several tools have been designed for visualizing dynamic bipartite networks that can also be considered dynamic hypergraphs~\cite{valdivia_analyzing_2021, penaarayaHyperStorylinesInteractivelyUntangling2022}, but few incorporate attributes and complex interactions.
@@ -585,7 +621,9 @@ Social scientists therefore always have to do many back and forth between the vi
 More visual analytical tools should thus incorporate the textual documents in their data model similarly to Jigsaw\cite{staskoJigsawSupportingInvestigative2008}, as it would allow tracing the entities of the network back to the original documents more easily.
 Mechanisms to modify the annotations and reflects on the network modeling process directly in the analytical environment could also ease the social scientists' workflow loop.
 It would allow them to directly correct errors and inconsistencies in the annotations and propagate them in the visual analysis workflow.
-For example, the Vistorian\cite{serranomolineroUnderstandingUseVistorian2017} now lets users modify and correct their data in a table format if they see errors or inconsistencies.
+I propose in \autoref{ch:combinet} and \autoref{ch:pk-clustering} two proof-of-concept interfaces leveraging \modelplural as a representation of social historians sources in the aim of analysis, network modeling, and reflection on the encoding process, with a focus on \emph{traceability}, \emph{document reality}, and \emph{simplicity}.
+%For example, the Vistorian\cite{serranomolineroUnderstandingUseVistorian2017} lets users modify and correct their data in a table format if they see errors or inconsistencies.
+
 
 
 \section{Discussion}
@@ -628,7 +666,7 @@ We show what would look like the resulting networks \autoref{fig:HSNA-doc-vs-eve
 Historians support their conclusions by modeling individuals' social relationships extracted from the documents and analyzing them through network visualization and analysis methods.
 Most historical work do not provide details on how they constructed their final network, even though it is a complicated and tedious process that can result in many biases and distortions if not done carefully\cite{alkadi2022}.
 We shed light on this process by dividing it into 5 steps and describing recurrent pitfalls we encountered in our projects and collaborations.
-More importantly, I explain why this process should be done following the principles of \textit{document reality}, \textit{traceability}, and \textit{simplicity}, to avoid biasing the analysis, allowing to go back to the original source at any point of the workflow for easier corrections and replicability, and using models and methods simple and powerful enough for social scientists.
+More importantly, I explain why this process should be done following the principles of \textit{traceability}, \textit{document reality}, and \textit{simplicity} to avoid biasing the analysis, allowing to go back to the original source at any point of the workflow for easier corrections and replicability, and using models and methods simple and powerful enough for social scientists.
 Visual analytics software designed for \hsna should consider those principles to provide tools allowing to follow non-biased and reproducible analysis starting from the raw documents while supporting historians in going back and forth more easily between the annotation and analysis/visualization steps.
 I discussed the network modeling process in depth and claim that \modelplural satisfies those three core principles, letting historians both wrangle their data and characterize sociological phenomena using a common model and visual representation, thus answering \qone.
 Using this model \va interfaces could help social scientists manage and analyze their data starting at the data acquisition and annotations steps instead on focusing on the analysis only, while providing efficient representations of the data for analysis and exploration.

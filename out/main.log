@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.6.11)  30 SEP 2022 23:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.6.11)  1 OCT 2022 19:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1310,9 +1310,7 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
 (/home/alexis/Documents/Thesis/out/chapters/Introduction.aux)
 (/home/alexis/Documents/Thesis/out/chapters/Context.aux)
 (/home/alexis/Documents/Thesis/out/chapters/NetworkModels.aux)
-(/home/alexis/Documents/Thesis/out/chapters/ComBiNet.aux)
-(/home/alexis/Documents/Thesis/out/chapters/PK-Clustering.aux)
-(/home/alexis/Documents/Thesis/out/chapters/Conclusion.aux))
+(/home/alexis/Documents/Thesis/out/chapters/ComBiNet.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
@@ -1517,7 +1515,7 @@ Package minitoc(hints) Warning: W0023
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<static/logos/Frame-ups.pdf, id=79, 303.38344pt x 849.92531pt>
+<static/logos/Frame-ups.pdf, id=71, 303.38344pt x 849.92531pt>
 File: static/logos/Frame-ups.pdf Graphic file (type pdf)
 <use static/logos/Frame-ups.pdf>
 Package pdftex.def Info: static/logos/Frame-ups.pdf  used on input line 40.
@@ -1665,7 +1663,7 @@ LaTeX Font Info:    No file T1rm.fd. on input line 153.
 LaTeX Font Warning: Font shape `T1/rm/m/n' undefined
 (Font)              using `T1/cmr/m/n' instead on input line 153.
 
-<static/logos/logo_usp_STIC.png, id=96, 372.8475pt x 85.41pt>
+<static/logos/logo_usp_STIC.png, id=88, 372.8475pt x 85.41pt>
 File: static/logos/logo_usp_STIC.png Graphic file (type png)
 <use static/logos/logo_usp_STIC.png>
 Package pdftex.def Info: static/logos/logo_usp_STIC.png  used on input line 165
@@ -1761,504 +1759,464 @@ Package minitoc Info: I0033
 (minitoc)             Writing main.mtc4.
 \openout5 = `main.mtc4'.
 
-Package minitoc Info: I0033
-(minitoc)             Writing main.mtc5.
-\openout5 = `main.mtc5'.
-
-Package minitoc Info: I0033
-(minitoc)             Writing main.mtc6.
-\openout5 = `main.mtc6'.
-
 
 (/home/alexis/Documents/Thesis/out/main.toc [3
 
 
 
 
-]
-Overfull \hbox (0.9803pt too wide) detected at line 71
- []\T1/opensans-TLF/m/n/10.95 100
- []
-
-
-Overfull \hbox (0.9803pt too wide) detected at line 72
- []\T1/opensans-TLF/m/n/10.95 100
- []
-
-
-Overfull \hbox (0.9803pt too wide) detected at line 73
- []\T1/opensans-TLF/m/n/10.95 100
- []
-
-
-Overfull \hbox (0.9803pt too wide) detected at line 74
- []\T1/opensans-TLF/m/n/10.95 101
- []
-
-
-Overfull \hbox (0.9803pt too wide) detected at line 75
- []\T1/opensans-TLF/m/n/10.95 101
- []
-
-
-Overfull \hbox (0.9803pt too wide) detected at line 76
- []\T1/opensans-TLF/m/n/10.95 102
- []
-
-
-Overfull \hbox (0.9803pt too wide) detected at line 77
- []\T1/opensans-TLF/m/n/10.95 102
- []
-
-
-Overfull \hbox (0.9803pt too wide) detected at line 78
- []\T1/opensans-TLF/m/n/10.95 103
- []
-
-
-Overfull \hbox (0.9803pt too wide) detected at line 79
- []\T1/opensans-TLF/m/n/10.95 104
- []
-
-[4]
-Overfull \hbox (0.9803pt too wide) detected at line 80
- []\T1/opensans-TLF/m/n/10.95 105
- []
-
-
-Overfull \hbox (0.9803pt too wide) detected at line 81
- []\T1/opensans-TLF/m/n/10.95 106
- []
-
-
-Overfull \hbox (0.9803pt too wide) detected at line 86
- []\T1/opensans-TLF/m/n/10.95 109
- []
-
-
-Overfull \hbox (0.9803pt too wide) detected at line 87
- []\T1/opensans-TLF/m/n/10.95 111
- []
-
-
-Overfull \hbox (0.9803pt too wide) detected at line 88
- []\T1/opensans-TLF/m/n/10.95 111
- []
-
-
-Overfull \hbox (0.9803pt too wide) detected at line 89
- []\T1/opensans-TLF/m/n/10.95 112
- []
-
-
-Overfull \hbox (0.9803pt too wide) detected at line 90
- []\T1/opensans-TLF/m/n/10.95 114
- []
-
-
-Overfull \hbox (0.9803pt too wide) detected at line 91
- []\T1/opensans-TLF/m/n/10.95 115
- []
-
-
-Overfull \hbox (0.9803pt too wide) detected at line 92
- []\T1/opensans-TLF/m/n/10.95 116
- []
-
-
-Overfull \hbox (0.9803pt too wide) detected at line 93
- []\T1/opensans-TLF/m/n/10.95 116
- []
-
-
-Overfull \hbox (0.9803pt too wide) detected at line 94
- []\T1/opensans-TLF/m/n/10.95 117
- []
-
-
-Overfull \hbox (0.9803pt too wide) detected at line 96
- []\T1/opensans-TLF/m/n/10.95 119
- []
-
-
-Overfull \hbox (0.9803pt too wide) detected at line 97
- []\T1/opensans-TLF/m/n/10.95 119
- []
-
-
-Overfull \hbox (0.9803pt too wide) detected at line 98
- []\T1/opensans-TLF/m/n/10.95 121
- []
-
-
-Overfull \hbox (0.9803pt too wide) detected at line 99
- []\T1/opensans-TLF/m/n/10.95 122
- []
-
-)
+])
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
- [5] [6
+ [4]
+(/home/alexis/Documents/Thesis/out/main.lof
 
-
-] (/home/alexis/Documents/Thesis/out/main.lof
-
-LaTeX Warning: Citation `bouletBatchKernelSOM2008' on page 7 undefined on input
+LaTeX Warning: Citation `bouletBatchKernelSOM2008' on page 5 undefined on input
  line 7.
 
 
-LaTeX Warning: Citation `auberTULIP2017' on page 7 undefined on input line 12.
+LaTeX Warning: Citation `auberTULIP2017' on page 5 undefined on input line 12.
 
 
-LaTeX Warning: Citation `edelsteinHistoricalResearchDigital2017' on page 7 unde
+LaTeX Warning: Citation `edelsteinHistoricalResearchDigital2017' on page 5 unde
 fined on input line 13.
 
 
-LaTeX Warning: Citation `alexanderAnalysisAncientNetwork1990' on page 7 undefin
+LaTeX Warning: Citation `alexanderAnalysisAncientNetwork1990' on page 5 undefin
 ed on input line 16.
 
-[7]
+[5
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
-2.
- (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+3.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-) [8]
-Overfull \hbox (0.9803pt too wide) detected at line 48
- []\T1/opensans-TLF/m/n/10.95 102
- []
-
-[9]
-Overfull \hbox (0.9803pt too wide) detected at line 49
- []\T1/opensans-TLF/m/n/10.95 104
- []
-
-
-Overfull \hbox (0.9803pt too wide) detected at line 50
- []\T1/opensans-TLF/m/n/10.95 105
- []
-
-
-Overfull \hbox (0.9803pt too wide) detected at line 51
- []\T1/opensans-TLF/m/n/10.95 108
- []
-
-
-Overfull \hbox (0.9803pt too wide) detected at line 52
- []\T1/opensans-TLF/m/n/10.95 108
- []
-
-
-Overfull \hbox (0.9803pt too wide) detected at line 53
- []\T1/opensans-TLF/m/n/10.95 110
- []
-
-
-Overfull \hbox (0.9803pt too wide) detected at line 54
- []\T1/opensans-TLF/m/n/10.95 111
- []
-
-
-Overfull \hbox (0.9803pt too wide) detected at line 55
- []\T1/opensans-TLF/m/n/10.95 113
- []
-
-
-Overfull \hbox (0.9803pt too wide) detected at line 56
- []\T1/opensans-TLF/m/n/10.95 114
- []
-
-)
+))
 \tf@lof=\write8
 \openout8 = `main.lof'.
 
- [10] (/home/alexis/Documents/Thesis/out/main.lot)
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7]
+[8] (/home/alexis/Documents/Thesis/out/main.lot)
 \tf@lot=\write9
 \openout9 = `main.lot'.
 
- [11
+ [9
 
 
 ]
-\openout2 = `chapters/NetworkModels.aux'.
+\openout2 = `chapters/Context.aux'.
 
-
-(./chapters/NetworkModels.tex [46
-
-
-
-
-
-
-]
-Chapter 3.
+ (./chapters/Context.tex
+Chapter 2.
 \openout5 = `main.mtc'.
 
 \openout5 = `main.mtc'.
 
 LaTeX Font Info:    Trying to load font information for T1+stix2 on input line 
-3.
+6.
 (/usr/share/texlive/texmf-dist/tex/latex/stix2/t1stix2.fd
 File: t1stix2.fd 2018/04/02 v2.0.0-latex stix2 T1 font definitions
 )
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 13.67995pt on input line 3.
+(Font)              scaled to size 13.67995pt on input line 6.
 
-(/home/alexis/Documents/Thesis/out/main.mtc3)
+(/home/alexis/Documents/Thesis/out/main.mtc2)
 
-LaTeX Warning: Citation `edelsteinHistoricalResearchDigital2017' on page 47 und
-efined on input line 8.
-
-
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 23--24
-[]
- []
+LaTeX Warning: Citation `tilly1984retrieving' on page 23 undefined on input lin
+e 8.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
-
- []
-
-[47]
-
-LaTeX Warning: Citation `tilly1984retrieving' on page 48 undefined on input lin
-e 43.
-
-[48]
-
-LaTeX Warning: Citation `tillyObservationsSocialProcesses2004' on page 49 undef
-ined on input line 118.
+LaTeX Warning: Citation `tillyObservationsSocialProcesses2004' on page 23 undef
+ined on input line 10.
 
 
-LaTeX Warning: Citation `fogelLimitsQuantitativeMethods1975' on page 49 undefin
-ed on input line 120.
+LaTeX Warning: Citation `rollingerProlegomenaProblemsPerspectives2020' on page 
+23 undefined on input line 10.
+
+[23
 
 
-LaTeX Warning: Citation `tillyObservationsSocialProcesses2004' on page 49 undef
-ined on input line 122.
 
 
-LaTeX Warning: Citation `trivellatoThereFutureItalian2011' on page 49 undefined
- on input line 132.
 
-[49]
-
-LaTeX Warning: Citation `floudIntroductionQuantitativeMethods2013' on page 50 u
-ndefined on input line 145.
-
-
-LaTeX Warning: Citation `zakrzewski1932PopulationRegister2020' on page 50 undef
-ined on input line 155.
+]
+<static/figures/RelatedWork/BertinNetworks.png, id=477, 713.66624pt x 1232.605p
+t>
+File: static/figures/RelatedWork/BertinNetworks.png Graphic file (type png)
+<use static/figures/RelatedWork/BertinNetworks.png>
+Package pdftex.def Info: static/figures/RelatedWork/BertinNetworks.png  used on
+ input line 52.
+(pdftex.def)             Requested size: 341.43436pt x 589.70645pt.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: Float too large for page by 11.28163pt on input line 55.
 
- [50]
-<static/figures/HSNAProcess/process.pdf, id=623, 900.36375pt x 274.02374pt>
-File: static/figures/HSNAProcess/process.pdf Graphic file (type pdf)
-<use static/figures/HSNAProcess/process.pdf>
-Package pdftex.def Info: static/figures/HSNAProcess/process.pdf  used on input 
-line 193.
-(pdftex.def)             Requested size: 426.79134pt x 129.89502pt.
 
-[51 <./static/figures/HSNAProcess/process.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: Citation `hilbertWorldTechnologicalCapacity2011' on page 24 unde
+fined on input line 61.
 
- [52]
-LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 310.
-LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 310.
-LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
-(Font)              scaled to size 7.12497pt on input line 310.
-LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 7.12497pt on input line 310.
+[24] [25 <./static/figures/RelatedWork/BertinNetworks.png>]
+<static/figures/RelatedWork/Anscombe.pdf, id=499, 948.54375pt x 632.3625pt>
+File: static/figures/RelatedWork/Anscombe.pdf Graphic file (type pdf)
+<use static/figures/RelatedWork/Anscombe.pdf>
+Package pdftex.def Info: static/figures/RelatedWork/Anscombe.pdf  used on input
+ line 68.
+(pdftex.def)             Requested size: 341.43436pt x 227.62138pt.
+
+
+LaTeX Warning: Citation `shneidermanEyesHaveIt1996' on page 26 undefined on inp
+ut line 73.
+
+
+LaTeX Warning: Citation `wilkinsonGrammarGraphics1993' on page 26 undefined on 
+input line 75.
+
+
+LaTeX Warning: Citation `wickham2007ggplot' on page 26 undefined on input line 
+77.
+
+
+LaTeX Warning: Citation `bradshawDataJournalism2017' on page 26 undefined on in
+put line 78.
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [53]
-Underfull \vbox (badness 2012) has occurred while \output is active []
+ [26 <./static/figures/RelatedWork/Anscombe.pdf>]
 
- [54]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: Citation `thomasVisualAnalyticsAgenda2006' on page 27 undefined 
+on input line 88.
 
- [55]
+
+LaTeX Warning: Citation `shneidermanEyesHaveIt1996' on page 27 undefined on inp
+ut line 92.
+
+<static/figures/RelatedWork/TULIP.png, id=514, 2017.5375pt x 1186.4325pt>
+File: static/figures/RelatedWork/TULIP.png Graphic file (type png)
+<use static/figures/RelatedWork/TULIP.png>
+Package pdftex.def Info: static/figures/RelatedWork/TULIP.png  used on input li
+ne 105.
+(pdftex.def)             Requested size: 426.79134pt x 250.96852pt.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/b/n' will be
-(Font)              scaled to size 10.40245pt on input line 436.
+(Font)              scaled to size 11.39996pt on input line 106.
 
-[56]
-
-LaTeX Warning: Citation `stoltePolarisSystemQuery2002' on page 57 undefined on 
-input line 450.
+LaTeX Warning: Citation `auberTULIP2017' on page 27 undefined on input line 106
+.
 
 
-Underfull \vbox (badness 4024) has occurred while \output is active []
-
- [57]
-Underfull \vbox (badness 4819) has occurred while \output is active []
-
- [58]
-LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 546.
-
-Underfull \hbox (badness 10000) in paragraph at lines 547--547
-[]|\T1/opensans-TLF/m/n/12 Co-
- []
+LaTeX Warning: Citation `auberTULIP2017' on page 27 undefined on input line 106
+.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 547--547
-[]|\T1/opensans-TLF/m/n/12 Unipartite
- []
+LaTeX Warning: Citation `tilly1984retrieving' on page 27 undefined on input lin
+e 132.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 547--547
-\T1/opensans-TLF/m/n/12 rep-re-sen-ta-
- []
+LaTeX Warning: Citation `haskinsUnderstandingQuantitativeHistory2011' on page 2
+7 undefined on input line 134.
+
+[27] [28 <./static/figures/RelatedWork/TULIP.png>]
+
+LaTeX Warning: Citation `langloisIntroductionAuxEtudes2014' on page 29 undefine
+d on input line 153.
+
+
+LaTeX Warning: Citation `noirielNaissanceMetierHistorien1990' on page 29 undefi
+ned on input line 154.
 
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 550.
+(Font)              scaled to size 9.49997pt on input line 178.
+LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
+(Font)              scaled to size 9.49997pt on input line 178.
+LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
+(Font)              scaled to size 7.12497pt on input line 178.
+LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
+(Font)              scaled to size 7.12497pt on input line 178.
+[29]
 
-Underfull \hbox (badness 10000) in paragraph at lines 550--552
-[]|$[]$ \T1/opensans-TLF/m/n/6 :
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 550--552
-[][][][][][]\T1/opensans-TLF/m/n/6 , con
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 550--552
-\T1/opensans-TLF/m/n/6 Da. [][][][][][].
- []
+LaTeX Warning: Citation `fogelRailroadsAmericanEconomic1964' on page 30 undefin
+ed on input line 196.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 550--552
-\T1/opensans-TLF/m/n/6 Ts.: [][][][][][], y
- []
+LaTeX Warning: Citation `fogel1974time' on page 30 undefined on input line 196.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 550--552
-[][][][][][]\T1/opensans-TLF/m/n/6 ,
- []
+
+LaTeX Warning: Citation `whaplesWhereThereConsensus1995' on page 30 undefined o
+n input line 197.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 550--552
-\T1/opensans-TLF/m/n/6 (f. 9v).
- []
+LaTeX Warning: Citation `landesHistorySocialScience1971' on page 30 undefined o
+n input line 199.
 
 
-Overfull \hbox (3.75366pt too wide) in paragraph at lines 552--552
- []|[]| 
- []
+LaTeX Warning: Citation `stoneRevivalNarrativeReflections1979' on page 30 undef
+ined on input line 203.
 
 
-Overfull \hbox (3.75366pt too wide) in paragraph at lines 552--552
- []|[]| 
- []
+LaTeX Warning: Citation `trivellatoThereFutureItalian2011' on page 30 undefined
+ on input line 209.
+
+[30]
+
+LaTeX Warning: Citation `terras2011quantifying' on page 31 undefined on input l
+ine 229.
 
 
-Overfull \hbox (4.56006pt too wide) in paragraph at lines 552--553
-[]|[]| 
- []
+LaTeX Warning: Citation `burdickDigitalHumanities2016' on page 31 undefined on 
+input line 230.
 
 
-Overfull \hbox (4.87183pt too wide) in paragraph at lines 558--558
- []|[]| 
- []
+LaTeX Warning: Citation `InterchangePromiseDigital2008' on page 31 undefined on
+ input line 231.
+
+<static/figures/RelatedWork/RepublicOfLetter_BenjFranklin.png, id=559, 1760.577
+5pt x 1367.1075pt>
+File: static/figures/RelatedWork/RepublicOfLetter_BenjFranklin.png Graphic file
+ (type png)
+<use static/figures/RelatedWork/RepublicOfLetter_BenjFranklin.png>
+Package pdftex.def Info: static/figures/RelatedWork/RepublicOfLetter_BenjFrankl
+in.png  used on input line 237.
+(pdftex.def)             Requested size: 426.79134pt x 331.40843pt.
+
+LaTeX Warning: Citation `edelsteinHistoricalResearchDigital2017' on page 31 und
+efined on input line 238.
 
 
-Overfull \hbox (4.87183pt too wide) in paragraph at lines 558--558
- []|[]| 
- []
+LaTeX Warning: Citation `edelsteinHistoricalResearchDigital2017' on page 31 und
+efined on input line 238.
 
 
-Overfull \hbox (5.90039pt too wide) in paragraph at lines 558--560
-[]|[]| 
- []
+LaTeX Warning: Citation `edelsteinHistoricalResearchDigital2017' on page 31 und
+efined on input line 242.
+
+[31] [32 <./static/figures/RelatedWork/RepublicOfLetter_BenjFranklin.png>]
+
+LaTeX Warning: Citation `ahnertNetworkTurnChanging2020' on page 33 undefined on
+ input line 247.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 560--564
-[]|\T1/opensans-TLF/m/n/6 Du
- []
+LaTeX Warning: Citation `cordell2017viral' on page 33 undefined on input line 2
+48.
 
 
-Overfull \hbox (4.46964pt too wide) in paragraph at lines 560--564
-[]$\T1/opensans-TLF/m/n/6 ,
- []
+LaTeX Warning: Citation `ardanuyLivingMachinesStudy2020' on page 33 undefined o
+n input line 248.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 560--564
-[][][][][][]
- []
+LaTeX Warning: Citation `bartonSurveyResearchMacroMethodology1968' on page 33 u
+ndefined on input line 269.
+
+[33]
+<static/figures/RelatedWork/Moreno-1.png, id=583, 598.235pt x 758.835pt>
+File: static/figures/RelatedWork/Moreno-1.png Graphic file (type png)
+<use static/figures/RelatedWork/Moreno-1.png>
+Package pdftex.def Info: static/figures/RelatedWork/Moreno-1.png  used on input
+ line 276.
+(pdftex.def)             Requested size: 192.0548pt x 243.60794pt.
+<static/figures/RelatedWork/Moreno-1_GrandJean.png, id=584, 1003.75pt x 1003.75
+pt>
+File: static/figures/RelatedWork/Moreno-1_GrandJean.png Graphic file (type png)
+
+<use static/figures/RelatedWork/Moreno-1_GrandJean.png>
+Package pdftex.def Info: static/figures/RelatedWork/Moreno-1_GrandJean.png  use
+d on input line 278.
+(pdftex.def)             Requested size: 213.39566pt x 213.3944pt.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 560--564
-\T1/opensans-TLF/m/n/6 né le $[]$, à deux heures du
- []
+LaTeX Warning: Citation `cConceptUseSocial1969' on page 34 undefined on input l
+ine 286.
+
+[34 <./static/figures/RelatedWork/Moreno-1_GrandJean.png> <./static/figures/Rel
+atedWork/Moreno-1.png>]
+
+LaTeX Warning: Citation `newmanNetworks2018' on page 35 undefined on input line
+ 321.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 560--564
-\T1/opensans-TLF/m/n/6 soir au $[]$
- []
+LaTeX Warning: Citation `prÅ¾uljBiologicalNetworkComparison2007' on page 35 und
+efined on input line 330.
+
+[35]
+<static/figures/RelatedWork/graphlets/triangle.pdf, id=623, 752.8125pt x 752.81
+25pt>
+File: static/figures/RelatedWork/graphlets/triangle.pdf Graphic file (type pdf)
+
+<use static/figures/RelatedWork/graphlets/triangle.pdf>
+Package pdftex.def Info: static/figures/RelatedWork/graphlets/triangle.pdf  use
+d on input line 334.
+(pdftex.def)             Requested size: 11.95793pt x 11.96808pt.
+<static/figures/RelatedWork/graphlets/edge.pdf, id=624, 752.8125pt x 752.8125pt
+>
+File: static/figures/RelatedWork/graphlets/edge.pdf Graphic file (type pdf)
+<use static/figures/RelatedWork/graphlets/edge.pdf>
+Package pdftex.def Info: static/figures/RelatedWork/graphlets/edge.pdf  used on
+ input line 334.
+(pdftex.def)             Requested size: 11.95793pt x 11.96808pt.
+File: static/figures/RelatedWork/graphlets/triangle.pdf Graphic file (type pdf)
+
+<use static/figures/RelatedWork/graphlets/triangle.pdf>
+Package pdftex.def Info: static/figures/RelatedWork/graphlets/triangle.pdf  use
+d on input line 334.
+(pdftex.def)             Requested size: 11.95793pt x 11.96808pt.
+<static/figures/RelatedWork/graphlets/edge2.pdf, id=625, 752.8125pt x 752.8125p
+t>
+File: static/figures/RelatedWork/graphlets/edge2.pdf Graphic file (type pdf)
+<use static/figures/RelatedWork/graphlets/edge2.pdf>
+Package pdftex.def Info: static/figures/RelatedWork/graphlets/edge2.pdf  used o
+n input line 335.
+(pdftex.def)             Requested size: 11.95793pt x 11.96808pt.
+<static/figures/RelatedWork/all_graphlets_undir5.png, id=626, 480.79625pt x 141
+.52875pt>
+File: static/figures/RelatedWork/all_graphlets_undir5.png Graphic file (type pn
+g)
+<use static/figures/RelatedWork/all_graphlets_undir5.png>
+Package pdftex.def Info: static/figures/RelatedWork/all_graphlets_undir5.png  u
+sed on input line 342.
+(pdftex.def)             Requested size: 426.79134pt x 125.6341pt.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 560--564
-[][][][][][]\T1/opensans-TLF/m/n/6 ,
- []
+LaTeX Warning: Citation `charbeyStarsHolesPaths2019' on page 36 undefined on in
+put line 348.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 560--564
-\T1/opensans-TLF/m/n/6 et [][][][][][]
- []
+LaTeX Warning: Citation `girvanCommunityStructureSocial2002' on page 36 undefin
+ed on input line 349.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 560--564
-[][][][][][]\T1/opensans-TLF/m/n/6 ,
- []
+LaTeX Warning: Citation `fortunatoCommunityDetectionGraphs2010' on page 36 unde
+fined on input line 351.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 560--564
-\T1/opensans-TLF/m/n/6 de-meu-rant au vil-lage de Grudet, dite
- []
+LaTeX Warning: Citation `charbeyStarsHolesPaths2019' on page 36 undefined on in
+put line 369.
+
+[36 <./static/figures/RelatedWork/all_graphlets_undir5.png> <./static/figures/R
+elatedWork/graphlets/triangle.pdf> <./static/figures/RelatedWork/graphlets/edge
+.pdf
+
+pdfTeX warning: pdflatex (file ./static/figures/RelatedWork/graphlets/edge.pdf)
+: PDF inclusion: multiple pdfs with page group included in a single page
+> <./static/figures/RelatedWork/graphlets/edge2.pdf
+
+pdfTeX warning: pdflatex (file ./static/figures/RelatedWork/graphlets/edge2.pdf
+): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: Citation `alexanderAnalysisAncientNetwork1990' on page 37 undefi
+ned on input line 391.
+
+<static/figures/RelatedWork/Cicero_network.png, id=658, 882.29625pt x 990.70125
+pt>
+File: static/figures/RelatedWork/Cicero_network.png Graphic file (type png)
+<use static/figures/RelatedWork/Cicero_network.png>
+Package pdftex.def Info: static/figures/RelatedWork/Cicero_network.png  used on
+ input line 405.
+(pdftex.def)             Requested size: 341.43436pt x 383.3788pt.
+
+LaTeX Warning: Citation `alexanderAnalysisAncientNetwork1990' on page 37 undefi
+ned on input line 406.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 560--564
-\T1/opensans-TLF/m/n/6 com-mune de Saint-Symphorien. [...]
- []
+LaTeX Warning: Citation `alexanderAnalysisAncientNetwork1990' on page 37 undefi
+ned on input line 406.
+
+[37]
+
+LaTeX Warning: Citation `bouletBatchKernelSOM2008' on page 38 undefined on inpu
+t line 427.
+
+[38 <./static/figures/RelatedWork/Cicero_network.png>]
+
+LaTeX Warning: Citation `rossettiCommunityDiscoveryDynamic2018' on page 39 unde
+fined on input line 441.
 
 
-Overfull \hbox (3.28223pt too wide) in paragraph at lines 564--565
-[]|[]| 
- []
+LaTeX Warning: Citation `borgattiSocialNetworkAnalysis2009' on page 39 undefine
+d on input line 448.
 
 
-Underfull \vbox (badness 1019) has occurred while \output is active []
+LaTeX Warning: Citation `alexanderAnalysisAncientNetwork1990' on page 39 undefi
+ned on input line 469.
 
- [59]
-[60]
-<static/figures/HSNAProcess/documentVsEvents.pdf, id=766, 939.28455pt x 337.908
-51pt>
-File: static/figures/HSNAProcess/documentVsEvents.pdf Graphic file (type pdf)
-<use static/figures/HSNAProcess/documentVsEvents.pdf>
-Package pdftex.def Info: static/figures/HSNAProcess/documentVsEvents.pdf  used 
-on input line 610.
-(pdftex.def)             Requested size: 426.79134pt x 153.5372pt.
-) [61 <./static/figures/HSNAProcess/documentVsEvents.pdf>] [62]
-(/home/alexis/Documents/Thesis/out/main.bbl
+[39]
+
+LaTeX Warning: Citation `battistaGraphDrawingAlgorithms1998' on page 40 undefin
+ed on input line 492.
+
+
+LaTeX Warning: Citation `abdelaalComparativeEvaluationBipartite2022' on page 40
+ undefined on input line 494.
+
+[40]
+<static/figures/RelatedWork/Kosak-nodelinkdiagramMetrics.png, id=714, 2052.6687
+5pt x 1202.4925pt>
+File: static/figures/RelatedWork/Kosak-nodelinkdiagramMetrics.png Graphic file 
+(type png)
+<use static/figures/RelatedWork/Kosak-nodelinkdiagramMetrics.png>
+Package pdftex.def Info: static/figures/RelatedWork/Kosak-nodelinkdiagramMetric
+s.png  used on input line 498.
+(pdftex.def)             Requested size: 426.79134pt x 250.01712pt.
+<static/figures/RelatedWork/NodeTrix.png, id=722, 769.87625pt x 323.2075pt>
+File: static/figures/RelatedWork/NodeTrix.png Graphic file (type png)
+<use static/figures/RelatedWork/NodeTrix.png>
+Package pdftex.def Info: static/figures/RelatedWork/NodeTrix.png  used on input
+ line 511.
+(pdftex.def)             Requested size: 341.43436pt x 143.34111pt.
+
+
+LaTeX Warning: Citation `johnsonUCINETSoftwareTool1987' on page 41 undefined on
+ input line 520.
+
+
+LaTeX Warning: Citation `baurVisoneSoftwareVisual2002' on page 41 undefined on 
+input line 521.
+
+<static/figures/RelatedWork/vistorian.png, id=730, 1840.8775pt x 966.61125pt>
+File: static/figures/RelatedWork/vistorian.png Graphic file (type png)
+<use static/figures/RelatedWork/vistorian.png>
+Package pdftex.def Info: static/figures/RelatedWork/vistorian.png  used on inpu
+t line 529.
+(pdftex.def)             Requested size: 341.43436pt x 174.00038pt.
+[41 <./static/figures/RelatedWork/Kosak-nodelinkdiagramMetrics.png>]
+
+LaTeX Warning: Citation `keimVisualAnalytics' on page 42 undefined on input lin
+e 536.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 538.
+
+LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
+(Font)              scaled to size 11.39996pt on input line 550.
+
+LaTeX Warning: Citation `pisterIntegratingPriorKnowledge2021' on page 42 undefi
+ned on input line 556.
+
+[42 <./static/figures/RelatedWork/vistorian.png> <./static/figures/RelatedWork/
+NodeTrix.png>]) [43] (/home/alexis/Documents/Thesis/out/main.bbl
 (/home/alexis/Documents/Thesis/out/main.brf)
 \tf@brf=\write10
 \openout10 = `main.brf'.
 
- [123
+ [95
 
 
 
 
 
-
-] [124] [125] [126] [127]
-[128] [129] [130] [131] [132] [133])
+] [96] [97] [98] [99] [100]
+[101] [102] [103] [104] [105])
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the main.maf file.
@@ -2270,7 +2228,7 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the main.log file.
 
-[134]
+[106]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 241.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 241.
  (/home/alexis/Documents/Thesis/out/main.aux
@@ -2278,9 +2236,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 241.
 (/home/alexis/Documents/Thesis/out/chapters/Introduction.aux)
 (/home/alexis/Documents/Thesis/out/chapters/Context.aux)
 (/home/alexis/Documents/Thesis/out/chapters/NetworkModels.aux)
-(/home/alexis/Documents/Thesis/out/chapters/ComBiNet.aux)
-(/home/alexis/Documents/Thesis/out/chapters/PK-Clustering.aux)
-(/home/alexis/Documents/Thesis/out/chapters/Conclusion.aux))
+(/home/alexis/Documents/Thesis/out/chapters/ComBiNet.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 241.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 241.
 Package rerunfilecheck Info: File `main.out' has not changed.
@@ -2300,60 +2256,30 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 32275 strings out of 481239
- 572145 string characters out of 5920377
- 1018596 words of memory out of 5000000
- 46202 multiletter control sequences out of 15000+600000
- 670192 words of font info for 185 fonts, out of 8000000 for 9000
+ 32039 strings out of 481239
+ 571391 string characters out of 5920377
+ 973582 words of memory out of 5000000
+ 46025 multiletter control sequences out of 15000+600000
+ 668284 words of font info for 181 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,19n,117p,1220b,1185s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{page.113} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{page.121} has been referenced but does not exist, r
-eplaced by a fixed one
+ 68i,17n,117p,1154b,816s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{page.58} has been referenced but does not exist, 
+replaced by a fixed one
 
 pdfTeX warning (dest): name{page.76} has been referenced but does not exist, re
 placed by a fixed one
 
-pdfTeX warning (dest): name{page.100} has been referenced but does not exist, r
-eplaced by a fixed one
-
-pdfTeX warning (dest): name{page.117} has been referenced but does not exist, r
-eplaced by a fixed one
-
-pdfTeX warning (dest): name{page.22} has been referenced but does not exist, re
+pdfTeX warning (dest): name{page.59} has been referenced but does not exist, re
 placed by a fixed one
 
-pdfTeX warning (dest): name{page.98} has been referenced but does not exist, re
-placed by a fixed one
-
-pdfTeX warning (dest): name{page.120} has been referenced but does not exist, r
-eplaced by a fixed one
-
-pdfTeX warning (dest): name{page.33} has been referenced but does not exist, re
-placed by a fixed one
-
-pdfTeX warning (dest): name{page.32} has been referenced but does not exist, re
+pdfTeX warning (dest): name{page.20} has been referenced but does not exist, re
 placed by a fixed one
 
 pdfTeX warning (dest): name{page.92} has been referenced but does not exist, re
 placed by a fixed one
 
-pdfTeX warning (dest): name{page.29} has been referenced but does not exist, re
-placed by a fixed one
-
 pdfTeX warning (dest): name{page.66} has been referenced but does not exist, re
 placed by a fixed one
-
-pdfTeX warning (dest): name{page.112} has been referenced but does not exist, r
-eplaced by a fixed one
-
-pdfTeX warning (dest): name{page.44} has been referenced but does not exist, re
-placed by a fixed one
-
-pdfTeX warning (dest): name{page.122} has been referenced but does not exist, r
-eplaced by a fixed one
 
 pdfTeX warning (dest): name{page.74} has been referenced but does not exist, re
 placed by a fixed one
@@ -2361,31 +2287,22 @@ placed by a fixed one
 pdfTeX warning (dest): name{page.64} has been referenced but does not exist, re
 placed by a fixed one
 
-pdfTeX warning (dest): name{page.41} has been referenced but does not exist, re
+pdfTeX warning (dest): name{page.47} has been referenced but does not exist, re
 placed by a fixed one
 
-pdfTeX warning (dest): name{page.36} has been referenced but does not exist, re
-placed by a fixed one
-
-pdfTeX warning (dest): name{page.35} has been referenced but does not exist, re
-placed by a fixed one
-
-pdfTeX warning (dest): name{page.25} has been referenced but does not exist, re
-placed by a fixed one
-
-pdfTeX warning (dest): name{page.19} has been referenced but does not exist, re
+pdfTeX warning (dest): name{page.17} has been referenced but does not exist, re
 placed by a fixed one
 
 pdfTeX warning (dest): name{page.79} has been referenced but does not exist, re
 placed by a fixed one
 
-pdfTeX warning (dest): name{page.38} has been referenced but does not exist, re
+pdfTeX warning (dest): name{page.54} has been referenced but does not exist, re
 placed by a fixed one
 
 pdfTeX warning (dest): name{page.70} has been referenced but does not exist, re
 placed by a fixed one
 
-pdfTeX warning (dest): name{page.17} has been referenced but does not exist, re
+pdfTeX warning (dest): name{page.15} has been referenced but does not exist, re
 placed by a fixed one
 
 pdfTeX warning (dest): name{page.80} has been referenced but does not exist, re
@@ -2397,37 +2314,34 @@ placed by a fixed one
 pdfTeX warning (dest): name{page.72} has been referenced but does not exist, re
 placed by a fixed one
 
-pdfTeX warning (dest): name{page.42} has been referenced but does not exist, re
+pdfTeX warning (dest): name{page.55} has been referenced but does not exist, re
 placed by a fixed one
 
-pdfTeX warning (dest): name{page.39} has been referenced but does not exist, re
+pdfTeX warning (dest): name{page.49} has been referenced but does not exist, re
 placed by a fixed one
 
-pdfTeX warning (dest): name{page.37} has been referenced but does not exist, re
+pdfTeX warning (dest): name{page.57} has been referenced but does not exist, re
 placed by a fixed one
 
-pdfTeX warning (dest): name{page.18} has been referenced but does not exist, re
+pdfTeX warning (dest): name{page.56} has been referenced but does not exist, re
 placed by a fixed one
 
-pdfTeX warning (dest): name{page.31} has been referenced but does not exist, re
-placed by a fixed one
-
-pdfTeX warning (dest): name{page.83} has been referenced but does not exist, re
+pdfTeX warning (dest): name{page.50} has been referenced but does not exist, re
 placed by a fixed one
 
 pdfTeX warning (dest): name{page.16} has been referenced but does not exist, re
 placed by a fixed one
 
-pdfTeX warning (dest): name{page.27} has been referenced but does not exist, re
+pdfTeX warning (dest): name{page.52} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{page.83} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{page.14} has been referenced but does not exist, re
 placed by a fixed one
 
 pdfTeX warning (dest): name{page.68} has been referenced but does not exist, re
-placed by a fixed one
-
-pdfTeX warning (dest): name{page.99} has been referenced but does not exist, re
-placed by a fixed one
-
-pdfTeX warning (dest): name{page.95} has been referenced but does not exist, re
 placed by a fixed one
 
 pdfTeX warning (dest): name{page.73} has been referenced but does not exist, re
@@ -2436,224 +2350,101 @@ placed by a fixed one
 pdfTeX warning (dest): name{page.65} has been referenced but does not exist, re
 placed by a fixed one
 
-pdfTeX warning (dest): name{page.43} has been referenced but does not exist, re
-placed by a fixed one
-
-pdfTeX warning (dest): name{page.20} has been referenced but does not exist, re
-placed by a fixed one
-
-pdfTeX warning (dest): name{page.28} has been referenced but does not exist, re
+pdfTeX warning (dest): name{page.18} has been referenced but does not exist, re
 placed by a fixed one
 
 pdfTeX warning (dest): name{page.67} has been referenced but does not exist, re
 placed by a fixed one
 
+pdfTeX warning (dest): name{page.61} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{page.53} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{page.51} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{page.48} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{page.46} has been referenced but does not exist, re
+placed by a fixed one
+
 pdfTeX warning (dest): name{page.45} has been referenced but does not exist, re
-placed by a fixed one
-
-pdfTeX warning (dest): name{page.40} has been referenced but does not exist, re
-placed by a fixed one
-
-pdfTeX warning (dest): name{page.26} has been referenced but does not exist, re
-placed by a fixed one
-
-pdfTeX warning (dest): name{page.23} has been referenced but does not exist, re
 placed by a fixed one
 
 pdfTeX warning (dest): name{page.21} has been referenced but does not exist, re
 placed by a fixed one
 
-pdfTeX warning (dest): name{page.15} has been referenced but does not exist, re
+pdfTeX warning (dest): name{page.19} has been referenced but does not exist, re
 placed by a fixed one
+
+pdfTeX warning (dest): name{page.13} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{table.caption.25} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.23} has been referenced but does not 
+exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{table.caption.6} has been referenced but does not e
 xist, replaced by a fixed one
 
-pdfTeX warning (dest): name{table.caption.4} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.19} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.57} has been referenced but does not
+pdfTeX warning (dest): name{figure.caption.42} has been referenced but does not
  exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.56} has been referenced but does not
+pdfTeX warning (dest): name{figure.caption.41} has been referenced but does not
  exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.55} has been referenced but does not
+pdfTeX warning (dest): name{figure.caption.40} has been referenced but does not
  exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.54} has been referenced but does not
+pdfTeX warning (dest): name{figure.caption.39} has been referenced but does not
  exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.51} has been referenced but does not
+pdfTeX warning (dest): name{figure.caption.38} has been referenced but does not
  exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.50} has been referenced but does not
+pdfTeX warning (dest): name{figure.caption.37} has been referenced but does not
  exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.47} has been referenced but does not
+pdfTeX warning (dest): name{figure.caption.36} has been referenced but does not
  exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.46} has been referenced but does not
+pdfTeX warning (dest): name{figure.caption.35} has been referenced but does not
  exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.45} has been referenced but does not
+pdfTeX warning (dest): name{figure.caption.34} has been referenced but does not
  exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.44} has been referenced but does not
+pdfTeX warning (dest): name{figure.caption.33} has been referenced but does not
  exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.43} has been referenced but does not
+pdfTeX warning (dest): name{figure.caption.32} has been referenced but does not
  exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.23} has been referenced but does not
+pdfTeX warning (dest): name{figure.caption.31} has been referenced but does not
  exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.22} has been referenced but does not
+pdfTeX warning (dest): name{figure.caption.30} has been referenced but does not
  exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.21} has been referenced but does not
+pdfTeX warning (dest): name{figure.caption.29} has been referenced but does not
  exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.20} has been referenced but does not
+pdfTeX warning (dest): name{figure.caption.28} has been referenced but does not
  exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.19} has been referenced but does not
+pdfTeX warning (dest): name{figure.caption.27} has been referenced but does not
  exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.18} has been referenced but does not
+pdfTeX warning (dest): name{figure.caption.26} has been referenced but does not
  exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.17} has been referenced but does not
+pdfTeX warning (dest): name{figure.caption.24} has been referenced but does not
  exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.16} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.15} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.14} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.13} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.12} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.11} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.10} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.9} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.8} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.7} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.5} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.6.4} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.6.3} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.6.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.6.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.6} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{section.5.6} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.5.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.5.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.5.5} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.4.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.4.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.4.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.5.4} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.3.8} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.3.7} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.3.6} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.3.5} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.3.4} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.3.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.3.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.3.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.5.3} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.2.6} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.2.5} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.2.4} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.2.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.2.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.2.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.5.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.5.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.5} has been referenced but does not exist, 
-replaced by a fixed one
 
 pdfTeX warning (dest): name{section.4.8} has been referenced but does not exist
 , replaced by a fixed one
@@ -2727,52 +2518,49 @@ pdfTeX warning (dest): name{section.4.1} has been referenced but does not exist
 pdfTeX warning (dest): name{chapter.4} has been referenced but does not exist, 
 replaced by a fixed one
 
-pdfTeX warning (dest): name{subsection.2.4.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.4.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.2.4} has been referenced but does not exist
+pdfTeX warning (dest): name{section.3.7} has been referenced but does not exist
 , replaced by a fixed one
 
-pdfTeX warning (dest): name{subsection.2.3.4} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.3.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.3.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.3.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.2.3} has been referenced but does not exist
+pdfTeX warning (dest): name{section.3.6} has been referenced but does not exist
 , replaced by a fixed one
 
-pdfTeX warning (dest): name{subsection.2.2.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.2.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.2.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.2.2} has been referenced but does not exist
+pdfTeX warning (dest): name{section.3.5} has been referenced but does not exist
 , replaced by a fixed one
 
-pdfTeX warning (dest): name{subsection.2.1.2} has been referenced but does not 
+pdfTeX warning (dest): name{subsection.3.4.2} has been referenced but does not 
 exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{subsection.2.1.1} has been referenced but does not 
+pdfTeX warning (dest): name{subsection.3.4.1} has been referenced but does not 
 exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{section.2.1} has been referenced but does not exist
+pdfTeX warning (dest): name{section.3.4} has been referenced but does not exist
 , replaced by a fixed one
 
-pdfTeX warning (dest): name{chapter.2} has been referenced but does not exist, 
+pdfTeX warning (dest): name{subsection.3.3.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.3.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.3.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.3.3} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.2.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.2.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.3.2} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.3.1} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.3} has been referenced but does not exist, 
 replaced by a fixed one
 
 pdfTeX warning (dest): name{section.1.4} has been referenced but does not exist
@@ -2790,34 +2578,32 @@ pdfTeX warning (dest): name{section.1.1} has been referenced but does not exist
 pdfTeX warning (dest): name{chapter.1} has been referenced but does not exist, 
 replaced by a fixed one
 
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/stix2/stix2-mathex.enc}{/usr/sha
-re/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dis
-t/fonts/enc/dvips/opensans/a_jg4h6q.enc}{/usr/share/texlive/texmf-dist/fonts/en
-c/dvips/stix2/stix2-mathcal.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/
-opensans/a_nvvucy.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/stix2/stix
-2-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/stix2/stix2-mathit.enc}
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/stix2/stix2-mathrm.enc}{/usr/sha
-re/texlive/texmf-dist/fonts/enc/dvips/stix2/stix2-mathscr.enc}{/usr/share/texli
-ve/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/
-type1/ascender/opensans/OpenSans-Bold.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/ascender/opensans/OpenSans-Regular.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/stix2/STIX2Math.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/stix2/STIX2Text-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/stix2/STIX2Text-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/bera/fvsb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/bera/fvsr8a
-.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsi1095.pfb></usr/share/tex
-mf/fonts/type1/public/cm-super/sfsi1728.pfb></usr/share/texmf/fonts/type1/publi
-c/cm-super/sfss0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1095.
-pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss2488.pfb></usr/share/texm
-f/fonts/type1/public/cm-super/sfsx0800.pfb></usr/share/texmf/fonts/type1/public
-/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1200.p
-fb></usr/share/texmf/fonts/type1/public/cm-super/sfsx2074.pfb></usr/share/texmf
-/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on /home/alexis/Documents/Thesis/out/main.pdf (40 pages, 993149 
-bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/stix2/stix2-mathcal.enc}{/usr/sh
+are/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-di
+st/fonts/enc/dvips/opensans/a_jg4h6q.enc}{/usr/share/texlive/texmf-dist/fonts/e
+nc/dvips/stix2/stix2-mathbb.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/
+stix2/stix2-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/stix2/stix2-m
+athit.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/stix2/stix2-mathrm.enc
+}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/stix2/stix2-mathscr.enc}{/usr/s
+hare/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-d
+ist/fonts/type1/ascender/opensans/OpenSans-Bold.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/ascender/opensans/OpenSans-Regular.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/stix2/STIX2Math.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/stix2/STIX2Text-Bold.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/stix2/STIX2Text-Regular.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/bera/fvsb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/b
+era/fvsr8a.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsi1095.pfb></usr
+/share/texmf/fonts/type1/public/cm-super/sfsi1728.pfb></usr/share/texmf/fonts/t
+ype1/public/cm-super/sfss0800.pfb></usr/share/texmf/fonts/type1/public/cm-super
+/sfss1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss2488.pfb></usr/
+share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/ty
+pe1/public/cm-super/sfsx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/
+sfsx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb>
+Output written on /home/alexis/Documents/Thesis/out/main.pdf (42 pages, 3692659
+ bytes).
 PDF statistics:
- 1459 PDF objects out of 1728 (max. 8388607)
- 1371 compressed objects within 14 object streams
- 389 named destinations out of 1000 (max. 500000)
- 183 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1377 PDF objects out of 1440 (max. 8388607)
+ 1269 compressed objects within 13 object streams
+ 337 named destinations out of 1000 (max. 500000)
+ 233 words of extra memory for PDF output out of 10000 (max. 10000000)
 

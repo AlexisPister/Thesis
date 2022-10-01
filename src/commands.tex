@@ -387,8 +387,8 @@
             (A1) edge node [above left, color=black] {\small 1712} (A2)
             (A1) edge node [color=black] {\small 1712} (A3)
             (A2) edge node [color=black] {\small 1712} (A3)
-            (G) edge node [right, color=black] {\small 1712} (A1)
-            (G) edge node [right, color=black] {\small 1712} (A2)
+            (G) edge node [left, color=black] {\small 1712} (A1)
+            (G) edge node [left, color=black] {\small 1712} (A2)
             (G) edge node [right, color=black] {\small 1712} (A3)
             (Ap) edge node [right, color=black] {\small 1712} (A1)
             (Ap) edge node [right, color=black] {\small 1712} (A2)
@@ -409,8 +409,8 @@
             (A1) edge [color=associate] node [above left, color=black] {\small 1712} (A2)
             (A1) edge [color=associate] node [color=black] {\small 1712} (A3)
             (A2) edge [color=associate] node [color=black] {\small 1712} (A3)
-            (G) edge [color=guarantor] node [right, color=black] {\small 1712} (A1)
-            (G) edge [color=guarantor] node [right, color=black] {\small 1712} (A2)
+            (G) edge [color=guarantor] node [left, color=black] {\small 1712} (A1)
+            (G) edge [color=guarantor] node [left, color=black] {\small 1712} (A2)
             (G) edge [color=guarantor] node [right, color=black] {\small 1712} (A3)
             (Ap) edge [color=approbator] node [right, color=black] {\small 1712} (A1)
             (Ap) edge [color=approbator] node [right, color=black] {\small 1712} (A2)
@@ -445,7 +445,7 @@
 \colorlet{child}{blue!80!white!50}
 
 
-\newcommand{\birthSimple}[1][0]{\begin{tikzpicture}[, node distance=3cm, auto, every node/.style={inner sep=3,outer sep=0}]
+\newcommand{\birthSimple}[1][0]{\begin{tikzpicture}[->, node distance=3cm, auto, every node/.style={inner sep=3,outer sep=0}]
         \node[shape=circle,draw=gray, fill=lightgrey] (F) at (0,1) {\tiny F};
         \node[shape=circle,draw=gray, fill=lightgrey] (M) at (1.5,1) {\tiny M};
         \node[shape=circle,draw=gray, fill=lightgrey] (C) at (0.75,0) {\tiny C};
