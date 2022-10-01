@@ -9,16 +9,16 @@
 \contentsline {subsection}{\numberline {2.1.1}Information Visualization}{24}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}Visual Analytics}{27}{subsection.2.1.2}%
 \contentsline {section}{\numberline {2.2}Quantitative Social History}{27}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}History, Social History, and Methodology}{29}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Quantitative History}{30}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}History, Social History, and Methodology}{28}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Quantitative History}{29}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.2.3}Digital Humanities}{31}{subsection.2.2.3}%
-\contentsline {section}{\numberline {2.3}Historical Social Network Analysis}{33}{section.2.3}%
+\contentsline {section}{\numberline {2.3}Historical Social Network Analysis}{32}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Sociometry to SNA}{33}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Methods and Measures}{35}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Historical Social Network Analysis}{37}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.2}Methods and Measures}{34}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Historical Social Network Analysis}{36}{subsection.2.3.3}%
 \contentsline {subsection}{\numberline {2.3.4}Network Modeling}{38}{subsection.2.3.4}%
-\contentsline {section}{\numberline {2.4}Social Network Visualization}{40}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Graph Drawing}{40}{subsection.2.4.1}%
+\contentsline {section}{\numberline {2.4}Social Network Visualization}{39}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Graph Drawing}{39}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}Social Network Visual Analytics}{41}{subsection.2.4.2}%
 \contentsline {chapter}{\numberline {3}Historical Social Network Process, Pitfalls, and Network Modeling}{45}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Context}{46}{section.3.1}%
