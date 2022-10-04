@@ -183,19 +183,19 @@
 \backcite {wetherellHistoricalSocialNetwork1998}{{40}{2.4.3}{subsection.2.4.3}}
 \backcite {hambergerScanningPatternsRelationship2014}{{40}{2.4.3}{subsection.2.4.3}}
 \backcite {lippKinshipNetworksLocal2005}{{40}{2.4.3}{subsection.2.4.3}}
-\backcite {moutoukias1992}{{41}{2.4.3}{subsection.2.4.3}}
-\backcite {lemercier12FormalNetwork2015}{{41}{2.4.3}{subsection.2.4.3}}
+\backcite {moutoukias1992}{{40}{2.4.3}{subsection.2.4.3}}
+\backcite {lemercier12FormalNetwork2015}{{40}{2.4.3}{subsection.2.4.3}}
 \backcite {padgettRobustActionRise1993}{{41}{2.4.3}{subsection.2.4.3}}
 \backcite {alexanderAnalysisAncientNetwork1990}{{41}{2.4.3}{subsection.2.4.3}}
 \backcite {alexanderAnalysisAncientNetwork1990}{{41}{2.7}{figure.caption.15}}
 \backcite {lemercier12FormalNetwork2015}{{41}{2.4.3}{figure.caption.15}}
 \backcite {kerschbaumerPowerNetworksProspects2015}{{41}{2.4.3}{figure.caption.15}}
-\backcite {padgettRobustActionRise1993, petzCombiningNetworkResearch2022}{{42}{2.4.3}{figure.caption.15}}
+\backcite {padgettRobustActionRise1993, petzCombiningNetworkResearch2022}{{41}{2.4.3}{figure.caption.15}}
 \backcite {alkadi2022}{{42}{2.4.4}{subsection.2.4.4}}
 \backcite {lemercier12FormalNetwork2015, bouletBatchKernelSOM2008}{{42}{2.4.4}{subsection.2.4.4}}
 \backcite {rossettiCommunityDiscoveryDynamic2018}{{42}{2.4.4}{equation.2.4.7}}
 \backcite {borgattiSocialNetworkAnalysis2009}{{42}{2.4.4}{equation.2.4.8}}
-\backcite {hambergerKinshipNetworkAnalysis2011}{{43}{2.4.4}{equation.2.4.9}}
+\backcite {hambergerKinshipNetworkAnalysis2011}{{42}{2.4.4}{equation.2.4.9}}
 \backcite {gedcom}{{43}{2.4.4}{equation.2.4.9}}
 \backcite {hambergerScanningPatternsRelationship2014}{{43}{2.4.4}{equation.2.4.9}}
 \backcite {lemercierQuantitativeMethodsHumanities2019}{{43}{2.4.4}{equation.2.4.9}}
@@ -203,9 +203,9 @@
 \backcite {alexanderAnalysisAncientNetwork1990}{{43}{2.4.4}{equation.2.4.9}}
 \backcite {freemanVisualizingSocialNetworks2000}{{43}{2.5.1}{subsection.2.5.1}}
 \backcite {morenoWhoShallSurvive1934}{{43}{2.5.1}{subsection.2.5.1}}
+\backcite {cristofoliPrincipesUsagesDessins, kosakAutomatingLayoutNetwork1994}{{43}{2.5.1}{subsection.2.5.1}}
+\backcite {kosakAutomatingLayoutNetwork1994}{{43}{2.5.1}{subsection.2.5.1}}
 \backcite {kosakAutomatingLayoutNetwork1994}{{44}{2.8}{figure.caption.16}}
-\backcite {cristofoliPrincipesUsagesDessins, kosakAutomatingLayoutNetwork1994}{{44}{2.5.1}{subsection.2.5.1}}
-\backcite {kosakAutomatingLayoutNetwork1994}{{44}{2.5.1}{subsection.2.5.1}}
 \backcite {battistaGraphDrawingAlgorithms1998}{{44}{2.5.1}{figure.caption.16}}
 \backcite {mcguffinSimpleAlgorithmsNetwork2012}{{44}{2.5.1}{figure.caption.16}}
 \backcite {ghoniemComparisonReadabilityGraphs2004, abdelaalComparativeEvaluationBipartite2022}{{44}{2.5.1}{figure.caption.16}}
