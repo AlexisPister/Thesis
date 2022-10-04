@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.6.11)  1 OCT 2022 19:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.6.11)  4 OCT 2022 13:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1515,7 +1515,7 @@ Package minitoc(hints) Warning: W0023
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<static/logos/Frame-ups.pdf, id=71, 303.38344pt x 849.92531pt>
+<static/logos/Frame-ups.pdf, id=252, 303.38344pt x 849.92531pt>
 File: static/logos/Frame-ups.pdf Graphic file (type pdf)
 <use static/logos/Frame-ups.pdf>
 Package pdftex.def Info: static/logos/Frame-ups.pdf  used on input line 40.
@@ -1663,7 +1663,7 @@ LaTeX Font Info:    No file T1rm.fd. on input line 153.
 LaTeX Font Warning: Font shape `T1/rm/m/n' undefined
 (Font)              using `T1/cmr/m/n' instead on input line 153.
 
-<static/logos/logo_usp_STIC.png, id=88, 372.8475pt x 85.41pt>
+<static/logos/logo_usp_STIC.png, id=269, 372.8475pt x 85.41pt>
 File: static/logos/logo_usp_STIC.png Graphic file (type png)
 <use static/logos/logo_usp_STIC.png>
 Package pdftex.def Info: static/logos/logo_usp_STIC.png  used on input line 165
@@ -1673,10 +1673,10 @@ Package mdframed Info: mdframed works in twoside mode on input line 172.
 Package mdframed Info: mdframed works in twoside mode on input line 188.
 (./abstract.tex)
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 207.
+(Font)              scaled to size 10.40245pt on input line 197.
  [2
 
- <./static/logos/logo_usp_STIC.png>]
+ <./static/logos/logo_usp_STIC.png>] [3]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -1759,44 +1759,44 @@ Package minitoc Info: I0033
 (minitoc)             Writing main.mtc4.
 \openout5 = `main.mtc4'.
 
-
-(/home/alexis/Documents/Thesis/out/main.toc [3
-
+ [4
 
 
-
-])
-\tf@toc=\write7
-\openout7 = `main.toc'.
-
- [4]
-(/home/alexis/Documents/Thesis/out/main.lof
-
-LaTeX Warning: Citation `bouletBatchKernelSOM2008' on page 5 undefined on input
- line 7.
-
-
-LaTeX Warning: Citation `auberTULIP2017' on page 5 undefined on input line 12.
-
-
-LaTeX Warning: Citation `edelsteinHistoricalResearchDigital2017' on page 5 unde
-fined on input line 13.
-
-
-LaTeX Warning: Citation `alexanderAnalysisAncientNetwork1990' on page 5 undefin
-ed on input line 16.
-
-[5
 
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+(/home/alexis/Documents/Thesis/out/main.toc [5])
+\tf@toc=\write7
+\openout7 = `main.toc'.
 
  [6]
+(/home/alexis/Documents/Thesis/out/main.lof
+
+LaTeX Warning: Citation `bouletBatchKernelSOM2008' on page 7 undefined on input
+ line 7.
+
+
+LaTeX Warning: Citation `auberTULIP2017' on page 7 undefined on input line 12.
+
+
+LaTeX Warning: Citation `edelsteinHistoricalResearchDigital2017' on page 7 unde
+fined on input line 13.
+
+
+LaTeX Warning: Citation `alexanderAnalysisAncientNetwork1990' on page 7 undefin
+ed on input line 16.
+
+
+Underfull \vbox (badness 3679) has occurred while \output is active []
+
+ [7
+
+
+]
+[8]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
 3.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 ))
 \tf@lof=\write8
@@ -1805,15 +1805,179 @@ File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7]
-[8] (/home/alexis/Documents/Thesis/out/main.lot)
+ [9]
+[10] (/home/alexis/Documents/Thesis/out/main.lot)
 \tf@lot=\write9
 \openout9 = `main.lot'.
 
- [9
+ [11
 
 
 ]
+\openout2 = `chapters/Publications.aux'.
+
+
+(./chapters/Publications.tex [12
+
+
+
+]
+Overfull \hbox (2.06813pt too wide) in paragraph at lines 8--9
+\T1/cmss/m/n/10.95 ments To So-cial Net-work Vi-su-al-iza-tion: Po-ten-tial Pit
+-falls and Net-work Mod-el-ing. VIS4DH
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
+9.
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmss.fd
+File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)) [13]
+\openout2 = `chapters/Introduction.aux'.
+
+
+(./chapters/Introduction.tex [14
+
+
+
+
+]
+Chapter 1.
+
+LaTeX Warning: Citation `whiteNetworkAnalysisEthnographic2005' on page 15 undef
+ined on input line 25.
+
+LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
+(Font)              scaled to size 9.49997pt on input line 27.
+LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
+(Font)              scaled to size 9.49997pt on input line 27.
+LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
+(Font)              scaled to size 7.12497pt on input line 27.
+LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
+(Font)              scaled to size 7.12497pt on input line 27.
+
+LaTeX Warning: Citation `langloisIntroductionAuxEtudes2014' on page 15 undefine
+d on input line 29.
+
+
+LaTeX Warning: Citation `mercklePeutonModeliserPersecution2018' on page 15 unde
+fined on input line 32.
+
+[15]
+
+LaTeX Warning: Citation `tilly1984retrieving' on page 16 undefined on input lin
+e 113.
+
+
+LaTeX Warning: Citation `cConceptUseSocial1969' on page 16 undefined on input l
+ine 115.
+
+<static/figures/MarieBoucher.png, id=662, 2021.5525pt x 1326.9575pt>
+File: static/figures/MarieBoucher.png Graphic file (type png)
+<use static/figures/MarieBoucher.png>
+Package pdftex.def Info: static/figures/MarieBoucher.png  used on input line 13
+5.
+(pdftex.def)             Requested size: 426.79134pt x 280.14738pt.
+[16]
+
+LaTeX Warning: Citation `wolfeRiseNetworkThinking1978' on page 17 undefined on 
+input line 182.
+
+LaTeX Font Info:    Font shape `T1/opensans-TLF/b/n' will be
+(Font)              scaled to size 9.49997pt on input line 182.
+
+LaTeX Warning: Citation `crosbyMeasureReality1998' on page 17 undefined on inpu
+t line 182.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17]
+
+LaTeX Warning: Citation `shneidermanInventingDiscoveryTools2002' on page 18 und
+efined on input line 189.
+
+[18 <./static/figures/MarieBoucher.png>]
+<static/figures/RelatedWork/padgett-Medicis.png, id=704, 1175.39125pt x 1330.97
+25pt>
+File: static/figures/RelatedWork/padgett-Medicis.png Graphic file (type png)
+<use static/figures/RelatedWork/padgett-Medicis.png>
+Package pdftex.def Info: static/figures/RelatedWork/padgett-Medicis.png  used o
+n input line 206.
+(pdftex.def)             Requested size: 341.43436pt x 386.62202pt.
+ [19 <./static/figures/RelatedWork/padgett-Medicis.png>]
+
+LaTeX Warning: Citation `ucinet' on page 20 undefined on input line 214.
+
+<static/figures/RelatedWork/Keim-VisualAnalytics.png, id=721, 2426.06375pt x 12
+92.83pt>
+File: static/figures/RelatedWork/Keim-VisualAnalytics.png Graphic file (type pn
+g)
+<use static/figures/RelatedWork/Keim-VisualAnalytics.png>
+Package pdftex.def Info: static/figures/RelatedWork/Keim-VisualAnalytics.png  u
+sed on input line 223.
+(pdftex.def)             Requested size: 426.79134pt x 227.43225pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20 <./static/figures/RelatedWork/Keim-VisualAnalytics.png>]
+
+LaTeX Warning: Citation `opitzInductionLargeScaleKnowledge2018' on page 21 unde
+fined on input line 257.
+
+
+LaTeX Warning: Citation `rollingerProlegomenaProblemsPerspectives2020' on page 
+21 undefined on input line 263.
+
+
+LaTeX Warning: Citation `collarNetworksArchaeologyPhenomena2015' on page 21 und
+efined on input line 265.
+
+<static/figures/RelatedWork/medievalNetwork.png, id=749, 1382.16376pt x 1353.05
+5pt>
+File: static/figures/RelatedWork/medievalNetwork.png Graphic file (type png)
+<use static/figures/RelatedWork/medievalNetwork.png>
+Package pdftex.def Info: static/figures/RelatedWork/medievalNetwork.png  used o
+n input line 271.
+(pdftex.def)             Requested size: 426.79134pt x 417.79105pt.
+LaTeX Font Info:    Font shape `T1/opensans-TLF/b/n' will be
+(Font)              scaled to size 11.39996pt on input line 272.
+
+LaTeX Warning: Citation `bouletBatchKernelSOM2008' on page 21 undefined on inpu
+t line 272.
+
+
+LaTeX Warning: Citation `bouletBatchKernelSOM2008' on page 21 undefined on inpu
+t line 272.
+
+
+LaTeX Warning: Citation `johnsonUCINETSoftwareTool1987' on page 21 undefined on
+ input line 276.
+
+
+LaTeX Warning: Citation `paxtonDollarsSenseConvincing2006' on page 21 undefined
+ on input line 276.
+
+
+LaTeX Warning: Citation `rollingerProlegomenaProblemsPerspectives2020' on page 
+21 undefined on input line 276.
+
+
+LaTeX Warning: Citation `pisterIntegratingPriorKnowledge2021' on page 21 undefi
+ned on input line 279.
+
+
+Underfull \vbox (badness 6173) has occurred while \output is active []
+
+ [21]
+[22 <./static/figures/RelatedWork/medievalNetwork.png>]
+LaTeX Font Info:    Font shape `T1/opensans-TLF/b/n' will be
+(Font)              scaled to size 10.40245pt on input line 326.
+ [23]
+
+LaTeX Warning: Reference `ch:pk-clustering' on page 24 undefined on input line 
+351.
+
+) [24]
 \openout2 = `chapters/Context.aux'.
 
  (./chapters/Context.tex
@@ -1832,280 +1996,282 @@ LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
 
 (/home/alexis/Documents/Thesis/out/main.mtc2)
 
-LaTeX Warning: Citation `tilly1984retrieving' on page 23 undefined on input lin
+LaTeX Warning: Citation `tilly1984retrieving' on page 25 undefined on input lin
 e 8.
 
 
-LaTeX Warning: Citation `tillyObservationsSocialProcesses2004' on page 23 undef
+LaTeX Warning: Citation `tillyObservationsSocialProcesses2004' on page 25 undef
 ined on input line 10.
 
 
 LaTeX Warning: Citation `rollingerProlegomenaProblemsPerspectives2020' on page 
-23 undefined on input line 10.
+25 undefined on input line 10.
 
-[23
-
+[25
 
 
 
 
 ]
-<static/figures/RelatedWork/BertinNetworks.png, id=477, 713.66624pt x 1232.605p
+
+LaTeX Warning: Citation `bouletBatchKernelSOM2008' on page 26 undefined on inpu
+t line 64.
+
+[26]
+
+LaTeX Warning: Citation `rossettiCommunityDiscoveryDynamic2018' on page 27 unde
+fined on input line 78.
+
+
+LaTeX Warning: Citation `borgattiSocialNetworkAnalysis2009' on page 27 undefine
+d on input line 85.
+
+
+LaTeX Warning: Citation `alexanderAnalysisAncientNetwork1990' on page 27 undefi
+ned on input line 106.
+
+[27]
+<static/figures/RelatedWork/BertinNetworks.png, id=845, 713.66624pt x 1232.605p
 t>
 File: static/figures/RelatedWork/BertinNetworks.png Graphic file (type png)
 <use static/figures/RelatedWork/BertinNetworks.png>
 Package pdftex.def Info: static/figures/RelatedWork/BertinNetworks.png  used on
- input line 52.
-(pdftex.def)             Requested size: 320.09349pt x 552.84274pt.
+ input line 128.
+(pdftex.def)             Requested size: 332.89671pt x 574.96097pt.
 
 
-LaTeX Warning: Citation `hilbertWorldTechnologicalCapacity2011' on page 24 unde
-fined on input line 61.
+LaTeX Warning: Citation `hilbertWorldTechnologicalCapacity2011' on page 28 unde
+fined on input line 137.
 
-[24] [25 <./static/figures/RelatedWork/BertinNetworks.png>]
-<static/figures/RelatedWork/Anscombe.pdf, id=499, 948.54375pt x 632.3625pt>
+[28] [29 <./static/figures/RelatedWork/BertinNetworks.png>]
+<static/figures/RelatedWork/Anscombe.pdf, id=865, 948.54375pt x 632.3625pt>
 File: static/figures/RelatedWork/Anscombe.pdf Graphic file (type pdf)
 <use static/figures/RelatedWork/Anscombe.pdf>
 Package pdftex.def Info: static/figures/RelatedWork/Anscombe.pdf  used on input
- line 68.
+ line 144.
 (pdftex.def)             Requested size: 341.43436pt x 227.62138pt.
 
 
-LaTeX Warning: Citation `shneidermanEyesHaveIt1996' on page 26 undefined on inp
-ut line 73.
+LaTeX Warning: Citation `shneidermanEyesHaveIt1996' on page 30 undefined on inp
+ut line 149.
 
 
-LaTeX Warning: Citation `wilkinsonGrammarGraphics1993' on page 26 undefined on 
-input line 75.
+LaTeX Warning: Citation `wilkinsonGrammarGraphics1993' on page 30 undefined on 
+input line 151.
 
 
-LaTeX Warning: Citation `wickham2007ggplot' on page 26 undefined on input line 
-77.
+LaTeX Warning: Citation `wickham2007ggplot' on page 30 undefined on input line 
+153.
 
 
-LaTeX Warning: Citation `bradshawDataJournalism2017' on page 26 undefined on in
-put line 78.
+LaTeX Warning: Citation `bradshawDataJournalism2017' on page 30 undefined on in
+put line 154.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [26 <./static/figures/RelatedWork/Anscombe.pdf>]
+ [30 <./static/figures/RelatedWork/Anscombe.pdf>]
 
-LaTeX Warning: Citation `thomasVisualAnalyticsAgenda2006' on page 27 undefined 
-on input line 88.
+LaTeX Warning: Citation `thomasVisualAnalyticsAgenda2006' on page 31 undefined 
+on input line 164.
 
 
-LaTeX Warning: Citation `shneidermanEyesHaveIt1996' on page 27 undefined on inp
-ut line 92.
+LaTeX Warning: Citation `shneidermanEyesHaveIt1996' on page 31 undefined on inp
+ut line 168.
 
-<static/figures/RelatedWork/TULIP.png, id=514, 2017.5375pt x 1186.4325pt>
+<static/figures/RelatedWork/TULIP.png, id=879, 2017.5375pt x 1186.4325pt>
 File: static/figures/RelatedWork/TULIP.png Graphic file (type png)
 <use static/figures/RelatedWork/TULIP.png>
 Package pdftex.def Info: static/figures/RelatedWork/TULIP.png  used on input li
-ne 105.
+ne 181.
 (pdftex.def)             Requested size: 426.79134pt x 250.96852pt.
-LaTeX Font Info:    Font shape `T1/opensans-TLF/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 106.
 
-LaTeX Warning: Citation `auberTULIP2017' on page 27 undefined on input line 106
+LaTeX Warning: Citation `auberTULIP2017' on page 31 undefined on input line 182
 .
 
 
-LaTeX Warning: Citation `auberTULIP2017' on page 27 undefined on input line 106
+LaTeX Warning: Citation `auberTULIP2017' on page 31 undefined on input line 182
 .
 
 
-LaTeX Warning: Citation `tilly1984retrieving' on page 27 undefined on input lin
-e 132.
+LaTeX Warning: Citation `tilly1984retrieving' on page 31 undefined on input lin
+e 208.
 
 
-LaTeX Warning: Citation `haskinsUnderstandingQuantitativeHistory2011' on page 2
-7 undefined on input line 134.
+LaTeX Warning: Citation `haskinsUnderstandingQuantitativeHistory2011' on page 3
+1 undefined on input line 210.
 
-[27]
+[31]
 
-LaTeX Warning: Citation `langloisIntroductionAuxEtudes2014' on page 28 undefine
-d on input line 153.
+LaTeX Warning: Citation `langloisIntroductionAuxEtudes2014' on page 32 undefine
+d on input line 229.
 
 
-LaTeX Warning: Citation `noirielNaissanceMetierHistorien1990' on page 28 undefi
-ned on input line 154.
+LaTeX Warning: Citation `noirielNaissanceMetierHistorien1990' on page 32 undefi
+ned on input line 230.
 
 
 Underfull \vbox (badness 1077) has occurred while \output is active []
 
- [28 <./static/figures/RelatedWork/TULIP.png>]
-LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 178.
-LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 178.
-LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
-(Font)              scaled to size 7.12497pt on input line 178.
-LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 7.12497pt on input line 178.
+ [32 <./static/figures/RelatedWork/TULIP.png>]
+
+LaTeX Warning: Citation `fogelRailroadsAmericanEconomic1964' on page 33 undefin
+ed on input line 272.
 
 
-LaTeX Warning: Citation `fogelRailroadsAmericanEconomic1964' on page 29 undefin
-ed on input line 196.
-
-
-LaTeX Warning: Citation `fogel1974time' on page 29 undefined on input line 196.
+LaTeX Warning: Citation `fogel1974time' on page 33 undefined on input line 272.
 
 
 
-LaTeX Warning: Citation `whaplesWhereThereConsensus1995' on page 29 undefined o
-n input line 197.
+LaTeX Warning: Citation `whaplesWhereThereConsensus1995' on page 33 undefined o
+n input line 273.
 
 
-LaTeX Warning: Citation `landesHistorySocialScience1971' on page 29 undefined o
-n input line 199.
+LaTeX Warning: Citation `landesHistorySocialScience1971' on page 33 undefined o
+n input line 275.
 
-[29]
+[33]
 
-LaTeX Warning: Citation `stoneRevivalNarrativeReflections1979' on page 30 undef
-ined on input line 203.
-
-
-LaTeX Warning: Citation `trivellatoThereFutureItalian2011' on page 30 undefined
- on input line 209.
+LaTeX Warning: Citation `stoneRevivalNarrativeReflections1979' on page 34 undef
+ined on input line 279.
 
 
-LaTeX Warning: Citation `terras2011quantifying' on page 30 undefined on input l
-ine 229.
+LaTeX Warning: Citation `trivellatoThereFutureItalian2011' on page 34 undefined
+ on input line 285.
 
 
-LaTeX Warning: Citation `burdickDigitalHumanities2016' on page 30 undefined on 
-input line 230.
+LaTeX Warning: Citation `terras2011quantifying' on page 34 undefined on input l
+ine 305.
 
 
-LaTeX Warning: Citation `InterchangePromiseDigital2008' on page 30 undefined on
- input line 231.
+LaTeX Warning: Citation `burdickDigitalHumanities2016' on page 34 undefined on 
+input line 306.
 
-<static/figures/RelatedWork/RepublicOfLetter_BenjFranklin.png, id=553, 1760.577
+
+LaTeX Warning: Citation `InterchangePromiseDigital2008' on page 34 undefined on
+ input line 307.
+
+<static/figures/RelatedWork/RepublicOfLetter_BenjFranklin.png, id=916, 1760.577
 5pt x 1367.1075pt>
 File: static/figures/RelatedWork/RepublicOfLetter_BenjFranklin.png Graphic file
  (type png)
 <use static/figures/RelatedWork/RepublicOfLetter_BenjFranklin.png>
 Package pdftex.def Info: static/figures/RelatedWork/RepublicOfLetter_BenjFrankl
-in.png  used on input line 236.
+in.png  used on input line 312.
 (pdftex.def)             Requested size: 426.79134pt x 331.40843pt.
 
-LaTeX Warning: Citation `edelsteinHistoricalResearchDigital2017' on page 30 und
-efined on input line 237.
+LaTeX Warning: Citation `edelsteinHistoricalResearchDigital2017' on page 34 und
+efined on input line 313.
 
 
-LaTeX Warning: Citation `edelsteinHistoricalResearchDigital2017' on page 30 und
-efined on input line 237.
+LaTeX Warning: Citation `edelsteinHistoricalResearchDigital2017' on page 34 und
+efined on input line 313.
 
 
-LaTeX Warning: Citation `edelsteinHistoricalResearchDigital2017' on page 30 und
-efined on input line 240.
+LaTeX Warning: Citation `edelsteinHistoricalResearchDigital2017' on page 34 und
+efined on input line 316.
+
+[34]
+
+LaTeX Warning: Citation `ahnertNetworkTurnChanging2020' on page 35 undefined on
+ input line 321.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [30]
-
-LaTeX Warning: Citation `ahnertNetworkTurnChanging2020' on page 31 undefined on
- input line 245.
+LaTeX Warning: Citation `cordell2017viral' on page 35 undefined on input line 3
+22.
 
 
-LaTeX Warning: Citation `cordell2017viral' on page 31 undefined on input line 2
-46.
-
-
-LaTeX Warning: Citation `ardanuyLivingMachinesStudy2020' on page 31 undefined o
-n input line 246.
+LaTeX Warning: Citation `ardanuyLivingMachinesStudy2020' on page 35 undefined o
+n input line 322.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31]
-Underfull \vbox (badness 1888) has occurred while \output is active []
+ [35]
+[36 <./static/figures/RelatedWork/RepublicOfLetter_BenjFranklin.png>]
 
- [32 <./static/figures/RelatedWork/RepublicOfLetter_BenjFranklin.png>]
+LaTeX Warning: Citation `bartonSurveyResearchMacroMethodology1968' on page 37 u
+ndefined on input line 343.
 
-LaTeX Warning: Citation `bartonSurveyResearchMacroMethodology1968' on page 33 u
-ndefined on input line 267.
-
-<static/figures/RelatedWork/Moreno-1.png, id=579, 598.235pt x 758.835pt>
+<static/figures/RelatedWork/Moreno-1.png, id=938, 598.235pt x 758.835pt>
 File: static/figures/RelatedWork/Moreno-1.png Graphic file (type png)
 <use static/figures/RelatedWork/Moreno-1.png>
 Package pdftex.def Info: static/figures/RelatedWork/Moreno-1.png  used on input
- line 273.
+ line 349.
 (pdftex.def)             Requested size: 192.0548pt x 243.60794pt.
-<static/figures/RelatedWork/Moreno-1_GrandJean.png, id=580, 1003.75pt x 1003.75
+<static/figures/RelatedWork/Moreno-1_GrandJean.png, id=939, 1003.75pt x 1003.75
 pt>
 File: static/figures/RelatedWork/Moreno-1_GrandJean.png Graphic file (type png)
 
 <use static/figures/RelatedWork/Moreno-1_GrandJean.png>
 Package pdftex.def Info: static/figures/RelatedWork/Moreno-1_GrandJean.png  use
-d on input line 275.
+d on input line 351.
 (pdftex.def)             Requested size: 213.39566pt x 213.3944pt.
 
-LaTeX Warning: Citation `cConceptUseSocial1969' on page 33 undefined on input l
-ine 282.
+LaTeX Warning: Citation `cConceptUseSocial1969' on page 37 undefined on input l
+ine 358.
 
-[33]
+[37]
 
-LaTeX Warning: Citation `newmanNetworks2018' on page 34 undefined on input line
- 317.
+LaTeX Warning: Citation `newmanNetworks2018' on page 38 undefined on input line
+ 392.
 
-[34 <./static/figures/RelatedWork/Moreno-1_GrandJean.png> <./static/figures/Rel
+
+LaTeX Warning: Citation `prÅ¾uljBiologicalNetworkComparison2007' on page 38 und
+efined on input line 401.
+
+[38 <./static/figures/RelatedWork/Moreno-1_GrandJean.png> <./static/figures/Rel
 atedWork/Moreno-1.png>]
-
-LaTeX Warning: Citation `prÅ¾uljBiologicalNetworkComparison2007' on page 35 und
-efined on input line 326.
-
-<static/figures/RelatedWork/graphlets/triangle.pdf, id=618, 752.8125pt x 752.81
+<static/figures/RelatedWork/graphlets/triangle.pdf, id=975, 752.8125pt x 752.81
 25pt>
 File: static/figures/RelatedWork/graphlets/triangle.pdf Graphic file (type pdf)
 
 <use static/figures/RelatedWork/graphlets/triangle.pdf>
 Package pdftex.def Info: static/figures/RelatedWork/graphlets/triangle.pdf  use
-d on input line 330.
+d on input line 405.
 (pdftex.def)             Requested size: 11.95793pt x 11.96808pt.
-<static/figures/RelatedWork/graphlets/edge.pdf, id=619, 752.8125pt x 752.8125pt
+<static/figures/RelatedWork/graphlets/edge.pdf, id=976, 752.8125pt x 752.8125pt
 >
 File: static/figures/RelatedWork/graphlets/edge.pdf Graphic file (type pdf)
 <use static/figures/RelatedWork/graphlets/edge.pdf>
 Package pdftex.def Info: static/figures/RelatedWork/graphlets/edge.pdf  used on
- input line 330.
+ input line 405.
 (pdftex.def)             Requested size: 11.95793pt x 11.96808pt.
 File: static/figures/RelatedWork/graphlets/triangle.pdf Graphic file (type pdf)
 
 <use static/figures/RelatedWork/graphlets/triangle.pdf>
 Package pdftex.def Info: static/figures/RelatedWork/graphlets/triangle.pdf  use
-d on input line 330.
+d on input line 405.
 (pdftex.def)             Requested size: 11.95793pt x 11.96808pt.
-<static/figures/RelatedWork/graphlets/edge2.pdf, id=620, 752.8125pt x 752.8125p
+<static/figures/RelatedWork/graphlets/edge2.pdf, id=977, 752.8125pt x 752.8125p
 t>
 File: static/figures/RelatedWork/graphlets/edge2.pdf Graphic file (type pdf)
 <use static/figures/RelatedWork/graphlets/edge2.pdf>
 Package pdftex.def Info: static/figures/RelatedWork/graphlets/edge2.pdf  used o
-n input line 331.
+n input line 406.
 (pdftex.def)             Requested size: 11.95793pt x 11.96808pt.
-<static/figures/RelatedWork/all_graphlets_undir5.png, id=621, 480.79625pt x 141
+<static/figures/RelatedWork/all_graphlets_undir5.png, id=978, 480.79625pt x 141
 .52875pt>
 File: static/figures/RelatedWork/all_graphlets_undir5.png Graphic file (type pn
 g)
 <use static/figures/RelatedWork/all_graphlets_undir5.png>
 Package pdftex.def Info: static/figures/RelatedWork/all_graphlets_undir5.png  u
-sed on input line 338.
+sed on input line 413.
 (pdftex.def)             Requested size: 426.79134pt x 125.6341pt.
 
-LaTeX Warning: Citation `charbeyStarsHolesPaths2019' on page 35 undefined on in
-put line 344.
+
+LaTeX Warning: Citation `charbeyStarsHolesPaths2019' on page 39 undefined on in
+put line 419.
 
 
-LaTeX Warning: Citation `girvanCommunityStructureSocial2002' on page 35 undefin
-ed on input line 345.
+LaTeX Warning: Citation `girvanCommunityStructureSocial2002' on page 39 undefin
+ed on input line 420.
 
 
-LaTeX Warning: Citation `fortunatoCommunityDetectionGraphs2010' on page 35 unde
-fined on input line 347.
+LaTeX Warning: Citation `fortunatoCommunityDetectionGraphs2010' on page 39 unde
+fined on input line 422.
 
-[35 <./static/figures/RelatedWork/all_graphlets_undir5.png> <./static/figures/R
+[39 <./static/figures/RelatedWork/all_graphlets_undir5.png> <./static/figures/R
 elatedWork/graphlets/triangle.pdf> <./static/figures/RelatedWork/graphlets/edge
 .pdf
 
@@ -2117,511 +2283,760 @@ pdfTeX warning: pdflatex (file ./static/figures/RelatedWork/graphlets/edge2.pdf
 ): PDF inclusion: multiple pdfs with page group included in a single page
 >]
 
-LaTeX Warning: Citation `charbeyStarsHolesPaths2019' on page 36 undefined on in
-put line 365.
+LaTeX Warning: Citation `charbeyStarsHolesPaths2019' on page 40 undefined on in
+put line 440.
 
 
-LaTeX Warning: Citation `alexanderAnalysisAncientNetwork1990' on page 36 undefi
-ned on input line 387.
+LaTeX Warning: Citation `alexanderAnalysisAncientNetwork1990' on page 40 undefi
+ned on input line 462.
 
-[36]
-<static/figures/RelatedWork/Cicero_network.png, id=662, 882.29625pt x 990.70125
-pt>
+[40]
+<static/figures/RelatedWork/Cicero_network.png, id=1016, 882.29625pt x 990.7012
+5pt>
 File: static/figures/RelatedWork/Cicero_network.png Graphic file (type png)
 <use static/figures/RelatedWork/Cicero_network.png>
 Package pdftex.def Info: static/figures/RelatedWork/Cicero_network.png  used on
- input line 401.
+ input line 476.
 (pdftex.def)             Requested size: 341.43436pt x 383.3788pt.
 
 
-LaTeX Warning: Citation `alexanderAnalysisAncientNetwork1990' on page 37 undefi
-ned on input line 402.
+LaTeX Warning: Citation `alexanderAnalysisAncientNetwork1990' on page 41 undefi
+ned on input line 477.
 
 
-LaTeX Warning: Citation `alexanderAnalysisAncientNetwork1990' on page 37 undefi
-ned on input line 402.
+LaTeX Warning: Citation `alexanderAnalysisAncientNetwork1990' on page 41 undefi
+ned on input line 477.
 
-[37 <./static/figures/RelatedWork/Cicero_network.png>]
+[41 <./static/figures/RelatedWork/Cicero_network.png>]
 
-LaTeX Warning: Citation `bouletBatchKernelSOM2008' on page 38 undefined on inpu
-t line 423.
-
-
-LaTeX Warning: Citation `rossettiCommunityDiscoveryDynamic2018' on page 38 unde
-fined on input line 437.
+LaTeX Warning: Citation `bouletBatchKernelSOM2008' on page 42 undefined on inpu
+t line 498.
 
 
-LaTeX Warning: Citation `borgattiSocialNetworkAnalysis2009' on page 38 undefine
-d on input line 444.
+LaTeX Warning: Citation `rossettiCommunityDiscoveryDynamic2018' on page 42 unde
+fined on input line 512.
 
-[38]
 
-LaTeX Warning: Citation `alexanderAnalysisAncientNetwork1990' on page 39 undefi
-ned on input line 465.
+LaTeX Warning: Citation `borgattiSocialNetworkAnalysis2009' on page 42 undefine
+d on input line 519.
 
-<static/figures/RelatedWork/Kosak-nodelinkdiagramMetrics.png, id=699, 2052.6687
-5pt x 1202.4925pt>
+[42]
+
+LaTeX Warning: Citation `alexanderAnalysisAncientNetwork1990' on page 43 undefi
+ned on input line 540.
+
+<static/figures/RelatedWork/Kosak-nodelinkdiagramMetrics.png, id=1048, 2052.668
+75pt x 1202.4925pt>
 File: static/figures/RelatedWork/Kosak-nodelinkdiagramMetrics.png Graphic file 
 (type png)
 <use static/figures/RelatedWork/Kosak-nodelinkdiagramMetrics.png>
 Package pdftex.def Info: static/figures/RelatedWork/Kosak-nodelinkdiagramMetric
-s.png  used on input line 487.
+s.png  used on input line 562.
 (pdftex.def)             Requested size: 426.79134pt x 250.01712pt.
 
-LaTeX Warning: Citation `battistaGraphDrawingAlgorithms1998' on page 39 undefin
-ed on input line 494.
+LaTeX Warning: Citation `battistaGraphDrawingAlgorithms1998' on page 43 undefin
+ed on input line 569.
 
 
-LaTeX Warning: Citation `abdelaalComparativeEvaluationBipartite2022' on page 39
- undefined on input line 496.
+LaTeX Warning: Citation `abdelaalComparativeEvaluationBipartite2022' on page 43
+ undefined on input line 571.
 
-[39]
-<static/figures/RelatedWork/NodeTrix.png, id=717, 769.87625pt x 323.2075pt>
+[43]
+<static/figures/RelatedWork/NodeTrix.png, id=1064, 769.87625pt x 323.2075pt>
 File: static/figures/RelatedWork/NodeTrix.png Graphic file (type png)
 <use static/figures/RelatedWork/NodeTrix.png>
 Package pdftex.def Info: static/figures/RelatedWork/NodeTrix.png  used on input
- line 505.
+ line 580.
 (pdftex.def)             Requested size: 341.43436pt x 143.34111pt.
 
 
-LaTeX Warning: Citation `johnsonUCINETSoftwareTool1987' on page 40 undefined on
- input line 514.
+LaTeX Warning: Citation `johnsonUCINETSoftwareTool1987' on page 44 undefined on
+ input line 589.
 
 
-LaTeX Warning: Citation `baurVisoneSoftwareVisual2002' on page 40 undefined on 
-input line 515.
+LaTeX Warning: Citation `baurVisoneSoftwareVisual2002' on page 44 undefined on 
+input line 590.
 
-<static/figures/RelatedWork/vistorian.png, id=725, 1840.8775pt x 966.61125pt>
+<static/figures/RelatedWork/vistorian.png, id=1072, 1840.8775pt x 966.61125pt>
 File: static/figures/RelatedWork/vistorian.png Graphic file (type png)
 <use static/figures/RelatedWork/vistorian.png>
 Package pdftex.def Info: static/figures/RelatedWork/vistorian.png  used on inpu
-t line 522.
+t line 597.
 (pdftex.def)             Requested size: 426.79134pt x 217.50404pt.
 
-LaTeX Warning: Citation `keimVisualAnalytics' on page 40 undefined on input lin
-e 528.
+LaTeX Warning: Citation `keimVisualAnalytics' on page 44 undefined on input lin
+e 603.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [40 <./static/figures/RelatedWork/Kosak-nodelinkdiagramMetrics.png>]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 530.
-
+ [44 <./static/figures/RelatedWork/Kosak-nodelinkdiagramMetrics.png>]
 LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 542.
+(Font)              scaled to size 11.39996pt on input line 617.
 
-LaTeX Warning: Citation `pisterIntegratingPriorKnowledge2021' on page 41 undefi
-ned on input line 547.
 
-[41 <./static/figures/RelatedWork/NodeTrix.png>]
+LaTeX Warning: Citation `pisterIntegratingPriorKnowledge2021' on page 45 undefi
+ned on input line 622.
+
+[45 <./static/figures/RelatedWork/NodeTrix.png>]
 Underfull \vbox (badness 1521) has occurred while \output is active []
 
- [42 <./static/figures/RelatedWork/vistorian.png>]) [43]
-(/home/alexis/Documents/Thesis/out/main.bbl
-(/home/alexis/Documents/Thesis/out/main.brf)
-\tf@brf=\write10
-\openout10 = `main.brf'.
+ [46 <./static/figures/RelatedWork/vistorian.png>]) [47]
+\openout2 = `chapters/NetworkModels.aux'.
 
- [95
+ (./chapters/NetworkModels.tex
+[48
 
 
 
 
+]
+Chapter 3.
+\openout5 = `main.mtc'.
 
-] [96] [97] [98] [99] [100]
-[101] [102] [103] [104] [105])
-Package minitoc Info: I0009
-(minitoc)             Listing minitoc auxiliary files. 
-(minitoc)             Creating the main.maf file.
-\openout5 = `main.maf'.
+\openout5 = `main.mtc'.
 
+(/home/alexis/Documents/Thesis/out/main.mtc3)
 
+LaTeX Warning: Citation `edelsteinHistoricalResearchDigital2017' on page 49 und
+efined on input line 8.
 
-Package minitoc(hints) Warning: W0024
-(minitoc(hints))                Some hints have been written 
-(minitoc(hints))                in the main.log file.
 
-[106]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 241.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 241.
- (/home/alexis/Documents/Thesis/out/main.aux
-(/home/alexis/Documents/Thesis/out/chapters/Publications.aux)
-(/home/alexis/Documents/Thesis/out/chapters/Introduction.aux)
-(/home/alexis/Documents/Thesis/out/chapters/Context.aux)
-(/home/alexis/Documents/Thesis/out/chapters/NetworkModels.aux)
-(/home/alexis/Documents/Thesis/out/chapters/ComBiNet.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 241.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 241.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: <no file>.
-Package rerunfilecheck Info: File `main.brf' has not changed.
-(rerunfilecheck)             Checksum: <no file>.
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 23--24
+[]
+ []
 
 
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 1.26pt have occurred.
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
+ []
 
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+[49]
 
+LaTeX Warning: Citation `tilly1984retrieving' on page 50 undefined on input lin
+e 43.
 
-LaTeX Warning: There were undefined references.
+[50]
 
+LaTeX Warning: Citation `tillyObservationsSocialProcesses2004' on page 51 undef
+ined on input line 118.
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
- ) 
-Here is how much of TeX's memory you used:
- 32039 strings out of 481239
- 571391 string characters out of 5920377
- 976582 words of memory out of 5000000
- 46025 multiletter control sequences out of 15000+600000
- 668284 words of font info for 181 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 68i,17n,117p,1154b,816s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{page.58} has been referenced but does not exist, 
-replaced by a fixed one
+LaTeX Warning: Citation `fogelLimitsQuantitativeMethods1975' on page 51 undefin
+ed on input line 120.
 
-pdfTeX warning (dest): name{page.76} has been referenced but does not exist, re
-placed by a fixed one
 
-pdfTeX warning (dest): name{page.59} has been referenced but does not exist, re
-placed by a fixed one
+LaTeX Warning: Citation `barnesBigDataLittle2013' on page 51 undefined on input
+ line 120.
 
-pdfTeX warning (dest): name{page.20} has been referenced but does not exist, re
-placed by a fixed one
 
-pdfTeX warning (dest): name{page.92} has been referenced but does not exist, re
-placed by a fixed one
+LaTeX Warning: Citation `tillyObservationsSocialProcesses2004' on page 51 undef
+ined on input line 122.
 
-pdfTeX warning (dest): name{page.66} has been referenced but does not exist, re
-placed by a fixed one
 
-pdfTeX warning (dest): name{page.74} has been referenced but does not exist, re
-placed by a fixed one
+LaTeX Warning: Citation `trivellatoThereFutureItalian2011' on page 51 undefined
+ on input line 132.
 
-pdfTeX warning (dest): name{page.64} has been referenced but does not exist, re
-placed by a fixed one
+[51]
 
-pdfTeX warning (dest): name{page.47} has been referenced but does not exist, re
-placed by a fixed one
+LaTeX Warning: Citation `floudIntroductionQuantitativeMethods2013' on page 52 u
+ndefined on input line 145.
 
-pdfTeX warning (dest): name{page.17} has been referenced but does not exist, re
-placed by a fixed one
 
-pdfTeX warning (dest): name{page.79} has been referenced but does not exist, re
-placed by a fixed one
+LaTeX Warning: Citation `zakrzewski1932PopulationRegister2020' on page 52 undef
+ined on input line 155.
 
-pdfTeX warning (dest): name{page.54} has been referenced but does not exist, re
-placed by a fixed one
+[52]
+Underfull \vbox (badness 4024) has occurred while \output is active []
 
-pdfTeX warning (dest): name{page.70} has been referenced but does not exist, re
-placed by a fixed one
+ [53]
+<static/figures/HSNAProcess/process.pdf, id=1190, 900.36375pt x 274.02374pt>
+File: static/figures/HSNAProcess/process.pdf Graphic file (type pdf)
+<use static/figures/HSNAProcess/process.pdf>
+Package pdftex.def Info: static/figures/HSNAProcess/process.pdf  used on input 
+line 230.
+(pdftex.def)             Requested size: 426.79134pt x 129.89502pt.
 
-pdfTeX warning (dest): name{page.15} has been referenced but does not exist, re
-placed by a fixed one
 
-pdfTeX warning (dest): name{page.80} has been referenced but does not exist, re
-placed by a fixed one
+LaTeX Warning: Citation `lemercierAnalyseRÃ©seauxHistoire2005' on page 54 undef
+ined on input line 240.
 
-pdfTeX warning (dest): name{page.93} has been referenced but does not exist, re
-placed by a fixed one
+[54 <./static/figures/HSNAProcess/process.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-pdfTeX warning (dest): name{page.72} has been referenced but does not exist, re
-placed by a fixed one
+ [55]
+<static/figures/HSNAProcess/properties.pdf, id=1239, 430.60875pt x 308.15125pt>
 
-pdfTeX warning (dest): name{page.55} has been referenced but does not exist, re
-placed by a fixed one
+File: static/figures/HSNAProcess/properties.pdf Graphic file (type pdf)
+<use static/figures/HSNAProcess/properties.pdf>
+Package pdftex.def Info: static/figures/HSNAProcess/properties.pdf  used on inp
+ut line 320.
+(pdftex.def)             Requested size: 298.75262pt x 213.79538pt.
+LaTeX Font Info:    Font shape `T1/opensans-TLF/m/it' will be
+(Font)              scaled to size 11.39996pt on input line 321.
+LaTeX Font Info:    Font shape `T1/opensans-TLF/m/it' will be
+(Font)              scaled to size 9.49997pt on input line 327.
 
-pdfTeX warning (dest): name{page.49} has been referenced but does not exist, re
-placed by a fixed one
 
-pdfTeX warning (dest): name{page.57} has been referenced but does not exist, re
-placed by a fixed one
+LaTeX Warning: Citation `headlandEmicsEticsInsider1990' on page 56 undefined on
+ input line 327.
 
-pdfTeX warning (dest): name{page.56} has been referenced but does not exist, re
-placed by a fixed one
 
-pdfTeX warning (dest): name{page.50} has been referenced but does not exist, re
-placed by a fixed one
+LaTeX Warning: Citation `rollingerProlegomenaProblemsPerspectives2020' on page 
+56 undefined on input line 330.
 
-pdfTeX warning (dest): name{page.16} has been referenced but does not exist, re
-placed by a fixed one
 
-pdfTeX warning (dest): name{page.52} has been referenced but does not exist, re
-placed by a fixed one
+LaTeX Warning: Citation `paxtonDollarsSenseConvincing2006' on page 56 undefined
+ on input line 330.
 
-pdfTeX warning (dest): name{page.83} has been referenced but does not exist, re
-placed by a fixed one
+[56] [57 <./static/figures/HSNAProcess/properties.pdf>] [58]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-pdfTeX warning (dest): name{page.14} has been referenced but does not exist, re
-placed by a fixed one
+ [59]
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
+[]|\T1/opensans-TLF/m/n/12 Co-
+ []
 
-pdfTeX warning (dest): name{page.68} has been referenced but does not exist, re
-placed by a fixed one
 
-pdfTeX warning (dest): name{page.73} has been referenced but does not exist, re
-placed by a fixed one
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
+[]|\T1/opensans-TLF/m/n/12 Unipartite
+ []
 
-pdfTeX warning (dest): name{page.65} has been referenced but does not exist, re
-placed by a fixed one
+LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
+(Font)              scaled to size 5.69998pt on input line 418.
 
-pdfTeX warning (dest): name{page.18} has been referenced but does not exist, re
-placed by a fixed one
+Underfull \hbox (badness 10000) in paragraph at lines 425--429
+[]|\T1/opensans-TLF/m/n/6 Du
+ []
 
-pdfTeX warning (dest): name{page.67} has been referenced but does not exist, re
-placed by a fixed one
 
-pdfTeX warning (dest): name{page.61} has been referenced but does not exist, re
-placed by a fixed one
+Overfull \hbox (1.62418pt too wide) in paragraph at lines 425--429
+[]$\T1/opensans-TLF/m/n/6 ,
+ []
 
-pdfTeX warning (dest): name{page.53} has been referenced but does not exist, re
-placed by a fixed one
 
-pdfTeX warning (dest): name{page.51} has been referenced but does not exist, re
-placed by a fixed one
+Underfull \hbox (badness 1365) in paragraph at lines 425--429
+\T1/opensans-TLF/m/n/6 à six heures du soir. Acte de nais-sance de
+ []
 
-pdfTeX warning (dest): name{page.48} has been referenced but does not exist, re
-placed by a fixed one
 
-pdfTeX warning (dest): name{page.46} has been referenced but does not exist, re
-placed by a fixed one
+Underfull \hbox (badness 10000) in paragraph at lines 425--429
+[][][][][][]
+ []
 
-pdfTeX warning (dest): name{page.45} has been referenced but does not exist, re
-placed by a fixed one
 
-pdfTeX warning (dest): name{page.21} has been referenced but does not exist, re
-placed by a fixed one
+Underfull \hbox (badness 10000) in paragraph at lines 425--429
+\T1/opensans-TLF/m/n/6 né le $[]$, à deux heures du
+ []
 
-pdfTeX warning (dest): name{page.19} has been referenced but does not exist, re
-placed by a fixed one
 
-pdfTeX warning (dest): name{page.13} has been referenced but does not exist, re
-placed by a fixed one
+Underfull \hbox (badness 10000) in paragraph at lines 425--429
+\T1/opensans-TLF/m/n/6 soir au $[]$
+ []
 
-pdfTeX warning (dest): name{table.caption.25} has been referenced but does not 
-exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{table.caption.23} has been referenced but does not 
-exist, replaced by a fixed one
+Underfull \hbox (badness 1286) in paragraph at lines 425--429
+[]$\T1/opensans-TLF/m/n/6 , des mar-iés [][][][][][],
+ []
 
-pdfTeX warning (dest): name{table.caption.6} has been referenced but does not e
-xist, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.42} has been referenced but does not
- exist, replaced by a fixed one
+Underfull \hbox (badness 10000) in paragraph at lines 425--429
+[][][][][][]\T1/opensans-TLF/m/n/6 ,
+ []
 
-pdfTeX warning (dest): name{figure.caption.41} has been referenced but does not
- exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.40} has been referenced but does not
- exist, replaced by a fixed one
+Underfull \hbox (badness 10000) in paragraph at lines 425--429
+\T1/opensans-TLF/m/n/6 et [][][][][][]
+ []
 
-pdfTeX warning (dest): name{figure.caption.39} has been referenced but does not
- exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.38} has been referenced but does not
- exist, replaced by a fixed one
+Underfull \hbox (badness 10000) in paragraph at lines 425--429
+[][][][][][]\T1/opensans-TLF/m/n/6 ,
+ []
 
-pdfTeX warning (dest): name{figure.caption.37} has been referenced but does not
- exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.36} has been referenced but does not
- exist, replaced by a fixed one
+Underfull \hbox (badness 10000) in paragraph at lines 425--429
+\T1/opensans-TLF/m/n/6 de-meu-rant au vil-lage de Grudet, dite
+ []
 
-pdfTeX warning (dest): name{figure.caption.35} has been referenced but does not
- exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.34} has been referenced but does not
- exist, replaced by a fixed one
+Underfull \hbox (badness 10000) in paragraph at lines 425--429
+\T1/opensans-TLF/m/n/6 com-mune de Saint-Symphorien. [...]
+ []
 
-pdfTeX warning (dest): name{figure.caption.33} has been referenced but does not
- exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.32} has been referenced but does not
- exist, replaced by a fixed one
+Underfull \hbox (badness 10000) in paragraph at lines 431--433
+[]|$[]$ \T1/opensans-TLF/m/n/6 :
+ []
 
-pdfTeX warning (dest): name{figure.caption.31} has been referenced but does not
- exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.30} has been referenced but does not
- exist, replaced by a fixed one
+Underfull \hbox (badness 10000) in paragraph at lines 431--433
+[][][][][][]\T1/opensans-TLF/m/n/6 , con
+ []
 
-pdfTeX warning (dest): name{figure.caption.29} has been referenced but does not
- exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.28} has been referenced but does not
- exist, replaced by a fixed one
+Underfull \hbox (badness 10000) in paragraph at lines 431--433
+\T1/opensans-TLF/m/n/6 Da. [][][][][][].
+ []
 
-pdfTeX warning (dest): name{figure.caption.27} has been referenced but does not
- exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.26} has been referenced but does not
- exist, replaced by a fixed one
+Underfull \hbox (badness 10000) in paragraph at lines 431--433
+\T1/opensans-TLF/m/n/6 Ts.: [][][][][][], y
+ []
 
-pdfTeX warning (dest): name{figure.caption.24} has been referenced but does not
- exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{section.4.8} has been referenced but does not exist
-, replaced by a fixed one
+Underfull \hbox (badness 10000) in paragraph at lines 431--433
+[][][][][][]\T1/opensans-TLF/m/n/6 ,
+ []
 
-pdfTeX warning (dest): name{section.4.7} has been referenced but does not exist
-, replaced by a fixed one
 
-pdfTeX warning (dest): name{subsection.4.6.1} has been referenced but does not 
-exist, replaced by a fixed one
+Underfull \hbox (badness 10000) in paragraph at lines 431--433
+\T1/opensans-TLF/m/n/6 (f. 9v).
+ []
 
-pdfTeX warning (dest): name{section.4.6} has been referenced but does not exist
-, replaced by a fixed one
+[60]
 
-pdfTeX warning (dest): name{subsection.4.5.4} has been referenced but does not 
-exist, replaced by a fixed one
+LaTeX Warning: Citation `lippPetitionsSocialContext2001' on page 61 undefined o
+n input line 462.
 
-pdfTeX warning (dest): name{subsection.4.5.3} has been referenced but does not 
-exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{subsection.4.5.2} has been referenced but does not 
-exist, replaced by a fixed one
+LaTeX Warning: Citation `davisDeepSouthSocial2009' on page 61 undefined on inpu
+t line 462.
 
-pdfTeX warning (dest): name{subsection.4.5.1} has been referenced but does not 
-exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{section.4.5} has been referenced but does not exist
-, replaced by a fixed one
+LaTeX Warning: Citation `ochabDetectingOttokarII2022' on page 61 undefined on i
+nput line 462.
 
-pdfTeX warning (dest): name{subsection.4.4.4} has been referenced but does not 
-exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{subsection.4.4.3} has been referenced but does not 
-exist, replaced by a fixed one
+LaTeX Warning: Citation `borgattiSocialNetworkAnalysis2009' on page 61 undefine
+d on input line 462.
 
-pdfTeX warning (dest): name{subsection.4.4.2} has been referenced but does not 
-exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{subsection.4.4.1} has been referenced but does not 
-exist, replaced by a fixed one
+LaTeX Warning: Citation `latapyBasicNotionsAnalysis2008' on page 61 undefined o
+n input line 462.
 
-pdfTeX warning (dest): name{section.4.4} has been referenced but does not exist
-, replaced by a fixed one
+[61] [62]
 
-pdfTeX warning (dest): name{subsection.4.3.2} has been referenced but does not 
-exist, replaced by a fixed one
+LaTeX Warning: Citation `stoltePolarisSystemQuery2002' on page 63 undefined on 
+input line 563.
 
-pdfTeX warning (dest): name{subsection.4.3.1} has been referenced but does not 
-exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{section.4.3} has been referenced but does not exist
-, replaced by a fixed one
+LaTeX Warning: Reference `ch:pk-clustering' on page 63 undefined on input line 
+624.
 
-pdfTeX warning (dest): name{subsection.4.2.4} has been referenced but does not 
-exist, replaced by a fixed one
+[63]
+<static/figures/HSNAProcess/documentVsEvents.pdf, id=1352, 939.28455pt x 337.90
+851pt>
+File: static/figures/HSNAProcess/documentVsEvents.pdf Graphic file (type pdf)
+<use static/figures/HSNAProcess/documentVsEvents.pdf>
+Package pdftex.def Info: static/figures/HSNAProcess/documentVsEvents.pdf  used 
+on input line 648.
+(pdftex.def)             Requested size: 426.79134pt x 153.5372pt.
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-pdfTeX warning (dest): name{subsection.4.2.3} has been referenced but does not 
-exist, replaced by a fixed one
+ [64 <./static/figures/HSNAProcess/documentVsEvents.pdf>] [65]
+\openout2 = `chapters/ComBiNet.aux'.
 
-pdfTeX warning (dest): name{subsection.4.2.2} has been referenced but does not 
-exist, replaced by a fixed one
+ (./chapters/ComBiNet.tex
+[66
 
-pdfTeX warning (dest): name{subsection.4.2.1} has been referenced but does not 
-exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{section.4.2} has been referenced but does not exist
-, replaced by a fixed one
 
-pdfTeX warning (dest): name{section.4.1} has been referenced but does not exist
-, replaced by a fixed one
 
-pdfTeX warning (dest): name{chapter.4} has been referenced but does not exist, 
-replaced by a fixed one
+]
+Chapter 4.
+\openout5 = `main.mtc'.
 
-pdfTeX warning (dest): name{section.3.7} has been referenced but does not exist
-, replaced by a fixed one
+\openout5 = `main.mtc'.
 
-pdfTeX warning (dest): name{section.3.6} has been referenced but does not exist
-, replaced by a fixed one
+(/home/alexis/Documents/Thesis/out/main.mtc4) [67]
 
-pdfTeX warning (dest): name{section.3.5} has been referenced but does not exist
-, replaced by a fixed one
+LaTeX Warning: Citation `pisterVisualQueriesBipartite2022' on page 68 undefined
+ on input line 11.
 
-pdfTeX warning (dest): name{subsection.3.4.2} has been referenced but does not 
-exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{subsection.3.4.1} has been referenced but does not 
-exist, replaced by a fixed one
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 11--12
+[]
+ []
 
-pdfTeX warning (dest): name{section.3.4} has been referenced but does not exist
-, replaced by a fixed one
 
-pdfTeX warning (dest): name{subsection.3.3.3} has been referenced but does not 
-exist, replaced by a fixed one
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
-pdfTeX warning (dest): name{subsection.3.3.2} has been referenced but does not 
-exist, replaced by a fixed one
+ []
 
-pdfTeX warning (dest): name{subsection.3.3.1} has been referenced but does not 
-exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{section.3.3} has been referenced but does not exist
-, replaced by a fixed one
+LaTeX Warning: Citation `tilly1984retrieving' on page 68 undefined on input lin
+e 15.
 
-pdfTeX warning (dest): name{subsection.3.2.2} has been referenced but does not 
-exist, replaced by a fixed one
+[68]
 
-pdfTeX warning (dest): name{subsection.3.2.1} has been referenced but does not 
-exist, replaced by a fixed one
+LaTeX Warning: Citation `opitzInductionLargeScaleKnowledge2018' on page 69 unde
+fined on input line 33.
 
-pdfTeX warning (dest): name{section.3.2} has been referenced but does not exist
-, replaced by a fixed one
 
-pdfTeX warning (dest): name{section.3.1} has been referenced but does not exist
-, replaced by a fixed one
+Underfull \vbox (badness 4819) has occurred while \output is active []
 
-pdfTeX warning (dest): name{chapter.3} has been referenced but does not exist, 
-replaced by a fixed one
+ [69]
 
-pdfTeX warning (dest): name{section.1.4} has been referenced but does not exist
-, replaced by a fixed one
+LaTeX Warning: Citation `charbeyStarsHolesPaths2019' on page 70 undefined on in
+put line 94.
 
-pdfTeX warning (dest): name{section.1.3} has been referenced but does not exist
-, replaced by a fixed one
 
-pdfTeX warning (dest): name{section.1.2} has been referenced but does not exist
-, replaced by a fixed one
+LaTeX Warning: Citation `fanGraphPatternMatching2012' on page 70 undefined on i
+nput line 108.
 
-pdfTeX warning (dest): name{section.1.1} has been referenced but does not exist
-, replaced by a fixed one
 
-pdfTeX warning (dest): name{chapter.1} has been referenced but does not exist, 
-replaced by a fixed one
+Underfull \vbox (badness 1590) has occurred while \output is active []
 
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/stix2/stix2-mathcal.enc}{/usr/sh
-are/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-di
-st/fonts/enc/dvips/opensans/a_jg4h6q.enc}{/usr/share/texlive/texmf-dist/fonts/e
-nc/dvips/stix2/stix2-mathbb.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/
-stix2/stix2-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/stix2/stix2-m
-athit.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/stix2/stix2-mathrm.enc
-}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/stix2/stix2-mathscr.enc}{/usr/s
-hare/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-d
-ist/fonts/type1/ascender/opensans/OpenSans-Bold.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/ascender/opensans/OpenSans-Regular.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/stix2/STIX2Math.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/stix2/STIX2Text-Bold.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/stix2/STIX2Text-Regular.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/bera/fvsb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/b
-era/fvsr8a.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsi1095.pfb></usr
-/share/texmf/fonts/type1/public/cm-super/sfsi1728.pfb></usr/share/texmf/fonts/t
-ype1/public/cm-super/sfss0800.pfb></usr/share/texmf/fonts/type1/public/cm-super
-/sfss1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss2488.pfb></usr/
-share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/ty
-pe1/public/cm-super/sfsx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/
-sfsx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on /home/alexis/Documents/Thesis/out/main.pdf (42 pages, 3692738
- bytes).
-PDF statistics:
- 1376 PDF objects out of 1440 (max. 8388607)
- 1268 compressed objects within 13 object streams
- 337 named destinations out of 1000 (max. 500000)
- 233 words of extra memory for PDF output out of 10000 (max. 10000000)
+ [70]
+[71] [72]
 
+LaTeX Font Warning: Font shape `T1/cmss/m/n' in size <7.5> not available
+(Font)              size <7> substituted on input line 212.
+
+[73] [74]
+Underfull \hbox (badness 10000) in paragraph at lines 278--278
+[]\T1/opensans-TLF/m/n/8 A node-link
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 278--278
+\T1/opensans-TLF/m/n/8 rep-re-sen-ta-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 278--278
+\T1/opensans-TLF/m/n/8 of events has
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 278--278
+\T1/opensans-TLF/m/n/8 to be done
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 278--278
+\T1/opensans-TLF/m/n/8 ac-cord-ing to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 278--278
+\T1/opensans-TLF/m/n/8 the his-tor-i-cal
+ []
+
+
+Overfull \vbox (36.07571pt too high) detected at line 278
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 279--279
+[]|  
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 280--280
+[]|  
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 281--281
+[]|  
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 282--282
+[]|  
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--286
+[]\T1/opensans-TLF/m/n/8 Constraints
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 287--287
+[]|  
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 288--288
+[]|  
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 289--289
+[]|  
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 293--293
+[][]|  
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 294--294
+[]|  
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 295--295
+[]|  
+ []
+
+<static/figures/ComBiNet/OriginalPaperFigures/CGF/teaser/v2/teaser.png, id=1516
+, 4531.17844pt x 1766.85094pt>
+File: static/figures/ComBiNet/OriginalPaperFigures/CGF/teaser/v2/teaser.png Gra
+phic file (type png)
+<use static/figures/ComBiNet/OriginalPaperFigures/CGF/teaser/v2/teaser.png>
+Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/tease
+r/v2/teaser.png  used on input line 305.
+(pdftex.def)             Requested size: 426.79134pt x 166.39674pt.
+
+Underfull \vbox (badness 3009) has occurred while \output is active []
+
+ [75]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 329.
+
+[76 <./static/figures/ComBiNet/OriginalPaperFigures/CGF/teaser/v2/teaser.png>]
+[77]
+
+LaTeX Warning: Citation `latapyBasicNotionsAnalysis2008' on page 78 undefined o
+n input line 397.
+
+<static/figures/ComBiNet/Piemont_timeSelected.png, id=1551, 1841.88126pt x 979.
+66pt>
+File: static/figures/ComBiNet/Piemont_timeSelected.png Graphic file (type png)
+<use static/figures/ComBiNet/Piemont_timeSelected.png>
+Package pdftex.def Info: static/figures/ComBiNet/Piemont_timeSelected.png  used
+ on input line 410.
+(pdftex.def)             Requested size: 426.79134pt x 300.91106pt.
+[78] [79 <./static/figures/ComBiNet/Piemont_timeSelected.png>]
+<static/figures/ComBiNet/OriginalPaperFigures/CGF/links.pdf, id=1570, 383.42334
+pt x 114.86983pt>
+File: static/figures/ComBiNet/OriginalPaperFigures/CGF/links.pdf Graphic file (
+type pdf)
+<use static/figures/ComBiNet/OriginalPaperFigures/CGF/links.pdf>
+Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/links
+.pdf  used on input line 457.
+(pdftex.def)             Requested size: 384.10959pt x 115.07985pt.
+<static/figures/ComBiNet/OriginalPaperFigures/CGF/MutualGuarantors.png, id=1575
+, 837.1275pt x 560.0925pt>
+File: static/figures/ComBiNet/OriginalPaperFigures/CGF/MutualGuarantors.png Gra
+phic file (type png)
+<use static/figures/ComBiNet/OriginalPaperFigures/CGF/MutualGuarantors.png>
+Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/Mutua
+lGuarantors.png  used on input line 475.
+(pdftex.def)             Requested size: 123.76662pt x 82.8052pt.
+<static/figures/ComBiNet/OriginalPaperFigures/CGF/Turin.png, id=1576, 843.15pt 
+x 1192.455pt>
+File: static/figures/ComBiNet/OriginalPaperFigures/CGF/Turin.png Graphic file (
+type png)
+<use static/figures/ComBiNet/OriginalPaperFigures/CGF/Turin.png>
+Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/Turin
+.png  used on input line 480.
+(pdftex.def)             Requested size: 137.4282pt x 194.36299pt.
+<static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinoSuburbs.png, id=1577, 8
+41.1425pt x 1178.4025pt>
+File: static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinoSuburbs.png Graphi
+c file (type png)
+<use static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinoSuburbs.png>
+Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/Turin
+oSuburbs.png  used on input line 481.
+(pdftex.def)             Requested size: 137.4282pt x 192.52203pt.
+ [80 <./static/figures/ComBiNet/OriginalPaperFigures/CGF/links.pdf>]
+<static/figures/ComBiNet/OriginalPaperFigures/constraintRegion.png, id=1606, 81
+5.045pt x 402.50375pt>
+File: static/figures/ComBiNet/OriginalPaperFigures/constraintRegion.png Graphic
+ file (type png)
+<use static/figures/ComBiNet/OriginalPaperFigures/constraintRegion.png>
+Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/constrain
+tRegion.png  used on input line 532.
+(pdftex.def)             Requested size: 298.75262pt x 147.53603pt.
+<static/figures/ComBiNet/OriginalPaperFigures/nominalWidget.png, id=1607, 737.7
+5626pt x 143.53625pt>
+File: static/figures/ComBiNet/OriginalPaperFigures/nominalWidget.png Graphic fi
+le (type png)
+<use static/figures/ComBiNet/OriginalPaperFigures/nominalWidget.png>
+Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/nominalWi
+dget.png  used on input line 533.
+(pdftex.def)             Requested size: 256.0774pt x 49.8201pt.
+<static/figures/ComBiNet/OriginalPaperFigures/numericWidget.png, id=1608, 737.7
+5626pt x 177.66376pt>
+File: static/figures/ComBiNet/OriginalPaperFigures/numericWidget.png Graphic fi
+le (type png)
+<use static/figures/ComBiNet/OriginalPaperFigures/numericWidget.png>
+Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/numericWi
+dget.png  used on input line 534.
+(pdftex.def)             Requested size: 256.0774pt x 61.66545pt.
+ [81 <./static/figures/ComBiNet/OriginalPaperFigures/CGF/MutualGuarantors.png> 
+<./static/figures/ComBiNet/OriginalPaperFigures/CGF/Turin.png> <./static/figure
+s/ComBiNet/OriginalPaperFigures/CGF/TurinoSuburbs.png>]
+Underfull \vbox (badness 1515) has occurred while \output is active []
+
+ [82 <./static/figures/ComBiNet/OriginalPaperFigures/constraintRegion.png> <./s
+tatic/figures/ComBiNet/OriginalPaperFigures/nominalWidget.png> <./static/figure
+s/ComBiNet/OriginalPaperFigures/numericWidget.png>]
+<static/figures/ComBiNet/Piemont-mutual-guarantor-table.png, id=1630, 2756.2975
+pt x 712.6625pt>
+File: static/figures/ComBiNet/Piemont-mutual-guarantor-table.png Graphic file (
+type png)
+<use static/figures/ComBiNet/Piemont-mutual-guarantor-table.png>
+Package pdftex.def Info: static/figures/ComBiNet/Piemont-mutual-guarantor-table
+.png  used on input line 581.
+(pdftex.def)             Requested size: 426.79134pt x 110.34192pt.
+<static/figures/ComBiNet/mutualGuarantor-table-bottom.png, id=1631, 1361.085pt 
+x 66.2475pt>
+File: static/figures/ComBiNet/mutualGuarantor-table-bottom.png Graphic file (ty
+pe png)
+<use static/figures/ComBiNet/mutualGuarantor-table-bottom.png>
+Package pdftex.def Info: static/figures/ComBiNet/mutualGuarantor-table-bottom.p
+ng  used on input line 582.
+(pdftex.def)             Requested size: 426.79134pt x 20.77304pt.
+<static/figures/ComBiNet/piemont-mutual-guarantors-results.png, id=1632, 2722.1
+7pt x 670.505pt>
+File: static/figures/ComBiNet/piemont-mutual-guarantors-results.png Graphic fil
+e (type png)
+<use static/figures/ComBiNet/piemont-mutual-guarantors-results.png>
+Package pdftex.def Info: static/figures/ComBiNet/piemont-mutual-guarantors-resu
+lts.png  used on input line 587.
+(pdftex.def)             Requested size: 426.79134pt x 105.12424pt.
+ [83 <./static/figures/ComBiNet/Piemont-mutual-guarantor-table.png> <./static/f
+igures/ComBiNet/mutualGuarantor-table-bottom.png> <./static/figures/ComBiNet/pi
+emont-mutual-guarantors-results.png>]
+<static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/apprGuar.png, id=1
+643, 833.1125pt x 875.27pt>
+File: static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/apprGuar.png 
+Graphic file (type png)
+<use static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/apprGuar.png>
+Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/sanke
+yPLot/apprGuar.png  used on input line 617.
+(pdftex.def)             Requested size: 102.43225pt x 107.60548pt.
+<static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/barchart.pdf, id=1
+644, 256.96pt x 242.9075pt>
+File: static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/barchart.pdf 
+Graphic file (type pdf)
+<use static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/barchart.pdf>
+Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/sanke
+yPLot/barchart.pdf  used on input line 621.
+(pdftex.def)             Requested size: 128.0387pt x 121.03831pt.
+<static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/sankey_bigger.pdf,
+ id=1645, 541.02126pt x 303.1325pt>
+File: static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/sankey_bigger
+.pdf Graphic file (type pdf)
+<use static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/sankey_bigger.
+pdf>
+Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/sanke
+yPLot/sankey_bigger.pdf  used on input line 625.
+(pdftex.def)             Requested size: 187.78922pt x 105.21451pt.
+LaTeX Font Info:    Font shape `T1/opensans-TLF/m/sl' in size <12> not availabl
+e
+(Font)              Font shape `T1/opensans-TLF/m/it' tried instead on input li
+ne 630.
+LaTeX Font Info:    Font shape `T1/opensans-TLF/m/it' will be
+(Font)              scaled to size 11.39996pt on input line 630.
+<static/figures/ComBiNet/tree_tooltip_torinoquery_crop.png, id=1649, 1237.62375
+pt x 1373.88281pt>
+File: static/figures/ComBiNet/tree_tooltip_torinoquery_crop.png Graphic file (t
+ype png)
+<use static/figures/ComBiNet/tree_tooltip_torinoquery_crop.png>
+Package pdftex.def Info: static/figures/ComBiNet/tree_tooltip_torinoquery_crop.
+png  used on input line 651.
+(pdftex.def)             Requested size: 213.39566pt x 236.89023pt.
+
+[84 <./static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/apprGuar.png
+> <./static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/barchart.pdf> 
+<./static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/sankey_bigger.pd
+f
+
+pdfTeX warning: pdflatex (file ./static/figures/ComBiNet/OriginalPaperFigures/C
+GF/sankeyPLot/sankey_bigger.pdf): PDF inclusion: multiple pdfs with page group 
+included in a single page
+>] [85 <./static/figures/ComBiNet/tree_tooltip_torinoquery_crop.png>]
+<static/figures/ComBiNet/graph_measures_Torino_territoireandpiemont.png, id=168
+7, 787.94376pt x 372.39125pt>
+File: static/figures/ComBiNet/graph_measures_Torino_territoireandpiemont.png Gr
+aphic file (type png)
+<use static/figures/ComBiNet/graph_measures_Torino_territoireandpiemont.png>
+Package pdftex.def Info: static/figures/ComBiNet/graph_measures_Torino_territoi
+reandpiemont.png  used on input line 706.
+(pdftex.def)             Requested size: 341.43436pt x 161.36383pt.
+ [86 <./static/figures/ComBiNet/graph_measures_Torino_territoireandpiemont.png>
+]
+<static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/type+chantier.pdf,
+ id=1695, 256.96pt x 411.5375pt>
+File: static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/type+chantier
+.pdf Graphic file (type pdf)
+<use static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/type+chantier.
+pdf>
+Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/Turin
+Plots/type+chantier.pdf  used on input line 746.
+(pdftex.def)             Requested size: 68.94098pt x 110.4129pt.
+<static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/time.pdf, id=1696,
+ 431.6125pt x 365.365pt>
+File: static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/time.pdf Grap
+hic file (type pdf)
+<use static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/time.pdf>
+Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/Turin
+Plots/time.pdf  used on input line 747.
+(pdftex.def)             Requested size: 130.4331pt x 110.4129pt.
+<static/figures/ComBiNet/TorinoCompBC.pdf, id=1697, 462.72874pt x 246.9225pt>
+File: static/figures/ComBiNet/TorinoCompBC.pdf Graphic file (type pdf)
+<use static/figures/ComBiNet/TorinoCompBC.pdf>
+Package pdftex.def Info: static/figures/ComBiNet/TorinoCompBC.pdf  used on inpu
+t line 749.
+(pdftex.def)             Requested size: 206.90567pt x 110.4129pt.
+
+Underfull \vbox (badness 1603) has occurred while \output is active []
+
+ [87 <./static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/type+chanti
+er.pdf> <./static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/time.pdf
+
+
+pdfTeX warning: pdflatex (file ./static/figures/ComBiNet/OriginalPaperFigures/C
+GF/TurinPlots/time.pdf): PDF inclusion: multiple pdfs with page group included 
+in a single page
+> <./static/figures/ComBiNet/TorinoCompBC.pdf
+
+pdfTeX warning: pdflatex (file ./static/figures/ComBiNet/TorinoCompBC.pdf): PDF
+ inclusion: multiple pdfs with page group included in a single page
+>]
+<static/figures/ComBiNet/OriginalPaperFigures/suppMaterial/menaFamilyResults.pn
+g, id=1750, 3705.845pt x 1967.35pt>
+File: static/figures/ComBiNet/OriginalPaperFigures/suppMaterial/menaFamilyResul
+ts.png Graphic file (type png)
+<use static/figures/ComBiNet/OriginalPaperFigures/suppMaterial/menaFamilyResult
+s.png>
+Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/suppMater
+ial/menaFamilyResults.png  used on input line 791.
+(pdftex.def)             Requested size: 426.79134pt x 160.93626pt.
+<static/figures/ComBiNet/OriginalPaperFigures/suppMaterial/ZoFamilyResults.png,
+ id=1752, 3711.8675pt x 1957.3125pt>
+File: static/figures/ComBiNet/OriginalPaperFigures/suppMaterial/ZoFamilyResults
+.png Graphic file (type png)
+<use static/figures/ComBiNet/OriginalPaperFigures/suppMaterial/ZoFamilyResults.
+png>
+Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/suppMater
+ial/ZoFamilyResults.png  used on input line 795.
+(pdftex.def)             Requested size: 426.79134pt x 158.76974pt.
+<static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/region.pdf, id
+=1754, 354.32375pt x 333.245pt>
+File: static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/region.pd
+f Graphic file (type pdf)
+<use static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/region.pdf
+>
+Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZ
+oPlots/v2/region.pdf  used on input line 809.
+(pdftex.def)             Requested size: 145.10748pt x 136.47878pt.
+<static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/type-chantier.
+pdf, id=1755, 337.26pt x 333.245pt>
+File: static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/type-chan
+tier.pdf Graphic file (type pdf)
+<use static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/type-chant
+ier.pdf>
+Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZ
+oPlots/v2/type-chantier.pdf  used on input line 810.
+(pdftex.def)             Requested size: 145.10748pt x 143.37898pt.
+<static/figures/ComBiNet/OriginalPaper

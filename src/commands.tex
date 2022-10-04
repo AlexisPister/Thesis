@@ -90,12 +90,15 @@
 
 \newcommand{\cmark}{\ding{51}}%
 \newcommand{\xmark}{\ding{55}}%
-\newcommand{\rev}[1]{#1}
-\newenvironment{revs}{}{}
 \newcommand{\del}[1]{}
 \newcommand{\ie}{i.e.\xcomma}
 \newcommand{\eg}{e.g.\xcomma}
 \newcommand{\paovis}{PAOHVis\xspace}
+
+%\newcommand{\rev}[1]{#1}
+%\newenvironment{revs}{}{}
+\newcommand{\rev}[1]{\textcolor{blue}{#1}}
+\newenvironment{revs}{\bgroup\color{blue}}{\egroup}
 
 \def\Snospace~{\S{}} % eat the ~ added by \autoref after the macro
 \renewcommand*\sectionautorefname{\Snospace}

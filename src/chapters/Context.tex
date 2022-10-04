@@ -32,6 +32,82 @@ Finally, I present in \autoref{sec:social-network-visualization} how visualizati
 
 
 
+\section{Notations}\label{sec:notations}
+
+Social networks model social relationships or interactions between actors based on graphs.
+%Graphs are also used to model biological, technological, and digital networks.
+%In its most basic form, a graph is denoted
+I note a graph
+
+\begin{equation}
+    G = (V, E)
+\end{equation}
+
+with $V$ a set of nodes and $E \in V^2$ a set of edges.
+A weight is sometimes associated to edges, to quantify the strength or frequency of ties.
+In that case, each edge $e = (u, v, w)$ has a weight $w$ with $u, v \in V$, $e \in E$, and $w > 0$.
+Multivariate graphs allow to associate attributes (also called properties) on nodes and edges.
+In that case, nodes and edges have associate attributes, such that a node $u = (u, v, a)$
+
+\begin{equation}
+    a_u = (a_i, \dotsc, a_n)
+\end{equation}
+
+with $a_i, \dotsc, a_n$ the attributes of the node $u$ defined on their domains $A_i, \dotsc, A_n$.
+We do not impose constraints for person nodes, but document nodes always have a time and location such that when $b = document$ then
+
+
+
+
+Constructing a network from historical documents, which can vary tremendously in their formats and structures, is not a trivial task\cite{alkadi2022}.
+
+The most straightforward and well-known approach consists in constructing a network based on a simple graph such as in \autoref{eq:graph}, where the nodes are the persons extracted from the documents and a link is created when a mention of a social relationship is mentioned is the document (or if they appear in the same document)\cite{lemercier12FormalNetwork2015, bouletBatchKernelSOM2008}.
+%The most straightforward and well-known approach consists in constructing a network based on a simple graph $G = (V, E)$ with $V$ a set of vertices representing the actors of interest (very often individuals mentioned in the documents), and $E \subseteq V^2$ a set of edges modeling the social ties between pairs of actors.
+This allows to have a simple network to visualize and analyze, but it does not always reflect the sociological complexity of information contained in the documents.
+%More complex networks models have been proposed in SNA and HNR to be able to model more complex social relationships.
+\hsna network models have evolved over time to better take into account concrete properties of social networks, such as the importance of actors or relations with weighted networks, multiple relationships with multiplex networks, dynamics of relations with dynamic networks.
+
+Weighted networks model the importance of relations, with a weight $w$ attributed to each edge $e = (u, v, w)$, with $u, v \in V$, $e \in E$, and $w > 0$.
+Multiplex networks allow to model multiple kinds of relationships between actors, such as spouses and witnesses relations for an historical network constructed from marriage acts.
+In that case, each edge $e = (u, v, d)$ of the graph
+\begin{equation}
+    G = (V, E, D)
+\end{equation}
+have a type $d \in D$ which characterize the relation. In the example of marriages, $D = \{spouse, witness\}$.
+Most relations extracted from historical documents also often contain time information, which can be modeled into dynamic networks.
+Many dynamic network models have been proposed\cite{rossettiCommunityDiscoveryDynamic2018}, depending if the time is encoded in the nodes, the links, or both, and if entities have a discrete or interval time.
+As it is often hard to infer the end of social relationships from the trace of historical documents, we only consider in this thesis models which give a timestamp to either nodes or edges, such that
+\begin{equation}
+    G = (V, E, T)
+\end{equation}
+with vertices consisting of tuples $(u, t)$ and edges of triples $(u, v, t)$, with $t \in T$.
+
+Bipartite networks have been proposed to model relations between two types of entities, such as organization and employees where the relations link employees to organizations but not employees to employees or organizations to organizations\cite{borgattiSocialNetworkAnalysis2009}.
+Formally, each node of the graph
+\begin{equation}
+    G = (V, E, B)
+\end{equation}
+have a type $b \in B$, with $card(B) = 2$. For each edge $e = (u, v) \in E$, the types $b_u$ and $b_v$ of $u$ and $v$ are not equal $b_u \neq b_v$.
+Many social situations or documents can be modeled in these terms (%\textit{Interlocking directorates},
+affiliation lists or co-authoring).
+Multivariate networks, \ie graphs, where vertices and edges can be assigned multiple ``properties'' or ``attributes'', are less used in SNA\@.
+These attributes are often considered secondary, the emphasis of SNA being on the topology, its features, measures, and evolution.
+
+Historians, demographers, sociologists, and anthropologists have also been designing specific data models for their social networks, based on genealogy or more generally kinship~\cite{hambergerKinshipNetworkAnalysis2011}.
+For genealogy, the standard GEDCOM~\cite{gedcom} format models a genealogical graph as a bipartite graph with two types of vertices: individuals and families.
+This format also integrates an ``event'' object but it is diversely adapted in genealogical tools.
+The Puck software~\cite{hambergerScanningPatternsRelationship2014} has extended its original genealogical graph with the concept of ``relational nodes'' to adapt the data model to more family structures and to integrate other social relationships for anthropology and historical studies.
+
+When creating a network, sociologists and anthropologists can use direct observations of the real world, which is not the case for historians who only have access to biased and partial sources.
+Indeed, the documents historians inspect are often produced by the political and economical elite of the time, and include the subjective view of the authors, especially for literary sources (letters, journals, books, etc.).
+Historians therefore need to take a critical view on the sources by acknowledging the position of the authors of the documents compared to the rest of the society, and include it in the analysis\cite{lemercierQuantitativeMethodsHumanities2019}.
+Furthermore, the partiality of the sources often do not allow to have access to all possible relationships types of individuals.
+For example, if many formal relations can be extracted from official documents such as marriage acts and census, informal relations such as friendships can exist without leaving any written trace\cite{lemercier12FormalNetwork2015}.
+Even for official relationships such as parents and witnesses, there are high chances for missing documents, which do not allow to make too general and finite claims, such as ``X is always the case'' or ``XX is never the case''\cite{alexanderAnalysisAncientNetwork1990}.
+Social historians therefore have to take into account the partiality and ambiguity of their sources into their analysis, in order to avoid including the bias inherent to their data into their high level historical conclusions.
+
+
+
 \section{Visualization}\label{sec:visualization}
 
 Visualization is often defined as ``the use of computer-supported, interactive, visual representations of data to amplify cognition'' \cite{cardReadingsInformationVisualization1999}.
@@ -292,11 +368,10 @@ with $V$ a set of vertices representing the actors of interest---typically perso
 This simple model which does not take into account the diversity and extent of social relationships still allows the characterization of the sociological structure of groups and institutions---which is the primary focus of \sna\cite{scottSocialNetworkAnalysis1988, freemanDevelopmentSocialNetwork2004}.
 More complex network models have been proposed with time to better take into account concrete properties of social relationships.
 %such as the importance of actors or relations with weighted networks, multiple relationships with multiplex networks, dynamics of relations with dynamic networks.
-We discuss those more in detail in \autoref{subsec:network-modeling}.
+I discuss those more in depth in \autoref{subsec:network-modeling}.
 
 %representing the persons as nodes and relationships as links.
 %Sociologists already had structural theories of social phenomena, and they rapidly saw the potential of graphs to model social relationships between actors, representing the persons as nodes and relationships as links.
-
 
 Graph theory brought a panoply of concepts and methods to characterize the structure of  networks, that sociologists such as Coleman started to codify to use in a sociology setting\cite{colemanIntroductionMathematicalSociology1964}.
 The use of network measures let sociologists explain social phenomena through the formal description of real observations of relationships modeled as networks.
