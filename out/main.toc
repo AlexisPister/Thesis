@@ -1,0 +1,62 @@
+\babel@toc {english}{}
+\contentsline {chapter}{\numberline {1}Introduction}{15}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Social History and Historical Social Network Analysis}{16}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Visualization and Visual Analytics}{18}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Visual Analytics Supported Historical Network Research}{21}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Contributions and Research Statement}{23}{section.1.4}%
+\contentsline {chapter}{\numberline {2}Related Work}{25}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Notations}{26}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Visualization}{28}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Information Visualization}{28}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Visual Analytics}{31}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Quantitative Social History}{31}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}History, Social History, and Methodology}{32}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Quantitative History}{33}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Digital Humanities}{34}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}Historical Social Network Analysis}{36}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Sociometry to SNA}{37}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Methods and Measures}{38}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Historical Social Network Analysis}{40}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Network Modeling}{42}{subsection.2.4.4}%
+\contentsline {section}{\numberline {2.5}Social Network Visualization}{43}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Graph Drawing}{43}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Social Network Visual Analytics}{45}{subsection.2.5.2}%
+\contentsline {chapter}{\numberline {3}Historical Social Network Process, Pitfalls, and Network Modeling}{49}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Context}{50}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Related Work}{51}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}History Methodology}{51}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Historian Workflows}{52}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Historical Social Network Analysis Workflow}{52}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Examples}{53}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Workflow}{54}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Visual Analytics Supported Historical Social Network Analysis}{56}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}Network Modeling and Analysis}{58}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Network Models}{58}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Bipartite Multivariate Dynamic Social Network}{61}{subsection.3.4.2}%
+\contentsline {section}{\numberline {3.5}Applications}{63}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Discussion}{63}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Conclusion}{65}{section.3.7}%
+\contentsline {chapter}{\numberline {4}ComBiNet: Visual Query and Comparison of Bipartite Dynamic Multivariate Networks with Roles}{67}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Context}{68}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Related Work}{70}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Graphlet Analysis}{70}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Visual Graph Querying}{71}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Visual Graph Comparison}{71}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Provenance}{71}{subsection.4.2.4}%
+\contentsline {section}{\numberline {4.3}Task Analysis and Design Process}{72}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Use Cases}{72}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Tasks Analysis}{74}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}The ComBiNet\xspace System}{76}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Visualizations}{77}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Query Panel}{78}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Comparison}{85}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}Implementation}{87}{subsection.4.4.4}%
+\contentsline {section}{\numberline {4.5}Use Cases}{88}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Construction sites in Piedmont (\#1)}{88}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}French Genealogy (\#2)}{88}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Marriage acts in Buenos Aires (\#3)}{91}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4}Sociology thesis in France}{92}{subsection.4.5.4}%
+\contentsline {section}{\numberline {4.6}Formative Usability Study}{94}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Feedback}{95}{subsection.4.6.1}%
+\contentsline {section}{\numberline {4.7}Discussion}{96}{section.4.7}%
+\contentsline {section}{\numberline {4.8}Conclusion and Future Work}{97}{section.4.8}%
