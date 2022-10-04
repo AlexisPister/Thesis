@@ -28,7 +28,7 @@ These are often essential to understanding underlying social phenomena, as time,
 For these reasons, as we discussed in \autoref{ch:hsna-process-and-network-modeling}, historical sources and the underlying social events they refer to can be modeled well by \emph{bipartite} with \emph{roles},  \emph{multivariate} \emph{dynamic} networks. \emph{Bipartite} means that both persons and documents (or events, that are often witnessed by physical documents) are modeled as typed nodes. \emph{Multivariate} means that the nodes and links can carry additional attributes. \emph{Dynamic} means that time is a mandatory attribute of documents.
 Furthermore, a link created between a person's node and a document's node (when the person is mentioned in the document), has an associated link type that models the \emph{role} of the person in the document/event.
 Additionally, documents can optionally carry a geographical location.
-This model unifies several social network models and allows the representation of historical documents with simplicity, traceability, and document reality, \ie the relationships appear as they are mentioned in the documents without distortions implied by projections\cite{cristofoliAuxSourcesGrands2008}.
+This model unifies several social network models and allows the representation of historical documents with \emph{simplicity}, \emph{traceability}, and \emph{document reality}, \ie the relationships appear as they are mentioned in the documents without distortions implied by projections\cite{cristofoliAuxSourcesGrands2008}.
 
 More complicated models exist such as knowledge graphs\cite{opitzInductionLargeScaleKnowledge2018}, which are very expressive but hard to manipulate, especially for social scientists.
 In contrast, most visual and analytics tools widely used by social scientists such as Gephi~\cite{Gephi} and NodeXL~\cite{NodeXL} enforce too simplistic network models and only provide limited interactions for exploring the network data, even if they provide the computation of several network measures.
@@ -647,7 +647,7 @@ It let users rapidly see what query is associated with each node of the tree
 If a new change is made on the query from a previous state, a new branch is created on the tree, permitting to revisit and refine explorations.  \autoref{fig:combinet-trees} shows the provenance tree made to answer question 2, split into 2 branches, with the tooltip showing one of the node query states.
 \begin{figure}[!ht]
      \centering
-state%     \includegraphics[width=0.3\linewidth]{static/figures/ComBiNet/torino_tree}
+%     \includegraphics[width=0.3\linewidth]{static/figures/ComBiNet/torino_tree}
      \includegraphics[width=0.5\linewidth]{static/figures/ComBiNet/tree_tooltip_torinoquery_crop}
 %     \caption{(a) Provenance tree to answer question 2 of collaboration \pascal: left branch lead to Torino documents (the node is labeled as A) while right branch lead to surrounding documents (the node is labeled as B). }\label{fig:combinet-trees}
      \caption{Provenance tree to answer question 2 of collaboration \pascal: left branch leads to Torino documents (the node is labeled as A) while right branch leads to surrounding documents (the node is labeled as B). The user hovers over one node, revealing a tooltip that shows the visualization of the node's query..}\label{fig:combinet-trees}
@@ -969,7 +969,7 @@ Zoom actions though allow us to center the view on specific parts of the network
 The map view reveals that theses has been defended all around France, even though the majority are defended in Paris.
 \begin{figure}[!ht]
     \centering
-    \includegraphics[width=0.8\textwidth]{static/figures/ComBiNet/Thesis-first-exploration}
+    \includegraphics[width=1\textwidth]{static/figures/ComBiNet/Thesis-first-exploration}
     \caption{\name used for exploring theses of sociology defended in France between 2016 and 2021. The bipartite and map views show an overview of two visions of the network. The user selects the \textit{region} attribute, showing the geographical distribution of the defended thesis.}\label{fig:combinet-thesis-exploration}
 \end{figure}
 This is confirmed by a look at the distribution of the cities (\autoref{fig:combinet-thesis-exploration} bottom right): around half of the defenses are in Paris, compared to the rest of the country which is more or less homogeneous.
@@ -991,7 +991,7 @@ This exploratory analysis shows that \name can be used to explore and gain insig
 
 \begin{figure}[!ht]
     \centering
-    \includegraphics[width=0.8\textwidth]{static/figures/ComBiNet/Thesis-query01-and-results}
+    \includegraphics[width=1\textwidth]{static/figures/ComBiNet/Thesis-query01-and-results}
     \caption{Sociology thesis dataset explored with \name. The user constructed a visual query to see if there are symmetrical relationships between thesis directors and reviewers (or jury directors). The \textit{region} attribute is selected with the Sankey option, letting the user see if there are correlations between the regions of the thesis found in this pattern.  }\label{fig:combinet-thesis-query}
 \end{figure}
 
@@ -1097,7 +1097,8 @@ With this data model, \name let historians explore a concrete representation of 
 Historians can hence reflect on their encoding process (step 3 of the \hsna workflow as described in \autoref{ch:hsna-process-and-network-modeling}) and answer their socio-historical questions using 1) dynamic queries on the network structure and attributes to highlight groups of interests (step 4 of the \hsna) or erroneous patterns and 2) visual comparisons to contrast selected groups according to their structure, location, time, or any other attribute.
 % \name supports dynamic queries that are translated in textual queries in the Cypher language, providing a mixed modality to query data.
 The results can be visualized as a bipartite node-link diagram, a geographical map, graph measures, and distributions of values for the attributes.
-I have shown that complex explorations and analyses were easy to perform, and validated our approach by first describing four use cases among several other projects we are collaborating with and by performing a formative usability study showing that after many improvements the system is usable by social scientists.
+I have shown that complex explorations and analyses were easy to perform---hence giving a proof-of-concept answer for \qtwo---, and validated our approach by first describing four use cases among several other projects we are collaborating with and by performing a formative usability study showing that after many improvements the system is usable by social scientists.
+% \combinet hence gives an answer to \qtwo through a 
 %Our collaborations with social scientists revealed that the process of modeling historical sources into an analyzable network is not easy.
 % Several weeks of discussion led to the decision to model their data as \model which allows to have a representation of the original documents while modeling well the social relationships mentioned in the sources. It
 %Modeling their data as \model allows social scientists to have a common representation to both cleanup and analyze their data.
