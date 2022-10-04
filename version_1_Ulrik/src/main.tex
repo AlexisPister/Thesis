@@ -1,0 +1,241 @@
+%! Author = alexis
+%! Date = 11/06/2022
+
+% Preamble
+\documentclass[12pt,a4paper, twoside]{book}
+%\documentclass[11pt,twoside]{book}
+
+%\usepackage{graphics}
+%\usepackage[a4paper,width=10mm,top=25mm,bottom=25mm]{geometry}
+
+%\usepackage{biblatex}
+
+
+%% Packages
+\input{commands}
+
+\pagestyle{plain} % pour ne garder que les n°de page en milieu-bas et supprimer les indications de chapitre en marge haute
+%\usepackage{biblatex} % à retirer!!!
+
+%\iffalse
+\includeonly{
+%    chapters/Publications,
+%  chapters/Introduction,
+  chapters/Context,
+%  chapters/NetworkModels,
+%  chapters/ComBiNet,
+%  chapters/PK-Clustering
+}
+%\fi
+
+\widowpenalty9000
+\clubpenalty9000
+% Document
+\begin{document}
+    \begin{titlepage}
+        %\thispagestyle{empty}
+
+        \newgeometry{left=6cm,bottom=2cm, top=1cm, right=1cm}
+
+        \tikz[remember picture,overlay] \node[opacity=1,inner sep=0pt] at (-13mm,-135mm){\includegraphics{static/logos/Frame-ups}};
+
+        %*****************************************************
+        %******** NUMÉRO D'ORDRE DE LA THÈSE À COMPLÉTER *****
+        %******** POUR LE SECOND DÉPOT                   *****
+        %*****************************************************
+
+        \color{white}
+
+        \begin{picture}(0,0)
+            \put(-152,-743){\rotatebox{90}{\Large \textsc{THESE DE DOCTORAT}}} \\
+            \put(-120,-743){\rotatebox{90}{NNT : 2020UPASA001}}
+        \end{picture}
+
+        %*****************************************************
+        %**  LOGO  ÉTABLISSEMENT PARTENAIRE SI COTUTELLE
+        %**  CHANGER L'IMAGE PAR DÉFAUT **
+        %*****************************************************
+        %\vspace{-14mm} % à ajuster en fonction de la hauteur du logo
+        %\flushright \includegraphics[scale=1]{static/logos/logo2}
+
+        %*****************************************************
+        %******************** TITRE **************************
+        %*****************************************************
+
+        \flushright
+        \vspace{10mm} % à régler éventuellement
+        \color{Prune}
+        \fontfamily{cmss}\fontseries{m}\fontsize{22}{26}\selectfont
+        \Huge Analyse Visuelle de Réseaux Sociaux Historiques: Traçabilité, Exploration et Analyse  \\
+
+        \normalsize
+        \color{black}
+        \Large{\textit{Visual Analytics for Historical Social Networks: Traceability, Exploration, and Analysis}} \\
+%        \Large{\textit{Visual Analytics for Historical Network Research }} \\
+%        \Large{\textit{Traduction du titre de la thèse (sur plusieurs lignes si nécessaire)}} \\
+        %*****************************************************
+
+        \fontfamily{fvs}\fontseries{m}\fontsize{8}{12}\selectfont
+
+        \vspace{1.5cm}
+
+        \normalsize
+        \textbf{Thèse de doctorat de l'université Paris-Saclay et de Telecom Paris} \\
+
+        \vspace{6mm}
+
+        \small École doctorale n$^{\circ}580$ : Sciences et technologies de l’information et de la communication (STIC)\\
+        \small Spécialité de doctorat: Informatique\\
+        \small Graduate School : Informatique et Sciences du Numérique\\
+        \small Référent : Faculté des sciences d’Orsay \\
+        \vspace{6mm}
+
+%        \footnotesize Thèse préparée dans la (ou les) unité(s) de recherche Nom(s) (voir annexe), sous la direction de Prénom NOM, titre du directeur ou de la directrice de thèse, la co-direction de Prénom NOM, titre du co-directeur ou de la co-directrice de thèse, le co-encadrement de Prénom NOM, titre, du co-encadrant ou de la co-encadrante ou la co-supervision de Prénom NOM, titre, du tuteur ou de la tutrice (en cas de partenariat industriel) \\
+
+        \footnotesize Thèse préparée au Laboratoire interdisciplinaire des sciences du numérique (Université Paris-Saclay, CNRS, Inria), et à Telecom Paris, sous la direction de Jean-Daniel FEKETE, Directeur de recherche et la co-direction de Christophe Prieur, Professeur des universités. \\
+
+        \vspace{15mm}
+
+        \textbf{Thèse soutenue à Paris-Saclay, le xx décembre 2022, par}\\
+        \bigskip
+        \Large {\color{Prune} \textbf{Alexis PISTER}} % Changer le Prénom et le NOM
+
+        %************************************
+        \vspace{\fill} % ALIGNER LE TABLEAU EN BAS DE PAGE
+        %************************************
+
+        \bigskip
+
+        \flushleft
+        \small \textbf{Composition du jury}\\
+        \vspace{2mm}
+        \scriptsize
+        % \begin{tabular}{|p{7cm}l}
+        %     \arrayrulecolor{Prune}
+        %     \textbf{Prénom Nom} & Président ou Présidente           \\
+        %     Titre, Affiliation  &                                   \\
+        %     \textbf{Prénom Nom} & Rapporteur \& Examinateur / trice \\
+        %     Titre, Affiliation  &                                   \\
+        %     \textbf{Prénom Nom} & Rapporteur \& Examinateur / trice \\
+        %     Titre, Affiliation  &                                   \\
+        %     \textbf{Prénom Nom} & Examinateur ou Examinatrice       \\
+        %     Titre, Affiliation  &                                   \\
+        %     \textbf{Prénom Nom} & Examinateur ou Examinatrice       \\
+        %     Titre, Affiliation  &                                   \\
+        %     \textbf{Prénom Nom} & Directeur ou Directrice de thèse  \\
+        %     Titre, Affiliation  &                                   \\
+        % \end{tabular}
+        
+        % \begin{tabular}{|p{7cm}l} % original
+        \begin{tabular}{|p{9cm}l}
+            \arrayrulecolor{Prune}
+            \textbf{Ulrik Brandes} & Rapporteur \& Examinateur \\
+            Professeur, ETH Zürich  &                                   \\
+            \textbf{Guy Melançon} & Rapporteur \& Examinateur \\
+            Professeur, Univerité de Bordeaux  &                                   \\
+            \textbf{Wendy Mackay} & Examinatrice       \\
+            Directrice de recherche, Univ. Paris-Saclay, CNRS, Inria, LISN  &   \\
+            \textbf{Uta Hinrichs} & Examinatrice       \\
+            Professeur, University of Edinburgh  &                                   \\
+            \textbf{Laurent Beauguitte} & Examinateur       \\
+            Chargé de recherche, CNRS  &                                   \\
+            \textbf{Jean-Daniel Fekete} & Directeur de thèse  \\
+            Directeur de recherche, Univ. Paris-Saclay, CNRS, Inria, LISN  &                                   \\
+            \textbf{Chritophe Prieur} & Directeur de thèse  \\
+            Professeur, Université Gustave Eiffel  &           
+        \end{tabular}
+
+    \end{titlepage}
+
+    \Ifthispageodd{\newpage\thispagestyle{empty}\null\newpage}{}
+    \thispagestyle{empty}
+    \newgeometry{top=1.5cm, bottom=1.25cm, left=2cm, right=2cm}
+    \fontfamily{rm}\selectfont
+
+    \lhead{}
+    \rhead{}
+    \rfoot{}
+    \cfoot{}
+    \lfoot{}
+
+    \noindent
+%*****************************************************
+%***** LOGO DE L'ED À CHANGER IMPÉRATIVEMENT *********
+%*****************************************************
+    \includegraphics[height=2.45cm]{static/logos/logo_usp_STIC}
+    \vspace{1cm}
+%*****************************************************
+    \fontfamily{cmss}\fontseries{m}\selectfont
+
+    \small
+
+    \begin{mdframed}[linecolor=Prune,linewidth=1]
+
+        \textbf{Titre:} Analyse Visuelle de Réseaux Sociaux Historiques: Traçabilité, Exploration et Analyse
+
+        \noindent \textbf{Mots clés:} 3 à 6 mots clefs (version en français)
+
+        \vspace{-.5cm}
+        \begin{multicols}{2}
+            \noindent \textbf{Résumé:}
+            % \noindent \textbf{Résumé:}\lipsum[1-2]
+        \end{multicols}
+
+    \end{mdframed}
+
+    \vspace{8mm}
+
+    \begin{mdframed}[linecolor=Prune,linewidth=1]
+
+        \textbf{Title:} Visual Analytics for Historical Social Networks: Traceability, Exploration, and Analysis
+
+        \noindent \textbf{Keywords:} visual analytics, social network analysis, social network visualization, social history.
+
+        %\begin{multicols}{2}
+            \noindent \textbf{Abstract:} \input{abstract.tex}
+        %\end{multicols}
+    \end{mdframed}
+
+    \titleformat{\chapter}[hang]{\bfseries\LARGE\color{Prune}}{\thechapter\quad}{.1ex}{}{}%{\vspace{0.1ex}}[\vspace{1ex}]
+    \titlespacing{\chapter}{0pc}{0ex}{0.5pc}
+
+    \titleformat{\section}[hang]{\bfseries\normalsize}{\thesection\quad}{0.5pt}{}{}%{\vspace{0.1ex}}[\vspace{0.1ex}]
+    \titlespacing{\section}{1.5pc}{4ex plus .1ex minus .2ex}{.8pc}
+    \titleformat{\subsection}[hang]{\bfseries\small}{\thesubsection\quad}{1pt}{}{}%{\vspace{0.1ex}}[\vspace{0.1ex}]
+    \titlespacing{\subsection}{3pc}{2ex plus .1ex minus .2ex}{.1pc}
+
+    \newgeometry{top=4cm, bottom=4cm, left=2cm, right=2cm}
+
+
+
+
+    %    \newgeometry{top=4cm, bottom=4cm, left=4cm, right=4cm}
+    \newgeometry{top=4cm, bottom=4cm, width=150mm}
+
+    %----------------------------------------------------------------------------------------
+    %	LIST OF CONTENTS/FIGURES/TABLES PAGES
+    %----------------------------------------------------------------------------------------
+    \dominitoc% Initialization of minitoc
+    \tableofcontents
+
+    \listoffigures
+    \listoftables
+
+
+
+    \include{chapters/Publications}
+
+    \include{chapters/Introduction}
+    \include{chapters/Context}
+    \include{chapters/NetworkModels}
+    \include{chapters/ComBiNet}
+    % \include{chapters/PK-Clustering}
+    % \include{chapters/Conclusion}
+
+
+    % \bibliographystyle{IEEEtranS}
+    \bibliography{main}
+    \bibliographystyle{plainurl}
+
+%    \printbibliography
+\end{document}
