@@ -450,7 +450,7 @@
 \colorlet{child}{blue!80!white!50}
 
 
-\newcommand{\birthSimple}[1][0]{\begin{tikzpicture}[->, node distance=3cm, auto, every node/.style={inner sep=3,outer sep=0}]
+\newcommand{\birthSimple}[1][0]{\begin{tikzpicture}[, node distance=3cm, auto, every node/.style={inner sep=3,outer sep=0}]
         \node[shape=circle,draw=gray, fill=lightgrey] (F) at (0,1) {\tiny F};
         \node[shape=circle,draw=gray, fill=lightgrey] (M) at (1.5,1) {\tiny M};
         \node[shape=circle,draw=gray, fill=lightgrey] (C) at (0.75,0) {\tiny C};
@@ -462,7 +462,7 @@
         \end{scope}
         \end{tikzpicture}}
 
-\newcommand{\birthUnipartite}[1][0]{\begin{tikzpicture}[, node distance=3cm, auto, every node/.style={inner sep=3,outer sep=0}]
+\newcommand{\birthUnipartite}[1][0]{\begin{tikzpicture}[->, node distance=3cm, auto, every node/.style={inner sep=3,outer sep=0}]
         \node[shape=circle,draw=gray, fill=lightgrey] (F) at (0,1) {\tiny F};
         \node[shape=circle,draw=gray, fill=lightgrey] (M) at (1.5,1) {\tiny M};
         \node[shape=circle,draw=gray, fill=lightgrey] (C) at (0.75,0) {\tiny C};

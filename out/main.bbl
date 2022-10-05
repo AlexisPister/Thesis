@@ -1,7 +1,34 @@
 \begin{thebibliography}{100}
 
-\bibitem{noauthor_nodexl_nodate}
-{{NodeXL}}: {{Simple}} network analysis for social media.
+\bibitem{InterchangePromiseDigital2008}
+Interchange: {{The Promise}} of {{Digital History}}.
+\newblock {\em Journal of American History}, 95(2):452--491, September 2008.
+\newblock \href {https://doi.org/10.2307/25095630}
+  {\path{doi:10.2307/25095630}}.
+
+\bibitem{abdelaalComparativeEvaluationBipartite2022}
+Moataz Abdelaal, Nathan~D. Schiele, Katrin Angerbauer, Kuno Kurzhals, Michael
+  Sedlmair, and Daniel Weiskopf.
+\newblock Comparative {{Evaluation}} of {{Bipartite}}, {{Node-Link}}, and
+  {{Matrix-Based Network Representations}}, August 2022.
+\newblock \href {http://arxiv.org/abs/2208.04458} {\path{arXiv:2208.04458}}.
+
+\bibitem{ahnertNetworkTurnChanging2020}
+Ruth Ahnert, Sebastian~E. Ahnert, Catherine~Nicole Coleman, and Scott~B.
+  Weingart.
+\newblock The {{Network Turn}}: {{Changing Perspectives}} in the
+  {{Humanities}}.
+\newblock {\em Elements in Publishing and Book Culture}, December 2020.
+\newblock \href {https://doi.org/10.1017/9781108866804}
+  {\path{doi:10.1017/9781108866804}}.
+
+\bibitem{alexanderAnalysisAncientNetwork1990}
+Michael~C. Alexander and James~A. Danowski.
+\newblock Analysis of an ancient network: {{Personal}} communication and the
+  study of social structure in a past society.
+\newblock {\em Social Networks}, 12(4):313--335, December 1990.
+\newblock \href {https://doi.org/10.1016/0378-8733(90)90013-Y}
+  {\path{doi:10.1016/0378-8733(90)90013-Y}}.
 
 \bibitem{alkadi2022}
 Mashael Alkadi, Vanessa Serrano, James {Scott-Brown}, Catherine Plaisant,
@@ -16,11 +43,48 @@ Keith Andrews, Martin Wohlfahrt, and Gerhard Wurzinger.
 \newblock Visual {{Graph Comparison}}.
 \newblock In {\em 2009 13th {{International Conference Information
   Visualisation}}}, pages 62--67, July 2009.
+\newblock \href {https://doi.org/10.1109/IV.2009.108}
+  {\path{doi:10.1109/IV.2009.108}}.
 
 \bibitem{anscombeGraphsStatisticalAnalysis1973}
 F.~J. Anscombe.
 \newblock Graphs in {{Statistical Analysis}}.
 \newblock {\em The American Statistician}, 27(1):17--21, February 1973.
+\newblock \href {https://doi.org/10.1080/00031305.1973.10478966}
+  {\path{doi:10.1080/00031305.1973.10478966}}.
+
+\bibitem{ardanuyLivingMachinesStudy2020}
+Mariona~Coll Ardanuy, Federico Nanni, Kaspar Beelen, Kasra Hosseini, Ruth
+  Ahnert, Jon Lawrence, Katherine McDonough, Giorgia Tolfo, Daniel~CS Wilson,
+  and Barbara McGillivray.
+\newblock Living {{Machines}}: {{A}} study of atypical animacy, November 2020.
+\newblock \href {http://arxiv.org/abs/2005.11140} {\path{arXiv:2005.11140}},
+  \href {https://doi.org/10.48550/arXiv.2005.11140}
+  {\path{doi:10.48550/arXiv.2005.11140}}.
+
+\bibitem{auberTULIP2017}
+David Auber, Daniel Archambault, Romain Bourqui, Maylis Delest, Jonathan
+  Dubois, Antoine Lambert, Patrick Mary, Morgan Mathiaut, Guy Melan{\c c}on,
+  Bruno Pinaud, Benjamin Renoust, and Jason Vallet.
+\newblock {{TULIP}} 5.
+\newblock In Reda Alhajj and Jon Rokne, editors, {\em Encyclopedia of {{Social
+  Network Analysis}} and {{Mining}}}, pages 1--28. {Springer}, August 2017.
+\newblock \href {https://doi.org/10.1007/978-1-4614-7163-9_315-1}
+  {\path{doi:10.1007/978-1-4614-7163-9_315-1}}.
+
+\bibitem{barnesBigDataLittle2013}
+Trevor~J Barnes.
+\newblock Big data, little history.
+\newblock {\em Dialogues in Human Geography}, 3(3):297--302, November 2013.
+\newblock \href {https://doi.org/10.1177/2043820613514323}
+  {\path{doi:10.1177/2043820613514323}}.
+
+\bibitem{bartonSurveyResearchMacroMethodology1968}
+Allen~H. Barton.
+\newblock Survey {{Research}} and {{Macro-Methodology}}.
+\newblock {\em American Behavioral Scientist}, 12(2):1--9, November 1968.
+\newblock \href {https://doi.org/10.1177/000276426801200201}
+  {\path{doi:10.1177/000276426801200201}}.
 
 \bibitem{Gephi}
 Mathieu Bastian, Sebastien Heymann, and Mathieu Jacomy.
@@ -30,17 +94,29 @@ Mathieu Bastian, Sebastien Heymann, and Mathieu Jacomy.
   Nicolov, and Belle~L. Tseng, editors, {\em {{ICWSM}}}. {The AAAI Press},
   2009.
 
-\bibitem{basu08}
-Sugato Basu, Ian Davidson, and Kiri Wagstaff.
-\newblock {\em Constrained Clustering: {{Advances}} in Algorithms, Theory, and
-  Applications}.
-\newblock {Chapman \& Hall/CRC}, first edition, 2008.
+\bibitem{battistaGraphDrawingAlgorithms1998}
+Giuseppe~Di Battista, Peter Eades, Roberto Tamassia, and Ioannis~G. Tollis.
+\newblock {\em Graph {{Drawing}}: {{Algorithms}} for the {{Visualization}} of
+  {{Graphs}}}.
+\newblock {Prentice Hall PTR}, {USA}, 1st edition, 1998.
 
 \bibitem{battleCharacterizingExploratoryVisual2019}
 Leilani Battle and Jeffrey Heer.
 \newblock Characterizing {{Exploratory Visual Analysis}}: {{A Literature
   Review}} and {{Evaluation}} of {{Analytic Provenance}} in {{Tableau}}.
 \newblock {\em Computer Graphics Forum}, 38(3):145--159, 2019.
+\newblock \href {https://doi.org/10.1111/cgf.13678}
+  {\path{doi:10.1111/cgf.13678}}.
+
+\bibitem{baurVisoneSoftwareVisual2002}
+Michael Baur, Marc Benkert, Ulrik Brandes, Sabine Cornelsen, Marco Gaertler,
+  Boris K{\"o}pf, J{\"u}rgen Lerner, and Dorothea Wagner.
+\newblock Visone {{Software}} for {{Visual Social Network Analysis}}.
+\newblock In Petra Mutzel, Michael J{\"u}nger, and Sebastian Leipert, editors,
+  {\em Graph {{Drawing}}}, Lecture {{Notes}} in {{Computer Science}}, pages
+  463--464, {Berlin, Heidelberg}, 2002. {Springer}.
+\newblock \href {https://doi.org/10.1007/3-540-45848-4_47}
+  {\path{doi:10.1007/3-540-45848-4_47}}.
 
 \bibitem{bertin1967}
 Jacques Bertin.
@@ -53,19 +129,26 @@ A.~Bezerianos, F.~Chevalier, P.~Dragicevic, N.~Elmqvist, and J.d. Fekete.
 \newblock {{GraphDice}}: {{A System}} for {{Exploring Multivariate Social
   Networks}}.
 \newblock {\em Computer Graphics Forum}, 29(3):863--872, 2010.
+\newblock \href {https://doi.org/10.1111/j.1467-8659.2009.01687.x}
+  {\path{doi:10.1111/j.1467-8659.2009.01687.x}}.
 
 \bibitem{blochApologiePourHistoire1949}
 Marc Bloch.
 \newblock {\em Apologie Pour l'histoire}.
 \newblock {A. Colin}, 1949.
 
-\bibitem{bohm08}
-Christian B{\"o}hm and Claudia Plant.
-\newblock {{HISSCLU}}: {{A}} hierarchical density-based method for
-  semi-supervised clustering.
-\newblock In {\em Proceedings of the 11th International Conference on Extending
-  Database Technology: {{Advances}} in Database Technology}, {{EDBT}} '08,
-  pages 440--451, {New York, NY, USA}, 2008. {ACM}.
+\bibitem{ucinet}
+S.P. Borgatti, M.~G. Everett, and L.~C. Freeman.
+\newblock {{UCINET}} 6 for {{Windows}}: {{Software for Social Network Analysis.
+  Harvard, MA, Analytic Technologies}}, 2002.
+
+\bibitem{borgattiSocialNetworkAnalysis2009}
+Stephen Borgatti.
+\newblock Social {{Network Analysis}}, {{Two-Mode Concepts}} in.
+\newblock {\em Computational Complexity: Theory, Techniques, and Applications},
+  January 2009.
+\newblock \href {https://doi.org/10.1007/978-0-387-30440-3_491}
+  {\path{doi:10.1007/978-0-387-30440-3_491}}.
 
 \bibitem{borsProvenanceTaskAbstraction2019}
 Christian Bors, John Wenskovitch, Michelle Dowling, Simon Attfield, Leilani
@@ -73,12 +156,24 @@ Christian Bors, John Wenskovitch, Michelle Dowling, Simon Attfield, Leilani
 \newblock A {{Provenance Task Abstraction Framework}}.
 \newblock {\em IEEE Computer Graphics and Applications}, 39(6):46--60, November
   2019.
+\newblock \href {https://doi.org/10.1109/MCG.2019.2945720}
+  {\path{doi:10.1109/MCG.2019.2945720}}.
 
 \bibitem{d3}
 Michael Bostock, Vadim Ogievetsky, and Jeffrey Heer.
 \newblock {{D}}{$^3$} {{Data-Driven Documents}}.
 \newblock {\em IEEE Transactions on Visualization and Computer Graphics},
   17(12):2301--2309, December 2011.
+\newblock \href {https://doi.org/10.1109/TVCG.2011.185}
+  {\path{doi:10.1109/TVCG.2011.185}}.
+
+\bibitem{bouletBatchKernelSOM2008}
+Romain Boulet, Bertrand Jouve, Fabrice Rossi, and Nathalie Villa.
+\newblock Batch kernel {{SOM}} and related {{Laplacian}} methods for social
+  network analysis.
+\newblock {\em Neurocomputing}, 71(7):1257--1273, March 2008.
+\newblock \href {https://doi.org/10.1016/j.neucom.2007.12.026}
+  {\path{doi:10.1016/j.neucom.2007.12.026}}.
 
 \bibitem{bourdieuRapportsEntreSociologie1995}
 Pierre Bourdieu.
@@ -86,6 +181,14 @@ Pierre Bourdieu.
   en France}.
 \newblock {\em Actes de la Recherche en Sciences Sociales}, 106(1):108--122,
   1995.
+\newblock \href {https://doi.org/10.3406/arss.1995.3141}
+  {\path{doi:10.3406/arss.1995.3141}}.
+
+\bibitem{bradshawDataJournalism2017}
+Paul Bradshaw.
+\newblock Data journalism.
+\newblock In {\em The {{Online Journalism Handbook}}}. {Routledge}, second
+  edition, 2017.
 
 \bibitem{brandesModularityClustering2008}
 Ulrik Brandes, Daniel Delling, Marco Gaertler, Robert Gorke, Martin Hoefer,
@@ -93,11 +196,24 @@ Ulrik Brandes, Daniel Delling, Marco Gaertler, Robert Gorke, Martin Hoefer,
 \newblock On {{Modularity Clustering}}.
 \newblock {\em IEEE Transactions on Knowledge and Data Engineering},
   20(2):172--188, February 2008.
+\newblock \href {https://doi.org/10.1109/TKDE.2007.190689}
+  {\path{doi:10.1109/TKDE.2007.190689}}.
+
+\bibitem{burdickDigitalHumanities2016}
+Anne Burdick, Johanna Drucker, Peter Lunenfeld, Todd Presner, and Jeffrey
+  Schnapp.
+\newblock {\em Digital\_{{Humanities}}}.
+\newblock {MIT Press}, February 2016.
 
 \bibitem{burkeHistorySocialTheory2005}
 Peter Burke.
 \newblock {\em History and {{Social Theory}}}.
 \newblock {Polity}, 2005.
+
+\bibitem{cConceptUseSocial1969}
+Mitchell~J. C.
+\newblock The {{Concept}} and {{Use}} of {{Social Networks}}.
+\newblock {\em Social Networks in Urban Situations}, 1969.
 
 \bibitem{callahanVisTrailsVisualizationMeets2006}
 Steven~P. Callahan, Juliana Freire, Emanuele Santos, Carlos~E. Scheidegger,
@@ -106,6 +222,8 @@ Steven~P. Callahan, Juliana Freire, Emanuele Santos, Carlos~E. Scheidegger,
 \newblock In {\em Proceedings of the 2006 {{ACM SIGMOD}} International
   Conference on {{Management}} of Data - {{SIGMOD}} '06}, page 745, {Chicago,
   IL, USA}, 2006. {ACM Press}.
+\newblock \href {https://doi.org/10.1145/1142473.1142574}
+  {\path{doi:10.1145/1142473.1142574}}.
 
 \bibitem{carbonellHistoriographie1981}
 Charles-Olivier Carbonell.
@@ -118,22 +236,47 @@ Stuart-K. Card, Jock-D. Mackinlay, and Ben Shneiderman.
 \newblock {Morgan Kaufmann Publishers In}, {San Francisco, Calif}, February
   1999.
 
+\bibitem{charbeyStarsHolesPaths2019}
+Rapha{\"e}l Charbey and Christophe Prieur.
+\newblock Stars, holes, or paths across your {{Facebook}} friends: {{A}}
+  graphlet-based characterization of many networks.
+\newblock {\em Network Science}, 7(4):476--497, December 2019.
+\newblock \href {https://doi.org/10.1017/nws.2019.20}
+  {\path{doi:10.1017/nws.2019.20}}.
+
 \bibitem{chauGRAPHITEVisualQuery2008}
 Duen~Horng Chau, Christos Faloutsos, Hanghang Tong, Jason~I. Hong, Brian
   Gallagher, and Tina {Eliassi-Rad}.
 \newblock {{GRAPHITE}}: {{A Visual Query System}} for {{Large Graphs}}.
 \newblock In {\em 2008 {{IEEE International Conference}} on {{Data Mining
   Workshops}}}, pages 963--966, December 2008.
+\newblock \href {https://doi.org/10.1109/ICDMW.2008.99}
+  {\path{doi:10.1109/ICDMW.2008.99}}.
 
 \bibitem{colemanIntroductionMathematicalSociology1964}
 J.~S. Coleman.
 \newblock Introduction to mathematical sociology.
 \newblock {\em Introduction to mathematical sociology.}, 1964.
 
+\bibitem{collarNetworksArchaeologyPhenomena2015}
+Anna Collar, Fiona Coward, Tom Brughmans, and Barbara~J. Mills.
+\newblock Networks in {{Archaeology}}: {{Phenomena}}, {{Abstraction}},
+  {{Representation}}.
+\newblock {\em J Archaeol Method Theory}, 22(1):1--32, March 2015.
+\newblock \href {https://doi.org/10.1007/s10816-014-9235-6}
+  {\path{doi:10.1007/s10816-014-9235-6}}.
+
 \bibitem{TEI}
 TEI Consortium.
 \newblock {{TEI P5}}: {{Guidelines}} for electronic text encoding and
   interchange, February 2021.
+\newblock \href {https://doi.org/10.5281/zenodo.4609855}
+  {\path{doi:10.5281/zenodo.4609855}}.
+
+\bibitem{cordell2017viral}
+Ryan Cordell and David Smith.
+\newblock Viral texts: {{Mapping}} networks of reprinting in 19th-{{Century}}
+  newspapers and magazines, 2017.
 
 \bibitem{cristofoliAuxSourcesGrands2008}
 Pascal Cristofoli.
@@ -150,6 +293,8 @@ Pascal Cristofoli and Nicoletta Rolla.
 \newblock {Temporalit\'es \`a l'\oe uvre dans les chantiers du b\^atiment}.
 \newblock {\em Temporalit\'es. Revue de sciences sociales et humaines}, (27),
   June 2018.
+\newblock \href {https://doi.org/10.4000/temporalites.4456}
+  {\path{doi:10.4000/temporalites.4456}}.
 
 \bibitem{CRNOVRSANIN201456}
 Tarik Crnovrsanin, Chris~W. Muelder, Robert Faris, Diane Felmlee, and Kwan-Liu
@@ -157,6 +302,14 @@ Tarik Crnovrsanin, Chris~W. Muelder, Robert Faris, Diane Felmlee, and Kwan-Liu
 \newblock Visualization techniques for categorical analysis of social networks
   with multiple edge sets.
 \newblock {\em Social Networks}, 37:56--64, 2014.
+\newblock \href {https://doi.org/10.1016/j.socnet.2013.12.002}
+  {\path{doi:10.1016/j.socnet.2013.12.002}}.
+
+\bibitem{crosbyMeasureReality1998}
+Alfred~W. Crosby.
+\newblock {\em {The Measure of Reality}}.
+\newblock {Cambridge University Press}, {Cambridge}, reprint \'edition edition,
+  March 1998.
 
 \bibitem{igraph}
 Gabor Csardi and Tamas Nepusz.
@@ -169,6 +322,8 @@ Erick Cuenca, Arnaud Sallaberry, Dino Ienco, and Pascal Poncelet.
   Large Multilayer Networks}}.
 \newblock {\em IEEE Transactions on Visualization and Computer Graphics}, pages
   1--1, 2021.
+\newblock \href {https://doi.org/10.1109/TVCG.2021.3067820}
+  {\path{doi:10.1109/TVCG.2021.3067820}}.
 
 \bibitem{cutlerTrrackLibraryProvenanceTracking2020}
 Zach Cutler, Kiran Gadhave, and Alexander Lex.
@@ -176,11 +331,21 @@ Zach Cutler, Kiran Gadhave, and Alexander Lex.
   Visualizations}}.
 \newblock In {\em 2020 {{IEEE Visualization Conference}} ({{VIS}})}, pages
   116--120, October 2020.
+\newblock \href {https://doi.org/10.1109/VIS47514.2020.00030}
+  {\path{doi:10.1109/VIS47514.2020.00030}}.
+
+\bibitem{davisDeepSouthSocial2009}
+Allison Davis, Burleigh~Bradford Gardner, and Mary~R. Gardner.
+\newblock {\em Deep {{South}}: {{A Social Anthropological Study}} of {{Caste}}
+  and {{Class}}}.
+\newblock {Univ of South Carolina Press}, 2009.
 
 \bibitem{dhamiAnalysisCompetingHypotheses2019}
 Mandeep~K. Dhami, Ian~K. Belton, and David~R. Mandel.
 \newblock The ``analysis of competing hypotheses'' in intelligence analysis.
 \newblock {\em Applied Cognitive Psychology}, 33(6):1080--1090, 2019.
+\newblock \href {https://doi.org/10.1002/acp.3550}
+  {\path{doi:10.1002/acp.3550}}.
 
 \bibitem{diesnerImpactEntityDisambiguation2015}
 Jana Diesner, Craig Evans, and Jinseok Kim.
@@ -200,6 +365,8 @@ Dana Diminescu.
 Nicole Dufournaud.
 \newblock {La recherche empirique en histoire \`a l'\`ere num\'erique}.
 \newblock {\em Gazette des archives}, 240(4):397--407, 2015.
+\newblock \href {https://doi.org/10.3406/gazar.2015.5321}
+  {\path{doi:10.3406/gazar.2015.5321}}.
 
 \bibitem{dufournaudCommentRendreVisible2018}
 Nicole Dufournaud.
@@ -215,6 +382,8 @@ Nicole Dufournaud and Jean-Daniel Fekete.
 \newblock {Comparaison d'outils pour la visualisation de sources historiques
   cod\'ees en XML/TEI}.
 \newblock {\em Document num\'erique}, 9(2):37--56, April 2006.
+\newblock \href {https://doi.org/10.3166/dn.9.2.37-56}
+  {\path{doi:10.3166/dn.9.2.37-56}}.
 
 \bibitem{dunneGraphTrailAnalyzingLarge2012}
 Cody Dunne, Nathalie Henry~Riche, Bongshin Lee, Ronald Metoyer, and George
@@ -224,12 +393,25 @@ Cody Dunne, Nathalie Henry~Riche, Bongshin Lee, Ronald Metoyer, and George
 \newblock In {\em Proceedings of the {{SIGCHI Conference}} on {{Human Factors}}
   in {{Computing Systems}}}, {{CHI}} '12, pages 1663--1672, {New York, NY,
   USA}, May 2012. {Association for Computing Machinery}.
+\newblock \href {https://doi.org/10.1145/2207676.2208293}
+  {\path{doi:10.1145/2207676.2208293}}.
+
+\bibitem{edelsteinHistoricalResearchDigital2017}
+Dan Edelstein, Paula Findlen, Giovanna Ceserani, Caroline Winterer, and Nicole
+  Coleman.
+\newblock Historical {{Research}} in a {{Digital Age}}: {{Reflections}} from
+  the {{Mapping}} the {{Republic}} of {{Letters Project}}.
+\newblock {\em The American Historical Review}, 122(2):400--424, April 2017.
+\newblock \href {https://doi.org/10.1093/ahr/122.2.400}
+  {\path{doi:10.1093/ahr/122.2.400}}.
 
 \bibitem{erdos2011}
 P.~Erd{\"o}s and A.~R{\'e}nyi.
 \newblock On the evolution of random graphs.
 \newblock In {\em On the Evolution of Random Graphs}, pages 38--82. {Princeton
   University Press}, October 2011.
+\newblock \href {https://doi.org/10.1515/9781400841356.38}
+  {\path{doi:10.1515/9781400841356.38}}.
 
 \bibitem{eriksonMalfeasanceFoundationsGlobal2006}
 Emily Erikson and Peter Bearman.
@@ -237,11 +419,21 @@ Emily Erikson and Peter Bearman.
   Structure}} of {{English Trade}} in the {{East Indies}}, 1601\textendash
   1833.
 \newblock {\em American Journal of Sociology}, 112(1):195--230, July 2006.
+\newblock \href {https://doi.org/10.1086/502694} {\path{doi:10.1086/502694}}.
 
 \bibitem{eveDeuxTraditionsAnalyse2002}
 Michael Eve.
 \newblock {Deux traditions d'analyse des reseaux sociaux}.
 \newblock {\em R\'eseaux}, 115(5):183--212, 2002.
+
+\bibitem{fanGraphPatternMatching2012}
+Wenfei Fan.
+\newblock Graph pattern matching revised for social network analysis.
+\newblock In {\em Proceedings of the 15th {{International Conference}} on
+  {{Database Theory}}}, {{ICDT}} '12, pages 8--21, {New York, NY, USA}, March
+  2012. {Association for Computing Machinery}.
+\newblock \href {https://doi.org/10.1145/2274576.2274578}
+  {\path{doi:10.1145/2274576.2274578}}.
 
 \bibitem{febvreVERSAUTREHISTOIRE1949}
 Lucien Febvre.
@@ -252,6 +444,41 @@ Lucien Febvre.
 Jean-Daniel Fekete, Danyel Fisher, Arnab Nandi, and Michael Sedlmair.
 \newblock {\em Progressive {{Data Analysis}} and {{Visualization}}}.
 \newblock {Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik}, April 2019.
+\newblock \href {https://doi.org/10.4230/DagRep.8.10.1}
+  {\path{doi:10.4230/DagRep.8.10.1}}.
+
+\bibitem{floudIntroductionQuantitativeMethods2013}
+Roderick Floud.
+\newblock {\em An {{Introduction}} to {{Quantitative Methods}} for
+  {{Historians}}}.
+\newblock {Routledge}, {London}, September 2013.
+\newblock \href {https://doi.org/10.4324/9781315019512}
+  {\path{doi:10.4324/9781315019512}}.
+
+\bibitem{fogelRailroadsAmericanEconomic1964}
+Robert Fogel.
+\newblock {\em Railroads and {{American Economic Growth}}: {{Essays}} in
+  {{Econometric History}}}.
+\newblock 1964.
+
+\bibitem{fogelLimitsQuantitativeMethods1975}
+Robert~William Fogel.
+\newblock The {{Limits}} of {{Quantitative Methods}} in {{History}}.
+\newblock {\em The American Historical Review}, 80(2):329--350, 1975.
+\newblock \href {https://doi.org/10.2307/1850498} {\path{doi:10.2307/1850498}}.
+
+\bibitem{fogel1974time}
+Robert~William Fogel and Stanley~L Engerman.
+\newblock {\em Time on the Cross: {{Evidence}} and Methods, a Supplement},
+  volume~2.
+\newblock {Little, Brown}, 1974.
+
+\bibitem{fortunatoCommunityDetectionGraphs2010}
+Santo Fortunato.
+\newblock Community detection in graphs.
+\newblock {\em Physics Reports}, 486(3):75--174, February 2010.
+\newblock \href {https://doi.org/10.1016/j.physrep.2009.11.002}
+  {\path{doi:10.1016/j.physrep.2009.11.002}}.
 
 \bibitem{freemanVisualizingSocialNetworks2000}
 L.~Freeman.
@@ -270,12 +497,16 @@ Manuel Freire, Catherine Plaisant, Ben Shneiderman, and Jen Golbeck.
   visualization.
 \newblock In {\em {{CHI}} '10}, {{CHI}} '10, pages 213--222, {New York, NY,
   USA}, 2010. {ACM}.
+\newblock \href {https://doi.org/10.1145/1753326.1753358}
+  {\path{doi:10.1145/1753326.1753358}}.
 
 \bibitem{friendlyVisionsReVisionsCharles2002}
 Michael Friendly.
 \newblock Visions and {{Re-Visions}} of {{Charles Joseph Minard}}.
 \newblock {\em Journal of Educational and Behavioral Statistics}, 27(1):31--51,
   March 2002.
+\newblock \href {https://doi.org/10.3102/10769986027001031}
+  {\path{doi:10.3102/10769986027001031}}.
 
 \bibitem{friendlyBriefHistoryData2008}
 Michael Friendly.
@@ -283,6 +514,8 @@ Michael Friendly.
 \newblock In Chun-houh Chen, Wolfgang H{\"a}rdle, and Antony Unwin, editors,
   {\em Handbook of {{Data Visualization}}}, Springer {{Handbooks
   Comp}}.{{Statistics}}, pages 15--56. {Springer}, {Berlin, Heidelberg}, 2008.
+\newblock \href {https://doi.org/10.1007/978-3-540-33037-0_2}
+  {\path{doi:10.1007/978-3-540-33037-0_2}}.
 
 \bibitem{gedcom}
 {{GEDCOM}}: {{The}} genealogy data standard.
@@ -298,6 +531,16 @@ Mohammad Ghoniem, J.-D. Fekete, and Philippe Castagliola.
 Carlo Ginzburg and Carlo Poni.
 \newblock {La micro-histoire}.
 \newblock {\em Le D\'ebat}, 17(10):133, 1981.
+\newblock \href {https://doi.org/10.3917/deba.017.0133}
+  {\path{doi:10.3917/deba.017.0133}}.
+
+\bibitem{girvanCommunityStructureSocial2002}
+M.~Girvan and M.~E.~J. Newman.
+\newblock Community structure in social and biological networks.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  99(12):7821--7826, June 2002.
+\newblock \href {https://doi.org/10.1073/pnas.122653799}
+  {\path{doi:10.1073/pnas.122653799}}.
 
 \bibitem{glaserDiscoveryGroundedTheory2010}
 Barney~G. Glaser and Anselm~L. Strauss.
@@ -310,11 +553,15 @@ Barney~G. Glaser and Anselm~L. Strauss.
 Michael Gleicher.
 \newblock Considerations for visualizing comparison.
 \newblock {\em IEEE Trans. Vis. Comput. Graphics}, 24(1):413--423, 2018.
+\newblock \href {https://doi.org/10.1109/TVCG.2017.2744199}
+  {\path{doi:10.1109/TVCG.2017.2744199}}.
 
 \bibitem{goldinCliometricsNobel1995}
 Claudia Goldin.
 \newblock Cliometrics and the {{Nobel}}.
 \newblock {\em Journal of Economic Perspectives}, 9(2):191--208, June 1995.
+\newblock \href {https://doi.org/10.1257/jep.9.2.191}
+  {\path{doi:10.1257/jep.9.2.191}}.
 
 \bibitem{grandjeanSocialNetworkAnalysis2015}
 Martin Grandjean.
@@ -326,31 +573,33 @@ Martin Grandjean.
 \newblock Analisi e visualizzazioni delle reti in storia. {{L}}'esempio della
   cooperazione intellettuale della {{Societa}}\&\#768; delle {{Nazioni}}.
 \newblock {\em ME}, (2/2017), 2017.
+\newblock \href {https://doi.org/10.14647/87204} {\path{doi:10.14647/87204}}.
 
 \bibitem{gribaudi1990}
 Maurizio Gribaudi and Alain Blum.
 \newblock {Des cat\'egories aux liens individuels : l'analyse statistique de
   l'espace social}.
 \newblock {\em Annales}, 45(6):1365--1402, 1990.
+\newblock \href {https://doi.org/10.3406/ahess.1990.278914}
+  {\path{doi:10.3406/ahess.1990.278914}}.
 
 \bibitem{guldiHistoryManifesto2014}
 Jo~Guldi and David Armitage.
 \newblock {\em The {{History Manifesto}}}.
 \newblock {Cambridge University Press}, October 2014.
 
-\bibitem{NetworkX}
-Aric~A. Hagberg, Daniel~A. Schult, and Pieter~J. Swart.
-\newblock Exploring network structure, dynamics, and function using
-  {{NetworkX}}.
-\newblock In Ga{\"e}l Varoquaux, Travis Vaught, and Jarrod Millman, editors,
-  {\em Proceedings of the 7th Python in Science Conference}, pages 11--15,
-  {Pasadena, CA USA}, 2008.
+\bibitem{networkx}
+Aric Hagberg and Drew Conway.
+\newblock {{NetworkX}}: {{Network}} analysis with python.
+\newblock {\em URL: https://networkx. github. io}, 2020.
 
 \bibitem{hambergerScanningPatternsRelationship2014}
 Klaus Hamberger, Cyril Grange, Michael Houseman, and Christian Momon.
 \newblock Scanning for patterns of relationship: Analyzing kinship and marriage
   networks with {{Puck}} 2.0.
 \newblock {\em The History of the Family}, 19(4):564--596, October 2014.
+\newblock \href {https://doi.org/10.1080/1081602X.2014.892436}
+  {\path{doi:10.1080/1081602X.2014.892436}}.
 
 \bibitem{hambergerKinshipNetworkAnalysis2011}
 Klaus Hamberger, Michael Houseman, and R.~White, Douglas.
@@ -364,51 +613,71 @@ Mountaz Hasco{\"e}t and Pierre Dragicevic.
   clustered graphs.
 \newblock In Genny Tortora, Stefano Levialdi, and Maurizio Tucci, editors, {\em
   {{AVI}} '12}, pages 522--529. {ACM}, 2012.
+\newblock \href {https://doi.org/10.1145/2254556.2254654}
+  {\path{doi:10.1145/2254556.2254654}}.
+
+\bibitem{haskinsUnderstandingQuantitativeHistory2011}
+Loren Haskins and Kirk Jeffrey.
+\newblock {\em Understanding {{Quantitative History}}}.
+\newblock {Wipf and Stock Publishers}, March 2011.
+
+\bibitem{headlandEmicsEticsInsider1990}
+Thomas~N. Headland, Kenneth~L. Pike, and Marvin Harris, editors.
+\newblock {\em Emics and Etics: {{The}} Insider/Outsider Debate}.
+\newblock Emics and Etics: {{The}} Insider/Outsider Debate. {Sage Publications,
+  Inc}, {Thousand Oaks, CA, US}, 1990.
 
 \bibitem{heerVizsterVisualizingOnline2005}
 J.~Heer and D.~Boyd.
 \newblock Vizster: Visualizing online social networks.
 \newblock In {\em {{IEEE Symposium}} on {{Information Visualization}}, 2005.
   {{INFOVIS}} 2005.}, pages 32--39, October 2005.
-
-\bibitem{heerAgencyAutomationDesigning2019}
-Jeffrey Heer.
-\newblock Agency plus automation: {{Designing}} artificial intelligence into
-  interactive systems.
-\newblock {\em Proceedings of the National Academy of Sciences},
-  116(6):1844--1850, 2019.
+\newblock \href {https://doi.org/10.1109/INFVIS.2005.1532126}
+  {\path{doi:10.1109/INFVIS.2005.1532126}}.
 
 \bibitem{henryRegistresParoissiauxHistoire1956}
 Louis Henry and Michel Fleury.
 \newblock Des registres paroissiaux a l'histoire de la population: Manuel de
   d\'epouillement et d'exploitation de l'\'etat civil ancien.
 \newblock {\em Population (French Edition)}, 11(1):142--144, 1956.
+\newblock \href {https://doi.org/10.2307/1525715} {\path{doi:10.2307/1525715}}.
 
 \bibitem{henryNodeTrixHybridVisualization2007}
 Nathalie Henry, Jean-Daniel Fekete, and Michael~J. McGuffin.
 \newblock {{NodeTrix}}: A {{Hybrid Visualization}} of {{Social Networks}}.
 \newblock {\em IEEE Transactions on Visualization and Computer Graphics},
   13(6):1302--1309, November 2007.
+\newblock \href {https://doi.org/10.1109/TVCG.2007.70582}
+  {\path{doi:10.1109/TVCG.2007.70582}}.
+
+\bibitem{hilbertWorldTechnologicalCapacity2011}
+Martin Hilbert and Priscila L{\'o}pez.
+\newblock The {{World}}'s {{Technological Capacity}} to {{Store}},
+  {{Communicate}}, and {{Compute Information}}.
+\newblock {\em Science}, 332(6025):60--65, April 2011.
+\newblock \href {https://doi.org/10.1126/science.1200970}
+  {\path{doi:10.1126/science.1200970}}.
 
 \bibitem{hoganKnowledgeGraphs2021}
 Aidan Hogan, Eva Blomqvist, Michael Cochez, Claudia D'amato, Gerard~De Melo,
   Claudio Gutierrez, and Sabrina {Kirrane et al.}
 \newblock Knowledge graphs.
 \newblock {\em ACM Comput. Surv.}, 54(4), July 2021.
-
-\bibitem{hudsonHistoryNumbersIntroduction2016}
-Pat Hudson and Mina Ishizu.
-\newblock {\em History by {{Numbers}}: {{An Introduction}} to {{Quantitative
-  Approaches}}}.
-\newblock {Bloomsbury Publishing}, November 2016.
-
-\bibitem{infovisfaq}
-Infovis {{SC}} policies {{FAQ}}.
+\newblock \href {https://doi.org/10.1145/3447772} {\path{doi:10.1145/3447772}}.
 
 \bibitem{ingramNetworkMotifsStructure2006}
 Piers~J Ingram, Michael~PH Stumpf, and Jaroslav Stark.
 \newblock Network motifs: Structure does not determine function.
 \newblock {\em BMC Genomics}, 7:108, May 2006.
+\newblock \href {https://doi.org/10.1186/1471-2164-7-108}
+  {\path{doi:10.1186/1471-2164-7-108}}.
+
+\bibitem{johnsonUCINETSoftwareTool1987}
+J.~David Johnson.
+\newblock {{UCINET}}: {{A}} software tool for network analysis.
+\newblock {\em Communication Education}, 36(1):92--94, January 1987.
+\newblock \href {https://doi.org/10.1080/03634528709378647}
+  {\path{doi:10.1080/03634528709378647}}.
 
 \bibitem{kaplanVeniceTimeMachine2015}
 Fr{\'e}d{\'e}ric Kaplan.
@@ -416,12 +685,16 @@ Fr{\'e}d{\'e}ric Kaplan.
 \newblock In {\em Proceedings of the 2015 {{ACM Symposium}} on {{Document
   Engineering}}}, {{DocEng}} '15, page~73, {New York, NY, USA}, September 2015.
   {Association for Computing Machinery}.
+\newblock \href {https://doi.org/10.1145/2682571.2797071}
+  {\path{doi:10.1145/2682571.2797071}}.
 
 \bibitem{karila-cohenNouvellesCuisinesHistoire2018}
 Karine {Karila-Cohen}, Claire Lemercier, Isabelle Ros{\'e}, and Claire Zalc.
 \newblock {Nouvelles cuisines de l'histoire quantitative}.
 \newblock {\em Annales. Histoire, Sciences Sociales}, 73(4):773--783, December
   2018.
+\newblock \href {https://doi.org/10.1017/ahss.2019.90}
+  {\path{doi:10.1017/ahss.2019.90}}.
 
 \bibitem{keimVisualAnalyticsDefinition2008}
 Daniel Keim, Gennady Andrienko, Jean-Daniel Fekete, Carsten G{\"o}rg, J{\"o}rn
@@ -432,13 +705,19 @@ Daniel Keim, Gennady Andrienko, Jean-Daniel Fekete, Carsten G{\"o}rg, J{\"o}rn
   North, editors, {\em Information {{Visualization}}: {{Human-Centered Issues}}
   and {{Perspectives}}}, Lecture {{Notes}} in {{Computer Science}}, pages
   154--175. {Springer}, {Berlin, Heidelberg}, 2008.
+\newblock \href {https://doi.org/10.1007/978-3-540-70956-5_7}
+  {\path{doi:10.1007/978-3-540-70956-5_7}}.
+
+\bibitem{keimVisualAnalytics}
+Daniel~A Keim.
+\newblock Visual {{Analytics}}.
+\newblock page~6.
 
 \bibitem{kerschbaumerPowerNetworksProspects2015}
-Florian Kerschbaumer, Linda {von Keyserlingk-Rehbein}, Martin Stark, and Marten
-  D{\"u}ring.
+Florian Kerschbaumer, Linda Keyserlingk, Martin Stark, and Marten D{\"u}ring.
 \newblock {\em The {{Power}} of {{Networks}}. {{Prospects}} of {{Historical
   Network Research}}}.
-\newblock {Routledge}, December 2021.
+\newblock January 2015.
 
 \bibitem{klamt2009hypergraphs}
 Steffen Klamt, Utz-Uwe Haus, and Fabian Theis.
@@ -449,6 +728,8 @@ Steffen Klamt, Utz-Uwe Haus, and Fabian Theis.
 Elena~V. Konstantinova and Vladimir~A. Skorobogatov.
 \newblock Application of hypergraph theory in chemistry.
 \newblock {\em Discrete Mathematics}, 235(1-3):365--383, May 2001.
+\newblock \href {https://doi.org/10.1016/S0012-365X(00)00290-9}
+  {\path{doi:10.1016/S0012-365X(00)00290-9}}.
 
 \bibitem{kosakAutomatingLayoutNetwork1994}
 C.~Kosak, J.~Marks, and S.~Shieber.
@@ -456,6 +737,8 @@ C.~Kosak, J.~Marks, and S.~Shieber.
   organization.
 \newblock {\em IEEE Transactions on Systems, Man, and Cybernetics},
   24(3):440--454, March 1994.
+\newblock \href {https://doi.org/10.1109/21.278993}
+  {\path{doi:10.1109/21.278993}}.
 
 \bibitem{labrousse1990crise}
 Ernest Labrousse.
@@ -463,7 +746,13 @@ Ernest Labrousse.
   R\'egime}} et Au D\'ebut de La {{R\'evolution}}}, volume~1.
 \newblock {Presses Universitaires de France-PUF}, 1990.
 
-\bibitem{langloisIntroductionAuxÉtudes2014}
+\bibitem{landesHistorySocialScience1971}
+David~S. Landes and Charles Tilly.
+\newblock {\em History as {{Social Science}}. {{The Behavioral}} and {{Social
+  Sciences Survey}}}.
+\newblock {Prentice Hall, Inc}, 1971.
+
+\bibitem{langloisIntroductionAuxEtudes2014}
 Charles-Victor Langlois and Charles Seignobos.
 \newblock {\em {Introduction aux \'etudes historiques}}.
 \newblock {ENS \'Editions}, February 2014.
@@ -474,11 +763,25 @@ Katherine~A. Larson.
   World}}. {{New York}}: {{Cambridge University Press}}, 2013.
 \newblock {\em Comparative Studies in Society and History}, 56(4):1064--1065,
   October 2014.
+\newblock \href {https://doi.org/10.1017/S0010417514000516}
+  {\path{doi:10.1017/S0010417514000516}}.
+
+\bibitem{latapyBasicNotionsAnalysis2008}
+Matthieu Latapy, Cl{\'e}mence Magnien, and Nathalie~Del Vecchio.
+\newblock Basic notions for the analysis of large two-mode networks.
+\newblock {\em Social Networks}, 30(1):31--48, January 2008.
+\newblock \href {https://doi.org/10.1016/j.socnet.2007.04.006}
+  {\path{doi:10.1016/j.socnet.2007.04.006}}.
 
 \bibitem{lazegaReseaux}
 Emmanuel Lazega.
 \newblock {\em {R\'eseaux sociaux et structures relationnelles}}.
 \newblock {Presses universitaires de France}, {Paris}, 1998.
+
+\bibitem{lemercierAnalyseRéseauxHistoire2005}
+Claire Lemercier.
+\newblock {Analyse de r\'eseaux et histoire}.
+\newblock {\em Revue dhistoire moderne contemporaine}, 522(2):88--112, 2005.
 
 \bibitem{lemercier12FormalNetwork2015}
 Claire Lemercier.
@@ -486,6 +789,8 @@ Claire Lemercier.
 \newblock In Georg Fertig, editor, {\em Social {{Networks}}, {{Political
   Institutions}}, and {{Rural Societies}}}, volume~11, pages 281--310. {Brepols
   Publishers}, {Turnhout}, January 2015.
+\newblock \href {https://doi.org/10.1484/M.RURHE-EB.4.00198}
+  {\path{doi:10.1484/M.RURHE-EB.4.00198}}.
 
 \bibitem{lemercierQuantitativeMethodsHumanities2019}
 Claire Lemercier and Claire Zalc.
@@ -498,17 +803,42 @@ Claire Lemercier and Claire Zalc.
 \newblock Back to the {{Sources}}: {{Practicing}} and {{Teaching Quantitative
   History}} in the 2020s.
 \newblock {\em Capitalism}, 2(2):473--508, 2021.
+\newblock \href {https://doi.org/10.1353/cap.2021.0010}
+  {\path{doi:10.1353/cap.2021.0010}}.
 
 \bibitem{lepetitHistoireQuantitativeDeux1989}
 Bernard Lepetit.
 \newblock {L'histoire quantitative : deux ou trois choses que je sais d'elle}.
 \newblock {\em Histoire \& Mesure}, 4(3):191--199, 1989.
+\newblock \href {https://doi.org/10.3406/hism.1989.1355}
+  {\path{doi:10.3406/hism.1989.1355}}.
 
 \bibitem{lippKinshipNetworksLocal2005}
 Carola Lipp.
 \newblock Kinship {{Networks}}, {{Local Government}}, and {{Elections}} in a
   {{Town}} in {{Southwest Germany}}, 1800-1850.
 \newblock {\em Journal of Family History}, 30(4):347--365, October 2005.
+\newblock \href {https://doi.org/10.1177/0363199005278726}
+  {\path{doi:10.1177/0363199005278726}}.
+
+\bibitem{lippPetitionsSocialContext2001}
+Carola Lipp and Lothar Krempel.
+\newblock Petitions and the {{Social Context}} of {{Political Mobilization}} in
+  the {{Revolution}} of 1848/49: {{A Microhistorical Actor-Centred Network
+  Analysis}}.
+\newblock {\em Int Rev of Soc His}, 46(S9):151--169, December 2001.
+\newblock \href {https://doi.org/10.1017/S0020859001000281}
+  {\path{doi:10.1017/S0020859001000281}}.
+
+\bibitem{makoninMixedInitiativeBigData2016}
+Stephen Makonin, Daniel McVeigh, Wolfgang Stuerzlinger, Khoa Tran, and Fred
+  Popowich.
+\newblock Mixed-{{Initiative}} for {{Big Data}}: {{The Intersection}} of
+  {{Human}} + {{Visual Analytics}} + {{Prediction}}.
+\newblock In {\em 2016 49th {{Hawaii International Conference}} on {{System
+  Sciences}} ({{HICSS}})}, pages 1427--1436, January 2016.
+\newblock \href {https://doi.org/10.1109/HICSS.2016.181}
+  {\path{doi:10.1109/HICSS.2016.181}}.
 
 \bibitem{maurizio2000}
 Gribaudi Maurizio.
@@ -533,33 +863,25 @@ Fintan McGee, Benjamin Renoust, Daniel Archambault, Mohammad Ghoniem, Andreas
 Michael~J. McGuffin.
 \newblock Simple algorithms for network visualization: {{A}} tutorial.
 \newblock {\em Tsinghua Science and Technology}, 17(4):383--398, August 2012.
+\newblock \href {https://doi.org/10.1109/TST.2012.6297585}
+  {\path{doi:10.1109/TST.2012.6297585}}.
 
-\bibitem{merckléPeutonModéliserPersécution2018}
+\bibitem{mercklePeutonModeliserPersecution2018}
 Pierre Merckl{\'e} and Claire Zalc.
 \newblock {Peut-on mod\'eliser la pers\'ecution ?: Apports et limites des
   approches quantifi\'ees sur le terrain de la Shoah}.
 \newblock {\em Annales. Histoire, Sciences Sociales}, 73(4):923--957, December
   2018.
-
-\bibitem{michalskiPredictingSocialNetwork2012}
-R.~Michalski, P.~Kazienko, and D.~Krol.
-\newblock Predicting {{Social Network Measures Using Machine Learning
-  Approach}}.
-\newblock In {\em 2012 {{IEEE}}/{{ACM International Conference}} on
-  {{Advances}} in {{Social Networks Analysis}} and {{Mining}}}, pages
-  1056--1059, {Istanbul}, August 2012. {IEEE}.
+\newblock \href {https://doi.org/10.1017/ahss.2019.95}
+  {\path{doi:10.1017/ahss.2019.95}}.
 
 \bibitem{miloNetworkMotifsSimple2002}
 R.~Milo, S.~{Shen-Orr}, S.~Itzkovitz, N.~Kashtan, D.~Chklovskii, and U.~Alon.
 \newblock Network {{Motifs}}: {{Simple Building Blocks}} of {{Complex
   Networks}}.
 \newblock {\em Science}, 298(5594):824--827, October 2002.
-
-\bibitem{molnar2019}
-Christoph Molnar.
-\newblock {\em Interpretable Machine Learning. {{A Guide}} for {{Making Black
-  Box Models Explainable}}}.
-\newblock {Lulu.com}, 2019.
+\newblock \href {https://doi.org/10.1126/science.298.5594.824}
+  {\path{doi:10.1126/science.298.5594.824}}.
 
 \bibitem{monroe2012exploring}
 Megan Monroe, Krist Wongsuphasawat, Catherine Plaisant, Ben Shneiderman, Jeff
@@ -575,11 +897,14 @@ J.~L. Moreno.
 \newblock Who Shall Survive?: {{A}} New Approach to the Problem of Human
   Interrelations. {Nervous and Mental Disease Publishing Co}, {Washington, DC,
   US}, 1934.
+\newblock \href {https://doi.org/10.1037/10648-000}
+  {\path{doi:10.1037/10648-000}}.
 
 \bibitem{morenoFoundationsSociometryIntroduction1941}
 J.~L. Moreno.
 \newblock Foundations of {{Sociometry}}: {{An Introduction}}.
 \newblock {\em Sociometry}, 4(1):15, February 1941.
+\newblock \href {https://doi.org/10.2307/2785363} {\path{doi:10.2307/2785363}}.
 
 \bibitem{moutoukiasBuenosAiresPort2016}
 Zacarias Moutoukias.
@@ -594,18 +919,27 @@ Zacharias Moutoukias.
   {{Buenos Aires}} au {{XVIIIe}} si\`ecle.
 \newblock {\em Annales. Histoire, Sciences Sociales}, 47(4-5):889--915, October
   1992.
+\newblock \href {https://doi.org/10.3406/ahess.1992.279084}
+  {\path{doi:10.3406/ahess.1992.279084}}.
 
 \bibitem{mrvarAnalysisVisualizationLarge2016}
 Andrej Mrvar and Vladimir Batagelj.
 \newblock Analysis and visualization of large networks with program package
   {{Pajek}}.
 \newblock {\em Complex Adaptive Systems Modeling}, 4(1), April 2016.
+\newblock \href {https://doi.org/10.1186/s40294-016-0017-8}
+  {\path{doi:10.1186/s40294-016-0017-8}}.
 
 \bibitem{NaturalEarth}
 Natural earth.
 
 \bibitem{neo4j}
 Neo4j graph data platform.
+
+\bibitem{newmanNetworks2018}
+Mark Newman.
+\newblock {\em Networks}.
+\newblock {Oxford university press}, 2018.
 
 \bibitem{Rolla2018}
 Rolla Nicoletta.
@@ -622,11 +956,24 @@ Carolina Nobre, Marc Streit, and Alexander Lex.
   Visualization}}.
 \newblock {\em IEEE Transactions on Visualization and Computer Graphics},
   25(1):544--554, January 2019.
+\newblock \href {https://doi.org/10.1109/TVCG.2018.2865149}
+  {\path{doi:10.1109/TVCG.2018.2865149}}.
 
-\bibitem{noirielNaissanceMétierHistorien1990}
+\bibitem{noirielNaissanceMetierHistorien1990}
 G{\'e}rard Noiriel.
 \newblock {Naissance du m\'etier d'historien}.
 \newblock {\em Gen\`eses. Sciences sociales et histoire}, 1(1):58--85, 1990.
+\newblock \href {https://doi.org/10.3406/genes.1990.1014}
+  {\path{doi:10.3406/genes.1990.1014}}.
+
+\bibitem{opitzInductionLargeScaleKnowledge2018}
+Juri Opitz, Leo Born, and Vivi Nastase.
+\newblock Induction of a {{Large-Scale Knowledge Graph}} from the {{Regesta
+  Imperii}}.
+\newblock In {\em Proceedings of the {{Second Joint SIGHUM Workshop}} on
+  {{Computational Linguistics}} for {{Cultural Heritage}}, {{Social Sciences}},
+  {{Humanities}} and {{Literature}}}, pages 159--168, {Santa Fe, New Mexico},
+  August 2018. {Association for Computational Linguistics}.
 
 \bibitem{osaSolidarityContentionNetworks2003}
 Maryjane Osa.
@@ -639,6 +986,7 @@ Maryjane Osa.
 John~F. Padgett and Christopher~K. Ansell.
 \newblock Robust {{Action}} and the {{Rise}} of the {{Medici}}, 1400-1434.
 \newblock {\em American Journal of Sociology}, 98(6):1259--1319, May 1993.
+\newblock \href {https://doi.org/10.1086/230190} {\path{doi:10.1086/230190}}.
 
 \bibitem{pajek}
 Pajek \textemdash{} {{Analysis}} and visualization of very large networks.
@@ -648,12 +996,22 @@ Terence~J. Parr and Russell~W. Quong.
 \newblock {{ANTLR}}: {{A}} predicated-{{LL}} (k) parser generator.
 \newblock {\em Software: Practice and Experience}, 25(7):789--810, 1995.
 
+\bibitem{paxtonDollarsSenseConvincing2006}
+Pamela Paxton.
+\newblock Dollars and {{Sense}}: {{Convincing Students That They Can Learn}}
+  and {{Want}} to {{Learn Statistics}}.
+\newblock {\em Teach Sociol}, 34(1):65--70, January 2006.
+\newblock \href {https://doi.org/10.1177/0092055X0603400106}
+  {\path{doi:10.1177/0092055X0603400106}}.
+
 \bibitem{hyperstorylines}
 Vanessa {Pe{\~n}a-Araya}, Tong Xue, Emmanuel Pietriga, Laurent Amsaleg, and
   Anastasia Bezerianos.
 \newblock {{HyperStorylines}}: {{Interactively}} untangling dynamic
   hypergraphs.
 \newblock {\em Information Visualization}, 21(1):38--62, January 2022.
+\newblock \href {https://doi.org/10.1177/14738716211045007}
+  {\path{doi:10.1177/14738716211045007}}.
 
 \bibitem{petzCombiningNetworkResearch2022}
 Cindarella Sarah~Maria Petz.
@@ -662,12 +1020,6 @@ Cindarella Sarah~Maria Petz.
   {{Digital Humanities}}}.
 \newblock PhD thesis, Technische Universit\"at M\"unchen, 2022.
 
-\bibitem{philipsHistoricalDocumentProcessing2020}
-James~P. Philips and Nasseh Tabrizi.
-\newblock Historical {{Document Processing}}: {{Historical Document
-  Processing}}: {{A Survey}} of {{Techniques}}, {{Tools}}, and {{Trends}},
-  September 2020.
-
 \bibitem{pientaVIGORInteractiveVisual2018}
 Robert Pienta, Fred Hohman, Alex Endert, Acar Tamersoy, Kevin Roundy, Chris
   Gates, Shamkant Navathe, and Duen~Horng Chau.
@@ -675,6 +1027,18 @@ Robert Pienta, Fred Hohman, Alex Endert, Acar Tamersoy, Kevin Roundy, Chris
   Results}}.
 \newblock {\em IEEE Transactions on Visualization and Computer Graphics},
   24(1):215--225, January 2018.
+\newblock \href {https://doi.org/10.1109/TVCG.2017.2744898}
+  {\path{doi:10.1109/TVCG.2017.2744898}}.
+
+\bibitem{pisterIntegratingPriorKnowledge2021}
+Alexis Pister, Paolo Buono, Jean-Daniel Fekete, Catherine Plaisant, and Paola
+  Valdivia.
+\newblock Integrating {{Prior Knowledge}} in {{Mixed-Initiative Social Network
+  Clustering}}.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  27(2):1775--1785, February 2021.
+\newblock \href {https://doi.org/10.1109/TVCG.2020.3030347}
+  {\path{doi:10.1109/TVCG.2020.3030347}}.
 
 \bibitem{pisterHistoricalDocumentsSocial2022}
 Alexis Pister, Nicole Dufournaud, Pascal Cristofoli, Christophe Prieur, and
@@ -684,10 +1048,25 @@ Alexis Pister, Nicole Dufournaud, Pascal Cristofoli, Christophe Prieur, and
 \newblock In {\em 7th {{Workshop}} on {{Visualization}} for the {{Digital
   Humanities}} ({{VIS4DH}})}, 2022.
 
+\bibitem{pisterVisualQueriesBipartite2022}
+Alexis Pister, Christophe Prieur, and Jean-Daniel Fekete.
+\newblock Visual {{Queries}} on {{Bipartite Multivariate Dynamic Social
+  Networks}}.
+\newblock {The Eurographics Association}, 2022.
+\newblock \href {https://doi.org/10.2312/evp.20221115}
+  {\path{doi:10.2312/evp.20221115}}.
+
 \bibitem{prost2014}
 Antoine Prost.
 \newblock {\em {Douze Le\c{c}ons sur l'histoire}}.
 \newblock {M\'edia Diffusion}, April 2014.
+
+\bibitem{przuljBiologicalNetworkComparison2007}
+Nata{\v s}a Pr{\v z}ulj.
+\newblock Biological network comparison using graphlet degree distribution.
+\newblock {\em Bioinformatics}, 23(2):e177--e183, January 2007.
+\newblock \href {https://doi.org/10.1093/bioinformatics/btl301}
+  {\path{doi:10.1093/bioinformatics/btl301}}.
 
 \bibitem{Rstat}
 {R Core Team}.
@@ -701,14 +1080,8 @@ Eric Ragan, Endert Alex, Jibonananda Sanyal, and Jian Chen.
   {{Purposes}}.
 \newblock {\em IEEE Transactions on Visualization and Computer Graphics},
   22(1), January 2016.
-
-\bibitem{rao94}
-Ramana Rao and Stuart~K. Card.
-\newblock The table lens: {{Merging}} graphical and symbolic representations in
-  an interactive focus + context visualization for tabular information.
-\newblock In {\em Proceedings of the {{SIGCHI}} Conference on Human Factors in
-  Computing Systems}, {{CHI}} '94, pages 318--322, {New York, NY, USA}, 1994.
-  {Association for Computing Machinery}.
+\newblock \href {https://doi.org/10.1109/TVCG.2015.2467551}
+  {\path{doi:10.1109/TVCG.2015.2467551}}.
 
 \bibitem{renCharticulatorInteractiveConstruction2019}
 Donghao Ren, Bongshin Lee, and Matthew Brehmer.
@@ -716,6 +1089,8 @@ Donghao Ren, Bongshin Lee, and Matthew Brehmer.
   Layouts}}.
 \newblock {\em IEEE Transactions on Visualization and Computer Graphics},
   25(1):789--799, January 2019.
+\newblock \href {https://doi.org/10.1109/TVCG.2018.2865158}
+  {\path{doi:10.1109/TVCG.2018.2865158}}.
 
 \bibitem{ribeiroDiscoveringColoredNetwork2014}
 Pedro Ribeiro and Fernando Silva.
@@ -724,11 +1099,21 @@ Pedro Ribeiro and Fernando Silva.
   {Poncela-Casasnovas}, editors, {\em Complex {{Networks V}}}, Studies in
   {{Computational Intelligence}}, pages 107--118, {Cham}, 2014. {Springer
   International Publishing}.
+\newblock \href {https://doi.org/10.1007/978-3-319-05401-8_11}
+  {\path{doi:10.1007/978-3-319-05401-8_11}}.
 
-\bibitem{rossetiSurvey}
+\bibitem{rollingerProlegomenaProblemsPerspectives2020}
+Christian Rollinger.
+\newblock Prolegomena. {{Problems}} and {{Perspectives}} of {{Historical
+  Network Research}} and {{Ancient History}}.
+\newblock {\em Journal of Historical Network Research}, 4:1--35, May 2020.
+\newblock \href {https://doi.org/10.25517/jhnr.v4i0.72}
+  {\path{doi:10.25517/jhnr.v4i0.72}}.
+
+\bibitem{rossettiCommunityDiscoveryDynamic2018}
 Giulio Rossetti and R{\'e}my Cazabet.
-\newblock Community discovery in dynamic networks: {{A}} survey.
-\newblock {\em ACM Comput. Surv.}, 51(2), February 2018.
+\newblock Community discovery in dynamic networks: A survey.
+\newblock {\em ACM computing surveys (CSUR)}, 51(2):1--37, 2018.
 
 \bibitem{rossiExplorationLargeDatabase2014}
 Fabrice Rossi, Nathalie Vialaneix, and Florent Hautefeuille.
@@ -741,6 +1126,8 @@ Juan~A. {Rubio-Mondejar} and Josean {Garrues-Irurzun}.
 \newblock Women entrepreneurs and family networks in {{Andalusia}} ({{Spain}})
   during the second industrial revolution.
 \newblock {\em Business History}, pages 1--22, May 2022.
+\newblock \href {https://doi.org/10.1080/00076791.2022.2068524}
+  {\path{doi:10.1080/00076791.2022.2068524}}.
 
 \bibitem{rueda1989matrimonios}
 C.J. Rueda and Catedral {de Buenos Aires}.
@@ -755,28 +1142,20 @@ Anni Sairio.
 \newblock In Arja Nurmi, Minna Nevala, and Minna {Palander-Collin}, editors,
   {\em Pragmatics \& {{Beyond New Series}}}, volume 183, pages 107--135. {John
   Benjamins Publishing Company}, {Amsterdam}, 2009.
-
-\bibitem{Saket14}
-Bahador Saket, Paolo Simonetto, and Stephen Kobourov.
-\newblock Group-level graph visualization taxonomy.
-\newblock In N.~Elmqvist, M.~Hlawitschka, and J.~Kennedy, editors, {\em
-  {{EuroVis}} - Short Papers}. {The Eurographics Association}, 2014.
+\newblock \href {https://doi.org/10.1075/pbns.183.08sai}
+  {\path{doi:10.1075/pbns.183.08sai}}.
 
 \bibitem{satyanarayan2016vega}
 Arvind Satyanarayan, Dominik Moritz, Kanit Wongsuphasawat, and Jeffrey Heer.
 \newblock Vega-lite: {{A}} grammar of interactive graphics.
 \newblock {\em IEEE Trans. Vis. Comput. Graphics}, 23(1):341--350, 2016.
 
-\bibitem{SAWANT2018}
-Shrutika~S. Sawant and Manoharan Prabukumar.
-\newblock A review on graph-based semi-supervised learning methods for
-  hyperspectral image classification.
-\newblock {\em The Egyptian Journal of Remote Sensing and Space Science}, 2018.
-
 \bibitem{scottSocialNetworkAnalysis1988}
 John Scott.
 \newblock Social {{Network Analysis}}.
 \newblock {\em Sociology}, 22(1):109--127, February 1988.
+\newblock \href {https://doi.org/10.1177/0038038588022001007}
+  {\path{doi:10.1177/0038038588022001007}}.
 
 \bibitem{serranomolineroUnderstandingUseVistorian2017}
 Vanessa Serrano~Molinero, Benjamin Bach, Catherine Plaisant, Nicole Dufournaud,
@@ -792,6 +1171,8 @@ Rachel Shadoan and Chris Weaver.
   {{Multidimensional Data Using}} a {{Hypergraph Query System}}.
 \newblock {\em IEEE Transactions on Visualization and Computer Graphics},
   19(12):2070--2079, December 2013.
+\newblock \href {https://doi.org/10.1109/TVCG.2013.220}
+  {\path{doi:10.1109/TVCG.2013.220}}.
 
 \bibitem{shafieHypergraphRepresentationsStudy2017}
 Termeh Shafie, David Schoch, Jimmy Mans, Corinne Hofman, and Ulrik Brandes.
@@ -799,11 +1180,32 @@ Termeh Shafie, David Schoch, Jimmy Mans, Corinne Hofman, and Ulrik Brandes.
   {{Colonial Forces}}, 1509-1700.
 \newblock {\em Journal of Historical Network Research}, pages 52--70 Pages,
   October 2017.
+\newblock \href {https://doi.org/10.25517/JHNR.V1I1.6}
+  {\path{doi:10.25517/JHNR.V1I1.6}}.
+
+\bibitem{shneidermanEyesHaveIt1996}
+B.~Shneiderman.
+\newblock The eyes have it: A task by data type taxonomy for information
+  visualizations.
+\newblock In {\em Proceedings 1996 {{IEEE Symposium}} on {{Visual Languages}}},
+  pages 336--343, September 1996.
+\newblock \href {https://doi.org/10.1109/VL.1996.545307}
+  {\path{doi:10.1109/VL.1996.545307}}.
 
 \bibitem{DynamicQueries}
 Ben Shneiderman.
 \newblock Dynamic queries for visual information seeking.
 \newblock {\em IEEE Softw.}, 11(6):70--77, November 1994.
+\newblock \href {https://doi.org/10.1109/52.329404}
+  {\path{doi:10.1109/52.329404}}.
+
+\bibitem{shneidermanInventingDiscoveryTools2002}
+Ben Shneiderman.
+\newblock Inventing {{Discovery Tools}}: {{Combining Information
+  Visualization}} with {{Data Mining}}.
+\newblock {\em Information Visualization}, 1(1):5--12, March 2002.
+\newblock \href {https://doi.org/10.1057/palgrave.ivs.9500006}
+  {\path{doi:10.1057/palgrave.ivs.9500006}}.
 
 \bibitem{Simmel2013}
 Georg Simmel.
@@ -820,9 +1222,8 @@ Marc~A. Smith, Ben Shneiderman, Natasa {Milic-Frayling}, Eduarda~Mendes
   International Conference on Communities and Technologies, {{C}}\&{{T}} 2009,
   University Park, {{PA}}, {{USA}}, June 25-27, 2009}, pages 255--264. {ACM},
   2009.
-
-\bibitem{sna}
-{{SNA}} \textemdash{} {{Tools}} for social network analysis.
+\newblock \href {https://doi.org/10.1145/1556460.1556497}
+  {\path{doi:10.1145/1556460.1556497}}.
 
 \bibitem{snowModeCommunicationCholera1856}
 John Snow.
@@ -834,17 +1235,54 @@ John~T. Stasko, Carsten G{\"o}rg, and Zhicheng Liu.
 \newblock Jigsaw: Supporting investigative analysis through interactive
   visualization.
 \newblock {\em Inf. Vis.}, 7(2):118--132, 2008.
+\newblock \href {https://doi.org/10.1057/palgrave.ivs.9500180}
+  {\path{doi:10.1057/palgrave.ivs.9500180}}.
 
-\bibitem{strehl2002cluster}
-Alexander Strehl and Joydeep Ghosh.
-\newblock Cluster ensembles\textemdash a knowledge reuse framework for
-  combining multiple partitions.
-\newblock {\em Journal of machine learning research}, 3(Dec):583--617, 2002.
+\bibitem{stoltePolarisSystemQuery2002}
+Chris Stolte, Diane Tang, and Pat Hanrahan.
+\newblock Polaris: {{A System}} for {{Query}}, {{Analysis}}, and
+  {{Visualization}} of {{Multidimensional Relational Databases}}.
+\newblock {\em IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS},
+  8(1):14, 2002.
+
+\bibitem{stoneRevivalNarrativeReflections1979}
+Lawrence Stone.
+\newblock The {{Revival}} of {{Narrative}}: {{Reflections}} on a {{New Old
+  History}}.
+\newblock {\em Past \& Present}, (85):3--24, 1979.
 
 \bibitem{tabassumSocialNetworkAnalysis2018}
 Shazia Tabassum, Fabiola S.~F. Pereira, Sofia Fernandes, and Jo{\~a}o Gama.
 \newblock Social network analysis: {{An}} overview.
 \newblock {\em WIREs Data Mining and Knowledge Discovery}, 8(5):e1256, 2018.
+\newblock \href {https://doi.org/10.1002/widm.1256}
+  {\path{doi:10.1002/widm.1256}}.
+
+\bibitem{terras2011quantifying}
+Melissa Terras.
+\newblock Quantifying digital humanities.
+\newblock {\em UCL Centre for Digital Humanities}, 2011.
+
+\bibitem{thomasVisualAnalyticsAgenda2006}
+J.J. Thomas and K.A. Cook.
+\newblock A visual analytics agenda.
+\newblock {\em IEEE Computer Graphics and Applications}, 26(1):10--13, January
+  2006.
+\newblock \href {https://doi.org/10.1109/MCG.2006.5}
+  {\path{doi:10.1109/MCG.2006.5}}.
+
+\bibitem{tilly1984retrieving}
+Charles Tilly.
+\newblock Retrieving european lives.
+\newblock 1984.
+
+\bibitem{tillyObservationsSocialProcesses2004}
+Charles Tilly.
+\newblock Observations of {{Social Processes}} and {{Their Formal
+  Representations}}.
+\newblock {\em Sociological Theory}, 22(4):595--602, 2004.
+\newblock \href {https://doi.org/10.1111/j.0735-2751.2004.00235.x}
+  {\path{doi:10.1111/j.0735-2751.2004.00235.x}}.
 
 \bibitem{tovanichVAST2020Contest2021}
 Natkamon Tovanich, Alexis Pister, Gaelle Richer, Paola Valdivia, Christophe
@@ -852,6 +1290,16 @@ Natkamon Tovanich, Alexis Pister, Gaelle Richer, Paola Valdivia, Christophe
 \newblock {{VAST}} 2020 {{Contest Challenge}}: {{GraphMatchMaker}}: {{Visual
   Analytics}} for {{Graph Comparison}} and {{Matching}}.
 \newblock {\em IEEE Computer Graphics and Applications}, pages 1--1, 2021.
+\newblock \href {https://doi.org/10.1109/MCG.2021.3091955}
+  {\path{doi:10.1109/MCG.2021.3091955}}.
+
+\bibitem{trivellatoThereFutureItalian2011}
+Francesca Trivellato.
+\newblock Is {{There}} a {{Future}} for {{Italian Microhistory}} in the {{Age}}
+  of {{Global History}}?
+\newblock {\em California Italian Studies}, 2(1), 2011.
+\newblock \href {https://doi.org/10.5070/C321009025}
+  {\path{doi:10.5070/C321009025}}.
 
 \bibitem{tukeyFutureDataAnalysis1962}
 John~W. Tukey.
@@ -870,6 +1318,8 @@ Paola Valdivia, Paolo Buono, Catherine Plaisant, Nicole Dufournaud, and
   Hypergraph Visualization}}.
 \newblock {\em IEEE Trans. Visual. Comput. Graphics}, 27(1):1--13, January
   2021.
+\newblock \href {https://doi.org/10.1109/TVCG.2019.2933196}
+  {\path{doi:10.1109/TVCG.2019.2933196}}.
 
 \bibitem{Python}
 Guido {van Rossum}.
@@ -884,22 +1334,6 @@ Ingeborg {van Vugt}.
 \newblock {\em Journal of Historical Network Research}, 1(1):25--51, October
   2017.
 
-\bibitem{EVstar.groupstructures15}
-Corinna Vehlow, Fabian Beck, and Daniel Weiskopf.
-\newblock The state of the art in visualizing group structures in graphs.
-\newblock In R.~Borgo, F.~Ganovelli, and I.~Viola, editors, {\em Eurographics
-  Conference on Visualization ({{EuroVis}}) - {{STARs}}}. {The Eurographics
-  Association}, 2015.
-
-\bibitem{VisMaster}
-{{VisMaster}}: {{Visual}} analytics \textemdash{} {{Mastering}} the information
-  age.
-
-\bibitem{wagstaff2001constrained}
-Kiri Wagstaff, Claire Cardie, Seth Rogers, Stefan Schr{\"o}dl, et~al.
-\newblock Constrained k-means clustering with background knowledge.
-\newblock In {\em Icml}, volume~1, pages 577--584, 2001.
-
 \bibitem{wassermanSocialNetworkAnalysis1994}
 Stanley Wasserman and Katherine Faust.
 \newblock {\em Social {{Network Analysis}}: {{Methods}} and {{Applications}}}.
@@ -909,6 +1343,46 @@ Stanley Wasserman and Katherine Faust.
 Charles Wetherell.
 \newblock Historical {{Social Network Analysis}}.
 \newblock {\em Int Rev of Soc His}, 43(S6):125--144, December 1998.
+\newblock \href {https://doi.org/10.1017/S0020859000115123}
+  {\path{doi:10.1017/S0020859000115123}}.
+
+\bibitem{whaplesWhereThereConsensus1995}
+Robert Whaples.
+\newblock Where {{Is There Consensus Among American Economic Historians}}?
+  {{The Results}} of a {{Survey}} on {{Forty Propositions}}.
+\newblock {\em The Journal of Economic History}, 55(1):139--154, March 1995.
+\newblock \href {https://doi.org/10.1017/S0022050700040602}
+  {\path{doi:10.1017/S0022050700040602}}.
+
+\bibitem{whiteNetworkAnalysisEthnographic2005}
+Douglas White, Douglas~R. White, and Ulla Johansen.
+\newblock {\em Network {{Analysis}} and {{Ethnographic Problems}}: {{Process
+  Models}} of a {{Turkish Nomad Clan}}}.
+\newblock {Lexington Books}, 2005.
+
+\bibitem{wickham2007ggplot}
+Hadley Wickham and Maintainer~Hadley Wickham.
+\newblock The ggplot package.
+\newblock {\em Google Scholar}, 2007.
+
+\bibitem{wilkinsonGrammarGraphics1993}
+Leland Wilkinson.
+\newblock {\em {The Grammar Of Graphics}}.
+\newblock {Springer}, {New York}, 1993.
+
+\bibitem{winchesterLinkageHistoricalRecords1970}
+Ian Winchester.
+\newblock The {{Linkage}} of {{Historical Records}} by {{Man}} and
+  {{Computer}}: {{Techniques}} and {{Problems}}.
+\newblock {\em Journal of Interdisciplinary History}, 1(1):107, 1970.
+\newblock \href {https://doi.org/10.2307/202411} {\path{doi:10.2307/202411}}.
+
+\bibitem{wolfeRiseNetworkThinking1978}
+Alvin~W. Wolfe.
+\newblock The rise of network thinking in anthropology.
+\newblock {\em Social Networks}, 1(1):53--64, January 1978.
+\newblock \href {https://doi.org/10.1016/0378-8733(78)90012-6}
+  {\path{doi:10.1016/0378-8733(78)90012-6}}.
 
 \bibitem{xuSurveyAnalysisUser2020}
 Kai Xu, Alvitta Ottley, Conny Walchshofer, Marc Streit, Remco Chang, and John
@@ -916,13 +1390,11 @@ Kai Xu, Alvitta Ottley, Conny Walchshofer, Marc Streit, Remco Chang, and John
 \newblock Survey on the {{Analysis}} of {{User Interactions}} and
   {{Visualization Provenance}}.
 \newblock {\em Computer Graphics Forum}, 39(3):757--783, June 2020.
+\newblock \href {https://doi.org/10.1111/cgf.14035}
+  {\path{doi:10.1111/cgf.14035}}.
 
-\bibitem{zhou13}
-Michelle~X. Zhou.
-\newblock ``{{Big}} picture'': {{Mixed-initiative}} visual analytics of big
-  data.
-\newblock In {\em Proceedings of the 6th International Symposium on Visual
-  Information Communication and Interaction}, {{VINCI}} '13, page 120, {New
-  York, NY, USA}, 2013. {Association for Computing Machinery}.
+\bibitem{zakrzewski1932PopulationRegister2020}
+Franciszek Zakrzewski.
+\newblock The 1932 population register, May 2020.
 
 \end{thebibliography}

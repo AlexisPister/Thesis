@@ -203,13 +203,10 @@ Social scientists very often represent their data using node-link diagrams, that
     \label{fig:padgett-medicis}
 \end{figure}
 
-\autoref{fig:padgett-medicis} shows a node-link representation of the network constructed by Padgett and Ancell in their work on the Medici.
+\autoref{fig:padgett-medicis} shows a node-link representation of the network constructed by Padgett and Ansell in their work on the Medici.
 At that time, diagrams were often drawn by hand, practice which have now been replaced by automatic layout algorithms.
-
 Most visual software for \sna such as Gephi\cite{Gephi}, Pajek\cite{pajek}, NodeXl\cite{NodeXL}, or Ucinet\cite{ucinet} are based on this representation, and allow an exploration of the data with the help of basic interaction mechanisms and the computation of network measures.
-
 %Interaction in visualization helps this process by letting users navigate more easily on multivariate datasets with the help of direct manipulation of the data.
-
 The detection of patterns and trends can also be facilitated with automatic methods coming from data mining and machine learning fields, directly implemented in the visual analysis loop.
 This coupling of visual exploration and automatic data mining algorithms has been coined as Visual Analytics (VA) and is defined as the process of using interactive visualizations, transformations, and models of the data in an interactive analysis workflow to create knowledge\cite{keimVisualAnalyticsDefinition2008}.
 
@@ -222,7 +219,6 @@ This coupling of visual exploration and automatic data mining algorithms has bee
 %Such interfaces aim at producing knowledge on the data, based on transformation of the data and interactions by the user.
 
 \autoref{fig:keim-va} illustrate the schematic process of VA: the coupling of visualization and data mining models operated by the user through interaction lead to the generation of knowledge ``extracted'' from the data.
-
 If most widely used visual interface for \hsna do not yet provide complex interactions or high data mining capabilities, more recent tools are oriented towards \va, as the combination of automatic knowledge extraction with interaction and exploration can be a powerful support for social scientists to gain insight on the structure of their network, especially that the data they study keep growing in size and complexity \cite{kaplanVeniceTimeMachine2015}.
 
 %complex interactions and data mining capabilities can be a powerful support for social scientists to gain insight on the structure of their network, especially that the data they study keep growing in size and complexity \cite{kaplanVeniceTimeMachine2015}.
@@ -299,10 +295,6 @@ The goal of this thesis is to characterize how \va can support social historians
 Most \snv tools are agnostic to the process of social historians leading to a polished network, even though it has an high impact of the network model and structure.
 Using visualization only at the end of the process often reveals potential errors, inconsistencies, or mismatches between the network model and analysis goals\cite{alkadi2022}.
 Moreover, due to lack of usability and interaction mechanisms, social historians often simply visualize statically their network and partially describe their structure, leading to conclusion which would have been easier to reach with simpler methods\cite{eveDeuxTraditionsAnalyse2002}.
-
-% Most \snv tools permit to visualize a finalised polished network and compute network measures, allowing historians to explore and answer sociological questions through network descriptions.
-% However, \va could propose more complex representations and interactions mechanisms, to go beyond simple visualization of networks.
-
 % As seen in \autoref{sec:intro-HSNV}, most \va tools for \hsna are focused on the final analysis of a polished network \jdf{repeat from last sentence paragraph}.
 % Furthermore, most widely used \snv interfaces let historians visualize their networks with node-link diagrams and compute network measures, which is often not necessary to answer complex historical questions.
 \va could therefore 1) assist social historians in their overall workflow, starting at the documents' acquisition to the final analysis step, with the help of data mining and interaction mechanisms in the data acquisition, encoding, modeling steps, and 2) provide exploration and analysis mechanisms to answer complex historical questions, beyond simply plotting the network with a node-link diagram.
@@ -332,15 +324,6 @@ From this, I give answers and directions---illustrated by proof-of-concepts---to
 %The goal of this thesis is therefore to give answers to the high-level question ``How can VA help social historians in their entire HSNA process?''.
 %To answer this question, we first characterize the HSNA process from start to finish from discussions and collaborations with social historians, with the goal of identifying pitfalls and problems that regularly arise and characterizing social historians' needs.
 %From this, we give answers and directions to three issues that frequently arise in social scientists' workflows:
-
-
-%\begin{description}
-%%    \item \textbf{Q1}: How should historians collect, annotate and model their historical documents, allowing them to answer their complex questions with HSNA methods?
-%    \item \textbf{Q1}: How should historians model their documents into an analyzable network with the right balance between expressiveness and simplicity?
-%    \item \textbf{Q2}: What representations and interactions are necessary for social historians to answer complex historical questions while being easy enough to navigate?
-%    \item \textbf{Q3}: How to design VA tools and interactions that leverage algorithmic power but let historians in control of their analysis and without introducing bias?
-%\end{description}
-
 In \autoref{ch:hsna-process-and-network-modeling}, I start by describing the \hsna workflow and identify recurring pitfalls we encountered in our collaborations with historians and answer \qone by proposing a network model for modeling historical documents.
 In the following \autoref{ch:combinet}, I give answers to \qtwo by providing a \va interface to explore \modelplural, with queries and comparison interactions with the aim of letting historians find errors easily, transform their network data, answer their questions, and generate interesting hypotheses.
 Finally, in \autoref{ch:pk-clustering}, I propose PK-Clustering, a mixed-initiative clustering technique for social scientists based on their prior knowledge, algorithmic consensus, and traceability of results, as a concrete example of a system providing answers to \qthree.

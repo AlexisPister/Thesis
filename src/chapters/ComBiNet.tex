@@ -41,7 +41,6 @@ In this chapter, I present a \va system to explore and analyze Bipartite Multiva
 I elaborated the tool based on four collaborations with social scientist colleagues.
 I first collected important questions they each had on their data and transcribed them from a network analysis perspective.
 The majority of the questions raised consisted in either finding specific patterns in the network---corresponding to specific groups or individuals exhibiting intriguing behaviors ---or in comparing several subsets of the network, in terms of network measures, attribute distributions, and their overlaps.
-
 % In this paper, we thus present a visual analytic system to explore and analyze Bipartite Multivariate Dynamic Social Networks. Based on the needs and questions of our collaborators,
 I hence focus on three high-level tasks: exploration, queries, and comparison of this type of network.
 Users can explore the data using two layouts: a node-link bipartite view showing the sociological structure of the network, and a map layout based on the geolocation of documents.
@@ -54,23 +53,10 @@ I implemented dynamic queries that also show the translated Cypher queries, and 
 With that interface, social scientists can start building their queries with simple widgets and, if needed, complement them by editing the query, alone or with the help of power users.
 Furthermore, they can export their query, the associated results, and its history at any point to share it with someone else or to start an analysis session from a previous result.
 \name also implements subgraph comparison techniques, allowing the comparison of networks, network-related measures, and attribute distributions between the entities returned by the queries.
-% In this first version of \name, we focused on the power of queries and comparisons and not usability so most of the explorations have been done by one of the authors or close to.
-I validate the query and comparison system with a formative usability study and I demonstrate \name can be used to answer sociological questions by describing in depth several real-world use cases.
+I validate \combinet with the description of four real-world use case showing the system can be used to answer socio-historical questions while reflecting on the annotation/encoding process, and a formative usability study demonstrating the system can be used smoothly by social historians.
 
-% 1) a succession of attribute and topological queries that are usually applied sequentially, from the simplest to the more complex, % which can be done with a graph database system and associated query language;
-% \item The comparison of several query resulting subgraphs, in terms of connectivity metrics or attribute distributions
-% and 2) the comparison of networks, measures, and attribute distributions, either between the entire network and the results of a query or between two separate query results.
-% Several sophisticated tools exist to explore and analyze rich social networks, such as Gephi~\cite{Gephi}, NodeXL~\cite{NodeXL}, Jigsaw~\cite{Jigsaw}, or VERTIGo~\cite{cuenca_vertigo_2021}. However, these tools often enforce a data model which are often either too simple
-% except for Jigsaw, they provide too limited interactions to query and explore richly encoded data.
-
-% Social Science use node link diagram
-% There are now bipartite approaches
-% Historical sources use time, attributes, locations. there should be more of these
-% Need tools to explore these specific kind of dataset
-% Query and comparison to answer historical and sociological questions
-
-After the related work section, I describe our design process in \autoref{sec:combinet-tasks}, present the system \name in \autoref{sec:combinet-system} with the design of the visual query and comparison features, and present four use cases demonstrating the utility of the system in \autoref{sec:combinet-usecases} showing it can be used to explore complex historical data and allowing historians to answer several of their questions using queries and comparisons.
-I finish with the results of the formative usability study in \autoref{sec:combinet-usability}.
+After the related work section, I describe our design process in \autoref{sec:combinet-tasks}, present the system \name in \autoref{sec:combinet-system} with the design of the visual query and comparison features, and present four use cases demonstrating the utility of the system in \autoref{sec:combinet-usecases} showing it can be used to explore complex historical data and allowing historians to answer several of their questions using queries and comparisons while reflecting on their annotation/encoding process.
+I finish with the results of the formative usability study and the feedback of practitioners in \autoref{sec:combinet-usability}.
 %Our contributions are:
 %\begin{itemize}
 %% \item The description, motivations, and benefits of our unified data model: \emph{bipartite} with \emph{roles}, \emph{multivariate} and \emph{dynamic}, for the visual exploration and analysis of social networks;
@@ -80,11 +66,9 @@ I finish with the results of the formative usability study in \autoref{sec:combi
 %    \item A usability study and three real-world use cases demonstrate the utility of the system to answer socio-historical questions.
 %\end{itemize}
 
-
-
 \section{Related Work}\label{sec:combinet:related-work}
 
-As I already discussed the related work on network modeling and social network visualization in \autoref{ch:related-work} I only discuss in this section the related work on graphlet analysis, visual graph querying, visual graph comparison, and provenance.
+As I already discussed the related work on network modeling and social network visualization in \autoref{ch:related-work}, I only discuss in this section the related work on graphlet analysis, visual graph querying, visual graph comparison, and provenance.
 
 \subsection{Graphlet Analysis}
 
@@ -102,20 +86,17 @@ Instead of counting every graphlet occurrence and interpreting them with sociolo
 
 \subsection{Visual Graph Querying}
 
-
 % Guess~\cite{adar_guess_2006} has been designed to provide a dual view of networks, one from a scripting language (a variation of Python) coupled with a visual representation of the network. However, it still relies on scripting to search and manipulate the network, contrary to modern visualization systems using dynamic queries~\cite{DynamicQueries}.
 
 Graph pattern matching is an important task in \sna, which consists in finding a subgraph of interest in a larger graph\cite{fanGraphPatternMatching2012}.
-
-Several scripting languages, such as R~\cite{Rstat} and Python~\cite{Python}, have been extended to support the exploration of social networks using specialized libraries such as igraph~\cite{igraph} and NetworkX~\cite{NetworkX}, and provide functions for graph pattern matching.
+Several scripting languages such as R~\cite{Rstat} and Python~\cite{Python} have been extended to support the exploration of social networks using specialized libraries such as igraph~\cite{igraph} and NetworkX~\cite{networkx}, and provide functions for graph pattern matching.
 However, social scientists are often challenged to use scripting languages and programming, as they often do not have formal training in such technologies.
-
-Graph databases allow to storage and manipulation of network data with the use of query languages, such as the Cypher language for Neo4j\cite{neo4j}.
+Graph databases allow the storage and manipulation of network data with the use of query languages, such as the Cypher language for Neo4j\cite{neo4j}.
 %Constructing and querying a pattern from a graph requires knowledge of graph databases and query languages.
 To lower the complexity barrier of their usage, several visual graph query systems have been developed to allow analysts to rapidly build and refine their queries visually.
-Some systems hide the scripting language such as GRAPHITE~\cite{chauGRAPHITEVisualQuery2008} and VERTIGo~\cite{cuencaVERTIGoVisualPlatform2021} that allow specifying a graph query as a node-link diagram that the user creates interactively.
+Some systems hide the scripting language such as GRAPHITE~\cite{chauGRAPHITEVisualQuery2008}, Intuinet\footnote{See \url{https://intuinet.fr}}, and VERTIGo~\cite{cuencaVERTIGoVisualPlatform2021} that allow specifying a graph query as a node-link diagram that the user creates interactively.
 Shadoan and Weaver~\cite{shadoanVisualAnalysisHigherOrder2013} use a similar concept with hypergraphs to filter multidimensional data.
-Other systems, such as VIGOR~\cite{pientaVIGORInteractiveVisual2018} only visualize the query after it has been written by the user with a scripting language and does not allow direct interaction of the visual representation of the query.
+Other systems, such as VIGOR~\cite{pientaVIGORInteractiveVisual2018} only visualize the query after it has been written by the user with a scripting language (here Cypher) and do not allow direct interaction of the visual representation of the query.
 All these visual query systems are limited to topological queries with constraints on the vertex and edge types and do not allow to make constraints on other dimensions such as attributes and time associated with vertices and edges.
 
 \iffalse
@@ -142,9 +123,9 @@ Yet, few visual systems support comparison tasks for social networks.
 
 Andrews et al.~\cite{andrewsVisualGraphComparison2009} describe a technique to compare several networks, using a combination of juxtaposition and superposition techniques.
 The two candidate networks are shown side by side, along with a third view composed of a fusion network highlighting both the shared nodes along with the non-shared nodes with different colors.
-%
+
 Freire et al~\cite{ManyNets} describe the ManyNets system to compare many networks by using a table where each describes one graph and each column shows graph measures in terms of small visualizations, from simple bars to distributions, allowing the comparison of a large number of graphs. However, ManyNets does not visualize the networks per se (no layout shown), and do not take into account attributes, node types, or time.
-%
+
 Hascoët and Dragicevic~\cite{HascoetD12} describe a system to match and compare graphs using superposition, focusing on the topology, not taking into account attributes or time.
 Tovanich et al.\cite{tovanichVAST2020Contest2021} propose a visual analytics tool to compare multivariate, sometimes bipartite, dynamic networks and find common structures.
 However, the tool does not handle roles and is designed for the specific task of matching a subgraph into a larger network.
