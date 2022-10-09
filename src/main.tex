@@ -17,16 +17,17 @@
 \pagestyle{plain} % pour ne garder que les n°de page en milieu-bas et supprimer les indications de chapitre en marge haute
 %\usepackage{biblatex} % à retirer!!!
 
-\iffalse
+%\iffalse
 \includeonly{
-%    chapters/Publications,
+%  chapters/Publications,
 %  chapters/Introduction,
-  chapters/Context,
+%  chapters/Context,
 %  chapters/NetworkModels,
 %  chapters/ComBiNet,
-%  chapters/PK-Clustering
+%  chapters/PK-Clustering,
+  chapters/Conclusion
 }
-\fi
+%\fi
 
 \widowpenalty9000
 \clubpenalty9000
@@ -125,7 +126,7 @@
         %     \textbf{Prénom Nom} & Directeur ou Directrice de thèse  \\
         %     Titre, Affiliation  &                                   \\
         % \end{tabular}
-        
+
         % \begin{tabular}{|p{7cm}l} % original
         \begin{tabular}{|p{9cm}l}
             \arrayrulecolor{Prune}
@@ -142,7 +143,7 @@
             \textbf{Jean-Daniel Fekete} & Directeur de thèse  \\
             Directeur de recherche, Univ. Paris-Saclay, CNRS, Inria, LISN  &                                   \\
             \textbf{Chritophe Prieur} & Directeur de thèse  \\
-            Professeur, Université Gustave Eiffel  &           
+            Professeur, Université Gustave Eiffel  &
         \end{tabular}
 
     \end{titlepage}
@@ -229,8 +230,8 @@
     \include{chapters/Context}
     \include{chapters/NetworkModels}
     \include{chapters/ComBiNet}
-    % \include{chapters/PK-Clustering}
-    % \include{chapters/Conclusion}
+    \include{chapters/PK-Clustering}
+    \include{chapters/Conclusion}
 
 
     % \bibliographystyle{IEEEtranS}

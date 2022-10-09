@@ -1,12 +1,18 @@
 \chapter{PK-Clustering}\label{ch:pk-clustering}
+\minitoc
 
+As discussed in \autoref{ch:introduction}, most \sna tools propose the computation of network measures and data mining algorithms such as clustering.
+Yet, social scientists are not always in a position to use them efficiently due to interpretability issues, and can become frustrated with automatic results if they do not match their prior knowledge.
+In this chapter, I propose a mixed-initiative approach for network clustering as an answer to \qthree, based on
+the prior knowledge of social scientists, consensus of algorithms, and exploration capabilities.
+The system focus on traceability, simplicity, and document reality principles, by respectively focusing on the origin of the constructed clusters, simple interaction mechanisms, and by leveraging \modelplural as a data model,
 
-\paperbox{This chapter is an updated version of an article published in IEEE Transactions on Visualization and Computer Graphics (TVCG) 2020. It was a joint work with my collaborators Paolo Buono, Catherine Plaisant, Jean-Daniel Fekete, and Paola Valdivia. I participated in the development of the interface, discussions, evaluation, and writing of the paper.}
+\paperbox{This chapter is an extended version of an article published in IEEE Transactions on Visualization and Computer Graphics (TVCG) 2020. It was a joint work with my collaborators Paolo Buono, Catherine Plaisant, Jean-Daniel Fekete, and Paola Valdivia. I led the development of the interface and the evaluation, and participated in the discussions and writing of the paper.}
 
 \section{Context}
 
-The goal of this work is to help social scientists, such as historians and sociologists, create meaningful clusters from social networks they study.
-In contrast to the belief that most data is easily available on the Web, as of today, most social scientists spend a long time collecting data, to construct social networks, based on documents or surveys, in order to create and carefully validate medium-sized networks (50--500 vertices).
+%The goal of this work is to help social scientists, such as historians and sociologists, create meaningful clusters from social networks they study.
+In contrast to the belief that most data is easily available on the Web, as of today, most social scientists spend a long time collecting data, to construct social networks, based on documents or surveys, in order to create and carefully validate medium-sized networks (see \autoref{ch:hsna-process-and-network-modeling}).
 %Many %suchprojects involve a long data generation process, searching archives, interviewing participants, analyzing documents, and generating medium-sized networks (50--500 vertices), followed by careful and detailed analysis of all the relationships.
 Before the start of the cluster analysis a great deal of effort goes into analysing other data and gathering knowledge (which we call prior knowledge in the rest of the paper).
 Social scientists study in great details the network entities (most of the time people), and the social ties they weave together, as it is the unit brick with which they can make historical or social hypothesis and conclusions.
@@ -17,26 +23,34 @@ However, most social scientists are not familiar with all of the available algor
 
 
 Typically, social scientists select an analysis tool based on their familiarity with the tool and the level of local or online support they can access.
-Therefore, they most often use popular systems such as R~\cite{Rstat}, Gephi~\cite{Gephi}, Python with NetworkX~\cite{NetworkX}, or Pajek~\cite{pajek}.
-To compute clusters, they follow a strained process: they select and run algorithms provided in the tool and then try to make sense of the results (see~\autoref{fig:PK-traditionalpkprocess}).
+Therefore, they most often use popular systems such as R~\cite{Rstat}, Gephi~\cite{Gephi}, Python with NetworkX~\cite{networkx}, or Pajek~\cite{pajek}.
+To compute clusters, they follow a strained process: they select and run algorithms provided in the tool and then try to make sense of the results (see~\autoref{fig:PK-processes} left).
 When they are not satisfied or unsure, they iteratively tweak the parameters of the algorithms at hand, run them again and hope to get results more aligned with their prior knowledge. This analysis process is unsatisfactory for three main reasons:
-\begin{wrapfigure}{r}{0.5\columnwidth}
-    \includegraphics[width=0.5\columnwidth]{static/figures/PK-Clustering/VISPaperFigures/traditionalclustering.png}
-    \caption{Traditional Clustering.  The output is a clustering, usually from a randomly chosen algorithm.}
-    \label{fig:PK-traditionalpkprocess}
-\end{wrapfigure}
-\begin{enumerate}[left=0pt .. \parindent,nosep]
+%\begin{enumerate}[left=0pt .. \parindent,nosep]
+\begin{enumerate}
     \item it forces them to try a sometimes large number of black-box algorithms one by one, tweaking parameters that often do not make sense to them; \item even when a parameter makes sense to them, such as the number of clusters to compute, $k$ in $k$-means clustering, they have no clue of what value would generate good results, and are left with trial and error;
     \item even if they could % , in the end,
     painstakingly evaluate the results of all clustering algorithms  according to their prior knowledge, no existing system allows users to do so easily, leading users to give up and blindly accept the results of one of the first algorithms they try.
 \end{enumerate}
 Those complaints have been heard repetitively during the decades our team has worked with social scientists.
 
+%\begin{wrapfigure}{r}{0.5\columnwidth}
+%    \includegraphics[width=0.5\columnwidth]{static/figures/PK-Clustering/VISPaperFigures/traditionalclustering.png}
+%    \caption{Traditional Clustering. The output is a clustering, usually from a randomly chosen algorithm.}
+%    \label{fig:PK-traditionalpkprocess}
+%\end{wrapfigure}
 
-Moreover, clustering is an ill-defined problem: for one dataset, there is no ground truth, and several partitions can be considered good according to the metric chosen to evaluate the result~\cite{kleinberg2003impossibility}.
+%\begin{figure}
+%    \centering
+%    \includegraphics[width=0.4\columnwidth]{static/figures/PK-Clustering/VISPaperFigures/traditionalclustering.png}
+%    \caption{Traditional Clustering. The output is a clustering, usually from a randomly chosen algorithm.}
+%    \label{fig:PK-traditionalpkprocess}
+%\end{figure}
+
+Moreover, clustering is an ill-defined problem: for one dataset, there is no ground truth, and several partitions can be considered good according to the metric chosen to evaluate the results~\cite{kleinbergImpossibilityTheoremClustering2002}.
 In a Social Sciences setting, this means, for example, that the same social network could be clustered to find families, friend groups, or business relationships.
-One partition is not better than the other: it depends on the purpose of the analysis.
-This problem increases the need for interactive tools, which let the user specify which type of partition is expected.
+One partition is not necessary better than another one, but depends on the purpose of the analysis.
+This issue increases the need for interactive tools, which let the user specify which type of partition is expected.
 
 To address those issues we propose a novel approach, called PK-clustering, which allows social scientists to iteratively construct and validate clusters using both their \emph{prior knowledge} and consensus among clustering algorithms.
 A prototype system illustrates such approach.
@@ -48,25 +62,33 @@ A prototype system illustrates such approach.
 %    \label{fig:PK-pkprocess}
 %\end{figure*}
 
+%\begin{figure}
+%    \centering
+%%    \includegraphics[width=\columnwidth]{static/figures/PK-Clustering/VISPaperFigures/pkprocess_new.png}
+%    \includegraphics[width=0.8\textwidth]{static/figures/PK-Clustering/VISPaperFigures/pkprocess_new}
+%    \caption{PK-clustering. The output is a clustering supported by algorithms and validated (fully or partially) according to the user's Prior Knowledge.}
+%%\cp{need to update the diagram to add "provenance table and summary"}}
+%\label{fig:PK-pkprocess}
+%\end{figure}
+
 \begin{figure}
     \centering
 %    \includegraphics[width=\columnwidth]{static/figures/PK-Clustering/VISPaperFigures/pkprocess_new.png}
-    \includegraphics[width=\textwidth]{static/figures/PK-Clustering/VISPaperFigures/pkprocess_new}
-    \caption{PK-clustering. The output is a clustering supported by algorithms and validated (fully or partially) according to the user's Prior Knowledge.}
+    \includegraphics[width=\textwidth]{static/figures/PK-Clustering/VISPaperFigures/pkprocess}
+    \caption{PK-clustering. The output is a clustering supported by algorithms and validated (fully or partially) according to the user's Prior Knowledge.}
 %\cp{need to update the diagram to add "provenance table and summary"}}
-\label{fig:PK-pkprocess}
+\label{fig:PK-processes}
 \end{figure}
 
-The proposed approach includes three main steps (see~\autoref{fig:PK-pkprocess}):
+The proposed approach includes three main steps (see~\autoref{fig:PK-processes} right):
 \begin{enumerate}[nosep]
-\item \textit{Specify Prior Knowledge (PK)}. Users  introduce their prior knowledge of the domain by defining partial clusters. The tool then runs all available clustering algorithms.
+\item \textit{Specify Prior Knowledge (PK)}. Users introduce their prior knowledge of the domain by defining partial clusters. The tool then runs all available clustering algorithms.
 \item \textit{Consolidate expanded PK clusters}. Users review the list of algorithms, ranked according to how well they match the prior knowledge.  They compare results and consensus, then accept or ignore suggestions to expand the prior knowledge clusters
 \item \textit{Consolidate extra clusters}. The tool suggests extra clusters on unassigned nodes. The user reviews consensus on each proposed cluster, then accepts or rejects suggestions.
 \end{enumerate}
 
-The output of the process is, using a direct quote from a social scientist providing feedback on the prototype: ``a clustering that is supported by algorithms and validated, fully or partially, by social scientists according to their prior knowledge".
-
-\rev{According to the need to combine data mining with visualizations~\cite{Ben02DiscoveryTools} and inspired by the idea of letting the user collaborate with the machine to reach specific goals~\cite{Horvitz99}, the proposed approach follows a \rev{user-initiated} mixed-initiative~\cite{Horvitz99} visual analytics process.}
+The output of the process is, using a direct quote from a social scientist providing feedback on the prototype: ``a clustering that is supported by algorithms and validated, fully or partially, by social scientists according to their prior knowledge''.
+According to the need to combine data mining with visualizations~\cite{Ben02DiscoveryTools} and inspired by the idea of letting the user collaborate with the machine to reach specific goals~\cite{Horvitz99}, the proposed approach follows a \rev{user-initiated} mixed-initiative~\cite{Horvitz99} visual analytics process.
 %, where the control is taken by who is the most qualified to provide the solution in a given step of the process~\cite{healey08MI}.
 %\jdf{Quote Horvitz: ``Mixed-initiative interaction refers to a flexible interaction strategy in which each agent (human or computer) contributes what it is best suited at the most appropriate time.''}
 %provides social researchers high-level control over the clustering process.
@@ -74,9 +96,9 @@ The output of the process is, using a direct quote from a social scientist provi
 %\jdf{If this is a quotation, you should use quotes around:}
 %In mixed-initiative systems humans work together with computer by providing their ability to create or extend hypoteses, in order to construct meaning from data~\cite{calderon15}.
 
-In our case, users focus on the results that expand on their prior knowledge, filter-out the most implausible results, but can readjust  when they realize that several algorithms are consensual despite not matching the prior knowledge (hinting at other possible meaningful structures). Our   mixed-initiative approach allows social scientists to seed the clustering process with a small set of well-known entities that will be quickly and robustly expanded into meaningful clusters (details in~\autoref{sec:pk-clustering}).
+In our case, users focus on the results that expand on their prior knowledge, filter-out the most implausible results, but can readjust  when they realize that several algorithms are consensual despite not matching the prior knowledge (hinting at other possible meaningful structures). Our mixed-initiative approach allows social scientists to seed the clustering process with a small set of well-known entities that will be quickly and robustly expanded into meaningful clusters (details in~\autoref{sec:pk-clustering}).
 
-Contrary to a current trend\cite{molnar2019}, we do not aim to improve the interpretability of algorithms but to improve the interpretation of the results of black-box algorithms in light of prior knowledge, provided by the user.  Every day, we use complex mechanisms that we do not fully understand, like motorbikes, cars or electric vehicles using various kinds of engines, shifts, and gears, but we are still able to choose which one best fit our needs according to their external utility and not by understanding their complex internal machinery. In addition, it is usually more important to social scientists to find an algorithm that provides useful results than to understand why another algorithm failed to do so.
+Contrary to a current trend\cite{molnar2019}, we do not aim to improve the interpretability of algorithms but to improve the interpretation of the results of black-box algorithms in light of prior knowledge, provided by the user. Every day, we use complex mechanisms that we do not fully understand, like motorbikes, cars or electric vehicles using various kinds of engines, shifts, and gears, but we are still able to choose which one best fit our needs according to their external utility and not by understanding their complex internal machinery. In addition, it is usually more important to social scientists to find an algorithm that provides useful results than to understand why another algorithm failed to do so.
 
 The main contributions of this article are:
 \begin{enumerate}[left=0pt .. \parindent,nosep]
@@ -85,19 +107,19 @@ The main contributions of this article are:
 \item two case studies.
 \end{enumerate}
 
-\begin{comment}
-Currently, two types of social network analysis systems exist:
-\begin{itemize}
-\item interactive systems based on visualization and direct manipulation where researchers can tweak the layout and visual attributes to highlight communities;
-\item data analysis systems where algorithms are used to compute ``clusters" with various levels of control through ``parameters"
-\end{itemize}
-
-These two worlds are still quite separated and they offer a trade-off between four aspects: control, speed, understandability and reproducibility.
-Manual systems offer a complete control to the analyst and the outcome of the work is understood, at least by the persons who created the communities, but this work is very slow, tedious, and probably not reproducible (another set of researchers will produce different communities).
-Automatic systems are fast and reproducible, but provide very little and indirect control (parameter tweaking) and their results is often difficult or impossible to understand.
-
-Our main question is: Can we bridge the two worlds: providing more control to the users, higher speed, and yet keep the results understandable and the process reproducible?
-\end{comment}
+%\begin{comment}
+%Currently, two types of social network analysis systems exist:
+%\begin{itemize}
+%\item interactive systems based on visualization and direct manipulation where researchers can tweak the layout and visual attributes to highlight communities;
+%\item data analysis systems where algorithms are used to compute ``clusters" with various levels of control through ``parameters"
+%\end{itemize}
+%
+%These two worlds are still quite separated and they offer a trade-off between four aspects: control, speed, understandability and reproducibility.
+%Manual systems offer a complete control to the analyst and the outcome of the work is understood, at least by the persons who created the communities, but this work is very slow, tedious, and probably not reproducible (another set of researchers will produce different communities).
+%Automatic systems are fast and reproducible, but provide very little and indirect control (parameter tweaking) and their results is often difficult or impossible to understand.
+%
+%Our main question is: Can we bridge the two worlds: providing more control to the users, higher speed, and yet keep the results understandable and the process reproducible?
+%\end{comment}
 
 
 \section{Related Work}
@@ -133,8 +155,6 @@ Nodes of the graph represent items that may be labeled, while the edges are used
 The technique classifies unlabelled items according to the weighted distance from the labeled items.
 %The process involves two stages: the construction of the graph adjacency matrix, and the computation of graph weights.
 
-
-\begin{revs}
 \subsection{Mixed-Initiative Systems and Interactive Clustering}
 
 Introduced by Horviz~\cite{Horvitz99}, mixed-initiative systems are ``interfaces that enable users and intelligent agents to collaborate efficiently''. Several Visual Analytics systems are based on mixed-initiative interactions, \eg~\cite{makonin16, cook15, zhou13, wall18}, in particular the interactive clustering systems.
@@ -148,8 +168,6 @@ Interactive clustering systems aim at producing visual tools that let users inte
 %Vikram and Dasgupta~\cite{pmlr-v48-vikram16} create a novel interactive Bayesian hierarchical clustering algorithm based on constraints.
 These systems adapt one algorithm to become interactive using some type of constraints.
 Instead, our approach applies ML/CL constraints on a wide variety of existing algorithms, providing richer algorithms and control than the reviewed systems.
-
-\end{revs}
 
 %\subsection{Visualization}
 %One of the need in social network clustering is to group entities according to different criteria, thus, groups and set visualizations are relevant. The paradigm proposed in this article also uses ensemble clustering approach. Some proposal of ensemble clustering visualization also exists in the literature.
@@ -199,9 +217,6 @@ The aim of our proposed framework is to combine these three approaches, to integ
 
 
 
-
-% -*- mode: latex; TeX-master: "main"; -*-
-%!TEX root = main.tex
 \section{PK-clustering}
 
 We present a new approach, inspired by the three types of clustering methods described in~\autoref{sec:summary}: Standard clustering, Ensemble clustering and Semi-supervised clustering. It runs a set of algorithms, then highlights those that best match the prior knowledge provided by the domain expert. %A mixed-initiative interface helps
@@ -312,7 +327,6 @@ By design, this type of algorithms will always provide a perfect match with the 
 Our prototype implements 2 attribute based algorithms (one for numerical attributes and the other for categorical attributes), 7 topology based algorithms and 2 propagation based. Since we often deal with hypergraphs 2 of the topology-based algorithms are bipartite node clustering algorithms: Spectral-co-Clustering \cite{coClustering} and Bipartite Modularity Optimisation. Since the majority of community detection algorithms are for unipartite graphs, we perform a projection into a one-mode network \cite{bipartiteProjection}. Basically, each pair of nodes which are in the same hyperedge are connected together in the resulting graph, with a weight being the number of shared hyperedges~\cite{guimera2007module}.
 %\jdf{Not sure what that last reference is for.}
 
-\begin{revs}
 Some algorithms require parameters to be specified. We do not force the user to specify values for all the parameters, when possible, we infer them from the PK-groups. For instance, instead of using an arbitrary default for the number of expected clusters $k$ in $k$-means clustering, we run the algorithm several times with a value of $k$ from the number of specified PK-groups to this number plus two. Therefore, our implementation computes a total of 15 clustering algorithms ($11+4$).
 %
 The strategy of using several parameter combinations for the same algorithm is often used in ensemble clustering to increase the number of different clusterings.
@@ -322,8 +336,6 @@ However, the number of parameter combinations can be extremely high. The researc
 
 
 Once all the algorithms finish the computation, we try to match the resulting partitions with the PK and rank the algorithms by how interesting their results are likely to be for the user.
-\end{revs}
-
 
 %Some algorithms like $k$-means can be used with a hyper-parameter $k$, which varies from a minimum number (larger or equal than the number of groups in the prior knowledge). A maximum number is also specified, to avoid running an infinite number of algorithms.
 %The algorithms are run with increasing $k$ until there is a perfect match or the maximum number is reached. There is no need to produce more than one $k$-means clustering result, according to our parsimony criteria.
@@ -374,17 +386,14 @@ In the end, we hope to find matches linking every PK-group to one specific clust
 \subsection{Ranking the Algorithms}
 %Using the edit distance measure, the algorithms can be ranked. We also introduce a \emph{parsimony} criterion when dealing with computed clusters: an algorithm that produces results matching the prior knowledge can be better than another one if it produces fewer clusters overall. Thus, a simpler algorithm with the same score is preferred.
 
-\rev{
 The algorithms are ranked by their degree of matching with the prior knowledge, using the edit distance. We also introduce a \emph{parsimony} criterion if there is a tie between two or more algorithms. The algorithm with the smaller number of other clusters will be shown first, as the results are easier to interpret. Moreover, the number of specified prior knowledge groups is expected to be close to the final number of clusters the user wants to retrieve, as social scientists often have a good knowledge of their data.
-}
 
 %\cp{I now added a subsub section for the ranking. Please check that it makes sense}.
-To complement the parsimony rule, we also consider that the family of propagation/learning based clustering algorithms is more complex than the two previous families (attribute or topological based clustering), \rev{in the sense that they are more difficult to explain.}
+To complement the parsimony rule, we also consider that the family of propagation/learning based clustering algorithms is more complex than the two previous families (attribute or topological based clustering), in the sense that they are more difficult to explain.}
 If a simple and a complex algorithm match the prior knowledge, the simpler one is presented first. For example, if grouping by the attribute ``profession'' provides a perfect match, then it is ranked higher than a propagation based method achieving the same perfect match.
 
 %\jdf{Add a paragraph about unmatched prior-knowledge, \ie matches with only propagation-based algorithms. The user should reconsider his prior-knowledge or provide more information in the graph.}
-\rev{
-Semi-supervised methods will always provide a perfect match by definition. But if all the other algorithms (topological and attribute based) do not give a match, it means that the PK does not align well with the data. This would signal the user to reconsider his PK or provides more information in the graph.}
+Semi-supervised methods will always provide a perfect match by definition. But if all the other algorithms (topological and attribute based) do not give a match, it means that the PK does not align well with the data. This would signal the user to reconsider his PK or provides more information in the graph.
 
 \subsection{Reviewing the Ranked List of Algorithms}
 
@@ -431,9 +440,7 @@ the \textit{size} of the matched clusters;
 or the number and size of \textit{other clusters} found by the algorithm.
 % Indeed, if for example the user specifies two prior knowledge groups, but an algorithm finds three clusters, it means that there is at least one cluster not matched with any PK-group defined by the user, but nevertheless interesting.
 
-\begin{revs}
 PK-Clustering expresses its prior knowledge through \emph{must-link} and \emph{cannot-link} constraints. However, at this stage, the user can decide to use this expressive power as strong constraints---only selecting algorithms that match all of them---or as weak constraints---to explore clustering results that support most or some of them. Our historian colleagues have used both, either to cluster a well-understood dataset with strong constraints or to generate hypotheses on less known ones.
-\end{revs}
 
 % \begin{figure}
 %     \centering
@@ -442,9 +449,9 @@ PK-Clustering expresses its prior knowledge through \emph{must-link} and \emph{c
 %     \label{fig:PK-groupsAndClusters}
 % \end{figure}
 
-\rev{\subsection{Reviewing and Consolidating Final Results }
+\subsection{Reviewing and Consolidating Final Results }
 To consolidate the final results several approaches are possible. Applying mixed-initiative principles users can rapidly accept labels from a specific algorithm (which is particularly useful for large datasets), or review consensus between selected algorithms then accept only consensual suggestions, or dig in manually to review labels one by one, override labels when appropriate, or leave certain nodes unlabeled.  The tool generally  guides users to first focus on the PK clusters, then other clusters.
-The notion of prior knowledge can evolve during the exploration and the process can be iterated from the beginning when new knowledge is gained, thus giving new algorithm matches. Therefore, the approach is not linear but can be iterative.}
+The notion of prior knowledge can evolve during the exploration and the process can be iterated from the beginning when new knowledge is gained, thus giving new algorithm matches. Therefore, the approach is not linear but can be iterative.
 
 \subsubsection{Reviewing Results of a Single Algorithm}
 By clicking on an algorithm name the results of that algorithm are displayed in the \paovis view (see~\autoref{fig:PK-initialView}). \rev{In this view, each line corresponds to a person in the graph, and each vertical line represents an hyperedge connecting them~\cite{paohvis}, in a way visually similar to the UpSet representation~\cite{lex2014upset} but semantically different.  Alternative graph representations are available as well---such as node link diagrams---but the \paovis view is well adapted to PK-Clustering.}
@@ -573,8 +580,6 @@ This process is repeated for the other clusters until there are no unlabeled nod
 
 % The other possibility, that is more fast for a bigger number of items to edit is by using the group editor, shown in \autoref{fig:PK-groupeditorMBandA} that, after the clustering results appears updated with the results chosen by the user. The group editor also allows to easily add new groups and associate unlabeled nodes to them.
 
-
-\begin{revs}
 \subsection {Wrapping up and Reporting Results}
 
 At any stage of the process, the user can finish instantaneously, either by not labeling undecided nodes, or selecting and validating the results of a single algorithm---as traditional approaches do, or by using a specified threshold of consensus and not labeling the remaining entities. The appropriateness of the choice is up to the user and should be documented in the publication.
@@ -585,11 +590,6 @@ The table provides, for each vertex, the consolidated label, along with the labe
 
 Clustering results can thus be reviewed in a more transparent manner, revealing the decisions taken. In contrast, traditional reporting in the Humanities rarely questions or discusses how choices were made and merely mentions the  algorithm and parameters used.
 
-\end{revs}
-
-
-% -*- mode: latex; TeX-master: "main"; -*-
-%!TEX root = main.tex
 
 \section{Case studies}
 %\jdf{Write-down a realistic reporting of the results as a publication would, stressing transparency of the multiple choices.}
@@ -754,7 +754,6 @@ They were also interested in getting explanations about the algorithms, why some
 
 \section{Discussion}
 
-\begin{revs}
 As presented in~\autoref{sec:summary}, the existing approaches to create clusters in social networks consider three options: standard clustering, ensemble clustering, and semi-supervised clustering. Our proposed PK-clustering approach combines aspects of the three options in order to give more control to users in the analysis loop, and allow them to have more say in the final results.
 %PK-clustering is different than ensemble clustering, in the sense that an ensemble method construct automatically an optimal partition from a set of algorithms, whereas in PK-clustering the final partition is built iteratively by the user using the algorithms' consensus.
 
@@ -765,8 +764,6 @@ Traditional methods push users to believe the results of the first algorithms an
 This new approach allows users to discover alternative views. For example when algorithms do not match the PK, it is an indication that the PK is being challenged and may not be correct.  Users actively participate in the process of assigning, a requirement for social scientists. The report produced at the end of the analysis adds transparency by recording where the results come from for each node so decisions can be reviewed. Ultimately social scientists remain responsible for reporting and justifying their choices and interventions in their publication.
 
 We acknowledge that bias issues are complex. The absence of ground truth limits researchers' ability to measure those biases, and no approach solves all issues yet, but we believe that PK-clustering offers a fresh perspective on those issues and will lead to results that are more useful to social scientists.
-\end{revs}
-
 
 \subsection{Limitations}
 
