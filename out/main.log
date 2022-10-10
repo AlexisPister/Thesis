@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.6.11)  9 OCT 2022 15:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.6.11)  10 OCT 2022 15:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1516,7 +1516,7 @@ Package minitoc(hints) Warning: W0023
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<static/logos/Frame-ups.pdf, id=27, 303.38344pt x 849.92531pt>
+<static/logos/Frame-ups.pdf, id=47, 303.38344pt x 849.92531pt>
 File: static/logos/Frame-ups.pdf Graphic file (type pdf)
 <use static/logos/Frame-ups.pdf>
 Package pdftex.def Info: static/logos/Frame-ups.pdf  used on input line 41.
@@ -1664,7 +1664,7 @@ LaTeX Font Info:    No file T1rm.fd. on input line 154.
 LaTeX Font Warning: Font shape `T1/rm/m/n' undefined
 (Font)              using `T1/cmr/m/n' instead on input line 154.
 
-<static/logos/logo_usp_STIC.png, id=44, 372.8475pt x 85.41pt>
+<static/logos/logo_usp_STIC.png, id=64, 372.8475pt x 85.41pt>
 File: static/logos/logo_usp_STIC.png Graphic file (type png)
 <use static/logos/logo_usp_STIC.png>
 Package pdftex.def Info: static/logos/logo_usp_STIC.png  used on input line 166
@@ -1997,6 +1997,68 @@ Overfull \hbox (0.9803pt too wide) detected at line 59
 
 
 ]
+\openout2 = `chapters/Introduction.aux'.
+
+
+(./chapters/Introduction.tex [14
+
+
+
+
+]
+Chapter 1.
+LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
+(Font)              scaled to size 9.49997pt on input line 22.
+LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
+(Font)              scaled to size 9.49997pt on input line 22.
+LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
+(Font)              scaled to size 7.12497pt on input line 22.
+LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
+(Font)              scaled to size 7.12497pt on input line 22.
+[15]
+<static/figures/MarieBoucher.png, id=599, 2021.5525pt x 1326.9575pt>
+File: static/figures/MarieBoucher.png Graphic file (type png)
+<use static/figures/MarieBoucher.png>
+Package pdftex.def Info: static/figures/MarieBoucher.png  used on input line 13
+0.
+(pdftex.def)             Requested size: 426.79134pt x 280.14738pt.
+ [16]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17]
+[18 <./static/figures/MarieBoucher.png>]
+<static/figures/RelatedWork/padgett-Medicis.png, id=650, 1175.39125pt x 1330.97
+25pt>
+File: static/figures/RelatedWork/padgett-Medicis.png Graphic file (type png)
+<use static/figures/RelatedWork/padgett-Medicis.png>
+Package pdftex.def Info: static/figures/RelatedWork/padgett-Medicis.png  used o
+n input line 201.
+(pdftex.def)             Requested size: 341.43436pt x 386.62202pt.
+ [19 <./static/figures/RelatedWork/padgett-Medicis.png>]
+<static/figures/RelatedWork/Keim-VisualAnalytics.png, id=668, 2426.06375pt x 12
+92.83pt>
+File: static/figures/RelatedWork/Keim-VisualAnalytics.png Graphic file (type pn
+g)
+<use static/figures/RelatedWork/Keim-VisualAnalytics.png>
+Package pdftex.def Info: static/figures/RelatedWork/Keim-VisualAnalytics.png  u
+sed on input line 215.
+(pdftex.def)             Requested size: 426.79134pt x 227.43225pt.
+ [20 <./static/figures/RelatedWork/Keim-VisualAnalytics.png>]
+<static/figures/RelatedWork/medievalNetwork.png, id=700, 1382.16376pt x 1353.05
+5pt>
+File: static/figures/RelatedWork/medievalNetwork.png Graphic file (type png)
+<use static/figures/RelatedWork/medievalNetwork.png>
+Package pdftex.def Info: static/figures/RelatedWork/medievalNetwork.png  used o
+n input line 262.
+(pdftex.def)             Requested size: 426.79134pt x 417.79105pt.
+
+[21]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22 <./static/figures/RelatedWork/medievalNetwork.png>]
+LaTeX Font Info:    Font shape `T1/opensans-TLF/b/n' will be
+(Font)              scaled to size 10.40245pt on input line 312.
+ [23]) [24]
 \openout2 = `chapters/Conclusion.aux'.
 
 
@@ -2023,7 +2085,6 @@ LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
 
 
 
-
 ]
 
 LaTeX Warning: Citation `rollingerCicerosSupplicatioUnd2017' on page 122 undefi
@@ -2032,6 +2093,10 @@ ned on input line 52.
 
 LaTeX Warning: Citation `adarManagingUncertaintySocial' on page 122 undefined o
 n input line 63.
+
+
+LaTeX Warning: Citation `schulzProbabilisticGraphLayout2017' on page 122 undefi
+ned on input line 63.
 
 
 Underfull \vbox (badness 3009) has occurred while \output is active []
@@ -2043,13 +2108,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 1412) has occurred while \output is active []
 
  [124]
-<static/figures/conclusion/dyn2.png, id=572, 2045.6425pt x 1295.84125pt>
+<static/figures/conclusion/dyn2.png, id=793, 2045.6425pt x 1295.84125pt>
 File: static/figures/conclusion/dyn2.png Graphic file (type png)
 <use static/figures/conclusion/dyn2.png>
 Package pdftex.def Info: static/figures/conclusion/dyn2.png  used on input line
  152.
 (pdftex.def)             Requested size: 426.79134pt x 270.35513pt.
-<static/figures/conclusion/dyn2_region.png, id=573, 2047.65pt x 1294.8375pt>
+<static/figures/conclusion/dyn2_region.png, id=794, 2047.65pt x 1294.8375pt>
 File: static/figures/conclusion/dyn2_region.png Graphic file (type png)
 <use static/figures/conclusion/dyn2_region.png>
 Package pdftex.def Info: static/figures/conclusion/dyn2_region.png  used on inp
@@ -2130,11 +2195,11 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 32232 strings out of 481239
- 575943 string characters out of 5920377
- 1001579 words of memory out of 5000000
- 46114 multiletter control sequences out of 15000+600000
- 645706 words of font info for 131 fonts, out of 8000000 for 9000
+ 32317 strings out of 481239
+ 578182 string characters out of 5920377
+ 1001605 words of memory out of 5000000
+ 46181 multiletter control sequences out of 15000+600000
+ 662022 words of font info for 167 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,10n,117p,4032b,816s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{page.90} has been referenced but does not exist, 
@@ -2182,9 +2247,6 @@ placed by a fixed one
 pdfTeX warning (dest): name{page.25} has been referenced but does not exist, re
 placed by a fixed one
 
-pdfTeX warning (dest): name{page.19} has been referenced but does not exist, re
-placed by a fixed one
-
 pdfTeX warning (dest): name{page.32} has been referenced but does not exist, re
 placed by a fixed one
 
@@ -2198,9 +2260,6 @@ pdfTeX warning (dest): name{page.72} has been referenced but does not exist, re
 placed by a fixed one
 
 pdfTeX warning (dest): name{page.45} has been referenced but does not exist, re
-placed by a fixed one
-
-pdfTeX warning (dest): name{page.17} has been referenced but does not exist, re
 placed by a fixed one
 
 pdfTeX warning (dest): name{page.82} has been referenced but does not exist, re
@@ -2239,9 +2298,6 @@ placed by a fixed one
 pdfTeX warning (dest): name{page.37} has been referenced but does not exist, re
 placed by a fixed one
 
-pdfTeX warning (dest): name{page.18} has been referenced but does not exist, re
-placed by a fixed one
-
 pdfTeX warning (dest): name{page.55} has been referenced but does not exist, re
 placed by a fixed one
 
@@ -2251,16 +2307,10 @@ placed by a fixed one
 pdfTeX warning (dest): name{page.31} has been referenced but does not exist, re
 placed by a fixed one
 
-pdfTeX warning (dest): name{page.22} has been referenced but does not exist, re
-placed by a fixed one
-
 pdfTeX warning (dest): name{page.85} has been referenced but does not exist, re
 placed by a fixed one
 
 pdfTeX warning (dest): name{page.59} has been referenced but does not exist, re
-placed by a fixed one
-
-pdfTeX warning (dest): name{page.16} has been referenced but does not exist, re
 placed by a fixed one
 
 pdfTeX warning (dest): name{page.27} has been referenced but does not exist, re
@@ -2279,9 +2329,6 @@ pdfTeX warning (dest): name{page.75} has been referenced but does not exist, re
 placed by a fixed one
 
 pdfTeX warning (dest): name{page.67} has been referenced but does not exist, re
-placed by a fixed one
-
-pdfTeX warning (dest): name{page.20} has been referenced but does not exist, re
 placed by a fixed one
 
 pdfTeX warning (dest): name{page.35} has been referenced but does not exist, re
@@ -2326,15 +2373,6 @@ placed by a fixed one
 pdfTeX warning (dest): name{page.26} has been referenced but does not exist, re
 placed by a fixed one
 
-pdfTeX warning (dest): name{page.23} has been referenced but does not exist, re
-placed by a fixed one
-
-pdfTeX warning (dest): name{page.21} has been referenced but does not exist, re
-placed by a fixed one
-
-pdfTeX warning (dest): name{page.15} has been referenced but does not exist, re
-placed by a fixed one
-
 pdfTeX warning (dest): name{page.41} has been referenced but does not exist, re
 placed by a fixed one
 
@@ -2371,9 +2409,6 @@ pdfTeX warning (dest): name{figure.caption.20} has been referenced but does not
 pdfTeX warning (dest): name{figure.caption.19} has been referenced but does not
  exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.8} has been referenced but does not 
-exist, replaced by a fixed one
-
 pdfTeX warning (dest): name{figure.caption.18} has been referenced but does not
  exist, replaced by a fixed one
 
@@ -2402,15 +2437,6 @@ pdfTeX warning (dest): name{figure.caption.10} has been referenced but does not
  exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{figure.caption.9} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.7} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.6} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.5} has been referenced but does not 
 exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{section.5.6} has been referenced but does not exist
@@ -2656,24 +2682,9 @@ pdfTeX warning (dest): name{section.2.1} has been referenced but does not exist
 pdfTeX warning (dest): name{chapter.2} has been referenced but does not exist, 
 replaced by a fixed one
 
-pdfTeX warning (dest): name{section.1.4} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.3} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.1} has been referenced but does not exist, 
-replaced by a fixed one
-
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/opensans/a_jg4h6q.enc}{/usr/shar
-e/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist
-/fonts/enc/dvips/stix2/stix2-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dv
+e/texlive/texmf-dist/fonts/enc/dvips/stix2/stix2-t1.enc}{/usr/share/texmf/fonts
+/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dv
 ips/stix2/stix2-mathit.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/stix2
 /stix2-mathrm.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/stix2/stix2-ma
 thscr.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/shar
@@ -2684,16 +2695,17 @@ xlive/texmf-dist/fonts/type1/public/stix2/STIX2Text-Bold.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/bera/fvsb8a.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/bera/fvsr8a.pfb></usr/share/texmf/fonts/type1/public/cm-supe
 r/sfsi1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsi1728.pfb></usr
-/share/texmf/fonts/type1/public/cm-super/sfss1095.pfb></usr/share/texmf/fonts/t
-ype1/public/cm-super/sfss2488.pfb></usr/share/texmf/fonts/type1/public/cm-super
-/sfsx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1200.pfb></usr/
-share/texmf/fonts/type1/public/cm-super/sfsx2074.pfb></usr/share/texmf/fonts/ty
-pe1/public/cm-super/sftt1095.pfb>
-Output written on /home/alexis/Documents/Thesis/out/main.pdf (39 pages, 1625574
+/share/texmf/fonts/type1/public/cm-super/sfss0800.pfb></usr/share/texmf/fonts/t
+ype1/public/cm-super/sfss1095.pfb></usr/share/texmf/fonts/type1/public/cm-super
+/sfss2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb></usr/
+share/texmf/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf/fonts/ty
+pe1/public/cm-super/sfsx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/
+sftt1095.pfb>
+Output written on /home/alexis/Documents/Thesis/out/main.pdf (50 pages, 8122509
  bytes).
 PDF statistics:
- 1661 PDF objects out of 1728 (max. 8388607)
- 1580 compressed objects within 16 object streams
- 440 named destinations out of 1000 (max. 500000)
- 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1832 PDF objects out of 2073 (max. 8388607)
+ 1725 compressed objects within 18 object streams
+ 446 named destinations out of 1000 (max. 500000)
+ 133 words of extra memory for PDF output out of 10000 (max. 10000000)
 

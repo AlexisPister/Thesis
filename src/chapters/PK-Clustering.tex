@@ -389,7 +389,7 @@ In the end, we hope to find matches linking every PK-group to one specific clust
 The algorithms are ranked by their degree of matching with the prior knowledge, using the edit distance. We also introduce a \emph{parsimony} criterion if there is a tie between two or more algorithms. The algorithm with the smaller number of other clusters will be shown first, as the results are easier to interpret. Moreover, the number of specified prior knowledge groups is expected to be close to the final number of clusters the user wants to retrieve, as social scientists often have a good knowledge of their data.
 
 %\cp{I now added a subsub section for the ranking. Please check that it makes sense}.
-To complement the parsimony rule, we also consider that the family of propagation/learning based clustering algorithms is more complex than the two previous families (attribute or topological based clustering), in the sense that they are more difficult to explain.}
+To complement the parsimony rule, we also consider that the family of propagation/learning based clustering algorithms is more complex than the two previous families (attribute or topological based clustering), in the sense that they are more difficult to explain.
 If a simple and a complex algorithm match the prior knowledge, the simpler one is presented first. For example, if grouping by the attribute ``profession'' provides a perfect match, then it is ranked higher than a propagation based method achieving the same perfect match.
 
 %\jdf{Add a paragraph about unmatched prior-knowledge, \ie matches with only propagation-based algorithms. The user should reconsider his prior-knowledge or provide more information in the graph.}
