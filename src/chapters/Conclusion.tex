@@ -45,8 +45,8 @@ Below, I discuss the perspective of new \va tools for \hsna, social history, and
 
 I discuss in this section different limitations of my work:
 
-\noindent\textbf{Network modeling.} I proposed with my collaborators to model historical documents using \modelplural, as it allows to satisfy \emph{traceability}, \emph{simplicity}, and \emph{document reality} properties. However, this type of modeling has some limitations in 1) the types of sources it can model, 2) how persons are represented in the network, and 3) how uncertainty is managed.
-We elaborated this model from collaborations with several social historians who study semi-structured documents, such as marriage acts, birth certificates, business contracts, construction documents, censuses, and migration forms.
+\noindent\textbf{Network modeling.} I proposed with my collaborators to model historical documents using \modelplural, as it allows to satisfy \emph{traceability}, \emph{simplicity}, and \emph{document reality} properties. However, this type of modeling has some limitations in 1) the type of sources it can model, 2) how persons are represented in the network, and 3) how uncertainty is managed.
+We elaborated this model from collaborations with several social historians who study semi-structured documents, such as marriage acts, birth certificates, business contracts, construction documents, census, and migration forms.
 These types of documents have a consistent structure and mention people in a restricted number of relationships (spouses and witnesses for marriages, parents and child for birth certificates, etc.) that can be encoded as roles in a consistent manner.
 However, other types of textual documents can be leveraged by historians, which can be less structured or without any predefined structure at all.
 One example is correspondence letters, which is a type of document often studied in history\cite{rollingerCicerosSupplicatioUnd2017, edelsteinHistoricalResearchDigital2017}.
@@ -55,32 +55,32 @@ The content of letters is more verbose and varies from one to another, making th
 Moreover, in the proposed model, if documents are concretely represented as one type of node, person nodes constitute a merging of several mentions of the same person through several sources.
 Historians, therefore, have to follow a named-entity-recognition and disambiguation process to give identifiers to the different persons mentioned in the documents and merge the information from several sources into one node.
 Person nodes are therefore not the concrete representation of the mentions inside the sources, but constructed concepts, resulting from the inspection and cross-referencing of the documents by historians.
-In one of my discussions with a historian, she told that in this model ``document nodes can be considered as emic and person nodes ethic concepts''\cite{headlandEmicsEticsInsider1990}.
+In one of my discussions with a historian, she told that, in this model, ``document nodes can be considered as \emph{Emics} and person nodes \emph{Etics} concepts''\cite{headlandEmicsEticsInsider1990}.
 Historians hence have to make decisions, especially when there is ambiguity in the identity of persons, and when potentially contradicting information is written on the same individuals (concerning age, origin, profession, etc.).
 This process raises a problem that is widespread in quantitative social history, but also in most empirical science, which is the handling of \emph{uncertainty}.
 Practitioners typically dismiss the uncertainty inherent to most textual data when constructing networks and encoding specific entities, thus removing it in the making of final conclusions.
-This is particularly true in history, where many mentions are ambiguous and not always precise\cite{dufournaudRechercheEmpiriqueHistoire2015}.
+This is particularly true in history, where several mentions are ambiguous and not always precise\cite{dufournaudRechercheEmpiriqueHistoire2015}.
 Almost no work has been done on the handling of uncertainty directly in network models\cite{adarManagingUncertaintySocial}, even though it would allow to ground results in a more rational and real vision of the textual data (at the cost of increasing complexity).
 
-\noindent\textbf{Temporality.} The time is key information for historians, as they want to contextualize the phenomena they study in a period, relative to other events.
+\noindent\textbf{Temporality.} The time is a key information for historians, as they want to contextualize the phenomena they study in a period, relative to other events.
 This is why we encode time in our suggested model of \modelplural through the time mentioned in historical documents, so historians can explore and analyze this dimension of their data.
 However, dynamic graphs are complex to visualize and analyze.
 In \combinet, if users can explore the dynamic aspect of the data through time distribution, overlays, and dynamic filters, it currently does not propose a layout unfolding the time structure.
 It may therefore be harder to detect time-related patterns compared to topological and geolocated ones (even if possible with interactions).
 \pkclustering lets visualize the data through a static or dynamic layout.
 However, the current prototype considers only static clustering, which can be seen as a simplification of the real-world groups which can often evolve with time\cite{rossettiCommunityDiscoveryDynamic2018}.
-Indeed, persons often can often meet new people, change affiliations, or move places, provoking groups to merge, split, and disappear.
+Indeed, persons can often meet new people, change affiliations, or move places, leading groups to merge, split, and disappear.
 \pkclustering is already a complex process for static clustering but could be extended to the building of dynamic groups with the use of time-dependent prior knowledge and dynamic graph clustering algorithms.
 
 \noindent\textbf{HSNA and Social History.} HSNA is now a widely used method in quantitative history to study relational structures and phenomena of the past\cite{kerschbaumerPowerNetworksProspects2015, petzCombiningNetworkResearch2022, wetherellHistoricalSocialNetwork1998}. The formalisms and tools proposed in this thesis aim at improving the workflow of historians following this type of method.
 Yet, historians usually have heterogeneous and various documents when they are researching an area and era of interest, and usually apply different methods at the same time to make their historical conclusions\cite{padgettRobustActionRise1993, petzCombiningNetworkResearch2022}.
 The core of their work consists in extracting knowledge from rigorous inspection and cross-referencing of historical documents.
-If providing \va tools for their \hsna analysis from start to finish is useful to them, other types of analysis methods should also be implemented in their work environments to allow them a larger set of options to make socio-historical conclusions.
+If providing \va tools for their \hsna analysis from start to finish is useful to them, other types of analysis methods should also be implemented in their work environments to give them a larger set of options to make socio-historical conclusions.
 This includes methods like text analysis, correlations, and statistical testing\cite{lemercierQuantitativeMethodsHumanities2019}.
 History is also often considered a qualitative process, meaning that historians often make conclusions and hypotheses based on the reading of other sources and the qualitative analysis of their documents.
-\va tools which aim to encompass the whole historical workflow should be able to support this type of analysis, for example by managing textual annotation management on digital documents, similar to Jigsaw's feature for intelligence analysis \cite{staskoJigsawSupportingInvestigative2008}.
+\va tools that aim to encompass the whole historical workflow should be able to support this type of analysis, for example by managing textual annotation management on digital documents, similar to Jigsaw's feature for intelligence analysis \cite{staskoJigsawSupportingInvestigative2008}.
 Some quantitative methods can also let users express some of their qualitative knowledge to influence the results.
-For example, bayesian statistics and semi-supervised machine learning methods are based on the expression of prior knowledge which will influence the computational results.
+For example, Bayesian statistics and semi-supervised machine learning methods are based on the expression of prior knowledge which will influence the computational results.
 Similarly, With \pkclustering, historians can express their prior knowledge and use it as a start to find meaningful clusters, by seeing how the diversity of algorithms matches their qualitative knowledge of the data.
 \va tools for social history should therefore let users follow both qualitative and quantitative inspection of their documents, from data collection to final analysis, with combinations of several methods and prior knowledge expression.
 
@@ -89,7 +89,7 @@ Similarly, With \pkclustering, historians can express their prior knowledge and 
 %Social history
 %VA tools should allow historians to express this prior knowledge if possible, as PK-Clustering allow for expressing prior-knowledge as partial clusters.
 
-\noindent\textbf{Globality of \hsna workflow.} The key point of this thesis is to show that \va tools should support the overall \hsna workflow of historians.
+\noindent\textbf{Globality of the \hsna workflow.} The key point of this thesis is to show that \va tools should support the overall \hsna workflow of historians.
 \va can be used to help them from data collection to their final analysis in the same environment, to ease back and forth between the steps, allowing easier exploration of different analysis goals, and better traceability/reproducibility for the overall analysis.
 By modeling historical documents into \modelplural (see \autoref{ch:hsna-process-and-network-modeling}), we represent the documents and their content as a network, allowing traceability between the network entities and the original documents.
 If historians find errors in the network, they can rapidly trace it back from which document the errors come from, and correct it either directly in the visual interface, or in their annotation software using the unique identifier of the document.
