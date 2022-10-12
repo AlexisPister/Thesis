@@ -28,24 +28,34 @@
 }
 
 \newcommand{\abstractfr}{
-    Cette thèse vise à identifier comment l'analyse visuelle peut supporter les historiens dans leur processus d'analyse de réseaux sociaux, de la collecte de documents historiques jusqu'à la formulation de conclusions socio-historiques.
+    Cette thèse vise à identifier comment l'analyse visuelle peut aider les historiens dans leur processus d'analyse de réseaux sociaux, de la collecte des sources jusqu'à la formulation de conclusions socio-historiques.
     L'analyse de réseaux sociaux historiques est une méthode permettant d'étudier les relations sociales au sein de groupes d'acteurs (familles, institutions, entreprises, etc.) pour comprendre leurs structures sous-jacentes tout en décrivant des comportements spécifiques.
     Les chercheurs en histoire sociale reconstruisent les relations du passé à partir du contenu de documents historiques, tel que des actes de mariage, formulaires de migration, ou des recensements.
-    Utilisant des méthodes analytiques et de visualisation, les historiens peuvent décrire la structure de ces groupes et expliquer des comportements individuels à partir de motifs locaux.
-    Cependant, l'inspection, l'encodage et la modélisation des sources pour obtenir un réseau finalisé provoquent souvent des erreurs, distorsions et des problèmes de traçabilité.
-    Pour ces raisons, ainsi que des problèmes d'utilisabilité, les historiens ne sont pas toujours en position de faire des conclusions approfondies sur leur réseau à partir des systèmes de visualisation actuels.
-    Je vise dans cette thèse à identifier comment l'analyse visuelle (la combinaison d'algorithmes statistiques intégrés à des interfaces graphiques à l'aide d'interaction) peut supporter les historiens dans leur processus, de la collecte des données jusqu'à l'analyse finale.
-    Vers ce but, je formalise le processus d'une analyse de réseau historique en partant de collaborations avec des historiens, de l'acquisition des sources jusqu'à l'analyse visuelle, et pointe que les outils supportant ce processus devraient satisfaire des principes de traçabilité, simplicité et de réalité documentaire pour faciliter les va-et-vient entre les différentes étapes, avoir des outils faciles à utiliser, et à ne pas distordre le contenu des sources.
-    Particulièrement, je propose de modéliser les sources historiques en réseaux sociaux bipartis multivariés dynamiques avec rôles pour satisfaire ces propriétés.
-    Ce modèle représente concrètement les documents historiques, permettant aux utilisateurs d'encoder, corriger et analyser leurs données avec le même modèle et les mêmes outils.
-    Je propose deux interfaces d'analyse visuelle pour manipuler, explorer et analyser ce type de données, avec un appui sur les principes de traçabilité, simplicité, et réalité documentaire.
-    Je présente d'abord ComBiNet, qui permet une exploration visuelle à partir de la topologie, dynamique, localisation et att  ributs du réseau à l'aide de vues coordonnées, un système de requêtes visuelles, et de comparaisons.
-    En trouvant des motifs facilement et en les comparant, les historiens peuvent trouver des erreurs dans leurs annotations tout en répondant à des questions historiques.
+    Via des méthodes analytiques et de visualisation, les historiens peuvent décrire la structure de ces groupes et expliquer des comportements individuels à partir de motifs locaux.
+    Cependant, l'inspection, l'encodage et la modélisation des sources pour obtenir un réseau finalisé donne souvent lieu à des erreurs, distorsions et des problèmes de traçabilité.
+    Pour ces raisons, ainsi que des problèmes d'utilisabilité, les historiens ne sont pas toujours en mesure de faire des conclusions approfondies sur leur réseau à partir des systèmes de visualisation actuels.
+    Je vise dans cette thèse à identifier comment l'analyse visuelle (la combinaison d'algorithmes statistiques intégrés à des interfaces graphiques à l'aide d'interaction) peut aider les historiens dans leur processus, de la collecte des données jusqu'à l'analyse finale.
+    Dans ce but, je formalise le processus d'une analyse de réseau historique en partant de collaborations avec des historiens, de l'acquisition des sources jusqu'à l'analyse visuelle, en établissant que les outils aidant ce processus devraient satisfaire des principes de traçabilité, simplicité et de réalité documentaire pour faciliter les va-et-vient entre les différentes étapes, avoir des outils faciles à utiliser, et ne pas distordre le contenu des sources.
+%    En particulier, je propose de modéliser les sources historiques en réseaux sociaux bipartis multivariés dynamiques avec rôles pour satisfaire ces propriétés.
+    Pour satisfaire ces propriétés, je propose de modéliser les sources historiques en réseaux sociaux bipartis multivariés dynamiques avec rôles.
+%    Ce modèle représente concrètement les documents historiques, permettant aux utilisateurs d'encoder, corriger et analyser leurs données avec le même modèle et les mêmes outils.
+    Ce modèle a la particuliarité d'integré une representation des documents historiques, ce qui permet à la fois aux utilisateurs d'encoder, corriger et analyser leurs données avec les mêmes outils.
+%    Ce modèle intègre les documents historiques en tant que tel, permettant aux utilisateurs d'encoder, corriger et analyser leurs données avec le même modèle et les mêmes outils.
+    Je propose deux interfaces d'analyse visuelle pour manipuler, explorer et analyser ce type de données, en respectant les principes de traçabilité, simplicité et réalité documentaire.
+    Je présente d'abord ComBiNet, qui permet une exploration visuelle de la topologie, la dynamique, la localisation et des attributs du réseau à l'aide de vues coordonnées et d'un système de requêtes visuelles et de comparaisons.
+
+%    En trouvant des motifs facilement et en les comparant, les historiens peuvent trouver des erreurs dans leurs annotations tout en répondant à des questions historiques.
     Le second système, PK-Clustering, constitue une proposition concrète pour améliorer l'utilisabilité et l'efficacité des mécanismes de clustering dans les systèmes de visualisation de réseaux sociaux.
-    L'interface permet de créer des regroupements pertinent à partir de la connaissance à priori, le consensus algorithmique et l'exploration du réseau dans un cadre d'initiative mixte.
-    Les deux systèmes ont été conçu à partir des besoins et de retours continus d'historiens, et visent à augmenter la traçabilité, simplicité, et la vision réelle des sources dans l'analyse de réseaux historiques.
-    Je conclus sur des discussions sur la fusion des deux systèmes et plus globalement sur la convergence vers une meilleure intégration des outils d'analyse visuelle sur le processus global des historiens.
-    De tels systèmes avec une attention les propriétés de traçabilité, simplicité, et réalité documentaire peuvent limiter l'introduction de biais et abaisser les exigences pour l'utilisation de méthodes quantitatives, qui a toujours été une discussion controversée en Histoire.
+%    L'interface permet de créer des regroupements pertinents à partir de la connaissance a priori, le consensus algorithmique et l'exploration du réseau dans un cadre d'initiative mixte.
+    L'interface permet de créer des regroupements pertinents à partir des connaissance a priori, du consensus algorithmique et de l'exploration du réseau dans un cadre d'initiative mixte.
+    Les deux systèmes ont été conçu à partir des besoins et de retours continus d'historiens, et visent à augmenter la traçabilité, la simplicité, et la vision réelle des sources dans l'analyse de réseaux historiques.
+%    Grâce à ces caractéristiques, ces outils permettent de limiter les barrières d'utilisation des méthodes quantitatives par les historiens, qui constituent une discussion controversée en Histoire.
+%    Je conclus sur des discussions sur la fusion des deux systèmes et plus globalement sur la convergence vers une meilleure intégration des outils d'analyse visuelle sur le processus global des historiens.
+%    Je conclus sur la possibilité de fusionner les deux systèmes et plus globalement sur la convergence vers une meilleure intégration des outils d'analyse visuelle sur le processus global des historiens.
+    Je conclus sur la possibilité de fusionner les deux systèmes et plus globalement sur la necessité d'une meilleur intégration des systèmes d'analyse visuelle dans le processus de recherche des historiens.
+    Cette intégration nécessite la prise en compte des trois propriétés visées auparavant dans les systèmes, afin de mieux coller aux besoins et aux méthodes des historiens, et ainsi limiter les barrières d'utilisation des méthodes quantitatives, qui subsitent en histoire.
+%    Ces outils permettraient de limiter les barrières d'utilisation des méthodes quantitatives par les historiens, qui a toujours été une discussion controversée en Histoire.
+%    De tels systèmes avec une attention sur les propriétés de traçabilité, simplicité, et réalité documentaire peuvent limiter l'introduction de biais et abaisser les exigences pour l'utilisation de méthodes quantitatives, qui a toujours été une discussion controversée en Histoire.
 }
 
 

@@ -14,6 +14,50 @@
 
 \chapter{Introduction}\label{ch:introduction}
 
+%\vspace{2pt}
+%\begin{flushright}
+%{``\textit{My claim rests on the assumption that, within limits, researchers can learn the truth about social processes. At a minimum, they can distinguish between totally inadequate and less inadequate representations of social processes, thus opening the way to increasingly reliable knowledge.''}\hspace*{5cm}}\\
+%\textbf{-Charles Tilly, \cite{tillyObservationsSocialProcesses2004}}
+%\end{flushright}
+
+\renewenvironment{quote}
+  {\begin{trivlist} \setlength\leftskip{2cm} \setlength\rightskip{0pt}
+   \item\relax}
+  {\end{trivlist}}
+
+%\begin{quote}
+%    \begin{flushright}
+%    ``\textit{My claim rests on the assumption that, within limits, researchers can learn the truth about social processes. At a minimum, they can distinguish between totally inadequate and less inadequate representations of social processes, thus opening the way to increasingly reliable knowledge.''}\\
+%\textbf{-Charles Tilly, \cite{tillyObservationsSocialProcesses2004}}
+%        \end{flushright}
+%    \end{quote}
+
+%\begin{quote}
+%    \begin{flushright}
+%    ``\textit{My claim rests on the assumption that [...] researchers can learn the truth about social processes. At a minimum, they can distinguish between totally inadequate and less inadequate representations of social processes, thus opening the way to increasingly reliable knowledge.''}\\
+%\textbf{-Charles Tilly, \cite{tillyObservationsSocialProcesses2004}}
+%        \end{flushright}
+%\end{quote}
+
+
+\begin{quote}
+    ``\textit{My claim rests on the assumption that [...] researchers can learn the truth about social processes. At a minimum, they can distinguish between totally inadequate and less inadequate representations of social processes, thus opening the way to increasingly reliable knowledge.''} \vspace{-10pt}
+\begin{flushright}
+    \textbf{-Charles Tilly, \cite{tillyObservationsSocialProcesses2004}}
+\end{flushright}
+\end{quote}
+
+%\begingroup
+%%\addtolength\rightmargin{100pt}
+%\begin{quote}
+%    \begin{flushright}
+%    ``\textit{My claim rests on the assumption that, within limits, researchers can learn the truth about social processes. At a minimum, they can distinguish between totally inadequate and less inadequate representations of social processes, thus opening the way to increasingly reliable knowledge.''}\\
+%\textbf{-Charles Tilly, \cite{tillyObservationsSocialProcesses2004}}
+%        \end{flushright}
+%\end{quote}
+%\endgroup
+
+%\vspace{2pt}
 
 % \jdf{Start with a sentence that explain the goal of your thesis, \eg The goal of this thesis is to help support social historians in exploring and analyzing their sources to conduct their research.}
 The goal of this thesis is to characterize and produce visual analytics tools that can support social historians conducting research on their sources---particularly when using network methods---with a focus on exploration, analysis, traceability, and usability.
@@ -31,7 +75,7 @@ This thesis considers the whole workflow of social historians to better support 
 % \jdf{Connect with your topic, \eg This thesis considers the whole work process of social historians to better support it. }
 
 Social historians have to take many annotation (sometimes called encoding) and modeling decisions, concerning \emph{what} to model from their sources into a network, and \emph{how} to model it \cite{cristofoliAuxSourcesGrands2008, dufournaudRechercheEmpiriqueHistoire2015}, \ie should the information of interest be represented as a node, a link, an attribute, or not reflected in the network at all, and what format should be used.
-Practically, they usually use ad hoc processing and analysis scripts to transform historical documents to analyzable networks, which is time-consuming, sometimes to end up with trivial or hard to interpret results \cite{alkadi2022}.
+Practically, they typically use ad hoc processing and analysis scripts to transform historical documents to analyzable networks, which is time-consuming, sometimes to end up with trivial or hard to interpret results\cite{alkadi2022}.
 Still, \hsna led to many highly regarded studies with thorough conclusions, such as the study of families of power in Florence by Padgett and Ansell where they explained the rise of the Medici family through its central position in the economical, political, and trading networks of powerful families\cite{padgettRobustActionRise1993} or Gribaudi and Blum work on the social and professional shift during the 19th century in France\cite{gribaudi1990}.
 
 The usage of visualization to graphically display networks is common in \sna\footnote{Historians and sociologists following network analyses typically use similar techniques and tools for analyzing their data. The difference between \sna and \hsna hence come from the provenance and process leading to the construction of the network. I therefore use the \sna acronym for practices common in both fields and the \hsna acronym for history specificities.} as it allows to unfold the structure of networks to the eyes, thus letting social scientists confirm hypotheses they had when collecting and exploring their data as well as gaining new insight through the discovery of interesting patterns and trends \cite{cristofoliPrincipesUsagesDessins}.
@@ -127,7 +171,7 @@ This is a long and tedious process that can result in small to large networks th
 The historian have to inspect these documents in depth, extract useful information, and cross-reference the sources to do her quantitative analysis afterwards.
 \begin{figure}[!ht]
     \centering % avoid the use of \begin{center}...\end{center} and use \centering instead (more compact)
-    \includegraphics[width=1\textwidth]{src/static/figures/MarieBoucher-70.jpg}
+    \includegraphics[width=1\textwidth]{static/figures/MarieBoucher-70}
     \caption{Business contract originated from Nantes (France) during the 17th century. See \cite{dufournaudCommentRendreVisible2018} for more detail of the historian process to analyze her sources.}
     \label{fig:intro-MarieBoucher}
 \end{figure}
