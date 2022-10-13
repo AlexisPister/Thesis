@@ -22,7 +22,6 @@
 \usepackage[default, scale=.95]{opensans} % police Open Sans
 \usepackage{amsmath}
 \usepackage{amsfonts}
-\usepackage{fancyhdr}
 \usepackage{amssymb}
 \usepackage{xcolor} % où color selon l'installation
 \usepackage[inline]{enumitem}
@@ -45,6 +44,7 @@
 \usepackage{minitoc} %For table of content at each chapter
 \usepackage{doi}
 \usepackage{colortbl}
+\usepackage{fancyhdr}
 %\usepackage{natbib}
 %\usepackage{bibentry}
 
@@ -96,12 +96,16 @@
 \newcommand{\eg}{e.g.\xcomma}
 \newcommand{\paovis}{PAOHVis\xspace}
 
+% REVS
 \newcommand{\rev}[1]{#1}
 \newenvironment{revs}{}{}
 %\newcommand{\rev}[1]{\textcolor{blue}{#1}}
 %\newenvironment{revs}{\bgroup\color{blue}}{\egroup}
 
+% Abstracts
 \input{abstract.tex}
+
+
 
 \def\Snospace~{\S{}} % eat the ~ added by \autoref after the macro
 \renewcommand*\sectionautorefname{\Snospace}
@@ -127,12 +131,20 @@
 \newcommand{\combinet}{ComBiNet\xspace}
 \newcommand{\pkclustering}{PK-Clustering\xspace}
 
+% Typology
+\newcommand{\project}[1]{\textsl{#1}}
+\newcommand{\property}[1]{\textsl{#1}}
+
 % Terms
 \newcommand{\hsna}{HSNA\xspace}
 \newcommand{\sna}{SNA\xspace}
 \newcommand{\va}{VA\xspace}
 \newcommand{\eda}{Exploratory Data Analysis\xspace}
 \newcommand{\snv}{social network visualization\xspace}
+\newcommand{\traceability}{traceability\xspace}
+\newcommand{\reality}{document reality\xspace}
+\newcommand{\simplicity}{\textsl{simplicity}\xspace}
+
 
 % Research Questions
 \newcommand{\qone}{\textbf{Q1}\xspace}

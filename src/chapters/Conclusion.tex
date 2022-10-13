@@ -4,23 +4,42 @@
 \section{Summary}
 
 In this thesis, I addressed the high-level question of how \va can help social historians conduct network analysis, in their entire process, from the collection of documents to the final analysis and visualization of constructed networks.
-Indeed, social historians currently use visual and analysis tools to get insights from curated networks, but the process they use is tedious and error-prone, which can result in simplification, distortions, errors, and inconsistencies\cite{alkadi2022, lemercier12FormalNetwork2015}.
+Indeed, social historians currently use visual and analysis tools to generate insights from curated networks, but the process they use is tedious and error-prone, which can result in simplification, distortions, errors, and inconsistencies\cite{alkadi2022, lemercier12FormalNetwork2015}.
 Moreover, current tools typically lead to qualitative descriptions of the network data\cite{rollingerProlegomenaProblemsPerspectives2020} instead of a deep understanding of the global and local network structure supported by computation, mostly due to usability and interpretability issues.
 \va could therefore support historians in 1) their data preparation process, and 2) the final analysis of curated networks.
-I identified three principles \va interfaces should follow: \emph{traceability}, \emph{simplicity}, and \emph{document reality}, to respectively ease the back and forth between the different process steps while assuring reproducibility of analyses, have expressive representations and tools that are simple enough to manipulate for social scientists, and ground results in the concrete reality of the documents, hence limiting the introduction of bias and distortion.
+\autoref{fig:conclu-processVA} shows a schematic representation of the potential place of \va in the \hsna process.
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=\textwidth]{static/figures/conclusion/workflowVA}
+    \caption{Potential place of \va in the \hsna workflow defined in \autoref{ch:hsna-process-and-network-modeling}.}
+\label{fig:conclu-processVA}
+\end{figure}
+From continuous discussions with social historians, I identified three principles \va interfaces should follow: \traceability, \simplicity, and \reality, to respectively ease the back and forth between the different process steps while assuring reproducibility of analyses, have expressive representations and tools that are simple enough to manipulate for social scientists, and ground results in the concrete reality of the documents, hence limiting the introduction of bias and distortion.
 More precisely, I tried to answer three questions in respect to those properties:
-\begin{enumerate}
-    \item \qone:  How to model historical documents into analyzable networks with the right balance between expressiveness and simplicity
-    \item \qtwo: What representations and interactions would allow social historians to answer complex historical questions---with a focus on usability
+\begin{description}
+    \item \qone:  How to model historical documents into analyzable networks with the right balance between expressiveness and simplicity.
+    \item \qtwo: What representations and interactions would allow social historians to answer complex historical questions---with a focus on usability.
     \item \qthree: How to design \va tools and interactions that leverage algorithmic power but keep historians in control of their analyses and biases.
-\end{enumerate}
-In \autoref{ch:hsna-process-and-network-modeling}, I addressed \qone by proposing to model historical documents as \modelplural to have a right balance between expressiveness and \emph{simplicity}, while satisfying \emph{traceability} and \emph{document reality} properties.
-More globally, I formalized the \hsna process from collaborations with social historians, into five steps: textual sources acquisition, digitization, annotation, network creation, and network visualization/analysis; I identified recurring pitfalls for each step, such as wrongly chosen network models or named entity recognition errors.
-The identification of pitfalls and continuous discussions with practitioners led to the definition of the \emph{traceability}, \emph{simplicity}, and \emph{document reality} properties.
-Leveraging the proposed network model, I proposed the \combinet system in \autoref{ch:combinet} as a proof-of-concept to address \qtwo.
+\end{description}
+
+In \autoref{ch:hsna-process-and-network-modeling}, I formalized the \hsna process from collaborations with social historians, into five steps: textual sources acquisition, digitization, annotation, network creation, and network visualization/analysis (see \autoref{fig:conclu-processVA}); I identified recurring pitfalls for each step, such as wrongly chosen network models or named entity recognition errors.
+The use of \va on the whole process could limit the introduction of such pitfalls by allowing historians to reflect on the annotation, encoding, and modeling processes through visualization, interaction, and data mining mechanisms.
+For example, outlier detection and named entity disambiguation algorithms could be applied to highlight wrong annotations and mentions which are likely referring to the same entity to practitioners in their annotation process.
+Concerning the network creation step (\qone), I proposed to model historical documents as \modelplural to have a good balance between expressiveness and \simplicity, while satisfying \traceability and \reality properties.
+Since documents are explicitly represented as nodes in this model, the network entities are directly traceable to the original sources, thus enabling to reflect on the annotations while following socio-historical analyses with the same tools.
+
+%In \autoref{ch:hsna-process-and-network-modeling}, I addressed \qone by proposing to model historical documents as \modelplural to have a good balance between expressiveness and \simplicity, while satisfying \traceability and \reality properties.
+%More globally, I formalized the \hsna process from collaborations with social historians, into five steps: textual sources acquisition, digitization, annotation, network creation, and network visualization/analysis (see \autoref{fig:conclu-processVA}); I identified recurring pitfalls for each step, such as wrongly chosen network models or named entity recognition errors.
+%The use of \va on the whole process could limit the introduction of such pitfalls by allowing historians to reflect on the annotation, encoding, and modeling processes through visualization, interaction, and data mining mechanisms.
+%For example, outlier detection and named entity disambiguation algorithms could be applied to highlight wrong annotations and entities which are likely the same to practitioners in their annotation process.
+%The identification of pitfalls and continuous discussions with practitioners led to the insight that \va tools, instead of solely focusing on the final analysis, could support the whole workflow to limit the introduction of bias, errors, and open more exploration path starting at the collection of documents.
+%\autoref{fig:conclu-processVA} shows a schematic representation of potential place of \va in the \hsna process.
+%the definition of the \traceability, \simplicity, and \reality properties.
+
+Leveraging the proposed network model, I presented the \combinet system in \autoref{ch:combinet} as a proof-of-concept to address \qtwo.
 By proposing easy-to-use exploration, visual querying, and comparison interactions on a model encoding all different dimensions of the content of historical documents (roles, social structure, location, time, other attributes), social historians were able to 1) reflect on their annotation process and potentially detect errors, while 2) answering complex historical questions on the specificities and differences of individuals and groups of interest.
 Finally, I proposed PK-Clustering in \autoref{ch:pk-clustering}, a new method for clustering based on the prior knowledge of social scientists, the consensus of automatic algorithms, and interactions for exploration.
-This system gives a concrete proposition to address \qthree by providing a good balance between user control and data mining automatic capabilities while maintaining \emph{traceability}, \emph{simplicity}, and \emph{document reality} properties, through detailed reports of interactions leading to the clustering, simple interactions mechanisms, and the use of \modelplural as a data model.
+This system gives a concrete proposition to address \qthree by providing a good balance between user control and data mining automatic capabilities while maintaining \traceability, \simplicity, and \reality properties, through detailed reports of interactions leading to the clustering, simple interactions mechanisms, and the use of \modelplural as a data model.
 These two systems demonstrate that \va tools can support social historians in their overall workflow, and increase the traceability and control of the process while leveraging complex representations and algorithmic power.
 While \combinet and \pkclustering have several limitations that I discuss in \autoref{sec:discussion}, I believe they lead the way towards better integration of \va tools to support social historians in their overall workflow, with a better level of simplicity and usability than state of the art systems.
 Below, I discuss the perspective of new \va tools for \hsna, social history, and more globally the future of Digital Humanities in \autoref{sec:perspectives}.
@@ -33,7 +52,7 @@ Below, I discuss the perspective of new \va tools for \hsna, social history, and
 
 
 %into five steps: textual sources acquisition, digitization, annotation, network creation, and network visualization/analysis, and identified recurring pitfalls for each step, such as wrongly chosen network models or named entity recognition errors.
-%To limit recurring pitfalls, we identified three properties that \va tools supporting \hsna should satisfy: \emph{traceability}, \emph{simplicity}, and \emph{document reality}
+%To limit recurring pitfalls, we identified three properties that \va tools supporting \hsna should satisfy: \traceability, \simplicity, and \reality
 
 
 %For this goal, I first defined the HSNA process from data acquisition to visual analysis, to define recurring pitfalls we encountered with collaborations with social historians.
@@ -50,7 +69,7 @@ Below, I discuss the perspective of new \va tools for \hsna, social history, and
 
 I discuss in this section different limitations of my work:
 
-\noindent\textbf{Network modeling.} I proposed with my collaborators to model historical documents using \modelplural, as it allows to satisfy \emph{traceability}, \emph{simplicity}, and \emph{document reality} properties. However, this type of modeling has some limitations in 1) the type of sources it can model, 2) how persons are represented in the network, and 3) how uncertainty is managed.
+\noindent\textbf{Network modeling.} I proposed with my collaborators to model historical documents using \modelplural, as it allows to satisfy \traceability, \simplicity, and \reality properties. However, this type of modeling has some limitations in 1) the type of sources it can model, 2) how persons are represented in the network, and 3) how uncertainty is managed.
 We elaborated this model from collaborations with several social historians who study semi-structured documents, such as marriage acts, birth certificates, business contracts, construction documents, census, and migration forms.
 These types of documents have a consistent structure and mention people in a restricted number of relationships (spouses and witnesses for marriages, parents and child for birth certificates, etc.) that can be encoded as roles in a consistent manner.
 However, other types of textual documents can be leveraged by historians, which can be less structured or without any predefined structure at all.
@@ -135,9 +154,9 @@ However, we could think about encoding schemes and data models which encapsulate
 I think this is a promising research direction, which has not stirred a lot of interest until now.
 
 
-%TODO: maybe write better in the future
+%TODO: maybe write more in the future
 \noindent\textbf{Dynamic Layouts and Clustering.} As discussed in \autoref{sec:discussion}, temporality is one of the key dimensions of historical networks modeled as \modelplural.
-Several layouts have been proposed to show the time aspect of dynamic graphs\cite{brandesAsymmetricRelationsLongitudinal2011, VisualizingDynamicNetworks} and bipartite dynamic graphs (which can be seen as dynamic hypergraphs), such as PAOHVIS \cite{valdiviaAnalyzingDynamicHypergraphs2021}, which is the layout PK-Clustering is based on.
+Several layouts have been proposed to show the time aspect of dynamic graphs\cite{brandesAsymmetricRelationsLongitudinal2011, bachVisualizingDynamicNetworks2014} and bipartite dynamic graphs (which can be seen as dynamic hypergraphs), such as PAOHVIS \cite{valdiviaAnalyzingDynamicHypergraphs2021}, which is the layout PK-Clustering is based on.
 However, this type of layout does not allow us to see the attributes of persons and documents, nor the geolocation of entities.
 Moreover, most proposed layouts do not scale beyond approximately one hundred nodes.
 One way to solve this scalability problem is to aggregate the network, for example using dynamic clustering.
@@ -217,17 +236,36 @@ This constitutes an interesting research direction as it would allow social hist
 
 
 To conclude, the goal of this thesis was to provide answers and directions towards the question of how \va, and more globally computer science, can help and support historians in the analyses they want to make.
-Towards this goal, I first formalized the current \hsna process from collaborations and discussions, defined three properties tools supporting this process should satisfy (\emph{traceability}, \emph{simplicity}, and \emph{document reality)}, and proposed two interfaces showcasing visualization and interactions mechanisms to support social historian in their workflow, leveraging historical documents modeled as \modelplural.
-\combinet allows users to explore this data model, reflect on annotations, reveal specific facets of the data, and globally highlight and compare specific groups and behaviors to either detect erroneous patterns or answer socio-historical questions.
-\pkclustering aims at integrating better the clustering task in the social historians' workflow, by providing a mixed-initiative approach for clustering on \modelplural leveraging the prior knowledge of practitioners, the consensus of automatic algorithms, and exploration capabilities.
+Towards this goal, I first formalized the current \hsna process from collaborations and discussions, defined three properties tools supporting this process should satisfy (\traceability, \simplicity, and \emph{document reality)}, and proposed two interfaces showcasing visualization and interactions mechanisms to support social historians in their workflow, leveraging historical documents modeled as \modelplural.
+This network model explicitly represent the documents and the persons as nodes, thus enabling to represent complex social relationships as they are mentioned without distortion and trace back networks' entities to the documents, while keeping a good level of simplicity in regard to more complex models.
+\combinet allows users to explore this data model, and, therefore, reflect on their annotations, reveal specific facets of the data, and globally highlight and compare specific groups and behaviors to either detect erroneous patterns or answer socio-historical questions.
+\pkclustering aims at integrating better the clustering task in the social historians' workflow, by providing a mixed-initiative approach for clustering on \modelplural, leveraging the prior knowledge of practitioners, the consensus of automatic algorithms, and exploration capabilities.
 Both systems have been validated with real use cases, and aim at providing simple-to-use yet expressive tools, which let historians at the center of the analysis loop.
 Indeed, the use of quantitative methods in history and more globally the humanities has led to many expectations in the last 50 years, but also many disappointments due to usability and interpretability issues.
-More recently, with the rise of popularity of machine learning, many propositions are made towards automatic inspection and extraction of historical data.
-Yet, much criticism emerged towards those methods, as they can easily lead to disembodied work without a deep understanding of historical content and phenomena.
+More recently, with the rise of popularity of machine learning, many propositions are made towards automatic inspection, extraction, and analysis of historical data based on artificial intelligence.
+Yet, similar criticisms of the beginnings of quantitative history emerged towards those methods, as they can easily lead to disembodied work in regard of the complexity of the content of historical documents.
+%Yet, much criticism emerged towards those methods, as they can easily lead to disembodied work without a deep understanding of historical content and phenomena.
 Moreover, historians actually regard highly the inspection process of the sources.
-As one historian told me, ``What many people promoting artificial intelligence to automatically read and inspect historical sources do not understand, is that this part is actually the most fun aspect of the historical work, and why many of us do it.''
-Computer-supported tools for digital humanities should therefore support practitioners with the help of interactive visualization and quantitative-supported suggestions, instead of only providing automatic uninterpretable results.
-Propositions of this work aim in this direction, which I think is where lies the future of digital humanities as a field, \ie methods, and systems that social scientists can use easily with low friction and entry barriers, which provide data-supported suggestions to help the decision-making process of scientists through visualization and interaction.
+As one historian mentioned, ``What many people promoting artificial intelligence to automatically read and inspect historical sources do not understand, is that this part is actually the most fun aspect of the historical work, and why many of us do it.''
+Computer-supported tools for digital humanities should therefore support practitioners with interactive visualizations and quantitative-supported suggestions, instead of only providing automatic hard-to-interpret results.
+
+It is the responsibility of the computer science community to focus on usability and users' control to produce tools adopted by the wide and diverse audience of digital humanities.
+In contrast, social scientists still have to do the work for learning basic computer-science concepts and techniques such as file formats, data models, data encoding, and types (strings, integer), to be able to format their data at least basically to import it in computer-supported tools, and have more thorough discussions with computer scientists on their needs.
+To support the adoption of such tools by the humanities, both communities have to connect in meetups, allowing social scientists to share their workflows, research questions, and problematic, and computer scientists to guide them on the preparation, managing, and computational analysis of their data.
+%I think this collaborative vision constitute a fertile ground for the production of methods and systems
+I think this collaborative vision constitute a fertile ground for the production of computer-supported systems with low entry barriers which place social scientists at the center of the analysis loop by providing data-supported suggestions through visualization and interaction mechanisms.
+
+%that social scientists can use easily with low entry barriers and which provide data-supported suggestions to help the analysis process of social scientists through visualization, interaction, and in control of their analysis choices.
+
+%Propositions of this work aim in this direction, which I think is where lies the future of digital humanities as a field, \ie methods, and systems that social scientists can use easily with low friction and entry barriers, which provide data-supported suggestions to help the decision-making process of scientists through visualization and interaction.
+
+% TODO
+%Guidelines
+%Historians:
+%    Learn basic computer-science complex: files formats, data processing, basic tooling
+%Computer Scientists:
+%    Make more usable tools, with more control and less friction ()
+
 
 
 

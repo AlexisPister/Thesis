@@ -1,12 +1,12 @@
 \chapter{ComBiNet: Visual Query and Comparison of Bipartite Dynamic Multivariate Networks with Roles}\label{ch:combinet}
 \minitoc
 
-In the previous chapter \autoref{ch:hsna-process-and-network-modeling}, I showed that \modelplural allow to model well historical documents, with \emph{traceability}, \emph{document reality}, and \emph{simplicity} properties.
+In the previous chapter \autoref{ch:hsna-process-and-network-modeling}, I showed that \modelplural allow to model well historical documents, with \traceability, \reality, and \simplicity properties.
 However, no visual tools currently exist to specifically explore and manipulate this type of data.
 In this chapter, I propose a \va interface aimed at exploring historical documents modeled as \modelplural, for historians to be able to reflect on their data and encoding and to follow in depth-analysis.
 I answer \textbf{Q2} by analyzing tasks and questions historians have on their data and providing interaction mechanisms that would allow them to apply specific views and extraction, find errors and reflect on the annotations, and answer their high-level historical question through visual queries and comparison.
 
-\paperbox{This chapter is an updated version of an article currently submitted to the journal Computer Graphics Forum (fast track), and a poster presented at the conference EuroVis 2022 \cite{pisterVisualQueriesBipartite2022}. It was a joint work with my advisors Christophe Prieur and Jean-Daniel Fekete. I did the development of the interface and led the discussions, evaluation, and writing of the paper.}
+\paperbox{This chapter is an extended version of an \rev{article accepted with minor revisions} to the journal Computer Graphics Forum and a poster presented at the conference EuroVis 2022 \cite{pisterVisualQueriesBipartite2022}. It was a joint work with my advisors Christophe Prieur and Jean-Daniel Fekete. I did the development of the interface and led the discussions, evaluation, and writing of the paper.}
 
 \section{Context}
 
@@ -26,12 +26,12 @@ These are often essential to understanding underlying social phenomena, as time,
 For these reasons, as we discussed in \autoref{ch:hsna-process-and-network-modeling}, historical sources and the underlying social events they refer to can be modeled well by \emph{bipartite} with \emph{roles},  \emph{multivariate} \emph{dynamic} networks. \emph{Bipartite} means that both persons and documents (or events, that are often witnessed by physical documents) are modeled as typed nodes. \emph{Multivariate} means that the nodes and links can carry additional attributes. \emph{Dynamic} means that time is a mandatory attribute of documents.
 Furthermore, a link created between a person's node and a document's node (when the person is mentioned in the document), has an associated link type that models the \emph{role} of the person in the document/event.
 Additionally, documents can optionally carry a geographical location.
-This model unifies several social network models and allows the representation of historical documents with \emph{simplicity}, \emph{traceability}, and \emph{document reality}, \ie the relationships appear as they are mentioned in the documents without distortions implied by projections\cite{cristofoliAuxSourcesGrands2008}.
+This model unifies several social network models and allows the representation of historical documents with \simplicity, \traceability, and \reality, \ie the relationships appear as they are mentioned in the documents without distortions implied by projections\cite{cristofoliAuxSourcesGrands2008}.
 
 More complicated models exist such as knowledge graphs\cite{opitzInductionLargeScaleKnowledge2018}, which are very expressive but hard to manipulate, especially for social scientists.
 In contrast, most visual and analytics tools widely used by social scientists such as Gephi~\cite{Gephi} and NodeXL~\cite{NodeXL} enforce too simplistic network models and only provide limited interactions for exploring the network data, even if they provide the computation of several network measures.
 This results in many social historians ending their analysis by plotting the network using a node-link diagram---which is hard to read with dense networks---, and identifying the most important actors with the help of centrality measures\cite{lemercierQuantitativeMethodsHumanities2019}.
-Lemercier \& al describe this phenomenon the following: ``Network graphs of the “spaghetti monster” variety are a case in point. Often, in historical papers, they are used to show that a network is dense (and that the author has mastered the new technology). The narrative then comments on the individuals identified as central in the network. This approach can indeed be quite interesting, but it is hardly the only possible use for network analysis.\cite{lemercierQuantitativeMethodsHumanities2019}''.
+Lemercier et al. describe this phenomenon the following: ``Network graphs of the “spaghetti monster” variety are a case in point. Often, in historical papers, they are used to show that a network is dense (and that the author has mastered the new technology). The narrative then comments on the individuals identified as central in the network. This approach can indeed be quite interesting, but it is hardly the only possible use for network analysis.\cite{lemercierQuantitativeMethodsHumanities2019}''.
 \va tools guiding social scientists towards more complex exploration with the help of interaction mechanisms are therefore needed.
 % Contrary to the early taxonomy of tasks on graphs~\cite{lee:hal-00851754}, with the data model we use, it becomes impossible to characterize a finite set of simple tasks to support, along with their associated visual representations and interactions techniques.
 
@@ -587,7 +587,7 @@ It is also useful for queries with user-defined time order constraints as in \au
 
 The attribute plots are exportable in SVG, while the tables are exportable in CSV, pdf, or directly in the clipboard.
 %The tables are exportable in csv, pdf, or directly in the clipboard while the attribute plots are exportable in SVG.
-This was a demand of our collaborators, who can share the results of their queries easily or use them in another software or tool, according to the \emph{traceability} principle.
+This was a demand of our collaborators, who can share the results of their queries easily or use them in another software or tool, according to the \traceability principle.
 
 \begin{figure}[!ht]
     \centering
@@ -631,7 +631,7 @@ If a new change is made on the query from a previous state, a new branch is crea
 %     \caption{(a) Provenance tree to answer question 2 of collaboration \pascal: left branch lead to Torino documents (the node is labeled as A) while right branch lead to surrounding documents (the node is labeled as B). }\label{fig:combinet-trees}
      \caption{Provenance tree to answer question 2 of collaboration \pascal: left branch leads to Torino documents (the node is labeled as A) while right branch leads to surrounding documents (the node is labeled as B). The user hovers over one node, revealing a tooltip that shows the visualization of the node's query..}\label{fig:combinet-trees}
  \end{figure}
-The whole provenance tree is exportable and importable in JSON format, allowing to 1) start a session from a previous exploration and not from scratch, 2) share exploration sessions and results with others, and 3) provide a trace of the exploration leading to a potentially interesting result, hence providing \emph{traceability} in the results.
+The whole provenance tree is exportable and importable in JSON format, allowing to 1) start a session from a previous exploration and not from scratch, 2) share exploration sessions and results with others, and 3) provide a trace of the exploration leading to a potentially interesting result, hence providing \traceability in the results.
 
 
 \subsection{Comparison}
@@ -1072,7 +1072,7 @@ Bipartite networks are also used in various other disciplines, such as biology~\
 I presented in this chapter \name, a \va system for exploring social networks modeled from historical textual sources, primarily aimed at social historians.
 It relies on modeling documents as bipartite, multivariate, dynamic, geolocated social networks where persons are linked to documents or events using typed links that express roles.
 % We have successfully applied our data model to a wide variety of historical, sociological, genealogical datasets, and publication data.
-With this data model, \name let historians explore a concrete representation of their annotated documents (\ie the model expresses the \emph{reality} of the documents, without the use of projections or distortions) with \emph{traceability} to the original sources and \emph{simplicity}.
+With this data model, \name let historians explore a concrete representation of their annotated documents (\ie the model expresses the \emph{reality} of the documents, without the use of projections or distortions) with \traceability to the original sources and \simplicity.
 Historians can hence reflect on their encoding process (step 3 of the \hsna workflow as described in \autoref{ch:hsna-process-and-network-modeling}) and answer their socio-historical questions using 1) dynamic queries on the network structure and attributes to highlight groups of interests (step 4 of the \hsna) or erroneous patterns and 2) visual comparisons to contrast selected groups according to their structure, location, time, or any other attribute.
 % \name supports dynamic queries that are translated in textual queries in the Cypher language, providing a mixed modality to query data.
 The results can be visualized as a bipartite node-link diagram, a geographical map, graph measures, and distributions of values for the attributes.
@@ -1088,7 +1088,7 @@ With the same representation, they were able to operate explorations and analyse
 Using these mechanisms, social scientists performed visual exploratory analyses of their network based on topological and attribute descriptions and comparisons of subgroups of interests---between them or the overall network.
 This methodology allows them to either ground or refute their hypotheses in network measures and attribute distributions, or to generate new ones from new insight revealed thanks to the exploratory and interaction mechanisms.
 
-We believe \name leads the way toward a new generation of highly interactive exploration tools applicable to wrangle and analyze a wide variety of real social networks modeled from textual sources, with a focus on the \emph{reality} of the documents, \emph{traceability} of the network and results,  and \emph{simplicity} of use, which are essential for historical work.
+We believe \name leads the way toward a new generation of highly interactive exploration tools applicable to wrangle and analyze a wide variety of real social networks modeled from textual sources, with a focus on the \textsl{reality} of the documents, \traceability of the network and results,  and \simplicity of use, which are essential for historical work.
 
 For future work, \name could be extended to support more \sna measures and computations such as clustering; it would create a new attribute containing a cluster identifier.
 The interface currently proposes two layouts based on the topology and the geolocations of the entities.

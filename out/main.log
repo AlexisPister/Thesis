@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.6.11)  12 OCT 2022 14:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.6.11)  13 OCT 2022 17:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -918,25 +918,12 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
-s
-\f@nch@headwidth=\skip128
-\f@nch@O@elh=\skip129
-\f@nch@O@erh=\skip130
-\f@nch@O@olh=\skip131
-\f@nch@O@orh=\skip132
-\f@nch@O@elf=\skip133
-\f@nch@O@erf=\skip134
-\f@nch@O@olf=\skip135
-\f@nch@O@orf=\skip136
-)
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
 (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip137
+\labelindent=\skip128
 \enit@outerparindent=\dimen298
 \enit@toks=\toks41
 \enit@inbox=\box115
@@ -1034,9 +1021,9 @@ Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/sttools/flushend.sty
 Package: flushend 2017/03/27 v3.3 Balancing columns in twocolumn mode
-\flushend@@lastskip@a=\skip138
-\flushend@@lastskip@b=\skip139
-\flushend@@lastskip@c=\skip140
+\flushend@@lastskip@a=\skip129
+\flushend@@lastskip@b=\skip130
+\flushend@@lastskip@c=\skip131
 \flushend@@penalty@a=\count346
 \flushend@@lastkern@a=\dimen317
 \var@@temp@spread=\dimen318
@@ -1098,12 +1085,12 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 Package: graphbox 2018/01/17 v1.1 extension for graphicx to adjust containing b
 ox
 \Gin@box@box=\box126
-\Gin@box@width=\skip141
-\Gin@box@height=\skip142
-\Gin@box@raise=\skip143
-\Gin@box@hspace=\skip144
-\Gin@box@bwidth=\skip145
-\Gin@box@bheight=\skip146
+\Gin@box@width=\skip132
+\Gin@box@height=\skip133
+\Gin@box@raise=\skip134
+\Gin@box@hspace=\skip135
+\Gin@box@bwidth=\skip136
+\Gin@box@bheight=\skip137
 )
 (/usr/share/texlive/texmf-dist/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 302.
@@ -1251,8 +1238,8 @@ Package: mtcmess 2006/03/14
 Package minitoc Info: I0001
 (minitoc)             *** minitoc package, version 62 ***.
 \tf@mtc=\write5
-\mtcindent=\skip147
-\mtcskipamount=\skip148
+\mtcindent=\skip138
+\mtcskipamount=\skip139
 Package minitoc Info: I0005
 (minitoc)             compatible with hyperref.
 Package minitoc Info: I0023
@@ -1283,7 +1270,7 @@ Package minitoc Info: I0031
 \c@minitocdepth=\count351
 \c@ptc=\count352
 \c@parttocdepth=\count353
-\ptcindent=\skip149
+\ptcindent=\skip140
 Package minitoc Info: I0010
 (minitoc)             The english language is selected.
 (minitoc)              on input line 4910.
@@ -1300,13 +1287,31 @@ Package: doi 2018/09/09 handle doi numbers
 (/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
 \everycr=\toks48
-\minrowclearance=\skip150
+\minrowclearance=\skip141
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip142
+\f@nch@O@elh=\skip143
+\f@nch@O@erh=\skip144
+\f@nch@O@olh=\skip145
+\f@nch@O@orh=\skip146
+\f@nch@O@elf=\skip147
+\f@nch@O@erf=\skip148
+\f@nch@O@olf=\skip149
+\f@nch@O@orf=\skip150
 ) (./abstract.tex))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
- (/home/alexis/Documents/Thesis/out/main.aux
+
+
+LaTeX Warning: Unused global option(s):
+    [headings=small].
+
+(/home/alexis/Documents/Thesis/out/main.aux
 (/home/alexis/Documents/Thesis/out/Aknowledgments.aux)
 (/home/alexis/Documents/Thesis/out/chapters/Publications.aux)
 (/home/alexis/Documents/Thesis/out/chapters/Introduction.aux)
@@ -1317,46 +1322,46 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
 (/home/alexis/Documents/Thesis/out/chapters/Conclusion.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for LS1/stix2/m/n on input line 37.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for LS1/stix2/m/n on input line 35.
 LaTeX Font Info:    Trying to load font information for LS1+stix2 on input line
- 37.
+ 35.
 
 (/usr/share/texlive/texmf-dist/tex/latex/stix2/ls1stix2.fd
 File: ls1stix2.fd 2018/04/02 v2.0.0-latex stix2 LS1 font definitions
 )
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for LS2/stix2/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for LS2/stix2/m/n on input line 35.
 LaTeX Font Info:    Trying to load font information for LS2+stix2 on input line
- 37.
+ 35.
 
 (/usr/share/texlive/texmf-dist/tex/latex/stix2/ls2stix2.fd
 File: ls2stix2.fd 2018/04/02 v2.0.0-latex stix2 LS2 font definitions
 )
-LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    ... okay on input line 35.
 LaTeX Font Info:    Trying to load font information for T1+opensans-TLF on inpu
-t line 37.
+t line 35.
 
 (/usr/share/texlive/texmf-dist/tex/latex/opensans/T1opensans-TLF.fd
 File: T1opensans-TLF.fd 2019/06/24 Font definitions for T1/opensans-TLF.
 )
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 37.
+(Font)              scaled to size 11.39996pt on input line 35.
 \AtBeginShipoutBox=\box130
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -1416,7 +1421,7 @@ ABD: EveryShipout initializing macros
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 37.
+Package hyperref Info: Link coloring ON on input line 35.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -1428,9 +1433,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count360
 )
-LaTeX Info: Redefining \ref on input line 37.
-LaTeX Info: Redefining \pageref on input line 37.
-LaTeX Info: Redefining \nameref on input line 37.
+LaTeX Info: Redefining \ref on input line 35.
+LaTeX Info: Redefining \pageref on input line 35.
+LaTeX Info: Redefining \nameref on input line 35.
 
 (/home/alexis/Documents/Thesis/out/main.out)
 (/home/alexis/Documents/Thesis/out/main.out)
@@ -1440,18 +1445,18 @@ LaTeX Info: Redefining \nameref on input line 37.
 \symgns@font=\mathgroup14
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
 (Font)                  TS1/opensans-TLF/m/n --> TS1/opensans-TLF/b/n on input 
-line 37.
-Package gensymb Info: Math companion symbols declared on input line 37.
-LaTeX Info: Redefining \degree on input line 37.
-LaTeX Info: Redefining \celsius on input line 37.
+line 35.
+Package gensymb Info: Math companion symbols declared on input line 35.
+LaTeX Info: Redefining \degree on input line 35.
+LaTeX Info: Redefining \celsius on input line 35.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 37.
-LaTeX Info: Redefining \ohm on input line 37.
-Package gensymb Info: Using \textohm for \ohm on input line 37.
-Package gensymb Info: Using \textmu for \micro on input line 37.
-LaTeX Info: Redefining \degres on input line 37.
-LaTeX Info: Redefining \dots on input line 37.
-LaTeX Info: Redefining \up on input line 37.
+erthousand on input line 35.
+LaTeX Info: Redefining \ohm on input line 35.
+Package gensymb Info: Using \textohm for \ohm on input line 35.
+Package gensymb Info: Using \textmu for \micro on input line 35.
+LaTeX Info: Redefining \degres on input line 35.
+LaTeX Info: Redefining \dots on input line 35.
+LaTeX Info: Redefining \up on input line 35.
 \c@mv@tabular=\count361
 \c@mv@boldtabular=\count362
 Package caption Info: Begin \AtBeginDocument code.
@@ -1519,107 +1524,107 @@ Package minitoc(hints) Warning: W0023
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<static/logos/Frame-ups.pdf, id=372, 303.38344pt x 849.92531pt>
+<static/logos/Frame-ups.pdf, id=71, 303.38344pt x 849.92531pt>
 File: static/logos/Frame-ups.pdf Graphic file (type pdf)
 <use static/logos/Frame-ups.pdf>
-Package pdftex.def Info: static/logos/Frame-ups.pdf  used on input line 44.
+Package pdftex.def Info: static/logos/Frame-ups.pdf  used on input line 42.
 (pdftex.def)             Requested size: 303.38269pt x 849.92323pt.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 16.41594pt on input line 54.
+(Font)              scaled to size 16.41594pt on input line 52.
 
 LaTeX Font Warning: Font shape `T1/opensans-TLF/m/sc' undefined
-(Font)              using `T1/opensans-TLF/m/n' instead on input line 54.
+(Font)              using `T1/opensans-TLF/m/n' instead on input line 52.
 
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 7
-2.
+0.
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 
 LaTeX Font Warning: Font shape `T1/cmss/m/n' in size <22> not available
-(Font)              size <20.74> substituted on input line 72.
+(Font)              size <20.74> substituted on input line 70.
 
-LaTeX Font Info:    Trying to load font information for T1+fvs on input line 82
+LaTeX Font Info:    Trying to load font information for T1+fvs on input line 80
 .
 (/usr/share/texlive/texmf-dist/tex/latex/bera/t1fvs.fd
 File: t1fvs.fd 2004/09/07 scalable font definitions for T1/fvs.
 )
 LaTeX Font Info:    Trying to load font information for LS1+stix2scr on input l
-ine 91.
+ine 89.
 
 (/usr/share/texlive/texmf-dist/tex/latex/stix2/ls1stix2scr.fd
 File: ls1stix2scr.fd 2018/04/02 v2.0.0-latex stix2 script LS1 font definitions
 )
 LaTeX Font Info:    Trying to load font information for LS2+stix2ex on input li
-ne 91.
+ne 89.
 
 (/usr/share/texlive/texmf-dist/tex/latex/stix2/ls2stix2ex.fd
 File: ls2stix2ex.fd 2018/04/02 v2.0.0-latex stix2 extentions LS2 font definitio
 ns
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 91.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 89.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 91.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 89.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for LS1+stix2frak on input 
-line 91.
+line 89.
 
 (/usr/share/texlive/texmf-dist/tex/latex/stix2/ls1stix2frak.fd
 File: ls1stix2frak.fd 2018/04/02 v2.0.0-latex stix2 fraktur LS1 font definition
 s
 )
 LaTeX Font Info:    Trying to load font information for LS1+stix2bb on input li
-ne 91.
+ne 89.
 
 (/usr/share/texlive/texmf-dist/tex/latex/stix2/ls1stix2bb.fd
 File: ls1stix2bb.fd 2018/04/02 v2.0.0-latex stix2 blackboard LS1 font definitio
 ns
 )
 LaTeX Font Info:    Trying to load font information for LS2+stix2cal on input l
-ine 91.
+ine 89.
 
 (/usr/share/texlive/texmf-dist/tex/latex/stix2/ls2stix2cal.fd
 File: ls2stix2cal.fd 2018/04/02 v2.0.0-latex stix2 calligraphic LS2 font defini
 tions
 )
 LaTeX Font Info:    Trying to load font information for LS1+stix2sf on input li
-ne 91.
+ne 89.
 
 (/usr/share/texlive/texmf-dist/tex/latex/stix2/ls1stix2sf.fd
 File: ls1stix2sf.fd 2018/04/02 v2.0.0-latex stix2 sans-serif LS1 font definitio
 ns
 )
 LaTeX Font Info:    Trying to load font information for LS2+stix2tt on input li
-ne 91.
+ne 89.
 
 (/usr/share/texlive/texmf-dist/tex/latex/stix2/ls2stix2tt.fd
 File: ls2stix2tt.fd 2018/04/02 v2.0.0-latex stix2 typewriter LS2 font definitio
 ns
 )
 LaTeX Font Info:    Trying to load font information for TS1+opensans-TLF on inp
-ut line 91.
+ut line 89.
 
 (/usr/share/texlive/texmf-dist/tex/latex/opensans/TS1opensans-TLF.fd
 File: TS1opensans-TLF.fd 2019/06/24 Font definitions for TS1/opensans-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 91.
+(Font)              scaled to size 10.40245pt on input line 89.
 LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 91.
+(Font)              scaled to size 7.59998pt on input line 89.
 LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 91.
+(Font)              scaled to size 5.69998pt on input line 89.
 LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
-(Font)              scaled to size 4.74998pt on input line 134.
+(Font)              scaled to size 4.74998pt on input line 132.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 152.
+(Font)              scaled to size 7.59998pt on input line 150.
  [1
 
 
@@ -1661,59 +1666,29 @@ df>]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for T1+rm on input line 157
+LaTeX Font Info:    Trying to load font information for T1+rm on input line 155
 .
-LaTeX Font Info:    No file T1rm.fd. on input line 157.
+LaTeX Font Info:    No file T1rm.fd. on input line 155.
 
 
 LaTeX Font Warning: Font shape `T1/rm/m/n' undefined
-(Font)              using `T1/cmr/m/n' instead on input line 157.
+(Font)              using `T1/cmr/m/n' instead on input line 155.
 
-<static/logos/logo_usp_STIC.png, id=389, 372.8475pt x 85.41pt>
+<static/logos/logo_usp_STIC.png, id=88, 372.8475pt x 85.41pt>
 File: static/logos/logo_usp_STIC.png Graphic file (type png)
 <use static/logos/logo_usp_STIC.png>
-Package pdftex.def Info: static/logos/logo_usp_STIC.png  used on input line 169
+Package pdftex.def Info: static/logos/logo_usp_STIC.png  used on input line 167
 .
 (pdftex.def)             Requested size: 304.31462pt x 69.70915pt.
-Package mdframed Info: mdframed works in twoside mode on input line 176.
-Package mdframed Info: mdframed works in twoside mode on input line 192.
+Package mdframed Info: mdframed works in twoside mode on input line 174.
+Package mdframed Info: mdframed works in twoside mode on input line 190.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 201.
+(Font)              scaled to size 10.40245pt on input line 199.
 [2
 
- <./static/logos/logo_usp_STIC.png>] [3]
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: pdftex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: twoside 
-* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
-* v-part:(T,H,B)=(113.81102pt, 617.4248pt, 113.81102pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=483.69687pt
-* \textheight=617.4248pt
-* \oddsidemargin=-15.36449pt
-* \evensidemargin=-15.36449pt
-* \topmargin=9.66724pt
-* \headheight=12.0pt
-* \headsep=19.8738pt
-* \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=88.0pt
-* \marginparsep=7.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
+ <./static/logos/logo_usp_STIC.png>]
+Package mdframed Info: Not enough space on this page on input line 199.
+ [3]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -1747,7 +1722,7 @@ LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package minitoc Info: I0024
-(minitoc)             PREPARING MINITOCS FROM main.toc on input line 223.
+(minitoc)             PREPARING MINITOCS FROM main.toc on input line 229.
 Package minitoc Info: I0033
 (minitoc)             Writing main.mtc1.
 \openout5 = `main.mtc1'.
@@ -1772,16 +1747,9 @@ Package minitoc Info: I0033
 (minitoc)             Writing main.mtc6.
 \openout5 = `main.mtc6'.
 
-\openout2 = `Aknowledgments.aux'.
 
- (./Aknowledgments.tex [4
+(/home/alexis/Documents/Thesis/out/main.toc [7
 
-
-
-
-
-] [5])
-[6] (/home/alexis/Documents/Thesis/out/main.toc [7
 
 
 
@@ -1812,7 +1780,7 @@ Overfull \hbox (0.9803pt too wide) detected at line 88
 
 
 Overfull \hbox (0.9803pt too wide) detected at line 89
- []\T1/opensans-TLF/m/n/10.95 105
+ []\T1/opensans-TLF/m/n/10.95 106
  []
 
 
@@ -1822,7 +1790,7 @@ Overfull \hbox (0.9803pt too wide) detected at line 90
 
 
 Overfull \hbox (0.9803pt too wide) detected at line 91
- []\T1/opensans-TLF/m/n/10.95 106
+ []\T1/opensans-TLF/m/n/10.95 107
  []
 
 
@@ -1837,12 +1805,12 @@ Overfull \hbox (0.9803pt too wide) detected at line 94
 
 
 Overfull \hbox (0.9803pt too wide) detected at line 95
- []\T1/opensans-TLF/m/n/10.95 112
+ []\T1/opensans-TLF/m/n/10.95 113
  []
 
 
 Overfull \hbox (0.9803pt too wide) detected at line 96
- []\T1/opensans-TLF/m/n/10.95 115
+ []\T1/opensans-TLF/m/n/10.95 116
  []
 
 )
@@ -1853,7 +1821,7 @@ Overfull \hbox (0.9803pt too wide) detected at line 96
 
 
 ] (/home/alexis/Documents/Thesis/out/main.lof
-Underfull \vbox (badness 3679) has occurred while \output is active []
+Underfull \vbox (badness 1546) has occurred while \output is active []
 
  [11]
 [12]
@@ -1885,15 +1853,25 @@ Overfull \hbox (0.9803pt too wide) detected at line 57
  []
 
 
-Overfull \hbox (0.9803pt too wide) detected at line 60
- []\T1/opensans-TLF/m/n/10.95 114
+Overfull \hbox (0.9803pt too wide) detected at line 58
+ []\T1/opensans-TLF/m/n/10.95 104
+ []
+
+[14]
+Overfull \hbox (0.9803pt too wide) detected at line 61
+ []\T1/opensans-TLF/m/n/10.95 109
+ []
+
+
+Overfull \hbox (0.9803pt too wide) detected at line 62
+ []\T1/opensans-TLF/m/n/10.95 115
  []
 
 )
 \tf@lof=\write8
 \openout8 = `main.lof'.
 
- [14] [15] [16
+ [15] [16
 
 
 ] (/home/alexis/Documents/Thesis/out/main.lot)
@@ -1943,8 +1921,15 @@ ned on input line 67.
 
 
 
-] [2]
-<static/figures/MarieBoucher-70.jpg, id=928, 1415.2875pt x 928.46875pt>
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+Make it at least 14.49998pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
+[2]
+<static/figures/MarieBoucher-70.jpg, id=683, 1415.2875pt x 928.46875pt>
 File: static/figures/MarieBoucher-70.jpg Graphic file (type jpg)
 <use static/figures/MarieBoucher-70.jpg>
 Package pdftex.def Info: static/figures/MarieBoucher-70.jpg  used on input line
@@ -1954,16 +1939,17 @@ Package pdftex.def Info: static/figures/MarieBoucher-70.jpg  used on input line
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
-[4 <./static/figures/MarieBoucher-70.jpg>]
-<static/figures/RelatedWork/padgett-Medicis.png, id=965, 1175.39125pt x 1330.97
+Underfull \vbox (badness 3058) has occurred while \output is active []
+
+ [4 <./static/figures/MarieBoucher-70.jpg>]
+<static/figures/RelatedWork/padgett-Medicis.png, id=718, 1175.39125pt x 1330.97
 25pt>
 File: static/figures/RelatedWork/padgett-Medicis.png Graphic file (type png)
 <use static/figures/RelatedWork/padgett-Medicis.png>
 Package pdftex.def Info: static/figures/RelatedWork/padgett-Medicis.png  used o
 n input line 245.
 (pdftex.def)             Requested size: 341.43436pt x 386.62202pt.
- [5 <./static/figures/RelatedWork/padgett-Medicis.png>]
-<static/figures/RelatedWork/Keim-VisualAnalytics.png, id=983, 2426.06375pt x 12
+<static/figures/RelatedWork/Keim-VisualAnalytics.png, id=727, 2426.06375pt x 12
 92.83pt>
 File: static/figures/RelatedWork/Keim-VisualAnalytics.png Graphic file (type pn
 g)
@@ -1971,26 +1957,23 @@ g)
 Package pdftex.def Info: static/figures/RelatedWork/Keim-VisualAnalytics.png  u
 sed on input line 259.
 (pdftex.def)             Requested size: 426.79134pt x 227.43225pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6 <./static/figures/RelatedWork/Keim-VisualAnalytics.png>]
-<static/figures/RelatedWork/medievalNetwork.png, id=1015, 1382.16376pt x 1353.0
-55pt>
+ [5] [6 <./static/figures/RelatedWork/padgett-Medicis.png>]
+<static/figures/RelatedWork/medievalNetwork.png, id=769, 1382.16376pt x 1353.05
+5pt>
 File: static/figures/RelatedWork/medievalNetwork.png Graphic file (type png)
 <use static/figures/RelatedWork/medievalNetwork.png>
 Package pdftex.def Info: static/figures/RelatedWork/medievalNetwork.png  used o
 n input line 306.
 (pdftex.def)             Requested size: 426.79134pt x 417.79105pt.
 
-Underfull \vbox (badness 6173) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7]
-[8 <./static/figures/RelatedWork/medievalNetwork.png>]
+ [7 <./static/figures/RelatedWork/Keim-VisualAnalytics.png>] [8 <./static/figur
+es/RelatedWork/medievalNetwork.png>]
 LaTeX Font Info:    Font shape `T1/opensans-TLF/b/n' will be
 (Font)              scaled to size 10.40245pt on input line 356.
 
-Underfull \vbox (badness 1867) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9])
 [10]
@@ -2016,15 +1999,19 @@ LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
 
 
 ]
-<static/figures/RelatedWork/BertinNetworks.png, id=1101, 713.66624pt x 1232.605
-pt>
+<static/figures/RelatedWork/BertinNetworks.png, id=857, 713.66624pt x 1232.605p
+t>
 File: static/figures/RelatedWork/BertinNetworks.png Graphic file (type png)
 <use static/figures/RelatedWork/BertinNetworks.png>
 Package pdftex.def Info: static/figures/RelatedWork/BertinNetworks.png  used on
  input line 125.
 (pdftex.def)             Requested size: 332.89671pt x 574.96097pt.
- [12] [13 <./static/figures/RelatedWork/BertinNetworks.png>]
-<static/figures/RelatedWork/Anscombe.pdf, id=1121, 948.54375pt x 632.3625pt>
+
+Underfull \vbox (badness 2922) has occurred while \output is active []
+
+ [12]
+[13 <./static/figures/RelatedWork/BertinNetworks.png>]
+<static/figures/RelatedWork/Anscombe.pdf, id=877, 948.54375pt x 632.3625pt>
 File: static/figures/RelatedWork/Anscombe.pdf Graphic file (type pdf)
 <use static/figures/RelatedWork/Anscombe.pdf>
 Package pdftex.def Info: static/figures/RelatedWork/Anscombe.pdf  used on input
@@ -2034,88 +2021,90 @@ Package pdftex.def Info: static/figures/RelatedWork/Anscombe.pdf  used on input
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [14 <./static/figures/RelatedWork/Anscombe.pdf>]
-<static/figures/RelatedWork/TULIP.png, id=1144, 2017.5375pt x 1186.4325pt>
+<static/figures/RelatedWork/TULIP.png, id=902, 2017.5375pt x 1186.4325pt>
 File: static/figures/RelatedWork/TULIP.png Graphic file (type png)
 <use static/figures/RelatedWork/TULIP.png>
 Package pdftex.def Info: static/figures/RelatedWork/TULIP.png  used on input li
 ne 178.
 (pdftex.def)             Requested size: 426.79134pt x 250.96852pt.
- [15]
-Underfull \vbox (badness 1077) has occurred while \output is active []
 
- [16 <./static/figures/RelatedWork/TULIP.png>] [17]
-<static/figures/RelatedWork/RepublicOfLetter_BenjFranklin.png, id=1201, 1760.57
-75pt x 1367.1075pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15]
+[16 <./static/figures/RelatedWork/TULIP.png>]
+Underfull \vbox (badness 7116) has occurred while \output is active []
+
+ [17]
+[18]
+<static/figures/RelatedWork/RepublicOfLetter_BenjFranklin.png, id=967, 1760.577
+5pt x 1367.1075pt>
 File: static/figures/RelatedWork/RepublicOfLetter_BenjFranklin.png Graphic file
  (type png)
 <use static/figures/RelatedWork/RepublicOfLetter_BenjFranklin.png>
 Package pdftex.def Info: static/figures/RelatedWork/RepublicOfLetter_BenjFrankl
-in.png  used on input line 309.
+in.png  used on input line 310.
 (pdftex.def)             Requested size: 426.79134pt x 331.40843pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [18]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [19]
-Underfull \vbox (badness 1888) has occurred while \output is active []
+Underfull \vbox (badness 1028) has occurred while \output is active []
 
  [20 <./static/figures/RelatedWork/RepublicOfLetter_BenjFranklin.png>]
-<static/figures/RelatedWork/Moreno-1.png, id=1243, 598.235pt x 758.835pt>
+<static/figures/RelatedWork/Moreno-1.png, id=1002, 598.235pt x 758.835pt>
 File: static/figures/RelatedWork/Moreno-1.png Graphic file (type png)
 <use static/figures/RelatedWork/Moreno-1.png>
 Package pdftex.def Info: static/figures/RelatedWork/Moreno-1.png  used on input
- line 346.
+ line 348.
 (pdftex.def)             Requested size: 192.0548pt x 243.60794pt.
-<static/figures/RelatedWork/Moreno-1_GrandJean.png, id=1244, 1003.75pt x 1003.7
+<static/figures/RelatedWork/Moreno-1_GrandJean.png, id=1003, 1003.75pt x 1003.7
 5pt>
 File: static/figures/RelatedWork/Moreno-1_GrandJean.png Graphic file (type png)
 
 <use static/figures/RelatedWork/Moreno-1_GrandJean.png>
 Package pdftex.def Info: static/figures/RelatedWork/Moreno-1_GrandJean.png  use
-d on input line 348.
+d on input line 350.
 (pdftex.def)             Requested size: 213.39566pt x 213.3944pt.
- [21] [22 <./static/figures/RelatedWork/Moreno-1_GrandJean.png> <./static/figur
-es/RelatedWork/Moreno-1.png>]
-<static/figures/RelatedWork/graphlets/triangle.pdf, id=1285, 752.8125pt x 752.8
+ [21]
+Underfull \vbox (badness 2894) has occurred while \output is active []
+
+ [22 <./static/figures/RelatedWork/Moreno-1_GrandJean.png> <./static/figures/Re
+latedWork/Moreno-1.png>]
+<static/figures/RelatedWork/graphlets/triangle.pdf, id=1044, 752.8125pt x 752.8
 125pt>
 File: static/figures/RelatedWork/graphlets/triangle.pdf Graphic file (type pdf)
 
 <use static/figures/RelatedWork/graphlets/triangle.pdf>
 Package pdftex.def Info: static/figures/RelatedWork/graphlets/triangle.pdf  use
-d on input line 401.
+d on input line 403.
 (pdftex.def)             Requested size: 11.95793pt x 11.96808pt.
-<static/figures/RelatedWork/graphlets/edge.pdf, id=1286, 752.8125pt x 752.8125p
+<static/figures/RelatedWork/graphlets/edge.pdf, id=1045, 752.8125pt x 752.8125p
 t>
 File: static/figures/RelatedWork/graphlets/edge.pdf Graphic file (type pdf)
 <use static/figures/RelatedWork/graphlets/edge.pdf>
 Package pdftex.def Info: static/figures/RelatedWork/graphlets/edge.pdf  used on
- input line 401.
+ input line 403.
 (pdftex.def)             Requested size: 11.95793pt x 11.96808pt.
 File: static/figures/RelatedWork/graphlets/triangle.pdf Graphic file (type pdf)
 
 <use static/figures/RelatedWork/graphlets/triangle.pdf>
 Package pdftex.def Info: static/figures/RelatedWork/graphlets/triangle.pdf  use
-d on input line 401.
+d on input line 403.
 (pdftex.def)             Requested size: 11.95793pt x 11.96808pt.
-<static/figures/RelatedWork/graphlets/edge2.pdf, id=1287, 752.8125pt x 752.8125
+<static/figures/RelatedWork/graphlets/edge2.pdf, id=1046, 752.8125pt x 752.8125
 pt>
 File: static/figures/RelatedWork/graphlets/edge2.pdf Graphic file (type pdf)
 <use static/figures/RelatedWork/graphlets/edge2.pdf>
 Package pdftex.def Info: static/figures/RelatedWork/graphlets/edge2.pdf  used o
-n input line 402.
+n input line 404.
 (pdftex.def)             Requested size: 11.95793pt x 11.96808pt.
-<static/figures/RelatedWork/all_graphlets_undir5.png, id=1288, 480.79625pt x 14
+<static/figures/RelatedWork/all_graphlets_undir5.png, id=1047, 480.79625pt x 14
 1.52875pt>
 File: static/figures/RelatedWork/all_graphlets_undir5.png Graphic file (type pn
 g)
 <use static/figures/RelatedWork/all_graphlets_undir5.png>
 Package pdftex.def Info: static/figures/RelatedWork/all_graphlets_undir5.png  u
-sed on input line 409.
+sed on input line 411.
 (pdftex.def)             Requested size: 426.79134pt x 125.6341pt.
 
-Underfull \vbox (badness 1496) has occurred while \output is active []
+Underfull \vbox (badness 1158) has occurred while \output is active []
 
  [23 <./static/figures/RelatedWork/all_graphlets_undir5.png> <./static/figures/
 RelatedWork/graphlets/triangle.pdf> <./static/figures/RelatedWork/graphlets/edg
@@ -2127,42 +2116,51 @@ pdfTeX warning: pdflatex (file ./static/figures/RelatedWork/graphlets/edge.pdf)
 
 pdfTeX warning: pdflatex (file ./static/figures/RelatedWork/graphlets/edge2.pdf
 ): PDF inclusion: multiple pdfs with page group included in a single page
->] [24]
-<static/figures/RelatedWork/Cicero_network.png, id=1334, 882.29625pt x 990.7012
+>]
+Underfull \vbox (badness 1178) has occurred while \output is active []
+
+ [24]
+<static/figures/RelatedWork/Cicero_network.png, id=1094, 882.29625pt x 990.7012
 5pt>
 File: static/figures/RelatedWork/Cicero_network.png Graphic file (type png)
 <use static/figures/RelatedWork/Cicero_network.png>
 Package pdftex.def Info: static/figures/RelatedWork/Cicero_network.png  used on
  input line 472.
 (pdftex.def)             Requested size: 341.43436pt x 383.3788pt.
- [25 <./static/figures/RelatedWork/Cicero_network.png>] [26]
-<static/figures/RelatedWork/Kosak-nodelinkdiagramMetrics.png, id=1378, 2052.668
+
+Underfull \vbox (badness 1043) has occurred while \output is active []
+
+ [25]
+[26 <./static/figures/RelatedWork/Cicero_network.png>] [27]
+<static/figures/RelatedWork/Kosak-nodelinkdiagramMetrics.png, id=1142, 2052.668
 75pt x 1202.4925pt>
 File: static/figures/RelatedWork/Kosak-nodelinkdiagramMetrics.png Graphic file 
 (type png)
 <use static/figures/RelatedWork/Kosak-nodelinkdiagramMetrics.png>
 Package pdftex.def Info: static/figures/RelatedWork/Kosak-nodelinkdiagramMetric
-s.png  used on input line 558.
+s.png  used on input line 560.
 (pdftex.def)             Requested size: 426.79134pt x 250.01712pt.
- [27]
-<static/figures/RelatedWork/NodeTrix.png, id=1396, 769.87625pt x 323.2075pt>
+
+Underfull \vbox (badness 1418) has occurred while \output is active []
+
+ [28 <./static/figures/RelatedWork/Kosak-nodelinkdiagramMetrics.png>]
+<static/figures/RelatedWork/NodeTrix.png, id=1161, 769.87625pt x 323.2075pt>
 File: static/figures/RelatedWork/NodeTrix.png Graphic file (type png)
 <use static/figures/RelatedWork/NodeTrix.png>
 Package pdftex.def Info: static/figures/RelatedWork/NodeTrix.png  used on input
- line 576.
+ line 578.
 (pdftex.def)             Requested size: 341.43436pt x 143.34111pt.
-
-[28 <./static/figures/RelatedWork/Kosak-nodelinkdiagramMetrics.png>]
-<static/figures/RelatedWork/vistorian.png, id=1417, 1840.8775pt x 966.61125pt>
+<static/figures/RelatedWork/vistorian.png, id=1171, 1840.8775pt x 966.61125pt>
 File: static/figures/RelatedWork/vistorian.png Graphic file (type png)
 <use static/figures/RelatedWork/vistorian.png>
 Package pdftex.def Info: static/figures/RelatedWork/vistorian.png  used on inpu
-t line 593.
+t line 595.
 (pdftex.def)             Requested size: 426.79134pt x 217.50404pt.
 LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 613.
+(Font)              scaled to size 11.39996pt on input line 615.
  [29 <./static/figures/RelatedWork/NodeTrix.png>] [30 <./static/figures/Related
-Work/vistorian.png>]) [31]
+Work/vistorian.png>])
+[31]
 \openout2 = `chapters/NetworkModels.aux'.
 
  (./chapters/NetworkModels.tex [32
@@ -2187,7 +2185,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--24
  []
 
 [33] [34] [35] [36] [37]
-<static/figures/HSNAProcess/process.pdf, id=1546, 900.36375pt x 274.02374pt>
+<static/figures/HSNAProcess/process.pdf, id=1305, 900.36375pt x 274.02374pt>
 File: static/figures/HSNAProcess/process.pdf Graphic file (type pdf)
 <use static/figures/HSNAProcess/process.pdf>
 Package pdftex.def Info: static/figures/HSNAProcess/process.pdf  used on input 
@@ -2197,13 +2195,17 @@ line 230.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [39]
-<static/figures/HSNAProcess/properties.pdf, id=1596, 430.60875pt x 308.15125pt>
+<static/figures/HSNAProcess/properties.pdf, id=1356, 430.60875pt x 308.15125pt>
 
 File: static/figures/HSNAProcess/properties.pdf Graphic file (type pdf)
 <use static/figures/HSNAProcess/properties.pdf>
 Package pdftex.def Info: static/figures/HSNAProcess/properties.pdf  used on inp
 ut line 321.
 (pdftex.def)             Requested size: 298.75262pt x 213.79538pt.
+LaTeX Font Info:    Font shape `T1/opensans-TLF/m/sl' in size <12> not availabl
+e
+(Font)              Font shape `T1/opensans-TLF/m/it' tried instead on input li
+ne 322.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/it' will be
 (Font)              scaled to size 11.39996pt on input line 322.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/it' will be
@@ -2329,7 +2331,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 1412) has occurred while \output is active []
 
  [47]
-<static/figures/HSNAProcess/documentVsEvents.pdf, id=1726, 939.28455pt x 337.90
+<static/figures/HSNAProcess/documentVsEvents.pdf, id=1485, 939.28455pt x 337.90
 851pt>
 File: static/figures/HSNAProcess/documentVsEvents.pdf Graphic file (type pdf)
 <use static/figures/HSNAProcess/documentVsEvents.pdf>
@@ -2351,6 +2353,16 @@ Underfull \vbox (badness 1019) has occurred while \output is active []
 
 ]
 Chapter 4.
+
+Overfull \hbox (19.71593pt too wide) in paragraph at lines 1--1
+\T1/cmss/bx/n/24.88 Com-par-i-son of Bi-par-tite Dy-namic
+ []
+
+
+Overfull \hbox (15.96065pt too wide) in paragraph at lines 1--1
+\T1/cmss/bx/n/24.88 Mul-ti-vari-ate Net-works with Roles| 
+ []
+
 \openout5 = `main.mtc'.
 
 \openout5 = `main.mtc'.
@@ -2368,18 +2380,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 [52]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [53]
 
-LaTeX Warning: Citation `networkx' on page 54 undefined on input line 90.
 
-[54]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Package Fancyhdr Warning: \headheight is too small (14.49998pt): 
+Make it at least 23.5282pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
 
- [55]
+[53] [54]
+
+LaTeX Warning: Citation `networkx' on page 55 undefined on input line 90.
+
+[55] [56]
 LaTeX Font Info:    Font shape `T1/opensans-TLF/b/n' will be
 (Font)              scaled to size 9.49997pt on input line 163.
 
-[56]
 
 LaTeX Font Warning: Font shape `T1/cmss/m/n' in size <7.5> not available
 (Font)              size <7> substituted on input line 191.
@@ -2473,7 +2488,7 @@ Underfull \hbox (badness 1558) in paragraph at lines 274--274
 []|  
  []
 
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/teaser/v2/teaser.png, id=1897
+<static/figures/ComBiNet/OriginalPaperFigures/CGF/teaser/v2/teaser.png, id=1658
 , 4531.17844pt x 1766.85094pt>
 File: static/figures/ComBiNet/OriginalPaperFigures/CGF/teaser/v2/teaser.png Gra
 phic file (type png)
@@ -2482,24 +2497,24 @@ Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/tease
 r/v2/teaser.png  used on input line 284.
 (pdftex.def)             Requested size: 426.79134pt x 166.39674pt.
 
-Underfull \vbox (badness 3009) has occurred while \output is active []
-
- [59]
-
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 308.
 
-[60 <./static/figures/ComBiNet/OriginalPaperFigures/CGF/teaser/v2/teaser.png>]
-[61]
-<static/figures/ComBiNet/Piemont_timeSelected.png, id=1934, 1841.88126pt x 979.
+[59] [60] [61 <./static/figures/ComBiNet/OriginalPaperFigures/CGF/teaser/v2/tea
+ser.png>]
+<static/figures/ComBiNet/Piemont_timeSelected.png, id=1696, 1841.88126pt x 979.
 66pt>
 File: static/figures/ComBiNet/Piemont_timeSelected.png Graphic file (type png)
 <use static/figures/ComBiNet/Piemont_timeSelected.png>
 Package pdftex.def Info: static/figures/ComBiNet/Piemont_timeSelected.png  used
  on input line 389.
 (pdftex.def)             Requested size: 426.79134pt x 300.91106pt.
- [62] [63 <./static/figures/ComBiNet/Piemont_timeSelected.png>]
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/links.pdf, id=1952, 383.42334
+
+Underfull \vbox (badness 2035) has occurred while \output is active []
+
+ [62]
+[63 <./static/figures/ComBiNet/Piemont_timeSelected.png>]
+<static/figures/ComBiNet/OriginalPaperFigures/CGF/links.pdf, id=1718, 383.42334
 pt x 114.86983pt>
 File: static/figures/ComBiNet/OriginalPaperFigures/CGF/links.pdf Graphic file (
 type pdf)
@@ -2507,7 +2522,8 @@ type pdf)
 Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/links
 .pdf  used on input line 436.
 (pdftex.def)             Requested size: 384.10959pt x 115.07985pt.
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/MutualGuarantors.png, id=1957
+ [64 <./static/figures/ComBiNet/OriginalPaperFigures/CGF/links.pdf>]
+<static/figures/ComBiNet/OriginalPaperFigures/CGF/MutualGuarantors.png, id=1747
 , 837.1275pt x 560.0925pt>
 File: static/figures/ComBiNet/OriginalPaperFigures/CGF/MutualGuarantors.png Gra
 phic file (type png)
@@ -2515,7 +2531,7 @@ phic file (type png)
 Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/Mutua
 lGuarantors.png  used on input line 454.
 (pdftex.def)             Requested size: 123.76662pt x 82.8052pt.
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/Turin.png, id=1958, 843.15pt 
+<static/figures/ComBiNet/OriginalPaperFigures/CGF/Turin.png, id=1748, 843.15pt 
 x 1192.455pt>
 File: static/figures/ComBiNet/OriginalPaperFigures/CGF/Turin.png Graphic file (
 type png)
@@ -2523,7 +2539,7 @@ type png)
 Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/Turin
 .png  used on input line 459.
 (pdftex.def)             Requested size: 137.4282pt x 194.36299pt.
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinoSuburbs.png, id=1959, 8
+<static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinoSuburbs.png, id=1749, 8
 41.1425pt x 1178.4025pt>
 File: static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinoSuburbs.png Graphi
 c file (type png)
@@ -2531,8 +2547,10 @@ c file (type png)
 Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/Turin
 oSuburbs.png  used on input line 460.
 (pdftex.def)             Requested size: 137.4282pt x 192.52203pt.
- [64 <./static/figures/ComBiNet/OriginalPaperFigures/CGF/links.pdf>]
-<static/figures/ComBiNet/OriginalPaperFigures/constraintRegion.png, id=1989, 81
+ [65 <./static/figures/ComBiNet/OriginalPaperFigures/CGF/MutualGuarantors.png> 
+<./static/figures/ComBiNet/OriginalPaperFigures/CGF/Turin.png> <./static/figure
+s/ComBiNet/OriginalPaperFigures/CGF/TurinoSuburbs.png>]
+<static/figures/ComBiNet/OriginalPaperFigures/constraintRegion.png, id=1762, 81
 5.045pt x 402.50375pt>
 File: static/figures/ComBiNet/OriginalPaperFigures/constraintRegion.png Graphic
  file (type png)
@@ -2540,7 +2558,7 @@ File: static/figures/ComBiNet/OriginalPaperFigures/constraintRegion.png Graphic
 Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/constrain
 tRegion.png  used on input line 511.
 (pdftex.def)             Requested size: 298.75262pt x 147.53603pt.
-<static/figures/ComBiNet/OriginalPaperFigures/nominalWidget.png, id=1990, 737.7
+<static/figures/ComBiNet/OriginalPaperFigures/nominalWidget.png, id=1763, 737.7
 5626pt x 143.53625pt>
 File: static/figures/ComBiNet/OriginalPaperFigures/nominalWidget.png Graphic fi
 le (type png)
@@ -2548,7 +2566,7 @@ le (type png)
 Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/nominalWi
 dget.png  used on input line 512.
 (pdftex.def)             Requested size: 256.0774pt x 49.8201pt.
-<static/figures/ComBiNet/OriginalPaperFigures/numericWidget.png, id=1991, 737.7
+<static/figures/ComBiNet/OriginalPaperFigures/numericWidget.png, id=1764, 737.7
 5626pt x 177.66376pt>
 File: static/figures/ComBiNet/OriginalPaperFigures/numericWidget.png Graphic fi
 le (type png)
@@ -2556,15 +2574,10 @@ le (type png)
 Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/numericWi
 dget.png  used on input line 513.
 (pdftex.def)             Requested size: 256.0774pt x 61.66545pt.
- [65 <./static/figures/ComBiNet/OriginalPaperFigures/CGF/MutualGuarantors.png> 
-<./static/figures/ComBiNet/OriginalPaperFigures/CGF/Turin.png> <./static/figure
-s/ComBiNet/OriginalPaperFigures/CGF/TurinoSuburbs.png>]
-Underfull \vbox (badness 1515) has occurred while \output is active []
-
  [66 <./static/figures/ComBiNet/OriginalPaperFigures/constraintRegion.png> <./s
 tatic/figures/ComBiNet/OriginalPaperFigures/nominalWidget.png> <./static/figure
 s/ComBiNet/OriginalPaperFigures/numericWidget.png>]
-<static/figures/ComBiNet/Piemont-mutual-guarantor-table.png, id=2014, 2756.2975
+<static/figures/ComBiNet/Piemont-mutual-guarantor-table.png, id=1778, 2756.2975
 pt x 712.6625pt>
 File: static/figures/ComBiNet/Piemont-mutual-guarantor-table.png Graphic file (
 type png)
@@ -2572,7 +2585,7 @@ type png)
 Package pdftex.def Info: static/figures/ComBiNet/Piemont-mutual-guarantor-table
 .png  used on input line 560.
 (pdftex.def)             Requested size: 426.79134pt x 110.34192pt.
-<static/figures/ComBiNet/mutualGuarantor-table-bottom.png, id=2015, 1361.085pt 
+<static/figures/ComBiNet/mutualGuarantor-table-bottom.png, id=1779, 1361.085pt 
 x 66.2475pt>
 File: static/figures/ComBiNet/mutualGuarantor-table-bottom.png Graphic file (ty
 pe png)
@@ -2580,7 +2593,7 @@ pe png)
 Package pdftex.def Info: static/figures/ComBiNet/mutualGuarantor-table-bottom.p
 ng  used on input line 561.
 (pdftex.def)             Requested size: 426.79134pt x 20.77304pt.
-<static/figures/ComBiNet/piemont-mutual-guarantors-results.png, id=2016, 2722.1
+<static/figures/ComBiNet/piemont-mutual-guarantors-results.png, id=1780, 2722.1
 7pt x 670.505pt>
 File: static/figures/ComBiNet/piemont-mutual-guarantors-results.png Graphic fil
 e (type png)
@@ -2588,19 +2601,16 @@ e (type png)
 Package pdftex.def Info: static/figures/ComBiNet/piemont-mutual-guarantors-resu
 lts.png  used on input line 566.
 (pdftex.def)             Requested size: 426.79134pt x 105.12424pt.
- [67 <./static/figures/ComBiNet/Piemont-mutual-guarantor-table.png> <./static/f
-igures/ComBiNet/mutualGuarantor-table-bottom.png> <./static/figures/ComBiNet/pi
-emont-mutual-guarantors-results.png>]
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/apprGuar.png, id=2
-027, 833.1125pt x 875.27pt>
+<static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/apprGuar.png, id=1
+783, 833.1125pt x 875.27pt>
 File: static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/apprGuar.png 
 Graphic file (type png)
 <use static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/apprGuar.png>
 Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/sanke
 yPLot/apprGuar.png  used on input line 596.
 (pdftex.def)             Requested size: 102.43225pt x 107.60548pt.
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/barchart.pdf, id=2
-028, 256.96pt x 242.9075pt>
+<static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/barchart.pdf, id=1
+784, 256.96pt x 242.9075pt>
 File: static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/barchart.pdf 
 Graphic file (type pdf)
 <use static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/barchart.pdf>
@@ -2608,7 +2618,7 @@ Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/sanke
 yPLot/barchart.pdf  used on input line 600.
 (pdftex.def)             Requested size: 128.0387pt x 121.03831pt.
 <static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/sankey_bigger.pdf,
- id=2029, 541.02126pt x 303.1325pt>
+ id=1785, 541.02126pt x 303.1325pt>
 File: static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/sankey_bigger
 .pdf Graphic file (type pdf)
 <use static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/sankey_bigger.
@@ -2616,13 +2626,11 @@ pdf>
 Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/sanke
 yPLot/sankey_bigger.pdf  used on input line 604.
 (pdftex.def)             Requested size: 187.78922pt x 105.21451pt.
-LaTeX Font Info:    Font shape `T1/opensans-TLF/m/sl' in size <12> not availabl
-e
-(Font)              Font shape `T1/opensans-TLF/m/it' tried instead on input li
-ne 609.
-LaTeX Font Info:    Font shape `T1/opensans-TLF/m/it' will be
-(Font)              scaled to size 11.39996pt on input line 609.
-<static/figures/ComBiNet/tree_tooltip_torinoquery_crop.png, id=2033, 1237.62375
+
+Underfull \vbox (badness 1038) has occurred while \output is active []
+
+ [67]
+<static/figures/ComBiNet/tree_tooltip_torinoquery_crop.png, id=1794, 1237.62375
 pt x 1373.88281pt>
 File: static/figures/ComBiNet/tree_tooltip_torinoquery_crop.png Graphic file (t
 ype png)
@@ -2631,27 +2639,30 @@ Package pdftex.def Info: static/figures/ComBiNet/tree_tooltip_torinoquery_crop.
 png  used on input line 630.
 (pdftex.def)             Requested size: 213.39566pt x 236.89023pt.
 
-[68 <./static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/apprGuar.png
-> <./static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/barchart.pdf> 
-<./static/figures/ComBiNet/OriginalPaperFigures/CGF/sankeyPLot/sankey_bigger.pd
-f
+Underfull \vbox (badness 1881) has occurred while \output is active []
+
+ [68 <./static/figures/ComBiNet/Piemont-mutual-guarantor-table.png> <./static/f
+igures/ComBiNet/mutualGuarantor-table-bottom.png> <./static/figures/ComBiNet/pi
+emont-mutual-guarantors-results.png>] [69 <./static/figures/ComBiNet/OriginalPa
+perFigures/CGF/sankeyPLot/apprGuar.png> <./static/figures/ComBiNet/OriginalPape
+rFigures/CGF/sankeyPLot/barchart.pdf> <./static/figures/ComBiNet/OriginalPaperF
+igures/CGF/sankeyPLot/sankey_bigger.pdf
 
 pdfTeX warning: pdflatex (file ./static/figures/ComBiNet/OriginalPaperFigures/C
 GF/sankeyPLot/sankey_bigger.pdf): PDF inclusion: multiple pdfs with page group 
 included in a single page
->] [69 <./static/figures/ComBiNet/tree_tooltip_torinoquery_crop.png>]
-<static/figures/ComBiNet/graph_measures_Torino_territoireandpiemont.png, id=206
-9, 787.94376pt x 372.39125pt>
+>]
+<static/figures/ComBiNet/graph_measures_Torino_territoireandpiemont.png, id=183
+4, 787.94376pt x 372.39125pt>
 File: static/figures/ComBiNet/graph_measures_Torino_territoireandpiemont.png Gr
 aphic file (type png)
 <use static/figures/ComBiNet/graph_measures_Torino_territoireandpiemont.png>
 Package pdftex.def Info: static/figures/ComBiNet/graph_measures_Torino_territoi
 reandpiemont.png  used on input line 685.
 (pdftex.def)             Requested size: 341.43436pt x 161.36383pt.
- [70 <./static/figures/ComBiNet/graph_measures_Torino_territoireandpiemont.png>
-]
+ [70 <./static/figures/ComBiNet/tree_tooltip_torinoquery_crop.png>]
 <static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/type+chantier.pdf,
- id=2077, 256.96pt x 411.5375pt>
+ id=1842, 256.96pt x 411.5375pt>
 File: static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/type+chantier
 .pdf Graphic file (type pdf)
 <use static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/type+chantier.
@@ -2659,7 +2670,7 @@ pdf>
 Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/Turin
 Plots/type+chantier.pdf  used on input line 725.
 (pdftex.def)             Requested size: 68.94098pt x 110.4129pt.
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/time.pdf, id=2078,
+<static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/time.pdf, id=1843,
  431.6125pt x 365.365pt>
 File: static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/time.pdf Grap
 hic file (type pdf)
@@ -2667,29 +2678,19 @@ hic file (type pdf)
 Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/Turin
 Plots/time.pdf  used on input line 726.
 (pdftex.def)             Requested size: 130.4331pt x 110.4129pt.
-<static/figures/ComBiNet/TorinoCompBC.pdf, id=2079, 462.72874pt x 246.9225pt>
+<static/figures/ComBiNet/TorinoCompBC.pdf, id=1844, 462.72874pt x 246.9225pt>
 File: static/figures/ComBiNet/TorinoCompBC.pdf Graphic file (type pdf)
 <use static/figures/ComBiNet/TorinoCompBC.pdf>
 Package pdftex.def Info: static/figures/ComBiNet/TorinoCompBC.pdf  used on inpu
 t line 728.
 (pdftex.def)             Requested size: 206.90567pt x 110.4129pt.
 
-Underfull \vbox (badness 1603) has occurred while \output is active []
+Underfull \vbox (badness 1189) has occurred while \output is active []
 
- [71 <./static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/type+chanti
-er.pdf> <./static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/time.pdf
-
-
-pdfTeX warning: pdflatex (file ./static/figures/ComBiNet/OriginalPaperFigures/C
-GF/TurinPlots/time.pdf): PDF inclusion: multiple pdfs with page group included 
-in a single page
-> <./static/figures/ComBiNet/TorinoCompBC.pdf
-
-pdfTeX warning: pdflatex (file ./static/figures/ComBiNet/TorinoCompBC.pdf): PDF
- inclusion: multiple pdfs with page group included in a single page
->]
+ [71 <./static/figures/ComBiNet/graph_measures_Torino_territoireandpiemont.png>
+]
 <static/figures/ComBiNet/OriginalPaperFigures/suppMaterial/menaFamilyResults.pn
-g, id=2134, 3705.845pt x 1967.35pt>
+g, id=1858, 3705.845pt x 1967.35pt>
 File: static/figures/ComBiNet/OriginalPaperFigures/suppMaterial/menaFamilyResul
 ts.png Graphic file (type png)
 <use static/figures/ComBiNet/OriginalPaperFigures/suppMaterial/menaFamilyResult
@@ -2698,7 +2699,7 @@ Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/suppMater
 ial/menaFamilyResults.png  used on input line 770.
 (pdftex.def)             Requested size: 426.79134pt x 160.93626pt.
 <static/figures/ComBiNet/OriginalPaperFigures/suppMaterial/ZoFamilyResults.png,
- id=2136, 3711.8675pt x 1957.3125pt>
+ id=1860, 3711.8675pt x 1957.3125pt>
 File: static/figures/ComBiNet/OriginalPaperFigures/suppMaterial/ZoFamilyResults
 .png Graphic file (type png)
 <use static/figures/ComBiNet/OriginalPaperFigures/suppMaterial/ZoFamilyResults.
@@ -2707,7 +2708,7 @@ Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/suppMater
 ial/ZoFamilyResults.png  used on input line 774.
 (pdftex.def)             Requested size: 426.79134pt x 158.76974pt.
 <static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/region.pdf, id
-=2138, 354.32375pt x 333.245pt>
+=1862, 354.32375pt x 333.245pt>
 File: static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/region.pd
 f Graphic file (type pdf)
 <use static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/region.pdf
@@ -2716,7 +2717,7 @@ Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZ
 oPlots/v2/region.pdf  used on input line 788.
 (pdftex.def)             Requested size: 145.10748pt x 136.47878pt.
 <static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/type-chantier.
-pdf, id=2139, 337.26pt x 333.245pt>
+pdf, id=1863, 337.26pt x 333.245pt>
 File: static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/type-chan
 tier.pdf Graphic file (type pdf)
 <use static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/type-chant
@@ -2725,7 +2726,7 @@ Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZ
 oPlots/v2/type-chantier.pdf  used on input line 789.
 (pdftex.def)             Requested size: 145.10748pt x 143.37898pt.
 <static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/materiel.pdf, 
-id=2140, 314.17375pt x 333.245pt>
+id=1864, 314.17375pt x 333.245pt>
 File: static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/materiel.
 pdf Graphic file (type pdf)
 <use static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/materiel.p
@@ -2734,7 +2735,7 @@ Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZ
 oPlots/v2/materiel.pdf  used on input line 790.
 (pdftex.def)             Requested size: 145.10748pt x 153.9149pt.
 <static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/BC_crop.pdf, i
-d=2141, 207.77625pt x 231.86626pt>
+d=1865, 207.77625pt x 231.86626pt>
 File: static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/BC_crop.p
 df Graphic file (type pdf)
 <use static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/BC_crop.pd
@@ -2748,8 +2749,24 @@ Underfull \hbox (badness 2261) in paragraph at lines 795--795
 e-tween the whole graph, the
  []
 
+[72 <./static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/type+chantie
+r.pdf> <./static/figures/ComBiNet/OriginalPaperFigures/CGF/TurinPlots/time.pdf
+
+pdfTeX warning: pdflatex (file ./static/figures/ComBiNet/OriginalPaperFigures/C
+GF/TurinPlots/time.pdf): PDF inclusion: multiple pdfs with page group included 
+in a single page
+> <./static/figures/ComBiNet/TorinoCompBC.pdf
+
+pdfTeX warning: pdflatex (file ./static/figures/ComBiNet/TorinoCompBC.pdf): PDF
+ inclusion: multiple pdfs with page group included in a single page
+>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [73 <./static/figures/ComBiNet/OriginalPaperFigures/suppMaterial/menaFamilyRes
+ults.png> <./static/figures/ComBiNet/OriginalPaperFigures/suppMaterial/ZoFamily
+Results.png>]
 <static/figures/ComBiNet/OriginalPaperFigures/suppMaterial/FrenchGenealogy.png,
- id=2145, 3683.7625pt x 1965.3425pt>
+ id=1921, 3683.7625pt x 1965.3425pt>
 File: static/figures/ComBiNet/OriginalPaperFigures/suppMaterial/FrenchGenealogy
 .png Graphic file (type png)
 <use static/figures/ComBiNet/OriginalPaperFigures/suppMaterial/FrenchGenealogy.
@@ -2757,67 +2774,6 @@ png>
 Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/suppMater
 ial/FrenchGenealogy.png  used on input line 836.
 (pdftex.def)             Requested size: 341.43436pt x 281.0437pt.
-
-Underfull \vbox (badness 2990) has occurred while \output is active []
-
- [72]
-Underfull \vbox (badness 7256) has occurred while \output is active []
-
- [73 <./static/figures/ComBiNet/OriginalPaperFigures/suppMaterial/menaFamilyRes
-ults.png> <./static/figures/ComBiNet/OriginalPaperFigures/suppMaterial/ZoFamily
-Results.png>]
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migrationQuer
-y.png, id=2161, 819.06pt x 746.79pt>
-File: static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migratio
-nQuery.png Graphic file (type png)
-<use static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migration
-Query.png>
-Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/frenc
-hGenealogy/migrationQuery.png  used on input line 859.
-(pdftex.def)             Requested size: 170.71393pt x 155.64543pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 861--861
-[]\T1/opensans-TLF/m/n/10.95 (a) |Vi-sual query to find all 3-
- []
-
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migration3.pd
-f, id=2162, 541.02126pt x 294.09875pt>
-File: static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migratio
-n3.pdf Graphic file (type pdf)
-<use static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migration
-3.pdf>
-Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/frenc
-hGenealogy/migration3.pdf  used on input line 866.
-(pdftex.def)             Requested size: 251.80531pt x 136.88014pt.
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migration_18.
-pdf, id=2165, 541.02126pt x 288.07625pt>
-File: static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migratio
-n_18.pdf Graphic file (type pdf)
-<use static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migration
-_18.pdf>
-Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/frenc
-hGenealogy/migration_18.pdf  used on input line 893.
-(pdftex.def)             Requested size: 209.1301pt x 111.35585pt.
-<static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migration_19.
-pdf, id=2166, 541.02126pt x 295.1025pt>
-File: static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migratio
-n_19.pdf Graphic file (type pdf)
-<use static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migration
-_19.pdf>
-Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/frenc
-hGenealogy/migration_19.pdf  used on input line 897.
-(pdftex.def)             Requested size: 209.1301pt x 114.07184pt.
-<static/figures/ComBiNet/BuenosAires_correction.png, id=2168, 1829.83624pt x 98
-4.67876pt>
-File: static/figures/ComBiNet/BuenosAires_correction.png Graphic file (type png
-)
-<use static/figures/ComBiNet/BuenosAires_correction.png>
-Package pdftex.def Info: static/figures/ComBiNet/BuenosAires_correction.png  us
-ed on input line 919.
-(pdftex.def)             Requested size: 426.79134pt x 229.65663pt.
-
-Underfull \vbox (badness 1968) has occurred while \output is active []
-
  [74 <./static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/region.
 pdf> <./static/figures/ComBiNet/OriginalPaperFigures/CGF/MenaZoPlots/v2/type-ch
 antier.pdf
@@ -2837,11 +2793,77 @@ f
 pdfTeX warning: pdflatex (file ./static/figures/ComBiNet/OriginalPaperFigures/C
 GF/MenaZoPlots/v2/BC_crop.pdf): PDF inclusion: multiple pdfs with page group in
 cluded in a single page
->] [75 <./static/figures/ComBiNet/OriginalPaperFigures/suppMaterial/FrenchGenea
-logy.png> <./static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/m
-igrationQuery.png> <./static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGe
-nealogy/migration3.pdf>]
-<static/figures/ComBiNet/Thesis-first-exploration.png, id=2242, 3681.755pt x 19
+>]
+<static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migrationQuer
+y.png, id=1984, 819.06pt x 746.79pt>
+File: static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migratio
+nQuery.png Graphic file (type png)
+<use static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migration
+Query.png>
+Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/frenc
+hGenealogy/migrationQuery.png  used on input line 859.
+(pdftex.def)             Requested size: 170.71393pt x 155.64543pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 861--861
+[]\T1/opensans-TLF/m/n/10.95 (a) |Vi-sual query to find all 3-
+ []
+
+<static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migration3.pd
+f, id=1985, 541.02126pt x 294.09875pt>
+File: static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migratio
+n3.pdf Graphic file (type pdf)
+<use static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migration
+3.pdf>
+Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/frenc
+hGenealogy/migration3.pdf  used on input line 866.
+(pdftex.def)             Requested size: 251.80531pt x 136.88014pt.
+<static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migration_18.
+pdf, id=1988, 541.02126pt x 288.07625pt>
+File: static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migratio
+n_18.pdf Graphic file (type pdf)
+<use static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migration
+_18.pdf>
+Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/frenc
+hGenealogy/migration_18.pdf  used on input line 893.
+(pdftex.def)             Requested size: 209.1301pt x 111.35585pt.
+<static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migration_19.
+pdf, id=1989, 541.02126pt x 295.1025pt>
+File: static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migratio
+n_19.pdf Graphic file (type pdf)
+<use static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migration
+_19.pdf>
+Package pdftex.def Info: static/figures/ComBiNet/OriginalPaperFigures/CGF/frenc
+hGenealogy/migration_19.pdf  used on input line 897.
+(pdftex.def)             Requested size: 209.1301pt x 114.07184pt.
+<static/figures/ComBiNet/BuenosAires_correction.png, id=1991, 1829.83624pt x 98
+4.67876pt>
+File: static/figures/ComBiNet/BuenosAires_correction.png Graphic file (type png
+)
+<use static/figures/ComBiNet/BuenosAires_correction.png>
+Package pdftex.def Info: static/figures/ComBiNet/BuenosAires_correction.png  us
+ed on input line 919.
+(pdftex.def)             Requested size: 426.79134pt x 229.65663pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [75 <./static/figures/ComBiNet/OriginalPaperFigures/suppMaterial/FrenchGenealo
+gy.png>]
+[76 <./static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migrati
+onQuery.png> <./static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealog
+y/migration3.pdf> <./static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGen
+ealogy/migration_18.pdf
+
+pdfTeX warning: pdflatex (file ./static/figures/ComBiNet/OriginalPaperFigures/C
+GF/frenchGenealogy/migration_18.pdf): PDF inclusion: multiple pdfs with page gr
+oup included in a single page
+> <./static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migration
+_19.pdf
+
+pdfTeX warning: pdflatex (file ./static/figures/ComBiNet/OriginalPaperFigures/C
+GF/frenchGenealogy/migration_19.pdf): PDF inclusion: multiple pdfs with page gr
+oup included in a single page
+>]
+<static/figures/ComBiNet/Thesis-first-exploration.png, id=2027, 3681.755pt x 19
 63.335pt>
 File: static/figures/ComBiNet/Thesis-first-exploration.png Graphic file (type p
 ng)
@@ -2849,18 +2871,9 @@ ng)
 Package pdftex.def Info: static/figures/ComBiNet/Thesis-first-exploration.png  
 used on input line 951.
 (pdftex.def)             Requested size: 426.79134pt x 227.59123pt.
- [76 <./static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy/migrat
-ion_18.pdf> <./static/figures/ComBiNet/OriginalPaperFigures/CGF/frenchGenealogy
-/migration_19.pdf
-
-pdfTeX warning: pdflatex (file ./static/figures/ComBiNet/OriginalPaperFigures/C
-GF/frenchGenealogy/migration_19.pdf): PDF inclusion: multiple pdfs with page gr
-oup included in a single page
->]
-Underfull \vbox (badness 6825) has occurred while \output is active []
-
- [77 <./static/figures/ComBiNet/BuenosAires_correction.png>]
-<static/figures/ComBiNet/Thesis-query01-and-results.png, id=2274, 3683.7625pt x
+ [77 <./static/figures/ComBiNet/BuenosAires_correction.png>] [78 <./static/figu
+res/ComBiNet/Thesis-first-exploration.png>]
+<static/figures/ComBiNet/Thesis-query01-and-results.png, id=2042, 3683.7625pt x
  1967.35pt>
 File: static/figures/ComBiNet/Thesis-query01-and-results.png Graphic file (type
  png)
@@ -2868,12 +2881,22 @@ File: static/figures/ComBiNet/Thesis-query01-and-results.png Graphic file (type
 Package pdftex.def Info: static/figures/ComBiNet/Thesis-query01-and-results.png
   used on input line 973.
 (pdftex.def)             Requested size: 426.79134pt x 227.90656pt.
- [78 <./static/figures/ComBiNet/Thesis-first-exploration.png>] [79 <./static/fi
-gures/ComBiNet/Thesis-query01-and-results.png>] [80] [81]) [82]
+ [79 <./static/figures/ComBiNet/Thesis-query01-and-results.png>] [80] [81]) [82
+]
 \openout2 = `chapters/PK-Clustering.aux'.
 
  (./chapters/PK-Clustering.tex
 Chapter 5.
+
+Overfull \hbox (10.03758pt too wide) in paragraph at lines 2--2
+|[]\T1/cmss/bx/n/24.88 PK-Clustering: In-te-grat-ing Prior
+ []
+
+
+Overfull \hbox (24.81444pt too wide) in paragraph at lines 2--2
+\T1/cmss/bx/n/24.88 Knowl-edge in Mixed-Initiative So-
+ []
+
 \openout5 = `main.mtc'.
 
 \openout5 = `main.mtc'.
@@ -2884,297 +2907,313 @@ Chapter 5.
 
 
 ]
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 10--11
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 11--12
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
 
-LaTeX Warning: Citation `networkx' on page 84 undefined on input line 26.
+LaTeX Warning: Citation `networkx' on page 84 undefined on input line 27.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [84]
-<static/figures/PK-Clustering/VISPaperFigures/pkprocess.png, id=2352, 2238.3625
+[84]
+<static/figures/PK-Clustering/VISPaperFigures/pkprocess.png, id=2116, 2238.3625
 pt x 1410.26875pt>
 File: static/figures/PK-Clustering/VISPaperFigures/pkprocess.png Graphic file (
 type png)
 <use static/figures/PK-Clustering/VISPaperFigures/pkprocess.png>
 Package pdftex.def Info: static/figures/PK-Clustering/VISPaperFigures/pkprocess
-.png  used on input line 77.
+.png  used on input line 78.
 (pdftex.def)             Requested size: 426.79134pt x 268.87917pt.
 
 
 LaTeX Warning: Citation `horvitzPrinciplesMixedinitiativeUser1999' on page 85 u
-ndefined on input line 90.
+ndefined on input line 91.
 
 
 LaTeX Warning: Citation `horvitzPrinciplesMixedinitiativeUser1999' on page 85 u
-ndefined on input line 90.
+ndefined on input line 91.
 
-[85] [86 <./static/figures/PK-Clustering/VISPaperFigures/pkprocess.png>]
+[85]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [86 <./static/figures/PK-Clustering/VISPaperFigures/pkprocess.png>]
 
 LaTeX Warning: Citation `alzahraniCommunityDetectionBipartite2016' on page 87 u
-ndefined on input line 136.
+ndefined on input line 137.
 
 
 LaTeX Warning: Citation `yangCommunityDetectionNetworks2013' on page 87 undefin
-ed on input line 138.
+ed on input line 139.
 
 
 LaTeX Warning: Citation `bensaidPartiallySupervisedClustering1996' on page 87 u
-ndefined on input line 148.
+ndefined on input line 149.
 
 
 LaTeX Warning: Citation `lelisSemisupervisedDensityBasedClustering2009' on page
- 87 undefined on input line 148.
+ 87 undefined on input line 149.
 
 
 LaTeX Warning: Citation `shangEfficientlyDetectingOverlapping2017' on page 87 u
-ndefined on input line 150.
+ndefined on input line 151.
 
 
-LaTeX Warning: Citation `horvitzPrinciplesMixedinitiativeUser1999' on page 87 u
-ndefined on input line 159.
+Underfull \vbox (badness 1527) has occurred while \output is active []
+
+ [87]
+
+LaTeX Warning: Citation `horvitzPrinciplesMixedinitiativeUser1999' on page 88 u
+ndefined on input line 160.
 
 
-LaTeX Warning: Citation `cookMixedinitiativeVisualAnalytics2015' on page 87 und
-efined on input line 159.
+LaTeX Warning: Citation `cookMixedinitiativeVisualAnalytics2015' on page 88 und
+efined on input line 160.
 
 
-LaTeX Warning: Citation `wallPodiumRankingData2018' on page 87 undefined on inp
-ut line 159.
+LaTeX Warning: Citation `wallPodiumRankingData2018' on page 88 undefined on inp
+ut line 160.
 
-[87]
 
 LaTeX Warning: Citation `baeInteractiveClusteringComprehensive2020' on page 88 
-undefined on input line 162.
+undefined on input line 163.
 
 
 LaTeX Warning: Citation `cavalloClustrophileGuidedVisual2019' on page 88 undefi
-ned on input line 164.
+ned on input line 165.
 
 
-LaTeX Warning: Citation `xclusim' on page 88 undefined on input line 164.
+LaTeX Warning: Citation `xclusim' on page 88 undefined on input line 165.
 
 
 LaTeX Warning: Citation `jianuHowDisplayGroup2014' on page 88 undefined on inpu
-t line 182.
+t line 183.
 
 
 LaTeX Warning: Citation `holtenHierarchicalEdgeBundles2006' on page 88 undefine
-d on input line 189.
+d on input line 190.
 
 
 LaTeX Warning: Citation `wrightSandboxAnalysisConcepts2006' on page 88 undefine
-d on input line 192.
+d on input line 193.
 
 
 LaTeX Warning: Citation `kosaraParallelSetsInteractive2006' on page 88 undefine
-d on input line 192.
+d on input line 193.
 
 
 LaTeX Warning: Citation `gratzlDominoExtractingComparing2014' on page 88 undefi
-ned on input line 192.
+ned on input line 193.
 
 
 LaTeX Warning: Citation `wangFundamentalIssuesEnsemble2008' on page 88 undefine
-d on input line 199.
+d on input line 201.
 
 
 LaTeX Warning: Citation `kumpfVisualizingConfidenceClusterBased2018' on page 88
- undefined on input line 200.
+ undefined on input line 202.
 
 
 LaTeX Warning: Citation `bonneauOverviewStateoftheArtUncertainty2014' on page 8
-8 undefined on input line 200.
+8 undefined on input line 202.
 
 
 LaTeX Warning: Citation `maceachrenVisualizingGeospatialInformation2005' on pag
-e 88 undefined on input line 200.
+e 88 undefined on input line 202.
 
+[88] [89]
+Underfull \vbox (badness 3199) has occurred while \output is active []
 
-Underfull \vbox (badness 2302) has occurred while \output is active []
-
- [88]
-[89]
-<static/figures/PK-Clustering/VISPaperFigures/Small-PK_specification.png, id=24
-20, 285.065pt x 193.72375pt>
+ [90]
+<static/figures/PK-Clustering/VISPaperFigures/Small-PK_specification.png, id=21
+93, 285.065pt x 193.72375pt>
 File: static/figures/PK-Clustering/VISPaperFigures/Small-PK_specification.png G
 raphic file (type png)
 <use static/figures/PK-Clustering/VISPaperFigures/Small-PK_specification.png>
 Package pdftex.def Info: static/figures/PK-Clustering/VISPaperFigures/Small-PK_
-specification.png  used on input line 286.
+specification.png  used on input line 288.
 (pdftex.def)             Requested size: 256.0774pt x 155.17258pt.
- [90]
-
-LaTeX Warning: Citation `dhillonCoclusteringDocumentsWords2001' on page 91 unde
-fined on input line 324.
-
-
-LaTeX Warning: Citation `guimeràModuleIdentificationBipartite2007' on page 91 
-undefined on input line 324.
-
-
-LaTeX Warning: Citation `zhouBipartiteNetworkProjection2007' on page 91 undefin
-ed on input line 324.
-
-
-LaTeX Warning: Citation `guimeràModuleIdentificationBipartite2007' on page 91 
-undefined on input line 324.
 
 [91 <./static/figures/PK-Clustering/VISPaperFigures/Small-PK_specification.png>
 ]
 
+LaTeX Warning: Citation `dhillonCoclusteringDocumentsWords2001' on page 92 unde
+fined on input line 326.
+
+
+LaTeX Warning: Citation `guimeràModuleIdentificationBipartite2007' on page 92 
+undefined on input line 326.
+
+
+LaTeX Warning: Citation `zhouBipartiteNetworkProjection2007' on page 92 undefin
+ed on input line 326.
+
+
+LaTeX Warning: Citation `guimeràModuleIdentificationBipartite2007' on page 92 
+undefined on input line 326.
+
+
 LaTeX Warning: Citation `sedlmairVisualParameterSpace2014' on page 92 undefined
- on input line 332.
+ on input line 334.
 
 
 LaTeX Warning: Citation `konovalovPartitiondistanceAssignmentProblem2005' on pa
-ge 92 undefined on input line 353.
+ge 92 undefined on input line 355.
 
+[92]
 
-LaTeX Warning: Citation `kuhnHungarianMethodAssignment1955' on page 92 undefine
-d on input line 366.
+LaTeX Warning: Citation `kuhnHungarianMethodAssignment1955' on page 93 undefine
+d on input line 368.
 
-
-Underfull \vbox (badness 8113) has occurred while \output is active []
-
- [92]
-<static/figures/PK-Clustering/VISPaperFigures/bipartiteMatching.png, id=2445, 1
+<static/figures/PK-Clustering/VISPaperFigures/bipartiteMatching.png, id=2210, 1
 132.23pt x 518.93875pt>
 File: static/figures/PK-Clustering/VISPaperFigures/bipartiteMatching.png Graphi
 c file (type png)
 <use static/figures/PK-Clustering/VISPaperFigures/bipartiteMatching.png>
 Package pdftex.def Info: static/figures/PK-Clustering/VISPaperFigures/bipartite
-Matching.png  used on input line 387.
+Matching.png  used on input line 389.
 (pdftex.def)             Requested size: 298.75262pt x 136.92422pt.
-
 [93 <./static/figures/PK-Clustering/VISPaperFigures/bipartiteMatching.png>]
-<static/figures/PK-Clustering/VISPaperFigures/matchingExampleFinal.png, id=2454
+<static/figures/PK-Clustering/VISPaperFigures/matchingExampleFinal.png, id=2221
 , 880.28876pt x 669.50125pt>
 File: static/figures/PK-Clustering/VISPaperFigures/matchingExampleFinal.png Gra
 phic file (type png)
 <use static/figures/PK-Clustering/VISPaperFigures/matchingExampleFinal.png>
 Package pdftex.def Info: static/figures/PK-Clustering/VISPaperFigures/matchingE
-xampleFinal.png  used on input line 443.
+xampleFinal.png  used on input line 445.
 (pdftex.def)             Requested size: 426.79134pt x 324.59534pt.
 
-[94 <./static/figures/PK-Clustering/VISPaperFigures/matchingExampleFinal.png>]
+[94]
 LaTeX Font Info:    Font shape `T1/opensans-TLF/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 490.
+(Font)              scaled to size 11.39996pt on input line 492.
 
 
 LaTeX Warning: Citation `lexUpSetVisualizationIntersecting2014' on page 95 unde
-fined on input line 491.
+fined on input line 493.
 
-[95]
-<static/figures/PK-Clustering/VISPaperFigures/Small-initial.png, id=2472, 992.2
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [95 <./static/figures/PK-Clustering/VISPaperFigures/matchingExampleFinal.png>]
+<static/figures/PK-Clustering/VISPaperFigures/Small-initial.png, id=2238, 992.2
 0688pt x 442.65375pt>
 File: static/figures/PK-Clustering/VISPaperFigures/Small-initial.png Graphic fi
 le (type png)
 <use static/figures/PK-Clustering/VISPaperFigures/Small-initial.png>
 Package pdftex.def Info: static/figures/PK-Clustering/VISPaperFigures/Small-ini
-tial.png  used on input line 517.
+tial.png  used on input line 519.
 (pdftex.def)             Requested size: 426.79134pt x 190.40494pt.
-<static/figures/PK-Clustering/VISPaperFigures/Small-validating.png, id=2473, 95
+<static/figures/PK-Clustering/VISPaperFigures/Small-validating.png, id=2239, 95
 5.06813pt x 441.65pt>
 File: static/figures/PK-Clustering/VISPaperFigures/Small-validating.png Graphic
  file (type png)
 <use static/figures/PK-Clustering/VISPaperFigures/Small-validating.png>
 Package pdftex.def Info: static/figures/PK-Clustering/VISPaperFigures/Small-val
-idating.png  used on input line 525.
+idating.png  used on input line 527.
 (pdftex.def)             Requested size: 426.79134pt x 197.35915pt.
- [96] [97 <./static/figures/PK-Clustering/VISPaperFigures/Small-initial.png> <.
-/static/figures/PK-Clustering/VISPaperFigures/Small-validating.png>]
-<static/figures/PK-Clustering/VISPaperFigures/Small-extraClusters-01.png, id=24
-90, 1008.4074pt x 658.6206pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [96]
+[97 <./static/figures/PK-Clustering/VISPaperFigures/Small-initial.png> <./stati
+c/figures/PK-Clustering/VISPaperFigures/Small-validating.png>] [98]
+<static/figures/PK-Clustering/VISPaperFigures/Small-extraClusters-01.png, id=22
+65, 1008.4074pt x 658.6206pt>
 File: static/figures/PK-Clustering/VISPaperFigures/Small-extraClusters-01.png G
 raphic file (type png)
 <use static/figures/PK-Clustering/VISPaperFigures/Small-extraClusters-01.png>
 Package pdftex.def Info: static/figures/PK-Clustering/VISPaperFigures/Small-ext
-raClusters-01.png  used on input line 584.
+raClusters-01.png  used on input line 586.
 (pdftex.def)             Requested size: 426.79134pt x 278.7493pt.
 
 Excluding 'comment' comment.
-<static/figures/PK-Clustering/VISPaperFigures/Small-FinalPartition.png, id=2491
+<static/figures/PK-Clustering/VISPaperFigures/Small-FinalPartition.png, id=2266
 , 1000.23688pt x 448.17438pt>
 File: static/figures/PK-Clustering/VISPaperFigures/Small-FinalPartition.png Gra
 phic file (type png)
 <use static/figures/PK-Clustering/VISPaperFigures/Small-FinalPartition.png>
 Package pdftex.def Info: static/figures/PK-Clustering/VISPaperFigures/Small-Fin
-alPartition.png  used on input line 601.
+alPartition.png  used on input line 603.
 (pdftex.def)             Requested size: 426.79134pt x 191.23409pt.
- [98] [99 <./static/figures/PK-Clustering/VISPaperFigures/Small-extraClusters-0
-1.png (PNG copy)>]
+ [99 <./static/figures/PK-Clustering/VISPaperFigures/Small-extraClusters-01.png
+ (PNG copy)>]
 
-LaTeX Warning: Citation `Dufournaud17' on page 100 undefined on input line 640.
+LaTeX Warning: Citation `Dufournaud17' on page 100 undefined on input line 642.
 
 
-<static/figures/PK-Clustering/VISPaperFigures/teaser_new.png, id=2504, 2461.195
+[100 <./static/figures/PK-Clustering/VISPaperFigures/Small-FinalPartition.png>]
+<static/figures/PK-Clustering/VISPaperFigures/teaser_new.png, id=2281, 2461.195
 pt x 912.40875pt>
 File: static/figures/PK-Clustering/VISPaperFigures/teaser_new.png Graphic file 
 (type png)
 <use static/figures/PK-Clustering/VISPaperFigures/teaser_new.png>
 Package pdftex.def Info: static/figures/PK-Clustering/VISPaperFigures/teaser_ne
-w.png  used on input line 656.
+w.png  used on input line 658.
 (pdftex.def)             Requested size: 426.79134pt x 158.21208pt.
-[100 <./static/figures/PK-Clustering/VISPaperFigures/Small-FinalPartition.png>]
-Excluding 'comment' comment. [101 <./static/figures/PK-Clustering/VISPaperFigur
-es/teaser_new.png>]
+
+Underfull \vbox (badness 1127) has occurred while \output is active []
+
+ [101 <./static/figures/PK-Clustering/VISPaperFigures/teaser_new.png>]
+Package mdframed Info: mdframed works in twoside mode on input line 686.
+Package mdframed Info: mdframed inside float 
+ mdframed uses option nobreak mdframed on input line 699.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 699.
+
+Excluding 'comment' comment.
 <static/figures/PK-Clustering/VISPaperFigures/Vast_PK_Clustering_View.png, id=2
-519, 1857.94125pt x 674.52pt>
+292, 1857.94125pt x 674.52pt>
 File: static/figures/PK-Clustering/VISPaperFigures/Vast_PK_Clustering_View.png 
 Graphic file (type png)
 <use static/figures/PK-Clustering/VISPaperFigures/Vast_PK_Clustering_View.png>
 Package pdftex.def Info: static/figures/PK-Clustering/VISPaperFigures/Vast_PK_C
-lustering_View.png  used on input line 721.
+lustering_View.png  used on input line 745.
 (pdftex.def)             Requested size: 426.79134pt x 154.94078pt.
 
 
-LaTeX Warning: Citation `VisPubData' on page 102 undefined on input line 738.
+LaTeX Warning: Citation `VisPubData' on page 102 undefined on input line 763.
 
-[102 <./static/figures/PK-Clustering/VISPaperFigures/Vast_PK_Clustering_View.pn
-g>]
+[102]
+Underfull \vbox (badness 2426) has occurred while \output is active []
+
+ [103 <./static/figures/PK-Clustering/VISPaperFigures/Vast_PK_Clustering_View.p
+ng>]
 <static/figures/PK-Clustering/VISPaperFigures/vast_some_consolidated_groups.png
-, id=2530, 1510.6839pt x 916.3836pt>
+, id=2310, 1510.6839pt x 916.3836pt>
 File: static/figures/PK-Clustering/VISPaperFigures/vast_some_consolidated_group
 s.png Graphic file (type png)
 <use static/figures/PK-Clustering/VISPaperFigures/vast_some_consolidated_groups
 .png>
 Package pdftex.def Info: static/figures/PK-Clustering/VISPaperFigures/vast_some
-_consolidated_groups.png  used on input line 760.
+_consolidated_groups.png  used on input line 785.
 (pdftex.def)             Requested size: 426.79134pt x 258.89284pt.
 
-Underfull \vbox (badness 2717) has occurred while \output is active []
-
- [103 <./static/figures/PK-Clustering/VISPaperFigures/vast_some_consolidated_gr
-oups.png (PNG copy)>] [104]
-LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
-824.
- (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmss.fd
-File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-Underfull \vbox (badness 1983) has occurred while \output is active []
+[104 <./static/figures/PK-Clustering/VISPaperFigures/vast_some_consolidated_gro
+ups.png (PNG copy)>]
+Underfull \vbox (badness 2662) has occurred while \output is active []
 
  [105]
+LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
+849.
 
-LaTeX Warning: Citation `Progressive' on page 106 undefined on input line 830.
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmss.fd
+File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+) [106]
+
+LaTeX Warning: Citation `Progressive' on page 107 undefined on input line 855.
 
 
-LaTeX Warning: Citation `keim2000pixel' on page 106 undefined on input line 834
+LaTeX Warning: Citation `keim2000pixel' on page 107 undefined on input line 859
 .
 
 
-LaTeX Warning: Citation `Jakobsen06-fisheye' on page 106 undefined on input lin
-e 836.
+LaTeX Warning: Citation `Jakobsen06-fisheye' on page 107 undefined on input lin
+e 861.
 
-[106]) [107]
+) [107]
 \openout2 = `chapters/Conclusion.aux'.
 
  (./chapters/Conclusion.tex [108
@@ -3188,80 +3227,93 @@ Chapter 6.
 
 \openout5 = `main.mtc'.
 
-(/home/alexis/Documents/Thesis/out/main.mtc6) [109]
+(/home/alexis/Documents/Thesis/out/main.mtc6)
+<static/figures/conclusion/workflowVA.pdf, id=2350, 900.36375pt x 151.56625pt>
+File: static/figures/conclusion/workflowVA.pdf Graphic file (type pdf)
+<use static/figures/conclusion/workflowVA.pdf>
+Package pdftex.def Info: static/figures/conclusion/workflowVA.pdf  used on inpu
+t line 13.
+(pdftex.def)             Requested size: 426.79134pt x 71.8467pt.
+ [109 <./static/figures/conclusion/workflowVA.pdf>]
 
 LaTeX Warning: Citation `rollingerCicerosSupplicatioUnd2017' on page 110 undefi
-ned on input line 52.
+ned on input line 76.
 
 
 LaTeX Warning: Citation `adarManagingUncertaintySocial' on page 110 undefined o
-n input line 63.
+n input line 87.
+
+
+LaTeX Warning: Citation `adarManagingUncertaintySocial' on page 110 undefined o
+n input line 87.
 
 
 LaTeX Warning: Citation `schulzProbabilisticGraphLayout2017' on page 110 undefi
-ned on input line 63.
+ned on input line 87.
 
-
-Underfull \vbox (badness 3009) has occurred while \output is active []
-
- [110]
+[110]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [111]
-Underfull \vbox (badness 1412) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [112]
 
 LaTeX Warning: Citation `brandesAsymmetricRelationsLongitudinal2011' on page 11
-3 undefined on input line 133.
+3 undefined on input line 159.
 
 
-LaTeX Warning: Citation `VisualizingDynamicNetworks' on page 113 undefined on i
-nput line 133.
+LaTeX Warning: Citation `bachVisualizingDynamicNetworks2014' on page 113 undefi
+ned on input line 159.
 
-<static/figures/conclusion/dyn2.png, id=2611, 2045.6425pt x 1295.84125pt>
+
+Underfull \vbox (badness 1412) has occurred while \output is active []
+
+ [113]
+<static/figures/conclusion/dyn2.png, id=2416, 2045.6425pt x 1295.84125pt>
 File: static/figures/conclusion/dyn2.png Graphic file (type png)
 <use static/figures/conclusion/dyn2.png>
 Package pdftex.def Info: static/figures/conclusion/dyn2.png  used on input line
- 152.
+ 178.
 (pdftex.def)             Requested size: 426.79134pt x 270.35513pt.
-<static/figures/conclusion/dyn2_region.png, id=2612, 2047.65pt x 1294.8375pt>
+<static/figures/conclusion/dyn2_region.png, id=2417, 2047.65pt x 1294.8375pt>
 File: static/figures/conclusion/dyn2_region.png Graphic file (type png)
 <use static/figures/conclusion/dyn2_region.png>
 Package pdftex.def Info: static/figures/conclusion/dyn2_region.png  used on inp
-ut line 153.
+ut line 179.
 (pdftex.def)             Requested size: 426.79134pt x 269.86911pt.
 
-LaTeX Warning: Float too large for page by 20.79942pt on input line 156.
+
+LaTeX Warning: Float too large for page by 20.79942pt on input line 182.
 
 
-LaTeX Warning: Citation `holzingerMachineLearningExplainable2018' on page 113 u
-ndefined on input line 170.
+LaTeX Warning: Citation `holzingerMachineLearningExplainable2018' on page 114 u
+ndefined on input line 196.
 
 
-LaTeX Warning: Citation `shneidermanHumanCenteredAI2022' on page 113 undefined 
-on input line 172.
+LaTeX Warning: Citation `shneidermanHumanCenteredAI2022' on page 114 undefined 
+on input line 198.
 
 
 Underfull \vbox (badness 4819) has occurred while \output is active []
 
- [113]
-[114 <./static/figures/conclusion/dyn2.png> <./static/figures/conclusion/dyn2_r
+ [114]
+[115 <./static/figures/conclusion/dyn2.png> <./static/figures/conclusion/dyn2_r
 egion.png>]
-Underfull \vbox (badness 3009) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [115])
-[116] (/home/alexis/Documents/Thesis/out/main.bbl
+ [116])
+[117] (/home/alexis/Documents/Thesis/out/main.bbl
 (/home/alexis/Documents/Thesis/out/main.brf)
 \tf@brf=\write10
 \openout10 = `main.brf'.
 
- [117
+ [118
 
 
 
-] [118] [119] [120] [121]
-[122] [123] [124] [125] [126] [127] [128] [129] [130] [131] [132] [133])
+] [119] [120] [121] [122]
+[123] [124] [125] [126] [127] [128] [129] [130] [131] [132] [133] [134])
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the main.maf file.
@@ -3273,9 +3325,9 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the main.log file.
 
-[134]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 245.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 245.
+[135]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 261.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 261.
  (/home/alexis/Documents/Thesis/out/main.aux
 (/home/alexis/Documents/Thesis/out/Aknowledgments.aux)
 (/home/alexis/Documents/Thesis/out/chapters/Publications.aux)
@@ -3285,8 +3337,8 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 245.
 (/home/alexis/Documents/Thesis/out/chapters/ComBiNet.aux)
 (/home/alexis/Documents/Thesis/out/chapters/PK-Clustering.aux)
 (/home/alexis/Documents/Thesis/out/chapters/Conclusion.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 245.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 245.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 261.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 261.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
 Package rerunfilecheck Info: File `main.brf' has not changed.
@@ -3302,50 +3354,83 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 33357 strings out of 481239
- 615036 string characters out of 5920377
- 1043918 words of memory out of 5000000
- 46978 multiletter control sequences out of 15000+600000
- 676501 words of font info for 199 fonts, out of 8000000 for 9000
+ 33309 strings out of 481239
+ 614475 string characters out of 5920377
+ 1053614 words of memory out of 5000000
+ 46921 multiletter control sequences out of 15000+600000
+ 676498 words of font info for 199 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,19n,117p,4032b,1185s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf
-/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/
-enc/dvips/opensans/a_jg4h6q.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/
-stix2/stix2-mathex.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/stix2/sti
-x2-mathcal.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/stix2/stix2-mathb
-b.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/stix2/stix2-t1.enc}{/usr/s
-hare/texlive/texmf-dist/fonts/enc/dvips/opensans/a_nvvucy.enc}{/usr/share/texli
-ve/texmf-dist/fonts/enc/dvips/stix2/stix2-mathit.enc}{/usr/share/texlive/texmf-
-dist/fonts/enc/dvips/stix2/stix2-mathrm.enc}{/usr/share/texlive/texmf-dist/font
-s/enc/dvips/stix2/stix2-mathscr.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dv
-ips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/ascender/opensans/Op
-enSans-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/ascender/opensans/Op
-enSans-Italic.pfb></usr/share/texlive/texmf-dist/fonts/type1/ascender/opensans/
-OpenSans-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/stix2/ST
-IX2Math.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/stix2/STIX2Text-B
-old.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/stix2/STIX2Text-Regul
-ar.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/bera/fvsb8a.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/bera/fvsr8a.pfb></usr/share/texmf/f
-onts/type1/public/cm-super/sfsi1095.pfb></usr/share/texmf/fonts/type1/public/cm
--super/sfsi1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss0700.pfb>
-</usr/share/texmf/fonts/type1/public/cm-super/sfss0800.pfb></usr/share/texmf/fo
-nts/type1/public/cm-super/sfss1000.pfb></usr/share/texmf/fonts/type1/public/cm-
-super/sfss1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss2488.pfb><
-/usr/share/texmf/fonts/type1/public/cm-super/sfsx0800.pfb></usr/share/texmf/fon
-ts/type1/public/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/type1/public/cm-s
-uper/sfsx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx2074.pfb></
-usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf/font
-s/type1/public/cm-super/sftt1095.pfb></usr/share/texmf/fonts/type1/public/cm-su
-per/sftt1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.p
-fb>
-Output written on /home/alexis/Documents/Thesis/out/main.pdf (154 pages, 246477
-96 bytes).
+ 68i,19n,117p,4053b,1185s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{subsubsection*.12} has been referenced but does n
+ot exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.27} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.25} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.23} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.14} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.19} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.26} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.24} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.22} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.4} has been referenced but does not 
+exist, replaced by a fixed one
+
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf/f
+onts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/en
+c/dvips/opensans/a_jg4h6q.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/st
+ix2/stix2-mathex.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/stix2/stix2
+-mathcal.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/stix2/stix2-mathbb.
+enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/stix2/stix2-t1.enc}{/usr/sha
+re/texlive/texmf-dist/fonts/enc/dvips/opensans/a_nvvucy.enc}{/usr/share/texlive
+/texmf-dist/fonts/enc/dvips/stix2/stix2-mathit.enc}{/usr/share/texlive/texmf-di
+st/fonts/enc/dvips/stix2/stix2-mathrm.enc}{/usr/share/texlive/texmf-dist/fonts/
+enc/dvips/stix2/stix2-mathscr.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvip
+s/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/ascender/opensans/Open
+Sans-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/ascender/opensans/Open
+Sans-Italic.pfb></usr/share/texlive/texmf-dist/fonts/type1/ascender/opensans/Op
+enSans-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/stix2/STIX
+2Math.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/stix2/STIX2Text-Bol
+d.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/stix2/STIX2Text-Regular
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/bera/fvsb8a.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/bera/fvsr8a.pfb></usr/share/texmf/fon
+ts/type1/public/cm-super/sfsi1095.pfb></usr/share/texmf/fonts/type1/public/cm-s
+uper/sfsi1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss0700.pfb></
+usr/share/texmf/fonts/type1/public/cm-super/sfss0800.pfb></usr/share/texmf/font
+s/type1/public/cm-super/sfss1000.pfb></usr/share/texmf/fonts/type1/public/cm-su
+per/sfss1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss2488.pfb></u
+sr/share/texmf/fonts/type1/public/cm-super/sfsx0800.pfb></usr/share/texmf/fonts
+/type1/public/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/type1/public/cm-sup
+er/sfsx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx2488.pfb></us
+r/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf/fonts/
+type1/public/cm-super/sftt1095.pfb></usr/share/texmf/fonts/type1/public/cm-supe
+r/sftt1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb
+>
+Output written on /home/alexis/Documents/Thesis/out/main.pdf (152 pages, 247118
+73 bytes).
 PDF statistics:
- 3521 PDF objects out of 3580 (max. 8388607)
- 3114 compressed objects within 32 object streams
- 571 named destinations out of 1000 (max. 500000)
- 1139 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3332 PDF objects out of 3580 (max. 8388607)
+ 2923 compressed objects within 30 object streams
+ 580 named destinations out of 1000 (max. 500000)
+ 544 words of extra memory for PDF output out of 10000 (max. 10000000)
 

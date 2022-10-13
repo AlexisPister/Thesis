@@ -61,7 +61,7 @@
 
 % \jdf{Start with a sentence that explain the goal of your thesis, \eg The goal of this thesis is to help support social historians in exploring and analyzing their sources to conduct their research.}
 The goal of this thesis is to characterize and produce visual analytics tools that can support social historians conducting research on their sources---particularly when using network methods---with a focus on exploration, analysis, traceability, and usability.
-Historical Social Network Analysis (HSNA) is a method---sometimes referred as a paradigm\cite{whiteNetworkAnalysisEthnographic2005}---followed by social historians to study sociological phenomena through the observation of relationships of actors of the past, modeled into a network.
+\textit{Historical Social Network Analysis (HSNA)} is a method---sometimes referred as a paradigm\cite{whiteNetworkAnalysisEthnographic2005}---followed by social historians to study sociological phenomena through the observation of relationships of actors of the past, modeled into a network.
 %The usage of networks as an abstraction to represent and study social relationships---such as friendships, kinship, or business ties---grew in popularity in the last 40 years \cite{freemanDevelopmentSocialNetwork2004, tabassumSocialNetworkAnalysis2018}, especially in our time when many of our digital connections and interactions take explicit network shapes\footnote{This analogy goes to the point that the term ``Social Network'' can refer both to the scientific sociological concept of the modeling of social relationships and the social media platforms such as Facebook.}.
 The usage of networks as an abstraction to represent and study social relationships---such as friendships, kinship, or business ties---grew in popularity in the last 40 years \cite{freemanDevelopmentSocialNetwork2004, tabassumSocialNetworkAnalysis2018} and constitute a powerful metaphor, especially in our time when many of our digital connections and interactions use an explicit network structure\footnote{This analogy goes to the point that the term ``Social Network'' can refer both to the sociological metaphor for social relationships and to the social media platforms such as Facebook.}.
 This approach has first been formalized in sociology under the term Social Network Analysis (SNA)\cite{freemanDevelopmentSocialNetwork2004} and is now widely used in anthropology\cite{millsSocialNetworkAnalysis2017}, geography\cite{beauguitteThéorieGraphesAnalyse2022}, and history\cite{kerschbaumerPowerNetworksProspects2015}.
@@ -304,7 +304,7 @@ The graphic do not convey much information, especially that the links represent 
 \begin{figure}[!ht]
     \centering % avoid the use of \begin{center}...\end{center} and use \centering instead (more compact)
     \includegraphics[width=1\textwidth]{static/figures/RelatedWork/medievalNetwork}
-    \caption{Node-link diagram of a medieval social network of peasants, produced with a force-directed layout, commonly used in \sna softwares. Image from \cite{bouletBatchKernelSOM2008}.}
+    \caption{Node-link diagram of a medieval social network of peasants, produced with a force-directed layout, commonly used in \sna softwares. \rev{The picture is note very informative and only reveal a semblance of community structure.} Image from \cite{bouletBatchKernelSOM2008}.}
     \label{fig:intro-medieval}
 \end{figure}
 
@@ -316,7 +316,7 @@ Usability and traceability of the results are therefore primordial in VA interfa
 
 \va could therefore help social historians using network methods for their research, first by supporting their entire workflow to help them explore, encode, correct, and model their data with simple tools and without introducing oversimplifications, but also to provide guidance and exploration mechanisms during the purely analytical step.
 For this, such interfaces should therefore 1) be simple enough to manipulate, 2) model the original documents and annotations without distortions, and 3) let historians trace back their network entities to the original sources and analytical results in explainable frameworks.
-In other terms, they should satisfy \emph{simplicity}, \emph{document reality}, and \emph{traceability} principles.
+In other terms, they should satisfy \simplicity, \reality, and \traceability principles.
 We discuss and explain them more in depth in \autoref{ch:hsna-process-and-network-modeling}.
 
 
@@ -348,13 +348,13 @@ Moreover, due to lack of usability and interaction mechanisms, social historians
 The goal of this thesis is hence to give answers to the high-level question ``How can \va support social historians in their entire \hsna process?''.
 To answer this question, I first characterize the \hsna process from start to finish from discussions and collaborations with social historians, with the goal of identifying pitfalls that regularly arise and characterizing social historians' needs.
 %From this, we give answers and directions to three questions that frequently arise in social scientists' workflows:
-From this, I give answers and directions---illustrated by proof-of-concepts---to three questions concerning the modeling aspect of \hsna and how \va and automatic tools can support social historians in different parts of their process, while satisfying \emph{traceability}, \emph{reality}, and \emph{simplicity} properties:
+From this, I give answers and directions---illustrated by proof-of-concepts---to three questions concerning the modeling aspect of \hsna and how \va and automatic tools can support social historians in different parts of their process, while satisfying \traceability, \reality, and \simplicity properties:
 
 \begin{description}
 %    \item \textbf{Q1}: How should historians collect, annotate and model their historical documents, allowing them to answer their complex questions with HSNA methods?
 %    \item \qone:  How to model relationships contained in historical documents into an analyzable network with the right balance between expressiveness and simplicity?
     \item \qone:  How to model historical documents into analyzable networks with the right balance between expressiveness and simplicity?
-    % \item \qone:  How to model historical documents into analyzable networks satisfying \emph{traceability}, \emph{reality}, and \emph{simplicity} principles?
+    % \item \qone:  How to model historical documents into analyzable networks satisfying \traceability, \emph{reality}, and \simplicity principles?
 %    \item \qtwo:  What representations and interactions are efficient for social historians to answer complex historical questions and generate insight and hypotheses, while being easy enough to navigate?
     \item \qtwo:  What representations and interactions would allow social historians answer complex historical questions---with a focus on usability?
     % \item \qtwo:  What representations and interactions would allow social historians answer complex historical questions ?
@@ -369,7 +369,7 @@ From this, I give answers and directions---illustrated by proof-of-concepts---to
 %From this, we give answers and directions to three issues that frequently arise in social scientists' workflows:
 In \autoref{ch:hsna-process-and-network-modeling}, I start by describing the \hsna workflow and identify recurring pitfalls we encountered in our collaborations with historians and answer \qone by proposing a network model for modeling historical documents.
 In the following \autoref{ch:combinet}, I give answers to \qtwo by providing a \va interface to explore \modelplural, with queries and comparison interactions with the aim of letting historians find errors easily, transform their network data, answer their questions, and generate interesting hypotheses.
-Finally, in \autoref{ch:pk-clustering}, I propose PK-Clustering, a mixed-initiative clustering technique for social scientists based on their prior knowledge, algorithmic consensus, and traceability of results, as a concrete example of a system providing answers to \qthree.
+Finally, in \autoref{ch:pk-clustering}, I propose PK-Clustering, a mixed-initiative clustering technique for social scientists based on their prior knowledge, algorithmic consensus, and traceability of results, as a concrete example of a system addressing \qthree.
 
 
 %This thesis is centered around two research questions: first, the proposition of an efficient network model to represent historical sources and follow HSNA, with associated visualizations to show and explore this type of network. Secondly, elaborating visual analytics tools specifically designed for this type of data, with the right balance between algorithmic power, simplicity and interpretability for the social scientists, who need to be in control of the analysis. We first [tell plan]

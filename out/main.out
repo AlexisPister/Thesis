@@ -19,7 +19,7 @@
 \BOOKMARK [1][-]{section.2.4}{Social Network Visualization}{chapter.2}% 19
 \BOOKMARK [2][-]{subsection.2.4.1}{Graph Drawing}{section.2.4}% 20
 \BOOKMARK [2][-]{subsection.2.4.2}{Social Network Visual Analytics}{section.2.4}% 21
-\BOOKMARK [0][-]{chapter.3}{Historical Social Network Process, Pitfalls, and Network Modeling}{}% 22
+\BOOKMARK [0][-]{chapter.3}{Historical Social Network Analysis Process, Pitfalls, and Network Modeling}{}% 22
 \BOOKMARK [1][-]{section.3.1}{Context}{chapter.3}% 23
 \BOOKMARK [1][-]{section.3.2}{Related Work}{chapter.3}% 24
 \BOOKMARK [2][-]{subsection.3.2.1}{History Methodology}{section.3.2}% 25
@@ -58,7 +58,7 @@
 \BOOKMARK [2][-]{subsection.4.6.1}{Feedback}{section.4.6}% 58
 \BOOKMARK [1][-]{section.4.7}{Discussion}{chapter.4}% 59
 \BOOKMARK [1][-]{section.4.8}{Conclusion and Future Work}{chapter.4}% 60
-\BOOKMARK [0][-]{chapter.5}{PK-Clustering}{}% 61
+\BOOKMARK [0][-]{chapter.5}{PK-Clustering: Integrating Prior Knowledge in Mixed-Initiative Social Network Clustering}{}% 61
 \BOOKMARK [1][-]{section.5.1}{Context}{chapter.5}% 62
 \BOOKMARK [1][-]{section.5.2}{Related Work}{chapter.5}% 63
 \BOOKMARK [2][-]{subsection.5.2.1}{Graph Clustering}{section.5.2}% 64

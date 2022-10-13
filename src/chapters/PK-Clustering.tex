@@ -1,4 +1,5 @@
-\chapter{PK-Clustering}\label{ch:pk-clustering}
+\chapter{PK-Clustering: Integrating Prior Knowledge in Mixed-Initiative
+Social Network Clustering}\label{ch:pk-clustering}
 \minitoc
 
 As discussed in \autoref{ch:introduction}, most \sna tools propose the computation of network measures and data mining algorithms such as clustering.
@@ -196,6 +197,7 @@ A good example of manual grouping and tagging is SandBox, which allows users to 
 
 
 \subsection{Ensemble Clustering}
+
 In the context of machine learning, an ensemble can be defined as ``a system that is constructed with a set of individual models working in parallel whose outputs are combined with a decision fusion strategy to produce a single answer for a given problem''~\cite{wangFundamentalIssuesEnsemble2008}. Several strategies exist for combining multiple partitions of items in a clustering setting~\cite{strehl2002cluster}.
 Concerning visualization research, Kumpf et al.~\cite{kumpfVisualizingConfidenceClusterBased2018} consider ensemble visualization as a sub-field of uncertainty visualization, for which some surveys exist~\cite{bonneauOverviewStateoftheArtUncertainty2014, maceachrenVisualizingGeospatialInformation2005}. They describe a novel interactive visual interface that shows the structural fluctuation of identified clusters, together with the discrepancy in cluster membership for specific instances and the incertitude in discovered trends of spatial locations.
 %They propose an interactive visual interface that allows simultaneous visualization of the variation in composition of identified clusters, variability in cluster membership for individual ensemble members and uncertainty in the spatial locations of identified trends.
@@ -570,7 +572,7 @@ The PK-clusters are displayed at the top, followed by \emph{Others}, which conta
 
 When users hover over one cluster name, a new color is given to that cluster (\eg green) and new (green) diamonds appear for each algorithm that match the cluster and for each node that is assigned to the cluster (\autoref{fig:PK-extraClusteringInteraction}).
 %all its corresponding clusters in the other algorithms will be showcased with the apparition of diamonds the same color this algorithms columns for the nodes of the matched clusters.
-Users can therefore see if the selected cluster is consensual, and with which algorithms.  The top part of~\autoref{fig:PK-extraClusteringInteraction} shows the mouse pointer before hovering on the cluster 2. The bottom part shows that hovering the mouse pointer over the cluster 2, it changes to green and several green diamonds appear along three columns.
+Users can therefore see if the selected cluster is consensual, and with which algorithms. The top part of~\autoref{fig:PK-extraClusteringInteraction} shows the mouse pointer before hovering on the cluster 2. The bottom part shows that hovering the mouse pointer over the cluster 2, it changes to green and several green diamonds appear along three columns.
 
 %\begin{figure}[ht]
 %    \centering
@@ -677,7 +679,29 @@ She selected only one clusters she was confident about and consolidated it.
 The final validated partition of the dataset is represented in \autoref{fig:PK-teaser} (right).
 The persons are colored and grouped by the consolidated knowledge. We can see that the final grouping makes sense in the PAOH visualization on the right. Only one person is not part of any group: Jacques Souchay. It is not unusual in historical sources to have persons mentioned without any information on them. % except their connection pattern.
 
-Our historian colleague can now publish a follow-up article validating her hypotheses. The summary report will help document where the final grouping came from, increasing trust with regard to her claims.
+Our historian colleague can now publish a follow-up article validating her hypotheses. The summary report (illustrated in \autoref{frame:MB_report}) will help document where the final grouping came from, increasing trust with regard to her claims.
+
+\begin{figure}[htbp]
+\centering
+\begin{mdframed}[userdefinedwidth=\linewidth]
+2020-07-23 \\
+Prior Knowledge: 3 groups, 3 persons \\
+Final: 4 groups, 37 persons (out of 38 visible) consolidated as follows: \\
+12 (32.4\%) using the consensus: \\
+\hspace*{2em} 10 (27.0\%) with an agreement of 8 algorithms \\
+\hspace*{2em} 2 (5.4\%) with an agreement of 5 algorithms \\
+18 (48.6\%) using the result of 1 algorithm: \\
+\hspace*{2em} 18 (48.6\%) with PK\_ilouvain\_time \\
+4 (10.8\%) manually consolidated \\
+0 (0.0\%) by clicking on the group distribution \\
+13 algorithms considered \\
+9 algorithms reviewed and compared
+\end{mdframed}
+\caption{Summary report of the consolidated knowledge for the Marie Boucher case study.}
+    \label{frame:MB_report}
+\end{figure}
+
+
 %Furthermore, she can publish the dataset and explain how to reproduce the analysis online, increasing trust with regard to her claims.
 \begin{comment}
 For the Marie Boucher case study, the report would write \todo{check}:
@@ -723,7 +747,8 @@ For the Marie Boucher case study, the report would write \todo{check}:
 \label{fig:PK-Vast_PK_Clustering_View}
 \end{figure}
 
-In the second cases study we took the role of Alice, a VAST Steering Committee (SC) member, who participates in a SC meeting to validate the Program Committee proposed by the VAST paper chairs for the next conference.
+In the second cases study I take the role of Alice, a VAST Steering Committee (SC) member, who participates in a SC meeting to validate the Program Committee proposed by the VAST paper chairs for the next conference.
+This case study illustrates the utility of \pkclustering for finding relevant clusters in a social network modeled as can be historical sources, \ie with a dynamic hypergraph.
 One of the many problems that all conference organizers face is to balance the members of the Program Committee according to several criteria.
 %This is a non standardized activity but it can be done using common sense criteria, such as: balancing the geographic provenance, gender, culture, and other aspects that characterize the diversity of the people. However, there are relationships %among researchers that are less evident, for instance the previous relationships a person has with the others.
 The InfoVis Steering Committee Policies FAQ states that the composition of the Program Committee should consider explicitly how to achieve an appropriate and diverse mix ~\cite{infovisfaq} of:
