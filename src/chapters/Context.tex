@@ -584,9 +584,9 @@ However, these new network representations take time to be adopted by social sci
 \subsection{Social Network Visual Analytics}\label{subsec:social-network-visual-analytics}
 
 Social scientists use visualization and analytical tools to gain insight on the structure of their finalized network data.
-The most widely used tools are Gephi \cite{Gephi}, Pajek \cite{mrvarAnalysisVisualizationLarge2016}, Ucinet\cite{johnsonUCINETSoftwareTool1987}, and NodeXl \cite{NodeXL} which provide node-link diagrams, implementations of network measures, algorithms, and clustering capabilities.
+The most widely used tools are Gephi \cite{Gephi}, Pajek \cite{mrvarAnalysisVisualizationLarge2016}, Ucinet\cite{johnsonUCINETSoftwareTool1987}, and NodeXl \cite{NodeXL}, which provide node-link diagrams, implementations of network measures, algorithms, and clustering capabilities.
 Other \sna visualization tools have been proposed in the past such as Visone\cite{baurVisoneSoftwareVisual2002}.
-However, those tools often do not include interaction and direct manipulation mechanisms, making the analysis more tedious for social historians and highlight usability issues.
+However, those tools often have usability issues as they do not include interaction and direct manipulation mechanisms, making the analysis more tedious for social historians.
 %Hence, they cannot be considered as purely \va interfaces as the analytical and visual components are not well integrated together.
 In contrast, the Vistorian\cite{serranomolineroUnderstandingUseVistorian2017} let social historians visualize their network with multiple coordinated views (node-link, matrice, arc-diagram, and map), filters and direct manipulation, but do not integrate analytical options.
 \autoref{fig:vistorian} shows the Vistorian interface used to explore a historical social network.
@@ -597,27 +597,29 @@ In contrast, the Vistorian\cite{serranomolineroUnderstandingUseVistorian2017} le
     \label{fig:vistorian}
 \end{figure}
 %\includegraphics[trim={5cm 0 0 0},clip]{example-image-a}
-I propose a classification of all those tools in \ref{tab:SNV}, which illustrate that the most used tools are analytical-oriented (Pajek, Ucinet, Gephi, NodeXl) while the Vistorian is an interactive visualization tool.
-None of those softwares therefore fully correspond to the Visual Analytics label\cite{keimVisualAnalyticsDefinition2008}.
+\rev{
+I propose a qualitative classification of all those tools in \ref{tab:SNV} which rank them according their visualization, \sna measures and modes, clustering, filtering, and interaction capabilities.
+It illustrates that the most used tools are analytical-oriented (Pajek, Ucinet, Gephi, NodeXl) without proposing many visualization and direct manipulation options, while the Vistorian is an interactive visualization tool without any analytical method integration.}
+None of those systems therefore fully correspond to the \va label\cite{keimVisualAnalyticsDefinition2008}.
 
 \begin{table}[!ht]
 \centering
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{|l|l|l|l|l|l|}
 \hline
- & Visualizations & \begin{tabular}[c]{@{}l@{}}SNA Measures \\ and Models\end{tabular} & Clustering & Filtering & Interaction/Direct Manipulation \\ \hline
-Pajek     & \scaleone   & \scalethree & \scaletwo  & \scaleone   & \scalezero  \\ \hline
-Ucinet    & \scaleone   & \scaletwo   & \scaleone  & \scalezero  & \scalezero  \\ \hline
-Gephi     & \scaletwo   & \scaleone   & \scaleone  & \scaleone   & \scaleone   \\ \hline
-NodeXl    & \scaleone   & \scaleone   & \scaletwo  & \scaleone   & \scalezero  \\ \hline
-Vistorian & \scalethree & \scalezero  & \scalezero & \scalethree & \scalethree \\ \hline
+ & Visualizations & \begin{tabular}[c]{@{}l@{}}SNA Measures \\ and Models\end{tabular} & Clustering & Filtering & \begin{tabular}[c]{@{}l@{}}Interaction and \\Direct Manipulation\end{tabular} \\ \hline
+Pajek\cite{pajek}     & \scaleone   & \scalethree & \scaletwo  & \scaleone   & \scalezero  \\ \hline
+Ucinet\cite{ucinet}    & \scaleone   & \scaletwo   & \scaleone  & \scalezero  & \scalezero  \\ \hline
+Gephi\cite{Gephi}     & \scaletwo   & \scaleone   & \scaleone  & \scaleone   & \scaleone   \\ \hline
+NodeXl\cite{NodeXL}    & \scaleone   & \scaleone   & \scaletwo  & \scaleone   & \scalezero  \\ \hline
+Vistorian\cite{vistorian} & \scalethree & \scalezero  & \scalezero & \scalethree & \scalethree \\ \hline
 \end{tabular}%
 }
-    \caption{Comparison table of most widely used visualization and analytical tool for \hsna. Visualizations: number of different visualization techniques, layouts, and interactions. \sna and Models: Number of proposed \sna measures and algorithms. Clustering: Number of proposed clustering algorithms. Filtering: Possibilities of filtering according to various criteria. Interaction/Direct Manipulation: Number of possible interaction mechanisms directly applicable to the visualizations. }
+    \caption{Comparison table of most widely used visualization and analytical tool for \sna. Visualizations: number of different visualization techniques, and layouts. \sna Measures and Models: number of proposed \sna measures and algorithms. Clustering: Number of proposed clustering algorithms. Filtering: Possibilities of filtering according to various criteria. Interaction/Direct Manipulation: Number of possible interaction mechanisms directly applicable to the visualizations. }
     \label{tab:SNV}
 \end{table}
-If analytical methods such as the computation of network measures, triad computation, or clustering provide a good framework to describe the structure of a network and link it to sociological explanation\cite{wassermanSocialNetworkAnalysis1994, scottSocialNetworkAnalysis1988}, many social scientists such as historians are not trained in computer science and mathematical methods and therefore have trouble to first use those methods without guidance, but also interpret their results.
-This is particularly the case for black-box algorithms such as for clustering tasks: they usually end up trying several algorithms until they stumble upon a satisfactory enough solution\cite{pisterIntegratingPriorKnowledge2021}.
+If analytical methods such as the computation of network measures, triad computation, and clustering provide a good framework to describe the structure of a network and link it to sociological explanations\cite{wassermanSocialNetworkAnalysis1994, scottSocialNetworkAnalysis1988}, many social scientists, such as historians, are not trained in computer science and mathematical methods, and, therefore, have trouble to 1) use those methods without guidance and without high usability\cite{rollingerProlegomenaProblemsPerspectives2020, alkadi2022}, and 2) interpret their results.
+This is particularly the case for black-box algorithms such as for clustering tasks: they typically end up trying several algorithms until they stumble upon a satisfactory enough solution\cite{pisterIntegratingPriorKnowledge2021}.
 
 %Unfortunately, social scientists are often not trained in computer science and mathematical methods, and most of them have been frustrated by analytical and data mining tools and by how it was guiding their analysis in predefined ways.
 %Particularly, the use of black-box algorithms such as for clustering tasks put analysts in an awkward position where they do not know how to interpret results.

@@ -42,18 +42,18 @@
 \BOOKMARK [2][-]{subsection.4.2.3}{Visual Graph Comparison}{section.4.2}% 42
 \BOOKMARK [2][-]{subsection.4.2.4}{Provenance}{section.4.2}% 43
 \BOOKMARK [1][-]{section.4.3}{Task Analysis and Design Process}{chapter.4}% 44
-\BOOKMARK [2][-]{subsection.4.3.1}{Use Cases}{section.4.3}% 45
+\BOOKMARK [2][-]{subsection.4.3.1}{Scenarios}{section.4.3}% 45
 \BOOKMARK [2][-]{subsection.4.3.2}{Tasks Analysis}{section.4.3}% 46
-\BOOKMARK [1][-]{section.4.4}{The ComBiNet System}{chapter.4}% 47
+\BOOKMARK [1][-]{section.4.4}{ComBiNet System}{chapter.4}% 47
 \BOOKMARK [2][-]{subsection.4.4.1}{Visualizations}{section.4.4}% 48
 \BOOKMARK [2][-]{subsection.4.4.2}{Query Panel}{section.4.4}% 49
 \BOOKMARK [2][-]{subsection.4.4.3}{Comparison}{section.4.4}% 50
 \BOOKMARK [2][-]{subsection.4.4.4}{Implementation}{section.4.4}% 51
 \BOOKMARK [1][-]{section.4.5}{Use Cases}{chapter.4}% 52
-\BOOKMARK [2][-]{subsection.4.5.1}{Construction sites in Piedmont \(\0431\)}{section.4.5}% 53
+\BOOKMARK [2][-]{subsection.4.5.1}{Construction Sites in Piedmont \(\0431\)}{section.4.5}% 53
 \BOOKMARK [2][-]{subsection.4.5.2}{French Genealogy \(\0432\)}{section.4.5}% 54
-\BOOKMARK [2][-]{subsection.4.5.3}{Marriage acts in Buenos Aires \(\0433\)}{section.4.5}% 55
-\BOOKMARK [2][-]{subsection.4.5.4}{Sociology thesis in France}{section.4.5}% 56
+\BOOKMARK [2][-]{subsection.4.5.3}{Marriage Acts in Buenos Aires \(\0433\)}{section.4.5}% 55
+\BOOKMARK [2][-]{subsection.4.5.4}{Sociology Theses in France}{section.4.5}% 56
 \BOOKMARK [1][-]{section.4.6}{Formative Usability Study}{chapter.4}% 57
 \BOOKMARK [2][-]{subsection.4.6.1}{Feedback}{section.4.6}% 58
 \BOOKMARK [1][-]{section.4.7}{Discussion}{chapter.4}% 59
@@ -76,10 +76,10 @@
 \BOOKMARK [2][-]{subsection.5.3.6}{Reviewing the Ranked List of Algorithms}{section.5.3}% 76
 \BOOKMARK [2][-]{subsection.5.3.7}{Reviewing and Consolidating Final Results}{section.5.3}% 77
 \BOOKMARK [2][-]{subsection.5.3.8}{Wrapping up and Reporting Results}{section.5.3}% 78
-\BOOKMARK [1][-]{section.5.4}{Case studies}{chapter.5}% 79
+\BOOKMARK [1][-]{section.5.4}{Case Studies}{chapter.5}% 79
 \BOOKMARK [2][-]{subsection.5.4.1}{Marie Boucher Social Network}{section.5.4}% 80
 \BOOKMARK [2][-]{subsection.5.4.2}{Lineages at VAST}{section.5.4}% 81
-\BOOKMARK [2][-]{subsection.5.4.3}{Feedback from practitioners}{section.5.4}% 82
+\BOOKMARK [2][-]{subsection.5.4.3}{Feedback from Practitioners}{section.5.4}% 82
 \BOOKMARK [1][-]{section.5.5}{Discussion}{chapter.5}% 83
 \BOOKMARK [2][-]{subsection.5.5.1}{Limitations}{section.5.5}% 84
 \BOOKMARK [2][-]{subsection.5.5.2}{Performance}{section.5.5}% 85

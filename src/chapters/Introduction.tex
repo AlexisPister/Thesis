@@ -78,11 +78,11 @@ Social historians have to take many annotation (sometimes called encoding) and m
 Practically, they typically use ad hoc processing and analysis scripts to transform historical documents to analyzable networks, which is time-consuming, sometimes to end up with trivial or hard to interpret results\cite{alkadi2022}.
 Still, \hsna led to many highly regarded studies with thorough conclusions, such as the study of families of power in Florence by Padgett and Ansell where they explained the rise of the Medici family through its central position in the economical, political, and trading networks of powerful families\cite{padgettRobustActionRise1993} or Gribaudi and Blum work on the social and professional shift during the 19th century in France\cite{gribaudi1990}.
 
-The usage of visualization to graphically display networks is common in \sna\footnote{Historians and sociologists following network analyses typically use similar techniques and tools for analyzing their data. The difference between \sna and \hsna hence come from the provenance and process leading to the construction of the network. I therefore use the \sna acronym for practices common in both fields and the \hsna acronym for history specificities.} as it allows to unfold the structure of networks to the eyes, thus letting social scientists confirm hypotheses they had when collecting and exploring their data as well as gaining new insight through the discovery of interesting patterns and trends \cite{cristofoliPrincipesUsagesDessins}.
+The usage of visualization to graphically display networks is common in \sna\footnote{Historians and sociologists following network analyses typically use similar techniques and tools for analyzing their data. The differences between \sna and \hsna hence come from the provenance and process leading to the construction of the network. I therefore use the \sna acronym for practices common in both fields and the \hsna acronym for history specificities.} as it allows to unfold the structure of networks to the eyes, thus letting social scientists confirm hypotheses they had when collecting and exploring their data as well as gaining new insight through the discovery of interesting patterns and trends \cite{cristofoliPrincipesUsagesDessins}.
 Images of networks also constitute an efficient mean of communication, especially in scientific productions \cite{freemanVisualizingSocialNetworks2000}.
 Many visualization techniques and softwares have thus been developed since the birth of \sna, but most popular tools are usually not designed for historians specifically, meaning that they do not regard on the provenance and process leading to the network, and focus on analysis aspects only.
 Moreover, they usually enforce simple network models without proposing exploration mechanisms, beyond allowing to look at the network structure and computed measures.
-In result, many \hsna studies show a plot of their network and describe it qualitatively, often by identifying the central actors---sometimes with the help of centrality---but do not go beyond that\cite{lemercierQuantitativeMethodsHumanities2019}.
+As a result, many \hsna studies show a plot of their network and describe it qualitatively, often by identifying the central actors---sometimes with the help of centrality---but do not go beyond that\cite{lemercierQuantitativeMethodsHumanities2019}.
 \emph{In this thesis, I therefore investigate how visualization can support social historians in their work, first during the pre-analysis process and secondly during the analysis step, with the right level of expressiveness, usability, and traceability.}
 
 % \emph{In this thesis, I therefore investigate how visualization can support social historians in their overall process, starting at the acquisition of their document, and also at the analysis step, \ie  how visualization interfaces can support social historians in answering their questions with the right level of expressiveness, usability, and traceability.}
@@ -134,7 +134,7 @@ In result, many \hsna studies show a plot of their network and describe it quali
 
 % \jdf{Start with a short summary of what you will write such Social History has evolved in the 20th Century to rely more on sources. Computers have been used in the 70s but became more important in the 80s when it used SNA methods. Social historians are still challenged to use computer-supported tools, partly because they do not fit their research process.}
 
-Social History has continuously evolved since its beginning in the 1930s, especially with the rise of quantitative and network methods based on the development of computer science during the end of the 20th century.
+Social history has continuously evolved since its beginning in the 1930s, especially with the rise of quantitative and network methods based on the development of computer science during the end of the 20th century.
 If these computer-supported methods are now widely used in history\cite{kerschbaumerPowerNetworksProspects2015, petzCombiningNetworkResearch2022}, they attracted many criticism from the start---some are which still relevant.
 
 
@@ -147,9 +147,9 @@ If these computer-supported methods are now widely used in history\cite{kerschba
 %It appeared as an effective method to study their sources after a long process of methodological shifts and discussions\cite{cristofoliAuxSourcesGrands2008}.
 %It is though a relatively new approach in History, where methodology changed through the years.
 %History is the science of retrieving and characterizing facts about the past, in all their complexity.
-We can trace back the birth of Social History with the formation of the ``Annales School'' in the 1930s, where historians gained interest in socio-economic questions and started to rely heavily on the exhaustive extraction and analysis of historical documents coming from archives\cite{blochApologiePourHistoire1949, prost2014}.
-Beforehand, History was mainly political and event-centered, as the majority of work consisted in narrating and characterizing specific events---such as wars and diplomatic alliances---while eliciting their causes and consequences, and describing the lives of historic figures, such as sovereigns \cite{prost2014}.
-Social History shifted the focus by aiming to link together sociological, economical, and political issues and by placing individuals at the center of these questions\cite{tilly1984retrieving}.
+We can trace back the birth of social history with the formation of the ``Annales School'' in the 1930s, where historians gained interest in socio-economic questions and started to rely heavily on the exhaustive extraction and analysis of historical documents coming from archives\cite{blochApologiePourHistoire1949, prost2014}.
+Beforehand, history was mainly political and event-centered, as the majority of work consisted in narrating and characterizing specific events---such as wars and diplomatic alliances---while eliciting their causes and consequences, and describing the lives of historic figures, such as sovereigns \cite{prost2014}.
+Social history shifted the focus by aiming to link together sociological, economical, and political issues and by placing individuals at the center of these questions\cite{tilly1984retrieving}.
 Later on in the 1960s, with the development of computer science, historians started to use quantitative methods to analyze data extracted from historical documents and make conclusions grounded in statistical results, in various subjects such as demographics\cite{henryRegistresParoissiauxHistoire1956} and economics\cite{goldinCliometricsNobel1995}.
 Around the same time, the use and study of networks started to become popular in various disciplines to study real-world relational phenomena based on mathematical computations and measures, especially in sociology and anthropology\cite{cConceptUseSocial1969}.
 A network is an abstraction based on graph theory concepts which can be used to model phenomena based on relationships (called links) between entities (called nodes).
@@ -161,7 +161,7 @@ This \sna approach allows analysts to ground results in formal network measures 
 This shift in the object of study from traditional social classes and aggregates to the observation of relationships of individuals remind the microhistory movement\cite{ginzburgMicrohistoire1981} which theorized that following the life of single individuals and small groups enable the making of higher level conclusions about the social structures they live in.
 Social historians followed this tradition and started to appropriate network concepts to study relational aspects of the past and formalized it under the term Historical Network Research or Historical Social Network Analysis\cite{wetherellHistoricalSocialNetwork1998}.
 However, historians do not have the possibility to run surveys or directly observe interactions of the past and are thus constrained by the information contained in historical documents they find in archives.
-These documents can be anything mentioning social relationships between actors of interest, such as marriage acts, birth certificates, census, migration acts, business transactions, journals.
+These documents can be anything mentioning social relationships between actors of interest, such as marriage acts, birth certificates, census, migration acts, business transactions, and journals.
 After selecting a corpus of documents, they typically read and inspect in depth several documents while taking notes to have a deeper insight on the content of the sources, which allow them to start eliciting hypotheses.
 Following this exploration phase, they manually annotate each document and encode the desired information---the mention of persons and their social relationship in the case of a network analysis.
 %they manually annotate each document to extract the mentions of persons along their relationships to model those with a network.
@@ -238,7 +238,7 @@ However, visualization can also be used for exploration, which can help to under
 Tukey defined this process as Exploratory Data Analysis in the 1960s\cite{tukeyExploratoryDataAnalysis1977}, as a procedure to gain insight into the structure of the data by identifying outliers, trends, and patterns with the usage of visualization and statistical measures.
 Social network visualization is used for communication of findings in the field, but is also often following this exploration process as showing the network visually allows social scientists to reveal the structure of their data.
 As freeman writes ``Images of social networks have provided investigators with new insights about network structures and have helped them to communicate those insights to others''\cite{freemanVisualizingSocialNetworks2000}.
-Social scientists very often represent their data using node-link diagrams, that we find in every production of reference in the field \cite{wassermanSocialNetworkAnalysis1994, tabassumSocialNetworkAnalysis2018, lazegaReseaux}.
+Social scientists very often represent their data using node-link diagrams, that we find in every production of reference in the field \cite{wassermanSocialNetworkAnalysis1994, tabassumSocialNetworkAnalysis2018, lazegaReseaux, brandesNetworkAnalysisMethodological2005}.
 
 \begin{figure}[!ht]
     \centering % avoid the use of \begin{center}...\end{center} and use \centering instead (more compact)
@@ -293,13 +293,13 @@ Simple models typically oversimplify the relationships contained in the sources\
 %Lemercier also criticized the fact that the use of networks often result in simplification of the relationships mentioned in the sources---resulting in an abstraction which do not allow to make any in depth conclusion\cite{lemercier12FormalNetwork2015}.
 They, therefore, have to go back and forth between the visualization software and the encoding process which can be tedious, especially since it can be complicated to trace back the entities of the data model back to the original documents for correction.
 \va tools that encompass the whole process of social historians should therefore be beneficial for the flow of their work and could help detect and correct errors or analysis plans way before the visualization of a finalised network.
-Proposing how to design such interfaces with proof-of-concepts is one of the goal of this thesis.
+Proposing how to design such interfaces with proof-of-concepts is one of the goals of this thesis.
 
 Furthermore, several historians highlighted the fact that many social history studies leveraging network methods simply use networks in a metaphorical sense, in what Rollinger calls ``soft SNA'' or ``informal network research''\cite{rollingerProlegomenaProblemsPerspectives2020}.
 Such studies typically show one---or a couple---node-link diagram(s) which they describe with qualitative terms\cite{lemercierQuantitativeMethodsHumanities2019} to refer to the global structure of the network (dense, parse, connected, etc.), the place of actors (central, distant), or interesting patterns (cliques, bridges, communities).
 In case of dense networks, such descriptions become obsolete, as diagrams start to look like what have been called a ``spaghetti monster''\cite{collarNetworksArchaeologyPhenomena2015, lemercierQuantitativeMethodsHumanities2019} \ie an unreadable image due to the high level of cluttering.
 \autoref{fig:intro-medieval} shows for example a medieval social network of peasants proximity relationships between 1250 and 1350, extracted from agrarian contracts.
-The graphic do not convey much information, especially that the links represent a constructed notion of proximity without indicating the types of relationships the individuals were mentioned in the contracts.
+The graphic does not convey much information, especially that the links represent a constructed notion of proximity without indicating the types of relationships the individuals were mentioned in the contracts.
 
 \begin{figure}[!ht]
     \centering % avoid the use of \begin{center}...\end{center} and use \centering instead (more compact)
@@ -312,12 +312,13 @@ The lack of use of network analytical methods---which are numerous in modern \sn
 My claim is that current \hsna tools do not support social scientists enough in their analysis due to 1) the lack of interaction, direct manipulation, and exploration mechanisms in current interfaces and 2) the lack of network measures and algorithm interpretations and explainability.
 For example, clustering algorithms are often included in such systems, letting social scientists partition networks into groups, but many algorithms exist in the literature, potentially giving diverse results.
 Scientists often run several algorithms until finding a satisfying enough partition, which can bias the result of an analysis\cite{pisterIntegratingPriorKnowledge2021}.
-Usability and traceability of the results are therefore primordial in VA interfaces aimed at supporting social historians in their analysis.
+Usability and traceability of the results are therefore primordial in \va interfaces aimed at supporting social historians in their analysis.
 
-\va could therefore help social historians using network methods for their research, first by supporting their entire workflow to help them explore, encode, correct, and model their data with simple tools and without introducing oversimplifications, but also to provide guidance and exploration mechanisms during the purely analytical step.
-For this, such interfaces should therefore 1) be simple enough to manipulate, 2) model the original documents and annotations without distortions, and 3) let historians trace back their network entities to the original sources and analytical results in explainable frameworks.
+\va could therefore help social historians in their use of network methods, first by providing guidance and continuous feedback on the inspection, encoding, modification, and modeling process from the sources, and by providing complex exploration and analysis mechanisms supported by data mining capabilities.
+%supporting their entire workflow to help them explore, encode, correct, and model their data with simple tools and without introducing oversimplifications, but also to provide guidance and exploration mechanisms during the purely analytical step.
+For this, such interfaces should 1) be simple enough to manipulate, 2) model the original documents and annotations without distortions, and 3) let historians trace back their network entities to the original sources and analytical results in explainable frameworks.
 In other terms, they should satisfy \simplicity, \reality, and \traceability principles.
-We discuss and explain them more in depth in \autoref{ch:hsna-process-and-network-modeling}.
+I discuss and explain those principles more in depth in \autoref{ch:hsna-process-and-network-modeling}.
 
 
 %\footnote{We did not find any scientific production describing these potential issues when following such analyses. However, many social scientists refereed to these problems with us in informal discussions.}.
@@ -336,7 +337,7 @@ We discuss and explain them more in depth in \autoref{ch:hsna-process-and-networ
 \section{Contributions and Research Statement}\label{sec:contribution-and-research-statement}
 
 The goal of this thesis is to characterize how \va can support social historians in their \hsna process and present proofs of concepts of tools supporting it.
-Most \snv tools are agnostic to the process of social historians leading to a polished network, even though it has an high impact of the network model and structure.
+Most \snv tools are agnostic to the process of social historians leading to a polished network, even though it has a high impact on the network model and structure.
 Using visualization only at the end of the process often reveals potential errors, inconsistencies, or mismatches between the network model and analysis goals\cite{alkadi2022}.
 Moreover, due to lack of usability and interaction mechanisms, social historians often simply visualize statically their network and partially describe their structure, leading to conclusion which would have been easier to reach with simpler methods\cite{eveDeuxTraditionsAnalyse2002}.
 % As seen in \autoref{sec:intro-HSNV}, most \va tools for \hsna are focused on the final analysis of a polished network \jdf{repeat from last sentence paragraph}.

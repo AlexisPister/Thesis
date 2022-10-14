@@ -631,7 +631,7 @@ The table provides, for each node, the consolidated label, along with the labels
 Clustering results can thus be reviewed in a more transparent manner, revealing the decisions taken. In contrast, traditional reporting in the Humanities rarely questions or discusses how choices were made and merely mentions the algorithm and parameters used.
 
 
-\section{Case studies}
+\section{Case Studies}
 %\jdf{Write-down a realistic reporting of the results as a publication would, stressing transparency of the multiple choices.}
 
 I describe two case studies using realistic scenarios where the clustering has no ground truth solution but has consequences, scientific or practical. I also report on the feedback received from practitioners.
@@ -748,7 +748,7 @@ For the Marie Boucher case study, the report would write \todo{check}:
 \end{figure}
 
 In the second cases study I take the role of Alice, a VAST Steering Committee (SC) member, who participates in a SC meeting to validate the Program Committee proposed by the VAST paper chairs for the next conference.
-This case study illustrates the utility of \pkclustering for finding relevant clusters in a social network modeled as can be historical sources, \ie with a dynamic hypergraph.
+This case study illustrates the utility of \pkclustering for finding relevant clusters in a social network modeled through documents (here scientific publications), similarly to historical sources.
 One of the many problems that all conference organizers face is to balance the members of the Program Committee according to several criteria.
 %This is a non standardized activity but it can be done using common sense criteria, such as: balancing the geographic provenance, gender, culture, and other aspects that characterize the diversity of the people. However, there are relationships %among researchers that are less evident, for instance the previous relationships a person has with the others.
 The InfoVis Steering Committee Policies FAQ states that the composition of the Program Committee should consider explicitly how to achieve an appropriate and diverse mix ~\cite{infovisfaq} of:
@@ -762,7 +762,7 @@ The InfoVis Steering Committee Policies FAQ states that the composition of the P
 Most of these criteria are well understood, except \emph{academic lineage} which is not clearly defined.
 Alice will use the ``Visualization Publications Data'' (VisPubData~\cite{VisPubData}) to find-out if she can objectify this concept of lineage to check the diversity of the proposed Program Committee accordingly.
 
-Using PK-clustering, Alice loads the VisPubData, filtered to only contain articles from the VAST conference, between 2009--2018. Only prolific authors can be members of the program committee, but highly filtering the co-authorship network  would change its structure and disconnect it. Thus, she will use the unfiltered network of 1383 authors to run the algorithms and perform the matching (Step 1 of the process), even if at the end only 113 authors with more than 4 articles will be consolidated (Steps 2 and 3).
+Using \pkclustering, Alice loads the VisPubData, filtered to only contain articles from the VAST conference, between 2009--2018. Only prolific authors can be members of the program committee, but highly filtering the co-authorship network  would change its structure and disconnect it. Thus, she will use the unfiltered network of 1383 authors to run the algorithms and perform the matching (step 1 of the process), even if at the end only 113 authors with more than 4 articles will be consolidated (steps 2 and 3).
 
 Alice starts the \pkclustering process by entering her prior knowledge, which is partial and based on two strategies: her knowledge of some areas of VAST, and the name of well-known researchers who have developed their own lineage. She runs the algorithms (\autoref{fig:PK-Vast_PK_Clustering_View}) and 5 algorithms produce a perfect match, acknowledging her knowledge of some areas of VAST. She then shows the results to other members of the SC who will help her consolidate the lineage clusters.
 
@@ -772,20 +772,30 @@ For some authors, she decides to override the consensus of the algorithms. For e
 
 Using the \emph{PK\_louvain} algorithm as starting point, Alice creates new groups and achieves a consensus among the experts on a plausible set of lineages for VAST.
 She then checks with the list proposed by the program committee by entering it in on a spreadsheet with the names and affiliations. She adds the groups and their color, and sort the list by group.
-Alice can now report her work to the whole steering committee, which can check the balance of lineages according to this analysis, and decide if some lineage groups are over or under represented.  By keeping the affiliations in the list, the SC can also check the balance of affiliations that is not always aligned with the lineages.  The final results are available in the supplemental material of the article.
+Alice can now report her work to the whole steering committee, which can check the balance of lineages according to this analysis, and decide if some lineage groups are over or under represented.  By keeping the affiliations in the list, the SC can also check the balance of affiliations that is not always aligned with the lineages.
+\autoref{fig:PK-vast_some_consolidated_groups} shows a subset of the final results.
+%The final results are available in the supplemental material of the article.
 
 %Note that balancing the affiliations is easier since they appear next to the authors, but the lineage has to be constructed from the network.
 
 Using partitioning clustering (although with outliers) forces the algorithms or experts to make strong decisions related to lineages. But using a soft clustering (or overlapping partitions), while providing a more nuanced view of lineages, would not be as simple to interpret as coloring spreadsheet lines and sorting them;
 %complicate the task of balancing those lineages when
-in the end, the final selection only uses the lineage criterion among many others. Still, we believe PK-clustering can provide a partial but concrete answer to the problem of defining what the scientific lineages are.
+in the end, the final selection only uses the lineage criterion among many others. Still, \pkclustering can provide a partial but concrete answer to the problem of defining what the scientific lineages are.
 
-\begin{figure}[tb]
+\begin{figure}[!ht]
 \centering
 \includegraphics[width=\linewidth]{static/figures/PK-Clustering/VISPaperFigures/vast_some_consolidated_groups.png}
 \caption{Four consolidated groups in the VAST dataset: C North, RVAC, Andrienko and London}
 \label{fig:PK-vast_some_consolidated_groups}
 \end{figure}
+
+
+%\begin{figure}[!ht]
+%\centering
+%\includegraphics[width=\linewidth]{static/figures/PK-Clustering/supp/vast_consolidated}
+%\caption{Consolidated groups in the VAST dataset: C North, RVAC, Andrienko and London}
+%\label{fig:PK-vast_all_consolidated_groups}
+%\end{figure}
 
 %\subsection{General feedback about usability}
 %\cp{we probab;y dont have enough for such section}
@@ -800,7 +810,7 @@ in the end, the final selection only uses the lineage criterion among many other
 %\end{figure}
 %\fi
 
-\subsection{Feedback from practitioners}
+\subsection{Feedback from Practitioners}
 
 Although we could not conduct face to face meetings with historians and sociologists due to the COVID19 lockdown, we showed the system to three practitioners and asked their feedback through videoconferencing systems, sharing video demonstrations and sharing our screen.
 
@@ -813,11 +823,18 @@ They all agreed that the process was clear and made sense, but they also felt it
 
 One historian who spends a lot of time analyzing her social networks and finding information about all the people was shocked by the idea that you could want to use an algorithm that did not match fully the prior knowledge. For us, it matters if the prior knowledge is given as constraints or preferences, but we did not want to introduce these notions in the user interface so analysts are free to interpret the prior knowledge as one or the other.
 
+One other historian from the collaboration \pascal described in \autoref{subsec:hsna-examples} used the system in a particular way. After entering his PK on core members of families of interest and selecting algorithms matching the PK, he inspected the clustering consensus without creating a consolidated partition. He was particularly interested in non-consensual individuals that were highlighted by the colored consenus bar---particularly persons with similar numbers of algorithms classifying them in two distinct groups.
+He induce that those persons acted as bridge linking several different communities, here families.
+%Those persons were interesting to him, as he induced that  acted as bridge linking several different communities, here families.
+Instead of creating consolidated communities, he created a new group where he manually tagged all those persons acting as bridge, which was a behaviour of interest to him.
+%TODO: image peut être
+
 They also identified some issues with the prototype. It was not managing disconnected networks at all when we showed the demo, and they stressed the fact that real networks always have disconnected components. They were also asking about structural transformations, such as filtering by attribute or by node type. We chose not support these functions at this stage, but they can be done through other standard network systems.
 
 They were also interested in getting explanations about the algorithms, why some would pick the right groups and others would not. Our system is not meant to provide explanations and works with black box algorithms. We wished we could help them but that would be another project. Still, when an attribute-based algorithm matches the prior knowledge, we believe that attribute-based explanations are more understandable, \eg groups based on time, or income.
 
-The table and summary report was added after those sessions so no feedback was gathered.  We will continue to collaborate with those practitioners and help them test PK-culstering during their next social network analysis project.
+The table and summary report was added after those sessions so no feedback was gathered.
+%We will continue to collaborate with those practitioners and help them test PK-culstering during their next social network analysis project.
 
 
 \section{Discussion}
@@ -826,13 +843,13 @@ As presented in~\autoref{sec:summary}, the existing approaches to create cluster
 The proposed \pkclustering approach combines aspects of the three options in order to give more control to users in the analysis loop, and allow them to have more say in the final results.
 %PK-clustering is different than ensemble clustering, in the sense that an ensemble method construct automatically an optimal partition from a set of algorithms, whereas in PK-clustering the final partition is built iteratively by the user using the algorithms' consensus.
 
-Proponents of automatic methods may argue that PK-clustering gives users too much influence on the final result as they can change the cluster assignments at will. On the other hand, social scientists are rarely satisfied with current clustering methods, in part because they run on network data that rarely represent all the knowledge they have of the social network, so providing user control to correct mistakes is critical.
+Proponents of automatic methods may argue that \pkclustering gives users too much influence on the final result as they can change the cluster assignments at will. On the other hand, social scientists are rarely satisfied with current clustering methods, in part because they run on network data that rarely represent all the knowledge they have of the social network, so providing user control to correct mistakes is critical.
 
 Traditional methods push users to believe the results of the first algorithms and parameter selection they try (typically chosen randomly). Using \pkclustering, users can still follow blindly the results of one algorithm if they want but the system provides a more systematic approach. It allows users to compare results, review consensus, think at each phase and reflect on decisions. Instead of passively accepting what the algorithms propose, users provide initial hypotheses---which limits the chances of being primed by an algorithm, and explicitly validate the cluster assignment of nodes, therefore performing a critical review of the automated results, yet with fast interaction to accept many suggestions at once when appropriate.
 
-This new approach allows users to discover alternative views. For example when algorithms do not match the PK, it is an indication that the PK is being challenged and may not be correct.  Users actively participate in the process of assigning, a requirement for social scientists. The report produced at the end of the analysis adds transparency by recording where the results come from for each node so decisions can be reviewed. Ultimately social scientists remain responsible for reporting and justifying their choices and interventions in their publication.
+This new approach allows users to discover alternative views. For example when algorithms do not match the PK, it is an indication that the PK is being challenged and may not be correct.  Users actively participate in the process of assigning, a requirement for social scientists. The report produced at the end of the analysis adds transparency by recording where the results come from for each node so decisions can be reviewed. Ultimately, social scientists remain responsible for reporting and justifying their choices and interventions in their publication.
 
-We acknowledge that bias issues are complex. The absence of ground truth limits researchers' ability to measure those biases, and no approach solves all issues yet, but we believe that \pkclustering offers a fresh perspective on those issues and will lead to results that are more useful to social scientists.
+Bias issues are complex and the absence of ground truth limits researchers' ability to measure those biases. No approach solves all issues yet, but I believe that \pkclustering offers a fresh perspective on those issues and will lead to results that are more useful to social scientists.
 
 \subsection{Limitations}
 
@@ -868,7 +885,7 @@ In this chapter, I introduced a new approach, called \pkclustering, to help soci
 This mixed-initiative approach is more complex than a traditional clustering process where users simply press a button and get the results, but it provides social scientists with an opportunity to correct mistakes and infuse their deep knowledge of the people and their lives in the results.
 With simple actions such as moving a slider, or dragging over icons, users are able to interactively perform complex tasks on many nodes at once. The output of \pkclustering is---using a direct quote from a social scientist providing feedback on the prototype:  ``a clustering that is supported by algorithms and validated, fully or partially, by social scientists according to their prior knowledge''. Two case studies illustrated the benefits of the approach.
 
-\pkclustering follows traceability, simplicity, and document reality properties discussed in \autoref{ch:introduction} and \autoref{ch:hsna-process-and-network-modeling}, by respectively providing a summary report of the actions leading to the final clustering, simple interactions, and the usage of \modelplural as a data model.
+\pkclustering follows \traceability, \simplicity, and \reality properties discussed in \autoref{ch:introduction} and \autoref{ch:hsna-process-and-network-modeling}, by respectively providing a summary report of the actions leading to the final clustering, simple interactions, and the usage of \modelplural as a data model.
 This approach is a concrete proof-of-concept solution to \qthree in the context of clustering, as it provides a framework for social scientists, specifically historians, to follow a clustering analysis supported by algorithmic power but always in control of the decision process, through easy-to-use interactions.
 Clustering and social network analysis remain a challenging task, typically without ground truth to formally evaluate the results.
 If \pkclustering limits bias inherent to traditional clustering (priming bias and lack of control), the high influence of users on the decision-making may introduce other type of bias.
