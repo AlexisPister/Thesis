@@ -15,7 +15,7 @@ Moreover, current tools typically lead to qualitative descriptions of the networ
 \label{fig:conclu-processVA}
 \end{figure}
 From continuous discussions with social historians, I identified three principles \va interfaces should follow: \traceability, \simplicity, and \reality, to respectively ease the back and forth between the different process steps while assuring reproducibility of analyses, have expressive representations and tools that are simple enough to manipulate for social scientists, and ground results in the concrete reality of the documents, hence limiting the introduction of bias and distortion.
-More precisely, I tried to answer three questions in respect to those properties:
+More precisely, I tried to answer three questions with respect to those properties:
 \begin{description}
     \item \qone:  How to model historical documents into analyzable networks with the right balance between expressiveness and simplicity.
     \item \qtwo: What representations and interactions would allow social historians to answer complex historical questions---with a focus on usability.
@@ -41,7 +41,7 @@ By proposing easy-to-use exploration, visual querying, and comparison interactio
 Finally, I proposed PK-Clustering in \autoref{ch:pk-clustering}, a new method for clustering based on the prior knowledge of social scientists, the consensus of automatic algorithms, and interactions for exploration.
 This system gives a concrete proposition to address \qthree by providing a good balance between user control and data mining automatic capabilities while maintaining \traceability, \simplicity, and \reality properties, through detailed reports of interactions leading to the clustering, simple interactions mechanisms, and the use of \modelplural as a data model.
 These two systems demonstrate that \va tools can support social historians in their overall workflow, and increase the traceability and control of the process while leveraging complex representations and algorithmic power.
-While \combinet and \pkclustering have several limitations that I discuss in \autoref{sec:discussion}, I believe they lead the way towards better integration of \va tools to support social historians in their overall workflow, with a better level of simplicity and usability than state of the art systems.
+While \combinet and \pkclustering have several limitations that I discuss in \autoref{sec:discussion}, I believe they lead the way towards better integration of \va tools to support social historians in their overall workflow, with a better level of simplicity and usability than state-of-the-art systems.
 Below, I discuss the perspective of new \va tools for \hsna, social history, and more globally the future of Digital Humanities in \autoref{sec:perspectives}.
 
 
@@ -71,12 +71,12 @@ I discuss in this section different limitations of my work:
 
 \noindent\textbf{Network modeling.} I proposed with my collaborators to model historical documents using \modelplural, as it allows to satisfy \traceability, \simplicity, and \reality properties. However, this type of modeling has some limitations in 1) the type of sources it can model, 2) how persons are represented in the network, and 3) how uncertainty is managed.
 We elaborated this model from collaborations with several social historians who study semi-structured documents, such as marriage acts, birth certificates, business contracts, construction documents, census, and migration forms.
-These types of documents have a consistent structure and mention people in a restricted number of relationships (spouses and witnesses for marriages, parents and child for birth certificates, etc.) that can be encoded as roles in a consistent manner.
+These types of documents have a consistent structure and mention people in a restricted number of relationships (spouses and witnesses for marriages, parents and children for birth certificates, etc.) that can be encoded as roles in a consistent manner.
 However, other types of textual documents can be leveraged by historians, which can be less structured or without any predefined structure at all.
 One example is correspondence letters, which is a type of document often studied in history\cite{rollingerCicerosSupplicatioUnd2017, edelsteinHistoricalResearchDigital2017}.
 The content of letters is more verbose and varies from one to another, making the process of defining a set of relationships to encode more difficult.
 \modelpluralcapital would therefore not necessarily be an efficient model to encode this type of data, and other network models may be a better fit (such as directed networks).
-Moreover, in the proposed model, if documents are concretely represented as one type of node, person nodes constitute a construction made of the integration of several mentions of the same person different sources.
+Moreover, in the proposed model, if documents are concretely represented as one type of node, person nodes constitute a construction made of the integration of several mentions of the same person from different sources.
 Historians, therefore, have to follow a named-entity-recognition and disambiguation process to give identifiers to the different persons mentioned in the documents and merge the information from several sources into one node.
 % Person nodes are therefore not the concrete representation of the mentions inside the sources, but constructed concepts, resulting from the inspection and cross-referencing of the documents by historians.
 In one of my discussions with a historian, she mentioned that, in this model, ``document nodes can be considered as \emph{Emics} and person nodes \emph{Etics} concepts''\cite{headlandEmicsEticsInsider1990}.
@@ -88,12 +88,12 @@ Some work has been done on the handling of uncertainty in network models\cite{ad
 
 % Almost no work has been done on the handling of uncertainty directly in network models\cite{schulzProbabilisticGraphLayout2017, zhangVisualizingUncertaintyProbabilistic2022}, even though it would allow to ground results in a more rational and real vision of the textual data (at the cost of an increasing complexity).
 
-\noindent\textbf{Temporality.} The time is a key information for historians, as they want to contextualize the phenomena they study in a period, relative to other events.
+\noindent\textbf{Temporality.} The time is key information for historians, as they want to contextualize the phenomena they study in a period, relative to other events.
 This is why we encode time in our suggested model of \modelplural through the time mentioned in historical documents, so historians can explore and analyze this dimension of their data.
 However, dynamic graphs are complex to visualize and analyze.
 In \combinet, if users can explore the dynamic aspect of the data through time distribution, overlays, and dynamic filters, it currently does not propose a layout unfolding the time structure.
 It may therefore be harder to detect time-related patterns compared to topological and geolocated ones (even if possible with interactions).
-\pkclustering lets visualize the data through a static or dynamic layout.
+\pkclustering visualize the data through a static or dynamic layout.
 However, the current prototype considers only static clustering, which can be seen as a simplification of the real-world groups which can often evolve with time\cite{rossettiCommunityDiscoveryDynamic2018}.
 Indeed, persons can often meet new people, change affiliations, or move places, leading groups to merge, split, and disappear.
 \pkclustering is already a complex process for static clustering but could be extended to the building of dynamic groups with the use of time-dependent prior knowledge and dynamic graph clustering algorithms.
@@ -122,8 +122,9 @@ If historians find errors in the network, they can rapidly trace it back from wh
 This modeling choice is a first step towards better integration of the different steps into the same \va loop.
 Moreover, with \combinet, social scientists can apply filters to study specific visions of the network and follow multiple analysis paths on different dimensions of the data.
 \name, therefore, allows better integration of the annotation/encoding, modeling, and analysis/visualization steps, using the same interface.
-However, it does not allow complex network transformations (such as creating simple unipartite networks) nor adding new annotations in the texts of the documents.
-Historians still need to use ad-hoc methods for data collection and encoding and may want to make more complex network transformations for specific analysis goals.
+However, it does not allow complex network transformations (such as creating simple unipartite networks from projections) or creating new annotations in the texts of the documents.
+Historians still need to use ad-hoc methods for data collection and encoding and need to make their own scripts for complex network transformations.
+No tool currently exists which encompasses the whole workflow of historians, from the collection of documents to the final analysis.
 
 
 
@@ -145,7 +146,7 @@ I list in this section how this work could be extended, and interesting research
 
 
 \noindent\textbf{Uncertainty models.} As discussed in \autoref{sec:discussion}, historical sources are filled with ambiguity and imprecise information.
-Practitioners have to disambiguation homonyms mentions to know if they refer to different persons or not. They also have to deal with potential surnames or plain errors in the writing of names.
+Practitioners have to disambiguate mentions of homonyms to know if they refer to different persons or not. They also have to deal with potential surnames or plain errors in the writing of names.
 Similar problems arise for other entities' mentions such as locations since many places in the world have the same name or have changed names with time.
 With non-contemporary documents, location mentions can also have inconsistent resolution and refer to places with non-defined borders, such as ``county of XX'', or ``kingdom of XX'', which do not exist anymore.
 Moreover, historians can find contradictory information in several sources, for example concerning persons and events.
@@ -160,7 +161,7 @@ Several layouts have been proposed to show the time aspect of dynamic graphs\cit
 However, this type of layout does not allow us to see the attributes of persons and documents, nor the geolocation of entities.
 Moreover, most proposed layouts do not scale beyond approximately one hundred nodes.
 One way to solve this scalability problem is to aggregate the network, for example using dynamic clustering.
-Several dynamic clustering algorithms have been developed for dynamic networks, but they often struggle to take into account complex dynamic of clusters, such as merging, splitting, or community drifting.
+Several dynamic clustering algorithms have been developed for dynamic networks, but they often struggle to take into account the complex dynamics of clusters, such as merging, splitting, or community drifting.
 Furthermore, no layout currently exists to visually display dynamic communities specifically for dynamic hypergraphs.
 More work can thus still be done in this space, to visualize the dynamic aspect of \modelplural, and visualize dynamic communities.
 I started to develop a prototype to visualize the dynamic aspect of \modelplural, with a focus on the document.
@@ -177,7 +178,7 @@ It also enables one to rapidly see properties associated with documents, for exa
 %    \includegraphics[width=\columnwidth]{static/figures/PK-Clustering/VISPaperFigures/pkprocess_new.png}
     \includegraphics[width=\textwidth]{static/figures/conclusion/dyn2}
     \includegraphics[width=\textwidth]{static/figures/conclusion/dyn2_region}
-    \caption{Prototype of a document-centered dynamic layout for \modelplural, visualized with data of construction contracts in Piedmont (see collaboration \pascal in \autoref{ch:hsna-process-and-network-modeling}). The layout can show the mention of persons encoded with their roles (top) or the documents and their properties (bottom). Here, the \emph{region} attribute is selected, hence coloring construction contract depending on their location.}
+    \caption{Prototype of a document-centered dynamic layout for \modelplural, showcased with construction contracts in Piedmont (see collaboration \pascal in \autoref{ch:hsna-process-and-network-modeling}). The layout can show the mentions of persons encoded with their roles (top) or the documents and their properties (bottom). Here, the \emph{region} attribute is selected, hence coloring construction contracts depending on their locations.}
 \label{fig:conclu-dynLayout}
 \end{figure}
 
@@ -187,7 +188,7 @@ This layout prototype could serve as a base to develop a process similar to \pkc
 
 
 
-\noindent\textbf{Machine Learning, automation, and agency.} Machine learning went through rapid progress in the last 10 years, mainly due to the increase of data storage, computing power, and the rise of deep learning architectures.
+\noindent\textbf{Machine Learning, automation, and agency.} Machine learning went through rapid progress in the last 10 years, mainly due to the increase in data storage, computing power, and the rise of deep learning architectures.
 It has been applied to various tasks such as automatic driving, fraud detection, computer vision, and medical diagnostics.
 In the context of \sna, machine learning methods have been used to automatically extract knowledge through tasks such as node classification, clustering, and link prediction\cite{michalskiPredictingSocialNetwork2012}.
 More broadly, it has also been used for historical document digitization\cite{philipsHistoricalDocumentProcessing2020}.
@@ -197,7 +198,7 @@ Several methods and approaches now focus on trying to explain the outputs of the
 Similarly, research is done on how to design interactive systems which leverage machine learning algorithms to guide and advise users, which are at the center of the decision-making process.
 This concept of utilizing artificial intelligence power to support human decision-making through interactive systems has been coined as ``agency''\cite{heerAgencyAutomationDesigning2019} and ``human-centered artificial intelligence''\cite{shneidermanHumanCenteredAI2022}.
 PK-clustering is based on the core idea that machine learning should support users while not removing their decision-making process, by providing automatic suggestions through clustering results, while letting social historians decide.
-\name could also be extended with machine learning agency, for example, to suggest social scientists recurring subgraphs in the data, that could be interesting to them.
+\name could also be extended with machine learning suggestions, for example, to suggest social scientists recurring subgraphs in the data, that could be interesting to them.
 Over-represented subgraphs could be a query start that the users would refine through the easy-to-use visual query system.
 This idea of human-centered artificial intelligence could be applied not only to the analysis part but also to the data preparation workflow, for example in document transcription, named entity recognition, and disambiguation, all tasks that machine learning is efficient at.
 
@@ -222,7 +223,7 @@ However, historians still have to collect and annotate/encode their data manuall
 All these operations usually break the traceability and reproducibility of their analyses, and make their process tedious, especially since it often requires the writing of conversion scripts, which they do not necessarily have the programming skills to do.
 I, therefore, argue there is a need for visual interfaces which integrate the whole workflow of social scientists, from the data collection to the formulation of high-level conclusions.
 If all the processes they do is integrated into the same visual environment, it would ease the flow of the analysis, increase the traceability and replicability of the actions and results, and allow them to take several exploration paths more easily.
-\combinet and \pkclustering could for example be integrated into the same environment, with added possibilities of managing documents in the same place, applying annotations/encoding, and seeing in real-time the creation of networks and transformations from the annotation process instead of having to do many back and forth.
+\combinet and \pkclustering could for example be integrated into the same environment, with added possibilities of managing documents in the same place, applying annotations/encoding, and seeing in real time the creation of networks and transformations from the annotation process instead of having to do many back and forth.
 This constitutes an interesting research direction as it would allow social historians to collect, annotate, apply transform, analyze, and visualize their historical documents in the same environment, with easy-to-use interactions and artificial intelligence support.
 
 
@@ -237,12 +238,12 @@ This constitutes an interesting research direction as it would allow social hist
 
 To conclude, the goal of this thesis was to provide answers and directions towards the question of how \va, and more globally computer science, can help and support historians in the analyses they want to make.
 Towards this goal, I first formalized the current \hsna process from collaborations and discussions, defined three properties tools supporting this process should satisfy (\traceability, \simplicity, and \emph{document reality)}, and proposed two interfaces showcasing visualization and interactions mechanisms to support social historians in their workflow, leveraging historical documents modeled as \modelplural.
-This network model explicitly represent the documents and the persons as nodes, thus enabling to represent complex social relationships as they are mentioned without distortion and trace back networks' entities to the documents, while keeping a good level of simplicity in regard to more complex models.
+This network model explicitly represents the documents and the persons as nodes, thus enabling the representation of complex social relationships as they are mentioned without distortion and the tracing of networks' entities back to the documents, while keeping a good level of simplicity in regard to more complex models.
 \combinet allows users to explore this data model, and, therefore, reflect on their annotations, reveal specific facets of the data, and globally highlight and compare specific groups and behaviors to either detect erroneous patterns or answer socio-historical questions.
 \pkclustering aims at integrating better the clustering task in the social historians' workflow, by providing a mixed-initiative approach for clustering on \modelplural, leveraging the prior knowledge of practitioners, the consensus of automatic algorithms, and exploration capabilities.
 Both systems have been validated with real use cases, and aim at providing simple-to-use yet expressive tools, which let historians at the center of the analysis loop.
 Indeed, the use of quantitative methods in history and more globally the humanities has led to many expectations in the last 50 years, but also many disappointments due to usability and interpretability issues.
-More recently, with the rise of popularity of machine learning, many propositions are made towards automatic inspection, extraction, and analysis of historical data based on artificial intelligence.
+More recently, with the rise of the popularity of machine learning, many propositions are made towards automatic inspection, extraction, and analysis of historical data based on artificial intelligence.
 Yet, similar criticisms of the beginnings of quantitative history emerged towards those methods, as they can easily lead to disembodied work in regard of the complexity of the content of historical documents.
 %Yet, much criticism emerged towards those methods, as they can easily lead to disembodied work without a deep understanding of historical content and phenomena.
 Moreover, historians actually regard highly the inspection process of the sources.
@@ -250,10 +251,10 @@ As one historian mentioned, ``What many people promoting artificial intelligence
 Computer-supported tools for digital humanities should therefore support practitioners with interactive visualizations and quantitative-supported suggestions, instead of only providing automatic hard-to-interpret results.
 
 It is the responsibility of the computer science community to focus on usability and users' control to produce tools adopted by the wide and diverse audience of digital humanities.
-In contrast, social scientists still have to do the work for learning basic computer-science concepts and techniques such as file formats, data models, data encoding, and types (strings, integer), to be able to format their data at least basically to import it in computer-supported tools, and have more thorough discussions with computer scientists on their needs.
+In contrast, social scientists still have to do the work for learning basic computer-science concepts and techniques such as file formats, data models, data encoding, and types (strings, integers), to be able to format their data at least basically to import it in computer-supported tools, and have more thorough discussions with computer scientists on their needs.
 To support the adoption of such tools by the humanities, both communities have to connect in meetups, allowing social scientists to share their workflows, research questions, and problematic, and computer scientists to guide them on the preparation, managing, and computational analysis of their data.
 %I think this collaborative vision constitute a fertile ground for the production of methods and systems
-I think this collaborative vision constitute a fertile ground for the production of computer-supported systems with low entry barriers which place social scientists at the center of the analysis loop by providing data-supported suggestions through visualization and interaction mechanisms.
+I think this collaborative vision constitutes a fertile ground for the production of computer-supported systems with low entry barriers which place social scientists at the center of the analysis loop by providing data-supported suggestions through visualization and interaction mechanisms.
 
 %that social scientists can use easily with low entry barriers and which provide data-supported suggestions to help the analysis process of social scientists through visualization, interaction, and in control of their analysis choices.
 
@@ -271,3 +272,4 @@ I think this collaborative vision constitute a fertile ground for the production
 
 
 
+the
