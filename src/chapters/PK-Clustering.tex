@@ -323,7 +323,7 @@ By design, this type of algorithm will always provide a perfect match with the P
 %Ensemble clustering consists in running a multitude of clustering algorithms on the same data and then trying to merge the results. Thus ending up with a better partition than the algorithms results taken only by one algorithm. The set of partitions can be obtained by running different algorithms, \cp{but this is NOT what we do... We just run them all in parallel and that's it! so this is confusing. Both the title of the section + this paragraph are confusing. I would just that we all run them at once} but it is also possible to run the same algorithms with different sets of parameters to increase the number of partitions.
 %\pb{The previous description is what happens in general.}
 
-Our prototype implements 2 attribute-based algorithms (one for numerical attributes and the other for categorical attributes), 9 topology-based algorithms, and 2 propagation based. Since we often deal with hypergraphs, 2 of the topology-based algorithms are bipartite node clustering algorithms: Spectral-co-Clustering \cite{dhillonCoclusteringDocumentsWords2001} and Bipartite Modularity Optimisation\cite{guimeràModuleIdentificationBipartite2007}. Since the majority of community detection algorithms are for unipartite graphs, the system performs a projection into a one-mode network \cite{zhouBipartiteNetworkProjection2007}. Basically, each pair of nodes that are in the same hyperedge are connected together in the resulting graph, with a weight being the number of shared hyperedges~\cite{guimeràModuleIdentificationBipartite2007}.
+Our prototype implements 2 attribute-based algorithms (one for numerical attributes and the other for categorical attributes), 7 topology-based algorithms, and 2 propagation based. Since we often deal with hypergraphs, 2 of the topology-based algorithms are bipartite node clustering algorithms: Spectral-co-Clustering \cite{dhillonCoclusteringDocumentsWords2001} and Bipartite Modularity Optimisation\cite{guimeràModuleIdentificationBipartite2007}. Since the majority of community detection algorithms are for unipartite graphs, the system performs a projection into a one-mode network \cite{zhouBipartiteNetworkProjection2007}. Basically, each pair of nodes that are in the same hyperedge are connected together in the resulting graph, with a weight being the number of shared hyperedges~\cite{guimeràModuleIdentificationBipartite2007}.
 %\jdf{Not sure what that last reference is for.}
 
 % 13 algorithms (2 attribute, 2 semi supervised, 9 topological with 2 bipartite)
@@ -636,7 +636,7 @@ I describe two case studies using realistic scenarios where the clustering has n
 \subsection{Marie Boucher Social Network}
 \label{sud:MB}
 
-I asked one of our historian colleagues for her prior knowledge on her network about the trades of Marie Boucher~\cite{Dufournaud17},  %\autoref{fig:PK-MBstaticFamily} shows that the Marie Boucher dataset is
+I asked one of our historian colleagues for her prior knowledge on her network about the trades of Marie Boucher~\cite{dufournaudAnalyseRéseauxAide2017},  %\autoref{fig:PK-MBstaticFamily} shows that the Marie Boucher dataset is
 composed of two main families: Antheaume and Boucher. Family ties were important for merchants, but could not scale above a certain level. Marie Boucher expanded her trade network far beyond that limit. She then had to connect to bankers, investors, and foreign traders, far outside her family and yet connected to it indirectly. % The network is visualized with the PAOH technique using only one time slot from 1660 to 1692.
 As hinted in her article, Dufournaud believes that the network can be split into three clusters: one related to the Boucher family, one to the Antheaume family, and the third to the Boucher \& Antheaume company. Using standard visualization tools, she could see different connection patterns over time, but she wanted to validate her hypothesis using more formal measures and computational methods.
 
@@ -757,7 +757,7 @@ The InfoVis Steering Committee Policies FAQ states that the composition of the P
 \item gender.
 \end{itemize*}
 Most of these criteria are well understood, except \emph{academic lineage} which is not clearly defined.
-Alice will use the ``Visualization Publications Data'' (VisPubData~\cite{VisPubData}) to find out if she can objectify this concept of lineage to check the diversity of the proposed Program Committee accordingly.
+Alice will use the ``Visualization Publications Data'' (VisPubData~\cite{isenbergVispubdataOrgMetadata2017}) to find out if she can objectify this concept of lineage to check the diversity of the proposed Program Committee accordingly.
 
 Using \pkclustering, Alice loads the VisPubData, filtered to only contain articles from the VAST conference, between 2009--2018. Only prolific authors can be members of the program committee, but highly filtering the co-authorship network  would change its structure and disconnect it. Thus, she will use the unfiltered network of 1383 authors to run the algorithms and perform the matching (step 1 of the process), even if at the end only 113 authors with more than 4 articles will be consolidated (steps 2 and 3).
 
