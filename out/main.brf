@@ -37,7 +37,7 @@
 \backcite {freemanVisualizingSocialNetworks2000}{{2}{1}{chapter.1}}
 \backcite {lemercierQuantitativeMethodsHumanities2019}{{2}{1}{chapter.1}}
 \backcite {kerschbaumerPowerNetworksProspects2015, petzCombiningNetworkResearch2022}{{2}{1.1}{section.1.1}}
-\backcite {blochApologiePourHistoire1949, prost2014}{{2}{1.1}{section.1.1}}
+\backcite {blochApologiePourHistoire1997, prost2014}{{2}{1.1}{section.1.1}}
 \backcite {prost2014}{{2}{1.1}{section.1.1}}
 \backcite {tilly1984retrieving}{{2}{1.1}{section.1.1}}
 \backcite {henryRegistresParoissiauxHistoire1956}{{3}{1.1}{section.1.1}}
@@ -127,7 +127,7 @@
 \backcite {bourdieuRapportsEntreSociologie1995}{{17}{2.2.1}{subsection.2.2.1}}
 \backcite {burkeHistorySocialTheory2005}{{17}{2.2.1}{subsection.2.2.1}}
 \backcite {labrousse1990crise}{{17}{2.2.1}{subsection.2.2.1}}
-\backcite {fogelRailroadsAmericanEconomic1964}{{18}{2.2.2}{subsection.2.2.2}}
+\backcite {fogelRailroadsAmericanEconomic1970}{{18}{2.2.2}{subsection.2.2.2}}
 \backcite {fogel1974time}{{18}{2.2.2}{subsection.2.2.2}}
 \backcite {whaplesWhereThereConsensus1995}{{18}{2.2.2}{subsection.2.2.2}}
 \backcite {lemercierBackSourcesPracticing2021}{{18}{2.2.2}{subsection.2.2.2}}
@@ -378,8 +378,8 @@
 \backcite {yangCommunityDetectionNetworks2013}{{87}{5.2.1}{subsection.5.2.1}}
 \backcite {rossettiCommunityDiscoveryDynamic2018}{{87}{5.2.1}{subsection.5.2.1}}
 \backcite {rossettiCDLIBPythonLibrary2019}{{87}{5.2.1}{subsection.5.2.1}}
-\backcite {basu08, wagstaff2001constrained}{{87}{5.2.2}{subsection.5.2.2}}
-\backcite {basu08}{{87}{5.2.2}{subsection.5.2.2}}
+\backcite {basuConstrainedClusteringAdvances2008, wagstaff2001constrained}{{87}{5.2.2}{subsection.5.2.2}}
+\backcite {basuConstrainedClusteringAdvances2008}{{87}{5.2.2}{subsection.5.2.2}}
 \backcite {bensaidPartiallySupervisedClustering1996}{{87}{5.2.2}{subsection.5.2.2}}
 \backcite {bohm08}{{87}{5.2.2}{subsection.5.2.2}}
 \backcite {lelisSemisupervisedDensityBasedClustering2009}{{87}{5.2.2}{subsection.5.2.2}}

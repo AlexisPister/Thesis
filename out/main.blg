@@ -1,6 +1,7 @@
 This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
+A level-1 auxiliary file: Aknowledgments.aux
 A level-1 auxiliary file: chapters/Publications.aux
 A level-1 auxiliary file: chapters/Introduction.aux
 A level-1 auxiliary file: chapters/Context.aux
@@ -14,100 +15,68 @@ Reallocated global_strs (elt_size=200001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 12112 items from 5000.
+Reallocated field_info (elt_size=4) to 12168 items from 5000.
 Database file #1: main.bib
+Warning--I didn't find a database entry for "johnsonUCINETSoftwareTool1987"
+Warning--I didn't find a database entry for "wilkinsonGrammarGraphics1993"
+Warning--I didn't find a database entry for "wickham2007ggplot"
+Warning--I didn't find a database entry for "trivellatoThereFutureItalian2011"
+Warning--I didn't find a database entry for "erdos2011"
+Warning--I didn't find a database entry for "mrvarAnalysisVisualizationLarge2016"
 Warning--I didn't find a database entry for "ochabDetectingOttokarII2022"
-Warning--I didn't find a database entry for "networkx"
-Warning--I didn't find a database entry for "Ben02DiscoveryTools"
-Warning--I didn't find a database entry for "Horvitz99"
-Warning--I didn't find a database entry for "Girvan7821"
-Warning--I didn't find a database entry for "FORTUNATO201075"
-Warning--I didn't find a database entry for "alzahrani2016community"
-Warning--I didn't find a database entry for "yang2013community"
-Warning--I didn't find a database entry for "rossetiSurvey"
-Warning--I didn't find a database entry for "basu02"
-Warning--I didn't find a database entry for "bensaid96"
-Warning--I didn't find a database entry for "lelis09"
-Warning--I didn't find a database entry for "shang2017efficiently"
-Warning--I didn't find a database entry for "makonin16"
-Warning--I didn't find a database entry for "cook15"
-Warning--I didn't find a database entry for "wall18"
-Warning--I didn't find a database entry for "baeetal20"
-Warning--I didn't find a database entry for "cavallo2018clustrophile"
-Warning--I didn't find a database entry for "l2015xclusim"
-Warning--I didn't find a database entry for "Jianu14"
-Warning--I didn't find a database entry for "Holten2006HierEdgeBundles"
-Warning--I didn't find a database entry for "proulx06sandbox"
-Warning--I didn't find a database entry for "kosara2006parallel"
-Warning--I didn't find a database entry for "gratzl2014domino"
-Warning--I didn't find a database entry for "wang08"
-Warning--I didn't find a database entry for "kumpf18"
-Warning--I didn't find a database entry for "Bonneau2014"
-Warning--I didn't find a database entry for "maceachren05"
-Warning--I didn't find a database entry for "paohvis"
-Warning--I didn't find a database entry for "baroni17"
-Warning--I didn't find a database entry for "brandes08"
-Warning--I didn't find a database entry for "coClustering"
-Warning--I didn't find a database entry for "bipartiteProjection"
-Warning--I didn't find a database entry for "guimera2007module"
-Warning--I didn't find a database entry for "6876043"
-Warning--I didn't find a database entry for "Assignment"
-Warning--I didn't find a database entry for "lex2014upset"
 Warning--I didn't find a database entry for "Dufournaud17"
 Warning--I didn't find a database entry for "VisPubData"
 Warning--I didn't find a database entry for "Progressive"
 Warning--I didn't find a database entry for "keim2000pixel"
 Warning--I didn't find a database entry for "Jakobsen06-fisheye"
+Warning--I didn't find a database entry for "adarManagingUncertaintySocial"
 Warning--to sort, need author or key in InterchangePromiseDigital2008
 Warning--empty author in InterchangePromiseDigital2008
 Warning--there's a number but no volume in Cristofoli2018
-Warning--empty publisher in fogelRailroadsAmericanEconomic1964
 Warning--there's a number but no volume in grandjeanAnalisiVisualizzazioniReti2017
-Warning--empty journal in keimVisualAnalytics
-Warning--empty year in keimVisualAnalytics
-Warning--empty publisher in kerschbaumerPowerNetworksProspects2015
+Warning--empty journal in VisMaster
+Warning--empty journal in neo4j
 Warning--empty booktitle in pisterVisualQueriesBipartite2022
 Warning--there's a number but no volume in stoneRevivalNarrativeReflections1979
-Warning--empty journal in tilly1984retrieving
-You've used 212 entries,
+You've used 243 entries,
             2882 wiz_defined-function locations,
-            2130 strings with 54022 characters,
-and the built_in function-call counts, 97127 in all, are:
-= -- 10159
-> -- 3573
-< -- 44
-+ -- 1305
-- -- 1065
-* -- 5953
-:= -- 13616
-add.period$ -- 769
-call.type$ -- 212
-change.case$ -- 1120
+            2332 strings with 64170 characters,
+and the built_in function-call counts, 116277 in all, are:
+= -- 12230
+> -- 4416
+< -- 55
++ -- 1608
+- -- 1336
+* -- 7410
+:= -- 16378
+add.period$ -- 921
+call.type$ -- 243
+change.case$ -- 1332
 chr.to.int$ -- 0
-cite$ -- 223
-duplicate$ -- 2699
-empty$ -- 9173
-format.name$ -- 1065
-if$ -- 25132
+cite$ -- 251
+duplicate$ -- 3184
+empty$ -- 10739
+format.name$ -- 1336
+if$ -- 29854
 int.to.chr$ -- 0
-int.to.str$ -- 212
-missing$ -- 233
-newline$ -- 1163
-num.names$ -- 441
-pop$ -- 2166
+int.to.str$ -- 243
+missing$ -- 274
+newline$ -- 1370
+num.names$ -- 521
+pop$ -- 2456
 preamble$ -- 1
-purify$ -- 941
+purify$ -- 1126
 quote$ -- 0
-skip$ -- 6770
+skip$ -- 7942
 stack$ -- 0
-substring$ -- 4056
-swap$ -- 757
-text.length$ -- 44
+substring$ -- 5041
+swap$ -- 959
+text.length$ -- 55
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 770
-warning$ -- 11
-while$ -- 695
-width$ -- 215
-write$ -- 2544
-(There were 53 warnings)
+type$ -- 888
+warning$ -- 8
+while$ -- 841
+width$ -- 246
+write$ -- 3013
+(There were 21 warnings)
