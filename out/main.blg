@@ -15,68 +15,57 @@ Reallocated global_strs (elt_size=200001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 12168 items from 5000.
+Reallocated field_info (elt_size=4) to 12112 items from 5000.
 Database file #1: main.bib
-Warning--I didn't find a database entry for "johnsonUCINETSoftwareTool1987"
-Warning--I didn't find a database entry for "wilkinsonGrammarGraphics1993"
-Warning--I didn't find a database entry for "wickham2007ggplot"
-Warning--I didn't find a database entry for "trivellatoThereFutureItalian2011"
-Warning--I didn't find a database entry for "erdos2011"
-Warning--I didn't find a database entry for "mrvarAnalysisVisualizationLarge2016"
-Warning--I didn't find a database entry for "ochabDetectingOttokarII2022"
-Warning--I didn't find a database entry for "Dufournaud17"
-Warning--I didn't find a database entry for "VisPubData"
-Warning--I didn't find a database entry for "Progressive"
-Warning--I didn't find a database entry for "keim2000pixel"
-Warning--I didn't find a database entry for "Jakobsen06-fisheye"
-Warning--I didn't find a database entry for "adarManagingUncertaintySocial"
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Warning--to sort, need author or key in InterchangePromiseDigital2008
 Warning--empty author in InterchangePromiseDigital2008
 Warning--there's a number but no volume in Cristofoli2018
+Warning--empty publisher in dufournaudAnalyseRéseauxAide2017
 Warning--there's a number but no volume in grandjeanAnalisiVisualizzazioniReti2017
 Warning--empty journal in VisMaster
 Warning--empty journal in neo4j
 Warning--empty booktitle in pisterVisualQueriesBipartite2022
 Warning--there's a number but no volume in stoneRevivalNarrativeReflections1979
-You've used 243 entries,
+You've used 254 entries,
             2882 wiz_defined-function locations,
-            2332 strings with 64170 characters,
-and the built_in function-call counts, 116277 in all, are:
-= -- 12230
-> -- 4416
-< -- 55
-+ -- 1608
-- -- 1336
-* -- 7410
-:= -- 16378
-add.period$ -- 921
-call.type$ -- 243
-change.case$ -- 1332
+            2372 strings with 66104 characters,
+and the built_in function-call counts, 121901 in all, are:
+= -- 12840
+> -- 4623
+< -- 59
++ -- 1684
+- -- 1400
+* -- 7766
+:= -- 17159
+add.period$ -- 964
+call.type$ -- 254
+change.case$ -- 1397
 chr.to.int$ -- 0
-cite$ -- 251
-duplicate$ -- 3184
-empty$ -- 10739
-format.name$ -- 1336
-if$ -- 29854
+cite$ -- 263
+duplicate$ -- 3346
+empty$ -- 11245
+format.name$ -- 1400
+if$ -- 31299
 int.to.chr$ -- 0
-int.to.str$ -- 243
-missing$ -- 274
-newline$ -- 1370
-num.names$ -- 521
-pop$ -- 2456
+int.to.str$ -- 254
+missing$ -- 286
+newline$ -- 1432
+num.names$ -- 543
+pop$ -- 2566
 preamble$ -- 1
-purify$ -- 1126
+purify$ -- 1180
 quote$ -- 0
-skip$ -- 7942
+skip$ -- 8328
 stack$ -- 0
-substring$ -- 5041
-swap$ -- 959
-text.length$ -- 55
+substring$ -- 5305
+swap$ -- 1014
+text.length$ -- 59
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 888
-warning$ -- 8
-while$ -- 841
-width$ -- 246
-write$ -- 3013
-(There were 21 warnings)
+type$ -- 930
+warning$ -- 9
+while$ -- 885
+width$ -- 257
+write$ -- 3153
+(There were 9 warnings)

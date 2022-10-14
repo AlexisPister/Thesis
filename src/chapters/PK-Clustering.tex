@@ -188,7 +188,6 @@ Another finding is that the use of GMap of prominent group labels improves memor
 
 %The same four techniques have been evaluated by Saket et al.~\cite{Saket14}, defining a new set of tasks that assess group-level comprehension.
 Holten~\cite{holtenHierarchicalEdgeBundles2006} proposes edge bundling on compound graphs. He bundles together adjacent edges, making explicit group relationships at the cost of losing the detailed relationships.
-%Buchm\"{u}ller et al.~\cite{buchmuller19} proposes a technique for visualizing moving groups of entities over space and time . In their work they provide a visual interpretation of a MotionRug, highlighting the vertical variation in position over time/space.
 %For instance, they divide movement into four main changes: stagnation, change, progression, split.
 A good example of manual grouping and tagging is SandBox, which allows users to organize bits of information and their provenance in order to conduct an analysis of competing hypotheses~\cite{wrightSandboxAnalysisConcepts2006}. A lot of work has also been done on the visualization of categorical variables in tabular data \cite{kosaraParallelSetsInteractive2006, gratzlDominoExtractingComparing2014}, which is similar to the notion of groups in networks.
 
@@ -867,13 +866,13 @@ For the network of \autoref{sud:VAST} about the VisPubData of the VAST conferenc
 Those two datasets are representative of the many medium size datasets historians and social scientists carefully curate (\ie 50--500 nodes).
 %\subsection{Addressing Scalability}
 
-In order to improve computational scalability, progressive techniques can help to deal with larger sizes~\cite{Progressive}.
+In order to improve computational scalability, progressive techniques can help to deal with larger sizes~\cite{feketeProgressiveDataAnalysis2019}.
 The current user interface design for \pkclustering\footnote{The web application and source code are available at \url{https://www.aviz.fr/Research/Pkclustering}} would allow the ranked list of algorithms to be progressively updated, and users to review a few individual algorithms first while other algorithms are still running.  Of course, visual scalability is also an issue with larger datasets, as the list of people also grows.
 PAOHVis allows groups (like clusters) to be aggregated or expanded, so we expect that users would expand clusters one by one to review and consolidate them, while also being able to review the connections between the proposed clusters.
 Users can also use the automated features of PK-Clustering to consolidate the nodes (\eg selecting one algorithm based on the ranking, or using the consensus slider to consolidate all the nodes at once).
-Pixel-oriented visualizations~\cite{keim2000pixel} would facilitate the review of consensus for a large number of nodes and clusters.
+Pixel-oriented visualizations~\cite{keimDesigningPixelorientedVisualization2000} would facilitate the review of consensus for a large number of nodes and clusters.
 %\cp{cite Keim, D.A., 2000. Designing pixel-oriented visualization techniques: Theory and applications. IEEE Transactions on visualization and computer graphics, 6(1), pp.59-78.}
-Classic techniques like zooming or fisheye views~\cite{Jakobsen06-fisheye, rao94} would help as long as names remain readable, which is critical to our users.
+Classic techniques like zooming or fisheye views~\cite{jakobsenEvaluatingFisheyeView2006, rao94} would help as long as names remain readable, which is critical to our users.
 %carefully attention is given to readability of the names (which is critical to our users).
 
 \section{Conclusion}

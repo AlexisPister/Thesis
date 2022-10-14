@@ -16,6 +16,11 @@ Moataz Abdelaal, Nathan~D. Schiele, Katrin Angerbauer, Kuno Kurzhals, Michael
 \newblock \href {https://doi.org/10.1109/TVCG.2022.3209427}
   {\path{doi:10.1109/TVCG.2022.3209427}}.
 
+\bibitem{adarManagingUncertaintySocial2007}
+Eytan Adar and Christopher Re.
+\newblock Managing {{Uncertainty}} in {{Social Networks}}.
+\newblock {\em IEEE Data Eng. Bull.}, 30:15--22, 2007.
+
 \bibitem{ahnertNetworkTurnChanging2020}
 Ruth Ahnert, Sebastian~E. Ahnert, Catherine~Nicole Coleman, and Scott~B.
   Weingart.
@@ -511,6 +516,14 @@ Nicole Dufournaud and Jean-Daniel Fekete.
 \newblock \href {https://doi.org/10.3166/dn.9.2.37-56}
   {\path{doi:10.3166/dn.9.2.37-56}}.
 
+\bibitem{dufournaudAnalyseRéseauxAide2017}
+Nicole Dufournaud, Bernard Michon, Benjamin Bach, and Pascal Cristofoli.
+\newblock L'analyse des r\'eseaux, une aide \`a penser : R\'eflexions sur les
+  strat\'egies \'economique et sociale de {{Marie Boucher}}, marchande \`a
+  {{Nantes}} au {{XVII}} e si\`ecle.
+\newblock In {\em R\'eseaux de Femmes, Femmes En R\'eseaux ({{XVIe-XXIe}}
+  Si\`ecles)}, pages 109--137. 2017.
+
 \bibitem{dunneGraphTrailAnalyzingLarge2012}
 Cody Dunne, Nathalie Henry~Riche, Bongshin Lee, Ronald Metoyer, and George
   Robertson.
@@ -536,6 +549,14 @@ Dan Edelstein, Paula Findlen, Giovanna Ceserani, Caroline Winterer, and Nicole
 \newblock \href {https://doi.org/10.1093/ahr/122.2.400}
   {\path{doi:10.1093/ahr/122.2.400}}.
 
+\bibitem{erdos2011}
+P.~Erd{\"o}s and A.~R{\'e}nyi.
+\newblock On the evolution of random graphs.
+\newblock In {\em On the Evolution of Random Graphs}, pages 38--82. {Princeton
+  University Press}, October 2011.
+\newblock \href {https://doi.org/10.1515/9781400841356.38}
+  {\path{doi:10.1515/9781400841356.38}}.
+
 \bibitem{eriksonMalfeasanceFoundationsGlobal2006}
 Emily Erikson and Peter Bearman.
 \newblock Malfeasance and the {{Foundations}} for {{Global Trade}}: {{The
@@ -558,7 +579,7 @@ Wenfei Fan.
 \newblock \href {https://doi.org/10.1145/2274576.2274578}
   {\path{doi:10.1145/2274576.2274578}}.
 
-\bibitem{febvreVERSAUTREHISTOIRE1949}
+\bibitem{febvreVersAutreHistoire1949}
 Lucien Febvre.
 \newblock Vers une autre histoire.
 \newblock {\em Revue de M\'etaphysique et de Morale}, 54(3/4):225--247, 1949.
@@ -858,6 +879,26 @@ Piers~J Ingram, Michael~PH Stumpf, and Jaroslav Stark.
 \newblock \href {https://doi.org/10.1186/1471-2164-7-108}
   {\path{doi:10.1186/1471-2164-7-108}}.
 
+\bibitem{isenbergVispubdataOrgMetadata2017}
+Petra Isenberg, Florian Heimerl, Steffen Koch, Tobias Isenberg, Panpan Xu,
+  Charles~D. Stolper, Michael Sedlmair, Jian Chen, Torsten M{\"o}ller, and John
+  Stasko.
+\newblock Vispubdata.org: {{A Metadata Collection About IEEE Visualization}}
+  ({{VIS}}) {{Publications}}.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  23(9):2199--2206, September 2017.
+\newblock \href {https://doi.org/10.1109/TVCG.2016.2615308}
+  {\path{doi:10.1109/TVCG.2016.2615308}}.
+
+\bibitem{jakobsenEvaluatingFisheyeView2006}
+Mikkel~R. Jakobsen and Kasper Hornb{\ae}k.
+\newblock Evaluating a fisheye view of source code.
+\newblock In {\em Proceedings of the {{SIGCHI Conference}} on {{Human Factors}}
+  in {{Computing Systems}}}, {{CHI}} '06, pages 377--386, {New York, NY, USA},
+  April 2006. {Association for Computing Machinery}.
+\newblock \href {https://doi.org/10.1145/1124772.1124830}
+  {\path{doi:10.1145/1124772.1124830}}.
+
 \bibitem{jianuHowDisplayGroup2014}
 Radu Jianu, Adrian Rusu, Yifan Hu, and Douglas Taggart.
 \newblock How to {{Display Group Information}} on {{Node-Link Diagrams}}: {{An
@@ -868,6 +909,13 @@ Radu Jianu, Adrian Rusu, Yifan Hu, and Douglas Taggart.
   {\path{doi:10.1109/TVCG.2014.2315995}}.
 
 \bibitem{ucinet}
+J.~David Johnson.
+\newblock {{UCINET}}: {{A}} software tool for network analysis.
+\newblock {\em Communication Education}, 36(1):92--94, January 1987.
+\newblock \href {https://doi.org/10.1080/03634528709378647}
+  {\path{doi:10.1080/03634528709378647}}.
+
+\bibitem{johnsonUCINETSoftwareTool1987}
 J.~David Johnson.
 \newblock {{UCINET}}: {{A}} software tool for network analysis.
 \newblock {\em Communication Education}, 36(1):92--94, January 1987.
@@ -890,6 +938,15 @@ Karine {Karila-Cohen}, Claire Lemercier, Isabelle Ros{\'e}, and Claire Zalc.
   2018.
 \newblock \href {https://doi.org/10.1017/ahss.2019.90}
   {\path{doi:10.1017/ahss.2019.90}}.
+
+\bibitem{keimDesigningPixelorientedVisualization2000}
+D.A. Keim.
+\newblock Designing pixel-oriented visualization techniques: Theory and
+  applications.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  6(1):59--78, January 2000.
+\newblock \href {https://doi.org/10.1109/2945.841121}
+  {\path{doi:10.1109/2945.841121}}.
 
 \bibitem{keimVisualAnalyticsDefinition2008}
 Daniel Keim, Gennady Andrienko, Jean-Daniel Fekete, Carsten G{\"o}rg, J{\"o}rn
@@ -1260,6 +1317,15 @@ G{\'e}rard Noiriel.
 \newblock {\em Gen\`eses. Sciences sociales et histoire}, 1(1):58--85, 1990.
 \newblock \href {https://doi.org/10.3406/genes.1990.1014}
   {\path{doi:10.3406/genes.1990.1014}}.
+
+\bibitem{ochabDetectingOttokarII2022}
+Jeremi~K. Ochab, Jan {\v S}kvr{\v n}{\'a}k, and Michael {\v S}kvr{\v n}{\'a}k.
+\newblock Detecting {{Ottokar II}}'s 1248\textendash 1249 uprising and its
+  instigators in co-witnessing networks.
+\newblock {\em Historical Methods: A Journal of Quantitative and
+  Interdisciplinary History}, 0(0):1--20, May 2022.
+\newblock \href {https://doi.org/10.1080/01615440.2022.2065397}
+  {\path{doi:10.1080/01615440.2022.2065397}}.
 
 \bibitem{opitzInductionLargeScaleKnowledge2018}
 Juri Opitz, Leo Born, and Vivi Nastase.
@@ -1685,6 +1751,14 @@ Natkamon Tovanich, Alexis Pister, Gaelle Richer, Paola Valdivia, Christophe
 \newblock \href {https://doi.org/10.1109/MCG.2021.3091955}
   {\path{doi:10.1109/MCG.2021.3091955}}.
 
+\bibitem{trivellatoThereFutureItalian2011}
+Francesca Trivellato.
+\newblock Is {{There}} a {{Future}} for {{Italian Microhistory}} in the {{Age}}
+  of {{Global History}}?
+\newblock {\em California Italian Studies}, 2(1), 2011.
+\newblock \href {https://doi.org/10.5070/C321009025}
+  {\path{doi:10.5070/C321009025}}.
+
 \bibitem{tukeyFutureDataAnalysis1962}
 John~W. Tukey.
 \newblock The {{Future}} of {{Data Analysis}}.
@@ -1775,6 +1849,18 @@ Douglas~R. White and Ulla Johansen.
 \newblock {\em Network {{Analysis}} and {{Ethnographic Problems}}: {{Process
   Models}} of a {{Turkish Nomad Clan}}}.
 \newblock {Lexington Books}, 2005.
+
+\bibitem{wickham2006introduction}
+Hadley Wickham.
+\newblock An introduction to ggplot: {{An}} implementation of the grammar of
+  graphics in {{R}}.
+\newblock {\em Statistics}, pages 1--8, 2006.
+
+\bibitem{wilkinsonGrammarGraphics2005}
+Leland Wilkinson, D.~Wills, D.~Rope, A.~Norton, and R.~Dubbs.
+\newblock {\em {The Grammar Of Graphics}}.
+\newblock {Springer-Verlag New York Inc.}, {New York}, 2nd ed. 2005 \'edition
+  edition, 2005.
 
 \bibitem{winchesterLinkageHistoricalRecords1970}
 Ian Winchester.

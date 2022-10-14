@@ -47,16 +47,16 @@
 \contentsline {subsection}{\numberline {4.3.2}Tasks Analysis}{58}{subsection.4.3.2}%
 \contentsline {section}{\numberline {4.4}ComBiNet\xspace System}{59}{section.4.4}%
 \contentsline {subsection}{\numberline {4.4.1}Visualizations}{59}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Query Panel}{63}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.2}Query Panel}{62}{subsection.4.4.2}%
 \contentsline {subsection}{\numberline {4.4.3}Comparison}{69}{subsection.4.4.3}%
 \contentsline {subsection}{\numberline {4.4.4}Implementation}{71}{subsection.4.4.4}%
 \contentsline {section}{\numberline {4.5}Use Cases}{72}{section.4.5}%
 \contentsline {subsection}{\numberline {4.5.1}Construction Sites in Piedmont (\#1)}{72}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}French Genealogy (\#2)}{74}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.2}French Genealogy (\#2)}{73}{subsection.4.5.2}%
 \contentsline {subsection}{\numberline {4.5.3}Marriage Acts in Buenos Aires (\#3)}{76}{subsection.4.5.3}%
-\contentsline {subsection}{\numberline {4.5.4}Sociology Theses in France}{77}{subsection.4.5.4}%
-\contentsline {section}{\numberline {4.6}Formative Usability Study}{79}{section.4.6}%
-\contentsline {subsection}{\numberline {4.6.1}Feedback}{80}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.5.4}Sociology Theses in France}{76}{subsection.4.5.4}%
+\contentsline {section}{\numberline {4.6}Formative Usability Study}{78}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Feedback}{79}{subsection.4.6.1}%
 \contentsline {section}{\numberline {4.7}Discussion}{80}{section.4.7}%
 \contentsline {section}{\numberline {4.8}Conclusion and Future Work}{81}{section.4.8}%
 \contentsline {chapter}{\numberline {5}PK-Clustering: Integrating Prior Knowledge in Mixed-Initiative Social Network Clustering}{83}{chapter.5}%
