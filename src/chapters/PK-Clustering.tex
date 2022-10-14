@@ -548,9 +548,6 @@ When done the status of the nodes in the Consolidated Knowledge column (rightmos
 
 %If the classification of one specific algorithm seems good to an user for a specific set of nodes, given his global knowledge on the dataset, the graph and how she wants to partition the data, she can copy the results from this algorithm column to the consolidated knowledge column by clicking or dragging the diamonds corresponding to these nodes, in the chosen algorithm column.
 
-
-
-
 % (thus, the minimum number for this threshold must be equal to at least half the number of algorithm, otherwise there can be ties). To still give users more control, the automatic suggestions appear as circles in the consolidated knowledge column (see~\autoref{fig:PK-consolidatedDataset}).
 
 \item [Direct tagging.] At any time, users can manually overwrite the association of a node to a cluster by right clicking on the node in the consolidated knowledge column and selecting an cluster from a menu.
@@ -566,7 +563,7 @@ When no clear decision can be made users can leave nodes unassigned, and no shap
 \subsubsection{Consolidating extra clusters}
 
 %Thus, no information about these groups are given in the prior knowledge and at the end of validating the PK-groups, there are still a lot of nodes without any group.
-The last step of PK-clustering aims to find new clusters for the nodes that have not been validated yet, based on the consensus of the selected algorithms. The suggestions are made from the point of view of one clustering algorithm that users can change along the process.
+The last step of \pkclustering aims to find new clusters for the nodes that have not been validated yet, based on the consensus of the selected algorithms. The suggestions are made from the point of view of one clustering algorithm that users can change along the process.
 First, the user selects one algorithm in the PAOHVis view and the nodes are grouped by the clusters found by the algorithm.
 The PK-clusters are displayed at the top, followed by \emph{Others}, which contains everyone else. When users click on \emph{Others}, the other clusters are displayed ordered by consensus. Since the number of clusters can be high, all new clusters appear in gray to avoid the rainbow effect. A secondary matching process matches the clusters of the current algorithm with those of all the other algorithms, one by one (similar to the matching process described in~\autoref{sec:matching}) . Once the matching is done, the consensus of one cluster is computed as the sum of the cardinalities of the intersections between the cluster and all the other clusters of the other algorithms matched with it, divided by the number of nodes of the cluster.
 
@@ -628,7 +625,7 @@ In addition to the consolidated clustering, the output of PK-clustering consists
 The table provides, for each node, the consolidated label, along with the labels produced by all the selected algorithms, and a description of the interaction that has led to the consolidation, such as ``selected from \verb|algorithm x|'', ``consensus $>= 5$'', or ``override'' when manually selected by the user instead of selected from an algorithm.  The summary provides counts of how many nodes were labeled using the different interactions methods and can be used in a publication.
 %Examples are provided in the Supplemental Materials (as Fig. 2 and Fig. 5). %Complementary Materials (as \#2 and 5).
 
-Clustering results can thus be reviewed in a more transparent manner, revealing the decisions taken. In contrast, traditional reporting in the Humanities rarely questions or discusses how choices were made and merely mentions the algorithm and parameters used.
+Clustering results can thus be reviewed in a more transparent manner (according the \traceability principle), revealing the decisions taken. In contrast, traditional reporting in the Humanities rarely questions or discusses how choices were made and merely mentions the algorithm and parameters used.
 
 
 \section{Case Studies}
@@ -870,7 +867,7 @@ Those two datasets are representative of the many medium size datasets historian
 %\subsection{Addressing Scalability}
 
 In order to improve the computational scalability, progressive techniques can help to deal with larger sizes~\cite{Progressive}.
-The current user interface design for \pkclustering would allow the ranked list of algorithms to be progressively updated, and users to review a few individual algorithms first while other algorithms are still running.  Of course, visual scalability is also an issue with larger datasets, as the list of people also grows.
+The current user interface design for \pkclustering\footnote{The web application and source code are available at \url{https://www.aviz.fr/Research/Pkclustering}} would allow the ranked list of algorithms to be progressively updated, and users to review a few individual algorithms first while other algorithms are still running.  Of course, visual scalability is also an issue with larger datasets, as the list of people also grows.
 PAOHVis allows groups (like clusters) to be aggregated or expanded, so we expect that users would expand clusters one by one to review and consolidate them, while also being able to review the connections between the proposed clusters.
 Users can also use the automated features of PK-Clustering to consolidate the nodes (\eg selecting one algorithm based on the ranking, or using the consensus slider to consolidate all the nodes at once).
 Pixel-oriented visualizations~\cite{keim2000pixel} would facilitate the review of consensus for a large number nodes and clusters.

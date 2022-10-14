@@ -735,7 +735,8 @@ This visual demonstration was convincing and revealing for our users.
 
 \subsection{Implementation}
 
-\name is made of three components: a visual web interface, a python server, and a Neo4j\cite{neo4j} graph database instance.
+% TODO: update page
+\name\footnote{The web application and source code are available at \url{https://www.aviz.fr/Research/Qcompnet}} is made of three components: a visual web interface, a python server, and a Neo4j\cite{neo4j} graph database instance.
 The client interface is written in JavaScript using D3~\cite{d3}, Vega~\cite{satyanarayan2016vega}, and the Trrack library~\cite{cutlerTrrackLibraryProvenanceTracking2020}.
 The python server is written in Flask and interacts with the Neo4j instance for query processing before sending the results to the frontend.
 We implemented the Cypher parser with the ANTLR parser generator~\cite{parr1995antlr}.
