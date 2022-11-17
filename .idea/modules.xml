@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Projets/CV-Acad-mique/.idea/CV-Acad-mique.iml" filepath="$PROJECT_DIR$/../Projets/CV-Acad-mique/.idea/CV-Acad-mique.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Projets/web/PersonalWebsite/.idea/PersonalWebsite.iml" filepath="$PROJECT_DIR$/../Projets/web/PersonalWebsite/.idea/PersonalWebsite.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Thesis.iml" filepath="$PROJECT_DIR$/.idea/Thesis.iml" />
     </modules>
