@@ -15,11 +15,6 @@ Moataz Abdelaal, Nathan~D. Schiele, Katrin Angerbauer, Kuno Kurzhals, Michael
   {https://doi.org/10.1109/TVCG.2022.3209427}
   {\path{doi:10.1109/TVCG.2022.3209427}}.
 
-\bibitem{adarManagingUncertaintySocial2007}
-Eytan Adar and Christopher Re.
-\newblock Managing {{Uncertainty}} in {{Social Networks}}.
-\newblock 30:15--22.
-
 \bibitem{ahnertNetworkTurnChanging2020}
 Ruth Ahnert, Sebastian~E. Ahnert, Catherine~Nicole Coleman, and Scott~B.
   Weingart.
@@ -113,16 +108,6 @@ Benjamin Bach, Nathalie Henry~Riche, Roland Fernandez, Emmanoulis Giannisakis,
   domain scientists.
 \newblock Posters of the Conference on Information Visualization (InfoVis).
 \newblock URL: \url{https://hal.inria.fr/hal-01205822}.
-
-\bibitem{bachVisualizingDynamicNetworks2014}
-Benjamin Bach, Emmanuel Pietriga, and Jean-Daniel Fekete.
-\newblock Visualizing dynamic networks with matrix cubes.
-\newblock In Matt Jones, Philippe~A. Palanque, Albrecht Schmidt, and Tovi
-  Grossman, editors, {\em {{CHI Conference}} on {{Human Factors}} in
-  {{Computing Systems}}, {{CHI}}'14, {{Toronto}}, {{ON}}, {{Canada}} -
-  {{April}} 26 - {{May}} 01, 2014}, pages 877--886. {ACM}.
-\newblock \href {https://doi.org/10.1145/2556288.2557010}
-  {\path{doi:10.1145/2556288.2557010}}.
 
 \bibitem{baeInteractiveClusteringComprehensive2020}
 Juhee Bae, Tove Helldin, Maria Riveiro, Sławomir Nowaczyk, Mohamed-Rafik
@@ -294,13 +279,6 @@ Ulrik Brandes, Daniel Delling, Marco Gaertler, Robert Gorke, Martin Hoefer,
 \newblock 20(2):172--188.
 \newblock \href {https://doi.org/10.1109/TKDE.2007.190689}
   {\path{doi:10.1109/TKDE.2007.190689}}.
-
-\bibitem{brandesAsymmetricRelationsLongitudinal2011}
-Ulrik Brandes and Bobo Nick.
-\newblock Asymmetric {{Relations}} in {{Longitudinal Social Networks}}.
-\newblock 17(12):2283--2290.
-\newblock \href {https://doi.org/10.1109/TVCG.2011.169}
-  {\path{doi:10.1109/TVCG.2011.169}}.
 
 \bibitem{burdickDigitalHumanities2016}
 Anne Burdick, Johanna Drucker, Peter Lunenfeld, Todd Presner, and Jeffrey
@@ -853,12 +831,6 @@ Loren Haskins and Kirk Jeffrey.
 \newblock \href {http://arxiv.org/abs/buFMAwAAQBAJ}
   {\path{arXiv:buFMAwAAQBAJ}}.
 
-\bibitem{heerAgencyAutomationDesigning2019}
-Jeffrey Heer.
-\newblock Agency plus automation: {{Designing}} artificial intelligence into
-  interactive systems.
-\newblock 116(6):1844--1850.
-
 \bibitem{heerVizsterVisualizingOnline2005}
 Jeffrey Heer and danah {boyd}.
 \newblock Vizster: {{Visualizing Online Social Networks}}.
@@ -925,14 +897,6 @@ Danny Holten.
 \newblock 12(5):741--748.
 \newblock \href {https://doi.org/10.1109/TVCG.2006.147}
   {\path{doi:10.1109/TVCG.2006.147}}.
-
-\bibitem{holzingerMachineLearningExplainable2018}
-Andreas Holzinger.
-\newblock From {{Machine Learning}} to {{Explainable AI}}.
-\newblock In {\em 2018 {{World Symposium}} on {{Digital Intelligence}} for
-  {{Systems}} and {{Machines}} ({{DISA}})}, pages 55--66.
-\newblock \href {https://doi.org/10.1109/DISA.2018.8490530}
-  {\path{doi:10.1109/DISA.2018.8490530}}.
 
 \bibitem{horvitzPrinciplesMixedinitiativeUser1999}
 Eric Horvitz.
@@ -1312,17 +1276,6 @@ Pierre Mercklé and Claire Zalc.
   \href {https://doi.org/10.1017/ahss.2019.95}
   {\path{doi:10.1017/ahss.2019.95}}.
 
-\bibitem{michalskiPredictingSocialNetwork2012}
-R.~Michalski, P.~Kazienko, and D.~Krol.
-\newblock Predicting {{Social Network Measures Using Machine Learning
-  Approach}}.
-\newblock In {\em 2012 {{IEEE}}/{{ACM International Conference}} on
-  {{Advances}} in {{Social Networks Analysis}} and {{Mining}}}, pages
-  1056--1059. {IEEE}.
-\newblock URL: \url{http://ieeexplore.ieee.org/document/6425619/}, \href
-  {https://doi.org/10.1109/ASONAM.2012.183}
-  {\path{doi:10.1109/ASONAM.2012.183}}.
-
 \bibitem{neo4j}
 Justin~J Miller.
 \newblock Graph {{Database Applications}} and {{Concepts}} with {{Neo4j}}.
@@ -1509,15 +1462,6 @@ Vanessa Peña-Araya, Tong Xue, Emmanuel Pietriga, Laurent Amsaleg, and
   \href {https://doi.org/10.1177/14738716211045007}
   {\path{doi:10.1177/14738716211045007}}.
 
-\bibitem{philipsHistoricalDocumentProcessing2020}
-James~P. Philips and Nasseh Tabrizi.
-\newblock Historical {{Document Processing}}: {{Historical Document
-  Processing}}: {{A Survey}} of {{Techniques}}, {{Tools}}, and {{Trends}}.
-\newblock URL: \url{http://arxiv.org/abs/2002.06300}, \href
-  {http://arxiv.org/abs/2002.06300} {\path{arXiv:2002.06300}}, \href
-  {https://doi.org/10.48550/arXiv.2002.06300}
-  {\path{doi:10.48550/arXiv.2002.06300}}.
-
 \bibitem{pisterIntegratingPriorKnowledge2021}
 Alexis Pister, Paolo Buono, Jean-Daniel Fekete, Catherine Plaisant, and Paola
   Valdivia.
@@ -1602,16 +1546,6 @@ Pedro Ribeiro and Fernando Silva.
   Publishing}.
 \newblock \href {https://doi.org/10.1007/978-3-319-05401-8_11}
   {\path{doi:10.1007/978-3-319-05401-8_11}}.
-
-\bibitem{rollingerCicerosSupplicatioUnd2017}
-Christian Rollinger.
-\newblock Ciceros supplicatio und aristokratische konkurrenz im senat der
-  späten republik.
-\newblock 99(1):192--225.
-\newblock URL:
-  \url{https://www.degruyter.com/document/doi/10.1515/klio-2017-0007/html},
-  \href {https://doi.org/10.1515/klio-2017-0007}
-  {\path{doi:10.1515/klio-2017-0007}}.
 
 \bibitem{rollingerProlegomenaProblemsPerspectives2020}
 Christian Rollinger.
@@ -1709,16 +1643,6 @@ F.~Schreiber and H.~Schwobbermeyer.
   \href {https://doi.org/10.1093/bioinformatics/bti556}
   {\path{doi:10.1093/bioinformatics/bti556}}.
 
-\bibitem{schulzProbabilisticGraphLayout2017}
-Christoph Schulz, Arlind Nocaj, Jochen Goertler, Oliver Deussen, Ulrik Brandes,
-  and Daniel Weiskopf.
-\newblock Probabilistic {{Graph Layout}} for {{Uncertain Network
-  Visualization}}.
-\newblock 23(1):531--540.
-\newblock URL: \url{http://ieeexplore.ieee.org/document/7539319/}, \href
-  {https://doi.org/10.1109/TVCG.2016.2598919}
-  {\path{doi:10.1109/TVCG.2016.2598919}}.
-
 \bibitem{scottSocialNetworkAnalysis1988}
 John Scott.
 \newblock Social {{Network Analysis}}.
@@ -1783,13 +1707,6 @@ Ben Shneiderman.
 \newblock 11(6):70--77.
 \newblock \href {https://doi.org/10.1109/52.329404}
   {\path{doi:10.1109/52.329404}}.
-
-\bibitem{shneidermanHumanCenteredAI2022}
-Ben Shneiderman.
-\newblock {\em Human-{{Centered AI}}}.
-\newblock {Oxford University Press}.
-\newblock \href {http://arxiv.org/abs/mSRXEAAAQBAJ}
-  {\path{arXiv:mSRXEAAAQBAJ}}.
 
 \bibitem{shneidermanInventingDiscoveryTools2002}
 Ben Shneiderman.

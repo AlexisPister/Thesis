@@ -1,21 +1,29 @@
 This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
-A level-1 auxiliary file: Aknowledgments.aux
+I couldn't open auxiliary file Aknowledgments.aux
+---line 32 of file main.aux
+ : \@input{Aknowledgments.aux
+ :                           }
+I'm skipping whatever remains of this command
 A level-1 auxiliary file: chapters/Publications.aux
 A level-1 auxiliary file: chapters/Introduction.aux
 A level-1 auxiliary file: chapters/Context.aux
 A level-1 auxiliary file: chapters/NetworkModels.aux
 A level-1 auxiliary file: chapters/ComBiNet.aux
 A level-1 auxiliary file: chapters/PK-Clustering.aux
-A level-1 auxiliary file: chapters/Conclusion.aux
+I couldn't open auxiliary file chapters/Conclusion.aux
+---line 72 of file main.aux
+ : \@input{chapters/Conclusion.aux
+ :                                }
+I'm skipping whatever remains of this command
 The style file: plainurl.bst
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=200001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 12448 items from 5000.
+Reallocated field_info (elt_size=4) to 12168 items from 5000.
 Database file #1: main.bib
 Warning--entry type for "petzCombiningNetworkResearch2022" isn't style-file defined
 --line 3511 of file main.bib
@@ -27,8 +35,6 @@ Warning--empty author and editor in headlandEmicsEticsInsider1990
 Warning--empty year in headlandEmicsEticsInsider1990
 Warning--empty journal in abdelaalComparativeEvaluationBipartite2022
 Warning--empty year in abdelaalComparativeEvaluationBipartite2022
-Warning--empty journal in adarManagingUncertaintySocial2007
-Warning--empty year in adarManagingUncertaintySocial2007
 Warning--empty journal in ahnertNetworkTurnChanging2020
 Warning--empty year in ahnertNetworkTurnChanging2020
 Warning--empty journal in alexanderAnalysisAncientNetwork1990
@@ -41,7 +47,6 @@ Warning--empty journal in anscombeGraphsStatisticalAnalysis1973
 Warning--empty year in anscombeGraphsStatisticalAnalysis1973
 Warning--empty year in archdeaconCorrelationRegressionAnalysis1994
 Warning--empty year in auberTULIP2017
-Warning--empty year in bachVisualizingDynamicNetworks2014
 Warning--empty journal in baeInteractiveClusteringComprehensive2020
 Warning--empty year in baeInteractiveClusteringComprehensive2020
 Warning--empty journal in barnesBigDataLittle2013
@@ -77,8 +82,6 @@ Warning--empty year in bradshawDataJournalism2017
 Warning--empty year in brandesNetworkAnalysisMethodological2005
 Warning--empty journal in brandesModularityClustering2008
 Warning--empty year in brandesModularityClustering2008
-Warning--empty journal in brandesAsymmetricRelationsLongitudinal2011
-Warning--empty year in brandesAsymmetricRelationsLongitudinal2011
 Warning--empty year in burdickDigitalHumanities2016
 Warning--empty year in burkeHistorySocialTheory2005
 Warning--empty year in bohm08
@@ -189,8 +192,6 @@ Warning--empty journal in gedcom
 Warning--empty year in gedcom
 Warning--empty year in HascoetD12
 Warning--empty year in haskinsUnderstandingQuantitativeHistory2011
-Warning--empty journal in heerAgencyAutomationDesigning2019
-Warning--empty year in heerAgencyAutomationDesigning2019
 Warning--empty year in heerVizsterVisualizingOnline2005
 Warning--empty journal in henryRegistresParoissiauxHistoire1956
 Warning--empty year in henryRegistresParoissiauxHistoire1956
@@ -205,7 +206,6 @@ Warning--empty year in hollandLocalStructureSocial1976
 Warning--empty year in holleisQUOGGLESQueryGraphs2005
 Warning--empty journal in holtenHierarchicalEdgeBundles2006
 Warning--empty year in holtenHierarchicalEdgeBundles2006
-Warning--empty year in holzingerMachineLearningExplainable2018
 Warning--empty year in horvitzPrinciplesMixedinitiativeUser1999
 Warning--empty journal in ingramNetworkMotifsStructure2006
 Warning--empty year in ingramNetworkMotifsStructure2006
@@ -280,7 +280,6 @@ Warning--empty journal in mcguffinSimpleAlgorithmsNetwork2012
 Warning--empty year in mcguffinSimpleAlgorithmsNetwork2012
 Warning--empty journal in mercklePeutonModeliserPersecution2018
 Warning--empty year in mercklePeutonModeliserPersecution2018
-Warning--empty year in michalskiPredictingSocialNetwork2012
 Warning--empty journal in neo4j
 Warning--empty year in neo4j
 Warning--empty journal in millsSocialNetworkAnalysis2017
@@ -336,8 +335,6 @@ Warning--empty year in renCharticulatorInteractiveConstruction2019
 Warning--empty journal in renoustDetanglerVisualAnalytics2015
 Warning--empty year in renoustDetanglerVisualAnalytics2015
 Warning--empty year in ribeiroDiscoveringColoredNetwork2014
-Warning--empty journal in rollingerCicerosSupplicatioUnd2017
-Warning--empty year in rollingerCicerosSupplicatioUnd2017
 Warning--empty journal in rollingerProlegomenaProblemsPerspectives2020
 Warning--empty year in rollingerProlegomenaProblemsPerspectives2020
 Warning--empty journal in rossettiCommunityDiscoveryDynamic2018
@@ -358,8 +355,6 @@ Warning--empty journal in SAWANT2018
 Warning--empty year in SAWANT2018
 Warning--empty journal in schreiberMAVistoToolExploration2005
 Warning--empty year in schreiberMAVistoToolExploration2005
-Warning--empty journal in schulzProbabilisticGraphLayout2017
-Warning--empty year in schulzProbabilisticGraphLayout2017
 Warning--empty journal in scottSocialNetworkAnalysis1988
 Warning--empty year in scottSocialNetworkAnalysis1988
 Warning--empty journal in sedlmairVisualParameterSpace2014
@@ -374,7 +369,6 @@ Warning--empty year in shangEfficientlyDetectingOverlapping2017
 Warning--empty year in shneidermanEyesHaveIt1996
 Warning--empty journal in DynamicQueries
 Warning--empty year in DynamicQueries
-Warning--empty year in shneidermanHumanCenteredAI2022
 Warning--empty journal in shneidermanInventingDiscoveryTools2002
 Warning--empty year in shneidermanInventingDiscoveryTools2002
 Warning--empty year in Simmel2013
@@ -437,45 +431,45 @@ Warning--empty journal in xuSurveyAnalysisUser2020
 Warning--empty year in xuSurveyAnalysisUser2020
 Warning--empty year in yangCommunityDetectionNetworks2013
 Warning--empty year in zhou13
-You've used 266 entries,
+You've used 256 entries,
             2882 wiz_defined-function locations,
-            2426 strings with 73043 characters,
-and the built_in function-call counts, 127983 in all, are:
-= -- 12881
-> -- 4816
-< -- 65
-+ -- 1758
-- -- 1456
-* -- 8846
-:= -- 17447
-add.period$ -- 1041
-call.type$ -- 266
-change.case$ -- 1458
+            2358 strings with 70384 characters,
+and the built_in function-call counts, 122944 in all, are:
+= -- 12359
+> -- 4651
+< -- 62
++ -- 1700
+- -- 1408
+* -- 8502
+:= -- 16784
+add.period$ -- 1002
+call.type$ -- 256
+change.case$ -- 1407
 chr.to.int$ -- 0
-cite$ -- 681
-duplicate$ -- 3754
-empty$ -- 11970
-format.name$ -- 1456
-if$ -- 32421
+cite$ -- 657
+duplicate$ -- 3603
+empty$ -- 11484
+format.name$ -- 1408
+if$ -- 31131
 int.to.chr$ -- 0
-int.to.str$ -- 266
-missing$ -- 300
-newline$ -- 1528
-num.names$ -- 571
-pop$ -- 3562
+int.to.str$ -- 256
+missing$ -- 290
+newline$ -- 1471
+num.names$ -- 549
+pop$ -- 3431
 preamble$ -- 1
-purify$ -- 1231
+purify$ -- 1189
 quote$ -- 0
-skip$ -- 7934
+skip$ -- 7618
 stack$ -- 0
-substring$ -- 5606
-swap$ -- 1011
-text.length$ -- 65
+substring$ -- 5329
+swap$ -- 958
+text.length$ -- 62
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 972
-warning$ -- 415
-while$ -- 933
-width$ -- 269
-write$ -- 3003
-(There were 417 warnings)
+type$ -- 934
+warning$ -- 401
+while$ -- 893
+width$ -- 259
+write$ -- 2889
+(There were 2 error messages)
