@@ -176,7 +176,7 @@ Michael Baur, Marc Benkert, Ulrik Brandes, Sabine Cornelsen, Marco Gaertler,
 \newblock \href {https://doi.org/10.1007/3-540-45848-4_47}
   {\path{doi:10.1007/3-540-45848-4_47}}.
 
-\bibitem{beauguitteThéorieGraphesAnalyse2022}
+\bibitem{beauguitteTheorieGraphesAnalyse2022}
 Laurent Beauguitte.
 \newblock Th\'eorie des graphes et analyse de r\'eseau en g\'eographie :
   Histoire d'un lien faible (1950-1963).
@@ -516,7 +516,7 @@ Nicole Dufournaud and Jean-Daniel Fekete.
 \newblock \href {https://doi.org/10.3166/dn.9.2.37-56}
   {\path{doi:10.3166/dn.9.2.37-56}}.
 
-\bibitem{dufournaudAnalyseRéseauxAide2017}
+\bibitem{dufournaudAnalyseReseauxAide2017}
 Nicole Dufournaud, Bernard Michon, Benjamin Bach, and Pascal Cristofoli.
 \newblock L'analyse des r\'eseaux, une aide \`a penser : R\'eflexions sur les
   strat\'egies \'economique et sociale de {{Marie Boucher}}, marchande \`a
@@ -616,6 +616,14 @@ Robert~William Fogel and Stanley~L Engerman.
 \newblock {\em Time on the Cross: {{Evidence}} and Methods, a Supplement},
   volume~2.
 \newblock {Little, Brown}, 1974.
+
+\bibitem{forliniMiningMaterialArchive2018}
+Stefania Forlini, Uta Hinrichs, and John Brosz.
+\newblock Mining the {{Material Archive}}: {{Balancing Sensate Experience}} and
+  {{Sense-Making}} in {{Digitized Print Collections}}.
+\newblock {\em Open Library of Humanities}, 4(2):35, November 2018.
+\newblock \href {https://doi.org/10.16995/olh.282}
+  {\path{doi:10.16995/olh.282}}.
 
 \bibitem{fortunatoCommunityDetectionGraphs2010}
 Santo Fortunato.
@@ -738,7 +746,7 @@ Maurizio Gribaudi and Alain Blum.
 \newblock \href {https://doi.org/10.3406/ahess.1990.278914}
   {\path{doi:10.3406/ahess.1990.278914}}.
 
-\bibitem{guimeràModuleIdentificationBipartite2007}
+\bibitem{guimeraModuleIdentificationBipartite2007}
 Roger Guimer{\`a}, Marta {Sales-Pardo}, and Lu{\'i}s A.~Nunes Amaral.
 \newblock Module identification in bipartite and directed networks.
 \newblock {\em Phys. Rev. E}, 76(3):036102, September 2007.
@@ -768,6 +776,12 @@ Klaus Hamberger, Michael Houseman, and R.~White, Douglas.
 \newblock Kinship network analysis.
 \newblock In John Scott \& Peter~J. Carrington, editor, {\em The Sage Handbook
   of Social Network Analysis}, pages 533--549. {Sage Publications}, 2011.
+
+\bibitem{harary1953graph}
+Frank Harary and Robert~Z Norman.
+\newblock {\em Graph Theory as a Mathematical Model in Social Science}.
+\newblock Number~2. {University of Michigan, Institute for Social Research Ann
+  Arbor}, 1953.
 
 \bibitem{gedcom}
 J.~Tuomas Harviainen and Bo-Christer Bj{\"o}rk.
@@ -842,6 +856,25 @@ Aidan Hogan, Eva Blomqvist, Michael Cochez, Claudia D'amato, Gerard~De Melo,
 \newblock Knowledge graphs.
 \newblock {\em ACM Comput. Surv.}, 54(4), July 2021.
 \newblock \href {https://doi.org/10.1145/3447772} {\path{doi:10.1145/3447772}}.
+
+\bibitem{hollandLocalStructureSocial1976}
+Paul~W. Holland and Samuel Leinhardt.
+\newblock Local {{Structure}} in {{Social Networks}}.
+\newblock {\em Sociological Methodology}, 7:1, 1976.
+\newblock \href {https://doi.org/10.2307/270703} {\path{doi:10.2307/270703}}.
+
+\bibitem{holleisQUOGGLESQueryGraphs2005}
+Paul Holleis and Franz~J. Brandenburg.
+\newblock {{QUOGGLES}}: {{Query On Graphs}} \textendash{} {{A Graphical Largely
+  Extensible System}}.
+\newblock In David Hutchison, Takeo Kanade, Josef Kittler, Jon~M. Kleinberg,
+  Friedemann Mattern, John~C. Mitchell, Moni Naor, Oscar Nierstrasz,
+  C.~Pandu~Rangan, Bernhard Steffen, Madhu Sudan, Demetri Terzopoulos, Dough
+  Tygar, Moshe~Y. Vardi, Gerhard Weikum, and J{\'a}nos Pach, editors, {\em
+  Graph {{Drawing}}}, volume 3383, pages 465--470. {Springer Berlin
+  Heidelberg}, {Berlin, Heidelberg}, 2005.
+\newblock \href {https://doi.org/10.1007/978-3-540-31843-9_48}
+  {\path{doi:10.1007/978-3-540-31843-9_48}}.
 
 \bibitem{holtenHierarchicalEdgeBundles2006}
 Danny Holten.
@@ -984,6 +1017,14 @@ Jon Kleinberg.
 \newblock An {{Impossibility Theorem}} for {{Clustering}}.
 \newblock In {\em Advances in {{Neural Information Processing Systems}}},
   volume~15. {MIT Press}, 2002.
+
+\bibitem{konigTheoryFiniteInfinite1990}
+D{\'e}nes K{\"o}nig.
+\newblock Theory of {{Finite}} and {{Infinite Graphs}}.
+\newblock In D{\'e}nes K{\"o}nig, editor, {\em Theory of {{Finite}} and
+  {{Infinite Graphs}}}, pages 45--421. {Birkh\"auser}, {Boston, MA}, 1990.
+\newblock \href {https://doi.org/10.1007/978-1-4684-8971-2_2}
+  {\path{doi:10.1007/978-1-4684-8971-2_2}}.
 
 \bibitem{konovalovPartitiondistanceAssignmentProblem2005}
 Dmitry~A. Konovalov, Bruce Litow, and Nigel Bajema.
@@ -1386,16 +1427,6 @@ James~P. Philips and Nasseh Tabrizi.
   \href {https://doi.org/10.48550/arXiv.2002.06300}
   {\path{doi:10.48550/arXiv.2002.06300}}.
 
-\bibitem{pientaVIGORInteractiveVisual2018}
-Robert Pienta, Fred Hohman, Alex Endert, Acar Tamersoy, Kevin Roundy, Chris
-  Gates, Shamkant Navathe, and Duen~Horng Chau.
-\newblock {{VIGOR}}: {{Interactive Visual Exploration}} of {{Graph Query
-  Results}}.
-\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
-  24(1):215--225, January 2018.
-\newblock \href {https://doi.org/10.1109/TVCG.2017.2744898}
-  {\path{doi:10.1109/TVCG.2017.2744898}}.
-
 \bibitem{pisterIntegratingPriorKnowledge2021}
 Alexis Pister, Paolo Buono, Jean-Daniel Fekete, Catherine Plaisant, and Paola
   Valdivia.
@@ -1510,6 +1541,12 @@ Fabrice Rossi, Nathalie Vialaneix, and Florent Hautefeuille.
 \newblock {\em Digital Medievalist}, 9:2013, July 2014.
 \newblock \href {https://doi.org/doi:10.16995/dm.52}
   {\path{doi:doi:10.16995/dm.52}}.
+
+\bibitem{rozenblatMethodsMultilevelAnalysis2013}
+C{\'e}line Rozenblat and Guy Melan{\c c}on, editors.
+\newblock {\em Methods for Multilevel Analysis and Visualisation of
+  Geographical Networks}.
+\newblock Number volume 11 in Methodos Series. {Springer}, {Dordrecht}, 2013.
 
 \bibitem{rubio-mondejarWomenEntrepreneursFamily2022}
 Juan~A. {Rubio-Mondejar} and Josean {Garrues-Irurzun}.
@@ -1729,6 +1766,16 @@ J.~Joshua Thomas and Kris Cook.
 \newblock \href {https://doi.org/10.1109/MCG.2006.5}
   {\path{doi:10.1109/MCG.2006.5}}.
 
+\bibitem{thudtBohemianBookshelfSupporting2012}
+Alice Thudt, Uta Hinrichs, and Sheelagh Carpendale.
+\newblock The bohemian bookshelf: Supporting serendipitous book discoveries
+  through information visualization.
+\newblock In {\em Proceedings of the {{SIGCHI Conference}} on {{Human Factors}}
+  in {{Computing Systems}}}, pages 1461--1470, {Austin Texas USA}, May 2012.
+  {ACM}.
+\newblock \href {https://doi.org/10.1145/2207676.2208607}
+  {\path{doi:10.1145/2207676.2208607}}.
+
 \bibitem{tilly1984retrieving}
 Charles Tilly.
 \newblock {\em Retrieving {{European Lives}}}.
@@ -1915,12 +1962,5 @@ Michelle~X. Zhou.
   York, NY, USA}, 2013. {Association for Computing Machinery}.
 \newblock \href {https://doi.org/10.1145/2493102.2499786}
   {\path{doi:10.1145/2493102.2499786}}.
-
-\bibitem{zhouBipartiteNetworkProjection2007}
-Tao Zhou, Jie Ren, Mat{\'u}{\v s} Medo, and Yi-Cheng Zhang.
-\newblock Bipartite network projection and personal recommendation.
-\newblock {\em Phys. Rev. E}, 76(4):046115, October 2007.
-\newblock \href {https://doi.org/10.1103/PhysRevE.76.046115}
-  {\path{doi:10.1103/PhysRevE.76.046115}}.
 
 \end{thebibliography}

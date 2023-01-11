@@ -12,12 +12,12 @@
 \contentsline {subsection}{\numberline {2.2.1}History, Social History, and Methodology}{16}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Quantitative History}{18}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.2.3}Digital Humanities}{19}{subsection.2.2.3}%
-\contentsline {section}{\numberline {2.3}Historical Social Network Analysis}{20}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Sociometry to SNA}{21}{subsection.2.3.1}%
+\contentsline {section}{\numberline {2.3}Historical Social Network Analysis}{21}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Sociometry to Social Network Analysis}{21}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}Methods and Measures}{23}{subsection.2.3.2}%
 \contentsline {subsection}{\numberline {2.3.3}Historical Social Network Analysis}{25}{subsection.2.3.3}%
 \contentsline {subsection}{\numberline {2.3.4}Network Modeling}{25}{subsection.2.3.4}%
-\contentsline {section}{\numberline {2.4}Social Network Visualization}{27}{section.2.4}%
+\contentsline {section}{\numberline {2.4}Social Network Visualization}{28}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}Graph Drawing}{28}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}Social Network Visual Analytics}{29}{subsection.2.4.2}%
 \contentsline {chapter}{\numberline {3}Historical Social Network Analysis Process, Pitfalls, and Network Modeling}{33}{chapter.3}%
@@ -34,7 +34,7 @@
 \contentsline {subsection}{\numberline {3.4.2}Bipartite Multivariate Dynamic Social Network}{46}{subsection.3.4.2}%
 \contentsline {section}{\numberline {3.5}Applications}{47}{section.3.5}%
 \contentsline {section}{\numberline {3.6}Discussion}{48}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Conclusion}{48}{section.3.7}%
+\contentsline {section}{\numberline {3.7}Conclusion}{49}{section.3.7}%
 \contentsline {chapter}{\numberline {4}ComBiNet: Visual Query and Comparison of Bipartite Dynamic Multivariate Networks with Roles}{51}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Context}{52}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Related Work}{54}{section.4.2}%
@@ -44,9 +44,9 @@
 \contentsline {subsection}{\numberline {4.2.4}Provenance}{56}{subsection.4.2.4}%
 \contentsline {section}{\numberline {4.3}Task Analysis and Design Process}{56}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}Scenarios}{56}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Tasks Analysis}{58}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.2}Tasks Analysis}{59}{subsection.4.3.2}%
 \contentsline {section}{\numberline {4.4}ComBiNet\xspace System}{59}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Visualizations}{59}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.1}Visualizations}{60}{subsection.4.4.1}%
 \contentsline {subsection}{\numberline {4.4.2}Query Panel}{62}{subsection.4.4.2}%
 \contentsline {subsection}{\numberline {4.4.3}Comparison}{69}{subsection.4.4.3}%
 \contentsline {subsection}{\numberline {4.4.4}Implementation}{71}{subsection.4.4.4}%
@@ -69,16 +69,16 @@
 \contentsline {subsection}{\numberline {5.2.5}Ensemble Clustering}{88}{subsection.5.2.5}%
 \contentsline {subsection}{\numberline {5.2.6}Summary}{89}{subsection.5.2.6}%
 \contentsline {section}{\numberline {5.3}PK-clustering}{89}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Overview}{89}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.1}Overview}{90}{subsection.5.3.1}%
 \contentsline {subsection}{\numberline {5.3.2}Specification of Prior Knowledge}{91}{subsection.5.3.2}%
 \contentsline {subsection}{\numberline {5.3.3}Running the Clustering Algorithms}{91}{subsection.5.3.3}%
 \contentsline {subsection}{\numberline {5.3.4}Matching Clustering Results and Prior Knowledge}{92}{subsection.5.3.4}%
-\contentsline {subsection}{\numberline {5.3.5}Ranking the Algorithms}{93}{subsection.5.3.5}%
+\contentsline {subsection}{\numberline {5.3.5}Ranking the Algorithms}{94}{subsection.5.3.5}%
 \contentsline {subsection}{\numberline {5.3.6}Reviewing the Ranked List of Algorithms}{94}{subsection.5.3.6}%
 \contentsline {subsection}{\numberline {5.3.7}Reviewing and Consolidating Final Results}{95}{subsection.5.3.7}%
 \contentsline {subsubsection}{Reviewing Results of a Single Algorithm}{96}{subsubsection*.49}%
 \contentsline {subsubsection}{Comparing Multiple Algorithm Results}{96}{subsubsection*.50}%
-\contentsline {subsubsection}{Consolidating the prior knowledge clusters}{98}{subsubsection*.53}%
+\contentsline {subsubsection}{Consolidating the prior knowledge clusters}{97}{subsubsection*.53}%
 \contentsline {subsubsection}{Consolidating extra clusters}{98}{subsubsection*.54}%
 \contentsline {subsection}{\numberline {5.3.8}Wrapping up and Reporting Results}{99}{subsection.5.3.8}%
 \contentsline {section}{\numberline {5.4}Case Studies}{100}{section.5.4}%
@@ -89,7 +89,7 @@
 \contentsline {subsection}{\numberline {5.5.1}Limitations}{106}{subsection.5.5.1}%
 \contentsline {subsection}{\numberline {5.5.2}Performance}{106}{subsection.5.5.2}%
 \contentsline {section}{\numberline {5.6}Conclusion}{107}{section.5.6}%
-\contentsline {chapter}{\numberline {6}Conclusion}{109}{chapter.6}%
+\contentsline {chapter}{\numberline {6}Discussion and Conclusion}{109}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Summary}{109}{section.6.1}%
 \contentsline {section}{\numberline {6.2}Discussion}{110}{section.6.2}%
 \contentsline {section}{\numberline {6.3}Perspectives}{113}{section.6.3}%

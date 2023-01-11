@@ -157,10 +157,11 @@ The technique classifies unlabelled items according to the weighted distance fro
 
 \subsection{Mixed-Initiative Systems and Interactive Clustering}
 
-Introduced by Horviz~\cite{horvitzPrinciplesMixedinitiativeUser1999}, mixed-initiative systems are ``interfaces that enable users and intelligent agents to collaborate efficiently''. Several Visual Analytics systems are based on mixed-initiative interactions, \eg~\cite{makoninMixedInitiativeBigData2016, cookMixedinitiativeVisualAnalytics2015, zhou13, wallPodiumRankingData2018}, in particular interactive clustering systems.
+Introduced by Horviz~\cite{horvitzPrinciplesMixedinitiativeUser1999}, mixed-initiative systems are ``interfaces that enable users and intelligent agents to collaborate efficiently''. Several Visual Analytics systems are based on mixed-initiative interactions, \eg~\cite{makoninMixedInitiativeBigData2016, cookMixedinitiativeVisualAnalytics2015, zhou13, wallPodiumRankingData2018}.
+This reflects the work on \textit{human-guided search} proposed by Klau et al.\cite{klauHuGSPlatformToolkit2002} where they developed visual interfaces to guide optimization processes.
 
 %Since many clustering algorithms exist, end users often have to test and compare several of them, which can be tedious.
-PK-Clustering is an interactive clustering system. A review by Bae et al~\cite{baeInteractiveClusteringComprehensive2020} shares our concerns:
+PK-Clustering is specifically an interactive clustering system. A review by Bae et al~\cite{baeInteractiveClusteringComprehensive2020} shares our concerns:
 ``Real-world data may contain different plausible groupings, and a fully unsupervised clustering has no way to establish a grouping that suits the user’s needs because this requires external domain knowledge.''
 Interactive clustering systems aim at producing visual tools that let users interact and compare several clustering results with their parameter spaces, making it easier to find a satisfactory algorithm for a particular application. Several such systems exist (\eg~\cite{cavalloClustrophileGuidedVisual2019, xclusim}) but few deal with network data.
 %Do and Eades~\cite{do2001interactive} propose a system for interactive clustering of graphs where constraints are specified as weights in an iterative solver. They provide one algorithm that takes these weak constraints they call ``hints''.
@@ -254,7 +255,7 @@ Typically, an expert would assign a few items (1-3) to a few groups (2-5), thus 
 \item For each proposed cluster, users can see if other algorithms have found similar clusters and then consolidate again by accepting, ignoring, or changing the suggestions for all the nodes in the proposed cluster. This step is repeated with other clusters until the user is satisfied.
 \end{enumerate}
 
-At any point, users can go back, select different algorithms, or even change the PK specification to add new partial clusters.  Users can also opt not to specify any PK at all, and accept all consensual suggestions without reviewing them in detail. This gives users control over how much they want to be involved in the process. Similarly, users are not required to assign every single node to a cluster, as it often happens that social scientists do not have a strong opinion on the group appartenance of some individuals.
+At any point, users can go back, select different algorithms, or even change the PK specification to add new partial clusters.  Users can also opt not to specify any PK at all, and accept all consensual suggestions without reviewing them in detail. This gives users control over how much they want to be involved in the process. Similarly, users are not required to assign every single node to a cluster, as it often happens that social scientists do not have a strong opinion about whether individuals belong to a group.
 By specifying the PK in the first phase, before running the algorithms, users avoid being influenced by the first clustering results they encounter.  The process leads to algorithms whose results match the PK, but it also allows the review of results that contradict it.
 
 
@@ -322,7 +323,7 @@ By design, this type of algorithm will always provide a perfect match with the P
 %Ensemble clustering consists in running a multitude of clustering algorithms on the same data and then trying to merge the results. Thus ending up with a better partition than the algorithms results taken only by one algorithm. The set of partitions can be obtained by running different algorithms, \cp{but this is NOT what we do... We just run them all in parallel and that's it! so this is confusing. Both the title of the section + this paragraph are confusing. I would just that we all run them at once} but it is also possible to run the same algorithms with different sets of parameters to increase the number of partitions.
 %\pb{The previous description is what happens in general.}
 
-Our prototype implements 2 attribute-based algorithms (one for numerical attributes and the other for categorical attributes), 7 topology-based algorithms, and 2 propagation based. Since we often deal with hypergraphs, 2 of the topology-based algorithms are bipartite node clustering algorithms: Spectral-co-Clustering \cite{dhillonCoclusteringDocumentsWords2001} and Bipartite Modularity Optimisation\cite{guimeràModuleIdentificationBipartite2007}. Since the majority of community detection algorithms are for unipartite graphs, the system performs a projection into a one-mode network \cite{zhouBipartiteNetworkProjection2007}. Basically, each pair of nodes that are in the same hyperedge are connected together in the resulting graph, with a weight being the number of shared hyperedges~\cite{guimeràModuleIdentificationBipartite2007}.
+Our prototype implements 2 attribute-based algorithms (one for numerical attributes and the other for categorical attributes), 7 topology-based algorithms, and 2 propagation based. Since we often deal with hypergraphs, 2 of the topology-based algorithms are bipartite node clustering algorithms: Spectral-co-Clustering \cite{dhillonCoclusteringDocumentsWords2001} and Bipartite Modularity Optimisation\cite{guimeraModuleIdentificationBipartite2007}. Since the majority of community detection algorithms are for unipartite graphs, the system performs a projection into a one-mode network. Basically, each pair of nodes that are in the same hyperedge are connected together in the resulting graph, with a weight being the number of shared hyperedges~\cite{guimeraModuleIdentificationBipartite2007}.
 %\jdf{Not sure what that last reference is for.}
 
 % 13 algorithms (2 attribute, 2 semi supervised, 9 topological with 2 bipartite)
@@ -515,7 +516,8 @@ There are clearly many ways to cluster data, and users must decide on the more m
 
 \begin{figure}
 \centering
-\includegraphics[width=\linewidth]{static/figures/PK-Clustering/VISPaperFigures/Small-initial.png}
+%\includegraphics[width=\linewidth]{static/figures/PK-Clustering/VISPaperFigures/Small-initial.png}
+\includegraphics[width=\linewidth]{static/figures/PK-Clustering/exemple-corrections/Pk-process1-correction}
 \caption{Reviewing and comparing results of multiple algorithms. One algorithm is selected to order the names and group them, but icons show how other algorithms cluster the nodes differently, summarized in the consensus bar on the left.}
 \label{fig:PK-initialView}
 \end{figure}
@@ -523,7 +525,8 @@ There are clearly many ways to cluster data, and users must decide on the more m
 
 \begin{figure}
 \centering
-\includegraphics[width=\linewidth]{static/figures/PK-Clustering/VISPaperFigures/Small-validating.png}
+%\includegraphics[width=\linewidth]{static/figures/PK-Clustering/VISPaperFigures/Small-validating.png}
+\includegraphics[width=\linewidth]{static/figures/PK-Clustering/exemple-corrections/MB-sample-validating-correct}
 \caption{The user quickly drags on consecutive icons (in yellow) representing the suggestions made by one algorithm to validate node clustering. Once the cursor is released the validated nodes appear as squares icons in the Consolidated Knowledge column.}
 \label{fig:PK-multipleValidation}
 \end{figure}
@@ -579,7 +582,8 @@ Users can therefore see if the selected cluster is consensual, and with which al
 
 \begin{figure}[!ht]
 \centering
-\includegraphics[width=\linewidth]{static/figures/PK-Clustering/VISPaperFigures/Small-extraClusters-01.png}
+%\includegraphics[width=\linewidth]{static/figures/PK-Clustering/VISPaperFigures/Small-extraClusters-01.png}
+\includegraphics[width=\linewidth]{static/figures/PK-Clustering/exemple-corrections/Small-extraClusters-01-correct2}
 \caption{The suggestion of extra clusters. The two PK-groups (red and blue) are validated (nodes in the consensus column are all squared). One extra cluster is proposed by the Louvain algorithm, labeled as 2. Hovering over the cluster 2, the consensus is displayed by the green diamonds. This feedback is also visible in the graph.}
 \label{fig:PK-extraClusteringInteraction}
 \end{figure}
@@ -635,7 +639,7 @@ I describe two case studies using realistic scenarios where the clustering has n
 \subsection{Marie Boucher Social Network}
 \label{sud:MB}
 
-I asked one of our historian colleagues for her prior knowledge on her network about the trades of Marie Boucher~\cite{dufournaudAnalyseRéseauxAide2017},  %\autoref{fig:PK-MBstaticFamily} shows that the Marie Boucher dataset is
+I asked one of our historian colleagues for her prior knowledge on her network about the trades of Marie Boucher~\cite{dufournaudAnalyseReseauxAide2017},  %\autoref{fig:PK-MBstaticFamily} shows that the Marie Boucher dataset is
 composed of two main families: Antheaume and Boucher. Family ties were important for merchants, but could not scale above a certain level. Marie Boucher expanded her trade network far beyond that limit. She then had to connect to bankers, investors, and foreign traders, far outside her family and yet connected to it indirectly. % The network is visualized with the PAOH technique using only one time slot from 1660 to 1692.
 As hinted in her article, Dufournaud believes that the network can be split into three clusters: one related to the Boucher family, one to the Antheaume family, and the third to the Boucher \& Antheaume company. Using standard visualization tools, she could see different connection patterns over time, but she wanted to validate her hypothesis using more formal measures and computational methods.
 

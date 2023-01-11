@@ -20,7 +20,7 @@ This model satisfies \simplicity, \reality, and \traceability properties, which 
 % We also discuss in depth the network modeling step, as social historians can model their documents with various models which have an impact on the representation of the social relationships, traceability to the documents, and simplicity of usage.
 
 
-\paperbox{This chapter is an updated version of an article presented at the VIS4DH workshop of the IEEE VIS: Visualization \& Visual Analytics Conference 2022 and published in IEEE Explore\cite{pisterHistoricalDocumentsSocial2022}. It was a collaboration with Nicole Dufournaud, Pascal Cristofoli, and my supervisors Christophe Prieur and Jean-Daniel Fekete. I have been leading the discussions, elaboration of concepts, and writing of the paper.}
+\paperbox{This chapter is an updated version of an article presented at the VIS4DH workshop of the IEEE VIS: Visualization \& Visual Analytics Conference 2022 which is currently being published in IEEE Explore\cite{pisterHistoricalDocumentsSocial2022}. It was a collaboration with Nicole Dufournaud, Pascal Cristofoli, and my supervisors Christophe Prieur and Jean-Daniel Fekete. I have been leading the discussions, elaboration of concepts, and writing of the paper.}
 
 
 % Social historians' goal is to characterize socio-economic phenomena and their dynamics on a restricted period and place of interest, and see how individual people of that time lived through them. For this, they rely on historical documents such as conversational letters, census, marriage acts etc. They usually extract qualitative and quantitative information from an identified corpus of documents, to then make quantitative conclusions on interesting socio-economic patterns. This can range from the distribution of jobs and social status, the migratory flux, to the structure of families in a given society. For this, historians can follow a Social Network Analysis (SNA) or more precisely a Historical Social Network Analysis (HSNA) approach. HSNA is a method---sometimes referred as a paradigm---which consists in modeling the social relationships between a set of entities---usually individuals---into a network, using the information from the historical documents. Very often, historians model the persons mentioned in the text as the nodes of the network, who are connected two by two by links modeling social relationships, such as friendships and family ties.
@@ -38,7 +38,8 @@ Yet, practitioners of social history need to inspect and encode their sources in
 % and need to maintain the provenance from documents to analyzes and back.
 % In this article, we explain why and how effective tools for supporting Historical Social Network Analysis~\cite{wetherell_historical_1998} (HSNA) should model social networks in multiple steps to support three essential principles: \traceability, connection to \emph{reality}, and \simplicity.
 In this chapter, after describing and characterizing the workflow of \hsna~\cite{wetherellHistoricalSocialNetwork1998} from our collaborations with social historians, I explain why and how effective tools for supporting this process should model social networks in multiple steps to support three essential principles: \traceability, \reality, and \simplicity.
-These principles emerged from joint experiences as historians and computer scientists while collaborating on multiple projects, and aim at simplifying the \hsna process while enhancing exploration and analysis options and replicability.
+These principles emerged from joint experiences as historians and computer scientists were collaborating on multiple projects, and aim at simplifying the \hsna process while enhancing exploration and analysis options and replicability.
+%These principles emerged from joint experiences as historians and computer scientists while collaborating on multiple projects, and aim at simplifying the \hsna process while enhancing exploration and analysis options and replicability.
 
 Social historians' goal is to characterize socio-economic phenomena and their dynamics in a restricted period and place of interest and to see how individual people of that time lived through those changes\cite{tilly1984retrieving}.
 For this, they rely on historical documents that they inspect in depth to next extract qualitative and quantitative information allowing them to answer their research questions.
@@ -314,7 +315,7 @@ Social scientists, therefore, have to be careful when interpreting network measu
 
 Social historians typically follow the workflow described in \autoref{subsec:hsna-workflow} linearly, meaning that at the end of the process, they can realize that the analysis and visualization of the network do not allow them to answer their research questions\cite{lemercier12FormalNetwork2015}.
 This can, in part, be explained by the fact that visualization and analytical \sna tools are only focused on the last part of the process.
-To fully support social historians, \va interfaces should therefore provide assistance and guidance on the whole process, from the acquisition of the documents (since archives now provide digital catalogs) to the final analysis.
+To fully support social historians, \va interfaces should therefore provide assistance and guidance on the whole process, from the acquisition of the documents (since archives now provide digital collections that can be explored through visualization\cite{forliniMiningMaterialArchive2018, thudtBohemianBookshelfSupporting2012}) to the final analysis.
 Specifically, from discussions with our collaborators, we identify three properties that \va interfaces should satisfy for good integration into the historians' workflow and to limit the recurring pitfalls we identified in \autoref{subsec:hsna-workflow}: \traceability, \reality, and \simplicity.
 \begin{figure}[!ht]
     \centering
@@ -373,25 +374,24 @@ I present the most widely used network models in the \hsna literature in \autore
 
 \subsection{Network Models}\label{subsec:hsna-network-models}
 
-Currently, historians use various network models depending on their knowledge of network science, the content of their documents, the schema of their annotations, and the analysis they plan to make.
-I describe here the most used network models in HSNA along with more recent ones:
+Currently, historians use various network models depending on their knowledge of network science, the content of their documents, the schema of their annotations, and the analysis they plan to make. By ``model'' I refer to a mapping from the historical documents to a graph mathematical model and its semantic, \ie what the network entities represent in terms of sociological concepts (for example simple networks and co-occurrence networks have the same simple graph model $G = (V, E)$ but with different semantics).
+I describe here the most used network models in \hsna along with more recent ones:
 
 \begin{itemize}[nosep,leftmargin=*]
-    \item \textbf{Simple Networks~\cite{wetherellHistoricalSocialNetwork1998}:} According to their research hypotheses, historians select and merge document information to build a specific relationship between individuals. They analyze this simple network structure with SNA tools and produce network indicators and node-link visualizations. It is often difficult to connect the results to the original sources. Moreover, it does not take into account the diversity of social relationships, as every link is identical.
+    \item \textbf{Simple networks~\cite{wetherellHistoricalSocialNetwork1998}:} According to their research hypotheses, historians select and merge document information to build a specific relationship between individuals. They analyze this simple network structure with \sna tools and produce network indicators and node-link visualizations. It is often difficult to connect the results to the original sources. Moreover, it does not take into account the diversity of social relationships, as every link is identical.
     \item \textbf{Co-occurrence networks~\cite{sairioMethodologicalPracticalAspects2009}:}
     % rubio-mondejarWomenEntrepreneursFamily2022}: % , keekMovementPerspectivesCollective, bouletBatchKernelSOM2008
     Only the persons are represented as nodes, and two persons are connected with a link when they are mentioned in the same document (or section). This can be a useful model to detect community-related patterns, but the constructed notion of ``proximity'' represented by the links simplifies and hide the diversity of social relationships.
     \item \textbf{Multiplex Unipartite Networks~\cite{eriksonMalfeasanceFoundationsGlobal2006}:} Only the persons are represented as nodes, and links model social ties between two persons. Links can have different types representing different types of social relationships. It allows the modeling of more complex social relations where people can have various social ties e.g. as parents, friends, and business relationships. However very often several possible representations for the same data exist as projections are often applied to the original documents to get this type of model.
     %, and very often several possible representations for the same data exist, especially for complex relationships. [jdf] true for the other network types
-    \item \textbf{Bipartite (also called 2-mode) Networks
-    ~\cite{hambergerScanningPatternsRelationship2014}
+    \item \textbf{Bipartite/two-mode networks\footnote{Bipartite refers to the mathematical property that nodes of the network are split between two sets without any links between two nodes of the same sets, while the term two-mode refers to networks modeling two types of entities.}~\cite{hambergerScanningPatternsRelationship2014}
     %~\cite{hamberger_scanning_2014, lippPetitionsSocialContext2001a, shafie_hypergraph_2017}
     :} Nodes can have two types: persons and documents in this network model. A link refers to a mention of a person in a document and can thus only occur between a person and document nodes. Usually, links are not typed and only encode mentions.
-    More recent analyses in HSNA encode the \emph{roles} of the persons in the documents as link types~\cite{Cristofoli2018}. This network model is more aligned with the original sources and allows following an analysis through the original documents themselves and not through concepts. It can also be used to represent constructed concepts, like the GEDCOM format which introduces the concept of ``family'' that ties together a husband, spouse, and children with different link types.
+    More recent analyses in \hsna encode the \emph{roles} of the persons in the documents as link types~\cite{Cristofoli2018}. This network model is more aligned with the original sources and allows following an analysis through the original documents themselves and not through concepts. It can also be used to represent constructed concepts, like the GEDCOM format which introduces the concept of ``family'' that ties together a husband, spouse, and children with different link types.
     The concept of family can have different meanings across time and cultures, meaning that GEDCOM adds a conceptual layer instead of grounding the network to concrete traceable documents and events (e.g., no marriage but birth certificates).
     % In our model, a family tie would be replaced by different documents: the marriage certificate and  birth certificates, to ground the network to concrete traceable documents and events.
-    \item \textbf{Multilayer Networks~\cite{multilayer}: } In these networks, each node (vertex) is associated with a \emph{layer} $l$ and becomes a pair $(v, l)$, allowing to connect vertices inside a layer or between layers. These advanced networks have received attention from sociologists~\cite{CRNOVRSANIN201456} and historians~\cite{vanVugt_2017}, but they are complex. The meaning of a layer varies from one application to another; it can be time (years), type of documents, the origin of sources, etc. They, therefore, offer many (too many) options for modeling a corpus, and visualizing it, with no generic system to support historians for taming their high complexity.
-    \item \textbf{Knowledge Graphs~\cite{hoganKnowledgeGraphs2021}: } they represent knowledge as triples $(S, P, O)$ where $S$ is a \emph{subject}, $P$ is a \emph{predicate}, and $O$ is an \emph{object}. Everything is encoded with these triples using controlled vocabularies of predicates and rules known as \emph{ontologies}. Knowledge Graphs are popular for encoding knowledge on the web, including historical knowledge. However, it is notoriously complex to encode documents using knowledge graphs due to the complexity of the format and the wide choice of possible ontologies. Most historians are unable to understand knowledge graphs and even less to use them for annotating a corpus. Since knowledge graphs are generic, they need complex transformations to be visualized, with no generic system to support historians in taming their high complexity.
+    \item \textbf{Multilayer networks~\cite{multilayer}: } In these networks, each node (vertex) is associated with a \emph{layer} $l$ and becomes a pair $(v, l)$, allowing to connect vertices inside a layer or between layers. These advanced networks have received attention from sociologists~\cite{CRNOVRSANIN201456} and historians~\cite{vanVugt_2017}, but they are complex. The meaning of a layer varies from one application to another; it can be time (years), type of documents, the origin of sources, etc. They, therefore, offer many (too many) options for modeling a corpus, and visualizing it, with no generic system to support historians for taming their high complexity.
+    \item \textbf{Knowledge graphs~\cite{hoganKnowledgeGraphs2021}: } they represent knowledge as triples $(S, P, O)$ where $S$ is a \emph{subject}, $P$ is a \emph{predicate}, and $O$ is an \emph{object}. Everything is encoded with these triples using controlled vocabularies of predicates and rules known as \emph{ontologies}. Knowledge Graphs are popular for encoding knowledge on the web, including historical knowledge. However, it is notoriously complex to encode documents using knowledge graphs due to the complexity of the format and the wide choice of possible ontologies. Most historians are unable to understand knowledge graphs and even less to use them for annotating a corpus. Since knowledge graphs are generic, they need complex transformations to be visualized, with no generic system to support historians in taming their high complexity.
 \end{itemize}
 
 
@@ -408,7 +408,7 @@ I describe here the most used network models in HSNA along with more recent ones
 
 %We argue that historians should aim to model their networks simply enough to be manipulated by them, in a way that entities can be traced back to the sources, and expressive enough to model accurately the social reality of the documents---i.e., having those three properties:  \simplicity, \traceability, and \reality.
 
-Currently, most digital historical projects use unipartite networks (simple, co-occurrence, and multiplex) that are simple and allow answering specific questions, but they do not capture all the complexity of the documents, resulting in simplifications and distortions of the structural patterns.
+Currently, most digital history projects use one mode networks (simple, co-occurrence, and multiplex) that are simple and allow answering specific questions, but they do not capture all the complexity of the documents, resulting in simplifications and distortions of the structural patterns.
 I compare what would be the resulting networks for these models and the bipartite model of our three collaboration use cases (the example \dana is still in the phase of data acquisition), with additional information from the documents encoded as node and link attributes.
 I do this for one given document for each dataset.
 The results are shown in \autoref{tab:models}.
@@ -510,27 +510,26 @@ Historical documents are well modeled by bipartite multivariate dynamic networks
 \end{equation}
 
 where $V$ is the set of vertices, $E$ the set of edges, and $B = (person, document)$ the set of node types.
-Each node $u \in U$ is defined as
+Each node $u \in V$ is defined as
 
 \begin{equation}
-    u = (u_{id}, b, a_u)
+    u = (u_{id}, b_u, a_u)
 \end{equation}
 
-where $b \in B$ is the type of the node and $a_u$ is a tuple of the attributes (or properties) of $u$ such that
+where $u_{id}$ corresponds to the unique identifier of $u$, $b_u \in B$ is the type of the node and $a_u$ is a tuple of the attributes (or properties) values of $u$. If $b_u = person$, then
 
 \begin{equation}
-    a_u = (a_i, \dotsc, a_n)
+    a_u = (a_i, \dotsc, a_N)
 \end{equation}
 
-with $a_i, \dotsc, a_n$ the attributes of the node $u$ defined on their domains $A_i, \dotsc, A_n$.
-We do not impose constraints for person nodes, but document nodes always have a time and location such that when $b = document$ then
+with $a_i, \dotsc, a_N$ the attributes values of the node $u$ of the $N$ attributes defined on person nodes, defined on their domains $A_i, \dotsc, A_n$.
+Document nodes always have a time and location such that for a document node $v \in V$  with $b_v = document$ then
 
 \begin{equation}
-    a = (t, l, a_i, \dotsc, a_n)
+    a_v = (t, l, a_i, \dotsc, a_M)
 \end{equation}
 
-with $t \in T$ is the time of the event witnessed by the document and $l \in L$ its location.
-
+with $t \in T$ is the time of the event witnessed by the document, $l \in L$ its location, and $a_i, \dotsc, a_M$ the attributes values of the node $v$ of the $M$ attributes defined on document nodes (other than time and location), defined on their domains $A_i, \dotsc, A_M$.
 Similarly, each edge $e \in E$ is defined as
 
 \begin{equation}
@@ -540,11 +539,10 @@ Similarly, each edge $e \in E$ is defined as
 with $u, v$ the vertices connected by $e$ such that $b_u \neq b_v$, $r \in R$ the role of the person mentioned in the document and $a_e$ the attributes tuple of $e$ such that
 
 \begin{equation}
-    a_e = (a_i, \dotsc, a_n)
+    a_e = (a_i, \dotsc, a_O)
 \end{equation}
 
-with $a_i, \dotsc, a_n$ the attributes of the edge $e$ defined on their domains $A_i, \dotsc, A_n$.
-
+with $a_i, \dotsc, a_O$ the attributes values of the edge $e$ of the $O$ edge attributes defined on their domains $A_i, \dotsc, A_O$.
 
 The model has, therefore, the following properties:
 \begin{description}[nosep,leftmargin=2mm]
@@ -633,10 +631,11 @@ I propose in \autoref{ch:combinet} and \autoref{ch:pk-clustering} two proof-of-c
 % However, we think using \modelplural as a first step in the analysis is a good way of stepping in the network domain space while keeping the traceability to the original sources, and can be used easily to create other networks with the help of projections and transformations~\cite{andrei2011porgy}.
 
 Most tools for social network visualization focus solely on the visualization and analysis steps, without considering the whole historical data analysis process, preventing researchers from going back to the original source, and supporting the social analyst in the annotation and modeling steps.
-We think visual analytics tools helping social scientists annotate and model their data with \reality, \traceability, and \simplicity principles in mind are essential to conducting socio-historical inquiries with limited friction, realistic training, and scientific transparency.
+I think visual analytics tools helping social scientists annotate and model their data with \reality, \traceability, and \simplicity principles in mind are essential to conducting socio-historical inquiries with limited friction, realistic training, and scientific transparency.
 % useful if even more than purely analytical systems and can be an interesting research direction.
 Concerning the network modeling step, \modelplural model well the majority of structured historical documents such as marriage acts, birth certificates, and business contracts as these documents refer to specific events (birth, marriage, transaction, etc).
-The document nodes, therefore, represent both the textual documents and the specific events.
+The two-mode structure enables the representation of both the persons and the documents/events, without any simplification or distortion of the social reality of the documents and their annotations, compared to the classical one-mode representation\footnote{Another approach proposed by Everett and Borgatti is to have a dual-projection of this two-mode network to manipulate simultaneously two linked one-mode networks\cite{everettDualprojectionApproachTwomode2013} (in our case person-person and document-document). The Detangler visualization system successfuly proposed such an approach\cite{renoustDetanglerVisualAnalytics2015}.}.
+The document nodes represent both the textual documents and the specific events.
 This dual representation works well for semi-structured documents but could be more limiting for other more literary documents.
 Moreover, structured documents can also provide information about other relationships not directly linked to the main event.
 For example, marriage acts sometimes refer to the place and date of birth of the spouses with the names of the parents.
@@ -652,6 +651,10 @@ We show what would look like the resulting networks \autoref{fig:HSNA-doc-vs-eve
     \end{overpic}
     \caption{bipartite multivariate dynamic network modeling for two cases of marriage acts of example \zacarias. Some marriage acts mention the parents of the spouses, which is a relationship different than the marriage in itself. This case can be modeled using a document model (a) or an event model (c) by splitting the document into several different event nodes. The other case refers to documents that do not mention the parents (b), and in that case, the network represents both the documents and the events with the same model. M: Marriage, H: Husband, W: Wife, T: Witness, (H/W)(M/F): Husband/Wife Mother/Father. Yellow links refer to parenting mentions/relationships.}\label{fig:HSNA-doc-vs-event-model}
 \end{figure}
+
+%\bipartiteParentsOneEvent{1}
+%\bipartiteNoParents
+%\bipartiteParents{1}
 
 % Concerning, the \model model, it represents well the majority of historical documents such as marriage acts, birth certificate and business contracts as these documents refer to specific events (birth, marriage, transaction etc). The document nodes therefore represent both the textual documents and the specific events. The person nodes linked to the documents nodes represent then both a mention in the document but also the participation of this person in the event (the role being modeled as link type). This dual modeling works well for this type of structured documents but could be more limiting for other types such as conversational letters.
 % Moreover, structured documents can also provide information about other relationships not directly linked to the main event. For example, marriage acts sometimes refer to the place and date of birth of the spouses with the names of the parents.

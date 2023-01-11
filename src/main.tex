@@ -3,6 +3,7 @@
 
 % Preamble
 \documentclass[12pt,a4paper, twoside, headings=small]{book}
+\usepackage{color}
 %\documentclass[11pt,twoside]{book}
 
 %\usepackage{graphics}
@@ -18,14 +19,14 @@
 
 \iftrue
 \includeonly{
-     Aknowledgments,
-   chapters/Publications,
-   chapters/Introduction,
+%     Aknowledgments,
+%   chapters/Publications,
+%   chapters/Introduction,
    chapters/Context,
-  chapters/NetworkModels,
-  chapters/ComBiNet,
-  chapters/PK-Clustering,
- chapters/Conclusion
+%  chapters/NetworkModels,
+%  chapters/ComBiNet,
+%  chapters/PK-Clustering,
+% chapters/Conclusion
 }
 \fi
 
@@ -34,6 +35,121 @@
 % Document
 \begin{document}
 \frontmatter
+%    \begin{titlepage}
+%        %\thispagestyle{empty}
+%
+%        \newgeometry{left=6cm,bottom=2cm, top=1cm, right=1cm}
+%
+%        \tikz[remember picture,overlay] \node[opacity=1,inner sep=0pt] at (-13mm,-135mm){\includegraphics{static/logos/Frame-ups}};
+%
+%        %*****************************************************
+%        %******** NUMÉRO D'ORDRE DE LA THÈSE À COMPLÉTER *****
+%        %******** POUR LE SECOND DÉPOT                   *****
+%        %*****************************************************
+%
+%        \color{white}
+%
+%        \begin{picture}(0,0)
+%            \put(-152,-743){\rotatebox{90}{\Large \textsc{THESE DE DOCTORAT}}} \\
+%            \put(-120,-743){\rotatebox{90}{NNT : 2020UPASA001}}
+%        \end{picture}
+%
+%        %*****************************************************
+%        %**  LOGO  ÉTABLISSEMENT PARTENAIRE SI COTUTELLE
+%        %**  CHANGER L'IMAGE PAR DÉFAUT **
+%        %*****************************************************
+%        %\vspace{-14mm} % à ajuster en fonction de la hauteur du logo
+%        %\flushright \includegraphics[scale=1]{static/logos/logo2}
+%
+%        %*****************************************************
+%        %******************** TITRE **************************
+%        %*****************************************************
+%
+%        \flushright
+%        \vspace{10mm} % à régler éventuellement
+%        \color{Prune}
+%        \fontfamily{cmss}\fontseries{m}\fontsize{22}{26}\selectfont
+%%        \Huge Analyse Visuelle de Réseaux Sociaux Historiques: Traçabilité, Exploration et Analyse  \\
+%        \Huge Visual Analytics for Historical Social Networks: Traceability, Exploration, and Analysis \\
+%
+%        \normalsize
+%        \color{black}
+%%        \Large{\textit{Visual Analytics for Historical Social Networks: Traceability, Exploration, and Analysis}} \\
+%        \Large{\textit{Analyse Visuelle de Réseaux Sociaux Historiques : Traçabilité, Exploration et Analyse}} \\
+%%        \Large{\textit{Visual Analytics for Historical Network Research }} \\
+%%        \Large{\textit{Traduction du titre de la thèse (sur plusieurs lignes si nécessaire)}} \\
+%        %*****************************************************
+%
+%        \fontfamily{fvs}\fontseries{m}\fontsize{8}{12}\selectfont
+%
+%        \vspace{1.5cm}
+%
+%        \normalsize
+%        \textbf{Thèse de doctorat de l'université Paris-Saclay et de Telecom Paris} \\
+%
+%        \vspace{6mm}
+%
+%        \small École doctorale n$^{\circ}580$ : Sciences et technologies de l’information et de la communication (STIC)\\
+%        \small Spécialité de doctorat: Informatique\\
+%        \small Graduate School : Informatique et Sciences du Numérique\\
+%        \small Référent : Faculté des sciences d’Orsay \\
+%        \vspace{6mm}
+%
+%%        \footnotesize Thèse préparée dans la (ou les) unité(s) de recherche Nom(s) (voir annexe), sous la direction de Prénom NOM, titre du directeur ou de la directrice de thèse, la co-direction de Prénom NOM, titre du co-directeur ou de la co-directrice de thèse, le co-encadrement de Prénom NOM, titre, du co-encadrant ou de la co-encadrante ou la co-supervision de Prénom NOM, titre, du tuteur ou de la tutrice (en cas de partenariat industriel) \\
+%
+%        \footnotesize Thèse préparée au Laboratoire interdisciplinaire des sciences du numérique (Université Paris-Saclay, CNRS, Inria), et à Telecom Paris, sous la direction de Jean-Daniel FEKETE, Directeur de recherche et la co-direction de Christophe PRIEUR, Professeur des universités. \\
+%
+%        \vspace{15mm}
+%
+%        \textbf{Thèse soutenue à Paris-Saclay, le 15 décembre 2022, par}\\
+%        \bigskip
+%        \Large {\color{Prune} \textbf{Alexis PISTER}} % Changer le Prénom et le NOM
+%
+%        %************************************
+%        \vspace{\fill} % ALIGNER LE TABLEAU EN BAS DE PAGE
+%        %************************************
+%
+%        \bigskip
+%
+%        \flushleft
+%        \small \textbf{Composition du jury}\\
+%        \vspace{2mm}
+%        \scriptsize
+%        % \begin{tabular}{|p{7cm}l}
+%        %     \arrayrulecolor{Prune}
+%        %     \textbf{Prénom Nom} & Président ou Présidente           \\
+%        %     Titre, Affiliation  &                                   \\
+%        %     \textbf{Prénom Nom} & Rapporteur \& Examinateur / trice \\
+%        %     Titre, Affiliation  &                                   \\
+%        %     \textbf{Prénom Nom} & Rapporteur \& Examinateur / trice \\
+%        %     Titre, Affiliation  &                                   \\
+%        %     \textbf{Prénom Nom} & Examinateur ou Examinatrice       \\
+%        %     Titre, Affiliation  &                                   \\
+%        %     \textbf{Prénom Nom} & Examinateur ou Examinatrice       \\
+%        %     Titre, Affiliation  &                                   \\
+%        %     \textbf{Prénom Nom} & Directeur ou Directrice de thèse  \\
+%        %     Titre, Affiliation  &                                   \\
+%        % \end{tabular}
+%
+%        % \begin{tabular}{|p{7cm}l} % original
+%        \begin{tabular}{|p{9cm}l}
+%            \arrayrulecolor{Prune}
+%            \textbf{Ulrik Brandes} & Rapporteur \& Examinateur \\
+%            Professeur, ETH Zürich  &                                   \\
+%            \textbf{Guy Melançon} & Rapporteur \& Examinateur \\
+%            Professeur, Univerité de Bordeaux  &                                   \\
+%            \textbf{Laurent Beauguitte} & Examinateur       \\
+%            Chargé de recherche, CNRS  &                                   \\
+%            \textbf{Uta Hinrichs} & Examinatrice       \\
+%            Professeur, University of Edinburgh  &                                   \\
+%            \textbf{Wendy Mackay} & Examinatrice       \\
+%            Directrice de recherche, Univ. Paris-Saclay, CNRS, Inria, LISN  &   \\
+%            \textbf{Jean-Daniel Fekete} & Directeur de thèse  \\
+%            Directeur de recherche, Univ. Paris-Saclay, CNRS, Inria, LISN  &                                   \\
+%            \textbf{Chritophe Prieur} & Directeur de thèse  \\
+%            Professeur, Université Gustave Eiffel  &
+%        \end{tabular}
+%    \end{titlepage}
     \begin{titlepage}
         %\thispagestyle{empty}
 
@@ -50,7 +166,7 @@
 
         \begin{picture}(0,0)
             \put(-152,-743){\rotatebox{90}{\Large \textsc{THESE DE DOCTORAT}}} \\
-            \put(-120,-743){\rotatebox{90}{NNT : 2020UPASA001}}
+            \put(-120,-743){\rotatebox{90}{NNT : 2022UPASG081}}
         \end{picture}
 
         %*****************************************************
@@ -68,11 +184,13 @@
         \vspace{10mm} % à régler éventuellement
         \color{Prune}
         \fontfamily{cmss}\fontseries{m}\fontsize{22}{26}\selectfont
-        \Huge Analyse Visuelle de Réseaux Sociaux Historiques: Traçabilité, Exploration et Analyse  \\
+%        \Huge Analyse Visuelle de Réseaux Sociaux Historiques: Traçabilité, Exploration et Analyse  \\
+        \Huge Visual Analytics for Historical Social Networks: Traceability, Exploration, and Analysis \\
 
         \normalsize
         \color{black}
-        \Large{\textit{Visual Analytics for Historical Social Networks: Traceability, Exploration, and Analysis}} \\
+%        \Large{\textit{Visual Analytics for Historical Social Networks: Traceability, Exploration, and Analysis}} \\
+        \Large{\textit{Analyse Visuelle de Réseaux Sociaux Historiques : Traçabilité, Exploration et Analyse}} \\
 %        \Large{\textit{Visual Analytics for Historical Network Research }} \\
 %        \Large{\textit{Traduction du titre de la thèse (sur plusieurs lignes si nécessaire)}} \\
         %*****************************************************
@@ -82,7 +200,7 @@
         \vspace{1.5cm}
 
         \normalsize
-        \textbf{Thèse de doctorat de l'université Paris-Saclay et de Telecom Paris} \\
+        \textbf{Thèse de doctorat de l'université Paris-Saclay} \\
 
         \vspace{6mm}
 
@@ -94,7 +212,7 @@
 
 %        \footnotesize Thèse préparée dans la (ou les) unité(s) de recherche Nom(s) (voir annexe), sous la direction de Prénom NOM, titre du directeur ou de la directrice de thèse, la co-direction de Prénom NOM, titre du co-directeur ou de la co-directrice de thèse, le co-encadrement de Prénom NOM, titre, du co-encadrant ou de la co-encadrante ou la co-supervision de Prénom NOM, titre, du tuteur ou de la tutrice (en cas de partenariat industriel) \\
 
-        \footnotesize Thèse préparée au Laboratoire interdisciplinaire des sciences du numérique (Université Paris-Saclay, CNRS, Inria), et à Telecom Paris, sous la direction de Jean-Daniel FEKETE, Directeur de recherche et la co-direction de Christophe PRIEUR, Professeur des universités. \\
+        \footnotesize Thèse préparée au Laboratoire interdisciplinaire des sciences du numérique (Université Paris-Saclay, CNRS, Inria), et à l'Institut interdisciplinaire de l'innovation (Télécom Paris, Institut Polytechnique de Paris), sous la direction de \textbf{Jean-Daniel FEKETE}, Directeur de recherche et la co-direction de \textbf{Christophe PRIEUR}, Professeur des universités. \\
 
         \vspace{15mm}
 
@@ -109,7 +227,9 @@
         \bigskip
 
         \flushleft
-        \small \textbf{Composition du jury}\\
+        \normalsize {\color{Prune} \textbf{Composition du jury}}\\
+        \small {\color{Prune} Membres du jury avec voix délibérative}\\
+
         \vspace{2mm}
         \scriptsize
         % \begin{tabular}{|p{7cm}l}
@@ -131,22 +251,22 @@
         % \begin{tabular}{|p{7cm}l} % original
         \begin{tabular}{|p{9cm}l}
             \arrayrulecolor{Prune}
+            \textbf{Guy Melançon} & Président \& Rapporteur \\
+            Professeur, Univerité de Bordeaux  &                                   \\
             \textbf{Ulrik Brandes} & Rapporteur \& Examinateur \\
             Professeur, ETH Zürich  &                                   \\
-            \textbf{Guy Melançon} & Rapporteur \& Examinateur \\
-            Professeur, Univerité de Bordeaux  &                                   \\
+            \textbf{Laurent Beauguitte} & Examinateur       \\
+            Chargé de recherche, CNRS Paris  &                                   \\
+            \textbf{Uta Hinrichs} & Examinatrice       \\
+%            Professeur, University of Edinburgh  &                                   \\
+            Professeur, Université d'Édimbourg  &                                   \\
             \textbf{Wendy Mackay} & Examinatrice       \\
             Directrice de recherche, Univ. Paris-Saclay, CNRS, Inria, LISN  &   \\
-            \textbf{Uta Hinrichs} & Examinatrice       \\
-            Professeur, University of Edinburgh  &                                   \\
-            \textbf{Laurent Beauguitte} & Examinateur       \\
-            Chargé de recherche, CNRS  &                                   \\
-            \textbf{Jean-Daniel Fekete} & Directeur de thèse  \\
-            Directeur de recherche, Univ. Paris-Saclay, CNRS, Inria, LISN  &                                   \\
-            \textbf{Chritophe Prieur} & Directeur de thèse  \\
-            Professeur, Université Gustave Eiffel  &
+%            \textbf{Jean-Daniel Fekete} & Directeur de thèse  \\
+%            Directeur de recherche, Univ. Paris-Saclay, CNRS, Inria, LISN  &                                   \\
+%            \textbf{Chritophe Prieur} & Directeur de thèse  \\
+%            Professeur, Université Gustave Eiffel  &
         \end{tabular}
-
     \end{titlepage}
 
     \Ifthispageodd{\newpage\thispagestyle{empty}\null\newpage}{}
@@ -258,4 +378,11 @@
 \bibliographystyle{plainurl}
 
 %    \printbibliography
+
+
+\newpage
+
+\chapter*{Résumé}
+    \abstractresumeFrench
+
 \end{document}

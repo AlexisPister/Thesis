@@ -33,6 +33,8 @@ In contrast, most visual and analytics tools widely used by social scientists su
 This results in many social historians ending their analysis by plotting the network using a node-link diagram---which is hard to read with dense networks---, and identifying the most important actors with the help of centrality measures\cite{lemercierQuantitativeMethodsHumanities2019}.
 Lemercier et al. describe this phenomenon the following: ``Network graphs of the `spaghetti monster' variety are a case in point. Often, in historical papers, they are used to show that a network is dense (and that the author has mastered the new technology). The narrative then comments on the individuals identified as central in the network. This approach can indeed be quite interesting, but it is hardly the only possible use for network analysis.\cite{lemercierQuantitativeMethodsHumanities2019}''.
 \va tools guiding social scientists towards more complex exploration with the help of interaction mechanisms, high usability and interpretability are therefore needed.
+For example, some visualization techniques such as the \textit{Simmelian backbones}\cite{nickSimmelianBackbonesAmplifying2013} have been proposed to filter large networks and only show the most important structure in the aim of reducing clutter.
+
 % Contrary to the early taxonomy of tasks on graphs~\cite{lee:hal-00851754}, with the data model we use, it becomes impossible to characterize a finite set of simple tasks to support, along with their associated visual representations and interactions techniques.
 
 In this chapter, I present a \va system to explore and analyze Bipartite Multivariate Dynamic Social Networks, with the aim of supporting more complex historical analysis based on easy-to-use interactions, but also potential data correction.
@@ -74,10 +76,11 @@ One of the inspirations for this project came after participating in the 2020 VA
 
 Graphlets are small connected induced, non-isomorphic subgraphs composing any network (see \autoref{subsec:methods-and-measures} for more details).
 They were first introduced by Milo et al.~\cite{miloNetworkMotifsSimple2002} to explore the structural differences between biological networks, but they are now used in several disciplines involving networks such as sociology\cite{charbeyStarsHolesPaths2019}.
+Some interfaces have been proposed to visually highlight graphlets with high frequencies\cite{schreiberMAVistoToolExploration2005}.
 
 One of the aims of the VAST 2020 challenge was to compare several multivariate networks.
 However, by using graphlets, we realized that 1) it was not very efficient to compare several networks in contrast to other measures, and 2) the interpretation of all graphlets patterns that are found in a network is complicated given the fact that one specific pattern can have various interpretations given the nodes involved and their positions in the network~\cite{ingramNetworkMotifsStructure2006}.
-This is especially true that the number of potential graphlets grows exponentially as we increase the number of nodes considered (there are 6 graphlets of size 4 and 21 graphlets of size 5 for example) and if we add complexity to the network model, for example by using directed links or node and link types~\cite{ribeiroDiscoveringColoredNetwork2014}.
+This is especially true that the number of potential graphlets grows exponentially as we increase the number of nodes considered\footnote{There are 6 graphlets of size 4, 21 graphlets of size 5, and 11716571 graphlets of size 10 sor example\cite{sloaneHandbookIntegerSequences2014}.} but also if we add complexity to the network model, for example by using directed links or multiple node and link types~\cite{ribeiroDiscoveringColoredNetwork2014}.
 
 Instead of counting every graphlet occurrence and interpreting them with sociological meanings, it appeared more efficient to let social scientists find specific patterns to answer questions they already ask themselves on the data.
 
@@ -86,15 +89,17 @@ Instead of counting every graphlet occurrence and interpreting them with sociolo
 
 % Guess~\cite{adar_guess_2006} has been designed to provide a dual view of networks, one from a scripting language (a variation of Python) coupled with a visual representation of the network. However, it still relies on scripting to search and manipulate the network, contrary to modern visualization systems using dynamic queries~\cite{DynamicQueries}.
 
-Graph pattern matching is an important task in \sna, which consists in finding a subgraph of interest in a larger graph\cite{fanGraphPatternMatching2012}.
+%Graph pattern matching is an important task in \sna, which consists in finding a subgraph of interest in a larger graph\cite{fanGraphPatternMatching2012}.
+Social scientists have for a long time described local structures of social networks in the aim of revealing interesting behaviors\cite{hollandLocalStructureSocial1976}.
+Graph pattern matching consists in finding a subgraph of interest automatically in a larger graph\cite{fanGraphPatternMatching2012}, and allows social scientists to find patterns of interest that they could have missed visually.
 Several scripting languages, such as \project{R}~\cite{Rstat} and \project{Python}~\cite{Python} have been extended to support the exploration of social networks using specialized libraries such as \project{igraph}~\cite{igraph} and \project{NetworkX}~\cite{networkx}, and provide functions for graph pattern matching.
-However, social scientists are often challenged to use scripting languages and programming, as they often do not have formal training in such technologies.
-Graph databases allow the storage and manipulation of network data with the use of query languages, such as the Cypher language for Neo4j\cite{neo4j}.
+Graph databases is another technology allowing the storage and manipulation of network data with the use of query languages, such as the Cypher language for Neo4j\cite{neo4j}.
+However, social scientists are often challenged to use scripting/query languages and programming, as they often do not have formal training in those skills.
 %Constructing and querying a pattern from a graph requires knowledge of graph databases and query languages.
-To lower the complexity barrier of their usage, several visual graph query systems have been developed, enabling analysts to rapidly build and refine their queries visually.
-Some systems hide the scripting language, such as \project{GRAPHITE}~\cite{chauGRAPHITEVisualQuery2008}, \project{Intuinet}\footnote{See \url{https://intuinet.fr}}, and \project{VERTIGo}~\cite{cuencaVERTIGoVisualPlatform2021} that allow specifying a graph query as a node-link diagram that the user creates interactively.
+To lower the complexity barrier of their usage, several visual graph query systems such as \project{QUOGGLES}\cite{holleisQUOGGLESQueryGraphs2005} and \project{VIGOR} been developed, which show the query that has been written in a visual form, enabling analysts to reflect on their constructed queries and explore the results more easily.
+Other systems such as \project{GRAPHITE}~\cite{chauGRAPHITEVisualQuery2008}, \project{Intuinet}\footnote{See \url{https://intuinet.fr}}, and \project{VERTIGo}~\cite{cuencaVERTIGoVisualPlatform2021} hide the query language and allow users to directly construct their queries visually with node-link diagrams and interaction.
 Shadoan and Weaver~\cite{shadoanVisualAnalysisHigherOrder2013} use a similar concept with hypergraphs to filter multidimensional data.
-Other systems, such as \project{VIGOR}~\cite{pientaVIGORInteractiveVisual2018}, only visualize the query after it has been written by the user with a scripting language (here Cypher) and do not allow direct interaction of the visual representation of the query.
+%Other systems, such as \project{VIGOR}~\cite{pientaVIGORInteractiveVisual2018}, only visualize the query after it has been written by the user with a scripting language (here Cypher) and do not allow direct interaction of the visual representation of the query.
 All these visual query systems are limited to topological queries with constraints on the vertex and edge types and do not allow to make constraints on other dimensions, such as attributes and time associated with vertices and edges.
 
 \iffalse
@@ -157,24 +162,24 @@ We categorized the questions according to four dimensions: global (G)/local (L) 
 
 \begin{enumerate}
     \item Analysis of the social dynamics from \textbf{construction contracts in Italy in the 18\ts{th} century (141 documents, 272 persons)~\cite{Cristofoli2018}.}
-    The corpus is made of contracts (manuscript documents) for different types of constructions in the Piedmont area in Italy. People are mentioned in three different roles: \textit{Associates}, who participate in the construction; \textit{Guarantors}, who bring financial guarantees; and \textit{Approvers}, who vouch for the guarantors. Along with the time and location of the construction site, documents have a construction type (military, religious, and civil), work type (big work, small work, reparation, transportation, etc.), and material (wood, stone, metal). People also have an origin attribute (the place they come from), manually extracted from the original documents.
+    The corpus is made of contracts (manuscript documents) for different types of constructions in the Piedmont area in Italy. People are mentioned in three different roles: \textit{Associates}, who participate in the construction; \textit{Guarantors}, who bring financial guarantees; and \textit{Approbators}, who vouch for the guarantors. Along with the time and location of the construction site, documents have a construction type (military, religious, and civil), work type (big work, small work, reparation, transportation, etc.), and material (wood, stone, metal). People also have an origin attribute (the place they come from), manually extracted from the original documents.
     \begin{footnotesize}
     \begin{description}
     \item[Question 1] Do approbators act as bridges compared to associates and guarantors? (G, T, C)
-    \item[\myindent Query 1.1] Request all approbators occurrences
-    \item[\myindent Query 1.2 ] Request all associates and guarantors occurrences
-    \item[Question 2] Are there people mutually guarantors to each other in different contracts? (G, AT, N)
-    \item[\myindent Query 2.1] Select pairs of people connected each to the two same documents, with a guarantor role and any other role
-    \item[Question 3] Who are the persons of the extended Zo family (G, AT, N)
-    \item[\myindent Query 3.1] Request all the persons of the Zo family and their N+2 ego network
-    \item[Question 4] Compare the Menafoglio and Zo families in terms of contracts and activities (G, AT, C)
-    \item[\myindent Query 4.1] Request all the persons of the Menafoglio family and the documents that mention them
-    \item[\myindent Query 4.2] Request all the persons of the Zo family and  the documents that mention them
+    \item[\myindent Query 1.1] Request all approbators occurrences.
+    \item[\myindent Query 1.2 ] Request all associates and guarantors occurrences.
+    \item[Question 2] Are there pairs of people mutually guarantors to each other in different contracts? (G, AT, N)
+    \item[\myindent Query 2.1] Select pairs of people connected each to the two same documents, with a guarantor role and any other role.
+    \item[Question 3] Who are the persons of the extended Zo family? (G, AT, N)
+    \item[\myindent Query 3.1] Request all the persons of the Zo family and their N+2 ego network.
+    \item[Question 4] Compare the Menafoglio and Zo families in terms of contracts and activities. (G, AT, C)
+    \item[\myindent Query 4.1] Request all the persons of the Menafoglio family and the documents that mention them.
+    \item[\myindent Query 4.2] Request all the persons of the Zo family and  the documents that mention them.
     \item[Question 5] Who are the persons having the 3 roles? (G, AT, N)
-    \item[\myindent Query 5.1] Select persons with an associate, guarantor, and approbator roles in 3 different documents
-    \item[Question 6] What are the differences between Torino and Torino's surroundings, concerning the types of constructions and actors involved? (G, AT, C)
-    \item[\myindent Query 6.1] Request all documents located in Torino, with the persons mentioned
-    \item[\myindent Query 6.2] Request all documents located in the Torino area, with the persons mentioned
+    \item[\myindent Query 5.1] Select persons with an associate, guarantor, and approbator role in 3 different documents.
+    \item[Question 6] What are the differences between Torino (Turin) and Torino surroundings according to the contracts? (G, AT, C)
+    \item[\myindent Query 6.1] Request all documents located in Torino, with the persons mentioned.
+    \item[\myindent Query 6.2] Request all documents located in the Torino area, with the persons mentioned.
     \end{description}
     \end{footnotesize}
 
@@ -182,20 +187,20 @@ We categorized the questions according to four dimensions: global (G)/local (L) 
     The corpus is made of family trees referring to several document/event types: birth and death certificates, marriage acts, military mobilization, and census report. The roles are different for each event type and consist of \textit{children, father, mother} for the birth events, \textit{deceased} for the death event, \textit{spouse} and \textit{witnesses} for the marriages, and \textit{family member}s for the census events.
     \begin{footnotesize}
     \begin{description}
-    \item[Question 7] What is the trajectory of life for a given specific individual (birth, living, marriage, death) (L, A, N)
-    \item[\myindent Query 7.1] Select one person and all her/his documents (to use the mentioned places)
-    \item[Question 8] What is the trajectory of life for a family (L, A, N)
-    \item[\myindent Query 8.1] Select birth certificates with the child, parents, and birthplace
+    \item[Question 7] What is the trajectory of life for a given specific individual  (birth, living, marriage, death)? (L, A, N)
+    \item[\myindent Query 7.1] Select one person and all her/his documents (to use the mentioned places).
+    \item[Question 8] What is the trajectory of life for a family? (L, A, N)
+    \item[\myindent Query 8.1] Select birth certificates with the child, parents, and birthplace.
     \item[Question 9] Where are located the main migrations, and at which time do they occur? (G, A, N)
-    \item[\myindent Query 9.1] Select persons with a geolocated birth and death certificate
+    \item[\myindent Query 9.1] Select persons with a geolocated birth and death certificate.
     \item[Question 10] Are there differences in volume and location between migrations in the 18\ts{th} and 19\ts{th} centuries? (G, A, C)
-    \item[\myindent Query 10.1] Select persons with a geolocated birth and death certificate from the 18\ts{th} century
-    \item[\myindent Query 10.2] Select persons with a geolocated birth and death certificate from the 19\ts{th} century
-    \item[Question 11] In the Haute-Vienne and Cote d'Armor administrative areas, are there cycles in living places every 10/20 years? (G, A, N)
-    \item[\myindent Query 11.1] Select persons with their census reports located in Cote d’Armor and Haute-Vienne
+    \item[\myindent Query 10.1] Select persons with a geolocated birth and death certificate from the 18\ts{th} century.
+    \item[\myindent Query 10.2] Select persons with a geolocated birth and death certificate from the 19\ts{th} century.
+    \item[Question 11] In the \textit{Haute-Vienne} and \textit{Côtes-d'Armor} administrative areas, are there cycles in living places every 10/20 years? (G, A, N)
+    \item[\myindent Query 11.1] Select persons with their census reports located in Côtes-d'Armor and Haute-Vienne.
     \item[Question 12] In the 19\ts{th} century, was there an overall decrease in the social status and professions of persons in the dataset? (G, A, C)
-    \item[\myindent Query 12.1] Select persons in the first half of the 19\ts{th} century with a profession mentioned
-    \item[\myindent Query 12.2] Select persons in the second half of the 19\ts{th} century with a profession mentioned
+    \item[\myindent Query 12.1] Select persons in the first half of the 19\ts{th} century with a profession mentioned.
+    \item[\myindent Query 12.2] Select persons in the second half of the 19\ts{th} century with a profession mentioned.
     \end{description}
     \end{footnotesize}
 %6659 PERSONS. 1381 MARRIAGE_ACTS.
@@ -205,24 +210,25 @@ We categorized the questions according to four dimensions: global (G)/local (L) 
     \begin{footnotesize}
     \begin{description}
     \item[Question 13] How are spouses and witnesses linked in their family network? (G, T, N)
-    \item[\myindent Query 13.1] Select marriages with spouses and witnesses, where the spouse and witnesses have the same parents
-    \item[\myindent Query 13.2] Select marriages with spouses and witnesses, where the spouse and witnesses have the same grandparents
+    \item[\myindent Query 13.1] Select marriages with spouses and witnesses, where one of the spouses and a witness have the same parents.
+    \item[\myindent Query 13.2] Select marriages with spouses and witnesses, where one of the spouses and a witness have the same grandparents.
     \item[Question 14] Who are the persons with 2 marriages with a long delay? (L, A, N)
-    \item[\myindent Query 14.1] Select persons in 2 marriages as husband or wife. Put a constraint on the difference of time in the marriages
+    \item[\myindent Query 14.1] Select persons in 2 marriages as husband or wife. Put a constraint on the difference of time in the marriages.
     \item[Question 15] Where are the persons marrying in Buenos Aires coming from? (G, A, N)
-    \item[\myindent Query 15.1] Select persons with a birth certificate not located in Buenos Aires
+    \item[\myindent Query 15.1] Select persons with a birth certificate located not in Buenos Aires.
     \end{description}
     \end{footnotesize}
 
     \item Socio-political analysis of \textbf{migration of ethnic Germans from communist Romania to West Germany in the 20th century (ongoing work)~\cite{diminescuMigrationEthnicGermans2020}.}
     The corpus is made of administrative forms that mention persons requesting to migrate, along with the persons they want to join, and the administrative persons of the ministry in charge of the forms (3 roles).
     The family members of the aspiring migrant are also mentioned in the forms, with their respective dates of birth.
+    The historian also have access to other documents mentioning the prices people have to pay to get their migration requests approved.
      \begin{footnotesize}
     \begin{description}
-    \item[Question 16] What members of their family do emigrants usually join? (G, AT, N)
-    \item[\myindent Query 16.1] Select all migration documents with the emigrant and the person they are joining
+    \item[Question 16] What members of their family do emigrants typically join? (G, AT, N)
+    \item[\myindent Query 16.1] Select all migration documents with the emigrant and the person they are joining.
     \item[Question 17] What price does the emigrant have to pay, given their socio-economic profiles? (G, A, C)
-    \item[\myindent Query 17.1] Select people who are mentioned in a budget and a migration document
+    \item[\myindent Query 17.1] Select people who are mentioned in a budget and a migration document.
     \end{description}
     \end{footnotesize}
 \end{enumerate}
@@ -339,7 +345,7 @@ A link models the mention of a person in a document.
 This view provides an overview of the data by showing the structure of the network (T1.1) and the roles of the persons in their different documents (T1.2).
 %Attribute values can be overlayed on the nodes using colors when users select an attribute. It allows detecting patterns relative to attributes, in the context of the topology of the network (T1.2, T1.4, T1.5). For example, \autoref{fig:combinet-time-selected} shows the construction dataset of \pascal where the user selected the \textit{year} attribute, coloring the documents nodes with their year in the node-link diagram (left).
 The view also provides pan \& zoom and selection interactions for effective navigation.
-Nodes' labels are displayed (name of person and ids of documents by default) on the canvas with an occlusion-free mechanism that hides nodes with a low degree when two or more nodes' labels overlap.
+Nodes' labels are displayed (names of person and ids of documents by default) on the canvas with an occlusion-free mechanism that hides nodes with a low degree when two or more nodes' labels overlap.
 
 
 \noindent\textbf{V2: Map View}
@@ -387,7 +393,7 @@ Users can follow a first exploration of their data by visually detecting correla
 \begin{figure}[!ht]
  \centering
     \includegraphics[trim={15.9cm 0 0 0},clip,width=\textwidth]{static/figures/ComBiNet/Piemont_timeSelected.png}
-    \caption{\name interface wreal-timeith the dataset of collaboration \pascal. The user selected the \textit{\_year} attribute, showing the distribution of document years with a histogram (bottom right), and coloring the documents node on the bipartite view (left) and map view simultaneously (right).}\label{fig:combinet-time-selected}
+    \caption{\name interface with the dataset of collaboration \pascal. The user selected the \textit{\_year} attribute, showing the distribution of document years with a histogram (bottom right), and coloring the documents node on the bipartite view (left) and map view simultaneously (right).}\label{fig:combinet-time-selected}
 \end{figure}
 
 \subsection{Query Panel}
@@ -645,12 +651,15 @@ Several buttons appear on top of the provenance tree: $A$, $B$, $A-B$, $B-A$, $A
 
 To answer several of the questions raised by our collaborators, we need to compare two subsets of the network.
 
-In question 6 of collaboration \pascal, we want to compare the constructions in Torino with the ones in Torino surrounding.
-Since we previously constructed the query returning all the contracts from Torino (\textit{Turin}) with the mentioned people, we can
-return to this point in the provenance tree, and change the constraint of the \textit{region} attribute from \textit{Turin} to \textit{Turin Territoire} and \textit{Piemont} using the checkboxes to get the documents of Torino's surroundings in a second query.
-Both queries are shown in \autoref{fig:visualQueriesExamples} (b).
-The user can then rename the provenance tree nodes with explicit names such as ``Torino'' and ``Surroundings'', and mark them as A and B using the appropriate buttons.
+In question 6 of collaboration \pascal, we want to compare the constructions in Torino with the ones in Torino surroundings.
+For this, we can rename the provenance tree nodes which correspond to the two queries we made previously retrieving the works located in Torino and in Torino surroundings,
+with explicit names such as ``Torino'' and ``Surroundings''. We then mark them as A and B using the appropriate buttons.
 Clicking on the ``Compare State A and B'' will make the interface compare the two query results.
+%Since we previously constructed the query returning all the contracts from Torino (\textit{Turin}) with the mentioned people, we can
+%return to this point in the provenance tree, and change the constraint of the \textit{region} attribute from \textit{Turin} to \textit{Turin Territoire} and \textit{Piemont} using the checkboxes to get the documents of Torino's surroundings in a second query.
+%Both queries are shown in \autoref{fig:visualQueriesExamples} (b).
+%The user can then rename the provenance tree nodes with explicit names such as ``Torino'' and ``Surroundings'', and mark them as A and B using the appropriate buttons.
+%Clicking on the ``Compare State A and B'' will make the interface compare the two query results.
 
 
 % \begin{figure}
@@ -673,8 +682,8 @@ Clicking on the ``Compare State A and B'' will make the interface compare the tw
 In comparison mode,
 % the two graph visualization panels do not change but
 users can rapidly switch between the visual filters of (A) and (B) by hovering over their respective buttons on the comparison menu and thus compare the structure of the two resulting subgraphs (T3.1).
-Similarly, different boolean comparison operations are available by hovering their respective buttons (\autoref{fig:combinet-overall}-C), such as the intersection, union, and differences between the two filters. % It allows to rapidly change filters to find interesting persons or group of persons in a exploratory process.
-Moreover, the summary tab allows comparing the different graph measures of the two subgraphs by showing them side by side (T3.3).
+Similarly, different boolean comparison operations are available by hovering their respective buttons (\autoref{fig:combinet-overall} top of V9), such as the intersection, union, and differences between the two filters. % It allows to rapidly change filters to find interesting persons or group of persons in a exploratory process.
+Moreover, the graph measures view (V4) allows comparing the different graph measures of the two subgraphs by showing them side by side (T3.3).
 \autoref{fig:combinet-comparisonTable} shows the comparison table for the queries returning the subgraph of Torino (A) and Torino's surroundings (B).
 % as shown in \autoref{fig:comparisonTable}.
 Comparing these measures, such as the number of matched documents or the densities, is crucial for \sna.
@@ -706,7 +715,7 @@ This is interesting to our users, as it shows the dynamic of the construction in
 %The majority of Torino's contracts occurred around 1713 and around 1717 for Torino's surroundings.
 
 We can also compare the profiles of persons who collaborated at Torino and Torino's surroundings by selecting the intersection of those two queries.
-One of the questions the historian had (question 2 of \autoref{tab:tasks}) was to know if those persons were a group with specific attributes and characteristics, or were inseparable from other persons working in the two areas.
+One of the questions the historian had was to know if those persons were a group with specific attributes and characteristics, or were inseparable from other persons working in the two areas.
 If we look at the betweenness centrality, on average, the values are higher for this group of people, meaning that the persons who work on the construction site at Torino and Torino's territory are clearly two distinct groups, and the persons collaborating in the two areas act as bridges between these groups.
 This visual demonstration was convincing and revealing for our users.
 
@@ -757,7 +766,7 @@ The tool was refined as needed along the way.
 
 \subsection{Construction Sites in Piedmont (\#1)}
 
-One of the main questions of our collaborator was to compare two families which he knew played a big role in the structure of the network: the \textit{Menafoglio} and \textit{Zo} families (question 4 in \autoref{tab:tasks}).
+One of the main questions of our collaborator was to compare two families which he knew played a big role in the structure of the network: the \textit{Menafoglio} and \textit{Zo} families (question 4).
 Specifically, he was interested in knowing if there were differences in specialization in the type of contracts and area of work for the core members of these families, and to what extent the two families were collaborating.
 Moreover, he was very interested in characterizing the group of people collaborating with both families.
 
@@ -798,7 +807,7 @@ We then do the same query for the Zo family. We keep the same topological filter
 \end{figure}
 The two groups can be compared using the \textit{comparison mode} by selecting the two queries in the provenance tree. This opens the comparison menu to quickly navigate between the visual selection of (A), (B), and the set $A \cap B$ that interests our collaborator. The table showing the graph measures of the two subsets confirms what is shown visually: the Menafoglio group is more populated but less dense than the Zo family.
 
-Our user is then interested in comparing the distribution of several attributes between the two groups. We can clearly see in \autoref{fig:useCasePascal} (top right) that the Menafoglio family is more specialized in military (\textit{mil}) sites, while the Zo family is doing more civil (\textit{civ}) constructions. This is confirmed by the \textit{material} distribution that shows that the contracts of the Menafoglio are often using stones, whereas it is never the case for Zo contracts.
+Our user is then interested in comparing the distribution of several attributes between the two groups. We can clearly see in \autoref{fig:useCasePascal} (top right) that the \textit{Menafoglio} family is more specialized in military (\textit{mil}) sites, while the \textit{Zo} family is doing more civil (\textit{civ}) constructions. This is confirmed by the \textit{material} distribution that shows that the contracts of the \textit{Menafoglio} are often using stones (\textit{pierres}), whereas it is never the case for \texttt{Zo} constructions.
 Finally, the persons collaborating in the two groups have a betweenness centrality higher on average (bottom right, middle chart).
 This makes sense as they act as bridges linking the two families.
 % Moreover, we can see in detail the difference in the region of contracts of the two families.
@@ -830,7 +839,7 @@ This makes sense as they act as bridges linking the two families.
 %\vspace{-1mm}
 \subsection{French Genealogy (\#2)}
 
-We describe how \name allowed us to answer an important question of the use case \nicole: to detect the largest migrations across several generations, in which areas, and at what time they occurred (question 9 in \autoref{tab:tasks}).
+We describe how \name allowed us to answer an important question of the use case \nicole: to detect the largest migrations across several generations, in which areas, and at what time they occurred (question 9 of collaboration \nicole).
 The map view shows at a glance (\autoref{fig:useCaseNicoleMap}) that the majority of events have taken place in three specific regions: west (Britany), mid-north (Paris), and mid-south (Limousin).
 
 \begin{figure}[!ht]
@@ -873,7 +882,7 @@ To find patterns of migrations within families, we first make a query representi
     \caption{Migrations across departments over three generations}\label{fig:useCaseNicole}
 \end{figure}
 
-Afterward, we answered question 9 (\autoref{tab:tasks}), \ie is there a significant difference in the migrations between the 18th and 19th centuries.
+Afterward, we answered question 10, \ie is there a significant difference in the migrations between the 18th and 19th centuries.
 She thought people started moving in the 19th century and wanted to confirm it.
 To answer this, we first created a query to retrieve the people with birth and death certificates from a specified department.
 We then applied a time filter on the death certificate node, first for the 18th century and then the 19th century, compared the two query results using the comparison mode, and looked side by side at the Sankey graphs related to \textit{departments} (\autoref{fig:useCaseNicole2}).
