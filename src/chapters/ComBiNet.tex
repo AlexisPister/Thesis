@@ -4,9 +4,9 @@
 In the previous chapter \autoref{ch:hsna-process-and-network-modeling}, I showed \rev{that \modelplural constitute a good modeling of historical documents in regard} of \traceability, \reality, and \simplicity properties.
 However, no visual tools currently exist to specifically explore and manipulate this type of data.
 In this chapter, I propose a \va interface aimed at exploring historical documents modeled as \modelplural, for historians to be able to reflect on their data and encoding and to follow in depth-analysis.
-I answer \textbf{Q2} by analyzing tasks and questions historians have on their data and providing interaction mechanisms that would allow them to apply specific views and extraction, find errors and reflect on the annotations, and answer their high-level historical question through visual queries and comparison.
+I answer \textbf{Q2} by analyzing tasks and questions historians have on their data and providing interaction mechanisms that would allow them to apply specific views and extraction, find errors and reflect on the annotations, and answer their high-level historical questions through visual queries and comparison.
 
-\paperbox{This chapter is an extended version of an \rev{article accepted with minor revisions} to the journal Computer Graphics Forum (CGF) and a poster presented at the conference EuroVis 2022 \cite{pisterVisualQueriesBipartite2022}. It was a joint work with my advisors Christophe Prieur and Jean-Daniel Fekete. I developed the interface and led the discussions, evaluation, and writing of the paper.}
+\paperbox{This chapter is an extended version of an article currently being published in the journal Computer Graphics Forum (CGF)\cite{pister:hal-03927450} and a poster presented at the conference EuroVis 2022\cite{pisterVisualQueriesBipartite2022}. It was a joint work with my advisors Christophe Prieur and Jean-Daniel Fekete. I developed the interface and led the discussions, evaluation, and writing of the paper.}
 
 \section{Context}
 
@@ -93,7 +93,7 @@ Instead of counting every graphlet occurrence and interpreting them with sociolo
 Social scientists have for a long time described local structures of social networks in the aim of revealing interesting behaviors\cite{hollandLocalStructureSocial1976}.
 Graph pattern matching consists in finding a subgraph of interest automatically in a larger graph\cite{fanGraphPatternMatching2012}, and allows social scientists to find patterns of interest that they could have missed visually.
 Several scripting languages, such as \project{R}~\cite{Rstat} and \project{Python}~\cite{Python} have been extended to support the exploration of social networks using specialized libraries such as \project{igraph}~\cite{igraph} and \project{NetworkX}~\cite{networkx}, and provide functions for graph pattern matching.
-Graph databases is another technology allowing the storage and manipulation of network data with the use of query languages, such as the Cypher language for Neo4j\cite{neo4j}.
+Graph databases are another technology allowing the storage and manipulation of network data with the use of query languages, such as the Cypher language for Neo4j\cite{neo4j}.
 However, social scientists are often challenged to use scripting/query languages and programming, as they often do not have formal training in those skills.
 %Constructing and querying a pattern from a graph requires knowledge of graph databases and query languages.
 To lower the complexity barrier of their usage, several visual graph query systems such as \project{QUOGGLES}\cite{holleisQUOGGLESQueryGraphs2005} and \project{VIGOR} been developed, which show the query that has been written in a visual form, enabling analysts to reflect on their constructed queries and explore the results more easily.
@@ -1017,35 +1017,6 @@ One other historian outside of our direct collaborators liked the overlay of nod
 % [jdf] You don't mention theses capabilities in the paper
 % Both liked the export capabilities of the system to collect results in CSV or JSON format, as well as the charts in SVG, for inclusion in their publications or for processing with other tools.
 
-
-
-\iffalse
-\section{Discussion}
-
-Useful to social scientists provide a good trade-off between expressive power and simplicity compared to alternatives, either not expressive enough or too complex.
-
-Compared to other systems:
-\textbf{Jigsaw}: close on many aspects, also relies on a stable data model, but more expressive using attributes and roles. Yet, we do not handle general named entities that seem less important than for intelligence analysis; they can sometimes be emulated with attributes.
-
-We applied it to other projects, such as research administration: publication and contracts visualization, and exploration.
-
-
-\textbf{VERTIGo}: similar for queries, but VERTIGo can adapt to any data model, does not prescribe a data model, and handles attributes.
-
-We want to distribute \name as an open-source tool and facilitate its use.
-
-Still needs the help of a programmer to import data. Other systems, such as Gephi, provide plugins for that.
-
-\jdf{Maybe} We need to improve the usability, most of the use cases have been done with the help of the authors.
-
-
-Possible discussion points :
-- Hard to evaluate
-- No dynamic visualization
-- A bit hard to do query on the orders of events
-- Dirty data
-\fi
-
 \section{Discussion}
 
 % We discuss here several points of potential limitations.
@@ -1061,7 +1032,7 @@ In \autoref{ch:hsna-process-and-network-modeling}, I claimed that \va interfaces
 I showed that \combinet can be used to reflect on the annotations and detect erroneous patterns (precisely in \autoref{subsec:usecase-BA}.), leveraging data modeled as \modelplural.
 Concerning the modeling step, \modelplural model the sources in all their complexity, and analysts may want to project the network to have a specific vision of the data to answer a precise question.
 \combinet allows focusing on specific parts of the network (one type of role, the time, the locations, or specific attributes) with the help of filters, which return subgraphs highlighting certain aspects of the data.
-However, it does not allow to do more complex projections---such as representing only the persons in a projected network---in part due to the limitations of Neo4j\cite{neo4j}.
+However, it does not allow to make more complex projections---such as representing only the persons in a projected network---in part due to the limitations of Neo4j\cite{neo4j}.
 
 \noindent\textbf{Scalability.} We assess the scalability in network size (number of nodes and links) concerning the cluttering and readability of the network visualizations. Our biggest dataset from \zacarias\ comprises 7212 nodes (4886 persons and 2326 events) and 7790 links, after splitting the documents into birth and marriage event nodes. The system allows the exploration of networks of this size with a decent frame rate.
 % Large networks are usually hard to read due to edge crossings~\cite{shneiderman2006network}.
@@ -1103,10 +1074,10 @@ We believe \name leads the way toward a new generation of highly interactive exp
 
 For future work, \name could be extended to support more \sna measures and computations such as clustering; it would create a new attribute containing a cluster identifier.
 The interface currently proposes two layouts based on the topology and the geolocations of the entities.
-Providing more layout options could be interesting, especially one to highlight better the time, similar to the PAOHvis technique~\cite{valdiviaAnalyzingDynamicHypergraphs2021}.
+Providing more layout options could be interesting, especially one to highlight the time better, similar to the PAOHvis technique~\cite{valdiviaAnalyzingDynamicHypergraphs2021}.
 Finally, the interface could in the future make suggestions on the query construction process based on frequent subgraphs similar to VERTIGo\cite{cuencaVERTIGoVisualPlatform2021}, and within a mixed-initiative perspective\cite{makoninMixedInitiativeBigData2016}.
 
-In the next chapter, I present a visual interface following this mixed-initiative framework for network clustering, to answer \qthree and showing that such approaches can help social scientists use data mining tools while controlling their biases---with the condition of an explicit results' traceability.
+In the next chapter, I present a visual interface following this mixed-initiative framework for network clustering, to answer \qthree and show that such approaches can help social scientists use data mining tools while controlling their biases---with the condition of explicit results' traceability.
 
 %Finally, the interface currently lets social scientists build their queries to answer questions they have about their data, but the system could also in the future make suggestions on the query construction process with a mixed-initiative perspective.
 
