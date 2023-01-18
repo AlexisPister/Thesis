@@ -7,7 +7,7 @@ Specifically, social historians can model documents and their content through va
 I discuss this step in depth as it impacts the annotation and analysis possibilities, and I give an answer to our first research question \qone by proposing to model this type of data with \modelplural.
 This model satisfies \simplicity, \reality, and \traceability properties, which we define as critical for social history work from our joint collaborations with social historians and current critics of \hsna \cite{lemercier12FormalNetwork2015, lemercierBackSourcesPracticing2021, edelsteinHistoricalResearchDigital2017}.
 
-\paperbox{This chapter is an updated version of an article presented at the VIS4DH workshop of the IEEE VIS: Visualization \& Visual Analytics Conference 2022 which is currently being published in IEEE Explore\cite{pisterHistoricalDocumentsSocial2022}. It was a collaboration with Nicole Dufournaud, Pascal Cristofoli, and my supervisors Christophe Prieur and Jean-Daniel Fekete. I have been leading the discussions, elaboration of concepts, and writing of the paper.}
+\paperbox{This chapter is an updated version of an article presented at the VIS4DH workshop of the IEEE VIS: Visualization \& Visual Analytics Conference 2022, which has been published in IEEE Explore\cite{pisterHistoricalDocumentsSocial2022}. It was a collaboration with Nicole Dufournaud, Pascal Cristofoli, and my supervisors Christophe Prieur and Jean-Daniel Fekete. I have been leading the discussions, elaboration of concepts, and writing of the paper.}
 
 \section{Context}
 
@@ -20,8 +20,9 @@ In this chapter, after describing and characterizing the workflow of \hsna~\cite
 These principles emerged from joint experiences as historians and computer scientists were collaborating on multiple projects, and aim at simplifying the \hsna process while enhancing exploration and analysis options and replicability.
 %These principles emerged from joint experiences as historians and computer scientists while collaborating on multiple projects, and aim at simplifying the \hsna process while enhancing exploration and analysis options and replicability.
 
-Social historians' goal is to characterize socio-economic phenomena and their dynamics in a restricted period and place of interest and to see how individual people of that time lived through those changes\cite{tilly1984retrieving}.
-For this, they rely on historical documents that they inspect in depth to next extract qualitative and quantitative information allowing them to answer their research questions.
+Social historians' goal is to characterize socio-economic phenomena and their dynamics in a restricted period and place of interest, and to characterize how individual people of that time lived in those social structures and through social changes\cite{tilly1984retrieving}.
+%and to see how individual people of that time lived through those changes\cite{tilly1984retrieving}.
+For this, they rely on historical documents that they inspect in depth to extract qualitative and quantitative information allowing them to answer their research questions.
 
 %They typically extract qualitative and quantitative information from an identified corpus of documents, to then make conclusions on socio-economic topics such as migrations, business dynamics, education, and kinship.
 %For doing this, historians can apply Social Network Analysis (SNA), a method---sometimes referred to as a paradigm---which consists in modeling the social relationships between a set of entities---usually individuals---into a network.
@@ -121,11 +122,11 @@ For example, by comparing several Jewish commercial communities in Europe during
 \subsection{Historian Workflows}
 
 %Many approaches have been introduced to analyze historical documents through various formalisms to analyze their content through quantification.
-Many quantitative methods and formalisms are available for historians to inspect their sources with the aim of making historical claims.
-Several textbooks describe and explain to social scientists and students who do not have formal computer science training in what consist these methods (statistical regression, Chi-squared test, network analysis, etc.) and how to practically use those with software and programming language \cite{archdeaconCorrelationRegressionAnalysis1994, floudIntroductionQuantitativeMethods2013}.
+Many quantitative methods and formalisms are available for historians to inspect their sources with the aim of making historical conclusions.
+Several textbooks describe and explain to social scientists and students who do not have formal computer science training in what consist these methods (statistical regression, Chi-squared test, network analysis, etc.) and how to practically use those with softwares and programming language \cite{archdeaconCorrelationRegressionAnalysis1994, floudIntroductionQuantitativeMethods2013}.
 However, the process leading from the sources to the numeric artifacts (a table, a network, a timeline) has not been described thoroughly in the literature, especially with concrete examples, and is often not presented in scientific publications of concrete use cases.
 Yet, the process leading from the documents to analyzable data requires social historians to make several annotations, encoding, and modeling decisions, concerning \emph{what} to extract from the source and \emph{how} to encode it.
-This process is tedious and requires data acquisition, annotation, encoding, and modification with continuous back and forth between the different steps \cite{alkadi2022}.
+This process is tedious and requires data acquisition, annotation, encoding, and modification with continuous back and forth between the different steps~\cite{alkadi2022}.
 %The process to generate a clean quantitative or network dataset from historical sources is difficult and requires several data acquisition, annotation, and cleaning steps.
 %Social analysts are not always trained on how to do these steps effectivity, which can lead to errors, inconsistencies, and mismatches between the chosen data models and the historical questions~\cite{alkadi2022}.
 This is a critical process as it can lead to simplifications, anachronism, distortion, or data that do not allow to answer original or new hypotheses \cite{karila-cohenNouvellesCuisinesHistoire2018, lemercierQuantitativeMethodsHumanities2019}.
@@ -487,14 +488,15 @@ Historical documents are well modeled by bipartite multivariate dynamic networks
     G = (V, E, B, R, T, L)
 \end{equation}
 
-where $V$ is the set of vertices, $E$ the set of edges, and $B = {person, document}$ the set of node types.
+where $V$ is the set of vertices, $E$ the set of edges, and $B = \{person, document\}$ the set of node types.
 Each node $u \in V$ is defined as
 
 \begin{equation}
-    u = (u_{id}, b_u, a_u)
+%    u = (u_{id}, b_u, a_u)
+    u = (id_u, b_u, a_u)
 \end{equation}
 
-where $u_{id}$ corresponds to the unique identifier of $u$, $b_u \in B$ is the type of the node and $a_u$ is a tuple of the attributes (or properties) values of $u$. If $b_u = person$, then
+where $id_u$ corresponds to the unique identifier of $u$, $b_u \in B$ is the type of the node and $a_u$ is a tuple of the attributes (or properties) values of $u$. If $b_u = person$, then
 
 \begin{equation}
     a_u = (a_i, \dotsc, a_N)
