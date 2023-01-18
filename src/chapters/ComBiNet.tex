@@ -1,7 +1,7 @@
 \chapter{ComBiNet: Visual Query and Comparison of Bipartite Dynamic Multivariate Networks with Roles}\label{ch:combinet}
 \minitoc
 
-In the previous chapter \autoref{ch:hsna-process-and-network-modeling}, I showed \rev{that \modelplural constitute a good modeling of historical documents in regard} of \traceability, \reality, and \simplicity properties.
+In the previous chapter \autoref{ch:hsna-process-and-network-modeling}, I showed \rev{that \modelplural constitute a good modeling choice for historical documents in regard} of \traceability, \reality, and \simplicity properties.
 However, no visual tools currently exist to specifically explore and manipulate this type of data.
 In this chapter, I propose a \va interface aimed at exploring historical documents modeled as \modelplural, for historians to be able to reflect on their data and encoding and to follow in depth-analysis.
 I answer \textbf{Q2} by analyzing tasks and questions historians have on their data and providing interaction mechanisms that would allow them to apply specific views and extraction, find errors and reflect on the annotations, and answer their high-level historical questions through visual queries and comparison.
@@ -32,7 +32,7 @@ More complicated models exist, such as knowledge graphs\cite{opitzInductionLarge
 In contrast, most visual and analytics tools widely used by social scientists such as Gephi~\cite{Gephi} and NodeXL~\cite{NodeXL} enforce too simplistic network models and only provide limited interactions for exploring the network data, even if they provide the computation of several network measures.
 This results in many social historians ending their analysis by plotting the network using a node-link diagram---which is hard to read with dense networks---, and identifying the most important actors with the help of centrality measures\cite{lemercierQuantitativeMethodsHumanities2019}.
 Lemercier et al. describe this phenomenon the following: ``Network graphs of the `spaghetti monster' variety are a case in point. Often, in historical papers, they are used to show that a network is dense (and that the author has mastered the new technology). The narrative then comments on the individuals identified as central in the network. This approach can indeed be quite interesting, but it is hardly the only possible use for network analysis.\cite{lemercierQuantitativeMethodsHumanities2019}''.
-\va tools guiding social scientists towards more complex exploration with the help of interaction mechanisms, high usability and interpretability are therefore needed.
+\va tools guiding social scientists towards more complex exploration with the help of interaction mechanisms, high usability, and interpretability are therefore needed.
 For example, some visualization techniques such as the \textit{Simmelian backbones}\cite{nickSimmelianBackbonesAmplifying2013} have been proposed to filter large networks and only show the most important structure in the aim of reducing clutter.
 
 % Contrary to the early taxonomy of tasks on graphs~\cite{lee:hal-00851754}, with the data model we use, it becomes impossible to characterize a finite set of simple tasks to support, along with their associated visual representations and interactions techniques.
@@ -53,7 +53,7 @@ I implemented dynamic queries that also show the translated Cypher queries, and 
 With that interface, social scientists can start building their queries with simple widgets and, if needed, complement them by editing the query, alone or with the help of power users.
 Furthermore, they can export their query, the associated results, and its history at any point to share it with someone else or to start an analysis session from a previous result.
 \name also implements subgraph comparison techniques, allowing the comparison of networks, network-related measures, and attribute distributions between the entities returned by the queries.
-I validate \combinet with the description of four real-world use case showing the system can be used to answer socio-historical questions while reflecting on the annotation/encoding process, and a formative usability study demonstrating the system can be used smoothly by social historians.
+I validate \combinet with the description of four real-world use cases showing the system can be used to answer socio-historical questions while reflecting on the annotation/encoding process, and a formative usability study demonstrating the system can be used smoothly by social historians.
 
 After the related work section, I describe our design process in \autoref{sec:combinet-tasks}, present the system \name in \autoref{sec:combinet-system} with the design of the visual query and comparison features, and present four use cases demonstrating the utility of the system in \autoref{sec:combinet-usecases} showing it can be used to explore complex historical data and allowing historians to answer several of their questions using queries and comparisons while reflecting on their annotation/encoding process.
 I finish with the results of the formative usability study and the feedback of practitioners in \autoref{sec:combinet-usability}.
@@ -80,7 +80,7 @@ Some interfaces have been proposed to visually highlight graphlets with high fre
 
 One of the aims of the VAST 2020 challenge was to compare several multivariate networks.
 However, by using graphlets, we realized that 1) it was not very efficient to compare several networks in contrast to other measures, and 2) the interpretation of all graphlets patterns that are found in a network is complicated given the fact that one specific pattern can have various interpretations given the nodes involved and their positions in the network~\cite{ingramNetworkMotifsStructure2006}.
-This is especially true that the number of potential graphlets grows exponentially as we increase the number of nodes considered\footnote{There are 6 graphlets of size 4, 21 graphlets of size 5, and 11716571 graphlets of size 10 sor example\cite{sloaneHandbookIntegerSequences2014}.} but also if we add complexity to the network model, for example by using directed links or multiple node and link types~\cite{ribeiroDiscoveringColoredNetwork2014}.
+This is especially true that the number of potential graphlets grows exponentially as we increase the number of nodes considered\footnote{There are 6 graphlets of size 4, 21 graphlets of size 5, and 11716571 graphlets of size 10 for example\cite{sloaneHandbookIntegerSequences2014}.} but also if we add complexity to the network model, for example by using directed links or multiple node and link types~\cite{ribeiroDiscoveringColoredNetwork2014}.
 
 Instead of counting every graphlet occurrence and interpreting them with sociological meanings, it appeared more efficient to let social scientists find specific patterns to answer questions they already ask themselves on the data.
 
@@ -90,7 +90,7 @@ Instead of counting every graphlet occurrence and interpreting them with sociolo
 % Guess~\cite{adar_guess_2006} has been designed to provide a dual view of networks, one from a scripting language (a variation of Python) coupled with a visual representation of the network. However, it still relies on scripting to search and manipulate the network, contrary to modern visualization systems using dynamic queries~\cite{DynamicQueries}.
 
 %Graph pattern matching is an important task in \sna, which consists in finding a subgraph of interest in a larger graph\cite{fanGraphPatternMatching2012}.
-Social scientists have for a long time described local structures of social networks in the aim of revealing interesting behaviors\cite{hollandLocalStructureSocial1976}.
+Social scientists have for a long time described local structures of social networks with the aim of revealing interesting behaviors\cite{hollandLocalStructureSocial1976}.
 Graph pattern matching consists in finding a subgraph of interest automatically in a larger graph\cite{fanGraphPatternMatching2012}, and allows social scientists to find patterns of interest that they could have missed visually.
 Several scripting languages, such as \project{R}~\cite{Rstat} and \project{Python}~\cite{Python} have been extended to support the exploration of social networks using specialized libraries such as \project{igraph}~\cite{igraph} and \project{NetworkX}~\cite{networkx}, and provide functions for graph pattern matching.
 Graph databases are another technology allowing the storage and manipulation of network data with the use of query languages, such as the Cypher language for Neo4j\cite{neo4j}.
@@ -127,7 +127,7 @@ Yet, few visual systems support comparison tasks for social networks.
 Andrews et al.~\cite{andrewsVisualGraphComparison2009} describe a technique to compare several networks, using a combination of juxtaposition and superposition techniques.
 The two candidate networks are shown side by side, along with a third view composed of a fusion network highlighting both the shared nodes along with the non-shared nodes with different colors.
 
-Freire et al.~\cite{ManyNets} describe the ManyNets system to compare many networks by using a table where each describes one graph, and each column shows graph measures in terms of small visualizations, from simple bars to distributions, allowing the comparison of a large number of graphs. However, ManyNets does not visualize the networks per se (no layout shown), and do not take into account attributes, node types, or time.
+Freire et al.~\cite{ManyNets} describe the ManyNets system to compare many networks by using a table where each describes one graph, and each column shows graph measures in terms of small visualizations, from simple bars to distributions, allowing the comparison of a large number of graphs. However, ManyNets does not visualize the networks per se (no layout shown) and do not take into account attributes, node types, or time.
 
 Hascoët and Dragicevic~\cite{HascoetD12} describe a system to match and compare graphs using superposition, focusing on the topology, not taking into account attributes or time.
 Tovanich et al.\cite{tovanichVAST2020Contest2021} propose a visual analytics tool to compare multivariate, sometimes bipartite, dynamic networks and find common structures.
@@ -184,7 +184,7 @@ We categorized the questions according to four dimensions: global (G)/local (L) 
     \end{footnotesize}
 
     \item Analysis of migrations from the \textbf{genealogy of a french family between the 17\ts{th}--20\ts{th} centuries (2053 events, 957 persons from a private source).}
-    The corpus is made of family trees referring to several document/event types: birth and death certificates, marriage acts, military mobilization, and census report. The roles are different for each event type and consist of \textit{children, father, mother} for the birth events, \textit{deceased} for the death event, \textit{spouse} and \textit{witnesses} for the marriages, and \textit{family member}s for the census events.
+    The corpus is made of family trees referring to several document/event types: birth and death certificates, marriage acts, military mobilizations, and census reports. The roles are different for each event type and consist of \textit{children, father, mother} for the birth events, \textit{deceased} for the death event, \textit{spouse} and \textit{witnesses} for the marriages, and \textit{family members} for the census events.
     \begin{footnotesize}
     \begin{description}
     \item[Question 7] What is the trajectory of life for a given specific individual  (birth, living, marriage, death)? (L, A, N)
@@ -222,7 +222,7 @@ We categorized the questions according to four dimensions: global (G)/local (L) 
     \item Socio-political analysis of \textbf{migration of ethnic Germans from communist Romania to West Germany in the 20th century (ongoing work)~\cite{diminescuMigrationEthnicGermans2020}.}
     The corpus is made of administrative forms that mention persons requesting to migrate, along with the persons they want to join, and the administrative persons of the ministry in charge of the forms (3 roles).
     The family members of the aspiring migrant are also mentioned in the forms, with their respective dates of birth.
-    The historian also have access to other documents mentioning the prices people have to pay to get their migration requests approved.
+    The historian also has access to other documents mentioning the prices people have to pay to get their migration requests approved.
      \begin{footnotesize}
     \begin{description}
     \item[Question 16] What members of their family do emigrants typically join? (G, AT, N)
@@ -345,7 +345,7 @@ A link models the mention of a person in a document.
 This view provides an overview of the data by showing the structure of the network (T1.1) and the roles of the persons in their different documents (T1.2).
 %Attribute values can be overlayed on the nodes using colors when users select an attribute. It allows detecting patterns relative to attributes, in the context of the topology of the network (T1.2, T1.4, T1.5). For example, \autoref{fig:combinet-time-selected} shows the construction dataset of \pascal where the user selected the \textit{year} attribute, coloring the documents nodes with their year in the node-link diagram (left).
 The view also provides pan \& zoom and selection interactions for effective navigation.
-Nodes' labels are displayed (names of person and ids of documents by default) on the canvas with an occlusion-free mechanism that hides nodes with a low degree when two or more nodes' labels overlap.
+Nodes' labels are displayed (names of persons and ids of documents by default) on the canvas with an occlusion-free mechanism that hides nodes with a low degree when two or more nodes' labels overlap.
 
 
 \noindent\textbf{V2: Map View}
@@ -414,7 +414,7 @@ The query subgraph is built and edited interactively.
 At each modification, the visual query is converted into a Cypher query and run in the database which returns the results.
 All the matches are displayed in the entities tables (V3) and highlighted in the main visualization views (V1, V2).
 Three modes of interaction are available through the top-right menu: \textit{selection, addition}, and \textit{deletion}.
-The \textit{selection} mode allows to drag the nodes in the panel, while the \textit{addition} and \textit{deletion} modes allow the following actions:
+The \textit{selection} mode allows dragging the nodes in the panel, while the \textit{addition} and \textit{deletion} modes allow the following actions:
 \begin{description}
     \item[\textbf{Node Creation:}] In \textit{addition} mode, clicking on an empty area creates a new node. The node will be of the selected type from the legend on the right (Person or Document).
     \item[\textbf{Node Deletion:}] In \textit{deletion} mode, clicking on a node deletes it and its links.
@@ -949,11 +949,11 @@ Using this table, he has been able to rapidly correct those errors in his annota
 
 \subsection{Sociology Theses in France}
 
-I describe in this fourth use case how \name can be used to answer questions about the thesis in France between 2016 and 2022.
-Indeed, some sociological datasets made of documents can also be well modeled as \modelplural, like thesis dissertations: a thesis is a document with specific attributes such as the subject, the doctoral school, the domain, the university, and the date of defense, and mention several peoples who are socially connected through the thesis defense with different roles: author (\textit{auteur} in french), director(s) (\textit{directeur}), reviewers (\textit{rapporteur}), and jury president (\textit{président de jury}).
+I describe in this fourth use case how \name can be used to answer questions about theses defended in France between 2016 and 2022.
+Indeed, some sociological datasets made of documents can also be well modeled as \modelplural, like theses dissertations: a thesis is a document with specific attributes such as the subject, the doctoral school, the domain, the university, and the date of defense, and mention several peoples who are socially connected through the thesis defense with different roles: author (\textit{auteur} in french), director(s) (\textit{directeur}), reviewers (\textit{rapporteur}), and jury president (\textit{président de jury}).
 %We discussed with sociologists who were interested in this type of data for explorations purposes.
-We present here an exploration of the data by ourselves using \name.
-A first look at the graph measures tells us that 896 theses have been defended in sociology in France between 2016 and 2021 in France, with 2453 persons included in the defenses (see \autoref{fig:combinet-thesis-exploration} bottom).
+I present here an exploration of the data using \name.
+A first look at the network measures tells us that 896 theses have been defended in sociology in France between 2016 and 2021 in France, with 2453 persons included in the defenses (see \autoref{fig:combinet-thesis-exploration} bottom).
 The bipartite node-link view shows us an overview of the network but is hard to parse due to the network's size.
 Zoom actions though allow us to center the view on specific parts of the network.
 The map view reveals that theses have been defended all around France, even though the majority are defended in Paris.
@@ -969,10 +969,10 @@ It means that a lot of thesis defenses include reviewers and juries from differe
 Let's now try to answer an interesting question: ``Do reviewers and jury presidents often ask thesis directors to be reviewers and jury presidents in their turn for another thesis where they are directors ?''.
 For this, we can construct a visual query representing this pattern by creating two person nodes and two document nodes, and by connecting them with two president links and two reviewers or jury director links in a symmetrical way, as shown in \autoref{fig:combinet-thesis-query} (right).
 The occurrence table tells us that this pattern has been found 76 times in the network, meaning that this is a recurrent behavior.
-We are now interested in characterizing the thesis occurring in this pattern, by their regions.
+We are now interested in characterizing the theses occurring in this pattern, by their geolocations.
 We can look at the \textit{city} attribute distribution for this thesis by selecting it in the attribute view as shown in \autoref{fig:combinet-thesis-query} (bottom right).
 We can first see on the map that this pattern occurs mainly in the biggest cities of the country.
-By selecting the Sankey view option, we can investigate if this pattern occurs between thesis defended in different regions or if it occurs mainly in the same ones.
+By selecting the Sankey view option, we can investigate if this pattern occurs between the thesis defended in different regions or if it occurs mainly in the same ones.
 We learn that it depends mainly on the regions: in Bourgogne-Fanche-Comté 26 out of 29 theses are connected with the thesis of another region.
 On the contrary, in \textit{Occitanie} it is the case for only 4 out of 17.
 On average, we can see that this pattern occurs a lot for theses of the same region.

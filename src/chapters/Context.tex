@@ -356,26 +356,24 @@ He developed sociograms to visually show friendships between people with the hel
 %This way, he could rapidly see the main actors and hubs of interaction inside the social network represented visually.
 
 Sociometry tremendously helped disseminate the metaphor of networks to model and understand social structures and phenomena, but was not using any formalization of network concepts and computation yet.
-It was not until the 1950s that mathematicians such as Harary and Roberts started to develop graph theory as a field\footnote{The first book on graph theory was published in 1936 by König\cite{konigTheoryFiniteInfinite1990}.} and apply it to sociology\cite{harary1953graph}.
-Then, many sociologists and anthropologists started to formalized \sna using graphs\footnote{Graphs and networks refer to the same thing but are often used in different contexts. The term graph is preferred in a mathematical and abstract setting, while the term network is mostly used when modeling real-world phenomena. We talk about nodes and links for networks and vertices and edges for graphs.} and computations\cite{cConceptUseSocial1969, freemanDevelopmentSocialNetwork2004}, while mathematicians were studying in parallel the mathematical properties of graphs, such as Erd\H{o}s on his work on random graph models\cite{erdos2011}.
-%Sociometry tremendously helped disseminate the metaphor of networks to model and understand social structures and phenomena.
-%It was during the 1960s that sociologists and anthropologists took these concepts further and formalized \sna using graphs\footnote{Graphs and networks refer to the same thing but are often used in different contexts. The term graph is preferred in a mathematical and abstract setting, while the term network is mostly used when modeling real-world phenomena. We talk about nodes and links for networks and vertices and edges for graphs.} and mathematical methods\cite{cConceptUseSocial1969, freemanDevelopmentSocialNetwork2004}, following the emergence of Graph Theory studies by mathematicians such as König who published the first book on the subject in 1936\cite{konigTheoryFiniteInfinite1990} and later on Erd\H{o}s \cite{erdos2011} who started working on graph models in the 1950s.
-%following the emergence of Graph Theory studies in the 1950s by mathematicians such as Erd\H{o}s \cite{erdos2011}.
-%It did not take long until sociologists used these concepts to model social ties and relationships into graphs.
-Sociologists already had structural theories of social phenomena, and they rapidly saw the potential of graphs to model social relationships between actors of interest.
-Typically, a graph is noted
 
+It was around the same time, in the 1930s, that graph theory developed as a field\footnote{The first book on graph theory was published in 1936 by König\cite{konigTheoryFiniteInfinite1990}.}. In the 1950s, mathematicians such as Harary and Roberts started using their findings on graphs to study sociological questions\cite{harary1953graph}. 
+In the following decades, many sociologists and anthropologists codified \sna using networks\footnote{Graphs and networks refer to the same thing but are often used in different contexts. The term graph is preferred in a mathematical and abstract setting, while the term network is mostly used when modeling real-world phenomena. We talk about nodes and links for networks and vertices and edges for graphs.} and computations\cite{cConceptUseSocial1969, freemanDevelopmentSocialNetwork2004}, while mathematicians were studying in parallel the mathematical properties of graphs, such as Erd\H{o}s with his work on random graph models\cite{erdos2011}.
+
+% It was not until the 1950s that mathematicians such as Harary and Roberts started to develop graph theory as a field\footnote{The first book on graph theory was published in 1936 by König\cite{konigTheoryFiniteInfinite1990}.} and apply it to sociology\cite{harary1953graph}.
+% Then, many sociologists and anthropologists started to formalized \sna using graphs\footnote{Graphs and networks refer to the same thing but are often used in different contexts. The term graph is preferred in a mathematical and abstract setting, while the term network is mostly used when modeling real-world phenomena. We talk about nodes and links for networks and vertices and edges for graphs.} and computations\cite{cConceptUseSocial1969, freemanDevelopmentSocialNetwork2004}, while mathematicians were studying in parallel the mathematical properties of graphs, such as Erd\H{o}s on his work on random graph models\cite{erdos2011}.
+% Sociologists already had structural theories of social phenomena, and they rapidly saw the potential of graphs to model social relationships between actors of interest.
+Typically, a graph is noted
 \begin{equation}
     G = (V, E)\label{eq:graph}
 \end{equation}
-
 with $V$ a set of vertices representing the actors of interest---typically persons---and $E \subseteq V^2$ a set of edges modeling social relationships.
-This simple model which does not take into account the diversity and extent of social relationships still allows the characterization of the sociological structure of groups and institutions---which is the primary focus of \sna\cite{scottSocialNetworkAnalysis1988, freemanDevelopmentSocialNetwork2004}.
+This simple model, which does not take into account the diversity and extent of social relationships, still allows the characterization of the sociological structure of groups and institutions---which is the primary focus of \sna\cite{scottSocialNetworkAnalysis1988, freemanDevelopmentSocialNetwork2004}.
 More complex network models have been proposed with time to better take into account concrete properties of social relationships.
 %such as the importance of actors or relations with weighted networks, multiple relationships with multiplex networks, dynamics of relations with dynamic networks.
 I discuss those more in depth in \autoref{subsec:network-modeling}.
 Graph theory brought a panoply of concepts and methods to characterize the structure of  networks, that sociologists such as Coleman started to codify to use in a sociology setting\cite{colemanIntroductionMathematicalSociology1964}.
-The use of network measures let sociologists explain social phenomena through the formal description of real observations of relationships modeled as networks. \rev{I describe commonly used methods and measures in the following subsection.}
+The use of network measures lets sociologists explain social phenomena through the formal description of real observations of relationships modeled as networks. \rev{I describe commonly used methods and measures in the following subsection.}
 
 
 \subsection{Methods and Measures}\label{subsec:methods-and-measures}
@@ -385,16 +383,16 @@ The use of network measures let sociologists explain social phenomena through th
 %However, there were not yet strong protocols and methods to follow, and networks are an abstraction that can model different things in different ways.
 %When looking retrospectively, we can see that two schools of thought emerged with different objectives and methods: the structuralists and the school of Manchester \cite{eveDeuxTraditionsAnalyse2002, maurizio2000, freemanDevelopmentSocialNetwork2004}.
 
-Many measures and algorithms have been proposed in the network science and \sna literatures to characterize the structure of simple networks as defined in \autoref{eq:graph} and relate it to social behaviors and phenomena\cite{scottSocialNetworkAnalysis1988, tabassumSocialNetworkAnalysis2018}.
+Many measures and algorithms have been proposed in the network science and \sna literature to characterize the structure of simple networks as defined in \autoref{eq:graph} and relate it to social behaviors and phenomena\cite{scottSocialNetworkAnalysis1988, tabassumSocialNetworkAnalysis2018}.
 Network measures are either global or local, which allows one to either make high-level conclusions on the general structure of social relationships constituting the network or individual behaviors.
-Widely used global measures include for example the density and the diameter, which give insight into the sparsity of the network and how distant on average are two random pairs of nodes.
+Widely used global measures include, for example, the density and the diameter, which give insight into the sparsity of the network and how distant, on average, two random pairs of nodes are.
 Conversely, local measures give information on the structural position of a node compared to the rest of the network.
-Centrality---probably the most used local measure---allows to formally compute a measure of how important or central are individuals in the network\cite{newmanNetworks2018}.
+Centrality---probably the most used local measure---allows to formally compute a measure of how important or central individuals are in the network\cite{newmanNetworks2018}.
 %As defining what an important node is ambiguous, several types of centrality have been proposed such as the degree, betweenness, and closeness centrality, which respectively measure the number of connections, how nodes connect to different groups, and how close are the nodes compared to the rest of the network.
-As the definition of what is an important node can vary, several types of centrality have been proposed such as the degree, betweenness, and closeness centrality, which respectively measure the number of connections, how nodes connect to different groups, and how close are the nodes compared to the rest of the network.
+As the definition of what is an important node can vary, several types of centrality have been proposed, such as the degree, betweenness, and closeness centrality, which respectively measure the number of connections, how nodes connect to different groups, and how close the nodes are compared to the rest of the network.
 
-More generally, sociologists aim at identifying recurring patterns of sociability between actors and linking them to other behaviors, measures, or qualitative knowledge.
-These patterns can for example be small unconnected components, cliques, or bow-tie structures\cite{wassermanSocialNetworkAnalysis1994}.
+More generally, sociologists aim to identify recurring patterns of sociability between actors and link them to other behaviors, measures, or qualitative knowledge.
+These patterns can, for example, be small unconnected components, cliques, or bow-tie structures\cite{wassermanSocialNetworkAnalysis1994}.
 Groups of nodes similarly located (central or distant) and having similar shapes are sometimes referred to as ``structurally equivalent''\cite{lemercier12FormalNetwork2015}.
 Instead of observing complex shapes, network scientists have also been interested in studying relationships at the lowest possible scale, \ie observing relations between sets of 2 and 3 nodes at once, also called dyads and triads\cite{wassermanSocialNetworkAnalysis1994}.
 %The concepts of dyads and triads counting, which are basic structural patterns of 2 and 3 nodes, give insights into low-level relationships between people.
@@ -417,30 +415,30 @@ The path of length 2 \PATH\ has all vertices of the original graph but misses an
 \end{figure}
 
 \autoref{fig:undir5-graphlets} shows all graphlets of size 2 to 5, for undirected networks.
-Graphlets counting shows that graphlets are not found in a uniform distribution in social networks\cite{charbeyStarsHolesPaths2019}, thus revealing that social networks do not have the same structure that random networks.
+Graphlets counting shows that graphlets are not found in a uniform distribution in social networks\cite{charbeyStarsHolesPaths2019}, thus revealing that social networks do not have the same structure that random networks do.
 Precisely, entities in real-world networks tend to agglomerate into groups (also called \emph{clusters}) where entities in the same groups interact more between them than with entities from other groups\cite{girvanCommunityStructureSocial2002}.
 From a sociological perspective, it means that people tend to interact and socialize in groups and interact more rarely with other people from outside groups.
 These groups are often referred to as \emph{communities}, and many algorithms have been proposed to find these automatically\cite{fortunatoCommunityDetectionGraphs2010}.
 
-However, network concepts, measures, and algorithms have not been used only to study groups, organizations, and societies, but also to focus on separate specific individuals.
+However, network concepts, measures, and algorithms have not been used only to study groups, organizations, and societies but also to focus on separate specific individuals.
 Indeed, two distinct methodologies emerged through the history of \sna: the structuralists and the school of Manchester\cite{eveDeuxTraditionsAnalyse2002, maurizio2000, freemanDevelopmentSocialNetwork2004}.
 
-Structuralists are interested in observing the relational structures and patterns forming a network, to make parallels between them and the social behaviors of actors in real life \cite{lazegaReseaux}.
+Structuralists are interested in observing the relational structures and patterns forming a network to make parallels between them and the social behaviors of actors in real life \cite{lazegaReseaux}.
 %They think the positions of the persons in the network and the relational patterns they are part of reflect well the social activities and behavior in real life.
 Accordingly, sociologists in this school usually study organizations and specific groups---such as institutions, companies, and families---and want to explain their functioning through the description of the internal shapes and structures of the networks.
 Thus, they try to construct networks that exhaustively model all the interactions between the actors constituting the groups, as missing links would misrepresent the reality of interactions.
 
-In contrast, the school of Manchester constituted by anthropologists focuses on studying specific individuals and all their interactions in the different facets of their lives and through time.
+In contrast, the school of Manchester constituted by anthropologists, focuses on studying specific individuals and all their interactions in the different facets of their lives and through time.
 They typically want to explain certain behaviors and social characteristics of individuals by their relationships and interactions in all their complexity and highlight the influence of different social aspects between them in one's life.
 One famous example is Mayer's study on austral African rural migrants going to cities\cite{mayerMigrancyStudyAfricans1962} where he showed that the integration of urban mores and customs was directly correlated to the persons' relationships networks in the city.
-Xhosa\footnote{Xhosa people are an ethnic group living in South Africa who talk the Xhosa language.} people still interacting with rural people of their village in the city were less changing their customs.
+Xhosa\footnote{Xhosa people are an ethnic group living in South Africa who speak the Xhosa language.} people still interacting with rural people of their village in the city were less changing their customs.
 This school of thought typically relies on the concept of ego and multiplex networks\cite{eveDeuxTraditionsAnalyse2002}.
 Ego networks are networks modeling all the direct relations of one central node---in this case, a person---including the relations existing between the persons of this small network.
-They typically try to model the different types of relationships of a person, like their family, work, and friendship ties and study them through time.
-By studying the ego network structure of someone, sociologists of this school try to leverage explanations on other social aspects of the persons like their social status, job, and gender.
+They typically try to model the different types of relationships of a person, like their family, work, and friendship ties, and study them through time.
+By studying the ego network structure of someone, sociologists of this school try to leverage explanations on other social aspects of the person like their social status, job, and gender.
 It is also common to compare several ego networks to make correlations between the social relationships of individuals and other interesting social categories\cite{charbeyStarsHolesPaths2019}.
 
-These two methodologies of \sna are often not exclusives and current studies are typically inspired by those two traditions.
+These two methodologies of \sna are often not exclusives, and current studies are typically inspired by those two traditions.
 This is especially true in history where even if historians may want to describe exhaustively a group or institution of the past, they are almost always interested in specific individuals they study in depth.
 
 
@@ -547,7 +545,7 @@ Social historians, therefore, have to take into account the partiality and ambig
 
 Practitioners of \sna and \hsna have always visually depicted their network data for validation, exploration, and communication, mostly using node-link diagrams.
 With the use of more complex network models and the increase in average network size and density, new visualization techniques have been proposed to represent the diversity of studied networks.
-Moreover, more and more social scientists are following exploratory approaches \rev{using visualization tools with a focus on interaction, allowing them to unfold the structure of their data and generte new interesting hypotheses.}
+Moreover, more and more social scientists are following exploratory approaches \rev{using visualization tools with a focus on interaction, allowing them to unfold the structure of their data and generate new interesting hypotheses.}
 
 %to describe more in-depth their data and generate new interesting hypotheses, using interaction and exploration capabilities.
 
@@ -586,7 +584,7 @@ However, these new network representations take time to be adopted by social sci
 
 \subsection{Social Network Visual Analytics}\label{subsec:social-network-visual-analytics}
 
-Social scientists use visualization and analytical tools to gain insight on the structure of their finalized network data.
+Social scientists use visualization and analytical tools to gain insight into the structure of their finalized network data.
 The most widely used tools are Gephi \cite{Gephi}, Pajek \cite{pajek}, Ucinet\cite{ucinet}, and NodeXl \cite{NodeXL}, which provide node-link diagrams, implementations of network measures, algorithms, and clustering capabilities.
 Other \sna visualization tools have been proposed in the past such as Visone\cite{baurVisoneSoftwareVisual2002}.
 However, those tools often have usability issues as they do not include interaction and direct manipulation mechanisms, making the analysis more tedious for social historians.
@@ -601,7 +599,7 @@ In contrast, the Vistorian\cite{serranomolineroUnderstandingUseVistorian2017} le
 \end{figure}
 %\includegraphics[trim={5cm 0 0 0},clip]{example-image-a}
 \rev{
-I propose a qualitative classification of all those tools in \ref{tab:SNV} which rank them according their visualization, \sna measures and modes, clustering, filtering, and interaction capabilities.
+I propose a qualitative classification of all those tools in \ref{tab:SNV} which ranks them according to their visualization, \sna measures and modes, clustering, filtering, and interaction capabilities.
 It illustrates that the most used tools are analytical-oriented (Pajek, Ucinet, Gephi, NodeXl) without proposing many visualization and direct manipulation options, while the Vistorian is an interactive visualization tool without any analytical method integration.}
 None of those systems therefore fully correspond to the \va label\cite{keimVisualAnalyticsDefinition2008}.
 
@@ -631,7 +629,7 @@ This is particularly the case for black-box algorithms such as for clustering ta
 %Interfaces leveraging automatic data mining algorithms sometimes put users in an awkward position, as they have a hard time interpreting results coming from those black-box algorithms.
 %They usually end up trying several algorithms until they stumble upon a satisfactory enough solution\cite{pisterIntegratingPriorKnowledge2021}.
 
-Moreover, preparing and importing the data into visual and analytical software is complicated, as the annotation and network modeling processes have not been globally formalized and every historian use different methods, formats and models.
+Moreover, preparing and importing the data into visual and analytical software is complicated, as the annotation and network modeling processes have not been globally formalized, and every historian uses different methods, formats, and models.
 Many users do not succeed in importing their data into those systems without concrete help and guidance\cite{serranomolineroUnderstandingUseVistorian2017, alkadi2022} due to mismatches with data models, formats, or data inconsistencies (null values, white spaces, etc.).
 If they succeed in visualizing their data, it often shows them these inconsistencies or errors such as duplications of entities or wrong attribute values.
 In other cases, they realize the network does not allow them to answer their sociological questions\cite{lemercier12FormalNetwork2015}.
